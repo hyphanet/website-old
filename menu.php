@@ -1,6 +1,6 @@
 <?
 $pos = 1;
-function item($link, $text) {
+function item($text, $link) {
   global $pos;
   $pos = $pos + 1;
   if ($link == $page) {
@@ -14,13 +14,12 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
 <tr><td width="1"
 id="mn<?=$pos ?>">&nbsp;</td>
       <td nowrap class="menu"><a class="menu"
-href="index.php?page=<?=$link ?>" onMouseOver="sideOvr('<?=$pos ?>');"
+href="index2.php?page=<?=$link ?>" onMouseOver="sideOvr('<?=$pos ?>');"
 onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 <?
   }
 }
 
-item("pg", "pgtxt");
 item("Applications", "applications");
 item("FASD", "fasd");
 item("FCP Tools", "fcptools");
