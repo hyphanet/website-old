@@ -15,15 +15,16 @@ for some info.</i>
 
 
 <h3>Windows</h3>- Download and run <big><a href="http://freenetproject.org/snapshots/freenet-java-webinstall.exe">freenet-java-webinstall.exe</a> </big>or<br>- If you already have Java 1.4.1 or later installed <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>It will automatically install Freenet and other required components for you. When done, double-click on the small blue rabbit icon in your task-tray. <br>
-(Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review)	<p>Freenet works best with <b>Windows 2000, XP Professional or 
-NT.</b>  Windows ME, 98 and 95 work less well.</p>
+(Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review)
+<p>Freenet works best with <b>Windows 2000, XP Professional or NT.
+</b>Windows ME, 98 and 95 work less well.</p>
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 <h3>Unix/Linux</h3>
 You need to have a recent Java Runtime Environment.  We have experienced
-best results with Sun's Java Runtime Environment (versions 1.4.1 and later)  which 
-can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once 
-Java is installed, download <a
-href="http://freenetproject.org/snapshots/freenet-latest.tgz">freenet-latest-tgz</a>. 
+best results with Sun's Java Runtime Environment (versions 1.4.1 and later) 
+which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>. Currently Freenet does not run on Kaffe or GCJ, due to bugs in Classpath. This is being worked on.
+Once Java is installed, download 
+<a href="http://freenetproject.org/snapshots/freenet-latest.tgz">freenet-latest-tgz</a>. 
 Get started by typing:
 <pre>
 $ tar xfz freenet-latest.tgz
