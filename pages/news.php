@@ -26,7 +26,8 @@ were not using an anonymizing proxy to access your PayPal account.
 Accordingly, full access was restored to your account on May 18, 
 2004.  [...]
 </blockquote>
-We feel that this is a fair response to our concerns, our only regrets
+We feel that this is a fair response to our concerns and have <a href="/index.php?page=donate">restored</a>
+Paypal donations.  Our only regrets
 are that it took so long to get to this point, and that Paypal's initial
 reaction was that there could be no appeal against this decision.  
 We would like to extend
