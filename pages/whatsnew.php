@@ -3,6 +3,30 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Wed, 11 Aug 2004 02:07:09 +0100</b></a></span><P>
+<b>Build 5091</b><p>
+<pre>
+Stable build 5091 is now available. Please upgrade.
+
+To upgrade:
+On Windows, use the update option on the start menu, if it is there.
+On linux, stop the node, run update.sh, and start it.
+On any platform, stop the node, fetch
+http://freenetproject.org/snapshots/freenet-latest.jar and overwrite
+your existing freenet.jar with it, then restart the node.
+
+Major Changes:
+* Fix an NPE in fproxy when downloading KSKs.
+* Reduce memory usage when reseeding.
+* Save the overall rate limiting averages to disk, and load them on the
+  next startup. This should smooth out the startup spike.
+* Slight improvement to load estimation.
+* Some changes to the distribution servlet (let it download the new
+  freenet-ext.jar as a splitfile, untested).
+</pre>
+<hr>
+
+
 <LI> <span style='color:blue'>Date: Fri, 06 Aug 2004 19:49:50 +0100</b></a></span><P>
 <b>Build 5090</b><p>
 
