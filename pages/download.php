@@ -21,7 +21,7 @@ Download and run
 It will automatically install Freenet and other required components for you  (It contains 
 <u><b>no</b> spyware or adware</u> , it's Free Software!). When done, double-click on the small blue rabbit icon in your task-tray.  Freenet works best with <b>Windows 2000 or XP.</b>
 <h3>Unix</h3>
-You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
+You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc3.tar.gz?download">freenet-0.5.2-rc3.tar.gz</a>.  Get started by typing:
 <pre>
 $ tar xfz freenet-0.5.2-rc3.tar.gz
 $ cd freenet
