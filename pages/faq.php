@@ -1,7 +1,7 @@
-Freenet Frequently Asked Questions
+<h1>Freenet Frequently Asked Questions</h1>
 
-<h1> Philosophical questions
-</h1><ol><li><a href="#what">What is Freenet?</a>
+<h2> Philosophical questions
+</h2><ol><li><a href="#what">What is Freenet?</a>
 
 </li><li><a href="#who">Who is behind Freenet?</a>
 </li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
@@ -20,8 +20,8 @@ Freenet Frequently Asked Questions
 </li><li><a href="#whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</a>
 
 </li></ol>
-<h1> Technical questions
-</h1><ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
+<h2> Technical questions
+</h2><ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
 </li><li><a href="#search">Is Freenet searchable?</a>
 </li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
 </li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
@@ -42,28 +42,28 @@ Freenet Frequently Asked Questions
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
 </li></ol>
-<h1> Publisher questions
-</h1><ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
+<h2> Publisher questions
+</h2><ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
 </li><li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a>
 </li><li><a href="#update">Can Freenet documents be updated / deleted?</a>
 
 </li></ol>
-<h1> Contribution questions
-</h1><ol><li><a href="#idea">I have this great idea....</a>
+<h2> Contribution questions
+</h2><ol><li><a href="#idea">I have this great idea....</a>
 </li><li><a href="#contribute">Can I contribute to the Freenet Project?</a>
 </li><li><a href="#access">How can I access the code and website?</a>
 </li><li><a href="#devtools">What tools do I need to help develop?</a>
 </li></ol>
-<h1> Security questions
+<h2> Security questions
 
-</h1><ol><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
+</h2><ol><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
 </li><li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a>
 </li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 </li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
 </li><li><a href="#attackY">What about attack Y?</a>
 </li></ol>
-<h1> Philosophical answers
-</h1><p><b id="what">What is Freenet?</b><br>
+<h2> Philosophical answers
+</h2><p><b id="what">What is Freenet?</b><br>
 Freenet
 is free software designed to ensure true freedom of communication over
 the Internet. It allows anybody to publish and read information with
@@ -97,12 +97,12 @@ pitching in to the common Freenet resource pool.</p>
 Do you get to do that anonymously? Freenet is designed with anonymity in mind, performance comes second.</p>
 
 
-<p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b>
+<p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b><br>
 If you are happy with what you are getting then no. But if you want
 more you should consider donating more, making your node permanent and
 you should ask your friends to do the same.</p>
 
-<p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b>
+<p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b><br>
 Your experience will definitely get better, but for a really great
 improvement we need more people to start thinking like you. Bandwidth
 counts more than diskspace.</p>
@@ -179,7 +179,7 @@ freenet sites will ever load faster than regular websites, it does adapt to
 sudden surges of visitors (which will often occur when relatively unknown sites 
 get linked to from a big site) better, and high download speeds for big files
 are feasible too. Just don't expect very low latency.
-<h1> Technical answers</h1>
+<h2> Technical answers</h2>
 <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br>
 Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it with a Freenet client. One of the services that Fred offers is called fproxy, which lets you talk to Freenet with a web browser. Point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
 
@@ -215,7 +215,7 @@ listenPort number that you noted in the previous step, to the same port
 on your computer (you will probably need to know your computer's 
 internal IP address which will often begin with 192.168.x.x)
 </ol>
-<p><b id="connection-perm">Do I need a permanent connection to run a node?</b>
+<p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br>
 No, but it is preferred. You can run the software and test it from
 a "transient" connection (such as provided by typical modem/ISP
 setups), but for the network as a whole to be most useful, we will need
@@ -260,7 +260,7 @@ take up a significant amount of time, while there is only a limited about of dev
 on the development list about the language choice aren't welcome, people willing to implement freenet
 in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
 
-<p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b>
+<p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
 If you want everyone to be able to use your node, then add the following lines to your freenet.conf or freenet.ini file:
 </p><code>
 mainport.bindAddress=*<BR>
@@ -274,7 +274,7 @@ mainport.bindAddress=*<br>
 mainport.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 <code>
 
-<p><b id="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</b>
+<p><b id="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</b><br>
 If you tried to install Freenet
 at a time when your Java runtime environment was not working, you might
 have created a broken configuration file.  Make sure your Java
@@ -340,8 +340,8 @@ to the mailinglist.
 Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
 to know exactly what went wrong.
 
-<h1>Publisher answers
-</h1><p><b id="find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</b><br>
+<h2>Publisher answers
+</h2><p><b id="find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</b><br>
 Yes, people will have to know what key you used to publish your
 information. This means you will have to announce your key in some way.</p>
 <p>The most common way to do this is to send a message, containing
@@ -383,8 +383,8 @@ retired, as they will break soon, after future-dates insertions expire.</p>
 <p>As of today, probably the best way for most cases is the use of "edition" publishing.</p> 
 
 
-<h1> Contribution answers
-</h1><p><b id="idea">I have this great idea....</b><br>
+<h2> Contribution answers
+</h2><p><b id="idea">I have this great idea....</b><br>
 Good! First step: read the <a href="index.php?page=lists">mailing list archives</a>.
 Odds are good that someone else had the same idea and discussed it with
 the group. Either a flaw was found in the idea, or perhaps it was
@@ -414,8 +414,8 @@ the server without contributing to its code). To do web development you
 will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.</p>
 
 
-<h1> Security answers
-</h1><p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
+<h2> Security answers
+</h2><p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
 Short answer: Probably yes.</p>
 <p>Long answer:</p>
 <p>Freenet does not offer true anonymity in the way that the <i>Mixmaster</i>
