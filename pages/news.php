@@ -2,6 +2,26 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
+<b>19th May, 2004 : Paypal appears to have reinstated Freenet 
+account</b><br>
+We received a seemingly automatic message from Paypal indicating that 
+our account has been restored:
+<blockquote>
+Thank you for taking the steps to restore your account access. Your
+patience and efforts increase security for our entire community of
+users.
+</blockquote>
+Unfortunately, it seems that the steps they refer to involve being a 
+sufficiently high-profile project that it generates potentially damaging 
+publicity.
+<p>
+Our feeling is that in the absence of an explanation or apology from 
+Paypal, we will not continue usage of their service.  Paypal may have a 
+legal right to discontinue service to its customers, but it has a moral 
+obligation to offer a reasonable explanation for its actions, 
+particularly where a faithful and profitable customer such as the 
+Freenet Project Inc is concerned. 
+<p>
 <b>18th May, 2004 : Freenet now accepts donations through Amazon Honor System</b><br>
 After Freenet's account was shut down by Paypal, we have now migrated over to using 
 Amazon's Honor System, which appears at least as easy to use as Paypal.  If you would like 
