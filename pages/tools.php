@@ -18,7 +18,7 @@
 <br />
 <br /><a href='index.php?page=fcptools' class='wiki'><b>FCPTools</b></a>
 <br />
-<br />FCPTools provide the same functionality as Freeweb, but without the GUI. Current working platforms include Win32, Linux, and FreeBSD. An ANSI-C based Client Lib (ezFCPlib) is also included to aid developers in writing Freenet clients.
+<br />The FCPTools are ANSI-C based Freenet client tools, and a separate FCP specific library called ezFCPlib. Specifically, FCPTools include command line utilities to insert and retrieve files (fcpput, fcpputsplit, fcpget) within Freenet, as well as entire freesites (fcpputsite) via ezFCPlib.
 <br />
 <br /><a class='wiki'  href='http://freeweb.sf.net/'><b>FreeWeb</b></a>
 <br />
