@@ -254,3 +254,7 @@ At the time of writing, implementation of N.G Routing is well-underway, although
 nodes using it have yet to be widely deployed in the wild.  If you are interested
 in following its progress, feel free to sign up to the <a href="http://hawk.freenetproject.org:8080/mailman/listinfo/announce/">
 Announcements</a> mailing list.
+<h3>Interested in helping?</h3>
+In addition to joining our development effort, you can really help us to make
+this all a reality by donating whatever you can spare to the project on our
+<a href="http://freenetproject.org/index.php?page=donate">Donations</a> page.
