@@ -18,4 +18,4 @@ level changelog is on the
 <a href="http://news.gmane.org/gmane.network.freenet.cvs">CVS list archive</a>.
 If you have any problems upgrading don't hesitate to contact us on IRC on 
 #freenet on irc.freenode.net, or by email at 
-<a href="support@freenetproject.org">support@freenetproject.org</a> or have a look at <http://www.freenethelp.org>www.freenethelp.org</a>.</p>
+<a href="support@freenetproject.org">support@freenetproject.org</a> or have a look at <A href="http://www.freenethelp.org">www.freenethelp.org</a>.</p>
