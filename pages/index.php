@@ -17,16 +17,10 @@ Foundation</a>
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 
-<font size="4"><B>The Freenet website is having some major technical problems at the moment.
-
-In the mean time Windows users may download Freenet <a
-href="/snapshots/freenet-webinstall.exe">here</a> and Linux users may
-download Freenet <a
-href="http://freenetproject.org/snapshots/">here</a>.</font>
-
-<font size="4"><B>News</B></font>
+<br><B>News</B>
 <p><b>7th May, 2003 - Website problems</b><br>
-The Freenet website was wiped out by an unfortunate oversight and the backups weren't running. This means that we are rebuilding the website from scratch.</p>
+We are currently experiencing some website problems and are in the process
+of rebuilding the site from backups - please bear with us.
 
 <p><b>27th April, 2003 - New version of Fuqid released</b><br>
 Version 0.9 of the excellent "Freenet Utility for Queued Inserts and
