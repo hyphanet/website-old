@@ -3,6 +3,87 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Sat, 29 May 2004 21:31:54 +0100
+</b></a></span><P>
+<b>Build 5083</b><p>
+
+
+Freenet stable build 5083 is now available. All stable branch users
+should upgrade. This build will be made mandatory in the fairly near 
+future, so it is a good idea to upgrade soon. If you don't know which 
+branch you're on you're probably running stable. If on linux, MacOS/X,
+or other POSIX like system, use the scripts:<p>
+./stop-freenet.sh<br>
+./update.sh<br>
+./start.sh<p>
+If on Windows, use the update link on the start menu, or
+freenet-webinstall.exe. On any OS, you can shut down the node and fetch
+the new jar from http://freenetproject.org/snapshots/freenet-latest.jar
+which you can then copy over your existing freenet.jar, and then restart
+the node.<p>
+
+Changes include:<p>
+* 5082 is made mandatory. 5083 will be made mandatory by the next stable
+  build, because of the major changes (especially the next item). The
+  overwhelming majority of seednodes run 5082 now, so hopefully this
+  won't be too big a problem.<p>
+* maxHopsToLive is now 20, and HTL is used slightly differently.<p>
+* Use a completely different algorithm for the probability running
+  averages in NG Routing. The old one was inaccurate and alchemical.<p>
+* Use different algorithms for smoothing data and estimating request
+  rates for rate limiting. This should eliminate (or greatly reduce)
+  the oscillations in received queries that we have seen recently on
+  both networks. It should also make rate limiting more accurate and
+  stable.<p>
+* Fix some major bugs, for example: We were not calling the callbacks on
+  expired messages. Now we do, with a separate thread for it.<p>
+* Open more connections simultaneously on startup. Should speed up the
+  process of nodes getting wired into the network on startup.<p>
+* Nodes that are limited by threads (usually these are high bandwidth
+  nodes) should behave better (reject less queries and connections).<p>
+* Show more detail on the per node routing table pages linked from the
+  routing table page.<p>
+* Improve input bandwidth predicting load estimator: assume that our
+  input bandwidth is at least equal to our output limit.<p>
+* New experimental option doReserveBandwidthForSuccess, which throttles
+  bandwidth usage to try to improve routing success. Feel free to
+  experiment with this if you have some idea what you are doing; it WILL
+  result in your node processing fewer queries and less traffic however.<p>
+* Various optimizations and locking improvements.<p>
+* Improve renaming code in datastore.<p>
+* Fix on-the-fly update of maxOpenConnectionsNewbieFraction.<p>
+* logDetail renamed to logLevelDetail in freenet.client.cli.Main<p>
+* Add some RFC3330 local/invalid/LAN/testing addresses to the node's IP
+  validation code. This affects which connections are throttled (if a 
+  connection is from a LAN address, it shouldn't be throttled), and
+  whether the node accepts a detected IP address.<p>
+* New diagnostics: receivedTransferSize, sentTransferFailureSize,
+  sentTransferSuccessSize.<p>
+* Refactoring, removal of dead or useless code, logging changes, etc
+  etc.<p>
+Full changes are available from the CVS list or from browsing the CVS
+repository via our web site.
+You may see the following message after starting a 5083 node, the first
+time:<p>
+"Caught java.io.IOException: Invalid magic 1072614716 should be 17025 -
+format change?"<p>
+This is due to the changes to routing, which incompatibly changed the
+routing table format. Your routing table's estimators will therefore be
+reset. This message should only happen the first time you start the node
+after upgrading. If it happens after that, something is wrong. The
+seednodes estimator format also changed, so when reseeding you may see
+messages like:<p>
+Caught freenet.node.rt.EstimatorFormatException: Wrong impl:
+SelfAdjustingDecayingRunningAverage reading tcp/freenetfarm.dnsalias.com:35985,
+sessions=1, presentations=3, ID=DSA(b078 8b64 9e69 0302 b2e2  53c6 7610 dbd1 1641 5580),
+version=Fred,0.5,STABLE-1.50,5079 from FieldSet :(<p>
+
+This just means that the seednodes format has changed. It will still use
+the nodes, hopefully, but it won't use the estimators.<p>
+<hr>
+
+
+
 <LI> <span style='color:blue'>Date: Sat, 15 May 2004 21:00:12 +0100</b></a></span><P>
 <b>Build 5082</b><p>
 
