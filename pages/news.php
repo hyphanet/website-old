@@ -2,18 +2,18 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
-<p><b>4th July, 2003 - Freenet 0.5.2-rc3 Released!</b><br>
-Freenet 0.5.2 release candidate 3 has been released. You can get 
+<p><b>12th July, 2003 - Freenet 0.5.2-rc4 Released!</b><br>
+Freenet 0.5.2 release candidate 4 has been released. You can get 
 it from <a href="/index.php?page=download">the download page</a>.
-The main change in this prerelease is the implementation of java.nio,
-which should significantly improve performance. It also has a 
-simple/expert mode switch for the user interface. All the bugfixes 
-(such as the heisenbug fix), and new features (background splitfile
-downloads, probabilistic caching) from the previous release candidates
-are also incorporated in this snapshot. We would have released 0.5.2
-earlier but the network performance was unacceptable for a release.
-As always, we need more <a href="/index.php?page=donate">donations</a>
-to continue the work.
+After the implementation of NIO in release candidate 3, this release
+concentrates on bugfixing and tuning. NIO should improve performance
+significantly over RC2 or earlier; it should now work on Win9X/WinME,
+and use less CPU and (significantly) memory than RC3. It also has
+improvements to the splitfile code amongst other areas. The final 
+0.5.2 should be released in the coming days. Freenet development is
+considerably accelerated by our ability to pay a full time developer
+out of donations, so please if you like Freenet consider <a 
+href="/index.php?page=donate">donating</a>.
 </p>
 <!-- shorten the news, don't scare noobs & idiots away
 <p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
