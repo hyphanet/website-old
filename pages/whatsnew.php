@@ -3,8 +3,54 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Sat, 15 May 2004 21:00:12 +0100</b></a></span><P>
+<b>Build 5082</b><p>
+
+Freenet stable build 5082 is now available. The snapshots have been
+updated. Please upgrade ASAP. Stable branch users should upgrade at
+least weekly as Freenet is still at a relatively early phase of
+development. You can use the update option on the start menu, or
+freenet-webinstall.exe to update your node on Windows. Or under Linux,
+MacOS/X or other POSIX-like systems, you can use update.sh:<p>
+./stop-freenet.sh<br>
+./update.sh<br>
+./start-freenet.sh<p>
+
+Please remember to stop the node before updating, and start it again
+afterwards.<br>
+You can also get the jar directly from 
+http://freenetproject.org/snapshots/freenet-latest.jar
+
+<p>
+Details of this build:<br>
+Various bug fixes, some of them pretty serious. Comes to a fairly small
+amount of actual code though. Lots more changes are being tested and 
+debugged on unstable.<p>
+* Rate limiting was almost completely broken due to a stupid bug. Fixed
+  it.<p>
+* Major routing fix: many of our running averages were, for various
+  reasons, at 0.999999999999 or so. With the current running average
+  implementation for probabilities, the result of this is that the
+  running average will never change (because the closer it is to 0.0 or
+  1.0, the less sensitive it is). We were supposed to be doing bounds
+  checking to ensure that this wasn't a problem; there was a bug in the
+  bounds checking :(. The result of this bug was that some of the major
+  factors in the NGRouting calculation were very often completely wrong!
+  The current implementation is suboptimal, there is a replacement 
+  being tested on unstable, but the code merged in this build should be
+  much better than the previous builds!<p>
+* Fixed a NullPointerException that would cause the web interface to
+  stop working after a while.<p>
+* Show some more useful detail next to probability running averages on
+  the per node pages linked from the routing table page.<p>
+* Don't leak a temp file when an insert fails.<p>
+* A minor optimization in DSAPublicKey.equals(), and some minor code
+  style changes.<p>
+<hr>
+
+
 <LI> <span style='color:blue'>Date: Thu, 13 May 2004 04:25:10 +0100</b></a></span><P>
-<b>Build 5079</b><p>
+<b>Build 5081</b><p>
 
 
 Freenet stable build 5081 is now available. Please upgrade, unless you
