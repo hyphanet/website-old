@@ -181,29 +181,31 @@ EndMessage
 <pre>(Node -&gt; Client)
 
 NodeInfo
-ActiveJobs=&lt;number&gt;
+Architecture=&lt;string&gt;
+OperatingSystem=&lt;string: free form&gt;
+OperatingSystemVersion=&lt;string&gt;
+JavaVendor=&lt;string: free form&gt;
+JavaName=&lt;string: free form&gt;
+JavaVersion=&lt;string&gt;
+AllocatedMemory=&lt;number&gt;
+FreeMemory=&lt;hex number&gt;
+DatastoreMax=&lt;number&gt;
+DatastoreFree=&lt;hex number&gt;
+DatastoreUsed=&lt;hex number&gt;
+MaxFileSize=&lt;hex number&gt;
 MostRecentTimestamp=&lt;hex number&gt;
 LeastRecentTimestamp=&lt;hex number&gt;
-AllocatedMemory=&lt;number&gt;
-Architecture=&lt;string&gt;
-JavaName=&lt;string: free form&gt;
-JavaVendor=&lt;string: free form&gt;
-MaxFileSize=&lt;hex number&gt;
-DatastoreUsed=&lt;hex number&gt;
-AvailableThreads=&lt;number&gt;
-EstimatedLoad=&lt;number&gt;
-DatastoreMax=&lt;number&gt;
-JavaVersion=&lt;string&gt;
-DatastoreFree=&lt;hex number&gt;
-OperatingSystemVersion=&lt;string&gt;
-OperatingSystem=&lt;string: free form&gt;
-FreeMemory=&lt;number&gt;
-IsTransient=&lt;true|false&gt;
 RoutingTime=&lt;number&gt;
+AvailableThreads=&lt;number&gt;
+ActiveJobs=&lt;number&gt;
+NodePort=&lt;hex number&gt;
+NodeAddress=&lt;string&gt;
+EstimatedLoad=&lt;number&gt;
+IsTransient=&lt;true|false&gt;
 EndMessage
 </pre>
 
-<p> Note: some numeric fields in this message are *not* in hex as all other FCP numbers are. </p>
+<p> Note: some numeric fields in this message are *not* in hex as all other FCP numbers are. This list was verified by running a client and seeing the fields and their values; older versions of this document may have listed different fields.</p>
 
 <hr>
 
