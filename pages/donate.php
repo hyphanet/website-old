@@ -7,7 +7,7 @@ costs(ie.domain registrations). It is also a goal to be able find ourselves in t
 Everyone involved is keenly interested in the future of The Freenet Project and you can be assured donations have been and will continue to be used wisely, all support is very much appreciated.
 <!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab(how's that Zab?) -->
 <h4>How can I donate?</h4>
-You have five options:
+You have four options:
 <ul>
 <li>You can become a Freenet project "member" for a recurring
 payment of $5, $10, or $20 per month.  The advantage of this is that 
@@ -88,14 +88,6 @@ value="http://freenetproject.org/">
 </form>
 </td></tr></table>
 </center>
-<li>While we prefer electronic donations using one of the above two 
-methods, you may also donate by sending a check to:
-<pre>
-The Freenet Project Inc
-c/o Ian Clarke
-1122 6th Street #206
-Santa Monica CA 90403
-</pre>
 <li>You can now also donate to the project by purchasing items from the 
 new Freenet <a 
 href="http://cafepress.com/freenetproject/">store</a>.

@@ -2,9 +2,11 @@
 
 <h3>Important note for first time users</h3>
 
-When you first start Freenet your node will know very little about the network 
-- it could take up to <b>several minutes or longer</b> to open a website.  Keep trying,
-because the more you use Freenet, the faster it will get.
+When you first start Freenet your node will know very little about the
+network, meaning that it could take <b>several minutes or longer</b> to 
+retrieve a web page.  Please be patient since Freenet will learn how to 
+find information more effectively over time and its speed will gradually 
+improve with use.
 <p>
 
 <i>If you have a firewall or a NAT box click <a 
