@@ -319,7 +319,7 @@ avoid extra linebreaks.</p>
 
 
 <p><b id="roadmp">Is there a future roadmap of Freenet</b><br>
-Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="roadmap.php"> here.</a>
+Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="http://www.freenetproject.org/roadmap.php"> here.</a>
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
 The name comes from the Heisenberg Uncertainty Principle of
