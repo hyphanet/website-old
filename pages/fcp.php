@@ -115,13 +115,18 @@ EndMessage
   node may respond at any time with a <code>Failed</code>, indicating a fault
   in the node itself:</p>
 
+<b>FormatError</b>  
+  
 <pre>(Node -&gt; Client)
 
 FormatError
 [Reason=&lt;descriptive string&gt;]
 EndMessage
+</pre>
 
-(Node -&gt; Client)
+<b>Failed</b>
+
+<pre>(Node -&gt; Client)
 
 Failed
 [Reason=&lt;descriptive string&gt;]
@@ -136,11 +141,11 @@ EndMessage
 
 <h3>Handshaking</h3>
 
-<b>ClientHello</b>
-
 <p class="body">This is totally optional for the client. Note that
 this counts as a transaction and thus the connection is torn down
 afterwards.</p>
+
+<b>ClientHello</b>
 
 <pre>(Client -&gt; Node)
 
@@ -149,6 +154,8 @@ EndMessage
 </pre>
 
 <p class="body">In response the node sends the following message:</p>
+
+<b>NodeHello</b>
 
 <pre>(Node -&gt; Client)
 
@@ -180,6 +187,8 @@ EndMessage
 </pre>
 
 <p class="body">In response the node sends the following message:</p>
+
+<b>NodeInfo</b>
 
 <pre>(Node -&gt; Client)
 
@@ -337,6 +346,8 @@ These messages signal that the data is being successfully inserted, but insertio
 is not complete, and the node has not received a <code>StoreData</code> message
 yet:</p>
 
+<b>Pending</b>
+
 <pre>(Node -&gt; Client)
 
 Pending
@@ -352,6 +363,8 @@ EndMessage
   Freenet URI of the new document and possibly a private/public keypair, if the
   inserted document was an SVK. See the section on key generation about this.</p>
 
+<b>Success</b>  
+  
 <pre>(Node -&gt; Client)
 
 Success
@@ -384,6 +397,8 @@ Data
 <p class="body">The node calculates the CHK as it would do if inserting, but instead 
   returns it. This completes the transaction:</p>
 
+<b>Success</b>
+  
 <pre>(Node -&gt; Client)
 
 Success 
@@ -402,6 +417,8 @@ EndMessage
 </pre>
 
 <p class="body">The node generates a key pair and returns:</p>
+
+<b>Success</b>
 
 <pre>(Node -&gt; Client)
 
@@ -422,7 +439,7 @@ EndMessage
 private key is for inserting.  Attempting to use the public key as
 follows: </p>
 
-<pre>(request) freenet:SSK@&lt;PublicKey&gt;,&ltCryptoKey&gt;/&lt;name&gt;
+<pre>(request) freenet:SSK@&lt;PublicKey&gt;,&lt;CryptoKey&gt;/&lt;name&gt;
 </pre>
 
 <p> will result in an invalid key error; there are bits added to the
@@ -443,6 +460,8 @@ InvertPrivateKey
 Private=&lt;PrivateKey&gt;
 EndMessage
 </pre>
+
+<b>Success</b>
 
 <pre>(Node -&gt; Client)
 
@@ -467,6 +486,8 @@ GetSize
 URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
 EndMessage
 </pre>
+
+<b>Success</b>
 
 <pre>(Node -&gt; Client)
 
