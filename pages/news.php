@@ -7,7 +7,7 @@ Please upgrade to stable build 5077. You can do this by using the update.sh
 utility on *nix, or freenet-webinstall.exe on Windows, or by downloading the
 jar from <a href="http://freenetproject.org/snapshots/freenet-latest.jar">here</a>.
 This build merges an enormous quantity of work from the unstable branch, including
-a fix for a very serious bug affecting inserts, optimizations, refactoring, many
+a fix for a very serious bug affecting inserts, some optimizations, refactoring, many
 more bug fixes, a substantial reduction in memory usage with the fixing of many memory
 leaks, and a major change to how freenet nodes work together ("bidirectional routing").
 Like previous builds, there will probably be bugs in it, and we would as always 
