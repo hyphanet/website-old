@@ -1,32 +1,24 @@
-<html>
-<head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<link rel="stylesheet" href="style.css" type="text/css">
-</head>
-
-<body bgcolor="#FFFFFF" text="#000000">
-<p><h2>Freenet Client Protocol</h2></p>
+<h2>Freenet Client Protocol</h2>
 
 <p><h3>Abstract</h3></p>
-<p class="body">The FreenetClientProtocol (FCP) is designed to abstract the basics 
-  of Freenet so that client developers do not have to track the main Freenet protocol. 
-  FCP should be the bare bones of Freenet - metadata handling is not included 
-  in FCP though an extension to FCP may come about at a later date to avoid writing 
+<p class="body">The FreenetClientProtocol (FCP) is designed to abstract the basics
+  of Freenet so that client developers do not have to track the main Freenet protocol.
+  FCP should be the bare bones of Freenet - metadata handling is not included
+  in FCP though an extension to FCP may come about at a later date to avoid writing
   metadata handling libraries in many languages.</p>
 <p><h4>Note</h4></p>
-<p class="body">This protocol is never meant to go across a network - only via 
-  the loopback. Nodes should not accept FCP connections from hosts other than 
+<p class="body">This protocol is never meant to go across a network - only via
+  the loopback. Nodes should not accept FCP connections from hosts other than
   localhost by default.</p>
 <p><h3>Basics</h3></p>
-<p class="body">By <i>default</i> FCP is port 8481, but any client that uses FCP 
-  should leave this configurable, because this may be changed in the node's configuration 
+<p class="body">By <i>default</i> FCP is port 8481, but any client that uses FCP
+  should leave this configurable, because this may be changed in the node's configuration
   file or by some future FCP revision.</p>
 <p class="body">FCP follows the FNP setup for session and presentation.</p>
-<p class="body">In the following, numbers are always hex-encoded and fields in 
+<p class="body">In the following, numbers are always hex-encoded and fields in
   square-brackets are optional.</p>
-<p class="body">FCP allows one transaction per connection, after which the connection 
-  is torn down. At the beginning of each connection, the client must send these 
+<p class="body">FCP allows one transaction per connection, after which the connection
+  is torn down. At the beginning of each connection, the client must send these
   4 bytes:</p>
 
 <pre>00 00 00 02</pre>
@@ -56,9 +48,25 @@ EndMessage
 
 <p>
 <ul>
-  <li><code>ClientHello</code> 
+  <li><code>ClientHello</code>
     <ul>
       <li><code>NodeHello</code></li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><code>ClientInfo</code>
+    <ul>
+      <li><code>NodeInfo</code></li>
+    </ul>
+  </li>
+</ul>
+
+<ul>
+  <li><code>InvertPrivateKey</code>
+    <ul>
+      <li><code>Success</code></li>
     </ul>
   </li>
 </ul>
@@ -84,7 +92,7 @@ EndMessage
     <li><code>KeyCollision</code></li>
     <li><code>Pending</code></li>
     <li><code>Success</code></li>
-	</ul>	  
+	</ul>
 </ul>
 
 <ul>
@@ -112,7 +120,7 @@ EndMessage
 
 <p class="body">Additionally, the node may respond to any client message with 
   a <code>FormatError</code>, meaning the command was not understood, and the 
-  node may responsd at any time with a <code>Failed</code>, indicating a fault 
+  node may respond at any time with a <code>Failed</code>, indicating a fault
   in the node itself:</p>
 
 <pre>
@@ -129,8 +137,8 @@ Failed
 EndMessage
 </pre>
 
-<p class="body"><code>Failed</code> and <code>FormatError</code> will not be discussed 
-  in the remainder of this document. Clients should be prepared to handle a <code>Failed</code> 
+<p class="body"><code>Failed</code> and <code>FormatError</code> will not be discussed
+  in the remainder of this document. Clients should be prepared to handle a <code>Failed</code>
   at any time, and a <code>FormatError</code> as the response to any client message. 
   Either of these messages terminates the transaction and the connection.</p>
 <hr>
@@ -155,18 +163,77 @@ EndMessage
 (Node -> Client)
 
 NodeHello
-Protocol=&lt;number: protocol version number.  Currently 1&gt;
+Protocol=&lt;number: protocol version number.  Currently 1.2&gt;
 Node=&lt;string: Description of the node&gt;
 [HighestSeenBuild=&lt;number: Highest build seen in datastore&gt;]
 EndMessage
 </pre>
 
-<p class="body">The optional <code>HighestSeenBuild</code> will only be present 
-  if a build higher than the node's current build is seen in the datastore. Client 
-  implementors are advised, in this circumstance, to notify the user that they 
-  should upgrade to the latest build of Freenet. The user should have the ability 
+<p class="body">The optional <code>HighestSeenBuild</code> will only be present
+  if a build higher than the node's current build is seen in the datastore. Client
+  implementors are advised, in this circumstance, to notify the user that they
+  should upgrade to the latest build of Freenet. The user should have the ability
   to turn off this warning.</p>
 <hr>
+
+<b>ClientInfo</b>
+
+<p class="body"></p>
+
+<pre>
+(Client -> Node)
+
+ClientInfo
+EndMessage
+</pre>
+
+<p class="body">In response the node sends the following message:</p>
+
+<b>NodeInfo</b>
+
+<pre>
+(Node -> Client)
+
+NodeInfo
+ActiveJobs=&lt;number&gt;
+MostRecentTimestamp=&lt;hex number&gt;
+LeastRecentTimestamp=&lt;hex number&gt;
+AllocatedMemory=&lt;number&gt;
+Architecture=&lt;string&gt;
+JavaName=&lt;string: free form&gt;
+JavaVendor=&lt;string: free form&gt;
+MaxFileSize=&lt;hex number&gt;
+DatastoreUsed=&lt;hex number&gt;
+AvailableThreads=&lt;number&gt;
+EstimatedLoad=&lt;number&gt;
+DatastoreMax=&lt;number&gt;
+JavaVersion=&lt;string&gt;
+DatastoreFree=&lt;hex number&gt;
+OperatingSystemVersion=&lt;string&gt;
+OperatingSystem=&lt;string: free form&gt;
+FreeMemory=&lt;number&gt;
+IsTransient=&lt;true|false&gt;
+RoutingTime=&lt;number&gt;
+EndMessage
+</pre>
+
+<b>InvertPrivateKey</b>
+
+<pre>
+(Client->Node)
+
+InvertPrivateKey
+Private=&lt;PrivateKey&gt;
+EndMessage
+</pre>
+
+<p class=body>
+<code>Private</code> can be either an insert URI (must start with freenet:SSK@) or a raw private key (ie the private value you get back from GenKeys).</p>
+
+<p class="body">A <code>Success</code> message is sent on success with the <code>PublicKey</code> field set to the public key.</p>
+
+<hr>
+
 <p><h3>Requesting</h3></p>
 
 <b>ClientGet</b>
@@ -175,14 +242,15 @@ EndMessage
 (Client -> Node)
 
 ClientGet
+RemoveLocalKey=&lt;true|false&gt;
 URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
 HopsToLive=&lt;number: hops to live&gt;
 EndMessage
 </pre>
 
-<p class="body">The client is now in the <i>waiting</i> state. The node may return 
+<p class="body">The client is now in the <i>waiting</i> state. The node may return
   one of the following messages:</p>
-  
+
 <ul class="body">
 <li><code>URIError</code>: Invalid Freenet URL. The transaction is terminated.</li>
 <li><code>Restarted</code>: The client should continue waiting.</li>
@@ -190,8 +258,22 @@ EndMessage
 <li><code>RouteNotFound</code>: The transaction is terminated due to not being able to find a route.</li>
 </ul>
 
+<b>RouteNotFound</b>
+
+<pre>
+(Node -> Client)
+
+RouteNotFound
+Unreachable=&lt;number: default = 0, nodes&gt;
+Restarted=&lt;number: default = 0, nodes&gt;
+Rejected=&lt;number: default = 0, nodes&gt;
+EndMessage
+</pre>
+
 <p>
 Otherwise a <code>DataFound</code> message is returned:</p>
+
+<b>DataFound</b>
 
 <pre>
 (Node -> Client)
@@ -203,6 +285,8 @@ EndMessage
 
 <p>After a <code>DataFound</code> message the data itself is sent in chunks:</p>
 
+<b>DataChunk</b>
+
 <pre>
 (Node -> Client)
 
@@ -212,11 +296,11 @@ Data
 &lt;@Length bytes of data&gt;
 </pre>
 
-<p class="body">At any time when the full payload of data has not been sent a 
-  <code>Restarted</code> message may be sent. This means that the data failed 
-  to verify and the transfer will be restarted. The client should return to the 
-  waiting state, and if a <code>DataFound</code> is then received, the data transfer 
-  will start over from the beginning. Otherwise, when the final <code>DataChunk</code> 
+<p class="body">At any time when the full payload of data has not been sent a
+  <code>Restarted</code> message may be sent. This means that the data failed
+  to verify and the transfer will be restarted. The client should return to the
+  waiting state, and if a <code>DataFound</code> is then received, the data transfer
+  will start over from the beginning. Otherwise, when the final <code>DataChunk</code>
   is received, the transaction is complete and the connection dies.</p>
 <hr>
 <p><h3>Inserting</h3></p>
@@ -227,6 +311,7 @@ Data
 (Client->Node)
 
 ClientPut
+RemoveLocalKey=&lt;true|false&gt;
 HopsToLive=&lt;number: hops to live&gt;
 URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
 DataLength=&lt;number: number of bytes of metadata + data&gt;
@@ -234,31 +319,31 @@ DataLength=&lt;number: number of bytes of metadata + data&gt;
 Data <@DataLength number of bytes>
 </pre>
 
-<p class="body">If the client is inserting a CHK, the URI may be abbreviated as 
-  just CHK@. In this case, the node will calculate the CHK. The node must get 
-  all of the trailing field before it can start the insert into Freenet. The node 
+<p class="body">If the client is inserting a CHK, the URI may be abbreviated as
+  just CHK@. In this case, the node will calculate the CHK. The node must get
+  all of the trailing field before it can start the insert into Freenet. The node
   may reply with one of the following messages:</p>
 
 <ul class="body">
   <li><code>URIError</code>: Invalid Freenet URL. The transaction is terminated.</li>
-	
+
   <li><code>Restarted</code>: The client should continue waiting.</li>
-	
-  <li><code>RouteNotFound</code>: The transaction is terminated due to not being 
+
+  <li><code>RouteNotFound</code>: The transaction is terminated due to not being
     able to find a route.</li>
-	
-  <li><code>KeyCollision</code>: The transaction is terminated due to a document 
-    with the same key already existing in Freenet. This message contains a URI 
+
+  <li><code>KeyCollision</code>: The transaction is terminated due to a document
+    with the same key already existing in Freenet. This message contains a URI
     field with the Freenet URI of the document.</li>
-	
-  <li><code>SizeError</code>: The transaction is terminated due to the data being 
+
+  <li><code>SizeError</code>: The transaction is terminated due to the data being
     too large for the key type; all non-CHK keys have a limit of 32 kB of data.
 </li>
 </ul>
 
-<p class="body">During an insertion, multiple <code>Pending</code> messages may be returned. 
-These messages signal that the data is being successfully inserted, but insertion 
-is not complete, and the node has not received a <code>StoreData</code> message 
+<p class="body">During an insertion, multiple <code>Pending</code> messages may be returned.
+These messages signal that the data is being successfully inserted, but insertion
+is not complete, and the node has not received a <code>StoreData</code> message
 yet:</p>
 
 <b>Pending</b>
@@ -273,9 +358,9 @@ URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
 EndMessage
 </pre>
 
-<p class="body">When the node receives a <code>StoreData</code> message (and thus 
-  insertion is complete), a <code>Success</code> message is returned with the 
-  Freenet URI of the new document and possibly a private/public keypair, if the 
+<p class="body">When the node receives a <code>StoreData</code> message (and thus
+  insertion is complete), a <code>Success</code> message is returned with the
+  Freenet URI of the new document and possibly a private/public keypair, if the
   inserted document was an SVK. See the section on key generation about this.</p>
 
 <b>Success</b>
@@ -350,6 +435,3 @@ EndMessage
 </pre>
 
 <hr>
-
-</body>
-</html>
