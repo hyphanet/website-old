@@ -2,6 +2,9 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
+<p><b>18th July, 2003 - Upgrade to 0.5.2.1</b></p>
+Freenet 0.5.2.1 fixes amongst other things a major vulnerability in the
+HTML filter. Anyone running Freenet should upgrade.
 <p><b>18th July, 2003 - Subscribe to a Freenet Project Membership</b></p>
 While we are most grateful for the generous donations of our users,
 one of the biggest problems for the Freenet project is that the amount of donations we receive
