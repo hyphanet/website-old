@@ -48,8 +48,8 @@ This list is for general discussion of Freenet, topics that are not suitable
 to other lists. Discussions of politics, law, philosophy, lawsuits, 
 programming languages, related technology that should not be part of
 Freenet, and any thread that the developers and users don't deem appropriate 
-to the main lists should be discussed here. Questions such as "how can I prevent 
-my node from being used by terrorists?", or "why don't you rewrite Freenet in C++"
+to the main lists should be discussed here. Questions such as "How can I prevent 
+my node from being used by terrorists?", or "Why don't you rewrite Freenet in C++?"
 should be addressed to this list.
 <br />
 </p>
