@@ -25,11 +25,7 @@ After you start Freenet wait a few seconds for it to start-up (on a slow compute
 After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "Update Snapshot" in the Freenet section of their Start menu.
 <p>
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
-<h3>Software requirements</h3>
-You will need Java installed on your computer (the webinstall automatically does it for you). Also, 
-
-
-
+<br><br> 
 <a name="NAT">
 <b>Note: Firewall/NAT users</b><br>
 If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
