@@ -10,8 +10,6 @@
 <p class="body">This protocol is never meant to go across a network - only via
   the loopback. Nodes should not accept FCP connections from hosts other than
   localhost by default.</p>
-<p class="body">(For a possibly newer version of this document, see <a href="http://www.freenetproject.org/index.php?page=fcp">FCP</a> 
-  on http://freenetproject.org).</p>
 
 <h3>Basics</h3>
 <p class="body">By <i>default</i> FCP is port 8481, but any client that uses FCP
