@@ -1,9 +1,8 @@
-<h3><b style="color:black;background-color:#ffff66">People</b></h3>
-
-<br/><b>Note:</b> This is an incomplete list, a large number of <b style="color:black;background-color:#ffff66">people</b> have
+<h3>People</h3>
+<b>Note:</b> This is an incomplete list, a large number of people have
 <br/>contributed to the project. 
 <br/>
-<br/><a href="http://locut.us/" target="new"><b>Ian Clarke</b></a>
+<br/><b>Ian Clarke</b>
 <br/>Freenet is based on Ian's paper "A Distributed Decentralised Information
 <br/>Storage and Retrieval System".  Ian started the Freenet Project around July of
 <br/>1999, and continues to coordinate the project.
@@ -13,7 +12,7 @@
 
 <br/>continues to play a core role in ongoing development.
 <br/>
-<br/><a href="http://sgmiller.org" target="new"><b>Scott Miller</b></a>
+<br/><b>Scott Miller</b>
 <br/>Scott is responsible for the implementation of much of the cryptography
 <br/>elements within Freenet.
 <br/>
@@ -24,7 +23,4 @@
 <br/>
 <br/><b>Steven Starr</b>
 <br/>Steven is the coordinator of the Freenet Project non-profit corporation.<br/></div>
-
-<p class="editdate">Last modification date: Thursday 20 of February, 2003 [22:52:47] by todd</p>
-<br/>
 

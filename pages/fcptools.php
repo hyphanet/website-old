@@ -19,7 +19,7 @@
 <br/><b>fcpputsplit</b> - a splitfile insertion utility.
 <br/>
 <br/>
-<br/><hr/><h2><b style="color:black;background-color:#ffff66">Download</b>
+<br/><hr/><h2>Download
 </h2>
 <br/><h3>Source
 </h3>
@@ -37,7 +37,7 @@
 <br/>
 <br/><h3>Binaries
 </h3>
-<br/><a class='wiki'  href='http://freenetproject.org/snapshots/fcptools-bin.zip'><b style="color:black;background-color:#ffff66">Download</b> pre-compiled Win32 binaries</a> based on the stable source tree only. If you are running Windows and want to try the unstable code, follow the instructions in INSTALL.msvc to compile the source yourself.
+<br/><a class='wiki'  href='http://freenetproject.org/snapshots/fcptools-bin.zip'>Download pre-compiled Win32 binaries</a> based on the stable source tree only. If you are running Windows and want to try the unstable code, follow the instructions in INSTALL.msvc to compile the source yourself.
 
 <br/>
 <br/><hr/><h2>Contributing
