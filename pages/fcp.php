@@ -196,6 +196,7 @@ NodeInfo
 Architecture=&lt;string&gt;
 OperatingSystem=&lt;string: free form&gt;
 OperatingSystemVersion=&lt;string&gt;
+Processors=&lt;hex number&gt;
 JavaVendor=&lt;string: free form&gt;
 JavaName=&lt;string: free form&gt;
 JavaVersion=&lt;string&gt;
@@ -203,23 +204,23 @@ AllocatedMemory=&lt;number&gt;
 FreeMemory=&lt;hex number&gt;
 DatastoreMax=&lt;hex number&gt;
 DatastoreUsed=&lt;hex number&gt;
-DatastoreFree=&lt;number&gt; (confirm; 1 out of 3 is decimal?)
-MaxFileSize=&lt;number&gt;
+DatastoreFree=&lt;hex number&gt;
+MaxFileSize=&lt;hex number&gt;
 MostRecentTimestamp=&lt;hex number&gt;
 LeastRecentTimestamp=&lt;hex number&gt;
-RoutingTime=&lt;number&gt; (0)
-AvailableThreads=&lt;number&gt; (decimal?)
-ActiveJobs=&lt;number&gt; (decimal?)
+RoutingTime=&lt;hex number&gt; (0)
+AvailableThreads=&lt;hex number&gt;
+ActiveJobs=&lt;hex number&gt;
 NodePort=&lt;hex number&gt;
 NodeAddress=&lt;string&gt;
-EstimatedLoad=&lt;number&gt; (decimal?)
+EstimatedLoad=&lt;hex number&gt;
+EstimatedRateLimitingLoad=&lt;hex number&gt;
 IsTransient=&lt;true|false&gt;
 EndMessage
 </pre>
 
-<p> Note: some numeric fields in this message are *not* in hex as all
-other FCP numbers are. This list was verified by running a client and
-seeing the fields and their values; older versions of this document
+<p> Note: This list was verified by running a client and seeing
+the fields and their values; older versions of this document
 may have listed different fields.</p>
 
 <hr>
@@ -467,17 +468,17 @@ EndMessage
 <pre>(Node -&gt; Client)
 
 Success
-PublicKey=&lt;PublicKey&gt;
+Public=&lt;PublicKey&gt;
 EndMessage
 </pre>
 
 <p class="body">
 <code>Private</code> can be either an insert URI (must start with
 freenet:SSK@) or a raw private key (ie the private value you get back
-from GenKeys).</p>
+from GenerateSVKPair).</p>
 
 <p class="body">A <code>Success</code> message is sent on success with
-the <code>PublicKey</code> field set to the public key.</p>
+the <code>Public</code> field set to the public key.</p>
 
 <b> GetSize </b>
 
