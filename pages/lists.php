@@ -5,9 +5,18 @@
 <br /><a class='wiki'  href='http://hawk.freenetproject.org:8080/mailman/listinfo/announce/'>Announcements</a> (<a class='wiki'  href='http://hawk.freenetproject.org:8080/pipermail/announce/'>archive</a>)
 <br />Please sign up here to be notified of major Freenet developments, such as announcements of new releases or important bugfixes.  This list is moderated and is very low traffic (less than one message per month).
 <br />
-<br /><a class='wiki'  href='http://hawk.freenetproject.org:8080/mailman/listinfo/support/'>Support</a> (<a class='wiki'  href='http://hawk.freenetproject.org:8080/pipermail/support/'>archive</a>)
 
-<br />Asking for or giving advice relating to getting Freenet working, bug reports, and suggestions on improving the user experience. Requests for help are more likely to be heard here than in the other mailing lists.
+<br /><a
+href='http://hawk.freenetproject.org:8080/mailman/listinfo/support/'>Support</a>
+(<a
+href='http://hawk.freenetproject.org:8080/pipermail/support/'>archive</a>)
+<br />Asking for or giving advice relating to getting Freenet working, 
+bug reports, and suggestions on improving the user experience. Requests 
+for help are more likely to be heard here than in the other mailing 
+lists.  <b>Note: </b> Emails sent to this mailing list from those not 
+subscribed to the list must be manually approved, and this can impose 
+a delay of several days.  To avoid this delay, please <a 
+href="http://hawk.freenetproject.org:8080/mailman/listinfo/support/">subscribe</a>.
 <br />
 <br /><a class='wiki'  href='http://hawk.freenetproject.org:8080/mailman/listinfo/tech/'>Technical Discussion</a> (<a class='wiki'  href='http://hawk.freenetproject.org:8080/pipermail/tech/'>archive</a>)
 <br />Technical issues related to Freenet, not specifically tied to day-to-day implementation. Cryptography, packet radio, related projects, suggestions for future versions, attacks on the design, etc. Anything which deals with technology and relates to Freenet should go here.
