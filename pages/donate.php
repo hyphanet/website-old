@@ -9,7 +9,8 @@ costs.
 You have five options:
 <ul>
 <li>You can become a Freenet project "member" for a recurring
-payment of $10/month.  The advantage of this is that it gives the
+payment of $5, $10, or $20 per month.  The advantage of this is that 
+it gives the
 project a more stable and dependable income which makes it easier
 to make long term committments to potential developers - right now
 it is difficult to say whether we will be able to pay a developer
@@ -24,8 +25,12 @@ can become a member by clicking on this button (you will need a
 <input type="hidden" name="no_shipping" value="1">
 <input type="hidden" name="no_note" value="1">
 <input type="hidden" name="currency_code" value="USD">
+Amount:
+$20 <input type="radio" name="a3" value="20.00"> / 
+$10 <input type="radio" name="a3" checked="true" value="10.00"> / 
+$5 <input type="radio" name="a3" value="5.00">
+<br>
 <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-<input type="hidden" name="a3" value="10.00">
 <input type="hidden" name="p3" value="1">
 <input type="hidden" name="t3" value="M">
 <input type="hidden" name="src" value="1">
