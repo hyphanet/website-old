@@ -19,13 +19,15 @@ for some info.</i>
 NT.</b>  Windows ME, 98 and 95 work less well.</p>
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 <h3>Unix/Linux</h3>
-You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://freenetproject.org/snapshots/freenet-0.5.2.1.tar.gz">freenet-0.5.2.1.tar.gz</a>.  Get started by typing:
+You need to have a recent Java Runtime Environment.  We have experienced
+best results with Sun JRE 1.4.1 which can be obtained from <a
+href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is
+installed, download <a
+href="http://freenetproject.org/snapshots/freenet-latest.tgz">freenet-latest-tgz</a>. 
+Get started by typing:
 <pre>
-$ tar xfz freenet-0.5.2.1.tar.gz
+$ tar xfz freenet-latest.tgz
 $ cd freenet
-<font color="#FF0000">The following will upgrade to the latest stable snapshot since version 
-0.5.2.1 is currently obsolete - we hope to resolve this issue soon</font>
-$ sh update.sh
 $ sh start-freenet.sh
 </pre>
 
@@ -41,12 +43,16 @@ more (especially if using Windows XP).
 
 <h3>Upgrading</h3>
 
-After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "Update Snapshot" in the Freenet section of their Start menu.
+After installing Freenet, Windows users can upgrade to the latest daily Freenet
+"snapshot" release by clicking on "Update Snapshot" in the Freenet section of their
+Start menu.
 <p>
-Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
-<br><br> 
+Linux users may similarily upgrade by running the update.sh shell script in the
+freenet/ directory.
 <p>
-To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
+To see the latest changes of the builds in the stable branch, you can go to the
+<b><a
+href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
 
 
