@@ -2,10 +2,6 @@
 
 </h1>
 <br/><b>Here you can share ideas about new applications that can run on top of Freenet. Before posting you should do a search on "Freenet" in <a class='wiki'  href='http://sourceforge.net/'>Sourceforge</a> to see if someone else hasn't already started a similiar project. It is also a good idea to follow certain style<a href='tiki-editpage.php?page=GoodStyle' class='wiki'>?</a> in your discussion.</b>
-<br/>
-<br/><i><b>This is not the place to brag which application is better!!!</b></i> <b>The bragging forum is at <a class='wiki'  href='http://www.zeropaid.com/'>ZeroPaid</a>.</b>
-<br/>
-
 <br/><b>Useful Links:</b>
 <br/>
 <br/>The spec of the <a href='tiki-index.php?page=ClientProto' class='wiki'>protocol</a> (FCP) which applications use to interact with Freenet - and all the other <a href='tiki-index.php?page=DeveloperDocs' class='wiki'>Developer documentation</a>.
