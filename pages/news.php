@@ -5,8 +5,9 @@ style). -->
 <b>18th May, 2004 : Freenet now accepts donations through Amazon Honor System</b><br>
 After Freenet's account was shut down by Paypal, we have now migrated over to using 
 Amazon's Honor System, which appears at least as easy to use as Paypal.  If you would like 
-ot make a contribution to the project please visit our <a 
-href="/index.php?page=donate">donations</a> page.
+to make a contribution to the project please visit our <a 
+href="/index.php?page=donate">donations</a> page.  Unfortunately we still haven't found a 
+suitable replacement for the Paypal subscription mechanism, but we continue to work on it.
 <p>
 <b>17th May, 2004 : Paypal suspends Freenet donations account</b><br>
 Paypal has frozen the account we use to accept donations over the web, they refuse to give 
