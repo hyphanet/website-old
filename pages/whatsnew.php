@@ -3,6 +3,44 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Wed, 04 Aug 2004 21:56:21 +0100</b></a></span><P>
+<b>Build 5089</b><p>
+
+<pre>
+Stable build 5089 is now available. Please upgrade. You will probably
+need to reseed. The current seednodes.ref at
+http://freenetproject.org/snapshots/ will be sufficient.
+
+To upgrade:
+On Windows, use the update option on the start menu, if it is there.
+On linux, stop the node, run update.sh, and start it.
+On any platform, stop the node, fetch
+http://freenetproject.org/snapshots/freenet-latest.jar and overwrite
+your existing freenet.jar with it, then restart the node.
+
+This is a mandatory upgrade. In other words, it will not talk to 5088
+and earlier. This is in the hope that the network will heal from the
+recent unpleasantness with a full reset. It appears that the causes of
+the recent problems were:
+1) Major changes in routing in 5085
+2) Major changes in rate limiting in 5085
+3) Fairly nasty bugs and bugfixes from 5085 to 5087.
+
+Also the code mostly ran reasonably on unstable, before it was merged;
+unstable consists only of nodes with most of the routing and rate limiting
+changes. 
+
+I think that resetting the network will fix the recent problems, so we are
+resetting the network. Thanks to everyone who participated in the first
+phase of the reset; the new stable network starts off with 35 nodes
+instead of no nodes because of you.
+
+For changelog of crappy builds 5086 to 5088; see maillist.
+</pre>
+
+
+
+
 <LI> <span style='color:blue'>Date: Fri, 23 Jul 2004</b></a></span><P>
 <b>Build 5085</b><p>
 <pre>
