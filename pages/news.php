@@ -10,10 +10,14 @@ of our project, since I have never used an anonymous proxy to access Paypal (thi
 the activity I assume they sought to prevent).  It is fortunate that 
 Johann Gutenberg did not rely on Paypal to 
 fund his work on the printing press, which also allowed anonymous publication of 
-information, since his account would probably have been frozen too.  If you are concerned 
+information, since his account would probably have been frozen too.  
+<p>
+If you are concerned 
 about whether your account might be at risk due to your political opinions you may wish to 
+speak to their PR 
 contact Hani Durzy at (408) 376 7458.  If you are an investor and you would like to see 
-what other political opinions Paypal doesn't like, you may want to contact Tracey Ford at 
+what other political opinions Paypal doesn't like, you may want to speak to their 
+Investor contact Tracey Ford at 
 (408) 376 7205.
 <p>
 They have said that they will refund our outstanding balance ($550) by check, but all of 
