@@ -41,6 +41,7 @@
 </li><li><a href="#roadmp">Is there a future roadmap of Freenet?</a>
 
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
+</li><li><a href="#whatsnew">What's new?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
 </li></ol>
 <h2> Publisher questions
@@ -339,6 +340,10 @@ code, there was a bug in our implementation of <A HREF="http://www.counterpane.c
 a piece of code should have been synchronized (a java method of locking) but wasn't. If you're still seeing
 heisenbugs being reported in your logfile and are running a current version of freenet, please report them
 to the mailinglist.
+
+<p><b id="whatsnew">What's new?</b><br>
+To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b>
+
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
 Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile

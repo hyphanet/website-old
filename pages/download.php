@@ -38,6 +38,8 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 <p>
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <br><br> 
+<p>
+To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b>
 
 
 
