@@ -8,6 +8,7 @@ $menus = array(	'beginner' => array(
 				'Philosophy' => 'philosophy',
 				'Support' => 'lists',
 				'Tools' => 'tools',
+				'Papers' => 'papers',
 				'People' => 'people' ),
 		'user' => array(
 				'What is Freenet?' => 'whatis',
@@ -18,6 +19,7 @@ $menus = array(	'beginner' => array(
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
 				'Tools' => 'tools',
+                                'Papers' => 'papers',
 				'People' => 'people' ),
 		'developer' => array(
 				'What is Freenet?' => 'whatis',
@@ -28,6 +30,7 @@ $menus = array(	'beginner' => array(
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
 				'Tools' => 'tools',
+                                'Papers' => 'papers',
 				'Browse CVS' => 'http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/freenet/',
 				'People' => 'people' )
 	);
