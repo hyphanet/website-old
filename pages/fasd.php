@@ -1,9 +1,9 @@
-<h2><b style="color:black;background-color:#ffff66">FASD</b>:A Fault-tolerant, Adaptive, Scalable,Distributed Search Engine </h2>
+<h2>FASD:A Fault-tolerant, Adaptive, Scalable,Distributed Search Engine </h2>
 <br/><h3><a name ="Abstract"> Abstract </a></h3>
-<br/>This paper introduces <b><b style="color:black;background-color:#ffff66">FASD</b></b>, a fault-tolerant, adaptive, scalable,
+<br/>This paper introduces <b>FASD</b>, a fault-tolerant, adaptive, scalable,
 
 <br/>and distributed search layer designed to augment existing peer-to-peer
-<br/>applications.  The <b style="color:black;background-color:#ffff66">FASD</b> layer operates as a network of identical nodes
+<br/>applications.  The FASD layer operates as a network of identical nodes
 <br/>that collectively pool their storage space to cache 'metadata keys' and
 <br/>cooperatively route queries to the nodes most likely to satisfy them. A
 <br/>'metadata key' is a list of weighted terms that describe the information
@@ -11,8 +11,8 @@
 <br/>decentralized, <b style="color:black;background-color:#ffff66">FASD's</b> approach is able to efficiently match the recall
 <br/>and precision of a centralized search engine. Simulation results
 <br/>indicate that latency and bandwidth consumption scale logarithmically
-<br/>with the size of a <b style="color:black;background-color:#ffff66">FASD</b> network.
+<br/>with the size of a FASD network.
 
 <br/><h2><a name ="Downloads"> Downloads </a></h2>
-<br/><a href="kronfol_final_thesis.pdf">kronfol_final_thesis.pdf</a>: The thesis describing <b style="color:black;background-color:#ffff66">FASD</b> and simulation results
-<br/><a href="http://freenetproject.org/twiki/Main/FASD/fasd_code.zip">fasd_code.zip</a>: The source code and data for the <b style="color:black;background-color:#ffff66">FASD</b> simulation (coming soon)<br/>
+<br/><a href="kronfol_final_thesis.pdf">kronfol_final_thesis.pdf</a>: The thesis describing FASD and simulation results
+<br/><a href="http://freenetproject.org/twiki/Main/FASD/fasd_code.zip">fasd_code.zip</a>: The source code and data for the FASD simulation (coming soon)<br/>
