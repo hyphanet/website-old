@@ -31,5 +31,5 @@ class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</
 
 <br /><br />
 <P>
-People that want to support Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any other way</a>, by contributing artwork, new ideas, correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are welcome to <mailto:newsbyte@freenetproject.org>email</a>.
+People that want to support Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any other way</a>, by contributing artwork, new ideas, correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are welcome to <mailto:"newsbyte@freenetproject.org">email</a>.
 </p>
