@@ -1,1 +1,21 @@
-A:link, A:visited, A:active { text-decoration: none }
+.menu {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 150%;
+	color: #000000;
+	text-decoration: none;
+}
+.body {
+	font-family: "Times New Roman", Georgia, Times, serif;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+a:link { text-decoration: none; color: #0033AA }
+a:visited { text-decoration: none; color: #0033AA }
+a:hover { text-decoration: none; color: #0033AA }
+a.menu:link { color: #000000; text-decoration: none }
+a.menu:visited { color: #000000; text-decoration: none }
+a.menu:hover { color: #000000; text-decoration: none }
+
