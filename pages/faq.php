@@ -5,9 +5,9 @@ Freenet Frequently Asked Questions
 
 </li><li><a href="#who">Who is behind Freenet?</a>
 </li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
-</li><li><a href="#donate-bw">Do I have to donate disk space and bandwith?</a>
+</li><li><a href="#donate-bw">Do I have to donate disk space and bandwidth?</a>
 </li><li><a href="#leech">I don't have to donate anything when using filesharing application X and I get to leech more.</a>
-</li><li><a href="#donate-more-bw">All my friends donate very little space and bandwith. Why should I donate more?</a>
+</li><li><a href="#donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</a>
 </li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
 </li><li><a href="#permanent">What do I get from running a permanent node?</a>
 </li><li><a href="#legal">Is Freenet legal?</a>
@@ -23,10 +23,9 @@ Freenet Frequently Asked Questions
 <h1> Technical questions
 </h1><ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
 </li><li><a href="#search">Is Freenet searchable?</a>
-</li><li><a href="#firewall">How do I get freenet working with a Firewall/NAT?</a>
+</li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
 </li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
 
-</li><li><a href="#warez">1 c4n'T 63t n0 w4ReZ, f1L3z, mp3z, n07hiNg!?!</a>
 </li><li><a href="#connections">Why does Freenet only download 1 or 2 files at a time?</a>
 </li><li><a href="#io-error">What does I/O error in servlet mean?</a>
 </li><li><a href="#store-perm">Why can't Freenet store data permanently?</a>
@@ -72,11 +71,10 @@ complete anonymity. Nobody controls Freenet, not even its creators, meaning that
 
 is also very efficient in how it deals with information, adaptively
 replicating content in response to demand.  For more information,
-please read <a href="index.php?page=whatis">WhatIsFreenet</a>.</p>
+please read <a href="index.php?page=whatis">What Is Freenet</a>.</p>
 
 <p><b id="who">Who is behind Freenet?</b><br>
-Freenet
-grew out of a design for an anonymous publication system created by Ian
+Freenet grew out of a design for an anonymous publication system created by Ian
 Clarke while a student at the University of Edinburgh, Scotland. Since
 then many other people have contributed towards making Ian's proposal a
 reality.</p>
@@ -89,9 +87,9 @@ while remaining anonymous, thus having an anonymous persona. You could
 prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you could build up an anonymous reputation for reliability.</p>
 
 
-<p><a name="donate-bw">Do I have to donate disk space and bandwith?</a>
+<p><b id="donate-bw">Do I have to donate disk space and bandwidth?</b><br>
 You aren't really donating in the sense that you lose the disk
-space and the bandwith; but you aren`t really sharing either (at least
+space and the bandwidth; but you aren't really sharing either (at least
 not the same way as with filesharing programs). It is more like
 pitching in to the common Freenet resource pool.</p>
 
@@ -99,14 +97,14 @@ pitching in to the common Freenet resource pool.</p>
 Do you get to do that anonymously? Freenet is designed with anonymity in mind, performance comes second.</p>
 
 
-<p><a name="donate-more-bw">All my friends donate very little space and bandwith. Why should I donate more?</a>
+<p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b>
 If you are happy with what you are getting then no. But if you want
 more you should consider donating more, making your node permanent and
 you should ask your friends to do the same.</p>
 
-<p><a name="donate-lot">If I donate a lot will my experience improve significantly?</a>
+<p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b>
 Your experience will definitely get better, but for a really great
-improvement we need more people to start thinking like you. Bandwith
+improvement we need more people to start thinking like you. Bandwidth
 counts more than diskspace.</p>
 
 <p><b id="permanent">What do I get from running a permanent node?</b><br>
@@ -114,17 +112,21 @@ Don't be frightened from the word permanent. It doesn't mean that once you start
 for life. And once you see how much better it is to run a permanent
 node, you will likely not want to switch back to transient. Your node
 will connect itself better to the rest of the network, so requesting
-keys wll be faster. Since you will be getting a lot of traffic it is
-likely that the newly stored material will be closer to you (or eveb on
+keys will be faster. Since you will be getting a lot of traffic it is
+likely that the newly stored material will be closer to you (or even on
 your very own node) and you will have faster access to the newest
-editions of the freesites or the latest uploads in Frost. Do you really
-need anytihng else? ;-) Oh yeah, you are helping the network too.</p>
-
+editions of the freesites or the latest uploads in Frost. Without permanent
+nodes, there is no network to request from. By running a permanent node you are 
+helping the network.<br>Perhaps more importantly, running a permanent node improves
+your anonymity. Since all requests coming from a transient node originate on that node,
+the node you're connecting to is guaranteed that the request came from you. A permanent
+node forwards requests for other nodes too, so the node you connect to can never be sure
+if it was actually you requesting or inserting the data in question.</p>
 
 <p><b id="legal">Is Freenet legal?</b><br>
 If by legal you mean not illegal, then yes it is. Of course,
 anything can be found to be illegal at some point in the future, and
-the law can be an ass sometimes, so we can make no guarantee about Freenet's future legality other than it should be legal in any fair and just society.</p>
+the law can be an ass sometimes, so we can make no guarantee about Freenet's future legality.</p>
 
 <p><b id="trouble">Can I get trouble if I run a node?</b><br>
 This is related to the previous question. We have done everything
@@ -155,7 +157,11 @@ disgusting. If this is not acceptable to you, you should not run a Freenet node.
 is available as long as its popular, you can help limit the popularity
 of whatever information you do not like. For example, if you do not
 want a file to spread you should not request it and tell everyone you
-know not to request that specific key.</p>
+know not to request that specific key. However, keep in mind that freenet 
+is not designed so as to only allow communication between people if a sufficient
+number of people agree with the communication. Freenet is designed to make communication
+possible even if there's just one publisher and one reader, and this is already reasonably
+feasible on the current freenet.</p>
 
 <p><b id="export">How about encryption export restrictions?</b><br>
 The Freenet Project has notified the US authorities (since the files are hosted on SourceForge,
@@ -168,12 +174,13 @@ Yes, in fact even without the anonymity feature Freenet
 is very useful because of its unique way it handles content distribution
 and information load. In simple terms that means you can publish a
 website without worrying about how big the site will be and without
-having to put someone elses ad banners on it. Over time that site may
-very well become more accessible and faster to load than a site on the
-ordinary web.
-
-<h1> Technical answers
-</h1><p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br>
+having to put someone elses ad banners on it. While it is unlikely that
+freenet sites will ever load faster than regular websites, it does adapt to
+sudden surges of visitors (which will often occur when relatively unknown sites 
+get linked to from a big site) better, and high download speeds for big files
+are feasible too. Just don't expect very low latency.
+<h1> Technical answers</h1>
+<p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br>
 Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it with a Freenet client. One of the services that Fred offers is called fproxy, which lets you talk to Freenet with a web browser. Point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
 
 <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="index.php?page=tools">Tools</a> page.</p>
@@ -195,23 +202,12 @@ node is running. Many modern firewalls and NATs have a web interface to
 do this, or if you do not administer the firewall, you will need to ask
 your system administrator to do this.</p>
 
-<p><a name="connection-perm">Do I need a permanent connection to run a node?</a>
+<p><b id="connection-perm">Do I need a permanent connection to run a node?</b>
 No, but it is preferred. You can run the software and test it from
 a "transient" connection (such as provided by typical modem/ISP
 setups), but for the network as a whole to be most useful, we will need
 as many permanent nodes as possible (most cable modem or DSL setups are
-suffiently "permanent" for this). A later version of Freenet may take better advantage of transient nodes.</p>
-
-<p><b id="warez">1 c4n'T 63t n0 w4ReZ, f1L3z, mp3z, n07hiNg!?!</b><br>
-Since Freenet
-0.5 was released just recently it is probably still adjusting to the
-massive amount of new users joining it. Don't worry, once it adapts it
-will be much faster (it was very fast before the release was announced,
-so trust us). In the meantime you may try donating more disk space and
-bandwith and making your node permanent. It is very important to always
-keep your node up to date, so download the update script/program at
-least few times a week.</p>
-
+sufficiently "permanent" for this). A later version of Freenet may take better advantage of transient nodes.</p>
 
 <p><b id="connections">Why does Freenet only download 1 or 2 files at a time?</b><br>
 Many browsers limit the number of simultaneous connections to something far too low for efficiently browsing Freenet (since Freenet
@@ -219,59 +215,53 @@ pages often have much higher latency than web pages). This can usually
 be reconfigured. For example, for Mozilla, create a file with the
 following contents called user.js in the directory with prefs.js, or append to an existing user.js:</p>
 
-<div class="simplebox" align="center">
-user_pref("network.http.max-connections", 200);
-user_pref("network.http.max-connections-per-server", 100);
-user_pref("network.http.max-persistent-connections-per-server", 10);
-user_pref("network.http.max-persistent-connections-per-proxy", 50);
-</div>
+<code>
+user_pref("network.http.max-connections", 200);<BR>
+user_pref("network.http.max-connections-per-server", 100);<BR>
+user_pref("network.http.max-persistent-connections-per-server", 10);<BR>
+user_pref("network.http.max-persistent-connections-per-proxy", 50);<BR>
+</code>
 <p>Note that these settings will cause mozilla to use more
 connections for all your browsing, which may not be desirable from a
 network congestion point of view; volunteers to make mozilla allow this
 sort of settings to be set per host would be welcome...</p>
 
-<p><a name="io-error">What does I/O error in servlet mean?</a>
+<p><b id="io-error">What does I/O error in servlet mean?</b><BR>
 This message in the log file is normally harmless.  Freenet writes this to the log any time your browser breaks a connection to fproxy (<i>e.g.</i> if you clicked "Stop" in your browser while waiting for a Freenet page's images to load).</p>
 
-
-<p><a name="store-perm">Why can't Freenet store data permanently?</a>
-Because we can't find a way to do this without compromizing Freenet's
+<p><b id="store-perm">Why can't Freenet store data permanently?</b><BR>
+Because we can't find a way to do this without compromising Freenet's
 other goals. For example, people often suggest that someone's node could
 just never drop data they want to cache permanently. This, however,
 won't work because even if the data is still available on their node,
 there is no way to ensure that requests for that data will be routed to
-that node. We have considered many other ways that Freenet could store data permenantly, but they either won't work, or compromize Freenet's core goals of anonymity, and scalability.</p>
+that node. We have considered many other ways that Freenet could store data permanently, but they either won't work, or compromise Freenet's core goals of anonymity, and scalability.</p>
 
 
-<p><a name="why-java">Why is Freenet implemented in Java?</a>
-The core reasons for implementing Freenet in Java are:
-</p><ul><li> Rapid development
-</li><li> Cross-platform
-</li><li> Good networking support
-</li><li> Open Source implementations available
+<p><b id="why-java">Why is Freenet implemented in Java?</b><BR>
+Opinions differ about the choice of java for the reference implementation of
+freenet (even among the core developers). <a href="http://www.freenetproject.org/index.php?page=people">Ian Clarke</a> and several
+other developers are java proponents and the choice for java was made. Even if everybody could be convinced
+to switch to a different language reimplementing the current freenet protocol would be quite a big task, and
+take up a significant amount of time, while there is only a limited about of developer-time available. Flame wars
+on the development list about the language choice aren't welcome, people willing to implement freenet
+in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
 
-</li></ul>Almost everyone has their opinion as to which languages are
-better, sometimes these opinions are perhaps better described as
-religous convictions!  Just remember that various architectural design
-decisions can have a much greater impact on efficiency and
-ease-of-development than the choice of programming language.<p></p>
-
-<p><a name="fproxy-lan">How do I allow connections to FProxy from other computers?</a>
+<p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b>
 If you want everyone to be able to use your node, then add the following lines to your freenet.conf or freenet.ini file:
-</p><div class="simplebox" align="center">
-mainport.bindAddress=*
-mainport.allowedHosts=*
-
-</div>
+</p><code>
+mainport.bindAddress=*<BR>
+mainport.allowedHosts=*<BR>
+</code><p>
 Of course, this leaves your node wide open, unless you control
 access with a firewall of some sort.  If you'd prefer to use access
-controls within Freenet, then you can use lines like this:
-<div class="simplebox" align="center">
-mainport.bindAddress=*
-mainport.allowedHosts=127.0.0.1,192.168.1.0/24
-</div>
+controls within Freenet, then you can use lines like this:</p>
+<code>
+mainport.bindAddress=*<br>
+mainport.allowedHosts=127.0.0.1,192.168.1.0/24<br>
+<code>
 
-<p><a name="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</a>
+<p><b id="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</b>
 If you tried to install Freenet
 at a time when your Java runtime environment was not working, you might
 have created a broken configuration file.  Make sure your Java
@@ -291,13 +281,13 @@ lets you repair the file by recalculating the data for the missing
 blocks, and then reinserting them into Freenet.</p>
 
 
-<p><a name="fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</a>
+<p><b id="fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</b><br>
 Yes, you can.  Use this command:
-</p><div class="simplebox" align="center">
-java -cp freenet.jar freenet.client.cli.Main get KEY filename
-</div>
-Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p></p>
-
+</p><code>
+java -cp freenet.jar freenet.client.cli.Main get KEY filename<BR>
+</code><p>
+Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p>
+You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="http://freenetproject.org/index.php?page=fcptools">FCPTools</a>.
 
 <p><b id="distribution">What's this distribution servlet? How do I use it?</b><br>
 The distribution servlet allows you to provide friends/colleagues/people you meet in IRC to download a copy of Freenet
@@ -327,12 +317,15 @@ the Heisenbug <i>may</i> have occurred, and writes verbose information
 to the logs.  Since this pattern can also occur under normal
 circumstances (about once in every 65,000 times), a few Heisenbug
 reports may be expected.  But if you're getting lots of them,
-something's wrong.</p>
+something's wrong.</p><b>Update</b>: It's turned out that the heisenbug was actually a bug in the fred
+code, there was a bug in our implementation of <A HREF="http://www.counterpane.com/yarrow.html">Yarrow</A>,
+a piece of code should have been synchronized (a java method of locking) but wasn't. If you're still seeing
+heisenbugs being reported in your logfile and are running a current version of freenet, please report them
+to the mailinglist.
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
-The development version (0.4) of fred outputs a backtrace if a log
-entry is triggered by an exception. To turn it quiet you must change
-the java source in Freenet/support/StandardLogger.java  The relevant parts are calls to printStackTrace.</p>
+Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
+to know exactly what went wrong.
 
 <h1>Publisher answers
 </h1><p><b id="find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</b><br>
@@ -433,13 +426,10 @@ through (a la Mixmaster). Freenet's
 
 dynamic routing cannot offer that, so to attain true anonymity you have
 to send the message through an external network of anonymous remailers
-first (a future SMTP- &gt;Freenet bridge would make this possible).</p>
-<p>It is our intention that Freenet's
-node-to-node communications should be encrypted, but that has not been
-implemented either (with the current state of the network we are more
-interested in testing if the theoretical ideas regarding the routing
-carry over into reality; you have to have a house before you can lock
-the door). </p>
+first (a future SMTP-&gt;Freenet bridge would make this possible).
+There are also plans for doing mixmaster-style injection of requests
+over the "standard" protocol, however this probably won't be implemented
+before version 1.0, which is still some way off.</p>
 
 <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br>
 Short answer: no.</p>
