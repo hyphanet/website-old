@@ -3,6 +3,33 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Wed, 02 Jun 2004 19:54:01 +0100</b></a></span><P>
+<b>Build 5084</b><p>
+
+
+Freenet stable build 5084 is now available. Please upgrade ASAP, if you
+are running a stable branch node (if you're not, you'll know). You can
+do this by running the update.sh script on POSIX like systems such as 
+Linux or MacOS/X (stop the node first, then update it, then start it),
+or on Windows, you can run the update option on the menu, if there is
+one, or on any platform, stop the node, download
+http://freenetproject.org/snapshots/freenet-latest.jar over your
+existing freenet.jar, and then start the node up again.<p>
+
+Two changes only in this build:<p>
+* Fix a NullPointerException that prevented the node from starting up
+  sometimes if it had bad seednodes.<p>
+* Make 5083 mandatory. The reason for the stable network's recent bad
+  performance is probably because the network consists of many 5083
+  nodes and many 5082 nodes. Because 5083 makes some fairly drastic
+  changes to how HTL is used (and some routing changes), the two builds
+  don't get along very well with one another. We can improve the
+  situation by making 5083 mandatory.<p>
+<hr>
+
+
+
+
 <LI> <span style='color:blue'>Date: Sat, 29 May 2004 21:31:54 +0100
 </b></a></span><P>
 <b>Build 5083</b><p>
