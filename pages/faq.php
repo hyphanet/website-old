@@ -38,6 +38,7 @@
 </li><li><a href="#fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</a>
 </li><li><a href="#distribution">What's this distribution servlet? How do I use it?</a>
 </li><li><a href="#seednodes">How do I extract the necessary seedNode values from my own node?</a>
+</li><li><a href="#roadmp">Is there a future roadmap of Freenet?</a>
 
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
@@ -316,6 +317,9 @@ again to start the node normally. myref.ref will contain your node
 reference. Make sure that if you post this for others to use, that you
 avoid extra linebreaks.</p>
 
+
+<p><b id="roadmp">Is there a future roadmap of Freenet</b><br>
+Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="roadmap.php"> here.</a>
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
 The name comes from the Heisenberg Uncertainty Principle of
