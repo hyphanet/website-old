@@ -12,8 +12,8 @@ This is not true.  There have also been some rather peculiar
 <a href="http://p2pnet.net/article/8315">reports</a> that the
 Freenet 0.6 release was premature.  This is news to the entire
 Freenet development team as there are no immediate plans to
-release Freenet 0.6.  Visitors to <b>p2pnet.net</b> should take
-note of that news source's apparent disregard for accuracy.
+release Freenet 0.6.  <b>P2PNet.net</b> has since
+corrected the error.
 <p>
 There was some discussion among the Freenet developers about how
 we can improve the stability of Freenet's stable branch, without
