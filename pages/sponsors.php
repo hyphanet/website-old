@@ -1,21 +1,21 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
-<tr>
-<td align="center" valign="top"><h2>Freenet Sponsorship:</h2>
-<h3>The following persons, organisations and companies have generously sponsored this project:</h3>
-<P>
-1) <span style='color:blue'><b>Verbum Vanum</b></span> <a href="http://www.verbumvanum.org">(http://www.verbumvanum.org)</a>  € 115
-<P>
-</td>
-<tr>
-<td align="right" valign="bottom">
-<BR>
-<P>
-<BR>
-<P>
-<BR>
-<P>
-<BR>
-Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-For name/links on the sponsorpage, you can also contact <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
-</td>
+<h3>Freenet Sponsorship</h3>
+
+The following persons, organisations and companies have generously
+sponsored this project:
+<ol>
+<li><a href="http://www.verbumvanum.org/">Verbum Vanum</a>
+</ol>
+The following organizations support the project through donations or 
+discounts on hardware and services:
+<ol>
+<li><a href="http://bytemark.co.uk/">Bytemark Hosting</a><br>
+Bytemark provide discounted hosting facilities to Freenet and comes with 
+our highest recommendation.
+</ol>
+<p>
+
+Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
+Clarke</a><BR> 
+For name/links on the sponsorpage, you can also contact
+<a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 
