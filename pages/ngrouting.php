@@ -55,8 +55,8 @@ should be routed:
 This is a good
 indication that Freenet's current routing algorithm is performing 
 correctly.  Nodes specialize like this due to an emergent feedback effect,
-when a node sucessfully responds to a request for a given key - it increases
-the liklihood that other nodes will route requests for similar keys in the
+when a node successfully responds to a request for a given key - it increases
+the likelihood that other nodes will route requests for similar keys in the
 future.  Over time this effect causes the specialization that can be seen
 very clearly in the diagram above.
 
@@ -75,7 +75,7 @@ By making more effective use of the
 information available to a Freenet node, we can dramatically improve
 a node's ability to route requests in a manner likely to result in
 the fastest response for that request. By avoiding guesswork, and
-striving for a firm basis in statistical reality - we can even accelorate
+striving for a firm basis in statistical reality - we can even accelerate
 our development effort by allowing ourselves to determine the effectiveness
 of a modification based on its effect on a single node, before we deploy it.
 These goals are achieved by Next Generation Routing. 
@@ -117,12 +117,12 @@ works by maintaining N &ldquo;reference&rdquo; points (where N is
 configurable &ndash; 10 being a typical value) which are initially
 evenly distributed across the key-space.  When we have a new routing
 time sample for a particular key &ndash; we move the two points
-closest to our new sample towards it.  The amount they are moved can
+closest to our new sample toward it.  The amount they are moved can
 be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.
 <P><center><IMG SRC="image/rte_diag.gif" NAME="Graphic1" WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
 </center>
 <P>In this diagram it can be seen that two of the reference points
-(blue) are being moved towards our new data sample (red).
+(blue) are being moved toward our new data sample (red).
 <P>When we wish to create an estimate for a new key, we see where the
 line between the reference points at either side of that key
 intersects (green) and this gives us our estimated response time.
@@ -147,9 +147,9 @@ was differing sizes.
 <h3>Handling DataNotFound messages</h3>
 When a request has visited the number of nodes specified in its
 "hops to live" field (similar to "time to live" in other protocols), 
-a "DataNotFound" or DNF message is returned to the requestor.  This indicates
+a "DataNotFound" or DNF message is returned to the requester.  This indicates
 that the data could not be found within the time limit specified by
-the requestor.  There are two reasons that a DNF can be returned for some
+the requester.  There are two reasons that a DNF can be returned for some
 data, either the data exists but wasn't found, or the data didn't exist
 at all.  In the former case, a DNF would indicate a shortcoming in the
 routing ability of whichever node the request was routed to.  In the latter
@@ -216,7 +216,7 @@ a reply which has collected its own statistical information about the
 node in the DataSource will replace the statistical data in the reply with
 its own.  This will mean that even if a node does put misleading
 statistical information in the reply - it will probably be replaced as it
-is passed back to the requestor.
+is passed back to the requester.
 <h3>Benefits of Next-Generation Routing</h3>
 <ul>
 <li><b>Performance can be evaluated locally</b><br>
@@ -225,7 +225,7 @@ evaluate its performance was by trying it.  With N.G Routing we have
 a simple metric of how effectively it is performing - namely the difference
 between estimated routing times, and actual routing times.  If a modification
 to the algorithm results in closer estimates, then we know it is better.  If not,
-we know that it isn't.  This will dramatically accelorate the development cycle
+we know that it isn't.  This will dramatically accelerate the development cycle
 of future improvements.
 <li><b>Approaching optimality</b><br>
 If one accepts that in an environment where only one's own node may be trusted,
