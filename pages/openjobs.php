@@ -19,4 +19,5 @@
 <P><LI>Whine less about what's wrong with it, but give specific bug-reports in stead.
 <P><LI>Join #freenet on IIP for other suggestions/discussions.
 <P><LI>Document the various fproxy options (which are summarized at the top of fproxyservlet.java). 
-
+<P><LI>Create a page wich contains the most interesting topics/talks/discussions (summarised) on the maillists (especially the devl) for each month.
+<P>
