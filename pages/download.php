@@ -23,9 +23,16 @@ You need to have a recent Java Runtime Environment.  We have experienced best re
 <pre>
 $ tar xfz freenet-0.5.2.1.tar.gz
 $ cd freenet
+<font color="#FF0000">The following will upgrade to the latest stable snapshot since version 
+0.5.2.1 is currently obsolete - we hope to resolve this issue soon</font>
+$ sh update.sh
 $ sh start-freenet.sh
 </pre>
-After you start Freenet wait a few seconds for it to start-up (on a slow computer, you may need to wait about 30 seconds), and visit http://127.0.0.1:8888/ in your web browser to access Freenet's user interface.
+
+After you start Freenet wait a few seconds for it to start-up (on a slow
+computer, you may need to wait about 30 seconds), and visit
+http://127.0.0.1:8888/ in your web browser to access Freenet's user
+interface.
 
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
