@@ -11,7 +11,7 @@ a fix for a very serious bug affecting inserts, some optimizations, refactoring,
 more bug fixes, a substantial reduction in memory usage with the fixing of many memory
 leaks, and a major change to how freenet nodes work together ("bidirectional routing").
 Like previous builds, there will probably be bugs in it, and we would as always 
-welcome bug reports at <a href="support@freenetproject.org">support@freenetproject.org</a>.
+welcome bug reports at <a href="mailto:support@freenetproject.org">support@freenetproject.org</a>.
 We will not see the full effects of the changes until most of the stable branch 
 network have upgraded, so please upgrade ASAP. If you don't have a Freenet node
 installed, now is a great time to <a href="/index.php?page=download">download</a> one.
