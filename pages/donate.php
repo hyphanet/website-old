@@ -1,5 +1,5 @@
 <h3>Donations</h3>
-<p>Current PayPal balance (updated every 15 minutes): <? 
+<p>Current PayPal balance (updated every 12 hours): <? 
 include("paypaltotal.txt"); ?></p>
 
 <h4>Why does The Freenet Project need donations?</h4>
