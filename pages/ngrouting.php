@@ -203,7 +203,17 @@ actually statistical data so that even with a node first starts up, it will
 already have the knowledge of an experienced node.  It will then go on to
 refine this knowledge according to its own experience.
 <p>
-The other way 
+The other way nodes learn about new nodes is in the "DataSource" field
+of successful replies to requests for data.  The DataSource field will
+contain one of the upstream nodes in the request chain.  The simple approach
+would be to allow this DataSource node to attach statistical information
+concerning its own performance to the reply - but clearly this would be
+open to abuse.  A refinement would be to say that any node passing back
+a reply which has collected its own statistical information about the
+node in the DataSource will replace the statistical data in the reply with
+its own.  This will mean that even if a node does put misleading
+statistical information in the reply - it will probably be replaced as it
+is passed back to the requestor.
 <h3>Benefits of Next-Generation Routing</h3>
 <ul>
 <li><b>Performance can be evaluated locally</b><br>
