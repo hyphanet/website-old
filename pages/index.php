@@ -13,6 +13,7 @@ href="mailto:ian@locut.us">Ian Clarke</a>.
 </p>
 <? 
 if($mode=="beginner") {
+	include("pages/news.php");
 	include("pages/whatis.php");
 } else {
 	include("pages/news.php");
