@@ -12,6 +12,15 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>27th August, 2004 : Stable build 5099, Stable network reset</b>
+<p>Stable build 5099 has been released, all users running the stable
+branch should upgrade as this build contains numerous important bugfixes,
+mostly related to inserts. The network has been reset because of this.
+There are also many changes since 5090, such as the introduction of 
+request queueing, a technique to reduce RNFs and improve routing 
+accuracy. The network seems a bit overloaded at present and not all content
+authors have updated, but it should improve significantly as testing went
+well. Instructions for upgrading or installing are <a href="/index.php?page=download">here</a>.</p>
 <b>6th August, 2004 : Stable build 5090, Stable network reset</b>
 <p>Stable build 5090 has now been released, all users running the stable
 branch should upgrade as this build contains numerous important bugfixes,
