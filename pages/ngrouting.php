@@ -226,7 +226,7 @@ is passed back to the requester.
 <li><b>Adapts to network topology</b><br>
 In the old Freenet routing algorithm, a Freenet node running on a slow
 modem in the middle of the Australian outback is viewed pretty much the
-same way as a fast node running on a T3 in downtown San Jose.  In essense,
+same way as a fast node running on a T3 in downtown San Jose.  In essence,
 the underlying Internet topology is ignored by Freenet, all nodes are treated
 equally.  In contrast, N.G routing bases its decisions on actual routing
 times, this means that a node will tend to prefer routing messages to
