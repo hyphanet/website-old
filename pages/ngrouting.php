@@ -30,7 +30,7 @@ address of an upstream node (possibly the one where the data
 originated) is included in the reply, this is called the "DataSource". 
 The requester makes a note of
 the requested key, and the DataSource node passed back with that reply.
-It is assumed that upstream node is a good place to route future
+It is assumed that the upstream node is a good place to route future
 requests for keys closest to the previously requested key. It is
 analogous to deciding that since your friend George successfully
 answered a question about France, he might also be a good person to
