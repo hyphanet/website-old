@@ -1,9 +1,12 @@
 <h2>Download Freenet 0.5.1</h2>
 
-<i>If you have a firewall or a NAT box click <a href="#NAT">here</a> for some info.</i>
+<i>If you have a firewall or a NAT box click <a href="#NAT"><b>here</b></a> for some info.</i>
 
 <h3>Windows</h3>
-Download and run <a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a>.  It will automatically install Freenet and other required components for you.  When done, double-click on the small blue rabbit icon in your task-tray.  Freenet will works much better with Windows 2000 or XP than with 95, 98 and ME.
+Download and run    
+<big><ahref="http://freenetproject.org/snapshots/freenet-webinstall.exe"></big><br><br>freenet-webinstall.exe</a>.  
+It will automatically install Freenet and other required components for you.  When done, 
+double-click on the small blue rabbit icon in your task-tray.  Freenet will works best with <b>Windows 2000 or XP.</b>
 <h3>Unix</h3>
 You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
 <pre>
@@ -14,7 +17,8 @@ $ sh start-freenet.sh
 After you start Freenet wait a few seconds for it to start-up (on a slow computer, you may need to wait about 30 seconds), and visit http://127.0.0.1:8888/ in your web browser to access Freenet's user interface.
 
 <h3>Hardware requirements</h3>
-Minimum: 400MHz Pentium 2, with at least 192MB of RAM.  Recomended: 1GHz or more processor with 384MB RAM or more (especially if using Windows XP).
+<b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
+<b>Recomended:</b> 1GHz or more processor with 384MB RAM or more (especially if using Windows XP).
 
 <h3>Upgrading</h3>
 
