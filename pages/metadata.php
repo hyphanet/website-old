@@ -126,6 +126,26 @@ redirect. </p>
 error indicating that there is no Part matching that name, similar to
 an DataNotFound error. </p>
 
+<h3> Restatement of document processing algorithm </h3>
+
+<p>The logic for following Document names should be the following                                                                    
+recursive(!) algorithm:</p>
+
+<p>To request "BaseKey//Name":</p>
+                                                                    
+<ol>
+<li> request BaseKey (recursively if necessary) </li>
+<li> if it's not a control document, stop and return a URI error </li>
+<li> act on the name: 
+  <dl>
+  <dt> Name found: </dt> <dd>act on name, possibly requesting another key</dd>
+  <dt> No Name, No default: </dt> <dd>stop and return a URI error
+  (possibly listing valid names) </dd>
+  <dt> No Name, default present: </dt> <dd>act on default.  If it's a
+  redirect to BaseKey2, request "BaseKey2//Name"</dd>
+  </dl> </li>
+</ol>
+
 <br/>The order of keys in a Part is not important, and if the same Key appears twice in a part, only the last one's value is used.
 
 <br/>
