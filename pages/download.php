@@ -2,11 +2,9 @@
 
 <h3>Important note for first time users</h3>
 
-When you first start Freenet your node will know very little about how
-to find information in the network - you should be prepared to wait up
-to <b>60 seconds</b> for a website to be retrieved.  Don't lose patience
-though as the more you use Freenet, the better your Freenet node will
-get at finding information.
+When you first start Freenet your node will know very little about the network 
+- it could take up to <b>60 seconds</b> to open a website.  Keep trying,
+because the more you use Freenet, the faster it will get.
 
 <p>
 
