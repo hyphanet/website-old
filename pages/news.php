@@ -3,7 +3,7 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 
 <h3>News</h3> 
-<p><b>15th October, 2003 - New stable build: 5034</b></p>
+<p><b>15th November, 2003 - New stable build: 5034</b></p>
 A new stable build of Freenet is now available.  Among the core 
 improvements are a rethink of load balancing, and some 
 measures to help nodes route information more effectively from the 
