@@ -272,7 +272,7 @@ controls within Freenet, then you can use lines like this:</p>
 <code>
 mainport.bindAddress=*<br>
 mainport.allowedHosts=127.0.0.1,192.168.1.0/24<br>
-<code>
+</code>
 
 <p><b id="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</b><br>
 If you tried to install Freenet
