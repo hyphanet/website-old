@@ -17,5 +17,17 @@ for gosh's sake remove this turn-based idiosyncracy.-->
 <li>Content distribution
 </ul>
 <p>
-Freenet is not just theoretical, it has been downloaded by over 1.2 million users since the project started, and it is used for the distribution of censored information all over the world, including countries such as China and the Middle East.  Ideas and concepts pioneered in Freenet have <a href="http://citeseer.nj.nec.com/context/1354204/420356">inspired</a> hundreds of academic papers in the fields of computer communication, security, and law.  Freenet has also received significant coverage in the mainstream press.
 
+Freenet is not just theoretical, it has been downloaded by over 2
+million users since the project started, and it is used for the
+distribution of censored information all over the world including
+countries such as <a href="http://freenet-china.org">China</a> and the
+Middle East.  Ideas and concepts pioneered in Freenet have had a
+significant impact in the academic world.  Our 2000 paper "Freenet: A
+Distributed Anonymous Information Storage and Retrieval System" was the
+most cited computer science paper of 2000 according to <a
+href="http://citeseer.nj.nec.com/articles2000.html">Citeseer</a>, and
+Freenet has also inspired papers in the worlds of law and philosophy.  
+Ian Clarke, Freenet's creator and project coordinator, was selected as 
+one of the top 100 innovators of 2003 my MIT's Technology Review 
+magazine.
