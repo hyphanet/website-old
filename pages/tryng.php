@@ -12,6 +12,10 @@ Here are the steps:
 http://freenetproject.org/snapshots/freenet-unstable-latest.jar</a> and save it
 in your Freenet folder as <b>freenet.jar</b> (this will overwrite the
 existing freenet.jar file if you failed to follow the previous step).
+<li>Download (a 
+href="http://freenetproject.org/snapshots/unstable.ref">http://freenetproject.org/snapshots/unstable.ref</a> 
+and save it in your Freenet folder as <b>seednodes.ref</b> (this should 
+overwrite the existing seednodes.ref file)
 <li>If there is a line in your <b>freenet.conf</b> or <b>freenet.ini</b>
 file starting with "routingTableImpl" delete it or comment it out by
 prepending a '#'.
