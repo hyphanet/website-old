@@ -7,6 +7,79 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Sun, 15 Feb 2004 01:08:54 +0000</b></a></span><P>
+<b>Build 5069</b><p>
+
+
+
+Freenet stable build 5069 is now available. The snapshots will have been
+updated sometime in the next few minutes; if you don't get 5069, try
+again in an hour's time. If it's still 5068, complain to
+support@...  You can get it via the update.sh script on
+Linux, BSD, or OS/X, or use the freenet-webinstall.exe utility to update 
+on Windows, or get the jar from 
+http://freenetproject.org/snapshots/freenet-latest.jar . All stable
+branch users should upgrade.<p>
+
+A large number of bugfixes, some of them major, and a number of larger
+changes, are present in this build. Details:<p>
+* Fixed a major bug in stats that was causing us to dramatically 
+  underestimate our used bandwidth resulting in effectively no controls on
+  the number of trailers transferring, resulting in too many requests
+  accepted, too many parallel transfers, and most of them running really
+  slowly and eventually failing.<p>
+* Fixed another major bug that resulted in one request for a reasonably
+  available file causing a large number of transfers; certain send
+  failure modes were not being handled properly, with the result that we
+  continued to receive the file (thus allowing it to propagate through
+  the network), but forgetting about it so that when it does complete,
+  it does not get committed, and moving on to request the file from
+  another node, so we end up transferring many copies, most of which end
+  up in the temp dir and never leave it; this bug wasted a lot of
+  bandwidth and also disk space.<p>
+* Implemented new rate limiting algorithm. Joint effort by me and ian.
+  Should be much better behaved than the old one, involves less
+  "alchemy". Each node we are connected to is sent a different minimum
+  request interval, depending on how many requests it makes, but all
+  have a reasonably fair quota, which will increase quickly if needed.
+  This data is included on the Open Connections page at max detail.<p>
+* Lots of improvements and bugfixes to the rate limiting system: all FNP
+  messages now carry the request interval, and we can read it from
+  IdentifyPacketMessage's (although we don't write it yet). The code to
+  detect nodes violating the minimum request intervals has been
+  significantly improved, and we now have a message so that nodes can
+  tell other nodes that they have violated their quota, with some
+  debugging info. However this is not necessarily all wrapped up yet.
+  When it is, we will implement some enforcement mechanisms such as
+  banning nodes which persistently violate the request intervals.<p>
+* Many minor optimizations and fixes.<p>
+* Opera (the browser) users who have read and acted on the warning, i.e.
+  configured opera to respect MIME types, can now set
+  mainport.params.servlet.1.params.dontWarnOperaUsers=true to get rid of
+  the warning page.<p>
+
+<hr>
+
+
+
+
+<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 13:34:17 +0000</b></a></span><P>
+<b>Build 5068</b><p>
+
+
+
+Freenet stable build 5068 is now available. Upgrade using
+freenet-webinstall.exe or update.sh , or download the jar from
+http://freenetproject.org/snapshots/freenet-latest.jar . All users of
+the stable network/branch should upgrade immediately.<p>
+
+This fixes a major bug in 5067 and a minor one, one that caused
+NullPointerException's in routing after we had been up for a while, and
+one optimization.<p>
+
+<hr>
+
+
 
 <LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 01:25:59 +0000</b></a></span><P>
 <b>Build 5067</b><p>
