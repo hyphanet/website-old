@@ -1,8 +1,10 @@
 <?php
-/*  if (!$page)
+if (!isset($_REQUEST["page"]))
   {
     $page="1";
-  } */
+  } else {
+    $page=$_REQUEST["page"];
+  }
 ?>
 <html>
 <head>
