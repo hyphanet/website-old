@@ -2,26 +2,30 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
+<p><b>14th June, 2003 - Your support needed</b><br>
+Things have been progressing well, we have almost finished a major 
+architectural improvement (migrating to java.nio) which should lead to 
+a significant reduction in Freenet's cpu usage, and we are working on 
+the most fundamental improvement to Freenet's core algorithm since its 
+original design - NGRouting.
+<p>
+Matthew Toseland, our full time developer, has been a major catalyst to 
+Freenet development, however his contract is coming to an end and the 
+project's funds are presently very low.  As a result I am making this 
+appeal for your financial support.  If you can afford to - please visit 
+our <a href="/index.php?page=donate">donations</a> page, you can 
+contribute with a credit card through Paypal, or via E-Gold if you 
+prefer.
+
 <p><b>15th May, 2003 - Freenet 0.5.2-rc2 Released</b><br>
 The second release candidate for Freenet 0.5.2 has been released. This
 is mostly bugfixes over 0.5.2-rc1.
 Download it from <a href="index.php?page=download">the download
 page</a>.
+
 <!-- do not remove the notice below about RC1 without merging the
  features list into this one -->
 
-<p><b>7th May, 2003 - Website problems</b><br>
-We are currently experiencing some website problems and are in the process
-of rebuilding the site from backups - please bear with us.
-
-<p><b>27th April, 2003 - New version of Fuqid released</b><br>
-Version 0.9 of the excellent "Freenet Utility for Queued Inserts and
-Downloads" is now available, click <a
-href="index.php?page=flink&amp;flinkttl=here&amp;key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//"><i>here</i></a>[<a 
-href="index.php?page=flink&amp;flinkttl=here&amp;key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//">?</a>] 
-to get your copy.
-
-<!-- see above -->
 <p><b>26th April, 2003 - Freenet 0.5.2-rc1 Released</b><br>
 After weeks of work, the first release candidate for Freenet 0.5.2 has
 been released. Major changes include probabilistic caching, other
@@ -31,16 +35,3 @@ many other bugfixes.
 Download it from <a href="index.php?page=download">the download
 page</a>.
 
-<p><b>24th April, 2003 - Freenet in China</b><br>
-Many, even among the Freenet development community, are unaware that for
-over a year a group called <a
-href="http://freenet-china.org/">Freenet-China</a> has been creating a
-customized version of Freenet.  Freenet-China have taken the Freenet
-software, given it a Chinese user interface and modified the
-installation software.  This version of Freenet is used to distribute
-daily news inside China that is free from government censorship.
-<p>
-It is certainly gratifying that there are people out there actually
-using Freenet for exactly the purpose it was intended.  If you are
-curious, you can download their version of Freenet from their <a
-href="http://freenet-china.org/">website</a>.
