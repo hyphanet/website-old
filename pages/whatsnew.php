@@ -1,6 +1,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
 <tr>
-<center><h2>What's new?</h2>
+<center><h2>What's new?</h2><p>
+<h3>Changelog for the stable branche</h3>
 </center>
 <P>
 <BR>
