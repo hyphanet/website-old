@@ -5,12 +5,12 @@ style). -->
 <h3>News</h3> 
 <p><b>22nd November, 2003 - Your support needed</b></p>
 We are making rapid progress towards our <b>0.6</b> release, which will
-contain a variety of fundamental improvements to Freenet.  As most
+contain a variety of fundamental improvements.  As most
 are aware, our development effort has received a significant boost by
-being able to employ Matthew Toseland full-time to work on the project,
+being able to employ Matthew Toseland full time to work on the project,
 paid for by your generous donations.
 <p>
-Unfortunately the fundamental nature of the changes we are working on 
+Unfortunately, the fundamental nature of the changes we are working on 
 make it impossible for us to do formal "point" releases of the software, 
 and these have traditionally been when we receive most of our donations.  
 As a result, the project's current funding levels are so low that we can 
