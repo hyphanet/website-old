@@ -59,12 +59,6 @@ EndMessage
     </ul>
   </li>
 
-  <li><code>InvertPrivateKey</code>
-    <ul>
-      <li><code>Success</code></li>
-    </ul>
-  </li>
-
   <li><code>ClientGet</code></li>
   	<ul>
     <li><code>URIError</code></li>
@@ -99,6 +93,19 @@ EndMessage
   <ul>
 	<li><code>Success</code> </li>
   </ul>
+
+  <li><code>InvertPrivateKey</code>
+    <ul>
+      <li><code>Success</code></li>
+    </ul>
+  </li>
+
+  <li><code>GetSize</code>
+    <ul>
+      <li><code>Success</code></li>
+    </ul>
+  </li>
+
 </ul>
 
   
@@ -426,4 +433,32 @@ from GenKeys).</p>
 <p class="body">A <code>Success</code> message is sent on success with
 the <code>PublicKey</code> field set to the public key.</p>
 
-<hr>
+<b> GetSize </b>
+
+<pre>(Client -&gt; Node)
+
+GetSize
+URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+EndMessage
+</pre>
+
+<pre>(Node -&gt; Client)
+
+Success
+Length=&lt;number: size of document rounded up to the nearest power of two.&lt;
+EndMessage
+</pre>
+
+<p class="body">This command is useful for working with splitfiles, so
+that one can pre-allocate a buffer for the entire file and know where
+each part of the splitfile goes inside the buffer, knowing their
+lengths.
+</p>
+
+<p class="body">One can implement an equivalent function to this for
+just CHKs by base64 decoding the CHK routing key (the part before the
+',') and inspecting the 3rd to last byte; it's the log2 size of the
+entire document.  Be careful with your base64 decoder, freenet uses a
+different table than the standard one.</p>
+
+  <hr>
