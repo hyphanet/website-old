@@ -12,7 +12,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>27th August, 2004 : Stable build 5099, Stable network reset</b>
+<b>27th October, 2004 : Stable build 5099, Stable network reset</b>
 <p>Stable build 5099 has been released, all users running the stable
 branch should upgrade as this build contains numerous important bugfixes,
 mostly related to inserts. The network has been reset because of this.
