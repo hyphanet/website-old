@@ -392,18 +392,19 @@ EndMessage
 Success
 PublicKey=&lt;string: public Freenet key&gt;
 PrivateKey=&lt;string: private Freenet key&gt;
+CryptoKey=&lt;string: entropy for encryption&gt;
 EndMessage
 </pre>
 
 <p>The public and private keys are returned as Freenet-base64 encoded strings. 
   These can be used to construct URIs for inserting SSKs:</p>
 
-<pre>(insert) freenet:SSK@&lt;PrivateKey&gt;/&lt;name&gt;
+<pre>(insert) freenet:SSK@&lt;PrivateKey&gt;,&lt;CryptoKey&gt;/&lt;name&gt;
 </pre>
 
 <p> Note: the public key is not sufficient to request SSKs as the private key is for inserting.  Attempting to use the public key as follows: </p>
 
-<pre>(request) freenet:SSK@&lt;PublicKey&gt;/&lt;name&gt;
+<pre>(request) freenet:SSK@&lt;PublicKey&gt;,&ltCryptoKey&gt;/&lt;name&gt;
 </pre>
 
 <p> will result in an invalid key error; there are bits added to the
@@ -411,6 +412,10 @@ end of the public key that are necessary for generating a proper
 request.  The only way to be sure that your request key is correct is
 to use the return value of <code>GenerateCHK</code> (for CHKs) or the
 <code>Pending</code>/<code>Success</code> response on insert.</p>
+
+<p> The use of CryotoKey in URIs is optional, but it will protect your
+data from being decrypted by a dictionary attack against the name part
+of the key. </p>
 
 <b>InvertPrivateKey</b>
 
