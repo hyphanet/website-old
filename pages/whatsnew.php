@@ -3,7 +3,34 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
-Date: Thu, 26 Aug 2004 21:37:57 +0100
+<LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
+<b>Build 5095</b><p>
+<pre>
+For earlier builds: see maillist.
+
+Freenet stable build 5095 is now available. Please upgrade, test, and
+report bugs.
+
+To upgrade:
+On Windows, use the update option on the start menu, if it is there.
+On linux, stop the node, run update.sh, and start it.
+On any platform, stop the node, fetch
+http://freenetproject.org/snapshots/freenet-latest.jar and overwrite
+your existing freenet.jar with it, then restart the node.
+
+This bug fixes some more queueing bugs, which may have caused the node
+to go into an infinite loop running the queue, or responding very
+slowly, using 100% CPU, not responding to the web interface, and not 
+sending any requests.
+
+I apologize for the recent flood of new stable builds; queueing was a
+fairly significant change architecturally despite not being much code;
+thus we have some new bugs, some of which are quite significant. Not
+much work has been done to optimize queueing's CPU usage yet; if you
+have problems with this please tell us, and we will be more likely to
+do something about it. Optimizations would probably introduce more bugs,
+so haven't been an immediate priority...
+</pre>
 
 <LI> <span style='color:blue'>Date: Thu, 26 Aug 2004 21:37:57 +0100</b></a></span><P>
 <b>Build 5092</b><p>
