@@ -3,6 +3,8 @@
 The following persons, organisations and companies have generously
 sponsored this project through donations or discounts on hardware and services:
 <ol>
+<li><a href="http://www.defcon.org/">DEF CON</a><br>
+DEF CON is the world's largest annual hacker convention, held every year in Las Vegas, Nevada.
 <li><a href="http://www.verbumvanum.org/">Verbum Vanum</a><br>
 VerbumVanum is a site for free online storage and distribution of written
 knowledge and art; thesises, books, endworks, researchpapers, etc... 
