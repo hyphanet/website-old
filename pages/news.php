@@ -15,7 +15,12 @@ innovations such as the Internet would have been delayed by years, perhaps even
 indefinitely.  The EU has been heavily lobbied by those that stand to gain from
 the introduction of software patents (including the Patent departments of companies
 like Nokia) so it is essential that innovators, and those that care about innovation, 
-make their feelings heard.  Visit the link above to learn more.
+make their feelings heard.
+<p>
+If you want to learn more please visit the link above.  You
+may also be interested in a <a href="http://slashdot.org/~Sanity/journal/60471">template</a>
+for a letter to your political representative written by Freenet Project Coordinator, Ian 
+Clarke (it is UK-centric, but can easily be modified for other countries).
  
 <p><b>8th March, 2004 - DEF CON donates $1,500 to the Freenet Project</b></p>
 <a href="http://www.defcon.org/">DEF CON</a> Communications, Inc has generously 
