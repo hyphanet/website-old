@@ -13,7 +13,7 @@
   in order to function as well as it does.</p>
 
 <p class="body">This version of FCPTools is currently in CVS under the tag FCP_0_4_7, 
-  while CVs HEAD is the new version that I will only announce the release of once 
+  while CVS HEAD is the new version that I will only announce the release of once 
   I've put in the time that's needed to complete all the modules for a fully functional 
   fcpputsite. Even with transparent FEC encoding of large site files! This will 
   show the functioning of ezFCPlib within fcpputsite and how it can be used in 
@@ -44,7 +44,7 @@ Source tarballs are available from the <a href='http://freenetproject.org/snapsh
   Latest version in <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/">CVS 
   HEAD</a> (mainly of interest to developers).<br>
   <a href='http://freenetproject.org/snapshots/fcptools-stable.tgz'>fcptools-stable</a>: 
-  The version covered in this document; tagged in CVs under <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/?only_with_tag=fcp_0_4_7">FCP_0_4_7</a>.</p>
+  The version covered in this document; tagged in CVS under <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/?only_with_tag=fcp_0_4_7">FCP_0_4_7</a>.</p>
 
 <p class="body">
 Uncompress the source as follows:</p>
