@@ -22,7 +22,7 @@ Sometimes, with all the tech babble and the problems and all that, I ask myself 
 
 <p>This project has the ultimate potential: it deprives people, and, as an extention, governments, of the *power* to impose their will/censorship on others. Are people telling crap? Well, make something that debunks what they say, point. But don't forbid it, because that's exactly what THEY would do if they are in power. <p>
 
-Yes, it's the potential of making the power that the government (and corporations, and, yes, my friends) seem to think they have the perogative of, to become totally obsolete, that made me interested in Freenet. With a system as Freenet (when it will be fully working, they can shout and do all they want, my ideal of a free society with a free flow of opinions will be there (at least in cyberspace). There might be drawbacks, as with any technology (and it's consequences), but all by all, it's worth it. <p>
+Yes, it's the potential of making the power that the government (and corporations, and, yes, my friends) seem to think they have the perogative of, to become totally obsolete, that made me interested in Freenet. With a system as Freenet (when it will be fully working ;-), they can shout and do all they want, my ideal of a free society with a free flow of opinions will be there (at least in cyberspace). There might be drawbacks, as with any technology (and it's consequences), but all by all, it's worth it. <p>
 /*end rant*/
 <p>
 </i>
