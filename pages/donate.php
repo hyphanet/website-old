@@ -2,7 +2,7 @@
 <blockquote>
 <B>ALERT</B>: Paypal has frozen our account, they refuse to give any reason other than "use 
 of an anonymous proxy", which suggests that someone at Paypal took a dislike to the goals 
-of our project, since tI have never used an anonymous proxy to access Paypal (this being 
+of our project, since I have never used an anonymous proxy to access Paypal (this being 
 the activity I assume they sought to prevent).  It is fortunate that the anonymous authors 
 of The Federalist Papers, the precursor to the US Constitution, did not rely on Paypal to fund 
 their activities or, one assumes, their account would have been frozen too.  
