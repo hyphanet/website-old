@@ -4,7 +4,7 @@
 
 <h3>Windows</h3>
 Download and run    
-<big><ahref="http://freenetproject.org/snapshots/freenet-webinstall.exe"></big><br><br>freenet-webinstall.exe</a>.  
+<big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>.  
 It will automatically install Freenet and other required components for you.  When done, 
 double-click on the small blue rabbit icon in your task-tray.  Freenet will works best with <b>Windows 2000 or XP.</b>
 <h3>Unix</h3>
