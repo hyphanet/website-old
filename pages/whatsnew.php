@@ -20,7 +20,9 @@ updated soon.
 
 This fixes a bug that went into 5071 by mistake, that could cause the
 node not to start, or other bad things. Please upgrade. Apologies for
-releasing a new stable build so soon after the first one.
+releasing a new stable build so soon after the first one.<p>
+
+<hr>
 
 
 
@@ -37,7 +39,9 @@ All stable branch users should upgrade.
 
 The main change in this build is a fix for a memory leak. This may not
 be fully fixed yet but is drastically reduced from 5070. Also there is a
-significant rate limiting fix, and lots of minor fixes. Please upgrade.
+significant rate limiting fix, and lots of minor fixes. Please upgrade.<p>
+
+<hr>
 
 
 
