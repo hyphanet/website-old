@@ -1,3 +1,13 @@
+<font size="+3"><B>External Websites</B></font>
+<p>
+<i>Please note that the Freenet Project is not responsible for 
+the accuracy of information on websites linked from this page.<i>
+</p>
+<p>
+<a href="http://freenethelp.org/">FreenetHelp.org</a> 
+This is a website maintained by Freenet users with a vast amount of 
+information and tips for getting the most from Freenet.
+</p>
 <font size="+3"><B>Mailing Lists</B></font> (<a href="http://www.freenetproject.org/index.php?page=mailsum">summary</a>)</h4><P>
 
 <i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
