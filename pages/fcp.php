@@ -189,18 +189,18 @@ JavaName=&lt;string: free form&gt;
 JavaVersion=&lt;string&gt;
 AllocatedMemory=&lt;number&gt;
 FreeMemory=&lt;hex number&gt;
-DatastoreMax=&lt;number&gt;
-DatastoreFree=&lt;hex number&gt;
+DatastoreMax=&lt;hex number&gt;
 DatastoreUsed=&lt;hex number&gt;
-MaxFileSize=&lt;hex number&gt;
+DatastoreFree=&lt;number&gt; (confirm; 1 out of 3 is decimal?)
+MaxFileSize=&lt;number&gt;
 MostRecentTimestamp=&lt;hex number&gt;
 LeastRecentTimestamp=&lt;hex number&gt;
-RoutingTime=&lt;number&gt;
-AvailableThreads=&lt;number&gt;
-ActiveJobs=&lt;number&gt;
+RoutingTime=&lt;number&gt; (0)
+AvailableThreads=&lt;number&gt; (decimal?)
+ActiveJobs=&lt;number&gt; (decimal?)
 NodePort=&lt;hex number&gt;
 NodeAddress=&lt;string&gt;
-EstimatedLoad=&lt;number&gt;
+EstimatedLoad=&lt;number&gt; (decimal?)
 IsTransient=&lt;true|false&gt;
 EndMessage
 </pre>
