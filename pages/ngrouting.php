@@ -250,7 +250,7 @@ is optimal.  Now clearly there will always be room for refinement
 in the manner in which the new algorithm estimates routing times
 </ul>
 <h3>Current Status</h3>
-At the time of writing, implementation of N.G Routing is well-underway, although
+At the time of writing, implementation of N.G Routing is well underway, although
 nodes using it have yet to be widely deployed in the wild.  If you are interested
 in following its progress, feel free to sign up to the <a href="http://hawk.freenetproject.org:8080/mailman/listinfo/announce/">
 Announcements</a> mailing list.
