@@ -1,8 +1,7 @@
-<!-- Please keep this to at-most 2 news items, and if it is more than a
+<!-- Please keep this to at-most 5 news items, and if it is more than a
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
-
-<br><h3>News</h3>
+<h3>News</h3>
 <p><b>7th May, 2003 - Website problems</b><br>
 We are currently experiencing some website problems and are in the process
 of rebuilding the site from backups - please bear with us.
