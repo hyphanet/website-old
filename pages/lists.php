@@ -40,7 +40,6 @@ you are talking about, otherwise use the tech mailing list (see above).
 (<a class='wiki'  href='http://news.gmane.org/gmane.network.freenet.cvs'>archive</a>)
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 <p>
-<br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/mailman/listinfo/chat/'>Chat</a> (<a 
 class='wiki'  href='http://news.gmane.org/gmane.network.freenet.general'>archive</a>)
