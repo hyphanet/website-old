@@ -22,4 +22,5 @@ onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 item("Download", "download");
 item("Applications", "applications");
 item("Mailing Lists", "mailinglists");
+item("Donate", "donate");
 ?>
