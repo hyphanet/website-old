@@ -342,7 +342,7 @@ heisenbugs being reported in your logfile and are running a current version of f
 to the mailinglist.
 
 <p><b id="whatsnew">What's new?</b><br>
-To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b>
+To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b></a>
 
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
