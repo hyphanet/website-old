@@ -6,7 +6,7 @@ style). -->
 <p>
 <b>03/03/04 - Freenet Help Site available</b></p>
 An unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usuage and  inner-workings of Freenet.
-
+<p>
 
 <b>26th February, 2004 - Freenet Stable build 5072 released</b></p>
 This new build incorporates the new "rate limiting" load balancing 
