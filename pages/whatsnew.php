@@ -3,6 +3,92 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Fri, 06 Aug 2004 19:49:50 +0100</b></a></span><P>
+<b>Build 5090</b><p>
+
+<pre>
+Stable build 5090 is now available. The snapshots have been updated.
+Please upgrade ASAP, unless you are using the unstable branch. You can
+do this on Windows by using the update option on the start menu. On
+Linux, OS/X etc, you can update by using the update.sh script (and
+restart the node). You can alternatively shut down your node and
+download http://freenetproject.org/snapshots/freenet-latest.jar over
+your existing freenet.jar, then restart your node. If you are currently
+on a build prior to 5089, then you will also need to reseed.
+
+CHANGELOG:
+Routing:
+* Fixed a major 4 month old bug that was causing Route Not Found errors
+  to happen more quickly and more often than they should. This probably
+  did other bad things too.
+* Most of the global estimators were wiped on startup resulting in
+  less accurate routing and possibly rate limiting.
+* When reseeding, don't include nodes so old that we won't talk to them.
+Rate limiting:
+* Improvements to globalQuota (rate limiting's "how many total requests
+  should we aim for?" function): Average globalQuota, not the load put
+  into it (otherwise we have inertia in the wrong place which makes
+  oscillations worse), calculate the maximum number of requests we can
+  handle based on bandwidth usage and probability of success and don't
+  let globalQuota get any higher than that (should smooth rate
+  limiting).
+* Use a longer time period for the various averages and counters used
+  by rate limiting. This should reduce the effects of long-lived
+  requests on rate limiting.
+* Add a new form of high-level bandwidth limiting, which predicts the
+  expected outbound bandwidth usage based on current request rate and
+  probability of an incoming request causing a transfer. Should smooth
+  out rate limiting.
+Padding:
+* Don't send RequestInterval's on FNP messages. Don't parse them if we
+  receive them. They are unnecessary as all nodes on the new stable
+  network understand the new (small, fixed size) MRI messages. We can
+  therefore reduce the padding interval from 200 bytes to 160 bytes.
+UI changes:
+* Two new values on the General infolet.
+* Minor HTML fixes on the Open Connections page.
+Misc:
+* Fix runaway receiving transfers count on the Open Connections page.
+  This was a reporting bug, we were not really receiving hundreds (in
+  some cases) of files.
+* If a config file parameter is misspelled or otherwise corrupt, we used
+  to throw a ClassCastException and refuse to start. This is a fairly
+  common support problem. Now we provide a much more informative message
+  to stderr and the log file, and attempt to use the default value for
+  the param.
+* Accept multipliers (kKmMgG) on integers and shorts (different kinds of
+  whole number options) in the config, as well as on longs. Practical
+  upshot: You can now do "outputBandwidthLimit=10k".
+* Don't start the node if another node is running. This is enforced
+  using locking a lock file.
+* Don't change the node file unless the address detected has actually 
+  changed, and add synchronization to prevent race in the address
+  redetect function. Both of these fix the node renaming error messages
+  sometimes seen shortly after startup.
+* Get rid of WriteSelectorLoop.fixKeys, cause of the fixKeys error
+  messages. Hopefully this is unnecessary. It was a workaround for
+  perceived issues in NIO, which probably don't exist. :)
+* Fix some NullPointerException's.
+* Delete some useless code, including code for backwards compatibility
+  with 5084. Some of the nastier bugs in 5085-5088 came from this code.
+* Minor bug fixes (hopefully) in diagnostics.
+* Bug fix relating to message construction, probably wouldn't cause
+  problems in this build but did in 5088.
+* Minor improvements to the Distribution Servlet: Use the right size
+  bucket (slight efficiency improvement), support temp dir and distrib
+  dir on different volumes.
+* Logging improvements
+* Update copyright notices on freenet/support/CPUInformation/*CPUInfo.
+New diagnostic variables:
+* outputBytesMRI (bytes used for sending low level MRI messages)
+* outputBytesPaddingOverhead (bytes used only for padding messages out
+  to a "safe" size)
+* outputBytesTrailerChunksInsert (bytes used to send files for inserts)
+* requestTransferTime (time taken by successful file transfers)
+* requestCompletionTime (total time taken by successful requests)
+</pre>
+<hr>
+
 <LI> <span style='color:blue'>Date: Wed, 04 Aug 2004 21:56:21 +0100</b></a></span><P>
 <b>Build 5089</b><p>
 
@@ -38,7 +124,7 @@ instead of no nodes because of you.
 For changelog of crappy builds 5086 to 5088; see maillist.
 </pre>
 
-
+<hr>
 
 
 <LI> <span style='color:blue'>Date: Fri, 23 Jul 2004</b></a></span><P>
@@ -94,6 +180,8 @@ to prevent the disk filling up, two new stats, node_<number> renamed to
 node, and loads of internal refactoring (moving code around, deleting
 dead code).
 </pre>
+
+<hr>
 
 <LI> <span style='color:blue'>Date: Wed, 02 Jun 2004</b></a></span><P>
 <b>Build 5084</b><p>
