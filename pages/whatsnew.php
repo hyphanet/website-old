@@ -6,6 +6,35 @@
 <P>
 <BR>
 <P>
+<LI> <span style='color:blue'>Date: Sun, 08 Feb 2004 02:31:14 +0000</b></a></span><P>
+<b>Build 5066</b><p>
+
+Freenet stable build 5066 is now available. The snapshots have been
+updated. Get it via the update.sh script on Linux, BSD, or OS/X, or use
+the freenet-webinstall.exe utility to update on Windows, or get the jar
+from http://freenetproject.org/snapshots/freenet-latest.jar . All stable
+branch users should upgrade. You will also need to reseed your node: get
+a new seednodes.ref from
+http://freenetproject.org/snapshots/seednodes.ref . This build is not
+compatible with older stable builds.
+<p>
+We have merged several weeks' work in this build. Specifically, rate
+limiting, which is a new way of balancing load on Freenet, and a bug fix
+in the datastore, which could have been quite nasty (causing the LRU
+list in the datastore to be wrong, and the node to get jammed for a
+while every time a file was committed). Subjectively, the unstable
+network seems to work fairly well with this code, although there are a
+few concerning stats, so we decided it needs wider testing. Hopefully
+the stable branch will work significantly better as a result of the new
+code. Of course it will initially as it is small, the test comes when it
+gets bigger. Please upgrade and reseed.
+<P>
+
+
+
+
+
+
 <LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 21:02:21 +0000</b></a></span><P>
 <b>Build 5065</b><p>
 
