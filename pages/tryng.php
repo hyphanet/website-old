@@ -2,16 +2,14 @@
 This page will provide a quick explanation of how you can try out
 the just-implemented Next Generation routing algorithm that is
 described in <a href="/index.php?page=ngrouting">this</a> article.
-Please bear in mind that this stuff isn't even stable enough to
-be in the unstable CVS branch yet.
 <p>
 Here are the steps:
 <ol>
 <li>Install Freenet as normal for your platform
 <li>Rename the <b>freenet.jar</b> file in your Freenet folder to 
 <b>freenet-stable.jar</b>.
-<li>Download <a href="http://freenetproject.org/snapshots/freenet-exp-latest.jar">
-http://freenetproject.org/snapshots/freenet-exp-latest.jar</a> and save it
+<li>Download <a href="http://freenetproject.org/snapshots/freenet-unstable-latest.jar">
+http://freenetproject.org/snapshots/freenet-unstable-latest.jar</a> and save it
 in your Freenet folder as <b>freenet.jar</b> (this will overwrite the
 existing freenet.jar file if you failed to follow the previous step).
 <li>If there is a line in your <b>freenet.conf</b> or <b>freenet.ini</b>

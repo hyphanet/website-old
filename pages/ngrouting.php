@@ -250,10 +250,8 @@ is optimal.  Now clearly there will always be room for refinement
 in the manner in which the new algorithm estimates routing times
 </ul>
 <h3>Current Status</h3>
-At the time of writing, implementation of N.G Routing is well underway, although
-nodes using it have yet to be widely deployed in the wild.  If you are interested
-in following its progress, feel free to sign up to the <a href="http://hawk.freenetproject.org:8080/mailman/listinfo/announce/">
-Announcements</a> mailing list.
+NGRouting is now being tested in our "unstable" branch - you can find instructions
+for testing it <a href="index.php?page=tryng">here</a>.
 <h3>Interested in helping?</h3>
 In addition to joining our development effort, you can really help us to make
 this all a reality by donating whatever you can spare to the project on our
