@@ -24,11 +24,6 @@
 <br />
 <br />FreeWeb allows websites to be inserted into Freenet. This tool does not appear to be currently maintained.
 <br />
-<br /><b>KIO Freenet</b>
-<br />
-<br />KIO Freenet is a KDE IO-Slave, which provides KDE applications the ability to retrieve content from Freenet via FCP. <a class='wiki'  href='http://www.freenetproject.org/snapshots/kio_freenet.bz2'>Download the source</a> and follow the instructions in INSTALL (<b>experimental</b>).
-
-<br />
 <br /><h3>Message Board Tools and File Sharing tools
 </h3>
 <br /><a class='wiki'  href='http://jtcfrost.sf.net/'><b>Frost</b></a>
