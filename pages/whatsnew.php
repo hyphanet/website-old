@@ -7,6 +7,56 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Sat, 06 Mar 2004 02:53:49 +0000</b></a></span><P>
+<b>Build 5074</b><p>
+
+Freenet stable build 5074 is now available. The snapshots will have been
+updated sometime in the next few hours. Once that has happened, you can get
+build 5074 via the update.sh script on Linux, BSD, or OS/X, or use the
+freenet-webinstall.exe utility to update on Windows, or get
+the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
+All stable branch users should upgrade.<p>
+
+Major changes:<p>
+* Fixed a major memory leak.<p>
+* Fixed a minor routing problem (the overall probability estimators,
+  used for various purposes, were always exactly 1.0).<p>
+* Fixed a more major routing problem (very high routing table churn caused
+  by us being too quick to poach references from requestors).<p>
+* Lots of changes to the HTML interface to the node; hirvox has been
+  doing lots of good work on this. The new template system will be much
+  more flexible.<p>
+* New diagnostic var inputBytes.<p>
+* Lots of minor changes, optimizations, etc.<p>
+
+<hr>
+
+
+
+<LI> <span style='color:blue'>Date: Wed, 03 Mar 2004 16:15:27 +0000</b></a></span><P>
+<b>Build 5073</b><p>
+
+
+Freenet stable build 5073 is now available. The snapshots are being
+updated. You can get it via the update.sh script on Linux, BSD, or OS/X,
+or use the freenet-webinstall.exe utility to update on Windows, or get
+the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
+All stable branch users should upgrade. The snapshots have been updated.
+<p>
+Changelog:<p>
+* Fixed a fairly major deviation from freenet's original design goals:
+  the attacker must not be able to probe for data without causing it to
+  be distributed more widely. Specifically, if the requestor cancels a
+  transfer, we should still transfer the data. Of course this means that
+  nodes can DoS the network by requesting data and then cancelling the
+  transfer; we will instigate some sort of blacklisting to try to
+  discourage this, but it is not an immediate priority.<p>
+* Fix a NullPointerException in the TransferInsert state.
+<p>
+<hr>
+
+
+
 <LI> <span style='color:blue'>Date: Thu, 26 Feb 2004 01:16:18 +0000</b></a></span><P>
 <b>Build 5072</b><p>
 
@@ -17,7 +67,7 @@ or use the freenet-webinstall.exe utility to update on Windows, or get
 the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
 All stable branch users should upgrade. The snapshots should have been
 updated soon.
-
+<p>
 This fixes a bug that went into 5071 by mistake, that could cause the
 node not to start, or other bad things. Please upgrade. Apologies for
 releasing a new stable build so soon after the first one.<p>
@@ -390,16 +440,8 @@ Changelog:<p>
   practical impact.<p>
 <P>
 
-</td>
 <tr>
 <td align="right" valign="bottom">
-<BR>
-<P>
-<BR>
-<P>
-<BR>
-<P>
-<BR>
 Want to help? Make a summary of a discussion on the freenet maillist and send it to <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 </td>
 
