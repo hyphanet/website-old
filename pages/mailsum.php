@@ -7,7 +7,8 @@
 <P>
 <LI> <span style='color:blue'><a href="http://www.freenetproject.org/index.php?page=mailsum1103"><b>November
 </b></a></span><P>
-<br>
+<LI> <span style='color:blue'><a href="http://www.freenetproject.org/index.php?page=mailsum1203"><b>December
+</b></a></span><P>
 </td>
 <tr>
 <td align="right" valign="bottom">
