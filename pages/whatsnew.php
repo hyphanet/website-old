@@ -5,6 +5,140 @@
 For missing or other builds: see the maillist or the wikipages 'Latest Stable' and 'Latest Unstable' on www.freenethelp.org.</br>
 <hr>
 
+<LI> <span style='color:blue'>Date: Mon, 22 Nov 2004 16:14:37 +0000</b></a></span><P>
+<b>Build 5099</b><p>
+<pre>
+
+
+Freenet stable build 5100 is now available. The snapshots have been
+updated. Please upgrade.
+Changes:
+- Removed the (primary) failure table. This may have been causing many
+  fast DNFs recently on files that may well actually be available, but
+  which through getting requests and failing have gotten into the
+  failure tables on many nodes. There is a risk that removing the
+  failure table may increase network load; if this happens, we have
+  various options for dealing with it. Until recently there were very
+  few files blocked by the failure table, but there have been recent
+  reports of large numbers of blocks, possibly caused by increased node
+  specialization.
+- Minor client-layer bugfixes - NullPointerExceptions in
+  SegmentOutputStream turned into error messages. I haven't fixed the
+  underlying cause of the error messages yet, but things should work
+  better with the errors than with the NPEs (which were also errors!).
+</pre>
+<hr>
+
+
+
+<LI> <span style='color:blue'>Date: Tue, 26 Oct 2004 00:20:40 +0100</b></a></span><P>
+<b>Build 5099</b><p>
+<pre>
+
+
+Stable build 5099 is now available widely. This is a stable network
+reset; you WILL need to reseed if you are still on 5096 or earlier.
+Thanks to all who helped to test 5097, 5098 and 5099. Thanks partly to
+their efforts, this build appears to have greatly improved insert 
+performance relative to 5096, and there are 64 nodes of build 5099 in
+the seednodes, so upgrading should be relatively uneventful. You may be
+able to use the update utility on Windows, or update.sh on Linux. If
+this does not work, for example if your node connects to zero nodes
+after startup, download seednodes.ref manually from 
+http://freenetproject.org/snapshots/ , and save it over your existing
+seednodes.ref . If you can't use the updater you will also need to get
+freenet-latest.jar, which replaces freenet.jar. In any case you will
+need to turn off the node before updating. If you have any problems
+contact us.
+
+The changes in this build are numerous, the highlights:
+- Much better insert performance due to numerous bug fixes, some of
+  which were quite serious, and some minor architectural changes 
+  relating to inserts.
+- New simulator application merged to stable. Not usable by most end 
+  users, but has been producing a lot of interesting results for us.
+  Please do not try to slashdot us on the simulation; when we have 
+  some more results we will put up a page showing our findings, with
+  lots of graphs.
+- Lots of minor code cleanups.
+- A few other minor changes.
+
+</pre>
+<hr>
+
+
+<LI> <span style='color:blue'>Date: Fri, 24 Sep 2004 19:53:55 +0100</b></a></span><P>
+<b>Build 5096</b><p>
+<pre>
+
+Freenet stable build 5096 is now available. The snapshots have been
+updated. Please upgrade to 5096, test it, and report any bugs that you
+find. You can do this by using the update utility on windows (on the
+start menu), or by running update.sh in linux, or by downloading the new
+jar from http://freenetproject.org/snapshots/freenet-latest.jar. Either
+way, it's probably a good idea to shut down the node before doing so
+(and turn it back on afterwards!).
+
+There are many changes in this build, here are some of them:
+- 5095 is now mandatory. Queueing wasn't really working adequately until
+  5095. However the overwhelming majority of nodes at least in my RT are
+  5095, so there is hopefully no problem here...
+- Lots of work on timeouts, in response to recent problems with inserts.
+  It is likely that the recent insert problems have been caused by
+  insert timeouts being wrong, partly by not taking queueing into account.
+- A major routing bugfix in the estimator smoothing code. This is used
+  mostly when a node is relatively young.
+- New, optional, but enabled by default, super-fast routing estimators.
+  These are slightly lower precision than the original estimators, and
+  were developed as part of the recent simulation efforts. These are
+  based on double precision arithmetic (64 bits, 53 of which are
+  "mantissa" i.e. actual value, we can use), which is accelerated in
+  hardware by most modern CPUs, instead of 160-bit BigIntegers. We 
+  believe that doubles provide sufficient precision; the simulations
+  suggest there are no serious bugs in the changeover of this particular
+  code. 53 bits should be enough even for a very large network... In any
+  case the new code is 3-4x faster (in terms of CPU usage, not routing
+  effectiveness or how fast it learns). This is a big part of freenet's
+  overall CPU usage, so expect improvements, especially on low end
+  machines. Turn this off by setting useFastEstimators=false in
+  freenet.conf/freenet.ini. 
+- Also you can use doEstimatorSmoothing to enable or disable estimator
+  smoothing; the results from the simulations on estimator smoothing are
+  unclear at present.
+- Transfer failures are handled better by Fproxy, there is now a proper
+  error message instead of the unfriendly exception messages we have
+  been seeing reported on devl and support recently.
+- Much improved Current Downloads page thanks to Iakin (Niklas Bergh).
+  And related bugfixes.
+- Partial fixes and workarounds for the "Too high probability" bug. I
+  don't think we have finally fixed the cause of this bug, but at least
+  it will be recovered from virtually instantly. We may have fixed it
+  completely however.
+- We now have a histogram of the versions of only connected nodes, as
+  well as the histogram of versions of all nodes in the routing table.
+- Added some missing images for the "simple" theme
+  (UITemplateSet=simple).
+- Lots of routing refactoring by Thelema (Edgar Friendly).
+- Workaround for an infinite loop bug in queueing that I haven't been
+  able to reproduce and fix yet. Will log an error if it happens.
+- Workaround for a bug in some Sun JVMs, that causes
+  BigInteger.toString(16) to cause an NPE. We now use our own code to
+  dump BigIntegers.
+- Fix a rare NPE in MuxConnectionHandler
+- Extra checks for invalid MRIs
+- Added a method to AutoRequestor to calculate the CHK we would get if
+  inserting a file, given a specific content type, by Vesa Salento. I
+  think this may make freenet.client.cli.Main computechk work correctly,
+  but I haven't tested this.
+- Paranoia to ensure we never send an HTL over our limit. I don't think
+  current builds do this; I know some older ones did.
+- start-freenet.sh was still not setting LD_ASSUME_KERNEL for some
+  systems. Fixed it.
+- Many other minor fixes.
+</pre>
+
+
+
 <LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
 <b>Build 5095</b><p>
 <pre>
