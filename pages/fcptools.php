@@ -1,38 +1,8 @@
  <h1>Freenet Client Protocol Tools (FCPTools)</h1>
 
  <p>First check the documentation for <a href="http://freenetproject.org/index.php?page=FCPlib">FCPLib</a>. Everything 
- that applies to FCPLib also applies to FCPTools. To repeat a few things: </p>
- <p>The version in CVS is 0.4.9 and works well for what it claims to support. 
- Admittedly there are missing features here and there, and these will get most 
- of my attention in the near future. For example:</p>
- <ul>
-
-   <li>Metadata support is spotty, so not yet 
-        supported. Further, where metadata is actually stored needs to change 
-        (metadata stored in CHKs). 
+ that applies to FCPLib also applies to FCPTools.</p>
  
-   <li>FEC inserts supported, but not FEC retrieves. 
- 
-   <li>Multithreading not supported, nor even desirable for the library itself. 
-   Any scheduler should be built on <i>top</i> of FCPLib.</li>
-</ul>
- <p>Some things have been improved:</p>
- <ul>
-   <li>Thoroughly checked and fixed most, if not all memory leaks. This should 
-   allow FCPLib to loaded into RAM for extended periods of time without 
-   problems.</li>
-
-   <li>Insert and retrieve logic is not redundant; it is shared. For example, 
-   the same code that inserts data into Freenet for splitfiles is used later to 
-   insert metadata, meaning each operation works equally well within the chain 
-   of commands.</li>
-   <li>Metadata is not supported, however it is processed when required (for 
-   example, retrieving a key containing a Redirect target).</li>
-   <li>All the documented functions for inserting and retrieving can be used 
-   more than once on a handle without having to close the handle and re-open it.</li>
-   <li>The functions for inserting and retrieving single files is identical for 
-   splitfiles.</li>
- </ul>
  <h2>What are the FCPTools?</h2>
 
  <p>The FCPTools are command-line driven programs for inserting and retrieving 
