@@ -2,12 +2,12 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
-<p><b>23rd June, 2003 - Ian responds to Peacefire paper</b>
+<p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
 Ian just posted a <a 
 href="http://slashdot.org/~Sanity/journal/37275">response</a> 
-to Bennett Haselton's paper "Why a 
+to Bennett Haselton's paper <i>Why a 
 "distributed cloud" of peer-to-peer systems will not be able to 
-circumvent Internet blocking in the long run" on his <a 
+circumvent Internet blocking in the long run</i> on his <a 
 href="http://slashdot.org/~sanity/journal">weblog</a> today.  In it 
 he argues that the attack Bennett describes, while being a 
 theoretical possibility, would be practically impossible even for the 
