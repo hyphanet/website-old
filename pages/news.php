@@ -2,6 +2,19 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
+<b>6th August, 2004 : Stable build 5090, Stable network reset</b><br>
+Stable build 5090 has now been released, all users running the stable
+branch should upgrade as this build contains numerous important bugfixes,
+including a fix for a 4-month-old bug that was causing lots more Route
+Not Found errors than there should be. Also, the stable network has been
+reset as of 5090, so you will need to reseed. This is partly because of
+the big changes in 5085, and partly because of bugs in 5085 up to 5088.
+Instructions for installing or upgrading are <a href="/index.php?page=download">
+here</a>. A more detailed list of changes may be found on 
+<a href="http://article.gmane.org/gmane.network.freenet.support/5090">
+the announcement</a>, or for the real Freenet geeks out there, the low 
+level changelog is on the 
+<a href="http://news.gmane.org/gmane.network.freenet.cvs">CVS list archive</a>.
 <b>23rd July, 2004 : Stable build 5085</b><br>
 Stable build 5085 has now been released, all users running the stable
 branch should upgrade as this build contains important bugfixes and
