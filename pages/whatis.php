@@ -1,4 +1,4 @@
-<h3>What is Freenet?  An Executive Summary</h3>
+<h3>What is Freenet?</h3>
 Freenet is free software which lets you publish and obtain information on the Internet without fear of censorship.  To achieve this freedom, the network is entirely decentralized and publishers and consumers of information are anonymous. Without anonymity there can never be true freedom of speech, and without decentralization the network will be vulnerable to attack.
 
 <p>
