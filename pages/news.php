@@ -15,6 +15,7 @@ earlier but the network performance was unacceptable for a release.
 As always, we need more <a href="/index.php?page=donate">donations</a>
 to continue the work.
 </p>
+<!-- shorten the news, don't scare noobs & idiots away
 <p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
 Ian just posted a <a 
 href="http://slashdot.org/~Sanity/journal/37275">response</a> 
@@ -40,4 +41,5 @@ appeal for your financial support.  If you can afford to - please visit
 our <a href="/index.php?page=donate">donations</a> page, you can 
 contribute with a credit card through Paypal, or via E-Gold if you 
 prefer.
+-->
 
