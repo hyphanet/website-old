@@ -30,4 +30,6 @@ class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 
 <br /><br />
-
+<P>
+People that want to support Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any other way</a>, by contributing artwork, new ideas, correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are welcome to <mailto:newsbyte@freenetproject.org>email</a>.
+</p>
