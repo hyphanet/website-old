@@ -41,13 +41,17 @@
 </li><li><a href="#roadmp">Is there a future roadmap of Freenet?</a>
 
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
-</li><li><a href="#whatsnew">What's new?</a>
+</li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
+</li><li><a href="#stabchange">How can I change from stable to unstable?</b><br>
+
+
 </li></ol>
 <h2> Publisher questions
 </h2><ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
 </li><li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a>
 </li><li><a href="#update">Can Freenet documents be updated / deleted?</a>
+
 
 </li></ol>
 <h2> Contribution questions
@@ -341,13 +345,21 @@ a piece of code should have been synchronized (a java method of locking) but was
 heisenbugs being reported in your logfile and are running a current version of freenet, please report them
 to the mailinglist.
 
-<p><b id="whatsnew">What's new?</b><br>
-To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b></a>
+<p><b id="whatsnew">What's new? Is there a changelog?</b><br>
+To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">changelog</b></a>.
 
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
 Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
 to know exactly what went wrong.
+
+<p><b id="stabchange">How can I change from stable to unstable?</b><br>
+<LI>Stop your node.
+<LI>Download http://freenetproject.org/snapshots/freenet-unstable-latest.jar & http://freenetproject.org/snapshots/unstable.ref to your freenet directory.
+<LI>Rename the two new files to freenet.jar & seednodes.ref (overwriting the old ones).
+<LI>It is not  strictly necessary, but it is recommended you open freenet.ini / freenet.conf and change your "listenPort=XYZ" to a new random number (just adding one will do). If you have some firewall settings, remember to change them accordingly! It is also recommended that you wipe your node file and your routing table files to change your node id and start from scratch.
+<LI>Start your node.
+
 
 <h2>Publisher answers
 </h2><p><b id="find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</b><br>
