@@ -3,6 +3,27 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Tue, 04 May 2004 00:30:22 +0100</b></a></span><P>
+<b>Build 5078</b><p>
+
+Freenet stable build 5078 is now available. The snapshots have been
+updated. All stable branch users should upgrade ASAP.<p>
+
+Changelog:<p>
+* Make 5077 mandatory. This is a fairly significant change. 5077 made
+  huge changes, including some fundamental changes to how freenet
+  routes ("bidirectional routing" - all connected nodes may be routed to);
+  for the network to work effectively, we need the whole of stable to be
+  running more or less the same code.<p>
+* Lots of bugfixes.<p>
+* New, cleverer startup script for unix-like systems.<p>
+<hr>
+
+
+
+
+
+
 <LI> <span style='color:blue'>Date: Sun, 25 Apr 2004 02:08:22 +0100</b></a></span><P>
 <b>Build 5077</b><p>
 
