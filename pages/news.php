@@ -3,8 +3,8 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
 <p><b>16th July, 2003 - Freenet 0.5.2 Released!</b><br></p>
-<p>After four months work, Freenet 0.5.2 is now <a href="/index.php?page=download">available
-for <b>download</b></a>.</p> <p>It features a new NIO technology that brings improved performance 
+<p>After four months work, Freenet 0.5.2 is now <a href="/index.php?page=download"><b>available
+for download</b></a>.</p> <p>It features a new NIO technology that brings improved performance 
 using less CPU and system resources. Individual
 nodes are now more efficient and the speed and routing of the entire network have significantly 
 improved.</p><p> We also implemented

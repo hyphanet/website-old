@@ -19,7 +19,8 @@ Download and run
 <br>or, if you already have java 1.4.1 or later installed <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>
 It will automatically install Freenet and other required components for you  (It contains 
 <u><b>no</b> spyware or adware</u> , it's Free Software!). When done, double-click on the small blue 
-rabbit icon in your task-tray.  Freenet works best with <b>Windows 2000, XP Professional or NT.</b> 
+rabbit icon in your task-tray.  <br>Freenet works best with <b>Windows 2000, XP Professional or 
+NT.</b> 
 Windows ME, 98 and 95 work less well.
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 <h3>Unix</h3>
