@@ -2,19 +2,25 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
-<p><b>12th July, 2003 - Freenet 0.5.2-rc4 Released!</b><br></p>
-<p>Freenet 0.5.2 release candidate 4 has been released. You can get 
-it from <a href="/index.php?page=download">the download page</a>.</p>
-<p>After the implementation of NIO in release candidate 3, this release
-concentrates on bugfixing and tuning. NIO should improve performance
-significantly over RC2 or earlier; it should now work on Win9X/WinME,
-and use less CPU and significantly memory than RC3. It also has
-improvements to the splitfile code amongst other areas. The final 
-0.5.2 should be released in the coming days, <i>so please test this one and
-help us find any remaining bugs!</i> </p>
-<p>Freenet development is considerably accelerated by our ability 
-to pay a full time developer out of donations, so please if you 
-like Freenet consider <a href="/index.php?page=donate">donating</a>.</p>
+<p><b>16th July, 2003 - Freenet 0.5.2 Released!</b><br></p>
+After four months work, four prereleases and very many builds, 
+Freenet 0.5.2 is now <a href="/index.php?page=download">available
+for download</a>. It features substantially improved performance 
+and uses significantly less CPU, threads and system resources. In 
+more detail, we now use nonblocking I/O, which lets us handle far more
+connections using far fewer threads, reject less queries, and use less
+amount of CPU time for the same load. This will not only make individual
+nodes more system friendly but it also should significantly improve
+routing and load handling over the entire network. We also implemented
+probabilistic caching, which should improve routing and let Freenet
+as a whole store more data. There were also a number of user interface
+improvements, further improvements to the large file download system,
+a fix for the Heisenbug (caused by random number generator problems),
+and tons of bugfixes. You can download it <a href="/index.php?page=download">
+here</a>. Major changes over RC4 are bugfixes. Progress has only been 
+possible at this rate because the project has been able to pay a
+full time developer for the bargain rate of $1500/month, please consider
+<a href="/index.php?page=donate">donating</a>.</p>
 
 <!-- shorten the news, don't scare noobs & idiots away
 <p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
