@@ -14,7 +14,7 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
 <tr><td width="1"
 id="mn<?=$pos ?>">&nbsp;</td>
       <td nowrap class="menu"><a class="menu"
-href="index2.php?page=<?=$link ?>" onMouseOver="sideOvr('<?=$pos ?>');"
+href="index.php?page=<?=$link ?>" onMouseOver="sideOvr('<?=$pos ?>');"
 onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 <?
   }
