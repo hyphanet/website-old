@@ -1,64 +1,122 @@
-<h1> Freenet Metadata Spec
+<h1> Freenet Metadata Spec </h1>
+<p>Author: Adam Langley, Eric Norige</p>
+<hr/>
+<h2>Table of Contents</h2>
+<ul>
+ <li> <a href="#Na3f">Overview</a></li>
+ <li> <a href="#Na8c">Part Spec</a></li>
+ <ul><li> <a href="#Na91">Redirect (CDC)</a></li>
+     <li> <a href="#Na9f">DateRedirect (CDC)</a></li>
+     <li> <a href="#Nae0">SplitFile (CDC)</a></li>
+     <li> <a href="#Nb55">Info (MC)</a></li>
+     <li> <a href="#Nb63">ExtInfo (MC)</a></li>
+ </ul>
+ <li> <a href="#Nb72">Examples</a></li>
+ <li> <a href="#Nb9a">Handling Other Commands</a></li>
+</ul>
 
-</h1>
-<br/>Author: Adam Langley, Eric Norige
-<br/><hr/>
-<br/><h2>Table of Contents
-</h2>
-<br/><ul><li> <a href="#Na3f">Overview</a>
-</li><li> <a href="#Na8c">Part Spec</a>
-</li><ul><li> <a href="#Na91">Redirect (CDC)</a>
-</li><li> <a href="#Na9f">DateRedirect (CDC)</a>
+<h2><a name="Na3b">Abstract</a></h2>
 
-</li><li> <a href="#Nae0">SplitFile (CDC)</a></dt>
-</li><li> <a href="#Nb55">Info (MC)</a></dt>
-</li><li> <a href="#Nb63">ExtInfo (MC)</a>
-</li></ul><li> <a href="#Nb72">Examples</a>
-</li><li> <a href="#Nb9a">Handling Other Commands</a>
-</li></ul>
-<h2><a name="Na3b">Abstract</a>
+<p>This spec is for client metadata.  The purpose of this spec is to
+provide convenient functionality for building web sites inside
+freenet, as well as more general description of inserted content.</p>
 
-</h2>This spec is for client metadata.  The purpose of this spec is to provide convenient functionality for building web sites inside freenet.
-<br/>
-<br/><h2><a name="Na3f">Overview</a>
-</h2>
-<br/>Metadata = Version command, followed by set of Parts
-<br/>
-<br/>Part = name of Part, followed by a number of fields, followed by EndPart (or End for the last Part)
-<br/>
-<br/>Version command = A Part with the name "Version" and a field called "Revision" of type number. This is 1 for the current spec.  Following that an optional "Encoding" field allows for all non-version parts to be gzipped.
-<br/>
-<br/>More formally
-<br/>
-<br/><font face="courier" size="2">&lt;Metadata&gt;&nbsp;=&nbsp;&lt;Version&nbsp;command&gt;&nbsp;&lt;Parts&gt;*&nbsp;&lt;LastPart&gt;&nbsp;&lt;Arbitrary&nbsp;Metadata&gt;
+<h2><a name="Na3f">Overview</a></h2>
 
-</font><br/><font face="courier" size="2">&lt;Version&nbsp;command&gt;&nbsp;=&nbsp;"Version\n"&nbsp;"Revision=1\n"&nbsp;&lt;&nbsp;Optional:&nbsp;"Encoding=gzip\n"&gt;&nbsp;"EndPart\n"
-</font><br/><font face="courier" size="2">&lt;Part&gt;&nbsp;=&nbsp;"Document\n"&nbsp;&lt;Field&gt;*&nbsp;"EndPart\n"
-</font><br/><font face="courier" size="2">&lt;LastPart&gt;&nbsp;=&nbsp;"Document\n"&nbsp;&lt;Field&gt;*&nbsp;"End\n"
+<p>Properly formatted metadata is composed of a VersionCommand
+followed by a list of Parts.  A Part is a named list of
+"variable=value" pairs, followed by the string "EndPart" (or "End" for
+the last Part.  Informally, the version command is a part whose name
+is "Version", and which has a numeric field called "Revision".  Any
+metadata that doesn't fit neatly in the variable=value style (XML,
+etc.) can be included verbatim following the last Part.</p>
 
-</font><br/><font face="courier" size="2">&lt;Field&gt;&nbsp;=&nbsp;&lt;Key&gt;&nbsp;"="&nbsp;&lt;Value&gt;&nbsp;"\n"&nbsp;
-</font><br/>
-<br/><h3><a name="Na69">Example 1. Abstract Metadata Format</a>
-</h3>
-<br/>
-<br/><font face="courier" size="2">Version
-</font><br/><font face="courier" size="2">Revision=1
-</font><br/><font face="courier" size="2">EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>&nbsp;
+<p> For those who like grammars, here is a more formal definition: </p>
 
-</font><br/><font face="courier" size="2">Document&nbsp;
-</font><br/><font face="courier" size="2">Key=value
-</font><br/><font face="courier" size="2">EndPart
-</font><br/><font face="courier" size="2">Document
-</font><br/><font face="courier" size="2">Key1=value1
-</font><br/><font face="courier" size="2">Key2=value2
-</font><br/><font face="courier" size="2">End
-</font><br/>
-<br/><h3><a name="Na74">Note</a>
-</h3>
-<br/>"//" in a URI is reserved for metadata processing. This means that the MSK@.....// format is gone.  Document Names are the string which comes after the "//".  Each Part should have a field with key "Name".  The Part whose Name matches the Document Name should be acted upon.
-<br/>
-<br/>Control documents are allowed to have a 'default' Part, serving the function of index.html on the web.  This Part is distinguished by not having a Name field.  This part must be matched with a URI having no text after the "//" seperator.  The default Part should *not* be returned when an unknown name is asked for.
-<br/>
+<pre>
+&lt;Metadata&gt; = &lt;VersionCommand&gt; &lt;Parts&gt;* &lt;LastPart&gt; &lt;Rest&gt;
+&lt;VersionCommand&gt; = "Version\n" "Revision=1\n" ["Encoding=gzip\n"] "EndPart\n"
+&lt;Part&gt; = "Document\n" &lt;Field&gt;* "EndPart\n"
+&lt;LastPart&gt; = "Document\n" &lt;Field&gt;* "End\n"
+&lt;Field&gt; = Key "=" Value "\n"
+
+<h3><a name="Na69">Example 1. Abstract Metadata Format</a></h3>
+
+<pre>
+Version
+Revision=1
+EndPart
+Document
+Key=value
+EndPart
+Document
+Key1=value1
+Key2=value2
+End
+</pre>
+
+<h3><a name="Na74">Note</a></h3>
+<p>"//" in a URI is reserved for metadata processing. This means that
+the MSK@.....// format is gone.  Document Names are the string which
+comes after the "//".  Each Part should have a field with key "Name".
+A Part without a "Name" field should be assumed to have a Name of "".
+The Part whose Name matches the Document Name should be acted
+upon.</p>
+
+<h3> Example Name Processing </h3>
+
+Assume the following metadata is inserted under KSK@metadata-test: 
+<pre>
+Version
+Revision=1
+EndPart
+Document
+Redirect.Target=KSK@gpl.txt
+EndPart
+Document
+Name=target1
+DateRedirect.Target=KSK@blogoffoobar
+Info.Format=text/html
+EndPart
+Document
+Name=target2
+Redirect.Target=KSK@ignored
+Document
+Name=target2
+Redirect.Target=CHK@ignored
+Redirect.Target=CHK@blahblah
+Info.Format=audio/mp3
+End
+</pre>
+
+<p> In this case, a request for KSK@metadata-test should return the
+raw metadata along with whatever data was inserted (usually an empty
+file is inserted with Control documents like this).  It would be nice
+for the interface to indicate what names are possible, in a
+directory-listing sort of interface. </p>
+
+<p> Requesting KSK@metadata-test// should invoke the redirect to
+KSK@gpl.txt, and return results identical to requesting KSK@gpl.txt
+directly.  The reason for this is that the document name requested is
+"", and that matches the Name of the first (non-version) Part, which
+doesn't have a Name field, so is assumed to have name "".</p>
+
+<p> Requesting KSK@metadata-test//target2 should activate the last
+redirect in the final Part and redirect to CHK@blahblah.  Because
+there is informational metadata here and there could also be Info.*
+fields in CHK@blahblah, return both sets of metadata, allowing the
+redirect's metadata (the Format=audio/mp3) to take precedence over a
+Format field in the CHK's metadata. </p>
+
+<p> As an aside, it is recommended not to have informational metadata
+in CHKs, as this reduces the likelihood of identical data resulting in
+the same CHK.  The best place to put informational metadata is in the
+redirect. </p>
+
+<p> Lastly, requesting KSK@metadata-test/target3 should return an
+error indicating that there is no Part matching that name, similar to
+an DataNotFound error. </p>
+
 <br/>The order of keys in a Part is not important, and if the same Key appears twice in a part, only the last one's value is used.
 
 <br/>
