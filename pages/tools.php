@@ -18,7 +18,7 @@
 <br />
 <br /><a href='index.php?page=fcptools' class='wiki'><b>FCPTools</b></a>
 <br />
-<br />The FCPTools are ANSI-C based Freenet client tools, and a separate FCP specific library called ezFCPlib. Specifically, FCPTools include command line utilities to insert and retrieve files (fcpput, fcpputsplit, fcpget) within Freenet, as well as entire freesites (fcpputsite) via ezFCPlib.
+<br />The FCPTools are command-line driven programs for inserting and retrieving files with Freenet. Included separately is <a href='index.php?page=FCPlib'><b>FCPLib</b></a>, the Freenet Client Protocol Library. The FCPTools are linked against FCPLib and serve as nice examples for using the library in Freenet client programs. Everything is released under the GNU General Public License.
 <br />
 <br /><a class='wiki'  href='http://freeweb.sf.net/'><b>FreeWeb</b></a>
 <br />
