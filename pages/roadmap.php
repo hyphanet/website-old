@@ -5,6 +5,13 @@
 	<META NAME="Freenet" CONTENT="Toads' roadmap">
 	<META NAME="CHANGED" CONTENT="20031013;21564652">
 </HEAD>
+<style type="text/css">
+<!--
+body {margin:5%; text-align:justify}
+
+-->
+</style>
+
 <BODY LANG="en-US" DIR="LTR">
 <P><BR><BR>
 </P>
