@@ -14,8 +14,7 @@ improvements, more improvements to downloads of large files,
 a fix for the Heisenbug and tons of others.</p><p>Progress has only been 
 possible at this rate because, thanks to your donations, the project has been able to pay a
 full time developer for the bargain rate of $1500/month.  We have some very exciting things 
-planned for the next release such as a revolutionary new routing mechanism called <a 
-href="/index.php?page=ngrouting">NGRouting</a>, so if you haven't already done so, please 
+planned for the next release such as a revolutionary new routing mechanism called NGRouting, so if you haven't already done so, please 
 consider <a href="/index.php?page=donate">donating</a>.</p>
 
 <!-- shorten the news, don't scare noobs & idiots away
