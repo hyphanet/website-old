@@ -293,6 +293,7 @@ RouteNotFound
 Unreachable=&lt;number: default = 0, nodes&gt;
 Restarted=&lt;number: default = 0, nodes&gt;
 Rejected=&lt;number: default = 0, nodes&gt;
+BackedOff=&lt;number: default = 0, nodes&gt;
 EndMessage
 </pre>
 
