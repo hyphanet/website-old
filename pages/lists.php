@@ -1,4 +1,4 @@
-<h1>Mailing Lists</h1> (<a href="http://www.freenetproject.org/index.php?page=mailsum">Summary</a>)
+<font size="+3"><B>Mailing Lists</B></font> (<a href="http://www.freenetproject.org/index.php?page=mailsum">summary</a>)</h4><P>
 
 <i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
 <br />
@@ -29,7 +29,7 @@ class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</
 (<a class='wiki'  href='http://news.gmane.org/gmane.network.freenet.cvs'>archive</a>)
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 <p>
-<br /><br />
+<br />
 <P>
 People that want to support Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any other way</a>, by contributing artwork, new ideas, correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are welcome to <a href="mailto:newsbyte@freenetproject.org">email</a>.
 </p>
