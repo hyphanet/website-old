@@ -1,16 +1,18 @@
 <h3>Freenet Sponsorship</h3>
 
 The following persons, organisations and companies have generously
-sponsored this project:
+sponsored this project through donations or discounts on hardware and services:
 <ol>
-<li><a href="http://www.verbumvanum.org/">Verbum Vanum</a>
-</ol>
-The following organizations support the project through donations or 
-discounts on hardware and services:
-<ol>
+<li><a href="http://www.verbumvanum.org/">Verbum Vanum</a><br>
+VerbumVanum is a site for free online storage and distribution of written
+knowledge and art; thesises, books, endworks, researchpapers, etc... 
+<P>
 <li><a href="http://bytemark.co.uk/">Bytemark Hosting</a><br>
-Bytemark provide discounted hosting facilities to Freenet and comes with 
+Bytemark provides discounted hosting facilities to Freenet and comes with 
 our highest recommendation.
+<P>
+<li><a href="http://www.freesofty.org/">FreeSofty</a><br>
+Freesofty is a site where you can download freeware as much as you want, but without forgetting the developers.
 </ol>
 <p>
 
