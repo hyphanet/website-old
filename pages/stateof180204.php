@@ -66,3 +66,8 @@ You can make a donation through the donations page on our website at:
 </blockquote>
 If, for whatever reason, you would like to make a donation through other means, please contact me 
 directly at ian@freenetproject.org. 
+<p>
+If you would like to try out the very latest trial version of the Rate 
+Limiting algorithm you will need to run the "unstable" branch of Freenet, 
+<a href="/index.php?page=tryng">this page</a> will explain how to do 
+this.
