@@ -1,7 +1,7 @@
 <font size="+3"><B>External Websites</B></font>
 <p>
 <i>Please note that the Freenet Project is not responsible for 
-the accuracy of information on websites linked from this page.<i>
+the accuracy of information on websites linked from this page.</i>
 </p>
 <p>
 <a href="http://freenethelp.org/">FreenetHelp.org</a> 
