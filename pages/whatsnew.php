@@ -28,8 +28,7 @@ Changes:
 </pre>
 <hr>
 
-
-
+<p>
 <LI> <span style='color:blue'>Date: Tue, 26 Oct 2004 00:20:40 +0100</b></a></span><P>
 <b>Build 5099</b><p>
 <pre>
@@ -63,7 +62,7 @@ The changes in this build are numerous, the highlights:
 </pre>
 <hr>
 
-
+<p>
 <LI> <span style='color:blue'>Date: Fri, 24 Sep 2004 19:53:55 +0100</b></a></span><P>
 <b>Build 5096</b><p>
 <pre>
@@ -134,7 +133,7 @@ There are many changes in this build, here are some of them:
 </pre>
 <hr>
 
-
+<p>
 <LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
 <b>Build 5095</b><p>
 <pre>
