@@ -46,6 +46,7 @@
 <br /><a href="http://www.freenet.org.nz/freemail"><b>Freemail</b></a>
 <br />
 <br />FreeMail is a peer-to-peer Mail Server program (aka 'Mail Transfer Agent' or 'MTA') that makes it possible for you to send and receive email messages with unprecedented levels of privacy and anonymity. It encrypts your messages and hides them within the privacy-protecting Freenet network, where they are picked up and decrypted only by the people you're sending your messages to.
+<p>
 
 
 <br /><a class='wiki'  href='http://sf.net/projects/liberator'><b>Liberator</b></a>
