@@ -12,9 +12,9 @@ Foundation</a>
 href="mailto:ian@locut.us">Ian Clarke</a>.
 </p>
 <? 
-	include("pages/news.php");
-	echo "<br><br>";
 if($mode=="beginner") {
 	include("pages/whatis.php");
+} else {
+	include("pages/news.php");
 }
 ?>
