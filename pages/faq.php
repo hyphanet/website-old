@@ -43,7 +43,7 @@
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
 </li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
-</li><li><a href="#stabchange">How can I change from stable to unstable?</b><br>
+</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
 
 
 </li></ol>
