@@ -20,9 +20,9 @@ NT.</b>  Windows ME, 98 and 95 work less well.</p>
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 <h3>Unix/Linux</h3>
 You need to have a recent Java Runtime Environment.  We have experienced
-best results with Sun JRE 1.4.1 which can be obtained from <a
-href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is
-installed, download <a
+best results with Sun's Java Runtime Environment (versions 1.4.1 and later)  which 
+can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once 
+Java is installed, download <a
 href="http://freenetproject.org/snapshots/freenet-latest.tgz">freenet-latest-tgz</a>. 
 Get started by typing:
 <pre>
