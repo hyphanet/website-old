@@ -40,8 +40,7 @@ value="http://freenetproject.org/">
 <input type="hidden" name="PAYMENT_URL_METHOD" value="LINK">
 <input type="hidden" name="BAGGAGE_FIELDS" value="CUSTOMERID">
 <input type="hidden" name="CUSTOMERID" value="0">
-<input type="hidden" name="SUGGESTED_MEMO" value='Thank you for your 
-donation'><br>
+<input type="hidden" name="SUGGESTED_MEMO" value='Donation to Freenet Project'><br>
 <input type="submit" name="PAYMENT_METHOD" value="Donate 
 Now"></form>
 </td></tr></table>
