@@ -58,7 +58,7 @@ This will unpack the source into a new directory. Change into this directory, an
 <h3>Binaries</h3>
 
 <p class="body">
-<a href='http://freenetproject.org/snapshots/fcptools-bin.zip'>Download pre-compiled Win32 binaries</a> based on the stable (tag FCP_0_4_7) source tree only. If you are running Windows and want to try the unstable code, follow the instructions in INSTALL.msvc to compile the source yourself.</p>
+<a href='http://freenetproject.org/snapshots/fcptools-stable-bin.tgz'>Download pre-compiled Win32 binaries</a> based on the stable (tag FCP_0_4_7) source tree. You can also try the <a href='http://freenetproject.org/snapshots/fcptools-unstable-bin.tgz'>latest unstable binaries for Win32</a> as well.</p>
 
 <h2>Command Line Usage</h2>
 
