@@ -1,6 +1,9 @@
 <h2>Documentation</h2>
 
-<p>This page contains links to documentation that would mainly be of interest to developers of Freenet and Freenet-related tools.</p>
+<p>This page contains links to documentation that would mainly be of
+interest to developers of Freenet and Freenet-related tools.  Those 
+with a higher level interest in Freenet's operation should look 
+<a href="/index.php?page=papers">here</a>.</p>
 
 <p>
 <h3><a href="/index.php?page=fcp">FCP (Freenet Client 
