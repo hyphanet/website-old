@@ -14,7 +14,7 @@
 			</P>
 			<UL>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Freenet 0.6 and
-				NGRouting</B> (we may put out a 0.5.3 if the network stabilizes
+				NGRouting</B><BR> (we may put out a 0.5.3 if the network stabilizes
 				enough before NGRouting is implemented). The main change in 0.6
 				will be the implementation of NGRouting. This may take
 				considerable tweaking to get right, but should solve the load
@@ -29,7 +29,7 @@
 				now, so it may well include some features listed below. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>NIOv2</B> This
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>NIOv2</B><BR> This
 				may be implemented before 0.6, depending on how things go. The
 				current NIO implementation leaves negotiations, connection
 				establishment, sending several important messages such as
@@ -46,7 +46,7 @@
 				last, maybe significantly later, maybe even post 1.0). 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Multiplexing</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Multiplexing</B><BR>
 				Currently, a trailing field transfer will block a connection.
 				This is a waste of system resources (i.e. the connection limit),
 				makes handling various DoS's harder (we could reserve one
@@ -59,7 +59,7 @@
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Session protocol
-				version 2.0 and related changes</B> Several problems: firstly,
+				version 2.0 and related changes</B><BR> Several problems: firstly,
 				connection restarts currently involve public key crypto
 				operations; they could be made a lot lighter. Secondly, the
 				current session protocol wouldn't work at all for packet based
@@ -74,7 +74,7 @@
 				detection. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Pre-mix routing</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Pre-mix routing</B><BR>
 				Entirely security related. If you request a large splitfile or a
 				site full of images, a node that the requests get sent to could
 				statistically determine the probability of you having made the
@@ -88,7 +88,7 @@
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Memory and CPU
-				optimization</B> We need to reduce Freenet's memory, thread and
+				optimization</B><BR> We need to reduce Freenet's memory, thread and
 				CPU footprint. Drastically. This will be profile driven but I
 				have several ideas about the big consumers already. Thread
 				footprint will be reduced by more NIO, as will CPU, but we will
@@ -97,7 +97,7 @@
 				background, 24x7, remember? 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Misc security</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Misc security</B><BR>
 				We need to increase the keysize to 256 bits (we use 128 a lot of
 				places), we need to look at resistance to (asymmetrical) DoS
 				attacks on the session level, there are probably lots of other
@@ -114,7 +114,7 @@
 				file from cache. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>UDP</B> We may or
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>UDP</B><BR> We may or
 				may not want to implement UDP support before 1.0. Advantages: it
 				is a message based transport, and therefore fast for messages; it
 				will allow users behind certain firewalls to run full nodes, and
@@ -124,7 +124,7 @@
 				relation to certain DoS attacks. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Web based config</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Web based config</B><BR>
 				The current situation with the wininstaller is very suboptimal;
 				we could extend the config updating infrastructure to allow a
 				fully java based (re-)configuration on the fly via the web
@@ -132,7 +132,7 @@
 				wrapper. Not necesarily a major priority. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Debugging!</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Debugging!</B><BR>
 				Debugging has always been one of my main tasks. A full time
 				programmer can make more headway, more systematically on this
 				than an unsupported group of volunteers. We will need a LOT more
@@ -140,13 +140,13 @@
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Really big
-				datastores</B> It may become necessary to support datastores so
+				datastores</B><BR> It may become necessary to support datastores so
 				huge that the index does not fit in RAM, most likely we will do
 				this through the Berkeley DB, although several other
 				possibilities have been discussed. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Revocable SSKs</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Revocable SSKs</B><BR>
 				In order to have an official project freesite, or any other
 				important freesite really, we need to have a revocation mechanism
 				whereby anyone of several people can revoke a key that they do
@@ -155,7 +155,7 @@
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Other client
-				changes</B> We may implement some kind of client load manager,
+				changes</B><BR> We may implement some kind of client load manager,
 				which would balance request load between background splitfile
 				downloads and uploads, so that one splitfile gets lots of
 				&quot;threads&quot;, but for several, available request &quot;threads&quot;
@@ -165,7 +165,7 @@
 				On the other hand, we may not. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Performance</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Performance</B><BR>
 				Major performance indicators include announcements working,
 				inserts at one node immediately being available at another given
 				enough HTL, latency measurements, and the stream servlets (which
@@ -173,30 +173,39 @@
 				Major releases should be based on performance more than features.
 								</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Development Tools</B>
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Development Tools</B><BR>
 				It would be very nice to have Freenet-hosted development tools
 				working for 1.0, so that anonymous contribution to the
 				development was easier. Arch and Frost are a good start. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>1.0</B> We will
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>1.0</B><BR> We will
 				release 1.0 when we are confident that the network works
 				reasonably well, can handle the load of such a cataclysm, and we
 				have reasonable security in place against any known possible
 				asymmetrical-force attacks. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Kaffe/GCJ</B> It
+				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Kaffe/GCJ</B><BR> It
 				would be wonderful if Kaffe or GCJ would run Freenet (complete
 				with NIO) before 1.0, for a variety of reasons, but we won't
 				delay 1.0 for this nor will we spend project time getting these
 				to work unless absolutely necessary. 
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=4><B>Post 1.0</B></FONT></P>
+				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"><FONT SIZE=4><B>Post 1.0</B><BR></FONT></P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<UL>
-					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Passive Requests</B>
+		<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>TUKs</B><BR>
+		A new key type that supports secure sites that: 
+<br>- are like edition sites that can be bookmarked 
+<br>- are like DBR sites, but don't dissapear when they aren't inserted 
+<br>- doesn't allow people to delete their content 
+<br>- allows people to backtrack to old versions without much trouble 
+<p>Summary: There are two parts to the proposal - a new key type and some supporting metadata. The new Time Updatable Key (TUK) contains in its payload only the latest site edition number. The TUK itself is signed by the site's owner, and nodes throughout freenet have access to the update date through standard datastore/FNP mechanisms. Whenever a TUK collision occurs, the one with the latest timestamp wins, replacing the old version. So, here we are with a new key containing a value that can be updated. Typical (proper) usage would have the TUK contain an ever increasing edition number (or milliseconds since epoch, for you DBR fans). <P>
+
+					
+					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Passive Requests</B><BR>
 					Requests that hang around on the network waiting for the file to
 					become available. Faster and less load than client level
 					polling. Trivial application: reducing network load caused by
@@ -206,7 +215,7 @@
 					</P>
 					<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Inverse Passive
-					Requests</B> An idea to provide semi-permanence (availability of
+					Requests</B><BR> An idea to provide semi-permanence (availability of
 					files not immediately published) through a mechanism related to
 					passive requests. Of course it would not be true permanence, but
 					it would have some interesting uses and would be faster and less
@@ -214,7 +223,7 @@
 					implications not fully understood yet. 
 					</P>
 					<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
-					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Streaming</B>
+					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Streaming</B><BR>
 					(Possibly lossy) - A stream insert is routed to a node chain by
 					its key; requests for the stream are routed to the same nodes.
 					The stream is multiplied in the request chain. If routing really
@@ -223,13 +232,13 @@
 					</P>
 					<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Steganography,
-					etc</B> Alternate transports, steganography, support for hostile
+					etc</B><BR> Alternate transports, steganography, support for hostile
 					environment guerilla networks (e.g. no path folding), etc. An
 					eternal struggle. 
 					</P>
 					<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 					<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Better NAT
-					support</B> It might be possible to use NATted nodes better
+					support</B><BR> It might be possible to use NATted nodes better
 					through various mechanisms, we should investigate more fully
 					after 1.0. 
 					</P>
