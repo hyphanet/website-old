@@ -3,7 +3,7 @@
 </h1>
 <br/>Freenet keys come in different varieties called key types. Typically this type is included at the beginning of a key, delimited by an at- sign (@). The types are:
 <br/>
-<br/><b>CHK</b>: The Content (Cryptographic?) Hash Key is the workhorse on which other key types build. Every document has a corresponding hash value that serves as it's key. Two equal documents have equal hashes, so if different <b style="color:black;background-color:#ffff66">people</b> insert the same document, this yields the same CHK. At the same time the hash function is built so that two different documents are very very unlikely to have the same hash (and therefore CHK). For all practical purposes, there is a one-to-one correspondence of CHKs to documents.
+<br/><b>CHK</b>: The Content (Cryptographic?) Hash Key is the workhorse on which other key types build. Every document has a corresponding hash value that serves as it's key. Two equal documents have equal hashes, so if different people insert the same document, this yields the same CHK. At the same time the hash function is built so that two different documents are very very unlikely to have the same hash (and therefore CHK). For all practical purposes, there is a one-to-one correspondence of CHKs to documents.
 <br/><div class='simplebox' align='center'>
 <br/>Example: CHK@wQYjaBkpulyIBq4sbvyDL2NZ7ToPAwI,qW4hMEc6NWsx-T-etpfPAg
 <br/></div>

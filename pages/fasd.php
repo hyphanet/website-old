@@ -8,7 +8,7 @@
 <br/>cooperatively route queries to the nodes most likely to satisfy them. A
 <br/>'metadata key' is a list of weighted terms that describe the information
 <br/>content of a document in the underlying network. Although completely
-<br/>decentralized, <b style="color:black;background-color:#ffff66">FASD's</b> approach is able to efficiently match the recall
+<br/>decentralized, FASD's approach is able to efficiently match the recall
 <br/>and precision of a centralized search engine. Simulation results
 <br/>indicate that latency and bandwidth consumption scale logarithmically
 <br/>with the size of a FASD network.
