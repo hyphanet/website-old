@@ -7,6 +7,28 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Thu, 19 Feb 2004 02:26:34 +0000</b></a></span><P>
+<b>Build 5070</b><p>
+
+
+Freenet stable build 5070 is now available. The snapshots have been
+updated. You can get it via the update.sh script on Linux, BSD, or OS/X,
+or use the freenet-webinstall.exe utility to update on Windows, or get
+the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
+All stable branch users should upgrade.<p>
+
+The main change in this build is significant work on the rate limiting
+algorithm. We now average the requests per hour and load values before
+estimating the target global queries per hour. This should improve
+things significantly and prevent oscillations in load, and help nodes
+with less CPU power to handle as many requests as they can, and no more.
+There were several other minor changes; for a detailed changelog check
+the CVS list.<p>
+
+<hr>
+
+
+
 <LI> <span style='color:blue'>Date: Sun, 15 Feb 2004 01:08:54 +0000</b></a></span><P>
 <b>Build 5069</b><p>
 
