@@ -7,8 +7,8 @@ costs(ie.domain registrations). It is also a goal to be able find ourselves in t
 Everyone involved is keenly interested in the future of The Freenet Project and you can be assured donations have been and will continue to be used wisely, all support is very much appreciated.
 <!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab(how's that Zab?) -->
 <h4>How can I donate?</h4>
-You have four options:
-<ul>
+You have two options:
+<ul><!--
 <li>You can become a Freenet project "member" for a <b>recurring
 payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
 it gives the
@@ -66,7 +66,7 @@ name="submit"></form>
 </center>
 <P>
 <hr width="90%">
-<P>
+<P> -->
 <li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
