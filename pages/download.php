@@ -16,6 +16,7 @@ After you start Freenet wait a few seconds for it to start-up (on a slow compute
 After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "Update Snapshot" in the Freenet section of their Start menu.
 <p>
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
+<h3>Software requirements</h3>
+As stated above, you will need a Java Runtime Environment. Also, Freenet will probably not work very well with Windows 95/98/ME - if you use Microsoft Windows, use NT 4.0, Microsoft Windows 2000 or Microsoft Windows XP.
 <h3>Hardware requirements</h3>
-We recommend a processor equivalent to at least a 400MHz Pentium 2/3, with at least 192MB of RAM.
-
+We recommend a processor equivalent to at least a 400MHz Pentium 2/3, with at least 192MB of RAM. However, we recommend you run freenet at all times, in the background, for best performance, and some operating systems need more RAM than others. So we recommend around 384MB for Windows XP.
