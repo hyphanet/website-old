@@ -2,6 +2,19 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
+<p><b>4th July, 2003 - Freenet 0.5.2-rc3 Released!</b><br>
+Freenet 0.5.2 release candidate 3 has been released. You can get 
+it from <a href="/index.php?page=download">the download page</a>.
+The main change in this prerelease is the implementation of java.nio,
+which should significantly improve performance. It also has a 
+simple/expert mode switch for the user interface. All the bugfixes 
+(such as the heisenbug fix), and new features (background splitfile
+downloads, probabilistic caching) from the previous release candidates
+are also incorporated in this snapshot. We would have released 0.5.2
+earlier but the network performance was unacceptable for a release.
+As always, we need more <a href="/index.php?page=donate">donations</a>
+to continue the work.
+</p>
 <p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
 Ian just posted a <a 
 href="http://slashdot.org/~Sanity/journal/37275">response</a> 
@@ -27,10 +40,4 @@ appeal for your financial support.  If you can afford to - please visit
 our <a href="/index.php?page=donate">donations</a> page, you can 
 contribute with a credit card through Paypal, or via E-Gold if you 
 prefer.
-
-<p><b>15th May, 2003 - Freenet 0.5.2-rc2 Released</b><br>
-The second release candidate for Freenet 0.5.2 has been released. This
-is mostly bugfixes over 0.5.2-rc1.
-Download it from <a href="index.php?page=download">the download
-page</a>.
 

@@ -23,7 +23,7 @@ It will automatically install Freenet and other required components for you  (It
 <h3>Unix</h3>
 You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
 <pre>
-$ tar xfz freenet-0.5.2-rc2.tar.gz
+$ tar xfz freenet-0.5.2-rc3.tar.gz
 $ cd freenet
 $ sh start-freenet.sh
 </pre>
