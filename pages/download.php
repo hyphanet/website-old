@@ -9,8 +9,8 @@ if you would prefer to just get the software as quickly as possible -
 you can get it directly from the links below.
 <h3>Windows</h3>
 Windows users should download and run <a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a>.  This will download other required components of Freenet, configure, and run the software.  When it is finished, double-click on the small blue rabbit icon in your task-tray.
-<h3>Linux</h3>
-Linux users should first install a recent Java Runtime Environment.  We have experienced best results with Sun which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
+<h3>Unix</h3>
+Unix users should first install a recent Java Runtime Environment.  We have experienced best results with Sun which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
 <pre>
 $ tar xfz freenet-0.5.2-rc2.tar.gz
 $ cd freenet
