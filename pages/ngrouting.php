@@ -1,14 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
-<HTML>
-<HEAD>
-	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1252">
-	<TITLE></TITLE>
-	<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.0.3  (Win32)">
-	<META NAME="CREATED" CONTENT="20030705;8252449">
-	<META NAME="CHANGEDBY" CONTENT="Ian Clarke">
-	<META NAME="CHANGED" CONTENT="20030708;16225495">
-</HEAD>
-<BODY LANG="en-US">
 <H3>Freenet's Next Generation Routing Protocol</H3>
 <P>While my original design for Freenet has been improved upon
 dramatically since my 1999 paper, the fundamental ideas behind how
@@ -101,9 +90,7 @@ evenly distributed across the key-space.  When we have a new routing
 time sample for a particular key &ndash; we move the two points
 closest to our new sample towards it.  The amount they are moved can
 be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.</P>
-<P><BR><BR>
-</P>
-<P><IMG SRC="../image/rte_diag.gif" NAME="Graphic1" ALIGN=LEFT WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
+<P><IMG SRC="../image/rte_diag.gif" NAME="Graphic1" ALIGN=CENTER WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
 </P>
 <P>In this diagram it can be seen that two of the reference points
 (blue) are being moved towards our new data sample (red).</P>
@@ -111,7 +98,5 @@ be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.</P>
 line between the reference points at either side of that key
 intersects (green) and this gives us our estimated response time.</P>
 <H3>Handling different data lengths</H3>
-<P><BR><BR>
+<P>
 </P>
-</BODY>
-</HTML>
