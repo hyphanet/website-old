@@ -3,6 +3,66 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+Date: Thu, 26 Aug 2004 21:37:57 +0100
+
+<LI> <span style='color:blue'>Date: Thu, 26 Aug 2004 21:37:57 +0100</b></a></span><P>
+<b>Build 5092</b><p>
+<pre>
+Freenet stable build 5092 is now available. The snapshots have been
+updated. Please upgrade, test, report bugs.
+
+To upgrade:
+On Windows, use the update option on the start menu, if it is there.
+On linux, stop the node, run update.sh, and start it.
+On any platform, stop the node, fetch
+http://freenetproject.org/snapshots/freenet-latest.jar and overwrite
+your existing freenet.jar with it, then restart the node.
+
+The md5sum of the above jar is, as of this notice, <>
+
+Major changes: Lots!
+- Implemented request queueing. Requests are held for up to a time that
+  depends on the request (3-10 secs for requests, 3-20 for inserts, 60
+  for local requests that haven't been tried yet), and this is used to
+  prevent RNFs and route the right request to the right node. In
+  practice this should mean "instant" RNFs don't happen, and RNFs on the
+  whole are much less common. New diagnostics: requestsQueued,
+  queueAvailableNodes, requestQueueingSuccess. Initial implementation,
+  may not be as fast as could be achieved with more work. Please tell me
+  if it causes unacceptable CPU usage on support@freenetproject.org
+- Fixed a major bug that probably caused most of the transfer timeouts.
+  This will not eliminate them instantly, but one of the causes if not
+  the main cause has been fixed. Messages were getting lost on slow
+  links.
+- Increased timeouts, mostly to compensate for the fact that a request
+  at htl 1 may get forwarded to several additional hops. This was
+  causing problems with inserts.
+- Fixed another bug which was causing problems with inserts.
+- Don't update the MRI too often. Doing so gives away a lot of
+  information to attackers and makes some queueing optimizations more
+  difficult.
+- Eradicate all remaining traces of transient support. Transient is now
+  deprecated and doesn't do anything.
+- Give old version nodes a chance every 24 hours if they haven't
+  contacted us. They might have upgraded...
+- Optimizations and other changes to connection opener management code to
+  reduce CPU usage and prevent it from blocking e.g. message sends while
+  it decides which connections to open, which can be relatively
+  expensive.
+- Minor routing changes - refactoring, sort order, nodes that haven't
+  yet Identify'd, fixed the "No point 0" bug (the new estimators
+  wouldn't serialize from StoreData or seednodes because of a typo and a
+  more complex bug).
+- Make start-freenet.sh work on Darwin. Hopefully. :)
+- Minor datastore bugfix. I think. :)
+- Fix automatic download of freenet-ext.jar for the distrib servlet
+  (it's over 1MB and must be fetched as a splitfile).
+- Default Open Connections page to less heavy "connections" mode.
+- Synchronization, logging, refactoring, indenting, comments, etc.
+</pre>
+<hr>
+
+
 <LI> <span style='color:blue'>Date: Wed, 11 Aug 2004 02:07:09 +0100</b></a></span><P>
 <b>Build 5091</b><p>
 <pre>
