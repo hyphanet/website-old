@@ -9,8 +9,8 @@ Everyone involved is keenly interested in the future of The Freenet Project and 
 <h4>How can I donate?</h4>
 You have four options:
 <ul>
-<li>You can become a Freenet project "member" for a recurring
-payment of $5, $10, or $20 per month.  The advantage of this is that 
+<li>You can become a Freenet project "member" for a <b>recurring
+payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
 it gives the
 project a more stable and dependable income which makes it easier
 to make long term committments to potential developers - right now
@@ -43,7 +43,10 @@ Amount:
 </form>
 </td></tr></table>
 </center>
-<li>You can donate once via Paypal by clicking on this button:<br>
+<P>
+<hr width="90%">
+<P>
+<li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
 <center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
@@ -61,6 +64,9 @@ value="http://freenetproject.org/">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit"></form>
 </center>
+<P>
+<hr width="90%">
+<P>
 <li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
@@ -88,6 +94,9 @@ value="http://freenetproject.org/">
 </form>
 </td></tr></table>
 </center>
+<P>
+<hr width="90%">
+<P>
 <li>You can now also donate to the project by purchasing items from the 
 new Freenet <a 
 href="http://cafepress.com/freenetproject/">store</a>.
