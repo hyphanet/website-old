@@ -5,13 +5,15 @@ old new build announcements) -->
 <h3>Financial Status</h3>
 The project's current Paypal balance is <b><? 
 include("paypaltotal.txt"); 
-?></b>.  The project requires approximately $2,000 per month to pay for 
+?></b>.  The project requires approximately $2,300 per month to pay for 
 its 
 full time developer, Matthew Toseland.  If you would like to help 
 support the Freenet Project, you can make a convenient donation through 
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<p><a href="http://demo.ffii.org/letter.html">
+<img src="http://demo.ffii.org/minister_banner90.png" width="728" height="90" border="0" alt="Dear Minister, please click here!"></a></p>
 <b>8th November, 2004 : Unofficial Freenet RPMs now available</b>
 <p>Freenet developer Mika Hirvonen has put together some RPMs of the 
 Freenet stable and unstable builds which Fedora users can install and 
