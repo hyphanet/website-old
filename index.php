@@ -1,4 +1,10 @@
 <?
+if (stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) {
+  header("Location: http://de-co.info/freenet/");
+  exit();
+}
+
+
 if (isset($_REQUEST["page"])) {
   $page = $_REQUEST["page"];
 } else {
