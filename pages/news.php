@@ -13,7 +13,7 @@ which will can be $5, $10, or $20 per month, and which will provide a more robus
 source of income for the project.  While at the moment the only benefit to being a member will 
 be that warm fuzzy feeling you get inside knowing that you are contributing towards an important 
 project - we will
-think about other ways that we can reward our members more directly in the future.  If you are 
+think of other ways to reward our members more directly in the future.  If you are 
 interested in supporting the Freenet Project by subscribing to a membership, and if you have a 
 PayPal account - please click on this button:
 <center>
