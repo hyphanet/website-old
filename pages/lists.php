@@ -26,23 +26,19 @@ href='http://mail.freenetproject.org/mailman/listinfo/tech/'>Tech</a>
 href='http://news.gmane.org/gmane.network.freenet.technical'>archive</a>)
 <br />
 This is for general technical discussion of Freenet.  If you want to discuss
-longer-term technical ideas about Freenet, please do-so on this list.
+longer-term technical ideas about Freenet, please use this list.
 <br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/mailman/listinfo/devl/'>Development</a> (<a 
 class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</a>)
-<br />Discussion pertaining to the next release of Freenet.
-What features should and shouldn't go in, how things should be implemented, etc. Discussions about how Freenet should be in
-general (as opposed to in the very next release) should go to the technical list. If you think you have a great idea for a
-feature or attack, read all of the documentation first, especially the <a href='index.php?page=faq'>FAQ</a>.  The developers have
-little patience for repeated suggestions.
-
+<br />
+This list is for active developers to discuss bugs, and the implementation 
+of near-term new features.  Please only post to this list if you know what 
+you are talking about, otherwise use the tech mailing list (see above).
 <br />
 <br /><a class='wiki'  href='http://mail.freenetproject.org/mailman/listinfo/cvs'>CVS</a>  
 (<a class='wiki'  href='http://news.gmane.org/gmane.network.freenet.cvs'>archive</a>)
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 <p>
 <br />
-<P>
-People that want to support Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any other way</a>, by contributing artwork, new ideas, correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are welcome to <a href="mailto:newsbyte@freenetproject.org">email</a>.
 </p>
