@@ -196,12 +196,25 @@ guessable, or communicated by some other means.</p>
 
 
 <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br>
-Edit your freenet.conf or freenet.ini file, change the ipAddress setting to be the IP address of your firewall or NAT. Also note the listenPort setting, or change it to whatever port you want Freenet to listen on. You now need to configure your firewall/NAT to forward incoming connections on the listenPort to the computer on which your Freenet
-
-node is running. Many modern firewalls and NATs have a web interface to
-do this, or if you do not administer the firewall, you will need to ask
-your system administrator to do this.</p>
-
+<ol>
+<li>Open the <b>freenet.conf</b> or <b>freenet.ini</b> file in a text 
+editor.  On Windows you will normally find this file in <b>c:\Program 
+Files\Freenet</b>, on Linux you will find it wherever you unpacked the 
+Freenet tarball.
+<li>Find the line containing the <b>ipAddress</b> setting and change it 
+to:
+<pre>
+ipAddress=x.x.x.x
+</pre>
+...where x.x.x.x is the IP address of your NAT or Firewall (consult the 
+manual if you are unsure how to determine this).
+<li>Find the line containing <b>listenPort</b> and take a note of the 
+number it is set to - do <i>not</i> change it.
+<li>Configure your NAT or firewall to forward connections to the 
+listenPort number that you noted in the previous step, to the same port 
+on your computer (you will probably need to know your computer's 
+internal IP address which will often begin with 192.168.x.x)
+</ol>
 <p><b id="connection-perm">Do I need a permanent connection to run a node?</b>
 No, but it is preferred. You can run the software and test it from
 a "transient" connection (such as provided by typical modem/ISP

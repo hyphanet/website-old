@@ -1,6 +1,19 @@
-<h2>Download Freenet 0.5.1</h2>
+<h2>Download Freenet</h2>
 
-<i>If you have a firewall or a NAT box click <a href="#NAT"><b>here</b></a> for some info.</i>
+<h3>Important note for first time users</h3>
+
+When you first start Freenet your node will know very little about how
+to find information in the network - you should be prepared to wait up
+to <b>60 seconds</b> for a website to be retrieved.  Don't lose patience
+though as the more you use Freenet, the better your Freenet node will
+get at finding information.
+
+<p>
+
+<i>If you have a firewall or a NAT box click <a 
+href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a> 
+for some info.</i>
+
 
 <h3>Windows</h3>
 Download and run    
@@ -26,14 +39,6 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 <p>
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <br><br> 
-<a name="NAT"></a>
-<font color="red"><b>Note: Firewall/NAT users</b></font><br>
-If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  
-Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
-
-
-<!--put some empty space so that the Firewall info will appear on top of the page-->
-
 
 
 
