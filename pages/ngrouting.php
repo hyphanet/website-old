@@ -60,7 +60,7 @@ when a node successfully responds to a request for a given key - it increases
 the likelihood that other nodes will route requests for similar keys in the
 future.  Over time this effect causes the specialization that can be seen
 very clearly in the diagram above.  Those using browsers that support the
-"mng" animation format (such as <a href="http://www.mozilla.org/">Mozilla</a>)
+<a href="http://www.libmng.com/">MNG</a> animation format
 can see an animation of a node's datastore specializing over time
 <a href="image/histanim.mng">here</a>.
 
