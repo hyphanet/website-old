@@ -34,11 +34,19 @@ etc.) can be included verbatim following the last Part.</p>
 <p> For those who like grammars, here is a more formal definition: </p>
 
 <pre>
-&lt;Metadata&gt; = &lt;VersionCommand&gt; &lt;Parts&gt;* &lt;LastPart&gt; &lt;Rest&gt;
-&lt;VersionCommand&gt; = "Version\n" "Revision=1\n" ["Encoding=gzip\n"] "EndPart\n"
-&lt;Part&gt; = "Document\n" &lt;Field&gt;* "EndPart\n"
-&lt;LastPart&gt; = "Document\n" &lt;Field&gt;* "End\n"
-&lt;Field&gt; = Key "=" Value "\n"
+metadata := VERSIONPART [part ...] lastpart REST
+VERSIONPART := "Version\n" "Revision=1\n" ["Encoding=gzip\n"] "EndPart\n" 
+     //Encoding is optional
+part := "Document\n" [field ...] "EndPart\n"
+lastpart := "Document\n" [field ...] "End\n"
+field := KEY '=' VALUE '\n'
+KEY := <string not containing either '\n' or '='> 
+     //Heirarchical key name
+VALUE := <string not containing '\n'> 
+     //value of the associated key
+REST := <arbitrary data of arbitrary length, not parsed by this parser> 
+     //useful for XML metadata or other metadata not 
+     //storable in the Info.* keyspace
 </pre>
 
 <h3><a name="Na69">Example 1. Abstract Metadata Format</a></h3>
