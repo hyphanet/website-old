@@ -3,7 +3,7 @@
 <P>While Freenet has come a long way since my 1999 paper, the 
 fundamental ideas behind how Freenet finds information have changed 
 very little. Now that Freenet is maturing it is time to re-examine 
-the core Freenet architecture to see where can be improved. This new 
+the core Freenet architecture to see where it can be improved. This new 
 design is known as &quot;Next Generation Routing&quot;. 
 
 <H3>Freenet's current routing mechanism</H3>
