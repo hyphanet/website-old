@@ -3,8 +3,8 @@
 </h1>
 <br />A variety of people have written some excellent tools and clients for use with Freenet.
 <br />
-<br /><h3>Freenet Publishing & Retrieval Tools
-</h3>
+<br /><h3>Freenet Publishing & Retrieval Tools</h3><hr>
+
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/7//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br />
 <br />FIW is a feature packed Java AWT application for inserting freesites.  It contains a lot of help at each stage of the process, and includes site verification to increase availability of the inserts.
@@ -25,7 +25,7 @@
 <br />FreeWeb allows websites to be inserted into Freenet. This tool does not appear to be currently maintained.
 <br />
 <br /><h3>Message Board Tools and File Sharing tools
-</h3>
+</h3><hr>
 <br /><a class='wiki'  href='http://jtcfrost.sf.net/'><b>Frost</b></a>
 <br />
 <br />Frost is a file-sharing tool for Freenet, it also has chat forums which allow people to chat anonymously over Freenet. It now supports FEC (which makes downloads more reliable).
@@ -42,7 +42,7 @@
 <br />FreeNews is an NNTP server that uses Freenet as its storage medium.  It allows you to use your favorite newsreader to read Text Over Freenet messages, like frost uses.
 <br />
 <br /><h3>Misc Tools
-</h3>
+</h3><hr>
 <br /><a href="http://www.freenet.org.nz/freemail"><b>Freemail</b></a>
 <br />
 <br />FreeMail is a peer-to-peer Mail Server program (aka 'Mail Transfer Agent' or 'MTA') that makes it possible for you to send and receive email messages with unprecedented levels of privacy and anonymity. It encrypts your messages and hides them within the privacy-protecting Freenet network, where they are picked up and decrypted only by the people you're sending your messages to.
@@ -59,10 +59,10 @@
 
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@fgbuxwSCCjOJHsUI-9-uijD1haQPAgM/flinks/11//'><b>Flinks</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br />
-<br />Flinks is an application to help people gather, manage, and share links in freenet.  Currently, several indicies generate flinks data (<a class='wiki'  href='http://127.0.0.1:8888/SSK@-w495UL3mfSlWC2c~nRAuG2fAWwPAgM/TFEE//'><b>The Freedom Engine Engine</b></a>, <a class='wiki'  href='http://127.0.0.1:8888/SSK@Sc6qV~D6iFhaYord6HtbjJ8MaEYPAgM/YoYo//'><b>YoYo</b></a>, and the <a class='wiki'  href='http://127.0.0.1:8888/SSK@rjYFfgPHfolmcStiaoxESFfBXz8PAgM/FreenetHelp//'><b>Freenet Help Index</b></a>, among others (<b><span style='color:#FF0000;'>You must be running Freenet for those links to work.</span></b>)), so you can go to their page and download their links, allowing you to essentially build your own index with sites you like
+<br />Flinks is an application to help people gather, manage, and share links in freenet.  Currently, several indicies generate flinks data (<a class='wiki'  href='http://127.0.0.1:8888/SSK@-w495UL3mfSlWC2c~nRAuG2fAWwPAgM/TFEE//'><b>The Freedom Engine Engine</b></a>, <a class='wiki'  href='http://127.0.0.1:8888/SSK@Sc6qV~D6iFhaYord6HtbjJ8MaEYPAgM/YoYo//'><b>YoYo</b></a>, and the <a class='wiki'  href='http://127.0.0.1:8888/SSK@rjYFfgPHfolmcStiaoxESFfBXz8PAgM/FreenetHelp//'><b>Freenet Help Index</b></a>, among others (<b><span style='color:#FF0000;'>You must be running Freenet for those links to work.</span></b>)), so you can go to their page and download their links, allowing you to essentially build your own index with sites you like.<p>
 
 <br /><hr/>
-<br /><h2>Want to contribute?
+<br /><h2>Other tools? Want to contribute?
 </h2>
-<br />If you want to develop a tool or client for Freenet please publish your idea <a href='tiki-index.php?page=FreeApps' class='wiki'>here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br />
+<br />If you want to develop a tool or client for Freenet please publish your idea <a href="http://freenetproject.org/index.php?page=freeapps">here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br />
 
