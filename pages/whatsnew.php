@@ -5,6 +5,22 @@
 <P>
 <BR>
 <P>
+<LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 21:02:21 +0000</b></a></span><P>
+<b>Build 5065</b><p>
+
+Freenet stable build 5065 is now available. The snapshots have been
+updated. Get it via the update.sh script on Linux, BSD, or OS/X, or use
+the freenet-webinstall.exe utility to update on Windows, or get the jar
+from http://freenetproject.org/snapshots/freenet-latest.jar . All stable
+branch users should upgrade.<p>
+
+The main change here is to reduce the maximum HTL to 10. Ian suggested
+this could reduce the network load, on the basis of experimental
+evidence from last year that if data isn't found at HTL 7-13, it
+probably won't be found at all. I believe this was found by Cruft's
+spider originally... If it doesn't work, we msay revert it.<p>
+
+<hr>
 
 <LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 01:58:35 +0000</b></a></span><P>
 <b>Build 5064</b><p>
