@@ -2,6 +2,11 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
+<p><b>21st July, 2003 - Next Generation Routing Paper</b></p>
+Ian just finished a paper describing "Next Generation Routing", a pretty revolutionary
+change to the core of Freenet's operation that has the potential to make Freenet as
+fast, and in some cases even faster, than the World Wide Web.  Read it 
+<a href="/index.php?page=ngrouting">here</a>.
 <p><b>18th July, 2003 - Upgrade to 0.5.2.1</b></p>
 Freenet 0.5.2.1 fixes amongst other things a major vulnerability in the
 HTML filter. Anyone running Freenet should upgrade.
