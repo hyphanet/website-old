@@ -3,7 +3,12 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 
 <h3>News</h3> 
-<p><b>26th February, 2004 - Freenet Stable build 5072 released</b></p>
+<p>
+<b>03/03/04 - Freenet Help Site available</b></p>
+An unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usuage and  inner-workings of Freenet.
+
+
+<b>26th February, 2004 - Freenet Stable build 5072 released</b></p>
 This new build incorporates the new "rate limiting" load balancing 
 mechanism discussed <a href="/index.php?page=stateof180204">here</a>.
 Rate limiting has proven
