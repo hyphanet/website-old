@@ -55,22 +55,17 @@ To see the latest changes of the builds in the stable branch, you can go to the
 <b><a
 href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h3>Unofficial Distributions</h3>
+Here we link to third-party pages where you can find "unofficial" 
+versions of Freenet.  Please note that these pages are not controlled by 
+the Freenet Project and we cannot guarantee the integrity of versions of 
+Freenet distributed by these third parties.
+<p>
+<ul>
+<a name="yum"></a><li><a href="http://nightwatch.mine.nu/freenet/">Mika 
+Hirvonen's RPMs</a><br>
+Mika has put together RPMs for the stable and unstable branches of 
+Freenet, which you can install and upgrade automatically using <a 
+href="http://linux.duke.edu/projects/yum/">Yum</a>.
+</ul>
 <!--end of empty space--></body>
