@@ -16,4 +16,4 @@ Original white paper by Ian Clarke, Division of Informatics, University of Edinb
 <p>
 <hr>
 <p>
-And here you can find the spec of the <a href="http://freenetproject.org/index.php?page=fcp">protocol</a> (FCP) which applications use to interact with Freenet - and all the other <a href="http://freenetproject.org/index.php?page=docs">Developer documentation</a>.
+See also all the other <a href="http://freenetproject.org/index.php?page=docs">Developer documentation</a>.
