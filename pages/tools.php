@@ -3,7 +3,7 @@
 </h1>
 <br />A variety of people have written some excellent tools and clients for use with Freenet.
 <br />
-<br /><h3>Freenet Publishing & Retrieval Tools</h3><hr>
+<br /><h3>Freenet Publishing & Retrieval Tools</h3>
 
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/7//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br />
@@ -24,8 +24,8 @@
 <br />
 <br />FreeWeb allows websites to be inserted into Freenet. This tool does not appear to be currently maintained.
 <br />
-<br /><h3>Message Board Tools and File Sharing tools
-</h3><hr>
+<br /><hr><h3>Message Board Tools and File Sharing tools
+</h3>
 <br /><a class='wiki'  href='http://jtcfrost.sf.net/'><b>Frost</b></a>
 <br />
 <br />Frost is a file-sharing tool for Freenet, it also has chat forums which allow people to chat anonymously over Freenet. It now supports FEC (which makes downloads more reliable).
@@ -41,8 +41,8 @@
 <br />
 <br />FreeNews is an NNTP server that uses Freenet as its storage medium.  It allows you to use your favorite newsreader to read Text Over Freenet messages, like frost uses.
 <br />
-<br /><h3>Misc Tools
-</h3><hr>
+<br /><hr><h3>Misc Tools
+</h3>
 <br /><a href="http://www.freenet.org.nz/freemail"><b>Freemail</b></a>
 <br />
 <br />FreeMail is a peer-to-peer Mail Server program (aka 'Mail Transfer Agent' or 'MTA') that makes it possible for you to send and receive email messages with unprecedented levels of privacy and anonymity. It encrypts your messages and hides them within the privacy-protecting Freenet network, where they are picked up and decrypted only by the people you're sending your messages to.
