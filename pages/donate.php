@@ -1,4 +1,9 @@
 <h3>Donations</h3>
+<h4>Why does The Freenet Project need donations?</h4>
+The Freenet Project 
+relies on your donations both to support those developers working 
+full-time on the project, and to cover hardware and administrative 
+costs. <!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?--zab -->
 <h4>How can I donate?</h4>
 You have four options:
 <ul>
@@ -57,13 +62,6 @@ Santa Monica CA 90403
 new Freenet <a 
 href="http://cafepress.com/freenetproject/">store</a>.
 </ul>
-<h4>Why does The  
-Freenet Project need 
-donations?</h4>
-The Freenet Project 
-relies on your donations both to support those developers working 
-full-time on the project, and to cover hardware and administrative 
-costs.
 <h4>How can I be sure that my donation will be used appropriately?</h4>
 All donations go to The  
 Freenet Project Inc, a 
