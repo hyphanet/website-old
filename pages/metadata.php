@@ -39,6 +39,7 @@ etc.) can be included verbatim following the last Part.</p>
 &lt;Part&gt; = "Document\n" &lt;Field&gt;* "EndPart\n"
 &lt;LastPart&gt; = "Document\n" &lt;Field&gt;* "End\n"
 &lt;Field&gt; = Key "=" Value "\n"
+</pre>
 
 <h3><a name="Na69">Example 1. Abstract Metadata Format</a></h3>
 
