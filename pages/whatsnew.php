@@ -3,6 +3,48 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
+<LI> <span style='color:blue'>Date: Thu, 13 May 2004 04:25:10 +0100</b></a></span><P>
+<b>Build 5079</b><p>
+
+
+Freenet stable build 5081 is now available. Please upgrade, unless you
+are running an unstable build. Users of the stable network should
+upgrade weekly on average. The snapshots are updating. You can get the
+new build by using freenet-webinstall.exe on Windows, or update.sh on
+Linux/*nix/MacOS X. Don't forget to shut down the node before updating
+and start it up afterwards.<p>
+Changelog: Fixed lots of bugs:<p>
+
+* The routing table was being overrun by nodes with no contact details.<p>
+* Reseeding caused a NullPointerException and never worked (thanks
+  Conrad).<p>
+* Many inserts would never finish.<p>
+* Several inaccuracies fixed and improvements made to rate limiting.<p>
+* The "latest build" indicator was very easily spoofable. Now it is
+  rather less easy to spoof.<p>
+* Fproxy threads would hang forever if an exception happened during the
+  request, e.g. if out of disk space.<p>
+* We should cache late-arriving data, if we are still searching.
+* hops.png had a border on some pages.<p>
+* Vary the minRequestInterval randomly slightly to prevent oscillation
+  (and make traffic analysis harder).<p>
+* build.xml will now build (with ant) everything, including
+  freenet-ext.jar, if you have the source for Contrib.<p>
+* Update CVS details in build.xml because sf changed the CVSROOT.<p>
+* Don't send whether we are transient in our node reference. Firstly, it
+  is irrelevant: all that matters now is whether the node is
+  contactable; all nodes will either do their share or will be dropped
+  from people's routing tables. Secondly, it's a breach of privacy
+  (although a minor one given the first reason).<p>
+* DataSent was not being sent until after the padding had been sent,
+  when a SendData failed. This meant the parent state didn't know the
+  send had failed for some time, which could cause problems.<p>
+* Handle various unexpected or late messages better.<p>
+* Some minor refactoring, logging, indenting, comments, etc.<p>
+<hr>
+
+
+
 <LI> <span style='color:blue'>Date: Tue, 04 May 2004 00:30:22 +0100</b></a></span><P>
 <b>Build 5078</b><p>
 

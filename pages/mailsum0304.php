@@ -2,7 +2,7 @@
 <tr>
 <center><h2>Summary of some discussions on the maillist</h2>
 <P>
-<h3>March</h3></center>
+<h3>April</h3></center>
 <P>
 1) <span style='color:blue'><b>wikiwiki? <a href="http://www.freenethelp.org">www.freenethelp.org</a>
 
