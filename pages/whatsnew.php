@@ -3,7 +3,61 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
 
-<LI> <span style='color:blue'>Date: Wed, 02 Jun 2004 19:54:01 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 23 Jul 2004</b></a></span><P>
+<b>Build 5085</b><p>
+<pre>
+This is the result of more than 2 months work, and has many changes:
+
+Some major changes to a critical part of the routing algorithm, the
+KeyspaceEstimators. The new implementation is faster and much more
+accurate. There are also many other changes to the routing code. There
+may be a readjustment period on the network for a while as people
+upgrade and the network sorts itself out. Your routing table will be
+reset on upgrade: the nodes will still be there but because of the
+algorithm change, the node will need to discover what their specialities
+are all over again. Sorry, it was not possible to make this backwards
+compatible. Many other minor routing improvements, many of them as a
+result of simulation (by running several nodes simultaneously on one
+machine, and running tests).
+
+Firewalled nodes will now automatically pick up their IP address from
+the nodes they are connected to (once enough nodes have upgraded). Thus
+you no longer need to specify an address in the config file or use
+dyndns. This should make Freenet significantly easier to use for new
+users on firewalled/NATted setups. You will still need to forward the
+listenPort for maximum performance as we have not yet implemented
+automatic port forwarding (it would require us to borrow some code for
+Universal Plug and Play from other GPL'd Java apps; we may do this
+later).
+
+Several fairly significant rate limiting fixes and improvements. Nodes
+were comparing two averages over different time periods when calculating
+their current request capacity, and sending the wrong Minimum Request
+Interval to the requesting node. This caused significant problems in our
+simulations. Also we now send "keepalive" messages occasionally,
+including the MRI, so that nodes don't get out of date when the MRI
+changes quickly (for example on startup).
+
+Fixed a number of long running bugs affecting inserts, mostly at the
+client end. Especially inserts of large files. If you gave up trying to
+insert something because of timeouts, try it again on 5085.
+
+Use a limit of 80 connections by default on Windows 98/ME, not 40. This
+should make nodes on such operating systems work slightly better. If you
+have problems with running out of sockets you may need to reduce the
+limits.
+
+New diagnostics, new scripts, updates to scripts, improvements to
+announcements (but still not working properly), fixes for
+NullPointerExceptions (if you don't know what these are you don't want
+to), improvements to the routing table status pages, always overwrite
+the old logfile unless told otherwise in the config file (logOverwrite)
+to prevent the disk filling up, two new stats, node_<number> renamed to
+node, and loads of internal refactoring (moving code around, deleting
+dead code).
+</pre>
+
+<LI> <span style='color:blue'>Date: Wed, 02 Jun 2004</b></a></span><P>
 <b>Build 5084</b><p>
 
 

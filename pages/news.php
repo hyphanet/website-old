@@ -2,6 +2,14 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
+<b>23rd July, 2004 : Stable build 5085</b><br>
+Stable build 5085 has now been released, all users running the stable
+branch should upgrade as this build contains important bugfixes and
+many fundamental improvements.  Instructions for installing or upgrading
+are available <a href="/index.php?page=download">
+here</a>.  A more detailed list of changes may be found 
+<a href="/index.php?page=whatsnew">here</a>.
+<p>
 <b>12th July, 2004 : Status Update</b><br>
 Things have been progressing rapidly in the unstable branch over the
 past few weeks.  Along with the usual flow of bug fixes, Matthew
@@ -14,14 +22,3 @@ are working on a variety of solutions to this problem.
 <p>
 If you are feeling adventurous, <a href="?page=tryunstable">this page</a>
 explains how you can try out the unstable branch of development.
-<p>
-<b>30th May, 2004 : Stable Build 5083 released</b><br>
-Stable Build 5083 has now been released.  All users running the stable
-branch of Freenet should update.  Windows users should select "Update
-Snapshot" from the Freenet section of their Start menu, Linux users
-should run the <b>update.sh</b> script in their "freenet" directory.
-<p>
-This new build incorporates a wide variety of important changes to
-almost all aspects of Freenet's operation.  You can read a detailed list
-of these changes <a href="http://article.gmane.org/gmane.network.freenet.devel/14035">
-here</a>. 
