@@ -84,11 +84,6 @@ function sideOvr(num) {
   </head>
 
   <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
-<!-- Online demo FFII -->
-<center><a href="http://demo.ffii.org/">
-<img src="http://www.student.kun.nl/dieter.vanuytvanck/img/patent_overload.gif" border="0" alt="NO to software patents - come to brussels on 
-14 april" height="60" width="468" />
-</a></center>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td height="51" rowspan="2" align="left" background="image/hdr_bg_tall.gif"><a 
