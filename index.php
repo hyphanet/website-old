@@ -11,6 +11,12 @@ if (isset($_REQUEST["page"])) {
   $page = "index";
 }
 
+$f = fopen("access.log", "a");
+fputs($f, date("r") . "\t" . $page . "\t" . $_SERVER["HTTP_REFERER"] 
+       ."\n");
+fclose($f);
+
+
 $modes = array("beginner"=>FALSE, "user"=>FALSE, "developer"=>FALSE);
 if (isset($_GET["mode"])) {
   $mode = $_GET["mode"];
