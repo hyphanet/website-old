@@ -13,4 +13,6 @@
 
 <p>
 <h3><a href="/index.php?page=metadata">Freenet Metadata Spec</a></h3>
-<p>This spec is for client metadata. It's intent is to provide functionality for building web sites within Freenet.</p>
+<p>This spec is for client metadata. It's intent is to provide
+functionality for building web sites within Freenet, as well as
+general description of the data inserted into Freenet.</p>
