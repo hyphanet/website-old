@@ -33,14 +33,14 @@ href="http://www.paypal.com/">PayPal</a> and
   success they make a return on their investment.<br></br>
   FairShare essentially democratizes this process.  Anybody can
   "invest" in an artist, and if that artist goes on to be a success,
-  then the person is reward in proportion to their investment and how
+  then the person is rewarded in proportion to their investment and how
   early they made it.<br></br>
   But where does this return on investment come from?  The answer is
   that it comes from subsequent investors.  For example, lets say that
   you invest $10.  $4.50 might go straight to the band, $1 might go to
   the operator of the system, and the remaining $4.50 would be
-  distributed among previous investors in the band, those who invested
-  more early would get a bigger proportion than those who invested
+  distributed among previous investors in the band, those who invest
+  early get a bigger proportion than those who invest
   less, later-on.<br></br>
   Of course, most people will not make a profit, but they are rewarded
   by knowing that they contributed towards an artist that they liked,
