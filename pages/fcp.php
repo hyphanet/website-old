@@ -6,17 +6,19 @@
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000">
-<p class="menu">Abstract</p>
+<p><h2>Freenet Client Protocol</h2></p>
+
+<p><h3>Abstract</h3></p>
 <p class="body">The FreenetClientProtocol (FCP) is designed to abstract the basics 
   of Freenet so that client developers do not have to track the main Freenet protocol. 
   FCP should be the bare bones of Freenet - metadata handling is not included 
   in FCP though an extension to FCP may come about at a later date to avoid writing 
   metadata handling libraries in many languages.</p>
-<p class="menu">Note</p>
+<p><h4>Note</h4></p>
 <p class="body">This protocol is never meant to go across a network - only via 
   the loopback. Nodes should not accept FCP connections from hosts other than 
   localhost by default.</p>
-<p class="menu">Basics</p>
+<p><h3>Basics</h3></p>
 <p class="body">By <i>default</i> FCP is port 8481, but any client that uses FCP 
   should leave this configurable, because this may be changed in the node's configuration 
   file or by some future FCP revision.</p>
@@ -28,9 +30,11 @@
   4 bytes:</p>
 
 <pre>00 00 00 02</pre>
+
 <p class="body">These are the 2-byte session identifier and the 2-byte presentation 
   identifier. In the future, different identifiers may be used to allow alternate 
   syntaxes or encrypted FCP connections from remote hosts, for example.</p>
+
 <p class="body">After sending the session and presentation identifiers, the client 
   sends a message to initiate the transaction, then waits for one or more messages 
   from the node until the transaction is complete. Messages are a series of lines 
@@ -45,7 +49,8 @@ Header
 EndMessage
 </pre>
 
-<p class="menu">Message Summary</p>
+<p><h3>Message Summary</h3></p>
+
 <p class="body">This is the complete set of client to node messages, with the 
   possible node to client responses (only the headers are listed).</p>
 
@@ -128,12 +133,14 @@ EndMessage
   in the remainder of this document. Clients should be prepared to handle a <code>Failed</code> 
   at any time, and a <code>FormatError</code> as the response to any client message. 
   Either of these messages terminates the transaction and the connection.</p>
-  
-<p class="menu">Handshaking</p>
+<hr>
+<p><h3>Handshaking</h3></p>
+
+<b>ClientHello</b>
 
 <p class="body">This is totally optional for the client. Note that this counts as a transation and thus the connection is torn down afterwards.</p>
 
-<pre>  
+<pre>
 (Client -> Node)
 
 ClientHello
@@ -141,6 +148,8 @@ EndMessage
 </pre>
 
 <p class="body">In response the node sends the following message:</p>
+
+<b>NodeHello</b>
 
 <pre>
 (Node -> Client)
@@ -157,8 +166,10 @@ EndMessage
   implementors are advised, in this circumstance, to notify the user that they 
   should upgrade to the latest build of Freenet. The user should have the ability 
   to turn off this warning.</p>
-  
-<p class="menu">Requesting</p>
+<hr>
+<p><h3>Requesting</h3></p>
+
+<b>ClientGet</b>
 
 <pre>
 (Client -> Node)
@@ -173,14 +184,14 @@ EndMessage
   one of the following messages:</p>
   
 <ul class="body">
-<li>URIError: Invalid Freenet URL. The transaction is terminated.</li>
-<li>Restarted: The client should continue waiting.</li>
-<li>DataNotFound: The transaction is terminated due to not being able to find data.</li>
-<li>RouteNotFound: The transaction is terminated due to not being able to find a route.</li>
+<li><code>URIError</code>: Invalid Freenet URL. The transaction is terminated.</li>
+<li><code>Restarted</code>: The client should continue waiting.</li>
+<li><code>DataNotFound</code>: The transaction is terminated due to not being able to find data.</li>
+<li><code>RouteNotFound</code>: The transaction is terminated due to not being able to find a route.</li>
 </ul>
 
 <p>
-Otherwise a DataFound message is returned:</p>
+Otherwise a <code>DataFound</code> message is returned:</p>
 
 <pre>
 (Node -> Client)
@@ -207,8 +218,10 @@ Data
   waiting state, and if a <code>DataFound</code> is then received, the data transfer 
   will start over from the beginning. Otherwise, when the final <code>DataChunk</code> 
   is received, the transaction is complete and the connection dies.</p>
-  
-<p class="menu">Inserting</p>
+<hr>
+<p><h3>Inserting</h3></p>
+
+<b>ClientPut</b>
 
 <pre>
 (Client->Node)
@@ -239,17 +252,22 @@ Data <@DataLength number of bytes>
     field with the Freenet URI of the document.</li>
 	
   <li><code>SizeError</code>: The transaction is terminated due to the data being 
-    too large for the key type; all non-CHK keys have a limit of 32 kB of data. 
-    During an insertion, multiple <code>Pending</code> messages may be returned. 
-    These messages signal that the data is being successfully inserted, but insertion 
-    is not complete, and the node has not received a <code>StoreData</code> message 
-    yet:</li>
+    too large for the key type; all non-CHK keys have a limit of 32 kB of data.
+</li>
 </ul>
+
+<p class="body">During an insertion, multiple <code>Pending</code> messages may be returned. 
+These messages signal that the data is being successfully inserted, but insertion 
+is not complete, and the node has not received a <code>StoreData</code> message 
+yet:</p>
+
+<b>Pending</b>
 
 <pre>
 (Node -> Client)
 
-Pending URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+Pending
+URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
 [PublicKey=&lt;string: public key&gt;]
 [PrivateKey=&lt;string: private key&gt;]
 EndMessage
@@ -260,6 +278,8 @@ EndMessage
   Freenet URI of the new document and possibly a private/public keypair, if the 
   inserted document was an SVK. See the section on key generation about this.</p>
 
+<b>Success</b>
+
 <pre>
 (Node -> Client)
 
@@ -269,13 +289,15 @@ URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt>
 [PrivateKey=&lt;string: private key&gt;]
 EndMessage
 </pre>
-
-<p class="menu">Key generation</p>
+<hr>
+<p><h3>Key generation</h3></p>
 
 <p class="body">These messages allow a client to generate keys. This does not 
   affect Freenet at all - the calculations are carried out at the node.</p>
 
 <p class="body">Key generation requests are done via a <code>GenerateKey</code> message. Either a CHK or an SVK keypair can be generated:</p>
+
+<b>GenerateCHK</b>
 
 <pre>
 (Client -> Node)
@@ -289,7 +311,7 @@ Data
  
 <p class="body">The node calculates the CHK as it would do if inserting, but instead 
   returns it. This completes the transaction:</p>
-
+<b>Success</b>
 <pre>
 (Node -> Client)
 
@@ -300,7 +322,7 @@ EndMessage
 <p class="body">The format for generating SVKs is very similar but generates a 
   pair of keys (public and private) which are independent of any data. This is 
   generally used for setting up SSKs:</p>
-
+<b>GenerateSVKPair</b>
 <pre>
 (Client -> Node)
 
@@ -326,6 +348,8 @@ EndMessage
 (insert) freenet:SSK@&lt;PrivateKey&gt;/&lt;name&gt;
 (request) freenet:SSK@&lt;PublicKey&gt;/&lt;name&gt;
 </pre>
+
+<hr>
 
 </body>
 </html>
