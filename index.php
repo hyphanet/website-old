@@ -123,6 +123,8 @@ href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The F
         </td>
       </tr>
     </table>
+<center><font size=-1>This website is licensed under the <a 
+href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a></font></center>
   </body>
 </html>
 

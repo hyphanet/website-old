@@ -1,12 +1,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
 <tr>
-<center><h2>What's new?</h2><p>
-<h3>Changelog for the stable branche</h3>
-</center>
-<P>
-<BR>
-<P>
-
+<<h2>What's new?</h2><p>
+<h3>Changelog for the stable branch</h3>
 <LI> <span style='color:blue'>Date: Wed, 17 Mar 2004 16:09:24 +0000</b></a></span><P>
 <b>Build 5076</b><p>
 
