@@ -9,3 +9,7 @@ Online with Freenet</a><br>
 An IEEE Internet Computing article describing the Freenet architecture 
 circa 2002 - probably the best introduction to the theory behind 
 Freenet.
+<P>
+<a href="http://freenetproject.org/freenet.pdf">
+FreeNet White Paper</a><br>
+Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
