@@ -2,6 +2,41 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 <h3>News</h3>
+<p><b>18th July, 2003 - Subscribe to a Freenet Project Membership</b></p>
+<p>
+While we are most grateful for the generous donations of our users,
+one of the biggest problems for the Freenet project is that the amount of donations we receive
+in a given month can fluctuate quite a bit, making it impossible to know for sure from month
+to month whether we will be able to continue paying our full-time developer, Matthew Toseland.
+</p><p>
+To address this issue we have decided to allow people to subscribe to a Freenet Project "Membership",
+which will cost just $10 per month, and which will provide a more robust and reliable source of
+income for the project.  While at the moment the only benefit to being a member will be that warm
+fuzzy feeling you get inside knowing that you are contributing towards an important project - we will
+think about other ways that we can reward our members more directly in the future.  If you are 
+interested in supporting the Freenet Project by subscribing to a membership, and if you have a 
+PayPal account - please click on this button:
+<center>
+<center>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick-subscriptions">
+<input type="hidden" name="business" value="ian@freenetproject.org">
+<input type="hidden" name="item_name" value="Freenet Project Membership">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+<input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+<input type="hidden" name="a3" value="10.00">
+<input type="hidden" name="p3" value="1">
+<input type="hidden" name="t3" value="M">
+<input type="hidden" name="src" value="1">
+<input type="hidden" name="sra" value="1">
+</form>
+</center>
+</p>
+<p>
+Of course, those unable to 
+</p>
 <p><b>16th July, 2003 - Freenet 0.5.2 Released!</b><br></p>
 <p>After four months work, Freenet 0.5.2 is now <a href="/index.php?page=download"><b>available
 for download</b></a>.</p> <p>It features a new NIO technology that brings improved performance 
@@ -17,31 +52,4 @@ full time developer for the bargain rate of $1500/month.  We have some very exci
 planned for the next release such as a revolutionary new routing mechanism called NGRouting, so if you haven't already done so, please 
 consider <a href="/index.php?page=donate">donating</a>.</p>
 
-<!-- shorten the news, don't scare noobs & idiots away
-<p><b>23rd June, 2003 - Ian responds to Peacefire paper</b><br>
-Ian just posted a <a 
-href="http://slashdot.org/~Sanity/journal/37275">response</a> 
-to Bennett Haselton's paper <i>"Why a 
-'distributed cloud' of peer-to-peer systems will not be able to 
-circumvent Internet blocking in the long run"</i> on his <a 
-href="http://slashdot.org/~sanity/journal">weblog</a> today.  In it 
-he argues that the attack Bennett describes, while being a 
-theoretical possibility, would be practically impossible even for the 
-best-funded of government Internet censors.
-</p>
-<p><b>14th June, 2003 - Your support needed</b><br>
-Things have been progressing well, we have almost finished a major 
-architectural improvement (migrating to java.nio) which should lead to 
-a significant reduction in Freenet's cpu usage, and we are working on 
-the most fundamental improvement to Freenet's core algorithm since its 
-original design - NGRouting.
-<br>
-Matthew Toseland, our full time developer, has been a major catalyst to 
-Freenet development, however his contract is coming to an end and the 
-project's funds are presently very low.  As a result I am making this 
-appeal for your financial support.  If you can afford to - please visit 
-our <a href="/index.php?page=donate">donations</a> page, you can 
-contribute with a credit card through Paypal, or via E-Gold if you 
-prefer.
--->
 
