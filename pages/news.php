@@ -12,7 +12,7 @@ This new build incorporates a wide variety of important changes to
 almost all aspects of Freenet's operation.  You can read a detailed list
 of these changes <a href="http://article.gmane.org/gmane.network.freenet.devel/14035">
 here</a>. 
-
+<p>
 <b>24th May, 2004 : Paypal apologises</b><br>
 Today we received an email from Amy Stohlman, an AUP Supervisor at Paypal.
 She said:
