@@ -1,12 +1,13 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
 <tr>
 <h2>What's new?</h2><p>
-<h3>Changelog for the stable branch</h3>
+<h3>Changelog for the stable branch</h3><br>
+For missing or other builds: see the maillist or the wikipages 'Latest Stable' and 'Latest Unstable' on www.freenethelp.org.</br>
+<hr>
 
 <LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
 <b>Build 5095</b><p>
 <pre>
-For earlier builds: see maillist.
 
 Freenet stable build 5095 is now available. Please upgrade, test, and
 report bugs.
@@ -31,6 +32,7 @@ have problems with this please tell us, and we will be more likely to
 do something about it. Optimizations would probably introduce more bugs,
 so haven't been an immediate priority...
 </pre>
+<hr>
 
 <LI> <span style='color:blue'>Date: Thu, 26 Aug 2004 21:37:57 +0100</b></a></span><P>
 <b>Build 5092</b><p>
