@@ -3,7 +3,8 @@
 The Freenet Project 
 relies on your donations both to support those developers working 
 full-time on the project, and to cover hardware and administrative 
-costs. <!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?--zab -->
+costs. 
+<!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab -->
 <h4>How can I donate?</h4>
 You have four options:
 <ul>
