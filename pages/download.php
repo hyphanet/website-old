@@ -6,7 +6,7 @@
 Download and run    
 <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>.  
 It will automatically install Freenet and other required components for you.  When done, 
-double-click on the small blue rabbit icon in your task-tray.  Freenet will works best with <b>Windows 2000 or XP.</b>
+double-click on the small blue rabbit icon in your task-tray.  Freenet works best with <b>Windows 2000 or XP.</b>
 <h3>Unix</h3>
 You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://prdownloads.sourceforge.net/freenet/freenet-0.5.2-rc2.tar.gz?download">freenet-0.5.2-rc2.tar.gz</a>.  Get started by typing:
 <pre>
@@ -29,3 +29,27 @@ Linux users may similarily upgrade by running the update.sh shell script in the 
 <a name="NAT">
 <b>Note: Firewall/NAT users</b><br>
 If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
+
+
+<!--put some empty space so that the Firewall info will appear on top of the page-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--end of empty space-->
