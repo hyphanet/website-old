@@ -12,8 +12,15 @@ if (isset($_REQUEST["page"])) {
 }
 
 $f = fopen("access.log", "a");
-fputs($f, date("r") . "\t" . $page . "\t" . $_SERVER["HTTP_REFERER"] 
-       ."\n");
+$remaddr = $_SERVER["REMOTE_ADDR"];
+$ips = explode(".", $remaddr);
+$bst = "";
+foreach($ips as $b) {
+$bst = $bst . chr(intval($b));
+}
+$out = str_replace("=", "", base64_encode($bst));
+fputs($f, $out . "\t" . date("r") . "\t" . $page . "\t" . 
+            $_SERVER["HTTP_REFERER"] . "\n");
 fclose($f);
 
 
