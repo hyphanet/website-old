@@ -59,6 +59,7 @@
 </li><li><a href="#contribute">Can I contribute to the Freenet Project?</a>
 </li><li><a href="#access">How can I access the code and website?</a>
 </li><li><a href="#devtools">What tools do I need to help develop?</a>
+</li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
 </li></ol>
 <h2> Security questions
 
@@ -437,6 +438,9 @@ To build and deploy the Freenet server, you will need Java tools compatible with
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). To do web development you
 will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.</p>
+
+<p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
+Yes, an unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usage and  inner-workings of Freenet. It's a wiki, thus everybody can contribute too it.</p>
 
 
 <h2> Security answers

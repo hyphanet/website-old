@@ -16,4 +16,5 @@ Original white paper by Ian Clarke, Division of Informatics, University of Edinb
 <p>
 <hr>
 <p>
-See also all the other <a href="http://freenetproject.org/index.php?page=docs">Developer documentation</a>.
+See also all the other <a href="http://freenetproject.org/index.php?page=docs">Developer documentation</a>.<p>
+And an unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usage and  inner-workings of Freenet.
