@@ -7,13 +7,10 @@ Internet?'"</i><br>
 --Mike Godwin, <a href="http://eff.org/">Electronic Frontier
 Foundation</a>
 </blockquote>
-<!--</td>
-<td>
-<a href="index.php?page=donate">
-<img border="0" src="images/donatenow.gif"></a>
-</td>
-</tr></table>-->
-
+<p>
+<b>Press enquiries</b> should be directed to <a 
+href="mailto:ian@locut.us">Ian Clarke</a>.
+</p>
 <? 
 	include("pages/news.php");
 	echo "<br><br>";
