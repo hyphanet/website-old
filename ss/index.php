@@ -1,9 +1,9 @@
 <?php
 if (!isset($_REQUEST["page"]))
   {
-    $page="1";
+    $p="1";
   } else {
-    $page=$_REQUEST["page"];
+    $p=$_REQUEST["page"];
   }
 ?>
 <html>
@@ -40,7 +40,7 @@ H1   {font-size:40;text-align:center;}
     echo("\">Next</a>");
   ?></font></td></tr></table>
 <?php
-  include("slide".$page.".inc");
+  include("slide".$p.".inc");
 ?>
       </td>
     </tr>
