@@ -6,12 +6,11 @@ For missing or other builds: see the maillist or the wikipages 'Latest Stable' a
 <hr>
 
 <LI> <span style='color:blue'>Date: Mon, 22 Nov 2004 16:14:37 +0000</b></a></span><P>
-<b>Build 5099</b><p>
+<b>Build 5100</b><p>
 <pre>
-
-
 Freenet stable build 5100 is now available. The snapshots have been
 updated. Please upgrade.
+
 Changes:
 - Removed the (primary) failure table. This may have been causing many
   fast DNFs recently on files that may well actually be available, but
@@ -34,8 +33,6 @@ Changes:
 <LI> <span style='color:blue'>Date: Tue, 26 Oct 2004 00:20:40 +0100</b></a></span><P>
 <b>Build 5099</b><p>
 <pre>
-
-
 Stable build 5099 is now available widely. This is a stable network
 reset; you WILL need to reseed if you are still on 5096 or earlier.
 Thanks to all who helped to test 5097, 5098 and 5099. Thanks partly to
@@ -70,7 +67,6 @@ The changes in this build are numerous, the highlights:
 <LI> <span style='color:blue'>Date: Fri, 24 Sep 2004 19:53:55 +0100</b></a></span><P>
 <b>Build 5096</b><p>
 <pre>
-
 Freenet stable build 5096 is now available. The snapshots have been
 updated. Please upgrade to 5096, test it, and report any bugs that you
 find. You can do this by using the update utility on windows (on the
@@ -136,13 +132,12 @@ There are many changes in this build, here are some of them:
   systems. Fixed it.
 - Many other minor fixes.
 </pre>
-
+<hr>
 
 
 <LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
 <b>Build 5095</b><p>
 <pre>
-
 Freenet stable build 5095 is now available. Please upgrade, test, and
 report bugs.
 
