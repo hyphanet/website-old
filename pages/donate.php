@@ -10,8 +10,68 @@ future of The Freenet Project and you can be assured donations have been and wil
 to be used wisely, all support is very much appreciated.
 
 <h4>How can I donate?</h4>
-You have three options:
+You have five options:
 <ul>
+<li>You can become a Freenet project "member" for a <b>recurring
+payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
+it gives the
+project a more stable and dependable income which makes it easier
+to make long term committments to potential developers - right now
+it is difficult to say whether we will be able to pay a developer
+the following month although so-far we have been fortunate.  You
+can become a member by clicking on this button (you will need a
+<a href="http://paypal.com/">PayPal</a> account):
+<center>
+<table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick-subscriptions">
+<input type="hidden" name="business" value="ian@freenetproject.org">
+<input type="hidden" name="item_name" value="Freenet Project Membership">
+<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
+<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="currency_code" value="USD">
+Amount:
+<p>
+<span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"></span>&nbsp; 
+<span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="true" 
+value="10.00"></span>&nbsp; 
+<span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"></span>&nbsp;
+</p>
+<input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make 
+payments with PayPal - it's fast, free and secure!">
+<input type="hidden" name="p3" value="1">
+<input type="hidden" name="t3" value="M">
+<input type="hidden" name="src" value="1">
+<input type="hidden" name="sra" value="1">
+</form>
+</td></tr></table>
+</center>
+<P>
+<hr width="90%">
+<P>
+<li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
+<center>
+      <form action="https://www.paypal.com/cgi-bin/webscr" 
+method="post">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" 
+value="ian@freenetproject.org">
+      <input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
+<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
+      <input type="hidden" name="return" 
+value="http://freenetproject.org/">
+      <input type="hidden" name="cancel_return" 
+value="http://freenetproject.org/">
+      <input type="image" 
+src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
+name="submit"></form>
+</center>
+<P>
+<hr width="90%">
+<P>
 <li>You may donate once through Amazon by clicking on this button:<br>
 <center>
 <!-- Begin Amazon Honor System Paybox -->
