@@ -2,7 +2,7 @@
 
 </h1><i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
 <br />
-<br /><a class='wiki'  href='http://mail.freenetproject.org/mailman/listinfo/announce/'>Announcements</a> (<a class='wiki'  href='http://mail.freenetproject.org/pipermail/announce/'>archive</a>)
+<br /><a class='wiki'  href='http://mail.freenetproject.org/mailman/listinfo/announce/'>Announcements</a> (<a class='wiki'  href='http://www.mail-archive.com/announce@freenetproject.org/'>archive</a>)
 <br />Please sign up here to be notified of major Freenet developments, such as announcements of new releases or important bugfixes.  This list is moderated and is very low traffic (less than one message per month).
 <br />
 
