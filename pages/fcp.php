@@ -1,4 +1,4 @@
-<h2>Freenet Client Protocol</h2>
+<h2>Freenet Client Protocol v1.2</h2>
 
 <h3>Abstract</h3>
 <p class="body">The FreenetClientProtocol (FCP) is designed to abstract the basics
