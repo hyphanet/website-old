@@ -49,29 +49,28 @@ Now"></div></form>
 <li>While we prefer electronic donations using one of the above two 
 methods, you may also donate by sending a check to:
 <pre>
-The <B style="color:black;background-color:#ffff66">Freenet</B> Project 
-Inc
+The Freenet Project Inc
 c/o Ian Clarke
 1122 6th Street #206
 Santa Monica CA 90403
 </pre>
 <li>You can now also donate to the project by purchasing items from the 
-new <B style="color:black;background-color:#ffff66">Freenet</B> <a 
+new Freenet <a 
 href="http://cafepress.com/freenetproject/">store</a>.
 </ul>
-<h4>Why does The <B 
-style="color:black;background-color:#ffff66">Freenet</B> Project need 
+<h4>Why does The  
+Freenet Project need 
 donations?</h4>
-The <B style="color:black;background-color:#ffff66">Freenet</B> Project 
+The Freenet Project 
 relies on your donations both to support those developers working 
 full-time on the project, and to cover hardware and administrative 
 costs.
 <h4>How can I be sure that my donation will be used appropriately?</h4>
-All donations go to The <B 
-style="color:black;background-color:#ffff66">Freenet</B> Project Inc, a 
-non-profit 501c3 corporation with the following <B 
-style="color:black;background-color:#A0FFFF">mission </B><B 
-style="color:black;background-color:#99ff99">statement</B>:
+All donations go to The  
+Freenet Project Inc, a 
+non-profit 501c3 corporation with the following 
+mission  
+statement:
 <blockquote>
 The specific purpose of this corporation is to assist in developing and 
 disseminating technological solutions to further the open and democratic 
@@ -85,9 +84,9 @@ interference or limitation by or service to state, private, or special
 interests. It is also the purpose of this organization to educate the 
 world community and be an advocate of these purposes.
 </blockquote>
-All monies received will only be utilized to advance our <B 
-style="color:black;background-color:#A0FFFF">Mission </B><B 
-style="color:black;background-color:#99ff99">Statement</B>, and are 
-administered at the direction of the <B 
-style="color:black;background-color:#ffff66">Freenet</B> Project Board.
+All monies received will only be utilized to advance our 
+Mission 
+Statement, and are 
+administered at the direction of the 
+Freenet Project Board.
 
