@@ -41,4 +41,16 @@ you are talking about, otherwise use the tech mailing list (see above).
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 <p>
 <br />
+<br /><a class='wiki'  
+href='http://mail.freenetproject.org/mailman/listinfo/chat/'>Chat</a> (<a 
+class='wiki'  href='http://news.gmane.org/gmane.network.freenet.general'>archive</a>)
+<br />
+This list is for general discussion of Freenet, topics that are not suitable 
+to other lists. Discussions of politics, law, philosophy, lawsuits, 
+programming languages, related technology that should not be part of
+Freenet, and any thread that the developers and users don't deem appropriate 
+to the main lists should be discussed here. Questions such as "how can I prevent 
+my node from being used by terrorists?", or "why don't you rewrite Freenet in C++"
+should be addressed to this list.
+<br />
 </p>
