@@ -3,21 +3,37 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 
 <h3>News</h3> 
-<p><b>26th October, 2003 - Rapid changes in unstable</b></p>
-Those that have been running Freenet's "unstable" build (see <a 
-href="/index.php?page=tryng">here</a> to learn how to do this) will have 
-noticed rapid progress as we work out the various issues in our <a 
-href="/index.php?page=ngrouting">next generation routing algorithm</a>.  
-Once this is sufficiently stable it will become Freenet 0.6.  Just 
-yesterday we fixed another serious bug in the unstable build so if you 
-are running an older build, please try to update it daily if you can.
-
-<p><b>15th September, 2003 - Ian Clarke selected as top
-Innovator of 2003</b></p>
-MIT's <a href="http://www.technologyreview.com/">Technology Review</a>
-magazine has selected Freenet's creator, Ian Clarke, as one of the top
-100 innovators of 2003 under the age of 35 (collectively known as the
-TR100) for his work on Freenet and related projects.  See <a 
-href="http://www.technologyreview.com/articles/tr100_1003.asp">here</a> 
-for further details.
-
+<p><b>28th October, 2003 - Next Generation Routing now in 
+"stable" build</b></p>
+After months of work we have finally decided that the "Next Generation 
+Routing" code is ready for wider testing and have thus merged it into 
+the "stable" build of Freenet.
+<p>
+Next Generation Routing or NGR represents a MAJOR change to the way 
+freenet searches for data, while still preserving the underlying 
+principles of its operation.  For example, Freenet now considers actual 
+network latency and bandwidth while making its routing decisions, while 
+also considering many other factors including reliability and the load 
+imposed on other nodes in the Freenet network.  We believe these 
+advances help to keep Freenet on the cutting-edge of P2P research while 
+also providing our users with a useful if far-from complete piece of 
+software.  To learn more about this see 
+<a href="http://freenetproject.org/index.php?page=ngrouting">here</a>.
+<p>
+NGR is far from being the only improvement.  We have continued to 
+migrate Freenet over to Java's new non-blocking IO API.  We have made 
+major changes to Freenet's handling of connections to other nodes, added 
+many new diagnostics and configuration options, fixed many bugs.
+<p>
+We believe that this new build will be a great improvement on build 5028 
+and we urge all users to upgrade, while cautioning that it is unlikely 
+to be without bugs.
+<p>
+As always, while many have generously donated their time and 
+considerable expertise to these advances, they would not have been 
+possible without the dedication and hard work of Freenet's grossly 
+underpaid full-time developer, Matthew Toseland.  Please help us 
+continue to grossly underpay him by making a donation to the project 
+on our <a 
+href="http://freenetproject.org/index.php?page=donations">donations</a> 
+page.
