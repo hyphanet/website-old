@@ -59,11 +59,8 @@ correctly.  Nodes specialize like this due to an emergent feedback effect,
 when a node successfully responds to a request for a given key - it increases
 the likelihood that other nodes will route requests for similar keys in the
 future.  Over time this effect causes the specialization that can be seen
-very clearly in the diagram above.  Those using browsers that support the
-<a href="http://www.libmng.com/">MNG</a> animation format
-can see an animation of a node's datastore specializing over time
-<a href="image/histanim.mng">here</a>.
-
+very clearly in the diagram above.  You can see an animation of a node's datastore specializing over time
+<a href="image/histanim.mpeg">here</a>.
 
 <H3>Next generation routing mechanism</H3>
 <P>The fact that it works, of course, does not mean that it cannot be
