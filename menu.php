@@ -16,6 +16,7 @@ $menus = array(	'beginner' => array(
 				'Donate'=>'donate',
 				'Content' => 'content',
 				'FAQ' => 'faq',
+				'Documentation' => 'docs',
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
 				'Tools' => 'tools',
@@ -24,12 +25,13 @@ $menus = array(	'beginner' => array(
 		'developer' => array(
 				'What is Freenet?' => 'whatis',
 				'Download'=>'download', 
+				'Documentation' => 'docs',
 				'Donate'=>'donate',
 				'Content' => 'content',
-				'FAQ' => 'faq',
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
 				'Tools' => 'tools',
+				'FAQ' => 'faq',
                                 'Papers' => 'papers',
 				'Browse CVS' => 'http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/freenet/',
 				'People' => 'people' )

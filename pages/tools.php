@@ -5,7 +5,7 @@
 <br />
 <br /><h3>Freenet Publishing & Retrieval Tools
 </h3>
-<br /><a class='wiki'  href='http://localhost:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/6//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+<br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/6//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br />
 <br />FIW is a feature packed Java AWT application for inserting freesites.  It contains a lot of help at each stage of the process, and includes site verification to increase availability of the inserts.
 <br />
@@ -37,7 +37,7 @@
 <br />
 <br />FMB is an excellent Usenet-like tool which allows secure messages to be exchanged via Freenet, it is somewhat similar to Frost, but employs a more sophisticated "outbox" based approach. 
 <br />
-<br />It seems that the original author does not have the time to release new versions of it, some other Freenet users created modified versions. For more information visit <a class='wiki'  href='http://localhost:8888/SSK@De48eyKvA132GLzM3iIyon30JvoPAgM/wookie//'>Wookie's Freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+<br />It seems that the original author does not have the time to release new versions of it, some other Freenet users created modified versions. For more information visit <a class='wiki'  href='http://127.0.0.1:8888/SSK@De48eyKvA132GLzM3iIyon30JvoPAgM/wookie//'>Wookie's Freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 
 <br />
 <br /><a class='wiki'  href='http://www.storrow.org/Software/FreeNews/'><b>FreeNews</b></a>
