@@ -3,7 +3,7 @@
 </h1>
 <br />A variety of people have written some excellent tools and clients for use with Freenet.
 <br /><p>
-<h3><a href="http://www.freenetproject.org/index.php?page=freeplot">Development Aides</a></h3>
+<h3><a href="http://www.freenetproject.org/index.php?page=fphowto">Development Aides</a></h3>
 <p>
 <br /><h3>Freenet Publishing & Retrieval Tools</h3>
 
