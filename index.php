@@ -97,7 +97,7 @@ href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The F
 	foreach($modes as $m => $k) {
 		if(!$k) {
 			echo "<a href='index.php?page=".$page."&mode=".$m."' onMouseOver=\"rollOn('";
-			echo $m."s');\" onMouseOut=\"rollOff('".$m."s');\"><img border=o name=".$m;
+			echo $m."s');\" onMouseOut=\"rollOff('".$m."s');\"><img border=0 name=".$m;
 			echo "s alt=".$m."s src=\"image/".$m."s.gif\"></a>";
 		}
 	}?></td></tr></table>
