@@ -1,4 +1,4 @@
-Freenet Frequently Asked Questions</div>
+Freenet Frequently Asked Questions
 
 <h1> Philosophical questions
 </h1><ol><li><a href="#what">What is Freenet?</a>

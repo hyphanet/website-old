@@ -43,7 +43,7 @@ value="http://freenetproject.org/">
 <input type="hidden" name="SUGGESTED_MEMO" value='Thank you for your 
 donation'><br>
 <input type="submit" name="PAYMENT_METHOD" value="Donate 
-Now"></div></form>
+Now"></form>
 </td></tr></table>
 </center>
 <li>While we prefer electronic donations using one of the above two 
