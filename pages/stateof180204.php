@@ -69,5 +69,5 @@ directly at ian@freenetproject.org.
 <p>
 If you would like to try out the very latest trial version of the Rate 
 Limiting algorithm you will need to run the "unstable" branch of Freenet, 
-<a href="/index.php?page=tryng">this page</a> will explain how to do 
+<a href="/index.php?page=tryunstable">this page</a> will explain how to do 
 this.

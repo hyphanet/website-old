@@ -250,8 +250,8 @@ is optimal.  Now clearly there will always be room for refinement
 in the manner in which the new algorithm estimates routing times
 </ul>
 <h3>Current Status</h3>
-NGRouting is now being tested in our "unstable" branch - you can find instructions
-for testing it <a href="index.php?page=tryng">here</a>.
+NGRouting is now deployed in both the stable and the <a href="?page=tryunstable">unstable</a>
+development branches.
 <h3>Interested in helping?</h3>
 In addition to joining our development effort, you can really help us to make
 this all a reality by donating whatever you can spare to the project on our
