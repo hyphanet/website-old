@@ -14,6 +14,7 @@ planned improvements promise to reduce this further.  The second most
 significant change is the fixing of a major bug in the datastore code
 which has gone undetected for over a year, and which was playing havoc
 with Freenet's caching of data.  All users should upgrade immediately
-by visiting our <a href="index.php?page=download">download</a> page,
-selecting "Update Snapshot" in your Windows Start menu, or running
-the <i>update.sh</i> script in your Linux freenet directory.
+by selecting "Update Snapshot" in your Windows Start menu, or running
+the <i>update.sh</i> script in your Linux freenet directory.  New users
+should download the latest stable snapshot from the <a href="index.php?page=download">
+download page</a>.
