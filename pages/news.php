@@ -13,9 +13,9 @@ the big changes in 5085, and partly because of bugs in 5085 up to 5088.
 Instructions for installing or upgrading are <a href="/index.php?page=download">
 here</a>. A more detailed list of changes may be found on 
 <a href="http://article.gmane.org/gmane.network.freenet.support/5090">
-the announcement</a>, or for the real Freenet geeks out there, the low 
+the announcement</a> or on the <a href="/index.php?page=whatsnew">Changelog</a>, or for the real Freenet geeks out there, the low 
 level changelog is on the 
 <a href="http://news.gmane.org/gmane.network.freenet.cvs">CVS list archive</a>.
 If you have any problems upgrading don't hesitate to contact us on IRC on 
 #freenet on irc.freenode.net, or by email at 
-<a href="support@freenetproject.org">support@freenetproject.org</a>.</p>
+<a href="support@freenetproject.org">support@freenetproject.org</a> or have a look at <http://www.freenethelp.org>www.freenethelp.org</a>.</p>
