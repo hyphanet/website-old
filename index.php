@@ -3,7 +3,8 @@ session_start();
 if (isset($_REQUEST["page"])) {
   $page = $_REQUEST["page"];
 } else {
-  if (stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) {
+  if ((stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) &&
+      !(stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "en"))) {
     header("Location: http://de-co.info/freenet/");
     exit();
   }
