@@ -21,4 +21,14 @@ onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 }
 
 item("pg", "pgtxt");
+item("Applications", "applications");
+item("FASD", "fasd");
+item("FCP Tools", "fcptools");
+item("Freenet Apps", "freeapps");
+item("JVM Compatibility", "javacompat");
+item("Key Types", "keys");
+item("Mailing Lists", "mailinglists");
+item("Metadata", "metadata");
+item("Command Line Help", "switches");
+item("UNIX Setup", "unixhowto");
 ?>
