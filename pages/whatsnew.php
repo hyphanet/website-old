@@ -7,6 +7,41 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Thu, 26 Feb 2004 01:16:18 +0000</b></a></span><P>
+<b>Build 5072</b><p>
+
+
+Freenet stable build 5072 is now available. The snapshots are being
+updated. You can get it via the update.sh script on Linux, BSD, or OS/X,
+or use the freenet-webinstall.exe utility to update on Windows, or get
+the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
+All stable branch users should upgrade. The snapshots should have been
+updated soon.
+
+This fixes a bug that went into 5071 by mistake, that could cause the
+node not to start, or other bad things. Please upgrade. Apologies for
+releasing a new stable build so soon after the first one.
+
+
+
+<LI> <span style='color:blue'>Date: Wed, 25 Feb 2004 21:46:11 +0000</b></a></span><P>
+<b>Build 5071</b><p>
+
+
+
+Freenet stable build 5071 is now available. The snapshots have been
+updated. You can get it via the update.sh script on Linux, BSD, or OS/X,
+or use the freenet-webinstall.exe utility to update on Windows, or get
+the jar from http://freenetproject.org/snapshots/freenet-latest.jar .
+All stable branch users should upgrade.
+
+The main change in this build is a fix for a memory leak. This may not
+be fully fixed yet but is drastically reduced from 5070. Also there is a
+significant rate limiting fix, and lots of minor fixes. Please upgrade.
+
+
+
+
 <LI> <span style='color:blue'>Date: Thu, 19 Feb 2004 02:26:34 +0000</b></a></span><P>
 <b>Build 5070</b><p>
 
