@@ -2,6 +2,7 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
+<b>17th May, 2004 : Paypal suspends Freenet donations account</b><br>
 Paypal has frozen the account we use to accept donations over the web, they refuse to give 
 any reason other than "use
 of an anonymous proxy", which suggests that someone at Paypal took a dislike to the goals

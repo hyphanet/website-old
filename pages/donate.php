@@ -16,7 +16,7 @@ to re-subscribe.
 Although countless people have given their time and skill to the project since it's inception The Freenet Project 
 relies on your donations both to support those developers working 
 full-time on this increasingly complex project, and to cover hardware(ie. the project development computer) and administrative 
-costs(ie.domain registrations). It is also a goal to be able find ourselves in the position to start a legal defence fund to help ensure the future of Freenet development.<br>
+costs(ie.domain registrations). It is also a goal to be able find ourselves in the position to start a legal defense fund to help ensure the future of Freenet development.<br>
 Everyone involved is keenly interested in the future of The Freenet Project and you can be assured donations have been and will continue to be used wisely, all support is very much appreciated.
 <!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab(how's that Zab?) -->
 <h4>How can I donate?</h4>
