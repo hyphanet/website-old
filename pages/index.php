@@ -18,6 +18,9 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). -->
 
 <font size="4"><B>News</B></font>
+<p><b>7th May, 2003 - Website problems</b><br>
+The Freenet website was wiped out by an unfortunate oversight and the backups weren't running. This means that we are rebuilding the website from scratch.</p>
+
 <p><b>27th April, 2003 - New version of Fuqid released</b><br>
 Version 0.9 of the excellent "Freenet Utility for Queued Inserts and
 Downloads" is now available, click <a
