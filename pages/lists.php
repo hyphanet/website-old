@@ -4,7 +4,7 @@
 the accuracy of information on websites linked from this page.</i>
 </p>
 <p>
-<a href="http://freenethelp.org/">FreenetHelp.org</a> 
+<a href="http://www.freenethelp.org/">FreenetHelp.org</a> 
 This is a website maintained by Freenet users with a vast amount of 
 information and tips for getting the most from Freenet.
 </p>
