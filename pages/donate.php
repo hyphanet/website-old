@@ -25,8 +25,10 @@ href="http://s1.amazon.com/exec/varzea/subst/fx/help/how-we-know.html" alt="Lear
 target=_top>
 </map>
 <!-- End Amazon Honor System Paybox -->
-
 </center>
+<p>
+<hr width="90%">
+<p>
 <li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
