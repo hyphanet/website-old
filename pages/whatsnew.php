@@ -7,6 +7,30 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Sat, 13 Mar 2004 18:54:08 +0000</b></a></span><P>
+<b>Build 5075</b><p>
+
+Freenet stable build 5075 is now available. The snapshots have been
+updated. You can get the build via the update.sh script on Linux, BSD,
+or OS/X, or use the freenet-webinstall.exe utility to update on Windows,
+or get the jar from
+http://freenetproject.org/snapshots/freenet-latest.jar . All stable
+branch users should upgrade.<p>
+Major changes:<p>
+* New algorithm for deciding which nodes to drop from the routing table.
+* New load measurement based on predicting future downlink bandwidth
+  usage. Won't affect the node much at present, it could be combined
+  with limits on local clients to prevent nodes from getting high
+  messageSendTime's when they request lots of data.<p>
+* Increase the default estimated file size (for rate limiting, load
+  balancing, etc) to 350kB.<p>
+* Tweaks to the rate limiting code.<p>
+* Make logInputBytes and logOutputBytes work again.<p>
+* Fix a rare NullPointerException when accepting a new FNP connection
+  and the connection times out.<p>
+<hr>
+
+
 <LI> <span style='color:blue'>Date: Sat, 06 Mar 2004 02:53:49 +0000</b></a></span><P>
 <b>Build 5074</b><p>
 
