@@ -13,9 +13,12 @@ our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
 <b>20th November, 2004 : Software patents protest</b>
-<p>The Council is trying to push through the software patents directive without discussion at a fisheries meeting despite the opposition of national parliaments, and there being no qualified majority. Click the logo for details.</p>
-<a href="http://demo.ffii.org/letter.html">
-<img src="http://demo.ffii.org/minister_banner90.png" width="728" height="90" border="0" alt="Dear Minister, please click here!"></a><
+<p>The EU Council of Ministers is trying to push through a Directive which would allow software patents in the EU.  
+Software patents are one of the greatest threats to innovation in the world today, and will have a particularly negative 
+effect on Open Source software such as Freenet.  The Council is trying to push through this Directive without discussion at 
+a fisheries meeting (!) despite the opposition of national parliaments. Click <a 
+href="http://demo.ffii.org/">here</a> for more information.
+<p>
 <b>8th November, 2004 : Unofficial Freenet RPMs now available</b>
 <p>Freenet developer Mika Hirvonen has put together some RPMs of the 
 Freenet stable and unstable builds which Fedora users can install and 
