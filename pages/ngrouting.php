@@ -1,5 +1,5 @@
-<H2>Freenet's Next Generation Routing Protocol</H2>
-<b>by Ian Clarke, Freenet Project Coordinator, 19th July 2003</b>
+<H2><a href="http://freenetproject.org/">Freenet</a>'s Next Generation Routing Protocol</H2>
+<b>by <a href="mailto:ian@locut.us">Ian Clarke</a>, Freenet Project Coordinator, 20th July 2003</b>
 <P>While Freenet has come a long way since my 1999 paper, the 
 fundamental ideas behind how Freenet finds information have changed 
 very little. Now that Freenet is maturing it is time to re-examine 
@@ -219,6 +219,16 @@ statistical information in the reply - it will probably be replaced as it
 is passed back to the requester.
 <h3>Benefits of Next-Generation Routing</h3>
 <ul>
+<li><b>Adapts to network topology</b><br>
+In the old Freenet routing algorithm, a Freenet node running on a slow
+modem in the middle of the Australian outback is viewed pretty much the
+same way as a fast node running on a T3 in downtown San Jose.  In essense,
+the underlying Internet topology is ignored by Freenet, all nodes are treated
+equally.  In contrast, N.G routing bases its decisions on actual routing
+times, this means that a node will tend to prefer routing messages to
+faster nodes, on better Internet connections that are geographically
+closer - unless those nodes become overloaded, which will decrease the
+incentive to use them and have a load balancing effect.
 <li><b>Performance can be evaluated locally</b><br>
 With the old approach to Freenet's routing, the only concrete way to
 evaluate its performance was by trying it.  With N.G Routing we have
@@ -235,3 +245,8 @@ prior observations while making routing decisions, then our routing algorithm
 is optimal.  Now clearly there will always be room for refinement
 in the manner in which the new algorithm estimates routing times
 </ul>
+<h3>Current Status</h3>
+At the time of writing, implementation of N.G Routing is well-underway, although
+nodes using it have yet to be widely deployed in the wild.  If you are interested
+in following its progress, feel free to sign up to the <a href="http://hawk.freenetproject.org:8080/mailman/listinfo/announce/">
+Announcements</a> mailing list.
