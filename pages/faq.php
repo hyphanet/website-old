@@ -318,7 +318,7 @@ reference. Make sure that if you post this for others to use, that you
 avoid extra linebreaks.</p>
 
 
-<p><b id="roadmp">Is there a future roadmap of Freenet</b><br>
+<p><b id="roadmp">Is there a future roadmap of Freenet?</b><br>
 Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="http://www.freenetproject.org/index.php?page=roadmap"> here.</a>
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
