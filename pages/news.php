@@ -4,7 +4,7 @@ style). -->
 
 <h3>News</h3> 
 <p><b>8th March, 2004 - DEF CON donates $1,500 to the Freenet Project</b></p>
-<a href=http://www.defcon.org/">DEF CON</a> Communications, Inc has generously 
+<a href="http://www.defcon.org/">DEF CON</a> Communications, Inc has generously 
 donated $1,500 to the Freenet Project.  
 DEF CON is the world's largest annual <a href="http://en.wikipedia.org/wiki/Hacker">hacker</a> 
 convention, held every year in Las Vegas, Nevada.  
