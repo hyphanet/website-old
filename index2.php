@@ -52,7 +52,7 @@ function sideOvr(num) {
   </head>
 
   <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000">
-    <table height="51" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td height="51" rowspan="2" align="left" background="image/hdr_bg_tall.gif"><a href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="image/title.gif" width="414" height="51"></a></td>
 
