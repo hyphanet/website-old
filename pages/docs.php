@@ -3,6 +3,10 @@
 <p>This page contains links to documentation that would mainly be of interest to developers of Freenet and Freenet-related tools.</p>
 
 <p>
+<h3><a href="/index.php?page=fcptools">Freenet Client Protocol Tools (FCPTools)</a></h3>
+<p>The FCPTools are ANSI-C based Freenet client tools, and a separate FCP specific library called ezFCPlib. Specifically, FCPTools include command line utilities to insert and retrieve files (fcpput, fcpputsplit, fcpget) within Freenet, as well as entire freesites (fcpputsite) via ezFCPlib.</p>
+
+<p>
 <h3><a href="/index.php?page=fcp">FCP (Freenet Client 
   Protocol)</a></h3>
 <p>FCP is intended to shield would-be Freenet client developers from the details and ever-changing internals of the Freenet node itself.</p>
