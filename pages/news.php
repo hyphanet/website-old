@@ -2,6 +2,17 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
+<b>30th May, 2004 : Stable Build 5083 released</b><br>
+Stable Build 5083 has now been released.  All users running the stable
+branch of Freenet should update.  Windows users should select "Update
+Snapshot" from the Freenet section of their Start menu, Linux users
+should run the <b>update.sh</b> script in their "freenet" directory.
+<p>
+This new build incorporates a wide variety of important changes to
+almost all aspects of Freenet's operation.  You can read a detailed list
+of these changes <a href="http://article.gmane.org/gmane.network.freenet.devel/14035">
+here</a>. 
+
 <b>24th May, 2004 : Paypal apologises</b><br>
 Today we received an email from Amy Stohlman, an AUP Supervisor at Paypal.
 She said:
