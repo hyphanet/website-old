@@ -6,6 +6,31 @@
 <P>
 <BR>
 <P>
+
+
+<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 01:25:59 +0000</b></a></span><P>
+<b>Build 5067</b><p>
+
+
+Freenet stable build 5067 is now available. Upgrade using
+freenet-webinstall.exe or update.sh , or download the jar from
+http://freenetproject.org/snapshots/freenet-latest.jar . All users of
+the stable network/branch should upgrade immediately.<p>
+
+This fixes two major bugs in 5066:<p>
+* High-level bandwidth limiting was effectively disabled by the low
+  level bandwidth limiting having too low a multiplier. This lead to
+  large numbers of simultaneous transfers, resulting in nodes rejecting
+  all queries for ages, slow transfers, and more transfer failures.<p>
+* An accidentally committed patch changed the name of a part of the
+  format used by Fred to convey routing data when reseeding.<p>
+
+<hr>
+
+
+
+
+
 <LI> <span style='color:blue'>Date: Sun, 08 Feb 2004 02:31:14 +0000</b></a></span><P>
 <b>Build 5066</b><p>
 
@@ -30,7 +55,7 @@ code. Of course it will initially as it is small, the test comes when it
 gets bigger. Please upgrade and reseed.
 <P>
 
-
+<HR>
 
 
 
