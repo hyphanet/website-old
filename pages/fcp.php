@@ -138,7 +138,7 @@ EndMessage
 
 <b>ClientHello</b>
 
-<p class="body">This is totally optional for the client. Note that this counts as a transation and thus the connection is torn down afterwards.</p>
+<p class="body">This is totally optional for the client. Note that this counts as a transaction and thus the connection is torn down afterwards.</p>
 
 <pre>(Client -&gt; Node)
 
@@ -164,7 +164,7 @@ EndMessage
   to turn off this warning.</p>
 <hr>
 
-<h3> Querying the node's status </h3>
+<h3>Querying the Node's Status </h3>
 
 <b>ClientInfo</b>
 
