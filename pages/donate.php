@@ -1,3 +1,4 @@
+<p>Current PayPal total: <? include("paypaltotal.txt"); ?></p>
 <h3>Donations</h3>
 <h4>Why does The Freenet Project need donations?</h4>
 Although countless people have given their time and skill to the project since its
