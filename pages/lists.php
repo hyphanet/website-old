@@ -20,7 +20,7 @@
 <br />General discussion about everything else. It is generally high traffic and low signal. Join at your own risk.
 <br />
 <br /><a class='wiki'  href='http://hawk.freenetproject.org:8080/mailman/listinfo/devl/'>Development</a> (<a class='wiki'  href='http://hawk.freenetproject.org:8080/pipermail/devl/'>archive</a>)
-<br />Discussion pertaining to the next release of Freenet.  What features should and shouldn't go in, how things should be implemented, etc. Discussions about how Freenet should be in general (as opposed to in the very next release) should go to the technical list. If you think you have a great idea for a feature or attack, read all of the documentation first, especially the <a class='wiki'  href='/tiki/tiki-view_faq.php?faqId=1'>FAQ</a>.  The developers have little patience for repeated suggestions.
+<br />Discussion pertaining to the next release of Freenet.  What features should and shouldn't go in, how things should be implemented, etc. Discussions about how Freenet should be in general (as opposed to in the very next release) should go to the technical list. If you think you have a great idea for a feature or attack, read all of the documentation first, especially the <a href='index.php?page=faq'>FAQ</a>.  The developers have little patience for repeated suggestions.
 <br />
 <br /><a class='wiki'  href='http://hawk.freenetproject.org:8080/mailman/listinfo/cvs'>CVS</a>  (<a class='wiki'  href='http://hawk.freenetproject.org:8080/pipermail/cvs/'>archive</a>)
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
