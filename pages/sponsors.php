@@ -1,5 +1,3 @@
-<!--Last edited Tuesday, October 07, 2003-->
-<body>
 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
 <tr>
 <td align="center" valign="top"><h2>Freenet Sponsorship:</h2>
@@ -11,11 +9,12 @@
 <tr>
 <td align="right" valign="bottom">
 <BR>
+<P>
 <BR>
+<P>
 <BR>
+<P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a>
 </td>
-</body>
-
 

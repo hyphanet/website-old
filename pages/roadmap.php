@@ -1,21 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
-<HTML>
-<HEAD>
-		<META NAME="GENERATOR" CONTENT="OpenOffice.org 1.1.0)">
-	<META NAME="Freenet" CONTENT="Toads' roadmap">
-	<META NAME="CHANGED" CONTENT="20031013;21564652">
-</HEAD>
-<style type="text/css">
-<!--
-body {margin:5%; text-align:justify}
-
--->
-</style>
-
-<BODY LANG="en-US" DIR="LTR">
 <P><BR><BR>
 </P>
-<TABLE WIDTH=958 BORDER=0 CELLPADDING=2 CELLSPACING=0>
+<TABLE WIDTH=800 BORDER=0 CELLPADDING=2 CELLSPACING=0>
 	<COL WIDTH=1>
 	<COL WIDTH=0>
 	<COL WIDTH=100>
@@ -25,9 +10,7 @@ body {margin:5%; text-align:justify}
 	<TR VALIGN=TOP>
 		<TD ROWSPAN=13 WIDTH=1 BGCOLOR="#ffffff"></TD>
 		<TD COLSPAN=4 WIDTH=944 BGCOLOR="#ffffff">
-			<P ALIGN=LEFT><FONT SIZE=4 STYLE="font-size: 16pt">Toads' roadmap,
-			crafted in accordance with the fine tradition of communistic
-			10-year planning:</FONT> 
+			<P ALIGN=LEFT><FONT SIZE=4 STYLE="font-size: 16pt">Matthew Toesland's (Toad) provisional Roadmap:</FONT> 
 			</P>
 			<UL>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Freenet 0.6 and
@@ -252,5 +235,4 @@ body {margin:5%; text-align:justify}
 					</P>
 				</UL>
 			</UL>
-			</BODY>
-</HTML>
+			
