@@ -20,10 +20,23 @@ subscribed to the list must be manually approved, and this can impose
 a delay of several days.  To avoid this delay, please <a 
 href="http://mail.freenetproject.org/mailman/listinfo/support/">subscribe</a>.
 <br />
+<br /><a
+href='http://mail.freenetproject.org/mailman/listinfo/tech/'>Tech</a>
+(<a
+href='http://news.gmane.org/gmane.network.freenet.technical'>archive</a>)
+<br />
+This is for general technical discussion of Freenet.  If you want to discuss
+longer-term technical ideas about Freenet, please do-so on this list.
+<br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/mailman/listinfo/devl/'>Development</a> (<a 
 class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</a>)
-<br />Discussion pertaining to the next release of Freenet.  What features should and shouldn't go in, how things should be implemented, etc. Discussions about how Freenet should be in general (as opposed to in the very next release) should go to the technical list. If you think you have a great idea for a feature or attack, read all of the documentation first, especially the <a href='index.php?page=faq'>FAQ</a>.  The developers have little patience for repeated suggestions.
+<br />Discussion pertaining to the next release of Freenet.
+What features should and shouldn't go in, how things should be implemented, etc. Discussions about how Freenet should be in
+general (as opposed to in the very next release) should go to the technical list. If you think you have a great idea for a
+feature or attack, read all of the documentation first, especially the <a href='index.php?page=faq'>FAQ</a>.  The developers have
+little patience for repeated suggestions.
+
 <br />
 <br /><a class='wiki'  href='http://mail.freenetproject.org/mailman/listinfo/cvs'>CVS</a>  
 (<a class='wiki'  href='http://news.gmane.org/gmane.network.freenet.cvs'>archive</a>)
