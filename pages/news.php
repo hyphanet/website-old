@@ -27,7 +27,9 @@ Accordingly, full access was restored to your account on May 18,
 2004.  [...]
 </blockquote>
 We feel that this is a fair response to our concerns, our only regret
-is that it took so long to get to this point.  We would like to extend
+is that it took so long to get to this point, and that Paypal's initial
+reaction was that there could be no appeal against this decision.  
+We would like to extend
 our thanks to everyone that helped to persuade Paypal to take a closer
 look at our case.  I responded to Ms Stohlman with
 some suggestions for how this situation can be avoided with other
