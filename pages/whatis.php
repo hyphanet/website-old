@@ -28,7 +28,7 @@ be used for:
 <li>Communicating via message boards
 <!--
 <li>Playing simple turn-based games like Chess
-for gosh's sake remove this turn-based idiosyncracy.-->
+for gosh's sake remove this turn-based idiosyncrasy.-->
 <li>Content distribution
 </ul>
 <p>
