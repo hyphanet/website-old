@@ -22,6 +22,8 @@ can become a member by clicking on this button (you will need a
 <input type="hidden" name="cmd" value="_xclick-subscriptions">
 <input type="hidden" name="business" value="ian@freenetproject.org">
 <input type="hidden" name="item_name" value="Freenet Project Membership">
+<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
+<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
 <input type="hidden" name="no_shipping" value="1">
 <input type="hidden" name="no_note" value="1">
 <input type="hidden" name="currency_code" value="USD">
@@ -45,6 +47,8 @@ method="post">
       <input type="hidden" name="business" 
 value="ian@freenetproject.org">
       <input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
+<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
       <input type="hidden" name="return" 
 value="http://freenetproject.org/">
       <input type="hidden" name="cancel_return" 
