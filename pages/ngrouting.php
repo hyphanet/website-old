@@ -1,11 +1,10 @@
 <H2>Freenet's Next Generation Routing Protocol</H2>
 <b>by Ian Clarke, Freenet Project Coordinator</b>
-<P>While my original design for Freenet has been improved upon
-dramatically since my 1999 paper, the fundamental ideas behind how
-Freenet finds information have changed very little. Now that Freenet
-is maturing it is time to re-examine the core Freenet architecture to
-see where can be improved. This new design is known as &quot;Next
-Generation Routing&quot;. 
+<P>While Freenet has come a long way since my 1999 paper, the 
+fundamental ideas behind how Freenet finds information have changed 
+very little. Now that Freenet is maturing it is time to re-examine 
+the core Freenet architecture to see where can be improved. This new 
+design is known as &quot;Next Generation Routing&quot;. 
 
 <H3>Freenet's current routing mechanism</H3>
 <P>Firstly, let me recap on how Freenet works right now. Every node
