@@ -12,6 +12,8 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>20th November, 2004 : Software patents protest</b>
+<p>Click the logo for details.</p>
 <p><a href="http://demo.ffii.org/letter.html">
 <img src="http://demo.ffii.org/minister_banner90.png" width="728" height="90" border="0" alt="Dear Minister, please click here!"></a></p>
 <b>8th November, 2004 : Unofficial Freenet RPMs now available</b>
