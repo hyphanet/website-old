@@ -8,12 +8,14 @@ on 14th April in Brussels against the introduction of software patents in
 the European Union.  Put simply, software patents are one of the greatest threats
 to innovation in the world today, they increase the cost and risk of innovation, 
 and allow unscrupulous individuals and companies to extort money from 
-innovators.  If software patents were in wide usage 15 years ago, revolutionary 
+innovators.
+<p>
+If software patents were in wide usage 15 years ago, revolutionary 
 innovations such as the Internet would have been delayed by years, perhaps even 
 indefinitely.  The EU has been heavily lobbied by those that stand to gain from
-the introduction of software patents so it is essential that innovators, and
-those that care about innovation make their feelings heard.  Visit the
-link above to learn more.
+the introduction of software patents (including the Patent departments of companies
+like Nokia) so it is essential that innovators, and those that care about innovation, 
+make their feelings heard.  Visit the link above to learn more.
  
 <p><b>8th March, 2004 - DEF CON donates $1,500 to the Freenet Project</b></p>
 <a href="http://www.defcon.org/">DEF CON</a> Communications, Inc has generously 
