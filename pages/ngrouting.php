@@ -72,7 +72,7 @@ the current algorithm does not distinguish between a slow Freenet node
 sitting at the end of a slow modem line in the remote Australian outback,
 and a powerful node connected to a T3 in downtown Los Angeles. Also note
 that while the current algorithm works, the only real way to test
-improvements to the algorithm is to see how they affect a large-scale
+improvements to the algorithm is to see how they affect a large scale
 network, either in simulation, or in the real world - this leads to
 a slow and cumbersome development cycle.
 By making more effective use of the
@@ -104,13 +104,13 @@ meet the following criteria:
 	has not seen before
 	<LI><P>Must be progressive &ndash; if a node's performance changes
 	over time, this should be represented, but should not be
-	over-sensitive to recent fluctuations which may vary significantly
+	oversensitive to recent fluctuations which may vary significantly
 	from the average.
 	<LI><P>Must be &ldquo;scale free&rdquo;<BR>Consider a naive
-	implementation of this that works by splitting the key-space into a
+	implementation of this that works by splitting the keyspace into a
 	number of sections and maintaining an average for each. Now consider
 	a node where most of its incoming requests lie within a very small
-	section of the key-space. Our na&iuml;ve implementation would be
+	section of the keyspace. Our na&iuml;ve implementation would be
 	unable to represent variations in response time within that small
 	area and would therefore limit that node's ability to accurately
 	estimate routing times.
@@ -119,7 +119,7 @@ meet the following criteria:
 <P>We developed a simple algorithm which meets these criteria. It
 works by maintaining N &ldquo;reference&rdquo; points (where N is
 configurable &ndash; 10 being a typical value) which are initially
-evenly distributed across the key-space.  When we have a new routing
+evenly distributed across the keyspace.  When we have a new routing
 time sample for a particular key &ndash; we move the two points
 closest to our new sample toward it.  The amount they are moved can
 be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.
@@ -143,7 +143,7 @@ described above.
 The answer we have settled upon is to use these two numbers to
 estimate what the total time between the request being sent and
 the transfer being <i>completed</i> would have been had the data
-been the average length of data in Freenet (which we in-turn estimate
+been the average length of data in Freenet (which we in turn estimate
 by taking the average length of data in the local datastore).  This
 is a single value which can be compared directly with other timing
 measurements even when they were made with requests where the data
@@ -162,7 +162,7 @@ is no easy way to tell what type of DNF it is, whether it is "legitimate"
 or not.
 <p>
 Let, us, for a moment, assume that there was a way to identify illegitimate
-DNFs.  In this case, the cost in-terms of the time required for such a DNF
+DNFs.  In this case, the cost in terms of the time required for such a DNF
 would be the time required to receive the DNF plus the time required to
 request the same data from somewhere else.  We can estimate the former
 by looking at how long previous DNFs took for requests sent to this node
@@ -180,7 +180,7 @@ in the network.  Now - such a node (we assume) could not exist, however
 we can approximate it by looking at the proportion of DNFs for the node
 with the lowest proportion of DNFs in our routing table.
 <p>
-So now, we can determine the time-cost of DNFs, and we can also approximate
+So now, we can determine the time cost of DNFs, and we can also approximate
 what proportion of a node's DNFs are legitimate - and therefore should not
 incur a time cost.  We can therefore add an estimated routing time cost for
 each node to account for DNFs.
@@ -201,12 +201,12 @@ first impressions of Freenet are generally the worst impressions of Freenet
 as they are formed before the Freenet node can route requests effectively.
 <p>
 The solution is to employ some qualified trust between Freenet nodes, allowing
-them to share the information the have collected about each-other, albeit in
-a rather un-trusting way.  There are two ways that a Freenet node finds out
+them to share the information the have collected about each other, albeit in
+a rather untrusting way.  There are two ways that a Freenet node finds out
 about new Freenet nodes.  The first is when they first start up - they load
 a "seednodes.ref" file which contains the routing expertise of another
 experienced node.  With N.G routing this information will be enriched with
-actually statistical data so that even with a node first starts up, it will
+actual statistical data so that even with a node first starts up, it will
 already have the knowledge of an experienced node.  It will then go on to
 refine this knowledge according to its own experience.
 <p>
