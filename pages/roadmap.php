@@ -56,6 +56,18 @@
 				negotiations). We do not need to implement a full flow control
 				protocol (a la WebMUX), if we impose a maximum file size in the
 				node (we decided to make it 1MB). 
+				<BR>
+Multiplexing will bring significant benefits, regardless of routing algorithm. The main ones: 
+<BR>* Dramatically reduced connection churn. 
+<BR>* Significantly reduced memory usage. 
+<BR>* Significantly reduced CPU usage. This is not just cosmetic; CPU usage affects message send times, and when the CPU is pegged long-term, the node becomes pretty much useless to both the user and the network. 
+<BR>* Rewriting ConnectionHandler - new class MuxConnectionHandler - get rid of dead code etc. Will be backwards compatible by using the old CH for the old Presentation. 
+<BR>* Protocol will be simpler to parse, resulting in fewer serious (corruption -> connection death) bugs. Detecting where a trailer ended etc is tricky on the old protocol. The new protocol will have an explicit trailer ended with code X command. 
+<BR>* Room for extensibility, can e.g. get rid of Identify message hack, include IP address detection, etc, once the core functionality is implemented. 
+<BR>* Improve message send times. 
+<BR>* Eliminate some low bandwidth DoSs. 
+<BR>* Nodes on win9x and other connection limited environments will work better. 
+
 				</P>
 				<P ALIGN=LEFT STYLE="margin-bottom: 0cm"></P>
 				<LI><P ALIGN=LEFT STYLE="margin-bottom: 0cm"><B>Session protocol
