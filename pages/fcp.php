@@ -156,6 +156,7 @@ NodeHello
 Protocol=&lt;number: protocol version number.  Currently 1.2&gt;
 Node=&lt;string: Description of the node&gt;
 [HighestSeenBuild=&lt;number: Highest build seen in datastore&gt;]
+MaxFileSize=&lt;hex number: largest data size node will allow&gt;
 EndMessage
 </pre>
 
@@ -260,7 +261,7 @@ simply terminate the connection.  In a successful Request, a
 DataFound 
 DataLength=&lt;number: number of bytes of metadata + data&gt;
 [MetadataLength=&lt;number: default = 0, number of bytes of metadata&gt;]
-Timeout=&lt;number: number of seconds by which the node will have a response&gt;
+[Timeout=&lt;number: number of seconds by which the node will have a response&gt;]
 EndMessage
 </pre>
 
