@@ -3,7 +3,7 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 
 <h3>News</h3> 
-<p><b>26th October, 2003 - Rapid changes in unstable</p>
+<p><b>26th October, 2003 - Rapid changes in unstable</b></p>
 Those that have been running Freenet's "unstable" build (see <a 
 href="/index.php?page=tryng">here</a> to learn how to do this) will have 
 noticed rapid progress as we work out the various issues in our <a 
