@@ -7,6 +7,29 @@
 <BR>
 <P>
 
+<LI> <span style='color:blue'>Date: Wed, 17 Mar 2004 16:09:24 +0000</b></a></span><P>
+<b>Build 5076</b><p>
+
+Freenet stable build 5076 is now available. The snapshots have been
+updated. You can get the build via the update.sh script on Linux, BSD,
+or OS/X, or use the freenet-webinstall.exe utility to update on Windows,
+or get the jar from
+http://freenetproject.org/snapshots/freenet-latest.jar . All stable
+branch users should upgrade.<p>
+Major changes:<p>
+* Make 5074 mandatory. Most nodes seem to have upgraded... This is
+  necessary for the next item.<p>
+* Send the minRequestInterval on the IdentifyPacketMessage, a message
+  that is exchanged when a connection is opened. This will improve the
+  accuracy of rate limiting.<p>
+* Fix a serious bug in the new NGRoutingTable discard-sort order (i.e.
+  the algorithm that decides which node to drop when we want to drop a
+  node from the routing table). The bug would have caused new nodes that
+  can't be connected to, to persist in the routing table forever. It was
+  introduced in 5075.<p>
+<hr>
+
+
 <LI> <span style='color:blue'>Date: Sat, 13 Mar 2004 18:54:08 +0000</b></a></span><P>
 <b>Build 5075</b><p>
 
@@ -463,7 +486,7 @@ Changelog:<p>
 * Up the lastGoodBuild to 5053 to remove ambiguity; probably no
   practical impact.<p>
 <P>
-
+<hr>
 <tr>
 <td align="right" valign="bottom">
 Want to help? Make a summary of a discussion on the freenet maillist and send it to <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
