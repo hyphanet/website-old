@@ -1,13 +1,13 @@
 <h3>Donations</h3>
 <h4>Why does The Freenet Project need donations?</h4>
-Although countless people have given their time and skill to the project since it's
-inception The Freenet Project relies on your donations both to support those developers
-working full-time on this increasingly complex project, and to cover hardware(ie. the
-project development computer) and administrative costs(ie.domain registrations). It is also
-a goal to be able find ourselves in the position to start a legal defense fund to help
+Although countless people have given their time and skill to the project since its
+inception, The Freenet Project relies on your donations both to support those developers
+working full-time on this increasingly complex project, and to cover hardware (ie. the
+project development computer) and administrative costs (ie.domain registrations). It is also
+a goal to be able to find ourselves in the position to start a legal defense fund to help
 ensure the future of Freenet development.<br> Everyone involved is keenly interested in the
 future of The Freenet Project and you can be assured donations have been and will continue
-to be used wisely, all support is very much appreciated.
+to be used wisely. All support is very much appreciated.
 
 <h4>How can I donate?</h4>
 You have five options:
@@ -72,7 +72,7 @@ name="submit"></form>
 <P>
 <hr width="90%">
 <P>
-<li>You may donate once through Amazon by clicking on this button:<br>
+<li>You may <b>donate once</b> through Amazon by clicking on this button:<br>
 <center>
 <!-- Begin Amazon Honor System Paybox -->
 <img src="http://s1.amazon.com/exec/varzea/tipbox/A114XLKTGXD4X1/TUFHWKOQPM9TN" 
