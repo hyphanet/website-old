@@ -54,7 +54,11 @@ should be routed:
 <p>
 This is a good
 indication that Freenet's current routing algorithm is performing 
-correctly.
+correctly.  Nodes specialize like this due to an emergent feedback effect,
+when a node sucessfully responds to a request for a given key - it increases
+the liklihood that other nodes will route requests for similar keys in the
+future.  Over time this effect causes the specialization that can be seen
+very clearly in the diagram above.
 
 
 <H3>Next generation routing mechanism</H3>
