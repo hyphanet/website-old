@@ -1,15 +1,16 @@
 <?
-if (stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) {
-  header("Location: http://de-co.info/freenet/");
-  exit();
-}
 
 
 if (isset($_REQUEST["page"])) {
   $page = $_REQUEST["page"];
 } else {
+  if (stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) {
+    header("Location: http://de-co.info/freenet/");
+    exit();
+  }
   $page = "index";
 }
+
 $modes = array("beginner"=>FALSE, "user"=>FALSE, "developer"=>FALSE);
 if (isset($_GET["mode"])) {
   $mode = $_GET["mode"];
@@ -72,7 +73,8 @@ function sideOvr(num) {
   <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td height="51" rowspan="2" align="left" background="image/hdr_bg_tall.gif"><a href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="image/title.gif" width="414" height="51"></a></td>
+        <td height="51" rowspan="2" align="left" background="image/hdr_bg_tall.gif"><a 
+href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The Freenet Project" src="image/title.gif" width="414" height="51"></a></td>
 
         <td height="31">&nbsp;</td>
       </tr>
