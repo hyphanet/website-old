@@ -1,7 +1,7 @@
 <?
 $pos = 1;
 function item($text, $link) {
-  global $pos;
+  global $pos, $page;
   $pos = $pos + 1;
   if ($link == $page) {
 ?>
