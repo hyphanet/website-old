@@ -355,7 +355,7 @@ to know exactly what went wrong.
 
 <p><b id="stabchange">How can I change from stable to unstable?</b><br>
 <LI>Stop your node.
-<LI>Download http://freenetproject.org/snapshots/freenet-unstable-latest.jar & http://freenetproject.org/snapshots/unstable.ref to your freenet directory.
+<LI>Download <a href="http://freenetproject.org/snapshots/freenet-unstable-latest.jar">http://freenetproject.org/snapshots/freenet-unstable-latest.jar</a> & <a href="http://freenetproject.org/snapshots/unstable.ref">http://freenetproject.org/snapshots/unstable.ref</a> to your freenet directory.
 <LI>Rename the two new files to freenet.jar & seednodes.ref (overwriting the old ones).
 <LI>It is not  strictly necessary, but it is recommended you open freenet.ini / freenet.conf and change your "listenPort=XYZ" to a new random number (just adding one will do). If you have some firewall settings, remember to change them accordingly! It is also recommended that you wipe your node file and your routing table files to change your node id and start from scratch.
 <LI>Start your node.
