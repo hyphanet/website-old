@@ -41,7 +41,7 @@
 Source tarballs are available from the <a href='http://freenetproject.org/snapshots/'>snapshots directory</a>:
 
 <p class="body"> <a href='http://freenetproject.org/snapshots/fcptools-unstable.tgz'>fcptools-unstable</a>: 
-  Latest version in <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/">CVs 
+  Latest version in <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/">CVS 
   HEAD</a> (mainly of interest to developers).<br>
   <a href='http://freenetproject.org/snapshots/fcptools-stable.tgz'>fcptools-stable</a>: 
   The version covered in this document; tagged in CVs under <a href="http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/Contrib/fcptools/?only_with_tag=fcp_0_4_7">FCP_0_4_7</a>.</p>
