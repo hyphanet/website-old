@@ -2,6 +2,52 @@
 <tr>
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3>
+
+<LI> <span style='color:blue'>Date: Sun, 25 Apr 2004 02:08:22 +0100</b></a></span><P>
+<b>Build 5077</b><p>
+
+Stable build 5077 is now available. The snapshots have been updated.
+All users of the stable branch should upgrade ASAP. This build has far
+too many changes to list exhaustively (but I tried, you can see the
+results in the commit comments). Some highlights:<p>
+* Fixed a HUGE bug which was preventing inserts from working at all
+  well. This may well be responsible for much of Freenet's woes. It has
+  been around at least since the native datastore rewrite..<p>
+* Major changes to how and to where we route - "bidirectional routing".
+  Basically this means that the routing table is a superset of the set
+  of connected nodes, and if a node is connected, we will try to route
+  to it. Even if it is a transient. This should significantly improve
+  performance and reduce the number of Route Not Found errors.<p>
+* Improved announcements<p>
+* Fixed a major rate limiting bug.<p>
+* Fixed many less significant bugs.<p>
+* New diagnostics and config options<p>
+* Substantial reduction in memory usage. Many leaks eliminated.<p>
+* Fixed two major bugs that would cause splitfile downloads in fproxy to
+  hang, and made some related improvements.<p>
+* Improvements to the HTTP interface to the node (diagnostics etc are
+  themed, better routing table status page, etc)<p>
+* Fixed bug with ZIP files in manifests.<p>
+* New linux-specific option doCPULoad, to attempt to throttle requests
+  based on actual measured overall system CPU usage. I found this
+  useful, others might; a Windows implementation is not likely. It is
+  not possible to do this in a cross platform manner.<p>
+* Workaround for a major NIO bug on Windows (which caused 100% CPU
+  usage).<p>
+* Major bug fix relating to cancelling messages (messages that were
+  supposed to be cancelled weren't getting cancelled).<p>
+* Tons of refactoring - much code tidied up, split into more manageable
+  pieces, or outright deleted due to not being needed.<p>
+* Lots of optimizations.<p>
+* Linked to the new FIND is Not Dolphin index instead of Dolphin, it is
+  more appropriate for the stable branch as it indexes stable sites
+  only.<p>
+* And much more!<p>
+<hr>
+
+
+
+
 <LI> <span style='color:blue'>Date: Wed, 17 Mar 2004 16:09:24 +0000</b></a></span><P>
 <b>Build 5076</b><p>
 
