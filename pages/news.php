@@ -7,12 +7,13 @@ Paypal has frozen the account we use to accept donations over the web, they refu
 any reason other than "use
 of an anonymous proxy", which suggests that someone at Paypal took a dislike to the goals
 of our project, since I have never used an anonymous proxy to access Paypal (this being
-the activity I assume they sought to prevent).  It is fortunate that the anonymous authors
-of The Federalist Papers, the precursor to the US Constitution, did not rely on Paypal to 
-fund their activities or, one assumes, their account would have been frozen too.
+the activity I assume they sought to prevent).  It is fortunate that 
+Johann Gutenberg did not rely on Paypal to 
+fund his work on the printing press, which also allowed anonymous publication of 
+information, since his account would probably have been frozen too.
 <p>
 They have said that they will refund our outstanding balance ($550) by check, but all of 
-the projects subscriptions have been cancelled which is a significant setback.
+the projects subscriptions have been canceled which is a significant setback.
 Other means of accepting donations, including E-Gold, are still active. Anyone wishing to 
 make a donation by check should email <a href="mailto:ian@locut.us">me</a> directly.  
 Unfortunately neither of these methods are as convenient as Paypal, but we will do our best to find an 
