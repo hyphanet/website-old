@@ -1,11 +1,10 @@
-<h2>Download Freenet</h2>
+<body><h2>Download Freenet</h2>
 
 <h3>Important note for first time users</h3>
 
 When you first start Freenet your node will know very little about the network 
-- it could take up to <b>60 seconds</b> to open a website.  Keep trying,
+- it could take up to <b>several minutes or longer</b> to open a website.  Keep trying,
 because the more you use Freenet, the faster it will get.
-
 <p>
 
 <i>If you have a firewall or a NAT box click <a 
@@ -13,13 +12,8 @@ href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
 for some info.</i>
 
 
-<h3>Windows</h3>
-Download and run  
-<big><a href="http://freenetproject.org/snapshots/freenet-java-webinstall.exe">freenet-java-webinstall.exe</a></big> 
-<br>or, if you already have java 1.4.1 or later installed <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>
-It will automatically install Freenet and other required components for you  (It contains 
-<u><b>no</b> spyware or adware</u> , it's Free Software!). When done, double-click on the small blue 
-rabbit icon in your task-tray.</p>  <p>Freenet works best with <b>Windows 2000, XP Professional or 
+<h3>Windows</h3>- Download and run <big><a href="http://freenetproject.org/snapshots/freenet-java-webinstall.exe">freenet-java-webinstall.exe</a> </big>or<br>- If you already have Java 1.4.1 or later installed <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>It will automatically install Freenet and other required components for you. When done, double-click on the small blue rabbit icon in your task-tray. <br>
+(Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review)	<p>Freenet works best with <b>Windows 2000, XP Professional or 
 NT.</b>  Windows ME, 98 and 95 work less well.</p>
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 <h3>Unix</h3>
@@ -61,4 +55,4 @@ Linux users may similarily upgrade by running the update.sh shell script in the 
 
 
 
-<!--end of empty space-->
+<!--end of empty space--></body>

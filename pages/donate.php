@@ -1,10 +1,11 @@
 <h3>Donations</h3>
 <h4>Why does The Freenet Project need donations?</h4>
-The Freenet Project 
+Although countless people have given their time and skill to the project since it's inception The Freenet Project 
 relies on your donations both to support those developers working 
-full-time on the project, and to cover hardware and administrative 
-costs. 
-<!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab -->
+full-time on this increasingly complex project, and to cover hardware(ie. the project development computer) and administrative 
+costs(ie.domain registrations). It is also a goal to be able find ourselves in the position to start a legal defence fund to help ensure the future of Freenet development.<br>
+Everyone involved is keenly interested in the future of The Freenet Project and you can be assured donations have been and will continue to be used wisely, all support is very much appreciated.
+<!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab(how's that Zab?) -->
 <h4>How can I donate?</h4>
 You have five options:
 <ul>
@@ -16,8 +17,9 @@ to make long term committments to potential developers - right now
 it is difficult to say whether we will be able to pay a developer
 the following month although so-far we have been fortunate.  You
 can become a member by clicking on this button (you will need a
-<a href="http://paypal.com/">PayPal</a> account:
+<a href="http://paypal.com/">PayPal</a> account):
 <center>
+<table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_xclick-subscriptions">
 <input type="hidden" name="business" value="ian@freenetproject.org">
@@ -28,16 +30,18 @@ can become a member by clicking on this button (you will need a
 <input type="hidden" name="no_note" value="1">
 <input type="hidden" name="currency_code" value="USD">
 Amount:
-$20 <input type="radio" name="a3" value="20.00"> / 
-$10 <input type="radio" name="a3" checked="true" value="10.00"> / 
-$5 <input type="radio" name="a3" value="5.00">
-<br>
+<p>
+<span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"></span>&nbsp; 
+<span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="true" value="10.00"></span>&nbsp; 
+<span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"></span>&nbsp;
+</p>
 <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
 <input type="hidden" name="p3" value="1">
 <input type="hidden" name="t3" value="M">
 <input type="hidden" name="src" value="1">
 <input type="hidden" name="sra" value="1">
 </form>
+</td></tr></table>
 </center>
 <li>You can donate once via Paypal by clicking on this button:<br>
 <center>
@@ -61,14 +65,14 @@ name="submit"></form>
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
 <center>
-<table><tr><td border="1" bgcolor="#DDDDFF">
+<table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">
 <form action="https://www.e-gold.com/sci_asp/payments.asp" method="POST" 
 target=_top>
 <input type="hidden" name="PAYEE_ACCOUNT" value="767764">
 <input type="hidden" name="PAYEE_NAME" value="Freenet Project Inc">Enter 
 Amount You'd like to Donate:<br>USD$<input type=text 
 name="PAYMENT_AMOUNT" value="20" size=4>
-<input type=hidden name="PAYMENT_UNITS" value=1>worth of e-gold
+<input type=hidden name="PAYMENT_UNITS" value=1>worth of E-Gold
 <input type=hidden name="PAYMENT_METAL_ID" value=1>
 <input type="hidden" name="STATUS_URL" 
 value="mailto:ian@freenetproject.org"><input type="hidden" 
@@ -80,8 +84,8 @@ value="http://freenetproject.org/">
 <input type="hidden" name="BAGGAGE_FIELDS" value="CUSTOMERID">
 <input type="hidden" name="CUSTOMERID" value="0">
 <input type="hidden" name="SUGGESTED_MEMO" value='Donation to Freenet Project'><br>
-<input type="submit" name="PAYMENT_METHOD" value="Donate 
-Now"></form>
+<input type="submit" name="PAYMENT_METHOD" value="Donate Now">
+</form>
 </td></tr></table>
 </center>
 <li>While we prefer electronic donations using one of the above two 

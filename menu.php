@@ -1,9 +1,11 @@
 <?
+//    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(	'beginner' => array( 
 				'News' => 'news', 
 				'Download'=>'download', 
 				'Donate'=>'donate',
+				'Sponsors'=>'sponsors',
 				'FAQ' => 'faq',
 				'Philosophy' => 'philosophy',
 				'Support' => 'lists',
@@ -14,6 +16,7 @@ $menus = array(	'beginner' => array(
 				'What is Freenet?' => 'whatis',
 				'Download'=>'download', 
 				'Donate'=>'donate',
+				'Sponsors'=>'sponsors',
 				'Content' => 'content',
 				'FAQ' => 'faq',
 				'Documentation' => 'docs',
@@ -27,6 +30,7 @@ $menus = array(	'beginner' => array(
 				'Download'=>'download', 
 				'Documentation' => 'docs',
 				'Donate'=>'donate',
+				'Sponsors'=>'sponsors',
 				'Content' => 'content',
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
