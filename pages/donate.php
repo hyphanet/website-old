@@ -37,7 +37,7 @@ $5 <input type="radio" name="a3" value="5.00">
 <input type="hidden" name="sra" value="1">
 </form>
 </center>
-<li>You can donate via Paypal by clicking on this button:<br>
+<li>You can donate once via Paypal by clicking on this button:<br>
 <center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
@@ -53,7 +53,7 @@ value="http://freenetproject.org/">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit"></form>
 </center>
-<li>You can donate through <a 
+<li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
 <center>
