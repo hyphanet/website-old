@@ -4,7 +4,7 @@
 
 <h3>Windows</h3>
 Download and run    
-<big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>.  
+<big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>
 It will automatically install Freenet and other required components for you.  When done, 
 double-click on the small blue rabbit icon in your task-tray.  Freenet works best with <b>Windows 2000 or XP.</b>
 <h3>Unix</h3>
@@ -27,7 +27,7 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <br><br> 
 <a name="NAT">
-<b>Note: Firewall/NAT users</b><br>
+<font color="red><b>Note: Firewall/NAT users</b><br></font>
 If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
 
 
