@@ -18,7 +18,7 @@ for some info.</i>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review)	<p>Freenet works best with <b>Windows 2000, XP Professional or 
 NT.</b>  Windows ME, 98 and 95 work less well.</p>
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
-<h3>Unix</h3>
+<h3>Unix/Linux</h3>
 You need to have a recent Java Runtime Environment.  We have experienced best results with Sun JRE 1.4.1 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>.  Once Java is installed, download <a href="http://freenetproject.org/snapshots/freenet-0.5.2.1.tar.gz">freenet-0.5.2.1.tar.gz</a>.  Get started by typing:
 <pre>
 $ tar xfz freenet-0.5.2.1.tar.gz
@@ -29,7 +29,7 @@ After you start Freenet wait a few seconds for it to start-up (on a slow compute
 
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
-<b>Recomended:</b> 1GHz or more processor with 256MB <!-- decreasing agaisnt my will :(-->RAM or 
+<b>Recommended:</b> 1GHz or more processor with 256MB <!-- decreasing agaisnt my will :(-->RAM or 
 more (especially if using Windows XP).
 
 <h3>Upgrading</h3>
@@ -39,7 +39,7 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <br><br> 
 <p>
-To see the latest changes of the builds in the stable branch, you can go to <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">What's new?</b>
+To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
 
 
