@@ -11,7 +11,9 @@ The network can be used in a number of different ways and isn't restricted to ju
 <ul>
 <li>Publishing websites or 'freesites'
 <li>Communicating via message boards
+<!--
 <li>Playing simple turn-based games like Chess
+for gosh's sake remove this turn-based idiosyncracy.-->
 <li>Content distribution
 </ul>
 <p>
