@@ -232,27 +232,12 @@ EndMessage
   one of the following messages:</p>
 
 <ul class="body">
-<li><code>URIError</code>: Invalid Freenet URL. The transaction is terminated.</li>
-<li><code>Restarted</code>: The client should continue waiting.</li>
+<li><code>DataFound</code>: The data has been found.</li>
 <li><code>DataNotFound</code>: The transaction is terminated due to not being able to find data.</li>
 <li><code>RouteNotFound</code>: The transaction is terminated due to not being able to find a route.</li>
+<li><code>Restarted</code>: The client should continue waiting.</li>
+<li><code>URIError</code>: Invalid Freenet URL. The transaction is terminated.</li>
 </ul>
-
-<b>RouteNotFound</b>
-
-<pre>(Node -&gt; Client)
-
-RouteNotFound
-Unreachable=&lt;number: default = 0, nodes&gt;
-Restarted=&lt;number: default = 0, nodes&gt;
-Rejected=&lt;number: default = 0, nodes&gt;
-EndMessage
-</pre>
-
-<p> <code>RouteNotFound</code> carries some extra fields as above, the
-other errors (<code>DataNotFound</code> and <code>URIError</code>)
-simply terminate the connection.  In a successful Request, a
-<code>DataFound</code> message is returned:</p>
 
 <b>DataFound</b>
 
@@ -286,6 +271,26 @@ Data
   to begin the data transfer again.  Otherwise, when the final
   <code>DataChunk</code> is received, the transaction is complete and
   the connection dies.</p>
+  
+<p>Be aware that there may be a <code>DataChunk</code> that contains both meta and key data.
+In this case, care is needed to extract the metadata first, then the keydata before
+retrieving another <code>DataChunk</code> or the operation will appear to hang.</p>  
+
+<b>RouteNotFound</b>
+
+<pre>(Node -&gt; Client)
+
+RouteNotFound
+Unreachable=&lt;number: default = 0, nodes&gt;
+Restarted=&lt;number: default = 0, nodes&gt;
+Rejected=&lt;number: default = 0, nodes&gt;
+EndMessage
+</pre>
+
+<p> <code>RouteNotFound</code> carries some extra fields as above, the
+other errors (<code>DataNotFound</code> and <code>URIError</code>)
+simply terminate the connection.  In a successful Request, a
+<code>DataFound</code> message is returned:</p>
 
 <hr>
 
