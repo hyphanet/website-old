@@ -13,7 +13,7 @@ users.
 Unfortunately, it seems that the steps they refer to involve being a 
 sufficiently high-profile project that it generates potentially damaging 
 publicity, and our concern about Paypal extends beyond those people 
-that, like us, are capable of generating significant levels of negative 
+that are capable of generating significant levels of negative 
 attention.
 <p>
 Our feeling is that in the absence of an explanation or apology from 
