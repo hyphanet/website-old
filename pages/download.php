@@ -1,7 +1,12 @@
 <h2>Download Freenet 0.5.1</h2>
 <b>Note: Firewall/NAT users</b><br>
 If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/qcms/index.php?page=faq#firewall">here</a> for instructions.
-
+<h3>Increase Freenet's Exposure</h3>
+If you would like to help to increase Freenet's exposure, please 
+download Freenet through <a 
+href="http://download.com.com/3000-2196-10165336.html?tag=lst-0-1">Download.com</a>, 
+if you would prefer to just get the software as quickly as possible - 
+you can get it directly from the links below.
 <h3>Windows</h3>
 Windows users should download and run <a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a>.  This will download other required components of Freenet, configure, and run the software.  When it is finished, double-click on the small blue rabbit icon in your task-tray.
 <h3>Linux</h3>
