@@ -12,10 +12,10 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
   } else {
 ?>
 <tr><td width="1"
-name="<mn?=$pos ?>" id="mn<?=$pos ?>">&nbsp;</td>
+id="mn<?=$pos ?>">&nbsp;</td>
       <td nowrap class="menu"><a class="menu"
 href="index.php?page=<?=$link ?>" onMouseOver="sideOvr('<?=$pos ?>');"
-onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?>&nbsp;</td></tr>
+onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 <?
   }
 }

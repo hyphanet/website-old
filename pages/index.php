@@ -21,8 +21,8 @@ style). -->
 <p><b>27th April, 2003 - New version of Fuqid released</b><br>
 Version 0.9 of the excellent "Freenet Utility for Queued Inserts and
 Downloads" is now available, click <a
-href="index.php?page=flink&flinkttl=here&key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//"><i>here</i></a>[<a 
-href="index.php?page=flink&flinkttl=here&key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//">?</a>] 
+href="index.php?page=flink&amp;flinkttl=here&amp;key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//"><i>here</i></a>[<a 
+href="index.php?page=flink&amp;flinkttl=here&amp;key=SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/4//">?</a>] 
 to get your copy.
 
 <p><b>26th April, 2003 - Freenet 0.5.2-rc1 Released</b><br>
@@ -89,5 +89,3 @@ href="http://citeseer.nj.nec.com/context/1354204/420356">inspired</a>
 hundreds of academic papers in the fields of computer communication,
 security, and law.  Freenet has also received significant coverage in
 the mainstream press.
-    </td>
-     </tr>
