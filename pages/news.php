@@ -9,7 +9,9 @@ Routing".  This was described in a recent <a href="/index.php?page=ngrouting">
 article</a> by Ian Clarke.  We have been testing and refining this new code
 in our "experimental" development branch, and now we deem it stable enough
 to be moved into our "unstable" branch where we will test it further before
-moving it to "stable", eventually releasing it as Freenet 0.6.
+moving it to "stable", eventually releasing it as Freenet 0.6.  We have
+put together some simple instructions for Freenet users who would like
+to try it out <a href="index.php?page=tryng">here</a>.
 
 <p><b>29th August, 2003 - Fight Software Patents in EU</b></p>
 The European Commission has proposed to introduce US-style software patents
