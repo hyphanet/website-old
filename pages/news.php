@@ -5,7 +5,7 @@ style). -->
 <p><b>15th May, 2003 - Freenet 0.5.2-rc2 Released</b><br>
 The second release candidate for Freenet 0.5.2 has been released. This
 is mostly bugfixes over 0.5.2-rc1.
-Download it from <a href="/qcms/index.php?page=download">the download
+Download it from <a href="index.php?page=download">the download
 page</a>.
 <!-- do not remove the notice below about RC1 without merging the
  features list into this one -->
@@ -28,7 +28,7 @@ been released. Major changes include probabilistic caching, other
 network improvements, a zoomable Routing Table density graph, a fix to
 the Heisenbug, further improvements to the large file downloader, and
 many other bugfixes.
-Download it from <a href="/qcms/index.php?page=download">the download
+Download it from <a href="index.php?page=download">the download
 page</a>.
 
 <p><b>24th April, 2003 - Freenet in China</b><br>
