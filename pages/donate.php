@@ -1,85 +1,32 @@
 <h3>Donations</h3>
-<blockquote>
-<B>ALERT</B>: Paypal has frozen our account, they refuse to give any reason other than "use 
-of an anonymous proxy", which suggests that someone at Paypal took a dislike to the goals 
-of our project, since I have never used an anonymous proxy to access Paypal (this being 
-the activity I assume they sought to prevent).  It is fortunate that the anonymous authors 
-of The Federalist Papers, the precursor to the US Constitution, did not rely on Paypal to fund 
-their activities or, one assumes, their account would have been frozen too.  
-<p>
-Paypal has assured me that we will be mailed the $550 remaining in our Paypal account, 
-however unfortunately anyone that had a monthly subscription to the project will now need 
-to re-subscribe.
-</blockquote>
-
 <h4>Why does The Freenet Project need donations?</h4>
-Although countless people have given their time and skill to the project since it's inception The Freenet Project 
-relies on your donations both to support those developers working 
-full-time on this increasingly complex project, and to cover hardware(ie. the project development computer) and administrative 
-costs(ie.domain registrations). It is also a goal to be able find ourselves in the position to start a legal defense fund to help ensure the future of Freenet development.<br>
-Everyone involved is keenly interested in the future of The Freenet Project and you can be assured donations have been and will continue to be used wisely, all support is very much appreciated.
-<!--err, can we put something more emotional here? And how about defense against lawsuits and stuff?zab(how's that Zab?) -->
+Although countless people have given their time and skill to the project since it's
+inception The Freenet Project relies on your donations both to support those developers
+working full-time on this increasingly complex project, and to cover hardware(ie. the
+project development computer) and administrative costs(ie.domain registrations). It is also
+a goal to be able find ourselves in the position to start a legal defense fund to help
+ensure the future of Freenet development.<br> Everyone involved is keenly interested in the
+future of The Freenet Project and you can be assured donations have been and will continue
+to be used wisely, all support is very much appreciated.
+
 <h4>How can I donate?</h4>
-You have two options:
-<ul><!--
-<li>You can become a Freenet project "member" for a <b>recurring
-payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
-it gives the
-project a more stable and dependable income which makes it easier
-to make long term committments to potential developers - right now
-it is difficult to say whether we will be able to pay a developer
-the following month although so-far we have been fortunate.  You
-can become a member by clicking on this button (you will need a
-<a href="http://paypal.com/">PayPal</a> account):
+You have three options:
+<ul>
+<li>You may donate once through Amazon by clicking on this button:<br>
 <center>
-<table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_xclick-subscriptions">
-<input type="hidden" name="business" value="ian@freenetproject.org">
-<input type="hidden" name="item_name" value="Freenet Project Membership">
-<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
-<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
-<input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="no_note" value="1">
-<input type="hidden" name="currency_code" value="USD">
-Amount:
-<p>
-<span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"></span>&nbsp; 
-<span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="true" value="10.00"></span>&nbsp; 
-<span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"></span>&nbsp;
-</p>
-<input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-<input type="hidden" name="p3" value="1">
-<input type="hidden" name="t3" value="M">
-<input type="hidden" name="src" value="1">
-<input type="hidden" name="sra" value="1">
-</form>
-</td></tr></table>
+<!-- Begin Amazon Honor System Paybox -->
+<img src="http://s1.amazon.com/exec/varzea/tipbox/A114XLKTGXD4X1/TUFHWKOQPM9TN" 
+usemap="#TUFHWKOQPM9TN" border="0" alt="Amazon Honor System">
+<map name="TUFHWKOQPM9TN">
+<area coords="13,64,108,117" href="http://s1.amazon.com/exec/varzea/pay/TUFHWKOQPM9TN" 
+alt="Click Here to Pay" target=_top>
+<area coords="13,133,108,145" 
+href="http://s1.amazon.com/exec/varzea/subst/fx/help/how-we-know.html" alt="Learn More" 
+target=_top>
+</map>
+<!-- End Amazon Honor System Paybox -->
+
 </center>
-<P>
-<hr width="90%">
-<P>
-<li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
-<center>
-      <form action="https://www.paypal.com/cgi-bin/webscr" 
-method="post">
-      <input type="hidden" name="cmd" value="_xclick">
-      <input type="hidden" name="business" 
-value="ian@freenetproject.org">
-      <input type="hidden" name="no_shipping" value="1">
-<input type="hidden" name="return" value="http://freenetproject.org/index.php?page=donatethanks">
-<input type="hidden" name="cancel_return" value="http://freenetproject.org/index.php?page=donate">
-      <input type="hidden" name="return" 
-value="http://freenetproject.org/">
-      <input type="hidden" name="cancel_return" 
-value="http://freenetproject.org/">
-      <input type="image" 
-src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-name="submit"></form>
-</center>
-<P>
-<hr width="90%">
-<P> -->
 <li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
 out this form:<br>
