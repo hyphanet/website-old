@@ -3,7 +3,7 @@
 </h1>
 <br />A variety of people have written some excellent tools and clients for use with Freenet.
 <br /><p>
-<h3><http://www.freenetproject.org/index.php?page=freeplot>Development Aides</a></h3>
+<h3><a href="http://www.freenetproject.org/index.php?page=freeplot">Development Aides</a></h3>
 <p>
 <br /><h3>Freenet Publishing & Retrieval Tools</h3>
 
@@ -12,6 +12,7 @@
 <br />FIW is a feature packed Java AWT application for inserting freesites.  It contains a lot of help at each stage of the process, and includes site verification to increase availability of the inserts.
 <br />
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@kWu5Osv~VAI3-kH7z8QIVxklv-YPAgM/fishtools/52//'><b>FishTools</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+<p>
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//'><b>Freenet Utility for Queued Inserts and Downloads</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br />
 <br />FUQID is a Windows program (but it will run in Wine under Linux) for inserting and downloading large files. It offers fast native CHK calculation and FEC decoding and a simple, highly configurable interface, better than FProxy.
