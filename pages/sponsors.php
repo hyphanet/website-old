@@ -18,6 +18,6 @@ Freesofty is a site where you can download freeware as much as you want, but wit
 
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
 Clarke</a><BR> 
-For name/links on the sponsorpage, you can also contact
+For names/links on the sponsorpage, you can also contact
 <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 
