@@ -15,6 +15,8 @@ here</a>. A more detailed list of changes may be found on
 the announcement</a>, or for the real Freenet geeks out there, the low 
 level changelog is on the 
 <a href="http://news.gmane.org/gmane.network.freenet.cvs">CVS list archive</a>.
+If you have any problems upgrading don't hesitate to contact us on #freenet on
+irc.freenode.net, or by email at <a href="support@freenetproject.org">support@freenetproject.org</a>.
 <b>23rd July, 2004 : Stable build 5085</b><br>
 Stable build 5085 has now been released, all users running the stable
 branch should upgrade as this build contains important bugfixes and
