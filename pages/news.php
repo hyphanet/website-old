@@ -14,7 +14,7 @@ are working on a variety of solutions to this problem.
 <p>
 If you are feeling adventurous, <a href="?page=tryunstable">this page</a>
 explains how you can try out the unstable branch of development.
-
+<p>
 <b>30th May, 2004 : Stable Build 5083 released</b><br>
 Stable Build 5083 has now been released.  All users running the stable
 branch of Freenet should update.  Windows users should select "Update
