@@ -1,6 +1,6 @@
 <h2>Download Freenet 0.5.1</h2>
 <b>Note: Firewall/NAT users</b><br>
-If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/qcms/index.php?page=faq#firewall">here</a> for instructions.
+If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
 <h3>Increase Freenet's Exposure</h3>
 If you would like to help to increase Freenet's exposure, please 
 download Freenet through <a 
