@@ -15,13 +15,9 @@ Foundation</a>
 </tr></table>-->
 
 <? 
+	include("pages/news.php");
+	echo "<br><br>";
 if($mode=="beginner") {
-	include("pages/whatis.php");
-	echo "<br><br>";
-	include("pages/news.php");
-} else {
-	include("pages/news.php");
-	echo "<br><br>";
 	include("pages/whatis.php");
 }
 ?>
