@@ -220,6 +220,9 @@ number it is set to - do <i>not</i> change it.
 listenPort number that you noted in the previous step, to the same port 
 on your computer (you will probably need to know your computer's 
 internal IP address which will often begin with 192.168.x.x)
+<li>Configure your NAT or firewall, if necessary, to allow outgoing
+connections to any port on any host. Freenet does not use a standard
+port number, to make it harder to block.
 </ol>
 <p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br>
 No, but it is preferred. You can run the software and test it from
