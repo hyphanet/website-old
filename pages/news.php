@@ -2,6 +2,15 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
+<h3>Financial Status</h3>
+The project's current Paypal balance is <b><? 
+include("paypaltotal.txt"); 
+?></b>.  The project requires approximately $2,000 per month to pay for 
+its 
+full time developer, Matthew Toseland.  If you would like to help 
+support the Freenet Project, you can make a convenient donation through 
+our <a href="/index.php?page=donate">donations page</a>.
+
 <h3>News</h3>
 <b>6th August, 2004 : Stable build 5090, Stable network reset</b>
 <p>Stable build 5090 has now been released, all users running the stable
