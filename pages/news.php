@@ -17,7 +17,6 @@ think about other ways that we can reward our members more directly in the futur
 interested in supporting the Freenet Project by subscribing to a membership, and if you have a 
 PayPal account - please click on this button:
 <center>
-<center>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_xclick-subscriptions">
 <input type="hidden" name="business" value="ian@freenetproject.org">
@@ -26,7 +25,11 @@ PayPal account - please click on this button:
 <input type="hidden" name="no_note" value="1">
 <input type="hidden" name="currency_code" value="USD">
 <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
-<input type="hidden" name="a3" value="10.00">
+Amount (US$) :
+<input type="radio" name="a3" value="20.00">
+<input type="radio" name="a3" checked="true" value="10.00">
+<input type="radio" name="a3" value="5.00">
+<br>
 <input type="hidden" name="p3" value="1">
 <input type="hidden" name="t3" value="M">
 <input type="hidden" name="src" value="1">
@@ -35,7 +38,9 @@ PayPal account - please click on this button:
 </center>
 </p>
 <p>
-Of course, those unable to 
+Of course, those unable to subscribe are still more than welcome to contribute a once-only
+donation via our <a href="index.php?page=donate">Donations</a> page, and it will be most
+appreciated.
 </p>
 <p><b>16th July, 2003 - Freenet 0.5.2 Released!</b><br></p>
 <p>After four months work, Freenet 0.5.2 is now <a href="/index.php?page=download"><b>available
