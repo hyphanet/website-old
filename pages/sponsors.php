@@ -16,6 +16,6 @@
 <P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-For name/links on the sponsorpage, you can also contact <a href="mailto:newsbyte@freenetproject.org>NewsByte</a>
+For name/links on the sponsorpage, you can also contact <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 </td>
 
