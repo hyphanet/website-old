@@ -26,7 +26,7 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 <p>
 Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <br><br> 
-<a name="NAT">
+<a name="NAT"></a>
 <font color="red"><b>Note: Firewall/NAT users</b></font><br>
 If your computer is behind a firewall or NAT you must make some quick changes to your NAT's configuration for Freenet to work property.  
 Please see <a href="http://freenetproject.org/index.php?page=faq#firewall">here</a> for instructions.
