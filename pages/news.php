@@ -8,7 +8,7 @@ architectural improvement (migrating to java.nio) which should lead to
 a significant reduction in Freenet's cpu usage, and we are working on 
 the most fundamental improvement to Freenet's core algorithm since its 
 original design - NGRouting.
-<p>
+<br>
 Matthew Toseland, our full time developer, has been a major catalyst to 
 Freenet development, however his contract is coming to an end and the 
 project's funds are presently very low.  As a result I am making this 
