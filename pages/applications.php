@@ -24,7 +24,7 @@
 <br/>
 <br/><b>KIO Freenet</b>
 <br/>
-<br/>KIO Freenet is a KDE IO-Slave, which provides KDE applications the ability to retrieve content from Freenet via FCP. <a class='wiki'  href='http://www.freenetproject.org/snapshots/kio_freenet.bz2'><b style="color:black;background-color:#ffff66">Download</b> the source</a> and follow the instructions in INSTALL (<b>experimental</b>).
+<br/>KIO Freenet is a KDE IO-Slave, which provides KDE applications the ability to retrieve content from Freenet via FCP. <a class='wiki'  href='http://www.freenetproject.org/snapshots/kio_freenet.bz2'>Download the source</a> and follow the instructions in INSTALL (<b>experimental</b>).
 
 <br/>
 <br/><h3>Message Board Tools and File Sharing tools
@@ -55,7 +55,7 @@
 
 <br/><a class='wiki'  href='http://127.0.0.1:8888/SSK@fgbuxwSCCjOJHsUI-9-uijD1haQPAgM/flinks/8//'><b>Flinks</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br/>
-<br/>Flinks is an application to help people gather, manage, and share links in freenet.  Currently, several indicies generate flinks data (<a class='wiki'  href='http://127.0.0.1:8888/SSK@-w495UL3mfSlWC2c~nRAuG2fAWwPAgM/TFEE//'><b>The Freedom Engine Engine</b></a>, <a class='wiki'  href='http://127.0.0.1:8888/SSK@Sc6qV~D6iFhaYord6HtbjJ8MaEYPAgM/YoYo//'><b>YoYo</b></a>, and the <a class='wiki'  href='http://127.0.0.1:8888/SSK@rjYFfgPHfolmcStiaoxESFfBXz8PAgM/FreenetHelp//'><b>Freenet Help Index</b></a>, among others (<b><span style='color:#FF0000;'>You must be running Freenet for those links to work.</span></b>)), so you can go to their page and <b style="color:black;background-color:#ffff66">download</b> their links, allowing you to essentially build your own index with sites you like
+<br/>Flinks is an application to help people gather, manage, and share links in freenet.  Currently, several indicies generate flinks data (<a class='wiki'  href='http://127.0.0.1:8888/SSK@-w495UL3mfSlWC2c~nRAuG2fAWwPAgM/TFEE//'><b>The Freedom Engine Engine</b></a>, <a class='wiki'  href='http://127.0.0.1:8888/SSK@Sc6qV~D6iFhaYord6HtbjJ8MaEYPAgM/YoYo//'><b>YoYo</b></a>, and the <a class='wiki'  href='http://127.0.0.1:8888/SSK@rjYFfgPHfolmcStiaoxESFfBXz8PAgM/FreenetHelp//'><b>Freenet Help Index</b></a>, among others (<b><span style='color:#FF0000;'>You must be running Freenet for those links to work.</span></b>)), so you can go to their page and download their links, allowing you to essentially build your own index with sites you like
 
 <br/><hr/>
 <br/><h2>Want to contribute?
