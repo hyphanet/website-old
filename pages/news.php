@@ -2,8 +2,7 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style). --> 
 <h3>News</h3>
-<b>19th May, 2004 : Paypal appears to have reinstated Freenet 
-account</b><br>
+<b>19th May, 2004 : Paypal grudgingly caves to public pressure</b><br>
 We received a seemingly automatic message from Paypal indicating that 
 our account has been restored:
 <blockquote>
@@ -13,10 +12,13 @@ users.
 </blockquote>
 Unfortunately, it seems that the steps they refer to involve being a 
 sufficiently high-profile project that it generates potentially damaging 
-publicity.
+publicity, and our concern about Paypal extends beyond those people 
+that, like us, are capable of generating significant levels of negative 
+attention.
 <p>
 Our feeling is that in the absence of an explanation or apology from 
-Paypal, we will not continue usage of their service.  Paypal may have a 
+Paypal, we will not continue to advocate usage of their service.  
+Paypal may have a 
 legal right to discontinue service to its customers, but it has a moral 
 obligation to offer a reasonable explanation for its actions, 
 particularly where a faithful and profitable customer such as the 
