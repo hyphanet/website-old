@@ -52,13 +52,17 @@ should be routed:
 <p>
 <center><img src="image/rthist.png" width="480" height="100"></center>
 <p>
-This is a good
+Note that when the node was first initialized keys would have been evenly
+distributed across the keyspace.  This is a good
 indication that Freenet's current routing algorithm is performing 
 correctly.  Nodes specialize like this due to an emergent feedback effect,
 when a node successfully responds to a request for a given key - it increases
 the likelihood that other nodes will route requests for similar keys in the
 future.  Over time this effect causes the specialization that can be seen
-very clearly in the diagram above.
+very clearly in the diagram above.  Those using browsers that support the
+"mng" animation format (such as <a href="http://www.mozilla.org/">Mozilla</a>
+can see an animation of a node's datastore specializing over time
+<a href="image/histanim.mng">here</a>.
 
 
 <H3>Next generation routing mechanism</H3>
