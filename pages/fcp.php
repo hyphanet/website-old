@@ -325,6 +325,7 @@ yet:</p>
 
 Pending
 URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+Timeout=&lt;number: in milliseconds&gt;
 [PublicKey=&lt;string: public key&gt;]
 [PrivateKey=&lt;string: private key&gt;]
 EndMessage
