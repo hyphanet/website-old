@@ -12,6 +12,23 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>13th May, 2005 : Comments on recent story in "The Register"</b><br>
+A recent story in <a href="http://theregister.co.uk">The Register</a> claims to have exclusively
+discovered a vulnerablilty in Freenet that would allow an attacker to determine what you
+had downloaded from Freenet.  This issue is not news to us, we have been aware of it
+since at least October 2003, when it was publicly <a href="http://thread.gmane.org/gmane.network.freenet.devel/6423">
+raised and discussed</a> on our mailing list.  
+<p>
+The article does not stress the fact that while
+the attack as described requires someone to have direct access to your computer, Freenet is not
+designed to thwart forensic analysis of your hard disk, but there are <a 
+href="http://www.google.co.uk/search?q=encrypted+filesystem&sourceid=mozilla-search&start=0&start=0&ie=utf-8&oe=utf-8&client=firefox&rls=org.mozilla:en-US:unofficial">numerous
+tools</a> which do that have been widely available for years.
+<p>
+It is the case, however, that even the theoretical possibility of this kind of attack is undesirable, and it will
+be addressed in the next major release of Freenet, 0.7, which we are working on at present.
+
+<p>
 <b>8th November, 2004 : Unofficial Freenet RPMs now available</b>
 <p>Freenet developer Mika Hirvonen has put together some RPMs of the 
 Freenet stable and unstable builds which Fedora users can install and 
