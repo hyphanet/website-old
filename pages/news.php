@@ -21,8 +21,9 @@ source projects such as Freenet will be hit hardest as they cannot possibly
 pay license fees for unavoidable and often <a href="http://webshop.ffii.org/">
 trivial</a> patents</b></i>. Software patents only benefit 
 <a href="http://news.com.com/2100-1012_3-5062409.html">patent trolls</a> and
-<a href="http://www.microsoft.com"> very large companies</a>. If you
-represent a small to medium sized IT
+<a href="http://www.microsoft.com"> very large companies</a>, some of whose
+main agenda appears to be to <a href="http://www.opensource.org/halloween/halloween11.html">crush open
+ source</a>. If you represent a small to medium sized IT
 business, please <a href="http://www.economic-majority.com">sign up to
 economic-majority.com</a>. The <a href="http://www.ffii.org">FFII</a> will 
 campaign on your behalf. If and only if you are sufficiently well versed in
