@@ -27,8 +27,9 @@ economic-majority.com</a>. The <a href="www.ffii.org">FFII</a> will
 campaign on your behalf. If and only if you are sufficiently well versed in
 the issues, please talk to your MEPs - <b>in person or by telephone, not by
 email</b>; MEPs are swamped with emails on this issue and routinely ignore
-them.
-<br> More information: <a href="http://noepatents.eu.org/index.php/NO_Software_Patents">noepatents.eu.org</li>.
+them. If you don't want to live in a world where you need a license from
+a large corporation to use Freenet, Linux, Apache or Firefox, please act now!
+<br> More information: <a href="http://noepatents.eu.org/index.php/NO_Software_Patents">noepatents.eu.org</a></li>.
 <p>
 <b>13th May, 2005 : Comments on recent story in "The Register"</b><br>
 A recent story in <a href="http://theregister.co.uk">The Register</a> claims to have exclusively
