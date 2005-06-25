@@ -12,6 +12,24 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>25th June, 2005 : NO SOFTWARE PATENTS</b><br>
+On the 6th of July (give or take 24 hours) the European Parliament will vote on
+the Computer Implemented Inventions Directive. If this passes in its current
+form, it will legalize software patents in the European Union. This will
+<b>seriously</b> harm the entire software sector in Europe, and <b><i>open
+source projects such as Freenet will be hit hardest as they cannot possibly
+pay license fees for unavoidable and often <a href="http://webshop.ffii.org/">
+trivial</a> patents</b></i>. Software patents only benefit 
+<a href="www.eolas.com">patent trolls</a> and  <a href="www.microsoft.com">
+very large companies</a>. If you represent a small to medium sized IT
+business, please <a href="www.economic-majority.com">sign up to
+economic-majority.com</a>. The <a href="www.ffii.org">FFII</a> will 
+campaign on your behalf. If and only if you are sufficiently well versed in
+the issues, please talk to your MEPs - <b>in person or by telephone, not by
+email</b>; MEPs are swamped with emails on this issue and routinely ignore
+them.
+<br> More information: <a href="http://noepatents.eu.org/index.php/NO_Software_Patents">noepatents.eu.org</li>.
+<p>
 <b>13th May, 2005 : Comments on recent story in "The Register"</b><br>
 A recent story in <a href="http://theregister.co.uk">The Register</a> claims to have exclusively
 discovered a vulnerablilty in Freenet that would allow an attacker to determine what you
