@@ -20,10 +20,11 @@ form, it will legalize software patents in the European Union. This will
 source projects such as Freenet will be hit hardest as they cannot possibly
 pay license fees for unavoidable and often <a href="http://webshop.ffii.org/">
 trivial</a> patents</b></i>. Software patents only benefit 
-<a href="http://news.com.com/2100-1012_3-5062409.html">patent trolls</a> and  <a href="http://www.microsoft.com">
-very large companies</a>. If you represent a small to medium sized IT
-business, please <a href="www.economic-majority.com">sign up to
-economic-majority.com</a>. The <a href="www.ffii.org">FFII</a> will 
+<a href="http://news.com.com/2100-1012_3-5062409.html">patent trolls</a> and
+<a href="http://www.microsoft.com"> very large companies</a>. If you
+represent a small to medium sized IT
+business, please <a href="http://www.economic-majority.com">sign up to
+economic-majority.com</a>. The <a href="http://www.ffii.org">FFII</a> will 
 campaign on your behalf. If and only if you are sufficiently well versed in
 the issues, please talk to your MEPs - <b>in person or by telephone, not by
 email</b>; MEPs are swamped with emails on this issue and routinely ignore
