@@ -12,7 +12,6 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>
 <b>2nd August, 2005: New darknet routing algorithm, paper, 0.7</b><br>
 Ian and Oskar recently gave a presentation at <a href="http://www.defcon.org/">DEFCON</a>. You can download it <a href="http://freenetproject.org/papers/vegas1_dc.pdf">here</a>. This describes a new darknet-specific routing algorithm (read the presentation if you don't know what this means), which we are implementing for Freenet 0.7. There is still a long way to go with both the algorithm and the code, but we are now testing a pre-alpha. This is a very long way from being feature complete, fully secure, or user-friendly, but if you want to help test it (right now we don't need huge numbers of testers, so only if you're really keen; we will release a public alpha when it's been tested a bit more and is more feature complete), join the IRC channel and talk to toad_, or contact me via email (toad at amphibian.dyndns.org). Coders would also be very welcome although there will be a steepish learning curve. Please keep in contact while testing 0.7, although as it progresses, we <b>will</b> want to have people inviting their friends for a nice darknet topology. As always, another way to assist in the development effort is to <a href="/index.php?donate">donate</a> so we can continue to fund Matthew Toseland, the guy who does most of the work.<p>
 <b>6th July, 2005 : NO SOFTWARE PATENTS</b><br>
