@@ -12,27 +12,11 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>25th June, 2005 : NO SOFTWARE PATENTS</b><br>
-On the 6th of July (give or take 24 hours) the European Parliament will vote on
-the Computer Implemented Inventions Directive. If this passes in its current
-form, it will legalize software patents in the European Union. This will
-<b>seriously</b> harm the entire software sector in Europe, and <b><i>open
-source projects such as Freenet will be hit hardest as they cannot possibly
-pay license fees for unavoidable and often <a href="http://webshop.ffii.org/">
-trivial</a> patents</b></i>. Software patents only benefit 
-<a href="http://news.com.com/2100-1012_3-5062409.html">patent trolls</a> and
-<a href="http://www.microsoft.com"> very large companies</a>, some of whose
-main agenda appears to be to <a href="http://www.opensource.org/halloween/halloween11.html">crush open
- source</a>. If you represent a small to medium sized IT
-business, please <a href="http://www.economic-majority.com">sign up to
-economic-majority.com</a>. The <a href="http://www.ffii.org">FFII</a> will 
-campaign on your behalf. If and only if you are sufficiently well versed in
-the issues, please talk to your MEPs - <b>in person or by telephone, not by
-email</b>; MEPs are swamped with emails on this issue and routinely ignore
-them. If you don't want to live in a world where you need a license from
-a large corporation to use Freenet, Linux, Apache or Firefox, please act now!
-<br> More information: <a href="http://noepatents.eu.org/index.php/NO_Software_Patents">noepatents.eu.org</a></li>.
-<p>
+<b>
+<b>2nd August, 2005: New darknet routing algorithm, paper, 0.7</b><br>
+Ian and Oskar recently gave a presentation at <a href="http://www.defcon.org/">DEFCON</a>. You can download it <a href="http://freenetproject.org/papers/vegas1_dc.pdf">here</a>. This describes a new darknet-specific routing algorithm (read the presentation if you don't know what this means), which we are implementing for Freenet 0.7. There is still a long way to go with both the algorithm and the code, but we are now testing a pre-alpha. This is a very long way from being feature complete, fully secure, or user-friendly, but if you want to help test it (right now we don't need huge numbers of testers, so only if you're really keen; we will release a public alpha when it's been tested a bit more and is more feature complete), join the IRC channel and talk to toad_, or contact me via email (toad at amphibian.dyndns.org). Coders would also be very welcome although there will be a steepish learning curve. Please keep in contact while testing 0.7, although as it progresses, we <b>will</b> want to have people inviting their friends for a nice darknet topology. As always, another way to assist in the development effort is to <a href="/index.php?donate">donate</a> so we can continue to fund Matthew Toseland, the guy who does most of the work.<p>
+<b>6th July, 2005 : NO SOFTWARE PATENTS</b><br>
+We won! The European Parliament overwhelmingly rejected the software patent directive. More <a href="http://www.noepatents.org/">here</a>.<p>
 <b>13th May, 2005 : Comments on recent story in "The Register"</b><br>
 A recent story in <a href="http://theregister.co.uk">The Register</a> claims to have exclusively
 discovered a vulnerablilty in Freenet that would allow an attacker to determine what you
