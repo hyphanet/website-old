@@ -12,32 +12,9 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>2nd August, 2005: New darknet routing algorithm, presentation, progress towards 0.7</b><br>
-Ian and Oskar recently gave <a href="http://freenetproject.org/papers/vegas1_dc.pdf">a presentation</a> at <a href="http://www.defcon.org/">DEFCON</a>. This concerned a new emphasis for the project - making a globally scalable friend-to-friend darknet - which eliminates a whole swathe of attacks and makes Freenet far more usable in the medium term in hostile regimes such as China and the Middle East. Some have in the past suggested steganography; without a darknet topology, steganography is worthless because all nodes can be discovered quickly and cheaply by any attacker. It also describes a promising new routing algorithm which we are now implementing (although it will require further work).<p>
-We have recently had some <a href="http://nytimes.com/2005/08/01/technology/01file.html">NY Times</a> and <a href="http://yro.slashdot.org/yro/05/08/01/118257.shtml?tid=153&tid=95&tid=17">slashdot</a> coverage on this presentation. We can now announce that we have a pre-alpha of 0.7 in early semi-public testing. This implements the new routing algorithm, but is neither user-friendly nor secure at this point. If you are keen to help test it (we don't yet need massive numbers of testers; we will put out a public alpha when it is more feature complete and more tested), please contact Toad at toad at amphibian dot dyndns dot org or join #freenet on irc.freenode.net. All users should for now remain in personal contact with Toad (Matthew Toseland), the person doing most of the coding, so he can keep you up to date with new versions etc. Coders will also be very welcome; there will be a steepish learning curve but we will be delighted to help you to contribute. As always, another way to assist in the development effort is to <a href="/index.php?donate">donate</a> so that our paid coder can continue to work full-time on Freenet.<p>
-<b>6th July, 2005 : NO SOFTWARE PATENTS</b><br>
-We won! The European Parliament overwhelmingly rejected the software patent directive. More <a href="http://www.ffii.org/">here</a> (may be down due to litigation).<p>
-<b>13th May, 2005 : Comments on recent story in "The Register"</b><br>
-A recent story in <a href="http://theregister.co.uk">The Register</a> claims to have exclusively
-discovered a vulnerablilty in Freenet that would allow an attacker to determine what you
-had downloaded from Freenet.  This issue is not news to us, we have been aware of it
-since at least October 2003, when it was publicly <a href="http://thread.gmane.org/gmane.network.freenet.devel/6423">
-raised and discussed</a> on our mailing list.  
+<b>9th September, 2005: Major new version of Freenet expected by Christmas</b><br>
+Freenet is currently undergoing a major re-write incorporating a number of fundamental changes. Version 0.7 of Freenet aims to create a scalable darknet, where users only connect directly to other users they know and trust. The purpose of this change is to protect users who may be placed at risk simply by using the software, irrespective of what they are using it for. In the new model, only people you choose to connect to will know that you are running the software. Previous darknets, such as <a href="http://en.wikipedia.org/wiki/WASTE">WASTE</a>, have been limited to relatively small disconnected networks. The core innovation in Freenet 0.7 will be to allow a globally scalable darknet, capable of supporting millions of users. This is made possible by the fact that human relationships tend to form small-world networks, a property that can be exploited to find short paths between any two people. The work is based on based a talk given at <a href="http://defcon.org/">DEFCON 13</a> by Ian Clarke and Oskar Sandberg (<a href="http://freenetproject.org/papers/vegas1_dc.pdf">slides available here</a>).
 <p>
-The article does not stress the fact that while
-the attack as described requires someone to have direct access to your computer, Freenet is not
-designed to thwart forensic analysis of your hard disk, but there are <a 
-href="http://www.google.co.uk/search?q=encrypted+filesystem&sourceid=mozilla-search&start=0&start=0&ie=utf-8&oe=utf-8&client=firefox&rls=org.mozilla:en-US:unofficial">numerous
-tools</a> which do that have been widely available for years.
+Other modifications include switching from TCP to UDP, which allows <a href="http://en.wikipedia.org/wiki/UDP_hole_punching">UDP hole punching</a> along with faster transmission of messages between peers in the network. While previously Freenet only supported the insertion and retrieval of information, Freenet 0.7 will support new modes of usage including the real-time broadcast of messages. Applications of this range from real-time anonymous chat (perhaps through the IRC protocol) to RSS-feeds.
 <p>
-It is the case, however, that even the theoretical possibility of this kind of attack is undesirable, and it will
-be addressed in the next major release of Freenet, 0.7, which we are working on at present.
-
-<p>
-<b>8th November, 2004 : Unofficial Freenet RPMs now available</b>
-<p>Freenet developer Mika Hirvonen has put together some RPMs of the 
-Freenet stable and unstable builds which Fedora users can install and 
-upgrade conveniently using Yum or Apt-rpm.  You can find further 
-information <a 
-href="http://nightwatch.mine.nu/freenet/">here</a>.
-<p>
+While many contributors to the project do so voluntarily, using donations through this website, the project has been able to employ one developer full-time, Matthew Toseland.  Matthew has since become the backbone of the Freenet development effort.  The project is always in need of additional funds to assure Matthew's continued employment, so if you can contribute to our efforts, please visit our <a href="/index.php?page=donate">donations</a> page.
