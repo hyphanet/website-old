@@ -69,8 +69,6 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
 }
 
 foreach($menus[$mode] as $title => $link) {
-  //far away from perfect but better than nothing!
-  if(!ereg("^A-Za-z0-9_-]+$",$title)){ echo "Nice try !"; break;}
 	if (strcmp(substr($link, 0, 4), 'http')) {
 		page($title, $link);
 	} else {
