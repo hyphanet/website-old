@@ -120,7 +120,7 @@ href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The F
           </div>
         </td>
 
-        <td valign="top" align="left" class="body" width="100%"><? if(!ereg("^[A-Za-z0-9_-]+$",$page)){ echo "Nice try !"; }else{	include ("pages/$page.php"); } ?>
+        <td valign="top" align="left" class="body" width="100%"><? if(!ereg("^[A-Za-z0-9]+$",$page)){ echo "Nice try !"; }else{	include ("pages/$page.php"); } ?>
         </td>
       </tr>
     </table>
