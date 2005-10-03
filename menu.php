@@ -43,8 +43,6 @@ $menus = array(	'beginner' => array(
 	);
 
 function lnk($text, $link) {
-  //far away from perfect but better than nothing!
-  if(!ereg("^[A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; break;}
   global $pos;
   $pos = $pos + 1;
 ?>
@@ -57,6 +55,8 @@ onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 }
 function page($text, $link) {
   global $page;
+  //far away from perfect but better than nothing!
+  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; break;}
   if ($link == $page) {
 ?>
 <tr><td width="1"
@@ -69,6 +69,8 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
 }
 
 foreach($menus[$mode] as $title => $link) {
+  //far away from perfect but better than nothing!
+  if(!ereg("^A-Za-z0-9_-]+$",$title)){ echo "Nice try !"; break;}
 	if (strcmp(substr($link, 0, 4), 'http')) {
 		page($title, $link);
 	} else {
