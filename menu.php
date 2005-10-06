@@ -56,7 +56,7 @@ onMouseOut="sideOut('<?=$pos ?>');"><?=$text ?></a>&nbsp;</td></tr>
 function page($text, $link) {
   global $page;
   //far away from perfect but better than nothing!
-  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; break;}
+//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
   if ($link == $page) {
 ?>
 <tr><td width="1"
