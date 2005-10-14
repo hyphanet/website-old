@@ -14,5 +14,5 @@
 <br/>with the size of a FASD network.
 
 <br/><h2><a name ="Downloads"> Downloads </a></h2>
-<br/><a href="kronfol_final_thesis.pdf">kronfol_final_thesis.pdf</a>: The thesis describing FASD and simulation results
+<br/><a href="/papers/kronfol_final_thesis.pdf">kronfol_final_thesis.pdf</a>: The thesis describing FASD and simulation results
 <br/><a href="http://freenetproject.org/twiki/Main/FASD/fasd_code.zip">fasd_code.zip</a>: The source code and data for the FASD simulation (coming soon)<br/>
