@@ -14,7 +14,7 @@ href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
 for some info.</i>
 
 
-<h3>Windows</h3>- Download and run <big><a href="http://freenetproject.org/snapshots/freenet-java-webinstall.exe">freenet-java-webinstall.exe</a> </big>or<br>- If you already have Java 1.4.1 or later installed <big><a href="http://freenetproject.org/snapshots/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>It will automatically install Freenet and other required components for you. When done, double-click on the small blue rabbit icon in your task-tray. <br>
+<h3>Windows</h3>- Download and run <big><a href="http://downloads.freenetproject.org/freenet-java-webinstall.exe">freenet-java-webinstall.exe</a> </big>or<br>- If you already have Java 1.4.1 or later installed <big><a href="http://downloads.freenetproject.org/freenet-webinstall.exe">freenet-webinstall.exe</a></big><br><br>It will automatically install Freenet and other required components for you. When done, double-click on the small blue rabbit icon in your task-tray. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review)
 <p>Freenet works best with <b>Windows 2000, XP Professional or NT.
 </b>Windows ME, 98 and 95 work less well.</p>
@@ -24,10 +24,10 @@ You need to have a recent Java Runtime Environment.  We have experienced
 best results with Sun's Java Runtime Environment (versions 1.4.1 and later) 
 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>. Currently Freenet does not run on Kaffe or GCJ, due to bugs in Classpath. This is being worked on.
 Once Java is installed, download 
-<a href="http://freenetproject.org/snapshots/freenet-latest.tgz">freenet-latest-tgz</a>. 
+<a href="http://downloads.freenetproject.org.nyud.net:8090/freenet-stable-latest.src.tar.bz2">freenet-stable-latest.src.tar.bz2</a>. 
 Get started by typing:
 <pre>
-$ tar xfz freenet-latest.tgz
+$ tar xfj freenet-stable-latest.src.tar.bz2
 $ cd freenet
 $ sh start-freenet.sh
 </pre>
@@ -70,8 +70,8 @@ href="http://linux.duke.edu/projects/yum/">Yum</a>.
 </ul>
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/">https://emu.freenetproject.org/svn/</a>, or you can download a daily snapshot:<ul>
-<li><a href="http://freenetproject.org/snapshots/freenet-stable-latest.src.tar.bz2">Stable</a> - current stable branch source code</li>
-<li><a href="http://freenetproject.org/snapshots/freenet-unstable-latest.src.tar.bz2">Unstable</a> - current unstable branch source code</li>
-<li><a href="http://freenetproject.org/snapshots/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar; unpack this and one of the above in a common parent directory, and then run "ant distclean dist" to build everything.</li>
+<li><a href="http://downloads.freenetproject.org/freenet-stable-latest.src.tar.bz2">Stable</a> - current stable branch source code</li>
+<li><a href="http://downloads.freenetproject.org/freenet-unstable-latest.src.tar.bz2">Unstable</a> - current unstable branch source code</li>
+<li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar; unpack this and one of the above in a common parent directory, and then run "ant distclean dist" to build everything.</li>
 </ul>
 <!--end of empty space--></body>
