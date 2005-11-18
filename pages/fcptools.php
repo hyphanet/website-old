@@ -65,19 +65,19 @@
  
  <h2>Source Code</h2>
  <p>There are two options for obtaining the source:</p>
- <h3>CVS</h3>
+ <h3>SVN</h3>
  <p>To be on the 
  bleeding edge, access the source from CVS as follows (all on one line):</p>
 
- <p><code>cvs -z3 _<br>
-&nbsp;&nbsp;&nbsp; -d:pserver:anonymous@cvs.sourceforge.net:/cvsroot/freenet _<br>
-&nbsp;&nbsp;&nbsp;&nbsp; co Contrib/fcptools</code></p>
- <p>This will download the fcptools source from CVS HEAD into the directory 
- Contrib/fcptools. From there the normal GNU/Make commands will build the source 
+ <p><code>svn<br>
+&nbsp;&nbsp;&nbsp; co https://emu.freenetproject.org/svn/trunk/contrib/fcptools/<br>
+</code></p>
+ <p>This will download the fcptools source from SVN HEAD into the directory 
+ fcptools. From there the normal GNU/Make commands will build the source 
  (check INSTALL.* and README.* under the fcptools directory for all the 
  details).</p>
- <p><a href="http://cvs.sourceforge.net/viewcvs.py/freenet/Contrib/fcptools/">
- Follow this link</a> to browse the  code at SourceForge using ViewCVS.</p>
+ <p><a href="https://emu.freenetproject.org/svn/trunk/contrib/fcptools/">
+ Follow this link</a> to browse the  code.</p>
 
  <h3>Tarballs</h3>
  <p>Occasionally when I feel a quasi-stable point is reached in the project's 
