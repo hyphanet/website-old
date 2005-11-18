@@ -41,7 +41,7 @@ $menus = array(	'beginner' => array(
 				'Tools' => 'tools',
 				'FAQ' => 'faq',
                                 'Papers' => 'papers',
-				'Browse CVS' => 'http://cvs.sourceforge.net/cgi-bin/viewcvs.cgi/freenet/freenet/',
+				'Browse SVN' => 'https://emu.freenetproject.org/svn/',
 				'People' => 'people' )
 	);
 
