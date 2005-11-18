@@ -24,10 +24,10 @@ You need to have a recent Java Runtime Environment.  We have experienced
 best results with Sun's Java Runtime Environment (versions 1.4.1 and later) 
 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>. Currently Freenet does not run on Kaffe or GCJ, due to bugs in Classpath. This is being worked on.
 Once Java is installed, download 
-<a href="http://downloads.freenetproject.org.nyud.net:8090/freenet-stable-latest.tar.bz2">freenet-stable-latest.tar.bz2</a>. 
+<a href="http://downloads.freenetproject.org/freenet-stable-latest.bz2">freenet-stable-latest.tar.bz2</a>. 
 Get started by typing:
 <pre>
-$ tar xfj freenet-stable-latest.tar.bz2
+$ tar xfj freenet-stable-latest.bz2
 $ cd freenet
 $ sh start-freenet.sh
 </pre>
