@@ -23,10 +23,6 @@
 <br />
 <br />The FCPTools are command-line driven programs for inserting and retrieving files with Freenet. Included separately is <a href='index.php?page=FCPlib'><b>FCPLib</b></a>, the Freenet Client Protocol Library. The FCPTools are linked against FCPLib and serve as nice examples for using the library in Freenet client programs. Everything is released under the GNU General Public License.
 <br />
-<br /><a class='wiki'  href='http://freeweb.sf.net/'><b>FreeWeb</b></a>
-<br />
-<br />FreeWeb allows websites to be inserted into Freenet. This tool does not appear to be currently maintained.
-<br />
 <br /><hr><h3>Message Board Tools and File Sharing tools
 </h3>
 <br /><a class='wiki'  href='http://jtcfrost.sf.net/'><b>Frost</b></a>
