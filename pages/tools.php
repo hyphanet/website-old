@@ -47,7 +47,11 @@
 <br />FreeMail is a peer-to-peer Mail Server program (aka 'Mail Transfer Agent' or 'MTA') that makes it possible for you to send and receive email messages with unprecedented levels of privacy and anonymity. It encrypts your messages and hides them within the privacy-protecting Freenet network, where they are picked up and decrypted only by the people you're sending your messages to.
 <br />
 
-
+<br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@UjHShzjg6iS5UNGGb4IpFPhHGeoPAgM,p7qut8fPyia~CgO7noQdLA/pm4pigs/10//'><b>pm4pigs</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+<br />
+<br />
+pm4pigs is a freenet client written in python for sending and receiving encrypted messages.
+<br />
 
 <br /><a class='wiki'  href='http://sf.net/projects/liberator'><b>Liberator</b></a>
 <br />
