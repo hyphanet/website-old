@@ -28,7 +28,7 @@ Once Java is installed, download
 href="http://freenetproject.org/snapshots/freenet-stable-latest.tgz">freenet-stable-latest.tgz</a>. 
 Get started by typing:
 <pre>
-$ tar xfj freenet-stable-latest.bz2
+$ tar xzf freenet-stable-latest.tgz
 $ cd freenet
 $ sh start-freenet.sh
 </pre>
@@ -58,10 +58,10 @@ href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/">https://emu.freenetproject.org/svn/</a>, or you can download a daily snapshot:<ul>
-<li><a href="http://freenetproject.org/snapshots/freenet-stable-latest.src.tar.bz2">Stable</a> - 
+<li><a href="http://freenetproject.org/snapshots/freenet-stable-latest.src.tbz">Stable</a> - 
 current stable branch source code</li>
 <li><a 
-href="http://freenetproject.org/snapshots/freenet-unstable-latest.src.tar.bz2">Unstable</a> 
+href="http://freenetproject.org/snapshots/freenet-unstable-latest.src.tbz">Unstable</a> 
 - current unstable branch source code</li>
 <li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar; unpack this and one of the above in a common parent directory, and then run "ant distclean dist" to build everything.</li>
 </ul>
