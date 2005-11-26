@@ -25,7 +25,7 @@ best results with Sun's Java Runtime Environment (versions 1.4.1 and later)
 which can be obtained from <a href="http://java.sun.com/">http://java.sun.com/</a>. Currently Freenet does not run on Kaffe or GCJ, due to bugs in Classpath. This is being worked on.
 Once Java is installed, download 
 <a 
-href="http://downloads.freenetproject.org/snapshots/freenet-stable-latest.tgz">freenet-stable-latest.tgz</a>. 
+href="http://downloads.freenetproject.org/freenet-stable-latest.tgz">freenet-stable-latest.tgz</a>. 
 Get started by typing:
 <pre>
 $ tar xzf freenet-stable-latest.tgz
@@ -58,10 +58,10 @@ href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/">https://emu.freenetproject.org/svn/</a>, or you can download a daily snapshot:<ul>
-<li><a href="http://downloads.freenetproject.org/snapshots/freenet-stable-latest.src.tbz">Stable</a> - 
+<li><a href="http://downloads.freenetproject.org/freenet-stable-latest.src.tbz">Stable</a> - 
 current stable branch source code</li>
 <li><a 
-href="http://downloads.freenetproject.org/snapshots/freenet-unstable-latest.src.tbz">Unstable</a> 
+href="http://downloads.freenetproject.org/freenet-unstable-latest.src.tbz">Unstable</a> 
 - current unstable branch source code</li>
 <li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar; unpack this and one of the above in a common parent directory, and then run "ant distclean dist" to build everything.</li>
 </ul>
