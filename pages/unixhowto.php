@@ -6,23 +6,10 @@
 <br/>
 <br/><ol>
 <br/><li>Get Sun's Java runtime environment. Other Java Virtual Machines are likely to be
-<br/>unreliable/buggy for Freenet. I have posted the RPM (current as of December 18 2002) <a href="http://www.whoopis.com/~mbates/freenet/j2re-1_4_1_01-fcs-linux-i586.rpm">here.</a>
-<br/>If you're not using an RPM-capable flavor of Linux, go to <a href="http://java.sun.com/">http://java.sun.com/</a> and <b style="color:black;background-color:#ffff66">download</b> the source.
+<br/>unreliable/buggy for Freenet. 
+<br/><a href="http://java.sun.com/">http://java.sun.com/</a> and <b style="color:black;background-color:#ffff66">download</b> the source.
 <br/>
 
-<br/><li>After you install it (rpm -Uvh j2re-1_4_1_01-fcs-linux-i586.rpm), run this command:
-<br/>
-<br/><font face="Courier" size="2">
-<br/>ln -sf /usr/java/j2re1.4.1_01/bin/java /usr/local/bin/java
-<br/></font>
-<br/>
-<br/>This is necessary because for some reason, Sun sticks the installation under
-<br/>/usr/java and then nothing can find the actual java binary. Duh. Then type "which java"
-<br/>and it should respond with "/usr/local/bin/java". If it says "no java in ( a bunch of
-<br/>directories )" then check and make sure you did the symlink right, and
-<br/>make sure that what it says matches what you actually have under /usr/java
-<br/>(i.e. if you have a different version number, then the line needs to match
-<br/>that).
 <br/>
 <br/><li>Make sure that your server's hostname is valid. I got weird fatal errors
 <br/>from Freenet and finally traced it to that -- I had arbitrarily named the
@@ -41,7 +28,7 @@
 <br/>That will make it do the right thing after your next reboot, but to get it to
 <br/>take effect right away, type (as root) hostname your-hostname.
 <br/>
-<br/><li>Get the latest freenet snapshot from <a href="http://freenetproject.org/snapshots/">here.</a> Its name will be freenet-yyyymmdd.tgz where yyyy=year, mm=month, and dd=date (probably today's date, the developers update it ALL the time.)
+<br/><li>Get the latest freenet snapshot from <a href="http://downloads.freenetproject.org/">here.</a> Its name will be freenet-yyyymmdd.tgz where yyyy=year, mm=month, and dd=date (probably today's date, the developers update it ALL the time.)
 
 <br/>
 <br/><li>Unpack it (tar -xzf name-of-archive.tgz) and run the start script (sh start-freenet). It will
@@ -131,15 +118,15 @@
 <br/><font face="courier" size="2"><ul>
 </font><br/><font face="courier" size="2"><li>su&nbsp;-&nbsp;freenet
 
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://freenetproject.org/snapshots/freenet-ext.jar
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://freenetproject.org/snapshots/freenet-latest.jar
+</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/freenet-ext.jar
+</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/freenet-latest.jar
 </font><br/><font face="courier" size="2"><li>mv&nbsp;freenet-latest.jar&nbsp;freenet-DATE.jar
 </font><br/><font face="courier" size="2"><li>ln&nbsp;-s&nbsp;freenet-DATE.jar&nbsp;freenet.jar
 </font><br/><font face="courier" size="2">&nbsp;<ul>
 </font><br/><font face="courier" size="2">&nbsp;<li>I&nbsp;keep&nbsp;multiple&nbsp;versions&nbsp;because&nbsp;sometimes&nbsp;one&nbsp;of&nbsp;them's&nbsp;bad.
 
 </font><br/><font face="courier" size="2">&nbsp;</ul>
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://freenetproject.org/snapshots/seednodes.ref
+</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/seednodes/seednodes.ref
 </font><br/><font face="courier" size="2">&nbsp;<ul>
 </font><br/><font face="courier" size="2">&nbsp;<li>Or&nbsp;if&nbsp;you&nbsp;prefer,&nbsp;get&nbsp;someone&nbsp;else's&nbsp;seednodes.ref&nbsp;file.
 </font><br/><font face="courier" size="2">&nbsp;</ul>
