@@ -29,6 +29,5 @@
 <BR>
 <P>
 <BR>
-Want to help with this page? Make a summary of a discussion on the freenet maillist and send it to <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 </td>
 

@@ -427,7 +427,7 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 </li><li> Work on the Freenet web site (including the FAQ).
 </li><li> Contribute your ideas to the discussion lists.
 </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet.</p>
-<P> People that want to contribute to Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:newsbyte@freenetproject.org">email</a>. </p>
+<P> People that want to contribute to Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
 
 <p><b id="access">How can I access the code and website?</b><br>
 The Freenet project is hosted at SourceForge. You will have to create an account for yourself there, then send email to the project coordinator asking him to add you to the group. Further details are available on the Freenet and SourceForge web sites.</p>

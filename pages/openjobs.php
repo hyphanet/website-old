@@ -1,6 +1,5 @@
 
 <center><h2>How Can You Help?</h2></center>
-<P><LI>Incorporate an official bug tracking system into the main freenetproject.org web site. Candidates are Adam's FNBTS, the SourceForge bug tracker, or ? 
 <P><LI>Produce RFC quality specs for client metadata, FCP, and FNP. 
 <P><LI>Write unit tests for various components of Fred (routing table, data store, ADTs, the message handler, key encoding and decoding algorithms, and so forth). 
 <P><LI>Come up with a smoke test suite for a newly compiled node. 
@@ -17,7 +16,7 @@
 <P><LI>Donate more.
 <P><LI>Help coding & debugging if you can.
 <P><LI>Whine less about what's wrong with it, but give specific bug-reports in stead.
-<P><LI>Join #freenet on IIP for other suggestions/discussions.
+<P><LI>Join #freenet on freenode for other suggestions/discussions.
 <P><LI>Document the various fproxy options (which are summarized at the top of fproxyservlet.java). 
 <P><LI>Create a page wich contains the most interesting topics/talks/discussions (summarised) on the maillists (especially the devl) for each month.
 <P>

@@ -31,6 +31,5 @@ Malcolm handley responded by stating that he was seeing a lot of RNFs when inser
 <P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-For name/links on the sponsorpage and summaries of maillist-posts, you can also contact <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 </td>
 

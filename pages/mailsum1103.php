@@ -26,6 +26,5 @@ Some pointed out that a 'special request' could be used to determine that the no
 <P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-For name/links on the sponsorpage, you can also contact <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
 </td>
 
