@@ -434,7 +434,7 @@ The Freenet project is hosted at SourceForge. You will have to create an account
 
 
 <p><b id="devtools">What tools do I need to help develop?</b><br>
-To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.1 or later. To retrieve and update the code at SourceForge you will need a network version of <i>CVS</i>,
+To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.1 or later. To retrieve and update the code at <a href="http://emu.freenetproject.org/svn/trunk/freenet">http://emu.freenetproject.org/svn/trunk/freenet</a>using subversion,
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). To do web development you
 will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.</p>
