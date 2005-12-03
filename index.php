@@ -126,8 +126,9 @@ href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The F
     </table>
 <center><font size=-1>This website is licensed under the <a 
 href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a></font></center>
-<br>
-<font size=-5 color="#FFFFFF"  text="#FFFFFF" link="#FFFFFF" vlink="#FFFFFF" alink="#FFFFFF" >Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)</font>
+<div class="hideit">
+Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)
+<div>
   </body>
 </html>
 
