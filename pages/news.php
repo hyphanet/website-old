@@ -27,7 +27,7 @@ to allow a globally scalable darknet, capable of supporting millions of users. T
 possible by the fact that human relationships tend to form 
 <a href="http://en.wikipedia.org/wiki/Small-world_network">small-world networks</a>, a 
 property that can be exploited to find short paths between any two people. The work is based on
-based a talk given at <a href="http://defcon.org/">DEFCON 13</a> by Ian Clarke and 
+a talk given at <a href="http://defcon.org/">DEFCON 13</a> by Ian Clarke and 
 Oskar Sandberg (<a href="http://freenetproject.org/papers/vegas1_dc.pdf">slides available here</a>).
 </p>
 <p>Other modifications include switching from TCP to UDP, which allows 
@@ -46,7 +46,7 @@ and a text mode interface. We should have an alpha which has initial FCP and Fpr
 January. Darknet routing is working, but not yet opennet, and there are issues to address with load 
 balancing, but our new model (based on Ethernet and TCP/IP) is currently being debugged and should work as
 it is based on tried and tested solutions. If you want to help, join #freenet-alphatest on irc.freenode.net,
-or contact <a href="toad@amphibian.dyndns.org">Toad (Matthew Toseland)</a>.
+or contact <a href="mailto:toad@amphibian.dyndns.org">Toad (Matthew Toseland)</a>.
 </p>
 <p>Using donations through this website, the project has been able to employ one developer full-time, 
 Matthew Toseland.  Matthew has since become the backbone of the Freenet development effort.  The 
