@@ -45,7 +45,7 @@ and darknet support, we expect that Freenet 0.7 will be usable in countries with
 and a text mode interface. We should have an alpha which has initial FCP and Fproxy support by the end of
 January. Darknet routing is working, but not yet opennet, and there are issues to address with load 
 balancing, but our new model (based on Ethernet and TCP/IP) is currently being debugged and should work as
-it is based on tried and tested solutions. If you want to help, join #freenet-alphatest on irc.freenode.net,
+it is based on tried and tested solutions. If you want to help, join #freenet on irc.freenode.net,
 or contact <a href="mailto:toad@amphibian.dyndns.org">Toad (Matthew Toseland)</a>.
 </p>
 <p>Using donations through this website, the project has been able to employ one developer full-time, 
