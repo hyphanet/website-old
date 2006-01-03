@@ -1,8 +1,17 @@
 <h3>Papers</h3>
+
+<a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
+(slideshow)<br>
+This is a slideshow for a talk given at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
+Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
+demonstration to accompany the talk is <a 
+href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
+
 <a href="index.php?page=ngrouting">Next Generation Routing Algorithm</a><br>
-This article describes the new mechanism for routing requests in Freenet.
-It holds the promise of dramatically increasing Freenet's speed and 
-reliability.
+This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
+approach which had nodes making routing decisions based on sophisticated analysis of
+the time required to route previous requests.  This algorithm was promising, but
+was eventually dropped in favour of a much simpler approach in Freenet 0.7.
 <p>
 <a href="/papers/freenet-ieee.pdf">Protecting Freedom of Information 
 Online with Freenet</a><br>
