@@ -6,7 +6,7 @@ This is a slideshow for a talk given at the Chaos Computer Congress on 30th Dec 
 Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
 demonstration to accompany the talk is <a 
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
-
+<p>
 <a href="index.php?page=ngrouting">Next Generation Routing Algorithm</a><br>
 This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
 approach which had nodes making routing decisions based on sophisticated analysis of
