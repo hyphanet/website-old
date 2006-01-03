@@ -2,7 +2,8 @@
 
 <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 (slideshow)<br>
-This is a slideshow for a talk given at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
+This is a <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
+at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
 Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
 demonstration to accompany the talk is <a 
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
