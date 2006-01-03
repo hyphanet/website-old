@@ -14,6 +14,7 @@ our <a href="/index.php?page=donate">donations page</a>.
 <h3>News</h3>
 <b>3rd January, 2006: Slides and Demo from Chaos Congress talk now online</b><br>
 On Friday 30th Oskar Sandberg and I <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">spoke</a>
-at the 22nd Chaos Communication Congress in Berlin, Germany.  Now that I have thawed out 
+at the 22nd Chaos Communication Congress in Berlin, Germany.  We were speaking about
+the upcoming 0.7 redesign of Freenet.  Now that I have thawed out 
 (it was -6&deg;C!), I have had a chance to upload our <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> (pdf.bz2 format), and a Java <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
 (requires Java 1.5).
