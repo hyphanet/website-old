@@ -14,14 +14,14 @@ information and tips for getting the most from Freenet.
 <br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/announce/'>Announcements</a> (<a 
-class='wiki'  href='http://news.gmane.org/gmane.network.freenet.announce'>archive</a>)
+class='wiki'  href='http://emu.freenetproject.org/lurker/list/announce.en.html'>archive</a>)
 <br />Please sign up here to be notified of major Freenet developments, such as announcements of new releases or important bugfixes.  This list is moderated and is very low traffic (less than one message per month).
 <br />
 
 <br /><a
 href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/support/'>Support</a>
 (<a
-href='http://news.gmane.org/gmane.network.freenet.support'>archive</a>)
+href='http://emu.freenetproject.org/lurker/list/support.en.html'>archive</a>)
 <br />Asking for or giving advice relating to getting Freenet working, 
 bug reports, and suggestions on improving the user experience. Requests 
 for help are more likely to be heard here than in the other mailing 
@@ -33,26 +33,26 @@ href="http://mail.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscrib
 <br /><a
 href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/tech/'>Tech</a>
 (<a
-href='http://news.gmane.org/gmane.network.freenet.technical'>archive</a>)
+href='http://emu.freenetproject.org/lurker/list/tech.en.html'>archive</a>)
 <br />
 This is for general technical discussion of Freenet.  If you want to discuss
 longer-term technical ideas about Freenet, please use this list.
 <br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/devl/'>Development</a> (<a 
-class='wiki'  href='http://news.gmane.org/gmane.network.freenet.devel'>archive</a>)
+class='wiki'  href='http://emu.freenetproject.org/lurker/list/devl.en.html'>archive</a>)
 <br />
 This list is for active developers to discuss bugs, and the implementation 
 of near-term new features.  Please only post to this list if you know what 
 you are talking about, otherwise use the tech mailing list (see above).
 <br />
 <br /><a class='wiki'  href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/cvs'>CVS</a>  
-(<a class='wiki'  href='http://news.gmane.org/gmane.network.freenet.cvs'>archive</a>)
+(<a class='wiki'  href='http://emu.freenetproject.org/lurker/list/cvs.en.html'>archive</a>)
 <br />A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
 <br />
 <br /><a class='wiki'  
 href='http://mail.freenetproject.org/cgi-bin/mailman/listinfo/chat/'>Chat</a> (<a 
-class='wiki'  href='http://news.gmane.org/gmane.network.freenet.general'>archive</a>)
+class='wiki'  href='http://emu.freenetproject.org/lurker/list/chat.en.html'>archive</a>)
 <br />
 This list is for general discussion of Freenet, topics that are not suitable 
 to other lists. Discussions of politics, law, philosophy, lawsuits, 
