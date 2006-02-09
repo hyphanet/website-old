@@ -9,7 +9,7 @@ $menus = array(	'beginner' => array(
 				'FAQ' => 'faq',
 				'Philosophy' => 'philosophy',
 				'Support' => 'lists',
-				'Wiki'	=> 'http://freenetproject.org/wiki/',
+				'Wiki'	=> 'http://wiki.freenetproject.org/',
 				'Tools' => 'tools',
 				'Papers' => 'papers',
 				'People' => 'people' ),
@@ -22,7 +22,7 @@ $menus = array(	'beginner' => array(
 				'Content' => 'content',
 				'FAQ' => 'faq',
 				'Documentation' => 'docs',
-				'Wiki'	=> 'http://freenetproject.org/wiki/',
+				'Wiki'	=> 'http://wiki.freenetproject.org/',
 				'Bug Report' => 'https://bugs.freenetproject.org/',
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
@@ -38,12 +38,12 @@ $menus = array(	'beginner' => array(
 				'Content' => 'content',
 				'Philosophy' => 'philosophy',
 				'Mailing Lists' => 'lists',
-				'Wiki'	=> 'http://freenetproject.org/wiki/',
+				'Wiki'	=> 'http://wiki.freenetproject.org/',
 				'Bug Tracker' => 'https://bugs.freenetproject.org/',
 				'Tools' => 'tools',
 				'FAQ' => 'faq',
                                 'Papers' => 'papers',
-				'Browse SVN' => 'https://emu.freenetproject.org/svn/',
+				'Browse SVN' => 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
 				'People' => 'people' )
 	);
 
