@@ -11,19 +11,10 @@ if (isset($_REQUEST["page"])) {
   $page = "index";
 }
 
-// Why did you do this ian, exactly?
-//$f = fopen("access.log", "a");
-//$remaddr = $_SERVER["REMOTE_ADDR"];
-//$ips = explode(".", $remaddr);
-//$bst = "";
-//foreach($ips as $b) {
-//$bst = $bst . chr(intval($b));
-//}
-//$out = str_replace("=", "", base64_encode($bst));
-//fputs($f, $out . "\t" . date("r") . "\t" . $page . "\t" . 
-//            $_SERVER["HTTP_REFERER"] . "\n");
-//fclose($f);
-
+mysql_connect("mysql4-f", "f978rw", "t6j4f3gt");
+mysql_select_db("f978_access");
+mysql_query("INSERT INTO access VALUES (\"".$_SERVER["REMOTE_ADDR"]."\", \"".$_SERVER["HTTP_REFERER"]."\", NOW())");
+mysql_close();
 
 $modes = array("beginner"=>FALSE, "user"=>FALSE, "developer"=>FALSE);
 if (isset($_GET["mode"])) {
