@@ -1,7 +1,7 @@
 <?
 session_start();
 if (isset($_REQUEST["page"])) {
-  $page = str_replace("%", "", $_REQUEST["page"]);
+  $page = str_replace("<", "", $_REQUEST["page"]);
 } else {
   if ((stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "ja")) &&
       !(stristr($_SERVER["HTTP_ACCEPT_LANGUAGE"], "en"))) {
