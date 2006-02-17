@@ -11,7 +11,7 @@ if (isset($_REQUEST["page"])) {
   $page = "index";
 }
 
-include_once "/home/users/n/ne/nextgens/config.inc";
+include_once "config.inc";
 mysql_connect("mysql4-f", $mysql_user, $mysql_password);
 mysql_select_db("f978_access");
 mysql_query("INSERT INTO access VALUES (\"".$_SERVER["REMOTE_ADDR"]."\", \"".$_SERVER["HTTP_REFERER"]."\", NOW())");
