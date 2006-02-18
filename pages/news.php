@@ -12,6 +12,12 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>18th February, 2006: Searching in a Small World</b><br>
+Oskar Sandberg has made available his thesis <a href="http://www.math.chalmers.se/~ossa/lic.pdf">Searching in a Small World</a>.
+This describes a simple decentralized algorithm for creating small world networks that is inspired by Freenet's original
+approach, along with the experimental and theoretical basis for this approach.  This also provides an insight into why
+small world networks might form naturally among human relationships.
+<p>
 <b>3rd January, 2006: Slides and Demo from Chaos Congress talk now online</b><br>
 On Friday 30th Oskar Sandberg and I <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">spoke</a>
 at the 22nd Chaos Communication Congress in Berlin, Germany.  We were speaking about

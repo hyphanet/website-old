@@ -1,5 +1,14 @@
 <h3>Papers</h3>
 
+<a href="http://www.math.chalmers.se/~ossa/lic.pdf">Searching in a Small World</a><br>
+Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
+networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
+the new Darknet architecture.
+
+<a href="http://www.math.chalmers.se/~ossa/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br>
+A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
+by Freenet 0.7.
+
 <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 (slideshow)<br>
 This is a <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
