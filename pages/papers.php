@@ -1,6 +1,6 @@
 <h3>Papers</h3>
 
-<a href="http://www.math.chalmers.se/~ossa/lic.pdf">Searching in a Small World</a><br>
+<a href="http://www.math.chalmers.se/~ossa/lic.pdf">Searching in a Small World</a> (PDF)<br>
 Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
 networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
 the new Darknet architecture.
