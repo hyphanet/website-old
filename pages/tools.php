@@ -40,6 +40,8 @@
 <br />
 <br />FreeNews is an NNTP server that uses Freenet as its storage medium.  It allows you to use your favorite newsreader to read Text Over Freenet messages, like frost uses.
 <br />
+<p><a class="wiki" href="http://www.smash-designs.de/~bombe/freemule.html"><b>freeMule</b></a></p>
+<p>freeMule is a file-sharing application modelled after the most famous file-sharing application eMule.</p>
 <br /><hr><h3>Misc Tools
 </h3>
 
