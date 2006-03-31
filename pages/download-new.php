@@ -40,7 +40,7 @@ You can obtain the latest source code from SVN from https://emu.freenetproject.o
   <li><a href="http://downloads.freenetproject.org/freenet-stable-latest.src.tbz">Stable</a> - current stable branch source code</li>
   <li><a 
 href="http://downloads.freenetproject.org/freenet-unstable-latest.src.tbz">Unstable</a> - current unstable branch source code</li>
-  <li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar; unpack this and one of the above in a common parent directory, and then run "ant distclean dist" to build everything.</li>
+  <li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar.</li>
 </ul>
 <BR>
 <h3>
