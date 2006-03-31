@@ -2,7 +2,7 @@
 
 <h3>Important note for first time users</h3>
 
-When you first start Freenet 0.7 your node will not know any other nodes on the network, you need to connect to other node. To find other node you should connect to the irc server <big>irc.freenode.com</big> and join the channel <big>#freenet</big>.
+When you first start Freenet 0.7 your node will not know any other nodes on the network, you need to connect to other node. To find other nodes you should connect to the irc server <big>irc.freenode.net</big> and join the channel <big>#freenet</big>.
 <p> <i>If you have a firewall or a NAT box click <a 
 href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a> for some info.</i> <BR>
 &nbsp;<BR>
