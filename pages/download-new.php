@@ -1,4 +1,4 @@
-<body><h2>Download Freenet</h2>
+<body><h2>Download Freenet 0.7</h2>
 
 <h3>Important note for first time users</h3>
 
