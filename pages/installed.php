@@ -12,4 +12,4 @@ You will need to get some darknet (or testnet) connections. If you know people u
 <br />
 Once again thanks for using Freenet!<br />
 <br />
-If you are feeling especially generous, you can <a href="http://freenetproject.org/index.php?page=donate">donate here</a> so that we can continue to employ a full time coder.
+If you can we would really appreciate it if you could <a href="http://freenetproject.org/index.php?page=donate">donate here</a> so that we can continue to employ a full time coder.
