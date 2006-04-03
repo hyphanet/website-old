@@ -21,6 +21,10 @@
 <br />and that of others has resulted in dramatic improvements to the performance
 <br />and stability of the network.
 <br />
+<br /><b>Florent Daignière</b>
+<br />Florent has been our system administrator since around the time 0.7 was started,
+<br />and has helped on other matters like the current installer.
+<br />
 <br /><b>Steven Starr</b>
 <br />Steven is the coordinator of the Freenet Project non-profit corporation.<br />
 
