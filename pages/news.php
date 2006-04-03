@@ -12,7 +12,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>3rd March, 2006: Freenet 0.7 Alpha 1</b><br>
+<b>3rd April, 2006: Freenet 0.7 Alpha 1</b><br>
 <p>Freenet is a decentralised "peer-to-peer" system designed to allow the 
 anonymous sharing of information on the Internet.  After many months of work,
 the first alpha version of Freenet 0.7 is ready for testing.</p>
