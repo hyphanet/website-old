@@ -1,7 +1,7 @@
 <body><h2>Download Freenet</h2>
 
 <small><p>If you are feeling especially adventurous, you can help us test the
-<a href="/index.php?page=download">Freenet 0.7 alpha</a> (note that this is quite 
+<a href="/index.php?page=download-new">Freenet 0.7 alpha</a> (note that this is quite 
 small and has little content at present).</p></small>
 
 <h3>Important note for first time users</h3>
