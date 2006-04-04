@@ -26,7 +26,8 @@ It will automatically install Freenet and other required components for you. Whe
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
 &nbsp;<BR>
 Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition work rather
-less well; in particular, the installer won't run on those operating systems.
+less well; in particular, the installer won't run on those operating systems.<br>
+If the executable doesn't work (if it goes seriously wrong), then please telll us, install Java, and try the below.
 
 <h3>Mac OSX, Unix, and Linux</h3>
 You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
@@ -39,8 +40,13 @@ href="http://downloads.freenetproject.org/alpha/installer/freenet.jnlp">freenet-
 command line : 
 
 <pre>
-javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp</P>
-</pre>
+javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp
+</pre></p>
+
+<p>If that doesn't work, try this:
+<pre>
+java -jar http://downloads.freenetproject.org/alpha/installer/selfextractpack.jar
+</pre></p>
 
 <P>After you start Freenet wait a few seconds for it to start-up (on a
 slow computer, you may need to wait about 30 seconds), and visit
