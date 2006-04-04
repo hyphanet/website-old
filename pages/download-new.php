@@ -1,4 +1,4 @@
-<body><h2>Download Freenet 0.7</h2>
+<h2>Download Freenet 0.7</h2>
 
 <h3>Important note for first time users</h3>
 
@@ -48,8 +48,22 @@ http://127.0.0.1:8888/ in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
 <h3>So its running, what do I do?</h3>
+
+You need to get connected.  If you know anyone running Freenet, ask them 
+for their reference, and give them yours.  If you visit <a 
+href="http://127.0.0.1:8888/darknet/">http://127.0.0.1:8888/darknet/</a> 
+in your browser, you can see your reference at the top, and at the 
+bottom you can add other people's references, either by cutting and 
+pasting the reference itself, or by pointing Freenet to a URL or a file 
+containing their reference.
+<p>
+</B>Note: You need to add their reference, and they need to add 
+yours, before your nodes can communicate.</b>
+
+<h3>So i'm connected, what do I do?</h3>
+
 You can find links to some pages in the index on the FProxy homepage at 
-http://127.0.0.1:8888/.  You can so find links to some third party 
+http://127.0.0.1:8888/.  You can find links to some third party 
 applications <a 
 href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 
@@ -72,7 +86,3 @@ href="http://downloads.freenetproject.org/freenet-unstable-latest.src.tbz">Unsta
   <li><a href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2">Contrib</a> - separate module needed to compile freenet-ext.jar.</li>
 </ul>
 <BR>
-<h3>
-  <!--end of empty space-->
-</h3>
-</body>
