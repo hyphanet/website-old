@@ -57,6 +57,12 @@ bottom you can add other people's references, either by cutting and
 pasting the reference itself, or by pointing Freenet to a URL or a file 
 containing their reference.
 <p>
+If you don't know anyone running Freenet, visit #freenet on 
+irc.freenode.net and ask nicely to exchange references with someone.  
+You will find a tool like <a 
+href="http://code.bulix.org/">code.bulix.org</a> useful (please don't 
+paste references into the #freenet IRC channel).
+<p>
 </B>Note: You need to add their reference, and they need to add 
 yours, before your nodes can communicate.</b>
 
