@@ -47,6 +47,12 @@ slow computer, you may need to wait about 30 seconds), and visit
 http://127.0.0.1:8888/ in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
+<h3>So its running, what do I do?</h3>
+You can find links to some pages in the index on the FProxy homepage at 
+http://127.0.0.1:8888/.  You can so find links to some third party 
+applications <a 
+href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
+
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
 <b>Recommended:</b> 1GHz or more processor with 256MB
