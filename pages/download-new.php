@@ -20,7 +20,8 @@ href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <h3>Windows</h3>
-- Download and run <big><a href="http://downloads.freenetproject.org/freenet-pre-07-alpha.exe">freenet-webinstall</a></big><br>
+- Download and run <big><a href="http://downloads.freenetproject.org/freenet-pre-07-alpha-nojava.exe">freenet-webinstall</a></big><br>
+  <!-- Old wrapper : http://downloads.freenetproject.org/freenet-pre-07-alpha.exe -->
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
