@@ -8,7 +8,7 @@ through them you gain access to the entire Freenet network.
 <p>
 
 When you first start Freenet 0.7 your node will not know any other nodes
-on the network, you need to connect to other nodes, at least three. 
+on the network, you need to connect to other nodes - at least three. 
 Ideally you should find people you trust that are already part of the
 Freenet 0.7 network and connect to them, but if that isn't possible in
 the early stages of the Freenet 0.7 network you can try connecting to
@@ -20,14 +20,13 @@ href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <h3>Windows</h3>
-- Run <big><a href="http://downloads.freenetproject.org/freenet-pre-07-alpha.exe">freenet-webinstall</a></big><br>
+- Download and run <big><a href="http://downloads.freenetproject.org/freenet-pre-07-alpha.exe">freenet-webinstall</a></big><br>
 <br>
-It will automatically install Freenet and other required components for you. When done, he launch your browser directly on Freenet. <br>
+It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
 &nbsp;<BR>
-Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition work rather
-less well; in particular, the installer won't run on those operating systems.<br>
-If the executable doesn't work (if it goes seriously wrong), then please telll us, install Java, and try the below.
+Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition don't work as well; in particular, the installer won't run on those operating systems.<br>
+If the installer doesn't work (something seriously wrong) then please tell us know, install Java, and try the Linux instructions below.
 
 <h3>Mac OSX, Unix, and Linux</h3>
 You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
@@ -48,12 +47,12 @@ javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp
 java -jar http://downloads.freenetproject.org/alpha/installer/selfextractpack.jar
 </pre></p>
 
-<P>After you start Freenet wait a few seconds for it to start-up (on a
+<P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
 http://127.0.0.1:8888/ in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
-<h3>So its running, what do I do?</h3>
+<h3>So it's running, what do I do?</h3>
 
 You need to get connected.  If you know anyone running Freenet, ask them 
 for their reference, and give them yours.  If you visit <a 
@@ -69,10 +68,10 @@ You will find a tool like <a
 href="http://code.bulix.org/">code.bulix.org</a> useful (please don't 
 paste references into the #freenet IRC channel).
 <p>
-</B>Note: You need to add their reference, and they need to add 
-yours, before your nodes can communicate.</b>
+</B>Note: You need to add their reference and they need to add 
+yours before your nodes can communicate.</b>
 
-<h3>So i'm connected, what do I do?</h3>
+<h3>So I'm connected, what do I do?</h3>
 
 You can find links to some pages in the index on the FProxy homepage at 
 http://127.0.0.1:8888/.  You can find links to some third party 
