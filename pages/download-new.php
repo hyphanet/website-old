@@ -13,7 +13,7 @@ Ideally you should find people you trust that are already part of the
 Freenet 0.7 network and connect to them, but if that isn't possible in
 the early stages of the Freenet 0.7 network you can try connecting to
 the irc server <big>irc.freenode.net</big> and join the channel
-<big>#freenet</big>, to see if anyone will connect to you.
+<big>#freenet-refs</big>, to see if anyone will connect to you.
 
 <p> <i>If you have a firewall or a NAT box click <a
 href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
