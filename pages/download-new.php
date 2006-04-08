@@ -78,7 +78,12 @@ You can find links to some pages in the index on the FProxy homepage at
 http://127.0.0.1:8888/.  You can find links to some third party 
 applications <a 
 href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
-
+<p>
+<b>Warning:</b> Applications designed for use with Freenet 0.5 <b>will not</b>
+work with Freenet 0.7.  In particular, do not use the version of Frost
+available from http://htcfrost.sourceforge.net/ as it is designed for use with
+Freenet 0.5.
+	
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
 <b>Recommended:</b> 1GHz or more processor with 256MB
