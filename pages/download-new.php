@@ -81,7 +81,7 @@ href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 <p>
 <b>Warning:</b> Applications designed for use with Freenet 0.5 <b>will not</b>
 work with Freenet 0.7.  In particular, do not use the version of Frost
-available from http://htcfrost.sourceforge.net/ as it is designed for use with
+available from http://jtcfrost.sourceforge.net/ as it is designed for use with
 Freenet 0.5.
 	
 <h3>Hardware requirements</h3>
