@@ -26,7 +26,7 @@
  <h3>Status of Development</h3>
  <p>The FCPTools (and FCPLib) are works in progress, but beginning to take solid form in 
  preparation for a 0.9 release, which will not include a command-line fcpputsite.</p>
- <p>The version in CVS is 0.4.9 and works well for what it claims to support. 
+ <p>The version in SVN is 0.4.9 and works well for what it claims to support. 
  Admittedly there are missing features here and there, and these will get most 
  of my attention in the near future. For example:</p>
 
@@ -67,16 +67,16 @@
  <p>There are two options for obtaining the source:</p>
  <h3>SVN</h3>
  <p>To be on the 
- bleeding edge, access the source from CVS as follows (all on one line):</p>
+ bleeding edge, access the source from SVN as follows (all on one line):</p>
 
  <p><code>svn<br>
-&nbsp;&nbsp;&nbsp; co https://emu.freenetproject.org/svn/trunk/contrib/fcptools/<br>
+&nbsp;&nbsp;&nbsp; co https://emu.freenetproject.org/svn/trunk/apps/fcptools/<br>
 </code></p>
  <p>This will download the fcptools source from SVN HEAD into the directory 
  fcptools. From there the normal GNU/Make commands will build the source 
  (check INSTALL.* and README.* under the fcptools directory for all the 
  details).</p>
- <p><a href="https://emu.freenetproject.org/svn/trunk/contrib/fcptools/">
+ <p><a href="https://emu.freenetproject.org/svn/trunk/apps/fcptools/">
  Follow this link</a> to browse the  code.</p>
 
  <h3>Tarballs</h3>
@@ -97,7 +97,7 @@
    fcptools-unstable-bin.tgz</a> (latest Win32 pre-compiled binaries)</li>
 
  </ul>
- <p>I recommend this method over the others, since CVS at times may not even 
+ <p>I recommend this method over the others, since SVN at times may not even 
  compile. The tarballs are fully tested before uploaded (SourceForge 
  compile-farm among other tests) and should function as advertised. The binaries 
  will also contain (in addition to fcpget, fcpput, and fcpx) the FCPLib static 
