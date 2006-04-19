@@ -208,17 +208,17 @@ guessable, or communicated by some other means.</p>
 editor.  On Windows you will normally find this file in <b>c:\Program 
 Files\Freenet</b>, on Linux you will find it wherever you unpacked the 
 Freenet tarball.
-<li>Find the line containing the <b>ipAddress</b> setting and change it 
+<li>Find the line containing the <b>node.ipAddressOverride</b> setting and change it 
 to:
 <pre>
-ipAddress=x.x.x.x
+node.ipAddressOverride=x.x.x.x
 </pre>
 ...where x.x.x.x is the IP address of your NAT or Firewall (consult the 
 manual if you are unsure how to determine this).
-<li>Find the line containing <b>listenPort</b> and take a note of the 
+<li>Find the line containing <b>node.listenPort</b> and take a note of the 
 number it is set to - do <i>not</i> change it.
 <li>Configure your NAT or firewall to forward connections to the 
-listenPort number that you noted in the previous step, to the same port 
+node.listenPort number that you noted in the previous step, to the same port 
 on your computer (you will probably need to know your computer's 
 internal IP address which will often begin with 192.168.x.x)
 <li>Configure your NAT or firewall, if necessary, to allow outgoing
@@ -361,7 +361,7 @@ to know exactly what went wrong.
 <LI>Stop your node.
 <LI>Download <a href="http://freenetproject.org/snapshots/freenet-unstable-latest.jar">http://freenetproject.org/snapshots/freenet-unstable-latest.jar</a> & <a href="http://freenetproject.org/snapshots/unstable.ref">http://freenetproject.org/snapshots/unstable.ref</a> to your freenet directory.
 <LI>Rename the two new files to freenet.jar & seednodes.ref (overwriting the old ones).
-<LI>It is not  strictly necessary, but it is recommended you open freenet.ini / freenet.conf and change your "listenPort=XYZ" to a new random number (just adding one will do). If you have some firewall settings, remember to change them accordingly! It is also recommended that you wipe your node file and your routing table files to change your node id and start from scratch.
+<LI>It is not  strictly necessary, but it is recommended you open freenet.ini / freenet.conf and change your "node.listenPort=XYZ" to a new random number (just adding one will do). If you have some firewall settings, remember to change them accordingly! It is also recommended that you wipe your node file and your routing table files to change your node id and start from scratch.
 <LI>Start your node.
 
 
