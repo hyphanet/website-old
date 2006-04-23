@@ -19,7 +19,7 @@ Freenet 0.7!  Note that Frost requires that a copy of Freenet is up and
 running before it will work.  Try it out by installing <a 
 href="/index.php?page=download-new">Freenet 0.7</a>, and then <a 
 href="http://jtcfrost.sourceforge.net/">Frost</a>.
-
+<p>
 <b>3rd April, 2006: Freenet 0.7 Alpha 1</b><br>
 <p>Freenet is a decentralised "peer-to-peer" system designed to allow the 
 anonymous sharing of information on the Internet.  After many months of work,
