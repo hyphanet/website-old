@@ -12,6 +12,14 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>21st April, 2006: New Frost released with 0.7 support</b><br>
+A new version of <a href="http://jtcfrost.sf.net/">Frost</a>, the 
+Freenet message board system, has been released, and it now supports 
+Freenet 0.7!  Note that Frost requires that a copy of Freenet is up and 
+running before it will work.  Try it out by installing <a 
+href="/index.php?page=download-new">Freenet 0.7</a>, and then <a 
+href="http://jtcfrost.sourceforge.net/">Frost</a>.
+
 <b>3rd April, 2006: Freenet 0.7 Alpha 1</b><br>
 <p>Freenet is a decentralised "peer-to-peer" system designed to allow the 
 anonymous sharing of information on the Internet.  After many months of work,
