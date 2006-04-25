@@ -12,6 +12,21 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>25th April, 2006: Video of Freenet 0.7 talk at 22C3 now 
+available</b><br>
+The video of Ian and Oskar's talk at 22C3 is now available for download.  
+Grab it via <a 
+href="http://media.ccc.de/filez/congress/2005/lectures/video/mp4/22C3-videos-incomplete-20050423-torrents/22C3-492-en-freenet_new_version.mp4.torrent">torrent</a>, 
+<a 
+href="http://dewy.fem.tu-ilmenau.de/!final/22C3-492-en-freenet_new_version.mp4">http</a>, 
+or <a 
+href="http://dijjer.org/get/http://dewy.fem.tu-ilmenau.de/!final/22C3-492-en-freenet_new_version.mp4">Dijjer</a>.  
+You can also download their <A 
+href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>, 
+and the source for the Java <a href="<a 
+href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
+(requires Java 1.5).
+<p>
 <b>21st April, 2006: New Frost released with 0.7 support</b><br>
 A new version of <a href="http://jtcfrost.sf.net/">Frost</a>, the 
 Freenet message board system, has been released, and it now supports 
