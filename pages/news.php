@@ -20,7 +20,7 @@ href="http://media.ccc.de/filez/congress/2005/lectures/video/mp4/22C3-videos-inc
 here</a>.
 You can also download their <A 
 href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>, 
-and the source for the Java <a href="<a 
+and the source for the Java <a 
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
 (requires Java 1.5).
 <p>
