@@ -12,6 +12,15 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>27th April, 2006: Freenet particpates in Google Summer of 
+Code</b><br>
+Wondering how to spend your time this Summer?  Interested in being paid 
+$4,500 by Google to work on a Freenet-related project?  Well, this may 
+just be your lucky day, as this year Freenet a Mentoring 
+Organization for Google's Summer of Code.  Please <a 
+href="http://wiki.freenetproject.org/SummerOfCode">look here</a> for 
+more details.
+<p>
 <b>25th April, 2006: Video of Freenet 0.7 talk at 22C3 now 
 available</b><br>
 The video of Ian and Oskar's talk at 22C3 is now available for download.  
