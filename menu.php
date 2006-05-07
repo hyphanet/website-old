@@ -40,7 +40,7 @@ $menus = array(	'beginner' => array(
 				'Mailing Lists' => 'lists',
 				'Wiki'	=> 'http://wiki.freenetproject.org/',
 				'Bug Tracker' => 'https://bugs.freenetproject.org/',
-				'Javadoc' => 'https://emu.freenetproject.org/javadoc/',
+				'Javadoc' => 'http://emu.freenetproject.org/javadoc/',
 				'Tools' => 'tools',
 				'FAQ' => 'faq',
                                 'Papers' => 'papers',
