@@ -25,7 +25,7 @@ more details.
 available</b><br>
 The video of Ian and Oskar's talk at 22C3 is now available for download.  
 Grab the <a 
-href="http://media.ccc.de/filez/congress/2005/lectures/video/mp4/22C3-videos-incomplete-20050423-torrents/22C3-492-en-freenet_new_version.mp4.torrent">torrent 
+href="http://media.ccc.de/filez/congress/2005/lectures/video/mp4/22C3-videos-complete-20050506-torrents/22C3-492-en-freenet_new_version.mp4.torrent">torrent 
 here</a>.
 You can also download their <A 
 href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>, 
