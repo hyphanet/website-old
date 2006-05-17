@@ -95,5 +95,5 @@ After installing Freenet, Windows users can upgrade to the latest daily Freenet 
 <p> Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
 <p>
 <h3>Source Code</h3>
-You can obtain the latest source code from SVN from https://emu.freenetproject.org/svn/ .
+You can obtain the latest source code from SVN from https://emu.freenetproject.org/svn/trunk/freenet/ .
 <BR>
