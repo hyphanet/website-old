@@ -13,10 +13,10 @@ our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
 <p><b>18th, May 2006 - New stable build: 5107</b></p>
-A new stable build of Freenet is now available. This is a maintainance release:
-	* The updating script has been updated to use new mirrors
-	* A fix has been merged from 0.7 (regarding NativeLibraries which were preventing the node from starting up)
-
+<p>A new stable build of Freenet is now available. This is a maintainance release:</p>
+	* The updating script has been updated to use new mirrors<br>
+	* A fix has been merged from 0.7 (regarding NativeLibraries which were preventing the node from starting up)<br>
+<p>
 <b>27th April, 2006: Freenet particpates in Google Summer of 
 Code</b><br>
 Wondering how to spend your time this Summer?  Interested in being paid 
