@@ -1,5 +1,8 @@
 <h2>Download Freenet 0.7</h2>
-
+<p>
+ <small><b>Note: </b> You can still find the download page for Freenet 0.5 <a 
+href="/index.php?page=download-old">here</a>.</small>
+</p>
 <h3>Important note for first time users</h3>
 
 Freenet 0.7 is different to most other P2P networks in that, to protect
