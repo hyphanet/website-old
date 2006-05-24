@@ -5,6 +5,7 @@ sponsored this project through donations or discounts on hardware and services:
 <ol>
 <li><a href="http://www.defcon.org/">DEF CON</a><br>
 DEF CON is the world's largest annual hacker convention, held every year in Las Vegas, Nevada.
+<p>
 <li><a href="http://www.seocompany.ca/">SEO Company</a><br>
 SEO Company provides Directory Submission Services and Website 
 Optimization & Marketing to its Canada, US, and UK clients.
