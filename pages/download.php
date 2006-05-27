@@ -30,7 +30,7 @@ It will automatically install Freenet and other required components for you. Whe
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
 &nbsp;<BR>
 Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition don't work as well; in particular, the installer won't run on those operating systems.<br>
-If the installer doesn't work (something seriously wrong) then please tell us know, install Java, and try the Linux instructions below.
+If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 
 <h3>Mac OSX, Unix, and Linux</h3>
 You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
