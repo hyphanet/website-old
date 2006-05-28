@@ -12,7 +12,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b><br>
+<b><u>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</u></b><br>
 We have selected four students to work on Freenet-related projects this summer, sponsored by Google.  These are:
 <ul>
 	<li><b>Jerome Flesch (jflesch): A file upload and download utility.</b><br>
@@ -29,13 +29,13 @@ We have selected four students to work on Freenet-related projects this summer, 
 	Florent's proposal encompasses creating an uninstaller, sorting out some serious issues with the installer, creating a systray icon, fixing some issues with the website, and especially sorting out the remaining issues with free java implementations (some recent JVM-related bugs have shown why this is important) and packaging Freenet for Linux distributions.
 </ul>
 <p>
-<b>18th May, 2006 - New stable build: 5107</b><br>
+<b><u>18th May, 2006 - New stable build: 5107</u></b><br>
 A new stable build of Freenet is now available. This is a maintainance release:<br>
 	* The updating script has been updated to use new mirrors<br>
 	* A fix has been merged from 0.7 (regarding NativeLibraries which were preventing the node from starting up)<br>
 <p>
-<b>27th April, 2006: Freenet particpates in Google Summer of 
-Code</b><br>
+<b><u>27th April, 2006: Freenet particpates in Google Summer of 
+Code</u></b><br>
 Wondering how to spend your time this Summer?  Interested in being paid 
 $4,500 by Google to work on a Freenet-related project?  Well, this may 
 just be your lucky day, as this year Freenet a Mentoring 
@@ -43,7 +43,7 @@ Organization for Google's Summer of Code.  Please <a
 href="http://wiki.freenetproject.org/SummerOfCode">look here</a> for 
 more details.
 <p>
-<b>21st April, 2006: New Frost released with 0.7 support</b><br>
+<b><u>21st April, 2006: New Frost released with 0.7 support</u></b><br>
 A new version of <a href="http://jtcfrost.sf.net/">Frost</a>, the 
 Freenet message board system, has been released, and it now supports 
 Freenet 0.7!  Note that Frost requires that a copy of Freenet is up and 
