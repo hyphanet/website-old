@@ -12,17 +12,17 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b><br>
+<b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b> [<a href="http://digg.com/programming/Freenet_announces_Summer_of_Code_Projects">digg it</a>]<br>
 We have selected four students to work on Freenet-related projects this summer, sponsored by Google.  These are:
 <ul>
 	<li><u>Jerome Flesch: A file upload and download utility.</u><br>
-	This will provide a user-friendly cross-platform interface to the uploading and downloading of large files.  It will be a cross-platform replacement for Fuqid, with added search capabilities.  
+	Jerome will be creating a user-friendly cross-platform interface to the searching for, uploading and downloading of large files.  It will be a cross-platform replacement for Fuqid (with the addition of search).  
 
 	<li><u>Michael Rogers: Congestion Control and Load Balancing for Freenet 0.7.</u><br>
 	Michael will be working on simulations, theoretical work, and maybe implementation, to sort out Freenet's current load issues. Our present load limiting/balancing algorithm not only does not work as well as it should, but it also has some rather serious security issues.
 
 	<li><u>Dave Baker: Secure, email-like messaging over Freenet.</u><br>
-	The Freemail project lives again! Dave will code a portable Freenet-based email system, with strong spam prevention features and hopefully an optional web interface (for those who don't use SMTP/POP directly). This will probably be bundled with future versions of Freenet. It will be especially useful for human rights organizations and distributed development (bringing the "darknet" freenet community closer to the developers).
+	Dave will code a portable Freenet-based email system, with strong spam prevention features and hopefully an optional web interface (for those who don't use SMTP/POP directly). This will probably be bundled with future versions of Freenet. It will be especially useful for human rights organizations and distributed development (bringing the "darknet" freenet community closer to the developers).
 
 	<li><u>Florent Daigniere: Installer and related components.</u><br>
 
