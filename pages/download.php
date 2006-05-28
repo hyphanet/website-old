@@ -66,11 +66,11 @@ bottom you can add other people's references, either by cutting and
 pasting the reference itself, or by pointing Freenet to a URL or a file 
 containing their reference.
 <p>
-If you don't know anyone running Freenet, visit #freenet on 
+If you don't know anyone running Freenet, visit #freenet-refs on 
 irc.freenode.net and ask nicely to exchange references with someone.  
 You will find a tool like <a 
 href="http://code.bulix.org/">code.bulix.org</a> useful (please don't 
-paste references into the #freenet IRC channel).
+paste references into the #freenet-refs IRC channel).
 <p>
 </B>Note: You need to add their reference and they need to add 
 yours before your nodes can communicate.</b>
@@ -90,7 +90,7 @@ RAM or more (especially if using Windows XP). <BR>
 &nbsp;<BR>
 <h3>Upgrading</h3>
 After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "update.cmd" in the Freenet directory.
-<p> Linux users may similarily upgrade by running the update.sh shell script in the freenet/ directory.
+<p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/ directory.
 <p>
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from https://emu.freenetproject.org/svn/trunk/freenet/ .
