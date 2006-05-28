@@ -16,7 +16,7 @@ our <a href="/index.php?page=donate">donations page</a>.
 We have selected four students to work on Freenet-related projects this summer, sponsored by Google.  These are:
 <ul>
 	<li><u>Jerome Flesch (jflesch): A file upload and download utility.</u><br>
-	For those familiar with it this will be a cross-platform replacement for Fuqid, with added search capabilities.  It will provide a user-friendly interface to the uploading and downloading of large files.
+	This will provide a user-friendly cross-platform interface to the uploading and downloading of large files.  It will be a cross-platform replacement for Fuqid, with added search capabilities.  
 
 	<li><u>Michael Rogers (mrogers): Congestion Control and Load Balancing for Freenet 0.7.</u><br>
 	Michael will be working on simulations, theoretical work, and maybe implementation, to sort out Freenet's current load issues. Our present load limiting/balancing algorithm not only does not work as well as it should, but it also has some rather serious security issues.
