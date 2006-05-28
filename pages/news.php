@@ -12,7 +12,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b> [<a href="http://digg.com/programming/Freenet_announces_Summer_of_Code_Projects">digg it</a>]<br>
+<b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b><br>
 We have selected four students to work on Freenet-related projects this summer, sponsored by Google.  These are:
 <ul>
 	<li><u>Jerome Flesch: A file upload and download utility.</u><br>
