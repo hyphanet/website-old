@@ -70,7 +70,7 @@ bgcolor="#356ace" name="mn" id="mn">&nbsp;</td>
      <td nowrap class="menu"><?=$text ?>&nbsp;</td></tr>
 <?
   } else {
-	lnk($text, "index.php?page=".$link);
+	lnk($text, $link.".html");
   }
 }
 
