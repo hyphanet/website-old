@@ -80,7 +80,7 @@ function sideOvr(num) {
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td height="51" rowspan="2" align="left" background="image/hdr_bg_tall.gif"><a 
-href="http://freenetproject.org/index.php?page=index"><img border="0" alt="The Freenet Project" src="image/title.gif" width="414" height="51"></a></td>
+href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="image/title.gif" width="414" height="51"></a></td>
 
         <td height="31">&nbsp;</td>
       </tr>
