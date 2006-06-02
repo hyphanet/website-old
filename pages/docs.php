@@ -3,10 +3,10 @@
 <p>This page contains links to documentation that would mainly be of
 interest to developers of Freenet and Freenet-related tools.  Those 
 with a higher level interest in Freenet's operation should look 
-<a href="/index.php?page=papers">here</a>.</p>
+<a href="/papers.html">here</a>.</p>
 
 <p>
-<h3><a href="/index.php?page=fcp">FCP (Freenet Client 
+<h3><a href="http://wiki.freenetproject.org/FreenetFCPSpec2Point0">FCP (Freenet Client 
   Protocol)</a></h3>
 <p>FCP is intended to shield would-be Freenet client developers from the details and ever-changing internals of the Freenet node itself.</p>
 
