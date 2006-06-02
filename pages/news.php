@@ -12,6 +12,9 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
+<b>2nd June, 2006 - Freenet lecture available on Google video</b><br>
+You can now see the talk given by Ian and Oskar in Berlin last December conveniently embedded <a href="/22c3vid.html">on this website</a> thanks to Google Video.
+<p>
 <b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b><br>
 We have selected four students to work on Freenet-related projects this summer, sponsored by Google.  These are:
 <ul>
@@ -42,11 +45,3 @@ just be your lucky day, as this year Freenet a Mentoring
 Organization for Google's Summer of Code.  Please <a 
 href="http://wiki.freenetproject.org/SummerOfCode">look here</a> for 
 more details.
-<p>
-<b>21st April, 2006: New Frost released with 0.7 support</b><br>
-A new version of <a href="http://jtcfrost.sf.net/">Frost</a>, the 
-Freenet message board system, has been released, and it now supports 
-Freenet 0.7!  Note that Frost requires that a copy of Freenet is up and 
-running before it will work.  Try it out by installing <a 
-href="/index.php?page=download-new">Freenet 0.7</a>, and then <a 
-href="http://jtcfrost.sourceforge.net/">Frost</a>.
