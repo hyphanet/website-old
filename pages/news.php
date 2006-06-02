@@ -12,7 +12,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/index.php?page=donate">donations page</a>.
 
 <h3>News</h3>
-<b>2nd June, 2006 - Freenet lecture available on Google video</b><br>
+<b>2nd June, 2006 - Freenet lecture available on Google Video</b><br>
 You can now see the talk given by Ian and Oskar in Berlin last December conveniently embedded <a href="/22c3vid.html">on this website</a> thanks to Google Video.
 <p>
 <b>27th May, 2006 - Freenet selects four students to work on Freenet-related projects in Google's Summer of Code</b><br>
