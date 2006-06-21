@@ -56,6 +56,7 @@ class='wiki' href='http://archives.freenetproject.org/list/darknet-tools.en.html
 Instant messenger plugins, IRC plugins, email invitations, functionality in the node needed to 
 support these, and any other means of extending the darknet while keeping it a darknet as much as
 possible.
+<br />
 <br /><a class='wiki'  
 href='http://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/'>Chat</a> (<a 
 class='wiki'  href='http://archives.freenetproject.org/list/chat.en.html'>archive</a>)
