@@ -62,4 +62,10 @@ to the main lists should be discussed here. Questions such as "How can I prevent
 my node from being used by terrorists?", or "Why don't you rewrite Freenet in C++?"
 should be addressed to this list.
 <br />
+<br /><a class='wiki' href='http://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/'>Darknet-Tools<a> (<a 
+class='wiki' href='http://archives.freenetproject.org/list/darknet-tools.en.html'>archive</a>)
+<br />A mailing list to discuss and develop ways of extending the darknet while keeping it a darknet: 
+Instant messenger plugins, IRC plugins, email invitations, functionality in the node needed to 
+support these, and any other means of extending the darknet while keeping it a darknet as much as
+possible.
 </p>
