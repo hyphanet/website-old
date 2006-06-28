@@ -2,9 +2,44 @@
 <tr>
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3><br>
-For missing or other builds: see the maillist or the wikipages 'Latest Stable' and 'Latest Unstable' on www.freenethelp.org.</br>
-<hr>
 
+<LI> <span style='color:blue'>Date: Fri, 23 Jun 2006 20:11:00</b></a></span><P>
+<b>Mandatory build 839</b><p>
+<pre>
+Please upgrade your 0.7 nodes to version 839. This should be available
+through the auto-update system, or you can download the jar. This build
+will automatically become mandatory at midnight BST. It fixes some load
+limiting bugs which combined with recent bugfixes may have caused the
+backoff problems we have been having over the last few days. Thank you.
+</pre>
+<hr>
+<p>
+<LI> <span style='color:blue'>Date: Sat, 14 Jan 2006 03:08:00</b></a></span><P>
+<b>Fproxy works in 0.7!</b><p>
+<pre>
+Build 349 of Freenet 0.7 now has (minimal) fproxy support. It's
+insecure, user hostile and probably buggy, and there are no KSKs, but it
+works!
+
+See here for instructions on how to run a node:
+http://wiki.freenetproject.org/FreenetAlphatestNodeInstallation 
+
+You will need to get a few people to peer with; join #freenet on
+irc.freenode.net and ask around, you should be able to get some
+connections.
+
+Fproxy runs on the listen port plus 2001. So if your listen port is
+5000, your fproxy port is 7001 (and your testnet port is 6000).
+
+Lets see if we can get a little content!
+
+Note that it is still possible that it may be necessary to change the
+URL format, the datastore format, or make other disruptive changes that
+would wipe content. When I am confident that this will not be necessary
+I will post to that effect.
+</pre>
+<hr>
+<p>
 <LI> <span style='color:blue'>Date: Mon, 22 Nov 2004 16:14:37 +0000</b></a></span><P>
 <b>Build 5100</b><p>
 <pre>
