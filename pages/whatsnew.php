@@ -3,6 +3,20 @@
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3><br>
 
+<LI> <span style='color:blue'>Date: 2006-06-29 01:52</b></a></span><P>
+<b>Mandatory build 844</b><p>
+<pre>
+Freenet 0.7 build 844 is now available. It should show up through the
+auto-update system in half an hour or so. Please upgrade ASAP! This
+build will become mandatory at midnight GMT. This build fixes a serious
+and long standing bug in a "time dependant averager" class used widely
+in 0.7. One result of this bug was that nodes would sometimes have high
+bwlimitDelayTime while having low actual bandwidth usage, but it
+probably had other consequences.
+
+Please upgrade!
+</pre>
+<hr>
 <LI> <span style='color:blue'>Date: Fri, 23 Jun 2006 20:11:00</b></a></span><P>
 <b>Mandatory build 839</b><p>
 <pre>
