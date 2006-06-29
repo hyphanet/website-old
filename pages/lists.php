@@ -60,6 +60,6 @@ my node from being used by terrorists?", or "Why don't you rewrite Freenet in C+
 should be addressed to this list.
 <br />
 <p>
-<i><b>Third party tools</b>We are hosting some other mailing lists on our server here is the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/">full list</a></i>
+<i><b>Third party tools</b>: We are hosting some other mailing lists on our server here is the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/">full list</a>.</i>
 <br />
 </p>
