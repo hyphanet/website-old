@@ -75,21 +75,6 @@ name="submit"></form>
 <P>
 <hr width="90%">
 <P>
-<li>You may <b>donate once</b> through Amazon by clicking on this button:<br>
-<center>
-<!-- Begin Amazon Honor System Paybox -->
-<img src="http://s1.amazon.com/exec/varzea/tipbox/A114XLKTGXD4X1/TUFHWKOQPM9TN" 
-usemap="#TUFHWKOQPM9TN" border="0" alt="Amazon Honor System">
-<map name="TUFHWKOQPM9TN">
-<area coords="13,64,108,117" href="http://s1.amazon.com/exec/varzea/pay/TUFHWKOQPM9TN" 
-alt="Click Here to Pay" target=_top>
-<area coords="13,133,108,145" 
-href="http://s1.amazon.com/exec/varzea/subst/fx/help/how-we-know.html" alt="Learn More" 
-target=_top>
-</map>
-<!-- End Amazon Honor System Paybox -->
-</center>
-<p>
 <hr width="90%">
 <p>
 <li>You can donate once through <a 
