@@ -74,8 +74,6 @@ name="submit"></form>
 </center>
 <P>
 <hr width="90%">
-<P>
-<hr width="90%">
 <p>
 <li>You can donate once through <a 
 href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
