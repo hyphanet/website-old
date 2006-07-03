@@ -58,6 +58,7 @@ With this in mind, I would ask that you visit our donations page on the
 website, it can be found <a href="http://freenetproject.org/donate.html">here</a>.
 <p>
 And please donate anything you can spare.
+<p>
 <b>2nd June, 2006 - Freenet lecture available on Google Video</b><br>
 You can now see the talk given by Ian and Oskar in Berlin last December conveniently embedded <a href="/22c3vid.html">on this website</a> thanks to Google Video.
 <p>
