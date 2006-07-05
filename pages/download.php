@@ -28,7 +28,7 @@ for some info.</i> <BR> &nbsp;<BR>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
-&nbsp;<BR>
+<BR>
 Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition don't work as well; in particular, the installer won't run on those operating systems.<br>
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 
@@ -36,11 +36,7 @@ If the installer doesn't work (something seriously wrong) then please let us kno
 You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
 Java version 1.4.1 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 5 update 4. Generally, we recommend using at least Java 1.4.2.
 
-<P>- Run <big><a
-href="http://downloads.freenetproject.org/alpha/installer/freenet.jnlp">freenet-webinstall</a></big></P>
-
-<P>If you encounter some problems try typing the following at the 
-command line : 
+<P>Type on a command line : 
 
 <pre>
 javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp
@@ -48,7 +44,8 @@ javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp
 
 <p>If that doesn't work, try this:
 <pre>
-java -jar http://downloads.freenetproject.org/alpha/installer/selfextractpack.jar
+wget http://downloads.freenetproject.org/alpha/installer/selfextractpack.jar
+java -jar selfextractpack.jar
 </pre></p>
 
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
