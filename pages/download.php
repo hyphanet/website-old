@@ -1,7 +1,9 @@
 <h2>Download Freenet 0.7</h2>
 <p>
- <small><b>Note: </b> You can still find the download page for Freenet 0.5 <a 
-href="/index.php?page=download-old">here</a>.</small>
+<small><b>Note: </b> You can still find the download page for Freenet 0.5 <a 
+href="/index.php?page=download-old">here</a>, however 0.5 is no longer officially
+maintained or supported and 0.7 has many radical improvements not least being that 
+it is significantly faster.</small>
 </p>
 <h3>Important note for first time users</h3>
 
