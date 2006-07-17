@@ -16,7 +16,7 @@ $menus = array(	'beginner' => array(
 		'user' => array(
 				'What is Freenet?' => 'whatis',
 				'Download'=>'download', 
-				'Whats New?' => 'whatsnew',
+				'Whats New?' => 'http://cia.navi.cx/stats/Project/freenet/',
 				'Donate'=>'donate',
 				'Sponsors'=>'sponsors',
 				'Content' => 'content',
@@ -31,7 +31,7 @@ $menus = array(	'beginner' => array(
 				'People' => 'people' ),
 		'developer' => array(
 				'Download'=>'download', 
-				'Whats New?' => 'whatsnew',
+				'Whats New?' => 'http://cia.navi.cx/stats/Project/freenet/',
 				'Documentation' => 'docs',
 				'Donate'=>'donate',
 				'Sponsors'=>'sponsors',

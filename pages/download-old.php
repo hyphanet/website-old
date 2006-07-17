@@ -78,6 +78,7 @@ href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
 
 <BR>&nbsp;<BR>
 <h3>Source Code</h3>
+Our 0.5 changelog is reachable <a href="/whatsnew.html">here</a>.
 You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/branches/legacy/stable/">https://emu.freenetproject.org/svn/branches/legacy/stable/</a>, or you can download a daily snapshot:<ul>
 <li><a href="http://downloads.freenetproject.org/freenet-stable-latest.src.tbz">Stable</a> - 
 current stable branch source code</li>
