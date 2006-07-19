@@ -56,6 +56,7 @@ payments with PayPal - it's fast, free and secure!">
 <P>
 
 <li>You can donate through Google Checkout:<br>
+<center>
 <form action="https://checkout.google.com/cws/v2/Merchant/828420057535417/checkout" id="BB_BuyButtonForm930897499" method="post" name="BB_BuyButtonForm930897499">
     <input name="o" type="hidden" value="shoppingcart"/>
     <input name="signature" type="hidden" value="Pl1x6t9lcHiNBRMEBXo9AXOyEl8="/>
@@ -79,6 +80,7 @@ payments with PayPal - it's fast, free and secure!">
     <input name="itemSignature" type="hidden" value="vNL3QaknB7C0ytaxyX21OWzzSr4="/>
     <input name="itemSignature" type="hidden" value="O+qrZNdUMaBQFmJnycC3DI3IV/0="/>
 </form>
+</center>
 <hr width="90%">
 
 <li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
