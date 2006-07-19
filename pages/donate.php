@@ -13,7 +13,7 @@ future of The Freenet Project and you can be assured donations have been and wil
 to be used wisely. All support is very much appreciated.
 
 <h4>How can I donate?</h4>
-You have three options:
+You have four options:
 <ul>
 <li>You can become a Freenet project "member" for a <b>recurring
 payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
@@ -54,6 +54,33 @@ payments with PayPal - it's fast, free and secure!">
 <P>
 <hr width="90%">
 <P>
+
+<li>You can donate through Google Checkout:<br>
+<form action="https://checkout.google.com/cws/v2/Merchant/828420057535417/checkout" id="BB_BuyButtonForm930897499" method="post" name="BB_BuyButtonForm930897499">
+    <input name="o" type="hidden" value="shoppingcart"/>
+    <input name="signature" type="hidden" value="Pl1x6t9lcHiNBRMEBXo9AXOyEl8="/>
+    <table cellpadding="5" cellspacing="0" width="1%">
+        <tr>
+            <td align="right" width="1%">
+                <select name="cart" onChange="document.getElementById('BB_BuyButtonForm930897499').signature.value=document.getElementById('BB_BuyButtonForm930897499').itemSignature[this.selectedIndex].value">
+                    <option value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxjaGVja291dC1zaG9wcGluZy1jYXJ0IHhtbG5zPSJodHRwOi8vY2hlY2tvdXQuZ29vZ2xlLmNvbS9zY2hlbWEvMiI+DQogIDxzaG9wcGluZy1jYXJ0Pg0KICAgIDxpdGVtcz4NCiAgICAgIDxpdGVtPg0KICAgICAgICA8cXVhbnRpdHk+MTwvcXVhbnRpdHk+DQogICAgICAgIDx1bml0LXByaWNlIGN1cnJlbmN5PSJVU0QiPjIwLjA8L3VuaXQtcHJpY2U+DQogICAgICAgIDxpdGVtLW5hbWU+QnJvbnplPC9pdGVtLW5hbWU+DQogICAgICAgIDxpdGVtLWRlc2NyaXB0aW9uPkEgJDIwIGRvbmF0aW9uIHRvIHRoZSBGcmVlbmV0IFByb2plY3QuPC9pdGVtLWRlc2NyaXB0aW9uPg0KICAgICAgPC9pdGVtPg0KICAgIDwvaXRlbXM+DQogIDwvc2hvcHBpbmctY2FydD4NCiAgPGNoZWNrb3V0LWZsb3ctc3VwcG9ydD4NCiAgICA8bWVyY2hhbnQtY2hlY2tvdXQtZmxvdy1zdXBwb3J0IC8+DQogIDwvY2hlY2tvdXQtZmxvdy1zdXBwb3J0Pg0KPC9jaGVja291dC1zaG9wcGluZy1jYXJ0Pg0KDQo=">$20.0 - Bronze</option>
+                    <option value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxjaGVja291dC1zaG9wcGluZy1jYXJ0IHhtbG5zPSJodHRwOi8vY2hlY2tvdXQuZ29vZ2xlLmNvbS9zY2hlbWEvMiI+DQogIDxzaG9wcGluZy1jYXJ0Pg0KICAgIDxpdGVtcz4NCiAgICAgIDxpdGVtPg0KICAgICAgICA8cXVhbnRpdHk+MTwvcXVhbnRpdHk+DQogICAgICAgIDx1bml0LXByaWNlIGN1cnJlbmN5PSJVU0QiPjUwLjA8L3VuaXQtcHJpY2U+DQogICAgICAgIDxpdGVtLW5hbWU+U2lsdmVyPC9pdGVtLW5hbWU+DQogICAgICAgIDxpdGVtLWRlc2NyaXB0aW9uPkEgJDUwIGRvbmF0aW9uIHRvIHRoZSBGcmVlbmV0IFByb2plY3QuPC9pdGVtLWRlc2NyaXB0aW9uPg0KICAgICAgPC9pdGVtPg0KICAgIDwvaXRlbXM+DQogIDwvc2hvcHBpbmctY2FydD4NCiAgPGNoZWNrb3V0LWZsb3ctc3VwcG9ydD4NCiAgICA8bWVyY2hhbnQtY2hlY2tvdXQtZmxvdy1zdXBwb3J0IC8+DQogIDwvY2hlY2tvdXQtZmxvdy1zdXBwb3J0Pg0KPC9jaGVja291dC1zaG9wcGluZy1jYXJ0Pg0KDQo=">$50.0 - Silver</option>
+                    <option value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxjaGVja291dC1zaG9wcGluZy1jYXJ0IHhtbG5zPSJodHRwOi8vY2hlY2tvdXQuZ29vZ2xlLmNvbS9zY2hlbWEvMiI+DQogIDxzaG9wcGluZy1jYXJ0Pg0KICAgIDxpdGVtcz4NCiAgICAgIDxpdGVtPg0KICAgICAgICA8cXVhbnRpdHk+MTwvcXVhbnRpdHk+DQogICAgICAgIDx1bml0LXByaWNlIGN1cnJlbmN5PSJVU0QiPjEwMC4wPC91bml0LXByaWNlPg0KICAgICAgICA8aXRlbS1uYW1lPkdvbGQ8L2l0ZW0tbmFtZT4NCiAgICAgICAgPGl0ZW0tZGVzY3JpcHRpb24+QSAkMTAwIGRvbmF0aW9uIHRvIHRoZSBGcmVlbmV0IFByb2plY3QuPC9pdGVtLWRlc2NyaXB0aW9uPg0KICAgICAgPC9pdGVtPg0KICAgIDwvaXRlbXM+DQogIDwvc2hvcHBpbmctY2FydD4NCiAgPGNoZWNrb3V0LWZsb3ctc3VwcG9ydD4NCiAgICA8bWVyY2hhbnQtY2hlY2tvdXQtZmxvdy1zdXBwb3J0IC8+DQogIDwvY2hlY2tvdXQtZmxvdy1zdXBwb3J0Pg0KPC9jaGVja291dC1zaG9wcGluZy1jYXJ0Pg0KDQo=">$100.0 - Gold</option>
+                    <option value="PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjxjaGVja291dC1zaG9wcGluZy1jYXJ0IHhtbG5zPSJodHRwOi8vY2hlY2tvdXQuZ29vZ2xlLmNvbS9zY2hlbWEvMiI+DQogIDxzaG9wcGluZy1jYXJ0Pg0KICAgIDxpdGVtcz4NCiAgICAgIDxpdGVtPg0KICAgICAgICA8cXVhbnRpdHk+MTwvcXVhbnRpdHk+DQogICAgICAgIDx1bml0LXByaWNlIGN1cnJlbmN5PSJVU0QiPjUwMC4wPC91bml0LXByaWNlPg0KICAgICAgICA8aXRlbS1uYW1lPlBsYXRpbnVtPC9pdGVtLW5hbWU+DQogICAgICAgIDxpdGVtLWRlc2NyaXB0aW9uPkEgJDUwMCBkb25hdGlvbiB0byB0aGUgRnJlZW5ldCBQcm9qZWN0LjwvaXRlbS1kZXNjcmlwdGlvbj4NCiAgICAgIDwvaXRlbT4NCiAgICA8L2l0ZW1zPg0KICA8L3Nob3BwaW5nLWNhcnQ+DQogIDxjaGVja291dC1mbG93LXN1cHBvcnQ+DQogICAgPG1lcmNoYW50LWNoZWNrb3V0LWZsb3ctc3VwcG9ydCAvPg0KICA8L2NoZWNrb3V0LWZsb3ctc3VwcG9ydD4NCjwvY2hlY2tvdXQtc2hvcHBpbmctY2FydD4NCg0K">$500.0 - Platinum</option>
+                </select>
+            </td>
+            <td align="left" width="1%">
+                <input alt="Buy now!" src="https://checkout.google.com/buttons/buy.gif?merchant_id=828420057535417&amp;w=121&amp;h=44&amp;style=white&amp;variant=text&amp;loc=en_US" type="image"/>
+            </td>
+        </tr>
+    </table>
+    <input name="itemSignature" type="hidden" value="Pl1x6t9lcHiNBRMEBXo9AXOyEl8="/>
+    <input name="itemSignature" type="hidden" value="bJ5/nuKFXCwbgC2P5HObDWOBBb4="/>
+    <input name="itemSignature" type="hidden" value="vNL3QaknB7C0ytaxyX21OWzzSr4="/>
+    <input name="itemSignature" type="hidden" value="O+qrZNdUMaBQFmJnycC3DI3IV/0="/>
+</form>
+<hr width="90%">
+
 <li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
 <center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
