@@ -25,8 +25,7 @@ href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <h3>Windows</h3>
-- Download and run <big><a href="http://downloads.freenetproject.org/freenet-pre-07-alpha-nojava.exe">freenet-webinstall</a></big><br>
-  <!-- Old wrapper : http://downloads.freenetproject.org/freenet-pre-07-alpha.exe -->
+- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">freenet-webinstall</a></big><br>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
@@ -38,17 +37,12 @@ If the installer doesn't work (something seriously wrong) then please let us kno
 You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
 Java version 1.4.1 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 5 update 4. Generally, we recommend using at least Java 1.4.2.
 
-<P>Type on a command line : 
-
+<p>Type on a command line : 
 <pre>
-javaws http://downloads.freenetproject.org/alpha/installer/freenet.jnlp
-</pre></p>
-
-<p>If that doesn't work, try this:
-<pre>
-wget http://downloads.freenetproject.org/alpha/installer/selfextractpack.jar
-java -jar selfextractpack.jar
-</pre></p>
+wget http://downloads.freenetproject.org/alpha/installer/new_installer.jar
+java -jar new_installer.jar
+</pre>
+</p>
 
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
@@ -60,15 +54,15 @@ interface. <BR> &nbsp;<BR> </P>
 You need to get connected.  If you know anyone running Freenet, ask them 
 for their reference, and give them yours.  If you visit <a 
 href="http://127.0.0.1:8888/darknet/">http://127.0.0.1:8888/darknet/</a> 
-in your browser, you can see your reference at the top, and at the 
-bottom you can add other people's references, either by cutting and 
-pasting the reference itself, or by pointing Freenet to a URL or a file 
-containing their reference.
+in your browser, you can see your reference at the bottom and you can add
+other people's references, either by cutting and pasting the reference
+itself, or by pointing Freenet to a URL or a file containing their
+reference.
 <p>
 If you don't know anyone running Freenet, visit #freenet-refs on 
 irc.freenode.net and ask nicely to exchange references with someone.  
 You will find a tool like <a 
-href="http://code.bulix.org/">code.bulix.org</a> useful (please don't 
+href="http://dark-code.bulix.org/">dark-code.bulix.org</a> useful (please don't 
 paste references into the #freenet-refs IRC channel).
 <p>
 </B>Note: You need to add their reference and they need to add 
@@ -88,6 +82,8 @@ href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 RAM or more (especially if using Windows XP). <BR>
 &nbsp;<BR>
 <h3>Upgrading</h3>
+Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. We aren't inserting every snapshot on the updater, meaning that you won't be proposed to update to latest but latest-stable.
+
 After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "update.cmd" in the Freenet directory.
 <p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/ directory.
 <p>
