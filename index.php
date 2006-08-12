@@ -34,7 +34,7 @@ $modes[$mode]=TRUE;
    "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
-    <meta name="generator" content="HTML Tidy, see www.w3.org">
+    <META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=" />
     <title>The Freenet Project - <?= $page." - ".$mode ?>
     </title>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
