@@ -2,6 +2,8 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
+<!-- removed due to large donation - its unfair to imply that the project
+	is at death's door
 <h3>Financial Status</h3>
 The project's current Paypal balance is <b><? 
 include("paypaltotal.txt"); 
@@ -10,7 +12,7 @@ its
 full time developer, Matthew Toseland.  If you would like to help 
 support the Freenet Project, you can make a convenient donation through 
 our <a href="/index.php?page=donate">donations page</a>.
-
+-->
 <h3>News</h3>
 <b>3rd July, 2006 - Freenet Status report</b><br>
 The pace of coding on Freenet has increased dramatically since the
