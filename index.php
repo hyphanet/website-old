@@ -1,5 +1,4 @@
 <?
-session_start();
 if (isset($_REQUEST["page"])) {
 	$page = str_replace("<", "", $_REQUEST["page"]);
 } else {
