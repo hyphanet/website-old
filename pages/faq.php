@@ -1,8 +1,8 @@
 <h1>Freenet Frequently Asked Questions</h1>
 
-<h2> Philosophical questions
-</h2><ol><li><a href="#what">What is Freenet?</a>
+<h2> Philosophical questions</h2>
 
+<ol><li><a href="#what">What is Freenet?</a>
 </li><li><a href="#who">Who is behind Freenet?</a>
 </li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
 </li><li><a href="#donate-bw">Do I have to donate disk space and bandwidth?</a>
@@ -11,17 +11,16 @@
 </li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
 </li><li><a href="#permanent">What do I get from running a permanent node?</a>
 </li><li><a href="#legal">Is Freenet legal?</a>
-
 </li><li><a href="#trouble">Can I get trouble if I run a node?</a>
 </li><li><a href="#copyright">What about copyright?</a>
 </li><li><a href="#childporn">What about child porn, offensive content or terrorism?</a>
 </li><li><a href="#offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</a>
 </li><li><a href="#export">How about encryption export restrictions?</a>
 </li><li><a href="#whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</a>
-
 </li></ol>
-<h2> Technical questions
-</h2><ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
+<h2> Technical questions</h2>
+
+<ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
 </li><li><a href="#search">Is Freenet searchable?</a>
 </li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
 </li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
@@ -41,35 +40,33 @@
 </li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
 </li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
 </li><li><a href="#stabchange">How can I change from stable to unstable?</a>
-
-
 </li></ol>
-<h2> Publisher questions
-</h2><ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
+<h2> Publisher questions</h2>
+
+<ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
 </li><li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a>
 </li><li><a href="#update">Can Freenet documents be updated / deleted?</a>
-
-
 </li></ol>
-<h2> Contribution questions
-</h2><ol><li><a href="#idea">I have this great idea....</a>
+<h2> Contribution questions</h2>
+
+<ol><li><a href="#idea">I have this great idea....</a>
 </li><li><a href="#contribute">Can I contribute to the Freenet Project?</a>
 </li><li><a href="#access">How can I access the code and website?</a>
 </li><li><a href="#devtools">What tools do I need to help develop?</a>
 </li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
 </li></ol>
-<h2> Security questions
+<h2> Security questions</h2>
 
-</h2><ol><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
+<ol><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
 </li><li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a>
 </li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 </li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
 </li><li><a href="#attackY">What about attack Y?</a>
 </li></ol>
-<h2> Misc. questions
+<h2> Misc. questions</h2>
 
-</h2><ol><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-</h2><ol><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
+<ol><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
+<ol><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
 </li></ol>
 <h2> Philosophical answers
 </h2><p><b id="what">What is Freenet?</b><br>
