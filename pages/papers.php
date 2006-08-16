@@ -1,6 +1,6 @@
 <h3>Papers</h3>
 
-<a href="http://media.ccc.de/filez/congress/2005/lectures/video/mp4/22C3-videos-complete-20050506-torrents/22C3-492-en-freenet_new_version.mp4.torrent">Torrent of Small World talk, Berlin, December 2005</a><br>
+<a href="/22c3vid.html">Video of Small World talk, Berlin, December 2005</a><br>
 This is a video of a talk given by Ian Clarke and Oskar Sandberg at the Chaos Computer Congress in Berlin, December 2005, describing the (then) new architecture for Freenet 0.7.  You can also download the <A 
 href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>, 
 and the source for the Java <a 
