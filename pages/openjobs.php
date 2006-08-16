@@ -17,6 +17,7 @@
 <P><LI>Help coding & debugging if you can.
 <P><LI>Whine less about what's wrong with it, but give specific bug-reports in stead.
 <P><LI>Join #freenet on freenode for other suggestions/discussions.
-<P><LI>Document the various fproxy options (which are summarized at the top of fproxyservlet.java). 
+<P><LI>Document the various fproxy options. 
 <P><LI>Create a page wich contains the most interesting topics/talks/discussions (summarised) on the maillists (especially the devl) for each month.
+<P><LI>Pick up and solve a bug on our <a href="https://bugs.freenetproject.org/">Bugtracker</a>
 <P>
