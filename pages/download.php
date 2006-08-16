@@ -46,7 +46,7 @@ java -jar new_installer.jar
 
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
-http://127.0.0.1:8888/ in your web browser to access Freenet's user
+<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
 <h3>So it's running, what do I do?</h3>
@@ -71,7 +71,7 @@ yours before your nodes can communicate.</b>
 <h3>So I'm connected, what do I do?</h3>
 
 You can find links to some pages in the index on the FProxy homepage at 
-http://127.0.0.1:8888/.  You can find links to some third party 
+<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>.  You can find links to some third party 
 applications <a 
 href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 	
@@ -82,11 +82,11 @@ href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 RAM or more (especially if using Windows XP). <BR>
 &nbsp;<BR>
 <h3>Upgrading</h3>
-Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. We aren't inserting every snapshot on the updater, meaning that you won't be proposed to update to latest but latest-stable.
+Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts.
 
-After installing Freenet, Windows users can upgrade to the latest daily Freenet "snapshot" release by clicking on "update.cmd" in the Freenet directory.
-<p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/ directory.
+After installing Freenet, Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.
+<p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.
 <p>
 <h3>Source Code</h3>
-You can obtain the latest source code from SVN from https://emu.freenetproject.org/svn/trunk/freenet/ .
+You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/freenet/">https://emu.freenetproject.org/svn/trunk/freenet/</a>.
 <BR>
