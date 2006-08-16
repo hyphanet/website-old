@@ -1,6 +1,6 @@
 <?
 if (isset($_REQUEST["page"])) {
-	$page = str_replace("<", "", $_REQUEST["page"]);
+	$page = htmlentities($_REQUEST["page"]);
 } else {
 	$page = "index";
 }
@@ -8,24 +8,23 @@ if (isset($_REQUEST["page"])) {
 include_once "config.inc.php";
 $a=mysql_connect("mysql4-f", $mysql_user, $mysql_password);
 $a=mysql_select_db("f978_access");
-$a=mysql_query("INSERT INTO access VALUES (\"".$_SERVER["REMOTE_ADDR"]."\", \"".mysql_real_escape_string($_SERVER["HTTP_REFERER"])."\", NOW())");
+$a=mysql_query("INSERT INTO access VALUES (\"".mysql_real_escape_string($_SERVER["REMOTE_ADDR"])."\", \"".mysql_real_escape_string($_SERVER["HTTP_REFERER"])."\", NOW())");
 $a=mysql_close();
 
 $modes = array("beginner"=>FALSE, "user"=>FALSE, "developer"=>FALSE);
 if (isset($_GET["mode"])) {
-	$mode = $_GET["mode"];
+	$mode = htmlentities($_GET["mode"]);
 	setcookie("mode", $mode, time()+60*60*24*30);
 } elseif (!isset($_REQUEST["mode"])) {	
 	$mode = "beginner";
 } else {
-	$mode = $_REQUEST["mode"];
+	$mode = htmlentities($_REQUEST["mode"]);
 }
 
 $modes[$mode]=TRUE;
 
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=" />
@@ -105,7 +104,7 @@ $modes[$mode]=TRUE;
 	</div>
 </td>
 
-<td valign="top" align="left" class="body" width="100%"><? 	include ("pages/$page.php");  ?></td>
+<td valign="top" align="left" class="body" width="100%"><? 	include ("pages/".escapeshellcmd($page).".php");  ?></td>
 </tr>
 </table>
 <center><font size=-1>This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a></font></center>
