@@ -79,29 +79,6 @@
  <p><a href="https://emu.freenetproject.org/svn/trunk/apps/fcptools/">
  Follow this link</a> to browse the  code.</p>
 
- <h3>Tarballs</h3>
- <p>Occasionally when I feel a quasi-stable point is reached in the project's 
- cycle, I post a tarball to the <a href="http://freenetproject.org/snapshots/">
- freenet snapshots directory</a>. The filename itself will be 
- date-stamped as follows:</p>
- <ul>
-   <li>fcptools-yyyymmdd.tgz (source code)</li>
-   <li>fcptools-yyyymmdd-bin.tgz (Win32 pre-compiled binaries)</li>
-
- </ul>
- <p>You can use these links as well:</p>
- <ul>
-   <li><a href="http://freenetproject.org/snapshots/fcptools-unstable.tgz">
-   fcptools-unstable.tgz</a> (latest source code)</li>
-   <li><a href="http://freenetproject.org/snapshots/fcptools-unstable-bin.tgz">
-   fcptools-unstable-bin.tgz</a> (latest Win32 pre-compiled binaries)</li>
-
- </ul>
- <p>I recommend this method over the others, since SVN at times may not even 
- compile. The tarballs are fully tested before uploaded (SourceForge 
- compile-farm among other tests) and should function as advertised. The binaries 
- will also contain (in addition to fcpget, fcpput, and fcpx) the FCPLib static 
- library and C header file.</p>
  <h2>Using FCPTools</h2>
  <p>Some common parameters are used by both fcpget and fcpput, but for the sake 
  of completeness everything is listed for all 3 programs.</p>
