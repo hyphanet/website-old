@@ -252,4 +252,4 @@ development branches.
 <h3>Interested in helping?</h3>
 In addition to joining our development effort, you can really help us to make
 this all a reality by donating whatever you can spare to the project on our
-<a href="http://freenetproject.org/index.php?page=donate">Donations</a> page.
+<a href="/donate.html">Donations</a> page.

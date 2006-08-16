@@ -23,4 +23,4 @@ prepending a '#'.
 <p>
 If you would like to discuss Freenet's ongoing development, you are welcome to 
 join us on #freenet on irc.freenode.net or join one of our 
-<a href="/index.php?page=lists">mailing lists</a>.
+<a href="/lists.html">mailing lists</a>.

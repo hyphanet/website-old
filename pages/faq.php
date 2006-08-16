@@ -77,7 +77,7 @@ complete anonymity. Nobody controls Freenet, not even its creators, meaning that
 
 is also very efficient in how it deals with information, adaptively
 replicating content in response to demand.  For more information,
-please read <a href="index.php?page=whatis">What Is Freenet</a>.</p>
+please read <a href="/whatis.html">What Is Freenet</a>.</p>
 
 <p><b id="who">Who is behind Freenet?</b><br>
 Freenet grew out of a design for an anonymous publication system created by Ian
@@ -147,7 +147,7 @@ government might not agree with; you should make an informed decision
 as to whether to take that risk.</p>
 
 <p><b id="copyright">What about copyright?</b><br>
-There are some excellent thoughts on this subject on the <a href="index.php?page=philosophy">Philosophy</a> page.</p>
+There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.</p>
 
 <p><b id="childporn">What about child porn, offensive content or terrorism?</b><br>
 While most people wish that child pornography and terrorism did not
@@ -189,7 +189,7 @@ are feasible too. Just don't expect very low latency.
 <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br>
 Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it with a Freenet client. One of the services that Fred offers is called fproxy, which lets you talk to Freenet with a web browser. Point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
 
-<p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="index.php?page=tools">Tools</a> page.</p>
+<p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
 
 <p><b id="search">Is Freenet searchable?</b><br>
 No search mechanism has yet been implemented. One of the design
@@ -263,7 +263,7 @@ that node. We have considered many other ways that Freenet could store data perm
 
 <p><b id="why-java">Why is Freenet implemented in Java?</b><BR>
 Opinions differ about the choice of java for the reference implementation of
-freenet (even among the core developers). <a href="http://www.freenetproject.org/index.php?page=people">Ian Clarke</a> and several
+freenet (even among the core developers). <a href="/people.html">Ian Clarke</a> and several
 other developers are java proponents and the choice for java was made. Even if everybody could be convinced
 to switch to a different language reimplementing the current freenet protocol would be quite a big task, and
 take up a significant amount of time, while there is only a limited about of developer-time available. Flame wars
@@ -303,10 +303,10 @@ Yes, you can.  Use this command:
 java -cp freenet.jar freenet.client.cli.Main get KEY filename<BR>
 </code><p>
 Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p>
-You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="http://freenetproject.org/index.php?page=fcptools">FCPTools</a>.
+You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="/fcptools.html">FCPTools</a>.
 
 <p><b id="roadmp">Is there a future roadmap of Freenet?</b><br>
-Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="http://www.freenetproject.org/index.php?page=roadmap"> here.</a>
+Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="/roadmap.html"> here.</a>
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
 The name comes from the Heisenberg Uncertainty Principle of
@@ -384,7 +384,7 @@ retired, as they will break soon, after future-dates insertions expire.</p>
 
 <h2> Contribution answers
 </h2><p><b id="idea">I have this great idea....</b><br>
-Good! First step: read the <a href="index.php?page=lists">mailing list archives</a>.
+Good! First step: read the <a href="/lists.html">mailing list archives</a>.
 Odds are good that someone else had the same idea and discussed it with
 the group. Either a flaw was found in the idea, or perhaps it was
 decided to postpone implementing the idea until later. Some examples of
@@ -401,7 +401,7 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 </li><li> Work on the Freenet web site (including the FAQ).
 </li><li> Contribute your ideas to the discussion lists.
 </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet.</p>
-<P> People that want to contribute to Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
+<P> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
 
 <p><b id="access">How can I access the code and website?</b><br>
 We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="https://emu.freenetproject.org/svn/trunk/">Emu</a>.

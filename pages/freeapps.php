@@ -4,7 +4,7 @@
 <br/><b>Here you can share ideas about new applications that can run on top of Freenet. Before posting you should do a search on "Freenet" in <a class='wiki'  href='http://sourceforge.net/'>Sourceforge</a> to see if someone else hasn't already started a similiar project. <p>
 <br/><b>Useful Links:</b>
 <br/>
-<br/>The spec of the <a href="http://freenetproject.org/index.php?page=fcp">protocol</a> (FCP) which applications use to interact with Freenet - and all the other <a href="http://freenetproject.org/index.php?page=docs">Developer documentation</a>.
+<br/>The spec of the <a href="/fcp.html">protocol</a> (FCP) which applications use to interact with Freenet - and all the other <a href="/docs.html">Developer documentation</a>.
 <br/>
 <br/><hr/>
 <br/><a class='wiki'  href='http://lookoutpx.sourceforge.net/'><b>Lookout PX</b></a>

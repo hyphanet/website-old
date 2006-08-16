@@ -2,7 +2,7 @@
 
 <small><p>
 Note that Freenet 0.5 is no-longer well supported as development effort has shifted to Freenet 0.7,
-which you can download from <a href="/index.php?page=download">here</a>.
+which you can download from <a href="/download.html">here</a>.
 </p></small>
 
 <h3>Important note for first time users</h3>
@@ -15,7 +15,7 @@ improve with use.
 <p>
 
 <i>If you have a firewall or a NAT box click <a 
-href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a> 
+href="/faq.html#firewall"><b>here</b></a> 
 for some info.</i>
 
 <BR>&nbsp;<BR>
@@ -73,7 +73,7 @@ freenet/ directory.
 <p>
 To see the latest changes of the builds in the stable branch, you can go to the
 <b><a
-href="http://www.freenetproject.org/index.php?page=whatsnew">Changelog</b></a>.
+href="/whatsnew.html">Changelog</b></a>.
 
 
 <BR>&nbsp;<BR>
@@ -96,16 +96,16 @@ with a higher level interest in Freenet's operation should look
 <a href="/papers.html">here</a>.</p>
 
 <p>
-<h3><a href="/index.php?page=fcp">FCP (Freenet Client 
+<h3><a href="/fcp.html">FCP (Freenet Client 
   Protocol)</a></h3>
 <p>FCP is intended to shield would-be Freenet client developers from the details and ever-changing internals of the Freenet node itself.</p>
 
 <p>
-<h3><a href="/index.php?page=fec">FEC (Forward Error-Correction) Protocol</a></h3>
+<h3><a href="/fec.html">FEC (Forward Error-Correction) Protocol</a></h3>
 <p>FEC specifically addresses the insertion and retrieval of Redundant Splitfiles.</p>
 
 <p>
-<h3><a href="/index.php?page=metadata">Freenet Metadata Spec</a></h3>
+<h3><a href="/metadata.html">Freenet Metadata Spec</a></h3>
 <p>This spec is for client metadata. It's intent is to provide
 functionality for building web sites within Freenet, as well as
 general description of the data inserted into Freenet.</p>

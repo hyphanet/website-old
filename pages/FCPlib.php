@@ -6,7 +6,7 @@
  to and from Freenet. There are routines for storing documents to Freenet from 
  the local disk, and other routines for moving data in memory to and from 
  Freenet (for more information see the documentation
- for <a href="http://freenetproject.org/index.php?page=fcptools">FCPTools</a>, which is the package containing FCPLib).</p>
+ for <a href="/fcptools.html">FCPTools</a>, which is the package containing FCPLib).</p>
   
   <p>It is written in ANSI C, checked by gcc when compiling the library on a Unix 
  based system (the flags -ansi and -pedantic). I'm not sure how important this 

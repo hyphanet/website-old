@@ -10,7 +10,7 @@ me to architect the system in the first place, but not necessarily the
 views that everyone involved in the Freenet project holds. <p>
 
 </p><h3> 2. Suggested prior reading </h3>
-For this document to make sense, you should probably know what Freenet is. You can get a good overview on the <a href="index.php?page=whatis">What is Freenet?</a> page.
+For this document to make sense, you should probably know what Freenet is. You can get a good overview on the <a href="/whatis.html">What is Freenet?</a> page.
 <p>
 </p><h3> 3. The importance of the Free flow of information  </h3>
 Freedom of speech, in most western cultures, is generally considered to

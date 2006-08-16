@@ -1,7 +1,7 @@
 Note: It is highly likely that this list is out of date. In general,
 
 <br/>the most current stable version of the Sun JVM should play nicely with Freenet.
-<br/>See the <a href='/index.php?page=UnixHowto' class='wiki'>UnixHowto</a> page for info on using the Sun 
+<br/>See the <a href='/UnixHowto.html' class='wiki'>UnixHowto</a> page for info on using the Sun 
 <br/>JVM. 
 <br/>
 <br/>Not all JVMs are created equal.  Because of numerous reports of fred (the

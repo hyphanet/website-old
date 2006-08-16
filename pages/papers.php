@@ -25,7 +25,7 @@ Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employ
 demonstration to accompany the talk is <a 
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
 <p>
-<a href="index.php?page=ngrouting">Next Generation Routing Algorithm</a><br>
+<a href="/ngrouting.html">Next Generation Routing Algorithm</a><br>
 This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
 approach which had nodes making routing decisions based on sophisticated analysis of
 the time required to route previous requests.  This algorithm was promising, but

@@ -61,13 +61,13 @@ through E-Gold if Paypal is not your cup of tea.
 <p>
 You can make a donation through the donations page on our website at:
 <blockquote>
-  <a href="http://freenetproject.org/index.php?page=donations">
-     http://freenetproject.org/index.php?page=donations</a>
+  <a href="/donations.html">
+     http://freenetproject.org/donations.html</a>
 </blockquote>
 If, for whatever reason, you would like to make a donation through other means, please contact me 
 directly at ian@freenetproject.org. 
 <p>
 If you would like to try out the very latest trial version of the Rate 
 Limiting algorithm you will need to run the "unstable" branch of Freenet, 
-<a href="/index.php?page=tryunstable">this page</a> will explain how to do 
+<a href="/tryunstable.html">this page</a> will explain how to do 
 this.

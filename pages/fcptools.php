@@ -1,12 +1,12 @@
  <h1>Freenet Client Protocol Tools (FCPTools)</h1>
 
- <p>First check the documentation for <a href="http://freenetproject.org/index.php?page=FCPlib">FCPLib</a>. Everything 
+ <p>First check the documentation for <a href="/FCPlib.html">FCPLib</a>. Everything 
  that applies to FCPLib also applies to FCPTools.</p>
  
  <h2>What are the FCPTools?</h2>
 
  <p>The FCPTools are command-line driven programs for inserting and retrieving 
- files with Freenet. Included separately is <a href="http://freenetproject.org/index.php?page=FCPlib">FCPLib</a>, the 
+ files with Freenet. Included separately is <a href="/FCPlib.html">FCPLib</a>, the 
  Freenet Client Protocol Library. The FCPTools are linked against FCPLib and 
  serve as nice examples for using the library in Freenet client programs. 
  Everything is released under the GNU General Public License.</p>

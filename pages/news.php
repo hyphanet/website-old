@@ -11,7 +11,7 @@ include("paypaltotal.txt");
 its 
 full time developer, Matthew Toseland.  If you would like to help 
 support the Freenet Project, you can make a convenient donation through 
-our <a href="/index.php?page=donate">donations page</a>.
+our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
 <b>2nd June, 2006 - Freenet lecture available on Google Video</b><br>

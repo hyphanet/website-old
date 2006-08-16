@@ -1,4 +1,4 @@
-<font size="+3"><B>Mailing Lists</B></font> (<a href="http://www.freenetproject.org/index.php?page=mailsum">summary</a>)</h4><P>
+<font size="+3"><B>Mailing Lists</B></font> (<a href="/mailsum.html">summary</a>)</h4><P>
 
 <i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
 <br />

@@ -27,7 +27,7 @@ FUQID is the Freenet Utility for Queued Inserts and Downloads. It is a Windows a
 Pleas notice that many of these tools are outdated and unmaintained. All development efforts are currently focused on freenet 0.7.
 <br />A variety of people have written some excellent tools and clients for use with Freenet.
 <br /><p>
-<h3><a href="http://www.freenetproject.org/index.php?page=fphowto">Development Aides</a></h3>
+<h3><a href="/fphowto.html">Development Aides</a></h3>
 <p>
 <br /><h3>Freenet Publishing & Retrieval Tools</h3>
 
@@ -43,9 +43,9 @@ Pleas notice that many of these tools are outdated and unmaintained. All develop
 <br />
 <br />Freesite insertion tools written in Python (standalone binaries are available for Windows). Includes FEC support for alternative handling of large files.
 <br />
-<br /><a href='index.php?page=fcptools' class='wiki'><b>FCPTools</b></a>
+<br /><a href='/fcptools.html' class='wiki'><b>FCPTools</b></a>
 <br />
-<br />The FCPTools are command-line driven programs for inserting and retrieving files with Freenet. Included separately is <a href='index.php?page=FCPlib'><b>FCPLib</b></a>, the Freenet Client Protocol Library. The FCPTools are linked against FCPLib and serve as nice examples for using the library in Freenet client programs. Everything is released under the GNU General Public License.
+<br />The FCPTools are command-line driven programs for inserting and retrieving files with Freenet. Included separately is <a href='/FCPlib.html'><b>FCPLib</b></a>, the Freenet Client Protocol Library. The FCPTools are linked against FCPLib and serve as nice examples for using the library in Freenet client programs. Everything is released under the GNU General Public License.
 <br />
 <br /><hr><h3>Message Board Tools and File Sharing tools
 </h3>
@@ -89,5 +89,5 @@ pm4pigs is a freenet client written in python for sending and receiving encrypte
 <br /><hr/>
 <br /><h2>Other tools? Want to contribute?
 </h2>
-<br />If you want to develop a tool or client for Freenet please publish your idea <a href="http://freenetproject.org/index.php?page=freeapps">here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br />
+<br />If you want to develop a tool or client for Freenet please publish your idea <a href="/freeapps.html">here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br />
 
