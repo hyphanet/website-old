@@ -21,7 +21,7 @@ the irc server <big>irc.freenode.net</big> and join the channel
 <big>#freenet-refs</big>, to see if anyone will connect to you.
 
 <p> <i>If you have a firewall or a NAT box click <a
-href="http://freenetproject.org/index.php?page=faq#firewall"><b>here</b></a>
+href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <h3>Windows</h3>
