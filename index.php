@@ -80,7 +80,7 @@ $modes[$mode]=TRUE;
 	<td height="20" align="right" valign="bottom" background="image/hdr_bg_short.gif"><?
 	foreach($modes as $m => $k) {
 		if(!$k) {
-			echo "<a href=\"/".$page.".html&mode=".$m."\" onMouseOver=\"rollOn('";
+			echo "<a href=\"/".$page.".html/".$m."\" onMouseOver=\"rollOn('";
 			echo $m."s');\" onMouseOut=\"rollOff('".$m."s');\"><img border=0 name=".$m;
 			echo "s alt=".$m."s src=\"image/".$m."s.gif\"></a>";
 		}
