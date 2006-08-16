@@ -27,16 +27,13 @@
 </li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
 
 </li><li><a href="#connections">Why does Freenet only download 1 or 2 files at a time?</a>
-</li><li><a href="#io-error">What does I/O error in servlet mean?</a>
 </li><li><a href="#store-perm">Why can't Freenet store data permanently?</a>
 </li><li><a href="#why-java">Why is Freenet implemented in Java?</a>
 
 </li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
-</li><li><a href="#empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</a>
 </li><li><a href="#fec">What is FEC?</a>
 </li><li><a href="#healing">What is healing?</a>
 </li><li><a href="#fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</a>
-</li><li><a href="#distribution">What's this distribution servlet? How do I use it?</a>
 </li><li><a href="#seednodes">How do I extract the necessary seedNode values from my own node?</a>
 </li><li><a href="#roadmp">Is there a future roadmap of Freenet?</a>
 
@@ -68,6 +65,11 @@
 </li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 </li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
 </li><li><a href="#attackY">What about attack Y?</a>
+</li></ol>
+<h2> Misc. questions
+
+</h2><ol><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
+</h2><ol><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
 </li></ol>
 <h2> Philosophical answers
 </h2><p><b id="what">What is Freenet?</b><br>
@@ -204,6 +206,7 @@ guessable, or communicated by some other means.</p>
 
 <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br>
 <ol>
+<!-- :: Most of it isn't necessary anymore::
 <li>Open the <b>freenet.conf</b> or <b>freenet.ini</b> file in a text 
 editor.  On Windows you will normally find this file in <b>c:\Program 
 Files\Freenet</b>, on Linux you will find it wherever you unpacked the 
@@ -217,10 +220,13 @@ node.ipAddressOverride=x.x.x.x
 manual if you are unsure how to determine this).
 <li>Find the line containing <b>node.listenPort</b> and take a note of the 
 number it is set to - do <i>not</i> change it.
+-->
+<li>Freenet ought to work "out of the box" behind most NATing device...
+but following the following steps might be usefull for your node to re-establish its links faster.
 <li>Configure your NAT or firewall to forward connections to the 
-node.listenPort number that you noted in the previous step, to the same port 
-on your computer (you will probably need to know your computer's 
-internal IP address which will often begin with 192.168.x.x)
+node.listenPort number (You can find it in a file called freenet.ini in the freenet
+folder), to the same port on your computer (you will probably need to know your computer's 
+internal IP address which will often begin with 192.168.x.x). Remember that freenet 0.7 uses UDP.
 <li>Configure your NAT or firewall, if necessary, to allow outgoing
 connections to any port on any host. Freenet does not use a standard
 port number, to make it harder to block.
@@ -249,9 +255,6 @@ connections for all your browsing, which may not be desirable from a
 network congestion point of view; volunteers to make mozilla allow this
 sort of settings to be set per host would be welcome...</p>
 
-<p><b id="io-error">What does I/O error in servlet mean?</b><BR>
-This message in the log file is normally harmless.  Freenet writes this to the log any time your browser breaks a connection to fproxy (<i>e.g.</i> if you clicked "Stop" in your browser while waiting for a Freenet page's images to load).</p>
-
 <p><b id="store-perm">Why can't Freenet store data permanently?</b><BR>
 Because we can't find a way to do this without compromising Freenet's
 other goals. For example, people often suggest that someone's node could
@@ -271,25 +274,18 @@ on the development list about the language choice aren't welcome, people willing
 in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
 
 <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
-If you want everyone to be able to use your node, then add the following lines to your freenet.conf or freenet.ini file:
+If you want everyone to be able to use your node, go to <a href="http://127.0.0.1:8888/config/">fproxy's configuration page</a> and change the following parameters:
 </p><code>
-mainport.bindAddress=*<BR>
-mainport.allowedHosts=*<BR>
+fproxy.bindTo=0.0.0.0<BR>
+fproxy.allowedHosts=0.0.0.0<BR>
 </code><p>
 Of course, this leaves your node wide open, unless you control
 access with a firewall of some sort.  If you'd prefer to use access
 controls within Freenet, then you can use lines like this:</p>
 <code>
-mainport.bindAddress=*<br>
-mainport.allowedHosts=127.0.0.1,192.168.1.0/24<br>
+fproxy.bindTo=0.0.0.0<br>
+fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 </code>
-
-<p><b id="empty-conf">My freenet.ini (or .conf) file is empty, or nearly so!</b><br>
-If you tried to install Freenet
-at a time when your Java runtime environment was not working, you might
-have created a broken configuration file.  Make sure your Java
-environment works.  Then, remove the config file and try running the Freenet setup again.  (On Unix, this is ./start-freenet.sh .)
-
 
 </p><p><b id="fec">What is FEC?</b><br>
 FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into several small blocks -- this is called a <i>splitfile</i>.
@@ -311,21 +307,6 @@ java -cp freenet.jar freenet.client.cli.Main get KEY filename<BR>
 </code><p>
 Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p>
 You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="http://freenetproject.org/index.php?page=fcptools">FCPTools</a>.
-
-<p><b id="distribution">What's this distribution servlet? How do I use it?</b><br>
-The distribution servlet allows you to provide friends/colleagues/people you meet in IRC to download a copy of Freenet
-from your node. They get seednodes extracted from your node's routing
-tables, speeding their integration into the network. To use it, go to <a href="http://127.0.0.1:8891/">http://127.0.0.1:8891/</a>
-and create a URL. This URL will be good for 24 hours or 100 hits,
-whichever comes first. People visiting the URL will find a copy of Freenet for download.</p>
-
-<p><b id="seednodes">How do I extract the necessary seedNode values from my own node?</b><br>
-
-Temporarily stop your node with sh stop-freenet.sh Then type sh start-freenet.sh --export myref.ref Wait a few seconds, until java processes stop. Then do sh start-freenet.sh
-again to start the node normally. myref.ref will contain your node
-reference. Make sure that if you post this for others to use, that you
-avoid extra linebreaks.</p>
-
 
 <p><b id="roadmp">Is there a future roadmap of Freenet?</b><br>
 Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="http://www.freenetproject.org/index.php?page=roadmap"> here.</a>
@@ -350,7 +331,7 @@ heisenbugs being reported in your logfile and are running a current version of f
 to the mailinglist.
 
 <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
-To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://www.freenetproject.org/index.php?page=whatsnew">changelog</b></a>.
+To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://cia.navi.cx/stats/project/freenet">changelog</b></a>.
 
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
@@ -358,11 +339,7 @@ Fred (and freenet in general) are still very much in development, and if somethi
 to know exactly what went wrong.
 
 <p><b id="stabchange">How can I change from stable to unstable?</b><br>
-<LI>Stop your node.
-<LI>Download <a href="http://freenetproject.org/snapshots/freenet-unstable-latest.jar">http://freenetproject.org/snapshots/freenet-unstable-latest.jar</a> & <a href="http://freenetproject.org/snapshots/unstable.ref">http://freenetproject.org/snapshots/unstable.ref</a> to your freenet directory.
-<LI>Rename the two new files to freenet.jar & seednodes.ref (overwriting the old ones).
-<LI>It is not  strictly necessary, but it is recommended you open freenet.ini / freenet.conf and change your "node.listenPort=XYZ" to a new random number (just adding one will do). If you have some firewall settings, remember to change them accordingly! It is also recommended that you wipe your node file and your routing table files to change your node id and start from scratch.
-<LI>Start your node.
+There is no unstable network anymore.
 
 
 <h2>Publisher answers
@@ -430,14 +407,14 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 <P> People that want to contribute to Freenet in <a href="http://www.freenetproject.org/index.php?page=openjobs">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
 
 <p><b id="access">How can I access the code and website?</b><br>
-The Freenet project is hosted at SourceForge. You will have to create an account for yourself there, then send email to the project coordinator asking him to add you to the group. Further details are available on the Freenet and SourceForge web sites.</p>
-
+We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="https://emu.freenetproject.org/svn/trunk/">Emu</a>.
 
 <p><b id="devtools">What tools do I need to help develop?</b><br>
-To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://emu.freenetproject.org/svn/trunk/freenet">http://emu.freenetproject.org/svn/trunk/freenet</a>using subversion,
+To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://emu.freenetproject.org/svn/trunk/freenet">http://emu.freenetproject.org/svn/trunk/freenet</a>using <a href="http://subversion.tigris.org/">subversion</a>,
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). To do web development you
-will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.</p>
+will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.
+Generally speaking, joining our IRC channel is a good idea : #freenet on irc.freenode.net</p>
 
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
 Yes, an unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usage and  inner-workings of Freenet. It's a wiki, thus everybody can contribute too it.</p>
