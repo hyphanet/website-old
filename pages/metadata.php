@@ -202,7 +202,7 @@ The client should take the current time (GMT) and work out the last
 <br/>
 <br/><h3> <a name="Nae0">SplitFile (CDC)</a>
 </h3>
-<br/><div class='simplebox' align='center'>note 12 Feb 2003: Splitfiles without FEC are outdated. <a href='tiki-index.php?page=Userpagemihi' class='wiki'>mihi</a></div>
+<br/><div class='simplebox' align='center'>note 12 Feb 2003: Splitfiles without FEC are outdated. </div>
 <br/>
 
 <br/>
@@ -259,10 +259,10 @@ The document is made up of a number of pieces, allowing swarming.
 
 <br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Version
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Revision=1
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Redirect.Target=CHK@aabbccddee
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Name=split
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;SplitFile.Size=102400
@@ -272,7 +272,7 @@ The document is made up of a number of pieces, allowing swarming.
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;SplitFile.Block.3=freenet:CHK@aabbccddee3
 
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Info.Format=text/plain
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Name=date-redirect
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;DateRedirect.Increment=93a80
@@ -285,7 +285,7 @@ The document is made up of a number of pieces, allowing swarming.
 <br/>or freenet:SSK@aabbccddee/mysite// would cause the first redirect
 <br/>(without a Name) to be processed.
 <br/>
-<br/>If freenet:SSK@aabbccddee/mysite//split were accessed the SplitFile<a href='tiki-editpage.php?page=SplitFile' class='wiki'>?</a>
+<br/>If freenet:SSK@aabbccddee/mysite//split were accessed the SplitFile
 
 <br/>section would be processed, as would the Info section. This would
 <br/>(hopefully) swarm a file, with some configurable concurrency. None of the CHKs 
@@ -298,18 +298,18 @@ The document is made up of a number of pieces, allowing swarming.
 <br/><a name="Nb8b"></a><b>Example 3.  TrailingInfo example </b>
 <br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Version
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Revision=1
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Redirect.Target=CHK@aabbccddee
 
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;ExtInfo.Trailing=yes
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Name=doc1
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Redirect.Target=CHK@aabbccddee1
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Info.Format=text/plain
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;ExtInfo.Trailing=yes
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart<a&nbsp;href='tiki-editpage.php?page=EndPart'&nbsp;class='wiki'>?</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;EndPart
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Document
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;Name=doc2
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;DateRedirect.Target=SSK@aabbccddee/something
@@ -320,7 +320,7 @@ The document is made up of a number of pieces, allowing swarming.
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;blah&nbsp;blah
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;&lt;/XML&gt;
 </font><br/>
-<br/>This describes the same website as above, but with metadata in a trailing field.  It's completely reasonable for multiple documents to share the same TrailingInfo<a href='tiki-editpage.php?page=TrailingInfo' class='wiki'>?</a> metadata.  (Since only one needs to be processed, this shouldn't be a problem) 
+<br/>This describes the same website as above, but with metadata in a trailing field.  It's completely reasonable for multiple documents to share the same TrailingInfo metadata.  (Since only one needs to be processed, this shouldn't be a problem) 
 <br/>
 <br/><h2><a name="Nb9a">Handling Other Commands</a>
 </h2>

@@ -14,7 +14,7 @@
 <br/>
 <br/>Freesite insertion tools written in Python (standalone binaries are available for Windows). Includes FEC support for alternative handling of large files.
 <br/>
-<br/><a href='tiki-index.php?page=FCPTools' class='wiki'><b>FCPTools</b></a>
+<br/><a href='/index.php?page=fcptools' class='wiki'><b>FCPTools</b></a>
 <br/>
 <br/>FCPTools provide the same functionality as Freeweb, but without the GUI. Current working platforms include Win32, Linux, and FreeBSD. An ANSI-C based Client Lib (ezFCPlib) is also included to aid developers in writing Freenet clients.
 <br/>
@@ -60,5 +60,5 @@
 <br/><hr/>
 <br/><h2>Want to contribute?
 </h2>
-<br/>If you want to develop a tool or client for Freenet please publish your idea <a href='tiki-index.php?page=FreeApps' class='wiki'>here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br/>
+<br/>If you want to develop a tool or client for Freenet please publish your idea <a href='/index.php?page=freeapps' class='wiki'>here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br/>
 
