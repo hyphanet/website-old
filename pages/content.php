@@ -1,7 +1,6 @@
 <h1>Content</h1>
 <h3>Freenet as a Content Distribution System</h3>
 In addition to its anonymity features, Freenet is also an effective way to distribute large files - often achieving download speeds faster than other content distribution systems.
-<p>
 As a content distribution network Freenet has the following advantages:
 <ul>
 <li><b>Totally decentralized</b><br>
@@ -14,12 +13,4 @@ Freenet has long-supported the concept of "Content Hash Keys" which guarantee th
 <li><b>Forward Error Correction</b><br>
 In-common with some other CDN architectures, Freenet employs "Forward Error Correction", which allows files to be reconstructed even if some of the parts of that file can't be retrieved.  Uniquely, Freenet also supports "healing", which involves the reconstruction and reinsertion of missing file components.
 </ul>
-<p>
 This page contains links to freely available content on Freenet.  If you would like to add a new link please email it to <a href="mailto:ian@locut.us">us</a> - remember that we will only link to content that can be legally distributed in the United States of America.
-<h3>The Content Itself</h3>
-<h4>Software</h4>
-
-<ul>
-<li>Redhat 9 - 
-<a href="index.php?page=flink&flinkttl=shrike-i386-disc1.iso&key=CHK@JysskVMMHCjer-ITwbDaBmz5bmMRAwI,v2IV45MZU8c9FzO9r~GUhQ/shrike-i386-disc1.iso"><i>shrike-i386-disc1.iso</i></a>[<a href="index.php?page=flink&flinkttl=shrike-i386-disc1.iso&key=CHK@JysskVMMHCjer-ITwbDaBmz5bmMRAwI,v2IV45MZU8c9FzO9r~GUhQ/shrike-i386-disc1.iso">?</a>] <a href="index.php?page=flink&flinkttl=shrike-i386-disc2.iso&key=CHK@RXZpvFoh-kLDlIXvjiJVpJiYmFURAwI,CgPF6crA29NN6V~tALiXQg/shrike-i386-disc2.iso"><i>shrike-i386-disc2.iso</i></a>[<a href="index.php?page=flink&flinkttl=shrike-i386-disc2.iso&key=CHK@RXZpvFoh-kLDlIXvjiJVpJiYmFURAwI,CgPF6crA29NN6V~tALiXQg/shrike-i386-disc2.iso">?</a>] <a href="index.php?page=flink&flinkttl=shrike-i386-disc3.iso&key=CHK@sgPeLBJq~onirR95ebadZmIZgYkQAwI,2dAmaGdZPPfeG9GDX~OTEg/shrike-i386-disc3.iso"><i>shrike-i386-disc3.iso</i></a>[<a href="index.php?page=flink&flinkttl=shrike-i386-disc3.iso&key=CHK@sgPeLBJq~onirR95ebadZmIZgYkQAwI,2dAmaGdZPPfeG9GDX~OTEg/shrike-i386-disc3.iso">?</a>]</ul>
-
