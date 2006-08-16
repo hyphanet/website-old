@@ -21,7 +21,7 @@ $menus = array(	'beginner' => array(
 				'Sponsors'=>'sponsors',
 				'Content' => 'content',
 				'FAQ' => 'faq',
-				'Documentation' => 'docs',
+				'Documentation' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 				'Wiki'	=> 'http://wiki.freenetproject.org/',
 				'Bug Report' => 'https://bugs.freenetproject.org/',
 				'Philosophy' => 'philosophy',
@@ -32,7 +32,7 @@ $menus = array(	'beginner' => array(
 		'developer' => array(
 				'Download'=>'download', 
 				'Whats New?' => 'http://cia.navi.cx/stats/Project/freenet/',
-				'Documentation' => 'docs',
+				'Documentation' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 				'Donate'=>'donate',
 				'Sponsors'=>'sponsors',
 				'Content' => 'content',
