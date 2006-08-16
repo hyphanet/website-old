@@ -46,7 +46,7 @@ It is a win-win situation; those who want to share and leech get to do it more e
 
 <br/>"So I decided to start work on a native Win32 Frost client (that I have named Flame). It won't have file exchange support but just really basic
 <br/>
-<br/>messaging functionality. I have been able to retrieve todays Freenet board Frost messages with it and read them in it (other boards should work too) but there are a few things to do (being able to write & insert messages and reply to messages in particular) but it is coming along nicely and I shall place it on the site once I have a more or less functional version up and running." ''(added by SebastianSpaeth<a href='tiki-editpage.php?page=UserPagesebastianspaeth' class='wiki'>?</a> - 22 Feb 2002)''
+<br/>messaging functionality. I have been able to retrieve todays Freenet board Frost messages with it and read them in it (other boards should work too) but there are a few things to do (being able to write & insert messages and reply to messages in particular) but it is coming along nicely and I shall place it on the site once I have a more or less functional version up and running." ''(added by SebastianSpaeth - 22 Feb 2002)''
 <br/><hr/><a class='wiki'  href='http://eof.sourceforge.net/'><b>Everything Over Freenet</b></a>
 <br/>
 <br/>Everything Over Freenet (EOF) creates gateways for other protocols (such as SMTP) to work over Freenet.
