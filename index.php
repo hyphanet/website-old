@@ -30,6 +30,11 @@ $modes[$mode]=TRUE;
 	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=" />
 	<title>The Freenet Project - <?= $page." - ".$mode ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta name="language"    content="en" />
+	<meta name="robots"      content="index,follow" />
+	<meta name="keywords"    content="gnu, fsf, gpl, fdl, free software, coding, freenet, The Free Network Project, network, decentralized, DHT, anonymous, EFF, Electronic Frontier Foundation, freedom, freedom of speech, liberty, philosophy, java, censorship, encryption, peer-to-peer, file sharing, internet, Ian Clarke, Matthew Toseland, Oskar Sandberg, Florent Daigniere, Scott Miller, Steven Starr" />
+
+	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System" />
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" language="javascript">
 		var users=new Image();
