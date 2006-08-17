@@ -5,11 +5,11 @@ if (isset($_REQUEST["page"])) {
 	$page = "index";
 }
 
-include_once "config.inc.php";
-$a=mysql_connect("mysql4-f", $mysql_user, $mysql_password);
-$a=mysql_select_db("f978_access");
-$a=mysql_query("INSERT INTO access VALUES (\"".mysql_real_escape_string($_SERVER["REMOTE_ADDR"])."\", \"".mysql_real_escape_string($_SERVER["HTTP_REFERER"])."\", NOW())");
-$a=mysql_close();
+#include_once "config.inc.php";
+#$a=mysql_connect("mysql4-f", $mysql_user, $mysql_password);
+#$a=mysql_select_db("f978_access");
+#$a=mysql_query("INSERT INTO access VALUES (\"".mysql_real_escape_string($_SERVER["REMOTE_ADDR"])."\", \"".mysql_real_escape_string($_SERVER["HTTP_REFERER"])."\", NOW())");
+#$a=mysql_close();
 
 $modes = array("beginner"=>FALSE, "user"=>FALSE, "developer"=>FALSE);
 if (isset($_GET["mode"])) {
