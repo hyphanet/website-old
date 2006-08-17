@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.+)\.html$ /index.php?page=$1
-RewriteRule ^(.+)\.html?mode=(.+)$ /index.php?page=$1&mode=$2
+RewriteCond %{REQUEST_URI} !-f
+RewriteRule ^(.+)\.html?mode=(.+)$ /index.php?page=$1&mode=$2 [L]
+RewriteRule ^(.+)\.html$ /index.php?page=$1 [L]
