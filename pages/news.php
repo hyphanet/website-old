@@ -14,7 +14,7 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
-<b>17th August, 2006 - John Gilmore donates US$15,000 to the Freenet Project</b><br>
+<b>17th August, 2006 - John Gilmore donates US$15,000 to the Freenet Project</b> [<a href="http://digg.com/software/John_Gilmore_donates_US_15_000_to_the_Freenet_Project/share">digg it</a>]<br>
 John Gilmore, one of the founders of the Electronic Frontier Foundation, the Cypherpunks mailing list, and Cygnus Solutions, has donated US$15,000 to the Freenet Project, to support the ongoing development of the Freenet software.
 <p>
 This donation will ensure the continued employment of Freenet's full-time software developer, Matthew Toseland. Matthew has been working for Freenet full-time for the last 4 years, funded entirely by donations to the project.
