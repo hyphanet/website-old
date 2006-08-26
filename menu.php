@@ -11,6 +11,7 @@ $menus = array(	'beginner' => array(
 				'FAQ' => 'faq',
 				'Support' => 'lists',
 				'Wiki'	=> 'http://wiki.freenetproject.org/',
+				'Bug Report' => 'https://bugs.freenetproject.org/',
 				'Tools' => 'tools',
 				'Papers' => 'papers',
 				'People' => 'people' ),

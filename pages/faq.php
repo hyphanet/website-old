@@ -54,6 +54,7 @@
 </li><li><a href="#access">How can I access the code and website?</a>
 </li><li><a href="#devtools">What tools do I need to help develop?</a>
 </li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
+</li><li><a href="#bugs">Where can I report bugs?</a>
 </li></ol>
 <h2> Security questions</h2>
 
@@ -348,7 +349,7 @@ your key and brief description of your information, to the author of
 one of the existing Freenet sites. Most of the "portal" sites which are linked from the Freenet
 web interface (fproxy) have a submission form which lets you send them
 messages anonymously. You could also send your key to people by using
-the Freenet mailing lists, or the IRC channel (irc.freenode.net #freenet), or by private e-mail, or by advertising your Freenet
+the Freenet <a href="/lists.html">mailing lists</a>, or the IRC channel (irc.freenode.net #freenet), or by private e-mail, or by advertising your Freenet
 
 site on your World Wide Web site. Or if you're feeling extravagant, you
 could try skywriting it. (Graffiti is not recommended, for legal
@@ -391,7 +392,7 @@ decided to postpone implementing the idea until later. Some examples of
 ideas already discussed are storing information by content hash, key
 redirection, signed keys/data, use of UDP, server discovery, URLs,
 document versioning, and others. If you don't see the idea discussed in
-the archives, by all means bring it up in the appropriate mailing list.</p>
+the archives, by all means bring it up in the appropriate <a href="/lists.html">mailing list</a>.</p>
 
 <p><b id="contribute">Can I contribute to the Freenet Project?</b><br>
 Absolutely. Even if you don't have the time or skills to become a co-developer of the project, you can contribute in other ways:</p>
@@ -416,6 +417,8 @@ Generally speaking, joining our IRC channel is a good idea : #freenet on irc.fre
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
 Yes, an unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usage and  inner-workings of Freenet. It's a wiki, thus everybody can contribute too it.</p>
 
+<p><b id="bugs">Where can I report bugs?</b><br>
+You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">development mailing list</a>.</p>
 
 <h2> Security answers
 </h2><p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
