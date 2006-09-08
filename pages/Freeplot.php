@@ -71,7 +71,7 @@ can figure out how to ).<br>
 <br>
 </div>
 You now have HTTP / URL "screen-scraping" ability (without the screen).
-Rejoice! To test it out, download and run <a href="avg-mri.pl">avg-mri.pl</a>.<br>
+Rejoice! To test it out, download and run avg-mri.pl.<br>
 <br>
 blackstar&gt; <span style="font-style: italic;">perl avg-mri.pl<br>
 </span><br>
@@ -140,7 +140,7 @@ if they are being distributed evenly.<br>
 <h3>Bringing It All Together</h3>
 </div>
 Now that you have Perl and Gnuplot installed, you can begin collecting
-data from Freenet. Download <a href="collect.pl">collect.pl</a> , the
+data from Freenet. Download collect.pl , the
 Perl script that will log all the relevant
 data to a file. Most people will access their freenet software at <span
  style="font-weight: bold;">http://localhost:8888</span>. If you have

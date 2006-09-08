@@ -3,5 +3,5 @@ RewriteCond %{REQUEST_URI} !-f
 RewriteRule ^(.+)\.html?mode=(.+)$ /index.php?page=$1&mode=$2 [L]
 RewriteRule ^(.+)\.html$ /index.php?page=$1 [L]
 
-RewriteCond %{http_host} ^(www.freenetproject.org|freenet.sourceforge.net) [nc]
+RewriteCond %{http_host} ^(www.freenetproject.org|freenet.sourceforge.net|.*projectfreenet.org) [nc]
 RewriteRule ^(.*)$ http://freenetproject.org/$1 [r=301,nc]
