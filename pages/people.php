@@ -23,7 +23,4 @@
 <br /><b>Scott Miller</b>
 <br />Scott is responsible for the implementation of much of the cryptography
 <br />elements within Freenet.
-<br />
-<br /><b>Steven Starr</b>
-<br />Steven is the coordinator of the Freenet Project non-profit corporation.<br />
 
