@@ -16,7 +16,7 @@ and stability of the network.</p>
 Oskar was also one of the earliest contributors to the Freenet project, and
 continues to play a core role in ongoing development.</p>
 
-<p><b>Florent Daignière</b><br>
+<p><b>Florent Daigni&egrave;re</b><br>
 Florent has been our system administrator since around the time 0.7 was started,
 and has helped on other matters like the current installer.</p>
 
