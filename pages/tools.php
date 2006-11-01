@@ -6,6 +6,11 @@
 Frost is a filesharing and message board application for Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/SSK@XeMBryjuEaxqazEuxwnn~G7wCUOXFOZlVWbscdCOUFs,209eycYVidlZvhgL5V2a3INFxrofxzQctEZvyJaFL7I,AQABAAE/frost-1/'>Frost freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 </p>
 
+<p><a class='wiki'  href='http://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
+<br />
+Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.</b>
+</p>
+
 <p><a class='wiki'  href='http://www.freenet.org.nz/pyfcp/'><b>pyFreenet</b></a><br />
 <br />
 pyFreenet is an API and a set of tools to access freenet from the python programing language. Tools are currently command-line only.
