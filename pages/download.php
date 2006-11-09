@@ -25,7 +25,7 @@ href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <h3>Windows</h3>
-- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">freenet-webinstall</a></big><br>
+- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">freenet webinstall</a></big><br>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
@@ -79,9 +79,9 @@ yours before your nodes can communicate.</b>
 <h3>So I'm connected, what do I do?</h3>
 
 You can find links to some pages in the index on the FProxy homepage at 
-<pre>http://127.0.0.1:8888/</pre>.  You can find links to some third party 
-applications <a 
-href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
+<pre>http://127.0.0.1:8888/</pre>.  You can find links to some <a
+href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
+applications for freenet</a>.
 	
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
