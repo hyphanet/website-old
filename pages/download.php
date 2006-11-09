@@ -61,8 +61,7 @@ interface. <BR> &nbsp;<BR> </P>
 <h3>So it's running, what do I do?</h3>
 
 You need to get connected.  If you know anyone running Freenet, ask them 
-for their reference, and give them yours.  If you visit <a 
-href="http://127.0.0.1:8888/darknet/">http://127.0.0.1:8888/darknet/</a> 
+for their reference, and give them yours.  If you visit <pre>http://127.0.0.1:8888/darknet/</pre> 
 in your browser, you can see your reference at the bottom and you can add
 other people's references, either by cutting and pasting the reference
 itself, or by pointing Freenet to a URL or a file containing their
@@ -71,7 +70,7 @@ reference.
 If you don't know anyone running Freenet, visit #freenet-refs on 
 irc.freenode.net and ask nicely to exchange references with someone.  
 You will find a tool like <a 
-href="http://dark-code.bulix.org/">dark-code.bulix.org</a> useful (please don't 
+href="http://dark-code.bulix.org/">http://dark-code.bulix.org</a> useful (please don't 
 paste references into the #freenet-refs IRC channel).
 <p>
 </B>Note: You need to add their reference and they need to add 
@@ -80,7 +79,7 @@ yours before your nodes can communicate.</b>
 <h3>So I'm connected, what do I do?</h3>
 
 You can find links to some pages in the index on the FProxy homepage at 
-<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>.  You can find links to some third party 
+<pre>http://127.0.0.1:8888/</pre>.  You can find links to some third party 
 applications <a 
 href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">here</a>.
 	
