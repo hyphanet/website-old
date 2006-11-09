@@ -39,14 +39,23 @@ Java version 1.4.1 and later will work. However, be aware that there are applet 
 
 <p>Type on a command line : 
 <pre>
-wget http://downloads.freenetproject.org/alpha/installer/new_installer.jar
+wget <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar" alt="new_installer.jar">http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a>
 java -jar new_installer.jar
+</pre>
+</p>
+
+<p> Or do the following on a headless system:
+<pre>
+wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz" alt="freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
+cat freenet07.tar.gz | gzip -d | tar xv
+./bin/1run.sh
+./run.sh start
 </pre>
 </p>
 
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
-<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser to access Freenet's user
+<pre>http://127.0.0.1:8888/</pre> in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
 <h3>So it's running, what do I do?</h3>
