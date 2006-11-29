@@ -14,16 +14,13 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
-<b>29 November, 2006 - Summer of Code roundup</b><br>
-As you may know, Google paid for four students to work for us full-time over the summer,
-as part of their <a href="http://code.google.com/soc/">Summer of Code</a> project
-(to get students into open source). Here's a summary of all the good things that 
-came out of this:
+<b>29 November, 2006 - <a href="http://code.google.com/soc/freenet/about.html">Summer of Code roundup</a></b><br>
+As you may know, Google paid for four students to work for us full-time over the summer, as part of their <a href="http://code.google.com/soc/">Summer of Code</a> project (to get students into open source). Here's a summary of all the good things that came out of this:
 <ul>
 <li><b>Freemail</b> (<i>dbkr</i> - Dave Baker)<br>
-dbkr wrote an email server which uses Freenet as a back-end. This is one of the features which is most asked-for by groups in repressive regimes, and fills an important hole in Freenet's current functionality (we have web sites, we have discussion boards, we don't really have private messaging). This is now working, its architecture is complete, and it will be bundled with Freenet soon.</li>
+Dbkr wrote an email server which uses Freenet as a back-end. This is one of the features which is most asked-for by groups in repressive regimes, and fills an important hole in Freenet's current functionality (we have web sites, we have discussion boards, we don't really have private messaging). This is now working, its architecture is complete, and it will be bundled with Freenet soon.</li>
 <li><b>Load simulations</b> (<i>mrogers</i> - Michael Rogers)<br>
-mrogers wrote us an event-based simulator for evaluating proposed changes to Freenet routing, load balancing and data storage. In the past we have generally deployed changes in a fairly haphazard way, and it has often not been clear whether a particular change has been beneficial. Since we started work on 0.7 we have been more systematic, but the simulations we have built were not able to simulate many of the more complex processes, such as load balancing / load limiting. mrogers has produced a detailed simulation which has already yielded insights into congestion control, has confirmed some of our recent decisions on load balancing, and is being used to prototype a new load management algorithm which should radically improve Freenet's performance.</li>
+Mrogers wrote us an event-based simulator for evaluating proposed changes to Freenet routing, load balancing and data storage. In the past we have generally deployed changes in a fairly haphazard way, and it has often not been clear whether a particular change has been beneficial. Since we started work on 0.7 we have been more systematic, but the simulations we have built were not able to simulate many of the more complex processes, such as load balancing / load limiting. mrogers has produced a detailed simulation which has already yielded insights into congestion control, has confirmed some of our recent decisions on load balancing, and is being used to prototype a new load management algorithm which should radically improve Freenet's performance.</li>
 <li><b>Installer improvements and related stuff</b> (<i>nextgens</i> - Florent Daigni&egrave;re)<br>
 Over the summer nextgens, an experienced freenet developer already, worked on what was most urgently needed for Freenet, and which he had most expertise in, but wasn't necessarily most interesting. His work related mostly to deployment: The installer, the uninstaller, the updating system, the mirror network, native libraries and general bugfixing. All of this has been deployed already and has enhanced Freenet's usability. He also did some work on getting Freenet to work on free JVMs, which has yielded some results.</li>
 <li><b>Thaw</b> (<i>jflesch</i> - J&eacute;r&ocirc;me Flesch)<br>
