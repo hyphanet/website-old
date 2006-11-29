@@ -16,8 +16,9 @@ our <a href="/donate.html">donations page</a>.
 <h3>News</h3>
 <b>29 November, 2006 - Summer of Code roundup</b><br>
 As you know, Google paid for four students to work for us full-time over the summer,
-as part of their Summer of Code project (cost at least $12,000 to Google). Here's a
-summary of all the good things that came out of this:
+as part of their <a href="http://code.google.com/soc/">Summer of Code</a> project
+(to get students into open source). Here's a summary of all the good things that 
+came out of this:
 <ul>
 <li><b>Freemail</b> (dbkr)<br>
 dbkr wrote an email server which uses Freenet as a back-end. This is one
