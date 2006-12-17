@@ -1,6 +1,11 @@
 <?
 if (isset($_REQUEST["page"])) {
 	$page = htmlentities($_REQUEST["page"]);
+	if(!file_exists("pages/".escapeshellcmd($page).".php") )
+	{
+		header('HTTP/1.0 404 Not Found');
+		exit();
+	}
 } else {
 	$page = "index";
 }
