@@ -4,7 +4,17 @@ if (isset($_REQUEST["page"])) {
 	if(!file_exists("pages/".escapeshellcmd($page).".php") )
 	{
 		header('HTTP/1.0 404 Not Found');
-		exit();
+		if(empty($_SERVER["HTTP_REFERER"]) || empty($_SERVER["REQUEST_URI"])){
+			header("Location: /");
+		}else{
+			echo "<html><head><title>404</title><head>";
+			echo "<body>404 error - broken link</body>";
+			$to="webmaster";
+			$subject="404 error";
+			$content="\nA 404 error has occurred on the website : may you fix it ?\nFrom :  ".$_SERVER["HTTP_REFERER"]."\nTo : ".$_SERVER["REQUEST_URI"]."\nAt : ".date("D M j Y g:i:s a T");
+			@mail($to,$subject,$content,"svn-build");
+		}
+		die;
 	}
 } else {
 	$page = "index";
