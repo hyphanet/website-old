@@ -1,6 +1,8 @@
 <h3>Donations</h3>
+<!-- Disabled for now, same as on homepage; we still haven't spent Gillmore's cheque yet.
+
 <p>Current PayPal balance (updated every 12 hours): <? 
-include("paypaltotal.txt"); ?></p>
+ include("paypaltotal.txt"); ?></p> -->
 
 <h4>Why does The Freenet Project need donations?</h4>
 Although countless people have given their time and skill to the project since its
