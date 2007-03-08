@@ -3,7 +3,7 @@ if (isset($_REQUEST["page"])) {
 	$page = htmlentities($_REQUEST["page"]);
 	if(!file_exists("pages/".escapeshellcmd($page).".php") )
 	{
-		header('HTTP/1.0 401 Likely to be gone');
+		header('HTTP/1.0 410 Likely to be gone');
 		if(empty($_SERVER["HTTP_REFERER"]) || empty($_SERVER["REQUEST_URI"])){
 			header("Location: /");
 		}
