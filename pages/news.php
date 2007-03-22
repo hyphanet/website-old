@@ -14,6 +14,15 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
+<b>20 March, 2007 - <a href="http://code.google.com/soc/freenet/about.html">Freenet joins Google Summer of Code 2007</a></b><br>
+Last year, Freenet was part of <a href="http://code.google.com/soc/">Google's Summer of Code</a>. Four students worked for us instead of for the fast food industry over the summer. All four delivered useful results, including the now widely used Thaw filesharing utility, essential improvements to the installer and FEC code, the resurrected and much improved Freemail and some simulations that will inform decisions on load balancing and congestion control in the near future and for years to come. Google paid them $4,500 and us $500 each, and let us visit their HQ for a conference. This year we have been accepted into the Summer of Code again. If you are a student and want to work with us this summer, send an application in, and feel free to contact us via email, IRC, or otherwise.
+
+For more details see our <a href="http://wiki.freenetproject.org/SummerOfCode2007">wiki page on SoC 2007</a>:
+
+In the meantime, Freenet 0.7 continues to progress: Endless bugfixes interspersed with a significant increase in performance around Chritmas, substantial and ongoing improvements in memory usage, various security improvements, lots of work on the datastore, and more. The network continues to grow despite the naysayers and despite a major crypto bug that was fixed in 1010, forcing a partial network reset. This year we plan to implement opennet as well as further improvements to performance (we have a number of leads as to what is going on). Opennet will mean that new users no longer need to manually peer with total strangers - like in 0.5, the network will do it for them. Once they are connected to the network then they can add some of their friends ("true darknet connections") to increase their security.
+
+If you haven't tried Freenet since our last announcement, please try it again. And if you haven't tried it since the first alpha release of 0.7, you should definitely try it out again. We are not releasing a second alpha because we want to deal with Opennet first. 
+
 <b>29 November, 2006 - <a href="http://code.google.com/soc/freenet/about.html">Summer of Code roundup</a></b><br>
 As you may know, Google paid for four students to work for us full-time over the summer, as part of their <a href="http://code.google.com/soc/">Summer of Code</a> project (to get students into open source). Here's a summary of all the good things that came out of this:
 <ul>
@@ -35,7 +44,4 @@ This donation will ensure the continued employment of Freenet's full-time softwa
 In April 2006 the Freenet Project released the first alpha version of Freenet 0.7, a new approach to anonymous peer-to-peer adopting a "scalable darknet" architecture, designed to offer a new level of privacy and security for those using the software, while addressing a number of other long-standing issues with Freenet. This donation will support the project as it works towards a beta release of Freenet 0.7, improving the ease of use, speed, and security of the software.
 <p>
 The donation came from John Gilmore's donor advised fund at <a target="_blank" href="http://sff.org/about/index.html">The San Francisco Foundation</a>.
-<p>
-<b>2nd June, 2006 - Freenet lecture available on Google Video</b><br>
-You can now see the talk given by Ian and Oskar in Berlin last December conveniently embedded <a href="/22c3vid.html">on this website</a> thanks to Google Video.
 <p>
