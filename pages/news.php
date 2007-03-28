@@ -14,6 +14,11 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
+<b>27 March, 2007 - Google Summer of Code - update</b><br>
+Student applications for the Summer of Code have now closed. Thanks to everyone who submitted an application!<br>
+<p>We were pleasantly surprised by the number (and quality!) of the applications we received. We will have a really hard time now picking the best ones out of the 27 pplications we got.</p>
+<p>In the meantime, can any student please keep an eye on his applications ? - we may have additional questions or comments as we review them. Thanks.</p>
+
 <b>20 March, 2007 - <a href="http://code.google.com/soc/freenet/about.html">Freenet joins Google Summer of Code 2007</a></b><br>
 Last year, Freenet was part of <a href="http://code.google.com/soc/">Google's Summer of Code</a>. Four students worked for us instead of for the fast food industry over the summer. All four delivered useful results, including the now widely used Thaw filesharing utility, essential improvements to the installer and FEC code, the resurrected and much improved Freemail and some simulations that will inform decisions on load balancing and congestion control in the near future and for years to come. Google paid them $4,500 and us $500 each, and let us visit their HQ for a conference. This year we have been accepted into the Summer of Code again. If you are a student and want to work with us this summer, send an application in, and feel free to contact us via email, IRC, or otherwise.<br>
 For more details see our <a href="http://wiki.freenetproject.org/SummerOfCode2007">wiki page on SoC 2007</a>.
@@ -34,13 +39,3 @@ Over the summer nextgens, an experienced freenet developer already, worked on wh
 <li><b>Thaw</b> (<i>jflesch</i> - J&eacute;r&ocirc;me Flesch)<br>
 Over the summer jflesch developed Thaw (a filesharing utility and upload/download manager). Thaw's goals were firstly to provide a user-friendly, cross platform interface to the built-in Freenet download manager engine (replacing an older Windows-only tool called FUQID), and secondly to evolve into a complete file sharing application via sharing file indexes. The first goal has been 100% fulfilled and Thaw is now the preferred tool. The second goal has been partially achieved; Thaw has working functionality for searching file indexes, but this is not yet used very much.</li>
 </ul><p>All in all, a great success, many thanks to Google!</p>
-
-<b>17th August, 2006 - John Gilmore donates US$15,000 to the Freenet Project</b> [<a href="http://digg.com/software/John_Gilmore_donates_US_15_000_to_the_Freenet_Project">digg it</a>]<br>
-John Gilmore, one of the founders of the Electronic Frontier Foundation, the Cypherpunks mailing list, and Cygnus Solutions, has donated US$15,000 to the Freenet Project, to support the ongoing development of the Freenet software.
-<p>
-This donation will ensure the continued employment of Freenet's full-time software developer, Matthew Toseland. Matthew has been working for Freenet full-time for the last 4 years, funded entirely by donations to the project.
-<p>
-In April 2006 the Freenet Project released the first alpha version of Freenet 0.7, a new approach to anonymous peer-to-peer adopting a "scalable darknet" architecture, designed to offer a new level of privacy and security for those using the software, while addressing a number of other long-standing issues with Freenet. This donation will support the project as it works towards a beta release of Freenet 0.7, improving the ease of use, speed, and security of the software.
-<p>
-The donation came from John Gilmore's donor advised fund at <a target="_blank" href="http://sff.org/about/index.html">The San Francisco Foundation</a>.
-<p>
