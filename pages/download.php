@@ -47,6 +47,8 @@ cat freenet07.tar.gz | gzip -d | tar xv
 </pre>
 </p>
 
+<p>If wget isn't available on your operating system you can use curl</p>
+
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
 <pre>http://127.0.0.1:8888/</pre> in your web browser to access Freenet's user
