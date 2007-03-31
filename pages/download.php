@@ -1,10 +1,4 @@
 <h2>Download Freenet 0.7</h2>
-<p>
-<small><b>Note: </b> You can still find the download page for Freenet 0.5 <a 
-href="/download-old.html">here</a>, however 0.5 is no longer officially
-maintained or supported and 0.7 has many radical improvements not least being that 
-it is significantly faster.</small>
-</p>
 <h3>Important note for first time users</h3>
 
 Freenet 0.7 is different to most other P2P networks in that, to protect
@@ -94,7 +88,10 @@ Freenet provides now an update-over-freenet mechanism ; We recommend people to u
 
 After installing Freenet, Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.
 <p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.
-<p>
+</p>
 <h3>Source Code</h3>
-You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/freenet/">https://emu.freenetproject.org/svn/trunk/freenet/</a> or pick up a tarball <a href="http://emu.freenetproject.org/sources/">http://emu.freenetproject.org/sources/</a>.
-<BR>
+<p>You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/freenet/">https://emu.freenetproject.org/svn/trunk/freenet/</a> or pick up a tarball <a href="http://emu.freenetproject.org/sources/">http://emu.freenetproject.org/sources/</a>.</p>
+
+<p><small><b>Note: </b> You can still find the download page for Freenet 0.5 <a 
+href="/download-old.html">here</a>, however 0.5 is no longer officially
+maintained or supported and 0.7 has many radical improvements not least being that it is significantly faster.</small></p>
