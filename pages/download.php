@@ -47,17 +47,16 @@ cat freenet07.tar.gz | gzip -d | tar xv
 </pre>
 </p>
 
-<p>If wget isn't available on your operating system you can use curl</p>
+<p>If wget isn't available on your operating system you can use curl.</p>
 
-<P>Afer you start Freenet, wait a few seconds for it to start up (on a
+<p>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
-<pre>http://127.0.0.1:8888/</pre> in your web browser to access Freenet's user
-interface. <BR> &nbsp;<BR> </P>
+<i>http://127.0.0.1:8888/</i> in your web browser to access Freenet's user
+interface.</p>
 
 <h3>So it's running, what do I do?</h3>
-
 You need to get connected.  If you know anyone running Freenet, ask them 
-for their reference, and give them yours.  If you visit <pre>http://127.0.0.1:8888/darknet/</pre> 
+for their reference, and give them yours.  If you visit <i>http://127.0.0.1:8888/darknet/</i> 
 in your browser, you can see your reference at the bottom and you can add
 other people's references, either by cutting and pasting the reference
 itself, or by pointing Freenet to a URL or a file containing their
@@ -75,7 +74,7 @@ yours before your nodes can communicate.</b>
 <h3>So I'm connected, what do I do?</h3>
 
 You can find links to some pages in the index on the FProxy homepage at 
-<pre>http://127.0.0.1:8888/</pre>.  You can find links to some <a
+<i>http://127.0.0.1:8888/</i>.  You can find links to some <a
 href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
 applications for freenet</a>.
 	
