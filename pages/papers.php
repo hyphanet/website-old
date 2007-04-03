@@ -37,7 +37,7 @@ An IEEE Internet Computing article describing the Freenet architecture
 circa 2002 - probably the best introduction to the theory behind 
 Freenet.
 <P>
-<a href="/papers/freenet.pdf">
+<a href="/papers/ddisrs.pdf">
 FreeNet White Paper</a><br>
 Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 <p>
