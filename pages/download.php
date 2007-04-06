@@ -47,7 +47,7 @@ cat freenet07.tar.gz | gzip -d | tar xv
 </pre>
 </p>
 
-<p>If wget isn't available on your operating system you can use curl.</p>
+<p>If wget isn't available on your operating system you can use curl... MacOS users can double click the downloaded file; it ought to work.</p>
 
 <p>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
