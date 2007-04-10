@@ -77,7 +77,7 @@ applications for freenet</a>.</p>
 <p><b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.</p>
 <p><b>Recommended:</b> 1GHz or more processor with 256MB
 <!-- decreasing agaisnt my will :(-->
-RAM or more (realistically 512MB if using Windows XP, 1GB if using Vista). </p>
+RAM or more (realistically 512MB if using Windows XP). </p>
 
 <h3>Upgrading</h3>
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts.</p>
