@@ -21,7 +21,7 @@ for some info.</i> </p>
 It may have exploitable bugs and design flaws, and it may have development 
 code to help us understand the network, which may also be exploitable by attackers. 
 See <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a> 
-for a full analysis.</p>
+for a fuller analysis.</p>
 
 <h3>Windows</h3>
 <p>- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">freenet webinstall</a></big></p>
