@@ -15,7 +15,7 @@ the irc server <big>irc.freenode.net</big> and join the channel
 
 <p> <i>If you have a firewall or a NAT box click <a
 href="/faq.html#firewall"><b>here</b></a>
-for some info.</i> <BR> &nbsp;</p>
+for some info.</i> </p>
 
 <p><b>Warning!</b> Freenet is an alpha and as such under heavy development. 
 It may have exploitable bugs and design flaws, and it may have development 
