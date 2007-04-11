@@ -66,10 +66,12 @@ itself, or by pointing Freenet to a URL or a file containing their
 reference.</p>
 <p>If you don't know anyone running Freenet, visit #freenet-refs on 
 irc.freenode.net and ask nicely to exchange references with someone.  
-You will find a tool like <a 
-href="http://dark-code.bulix.org/">http://dark-code.bulix.org</a> useful (please don't 
-paste references into the #freenet-refs IRC channel).</p>
-<p></B>Note: You need to add their reference and they need to add 
+Please don't paste references into the IRC channel: Use a tool such as
+<a href="http://dark-code.bulix.org/">http://dark-code.bulix.org</a> or
+register with nickserv (/msg nickserv help register) and send your 
+reference as a private message (the node will automatically remove
+the timestamp your IRC client may add to each line).</p>
+<p></b>Note: You need to add their reference and they need to add 
 yours before your nodes can communicate.</b></p>
 
 <h3>So I'm connected, what do I do?</h3>
