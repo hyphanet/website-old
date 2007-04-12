@@ -25,7 +25,7 @@ These are:</p>
 <li><b>Vilhelm Verendel</b> will be working on simulating the growth of the network.</li>
 <li><b>Srivatsan</b> will be working on improving Freenet's connection encryption and possibly on darknet introductions.</li>
 <li><b>Mladen Kolar</b> will be building a definitive C/C++ library for the<a href="http://wiki.freenetproject.org/FreenetFCPSpec2Point0">Freenet Client Protocol</a>.</li>
-<p>Congratulations to all of these students. Last year's Summer of Code yielded results including
+</ul><p>Congratulations to all of these students. Last year's Summer of Code yielded results including
 <a href="http://wiki.freenetproject.org/Thaw">Thaw</a>, <a href="http://wiki.freenetproject.org/Freemail">Freemail</a>,
 new low-level simulations and a great deal of work on the installer, packaging and general bugfixing. Even better,
 two of last year's students are now core developers themselves taking Summer of Code students this year.
