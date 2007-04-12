@@ -16,16 +16,16 @@ our <a href="/donate.html">donations page</a>.
 <h3>News</h3>
 <p><b>12 March, 2007 - Google Summer of Code update</b></p>
 <p>We have selected 6 students to work for us over the summer, paid for by 
-<a href="http://code.google.com/soc/freenet/about.html">Google Summer of Code</a>. 
-These are:</p>
+<a href="http://code.google.com/soc/freenet/about.html">Google Summer of Code</a>.<p>
+<p>These are:
 <ul>
 <li><b>Swati Goyal</b> will be working on improving searching in Freenet.</li>
-<li><b>Frédéric Rechtenstein</b> will be building us a blogging plugin.</li>
+<li><b>Fr&eacute;d&eacute;ric Rechtenstein</b> will be building us a blogging plugin.</li>
 <li><b>Alberto Bacchelli</b> will be building a test framework and many unit tests.</li>
 <li><b>Vilhelm Verendel</b> will be working on simulating the growth of the network.</li>
 <li><b>Srivatsan</b> will be working on improving Freenet's connection encryption and possibly on darknet introductions.</li>
-<li><b>Mladen Kolar</b> will be building a definitive C/C++ library for the<a href="http://wiki.freenetproject.org/FreenetFCPSpec2Point0">Freenet Client Protocol</a>.</li>
+<li><b>Mladen Kolar</b> will be building a definitive C/C++ library for the <a href="http://wiki.freenetproject.org/FreenetFCPSpec2Point0">Freenet Client Protocol</a>.</li></p>
 </ul><p>Congratulations to all of these students. Last year's Summer of Code yielded results including
 <a href="http://wiki.freenetproject.org/Thaw">Thaw</a>, <a href="http://wiki.freenetproject.org/Freemail">Freemail</a>,
 new low-level simulations and a great deal of work on the installer, packaging and general bugfixing. Even better,
-two of last year's students are now core developers themselves mentoring Summer of Code students this year.
+two of last year's students are now core developers themselves mentoring Summer of Code students this year !
