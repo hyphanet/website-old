@@ -42,9 +42,9 @@ function selectPage($lang_q, $page) {
 	if (isset($page))
 	{
 		#echo "common - page exists ".dirname(__FILE__).'/'.$page.'.inc.php';
-		if (file_exists(dirname(__FILE__).'/'.$page.'.inc.php')) {
+		if (file_exists(dirname(__FILE__).$page.'.inc.php')) {
 			#echo "file exists";
-			include dirname(__FILE__).'/'.$page.'.inc.php';							// include file with  $pages-array
+			include dirname(__FILE__).$page.'.inc.php';							// include file with  $pages-array
 			foreach ( $lang_q as $aLang => $relevance ) 							// loop through each language
 			{	
 				foreach ( $pages as $userlang => $path )        					// loop through each language-file
@@ -78,9 +78,9 @@ function otherLanguages() {
 	
 	if (isset($page))
 	{
-		if (file_exists(dirname(__FILE__).'/'.$page.'.inc.php')) 
+		if (file_exists(dirname(__FILE__).$page.'.inc.php')) 
 		{
-			include dirname(__FILE__).'/'.$page.'.inc.php';	
+			include dirname(__FILE__).$page.'.inc.php';	
 					
 			$out .= '<div id="additionalLang">:: &nbsp;';
 			
