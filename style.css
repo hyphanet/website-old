@@ -1,17 +1,51 @@
-.menu {
-	font-family: "Times New Roman", Georgia, Times, serif;
-	font-style: normal;
-	font-weight: bold;
-	line-height: 150%;
-	color: #000000;
-	text-decoration: none;
-}
-.body {
-	font-family: "Times New Roman", Georgia, Times, serif;
+div#menu {
+	 font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif; 
+	float:left;
 	font-style: normal;
 	font-weight: normal;
+	text-align: left;
+	line-height: 100%;
 	color: #000000;
+	background: #fafafa;
+	text-decoration: none;
+	margin-top: 15px;
 }
+
+
+div#top {
+		margin-top:5px;
+		background-image:url(/image/hdr_bg_tall.gif);
+		background-repeat:repeat;
+		width: 100%;
+		height: 51px;
+		}
+		
+div#content {
+	/*font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;*/
+	padding-left:20px;
+	font-style: normal;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	width: 600px;
+	float: left;
+
+}
+
+#content h2 {
+font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;
+}
+#content h3 {
+font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;
+padding: 20px 0px 0px 0px;
+
+}
+
+div#footer { text-align: center; }
+
+div#content li { list-style-type: square; }
+
+li { padding: 5px; }
 a:link { text-decoration: none; color: #0033AA }
 a:visited { text-decoration: none; color: #0033AA }
 a:hover { text-decoration: none; color: #0033AA }
@@ -20,3 +54,48 @@ a.menu:visited { color: #000000; text-decoration: none }
 a.menu:hover { color: #000000; text-decoration: none }
 
 div.hideit { display:none; }
+
+pre { 
+		background-color: #eee;
+		margin-left: 20px;
+		font-size:12px;
+		padding: 10px;
+		border: 1px dashed #ccc; 
+	}
+
+div#menu a  {
+				color:#09c;
+				text-decoration:none;
+				font-weight:200;
+			}
+	
+div#menu a:link {color:#000;}
+div#menu a:visited {color:#000;}
+div#menu a:hover {background-color:#eee;}
+
+.menu {
+		width: 155px;
+		font-size: 16px;		
+		list-style-type: none; 		
+		list-style-position: inside;
+		margin:0 0 0 1em; 
+		padding:0; 
+	  }
+	  
+.submenu { 
+			list-style-type: none; 
+			font-size: 75%; 
+		 }
+
+
+
+.menu ul {
+			list-style-type: square; 
+			margin:0 0 0 2em; 
+			padding:0;
+		 }
+
+
+.paper-text { padding: 10px 0px 0px 30px; }
+.videoimage { vertical-align: top; padding-top:14px; padding-left:7px;}
+.pdfimage { vertical-align: top; padding-top:14px;}

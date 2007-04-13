@@ -1,5 +1,7 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !-f
+RewriteRule ^(.+)\.html?lang=(.+)$ /index.php?page=$1&lang=$2 [L]
+RewriteRule ^(..)/(.+)\.html /index.php?page=$2&lang=$1 [L]
 RewriteRule ^(.+)\.html?mode=(.+)$ /index.php?page=$1&mode=$2 [L]
 RewriteRule ^(.+)\.html$ /index.php?page=$1 [L]
 
