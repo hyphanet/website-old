@@ -51,7 +51,7 @@ include 'includes/common.inc.php';
 <div id="content"><? 	include (escapeshellcmd($file));  ?>
 
 <div id="footer">
-<p><? echo otherLanguages(); ?></p>
+<!--<p><? //echo otherLanguages(); ?></p>-->
 <p>
 This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
 </div>
