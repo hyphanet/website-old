@@ -51,6 +51,7 @@ java -jar new_installer.jar
 <pre>
 wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz" alt="freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 cat freenet07.tar.gz | gzip -d | tar xv
+cd freenet
 ./bin/1run.sh
 ./run.sh start
 </pre>
