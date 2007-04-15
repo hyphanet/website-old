@@ -30,7 +30,10 @@ for a fuller analysis.</p>
 <p>Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition don't work as well; in particular, the installer won't run on those operating systems.</p>
 <p>If the installer doesn't work (something seriously wrong) then please <a href="https://bugs.freenetproject.org">let us know</a>, install Java, and try the Linux instructions below.</p>
 
-<h3>Mac OSX, Unix, and Linux</h3>
+<h3>Mac OSX</h3>
+<p><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.</p>
+
+<h3>Unix, and Linux</h3>
 <p>You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. </p>>
 <p>Java version 1.4.1 and later will work. Generally, we recommend using latest available version.</p>
 
@@ -50,8 +53,7 @@ cat freenet07.tar.gz | gzip -d | tar xv
 </pre>
 </p>
 
-<p>If wget isn't available on your operating system you can use curl... MacOS users can double click the downloaded file; it ought to work.</p>
-
+<h3>Notes</h3>
 <p>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
 <i>http://127.0.0.1:8888/</i> in your web browser to access Freenet's user
