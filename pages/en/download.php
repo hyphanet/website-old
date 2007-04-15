@@ -39,7 +39,10 @@ Freenet works best with
 Windows 95, 98 and ME (Millennium Edition) don't work as well; in particular, the installer won't run on those operating systems.<br>
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 
-<h3>Mac OSX, Unix, and Linux</h3>
+<h3>Mac OSX</h3>
+<a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.
+
+<h3>Unix, and Linux</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
 Java version 1.4.1 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 1.5 update 4. Generally, we recommend using Java 1.5.
 
