@@ -35,7 +35,7 @@ $menus = array(
 
 function lnk($text, $link) {
 ?>
-<li><a href="/<?=$link?>"><?=$text ?></a></li>
+<li><a href="<?=$link?>"><?=$text ?></a></li>
 <?
 }
 function page($text, $link) {
