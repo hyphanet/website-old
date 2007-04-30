@@ -2,35 +2,35 @@
 //    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(
-				'What is Freenet?' 	=> 'whatis',
-				'Philosophy' 		=> 'philosophy',
-				'News' 				=> 'news', 
-				'Download'			=> 'download',
-				'Documentation' 	=> 'documentation',
+				'What is Freenet?' 	=> '/whatis',
+				'Philosophy' 		=> '/philosophy',
+				'News' 				=> '/news', 
+				'Download'			=> '/download',
+				'Documentation' 	=> '/documentation',
 				'sub1' 				=> array(
-												'Install' 		=>'install',
-												'Connect' 		=> 'connect',
-												'Content'		=> 'content',
-												'Understand' 	=> 'understand',
-												'Freemail' 		=> 'freemail',
-												'Frost' 		=> 'frost',
-												'jSite'			=> 'jsite',
-												'Thaw'			=> 'thaw',
-												'FAQ' 			=> 'faq',
+												'Install' 		=>'/install',
+												'Connect' 		=> '/connect',
+												'Content'		=> '/content',
+												'Understand' 		=> '/understand',
+												'Freemail' 		=> '/freemail',
+												'Frost' 		=> '/frost',
+												'jSite'			=> '/jsite',
+												'Thaw'			=> '/thaw',
+												'FAQ' 			=> '/faq',
 												'Wiki'			=> 'http://wiki.freenetproject.org/'),  
-				'Donate'			=> 'donate',
-				'Sponsors'			=> 'sponsors',
-				'Developer' 		=> 'developer',
+				'Donate'			=> '/donate',
+				'Sponsors'			=> '/sponsors',
+				'Developer' 			=> '/developer',
 				'sub3' 				=> array(				
 												'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 												'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 												'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
 												'Bug Tracker' 	=> 'https://bugs.freenetproject.org/',
 												'Javadoc' 		=> 'http://emu.freenetproject.org/javadoc/'),
-				'Mailing Lists' 	=> 'lists',
-				'Tools' 			=> 'tools',
-				'Papers' 			=> 'papers',
-				'People' 			=> 'people' 
+				'Mailing Lists' 		=> '/lists',
+				'Tools' 			=> '/tools',
+				'Papers' 			=> '/papers',
+				'People' 			=> '/people' 
 	);
 
 function lnk($text, $link) {
