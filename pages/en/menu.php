@@ -72,11 +72,11 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if(0 == strcmp($page, '/documentation')) {
+		if ("$page" == '/documentation') {
 			showMenu($menus["$title"]);
 		}
 		
-		if (0 == strcmp($page, '/developer')) {
+		if ("$page" == '/developer') {
 			showMenu($menus["$title"]);
 		}
 	}
