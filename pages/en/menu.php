@@ -78,16 +78,16 @@ foreach($menus as $title => $link) {
 		} else {
 			lnk($title, $link);
 		}	
+		echo '</ul>';
 	}
 	else
 	{
-		if(strcmp($link, 'documentation')) {
-			showMenu('sub1');
-		} else if (strcmp($link, 'developer')) {
-			showMenu('sub2');
+		if(strcmp($page, 'documentation')) {
+			showMenu($menus['sub1']);
+		} else if (strcmp($previousLink, 'developer')) {
+			showMenu($menus['sub2']);
 		}
 	}
-	echo '</ul>';
 }
 ?>
 
