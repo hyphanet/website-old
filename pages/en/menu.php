@@ -2,42 +2,42 @@
 //    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(
-				'What is Freenet?' 	=> '/whatis',
-				'Philosophy' 		=> '/philosophy',
-				'News' 				=> '/news', 
-				'Download'			=> '/download',
-				'Documentation' 	=> '/documentation',
-				'sub1' 				=> array(
-												'Install' 		=>'/install',
-												'Connect' 		=> '/connect',
-												'Content'		=> '/content',
-												'Understand' 		=> '/understand',
-												'Freemail' 		=> '/freemail',
-												'Frost' 		=> '/frost',
-												'jSite'			=> '/jsite',
-												'Thaw'			=> '/thaw',
-												'FAQ' 			=> '/faq',
-												'Wiki'			=> 'http://wiki.freenetproject.org/'),  
-				'Donate'			=> '/donate',
-				'Sponsors'			=> '/sponsors',
-				'Developer' 			=> '/developer',
-				'sub2' 				=> array(				
-												'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
-												'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
-												'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
-												'Bug Tracker' 	=> 'https://bugs.freenetproject.org/',
-												'Javadoc' 		=> 'http://emu.freenetproject.org/javadoc/'),
-				'Mailing Lists' 		=> '/lists',
-				'Tools' 			=> '/tools',
-				'Papers' 			=> '/papers',
-				'People' 			=> '/people' 
-	);
+		'What is Freenet?' 	=> '/whatis',
+		'Philosophy' 		=> '/philosophy',
+		'News' 				=> '/news', 
+		'Download'			=> '/download',
+		'Documentation' 	=> '/documentation',
+		'sub1' 				=> array(
+			'Install' 		=>'/install',
+			'Connect' 		=> '/connect',
+			'Content'		=> '/content',
+			'Understand' 		=> '/understand',
+			'Freemail' 		=> '/freemail',
+			'Frost' 		=> '/frost',
+			'jSite'			=> '/jsite',
+			'Thaw'			=> '/thaw',
+			'FAQ' 			=> '/faq',
+			'Wiki'			=> 'http://wiki.freenetproject.org/'),  
+		'Donate'			=> '/donate',
+		'Sponsors'			=> '/sponsors',
+		'Developer' 			=> '/developer',
+		'sub2' 				=> array(				
+			'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
+			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
+			'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
+			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/',
+			'Javadoc' 		=> 'http://emu.freenetproject.org/javadoc/'),
+		'Mailing Lists' 		=> '/lists',
+		'Tools' 			=> '/tools',
+		'Papers' 			=> '/papers',
+		'People' 			=> '/people' 
+		);
 
-function lnk($text, $link) {
-?>
-<li><a href="<?=$link?>"><?=$text ?></a></li>
-<?
-}
+		function lnk($text, $link) {
+			?>
+				<li><a href="<?=$link?>"><?=$text ?></a></li>
+				<?
+		}
 
 function showMenu($category) {
 	echo '<ul class="submenu">';	
@@ -52,25 +52,25 @@ function showMenu($category) {
 }
 
 function page($text, $link) {
-  global $page;
-  //far away from perfect but better than nothing!
-//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
-  if ($link == $page) {
-?>
-<li><span style="font-weight: 800; background:#eee;"><?=$text ?></span></li>
-<?
-  } else {
-	lnk($text, $link.".html");
-  }
+	global $page;
+	//far away from perfect but better than nothing!
+	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
+	if ($link == $page) {
+		?>
+			<li><span style="font-weight: 800; background:#eee;"><?=$text ?></span></li>
+			<?
+	} else {
+		lnk($text, $link.".html");
+	}
 }
 /*
-foreach($menus[$mode] as $title => $link) {
-	if (strcmp(substr($link, 0, 4), 'http')) {
-		page($title, $link);
-	} else {
-		lnk($title, $link);
-	}
-} */
+   foreach($menus[$mode] as $title => $link) {
+   if (strcmp(substr($link, 0, 4), 'http')) {
+   page($title, $link);
+   } else {
+   lnk($title, $link);
+   }
+   } */
 
 
 echo '<ul class="menu">';
@@ -90,8 +90,7 @@ foreach($menus as $title => $link) {
 		} else if (strcmp($title, 'Developer')) {
 			showMenu('sub2');
 		}
-   	}
+	}
 	echo '</ul>';
 }
 ?>
-
