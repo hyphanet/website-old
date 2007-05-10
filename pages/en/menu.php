@@ -31,7 +31,7 @@ $menus = array(
 		'Tools' 			=> '/tools',
 		'Papers' 			=> '/papers',
 		'People' 			=> '/people' 
-		);
+);
 
 function lnk($text, $link) {
 	echo '<li><a href="'.$link.'">'.$text.'</a></li>';
@@ -54,9 +54,7 @@ function page($text, $link) {
 	//far away from perfect but better than nothing!
 	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
 	if ($link == $page) {
-		?>
-			<li><span style="font-weight: 800; background:#eee;"><?=$text ?></span></li>
-			<?
+		echo '<li><span style="font-weight: 800; background:#eee;">'.$text.'</span></li>';
 	} else {
 		lnk($text, $link.".html");
 	}
