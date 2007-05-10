@@ -81,9 +81,9 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if(strcmp($title, 'Documentation')) {
+		if(strcmp($link, 'documentation')) {
 			showMenu('sub1');
-		} else if (strcmp($title, 'Developer')) {
+		} else if (strcmp($link, 'developer')) {
 			showMenu('sub2');
 		}
 	}
