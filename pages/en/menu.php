@@ -21,7 +21,7 @@ $menus = array(
 				'Donate'			=> '/donate',
 				'Sponsors'			=> '/sponsors',
 				'Developer' 			=> '/developer',
-				'sub3' 				=> array(				
+				'sub2' 				=> array(				
 												'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 												'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 												'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
@@ -72,23 +72,19 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if(isset($_GET["$title"]) {
-				echo '<ul class="submenu">';	
-				foreach ($link as $subtitle => $sublink) {
+		if(strcmp($title, 'Documentation') || strcmp($title, 'Developer')) {
+			echo '<ul class="submenu">';	
+			foreach ($link as $subtitle => $sublink) {
 				if (strcmp(substr($sublink, 0, 4), 'http')) {
-				page($subtitle, $sublink);
+					page($subtitle, $sublink);
 				} else {
-				lnk($subtitle, $sublink);
-
-
-				/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
+					lnk($subtitle, $sublink);
 				}
-		} else {
-			echo '<a href="?"'.$title.'=show"><small>expand</small></a>';
+			/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
+			}
 		}
    	}
 	echo '</ul>';
-}
 }
 ?>
 
