@@ -59,15 +59,6 @@ function page($text, $link) {
 		lnk($text, $link.".html");
 	}
 }
-/*
-   foreach($menus[$mode] as $title => $link) {
-   if (strcmp(substr($link, 0, 4), 'http')) {
-   page($title, $link);
-   } else {
-   lnk($title, $link);
-   }
-   } */
-
 
 echo '<ul class="menu">';
 foreach($menus as $title => $link) {
@@ -78,16 +69,19 @@ foreach($menus as $title => $link) {
 		} else {
 			lnk($title, $link);
 		}	
-		echo '</ul>';
 	}
 	else
 	{
-		if(strcmp($page, 'documentation')) {
-			showMenu($menus['sub1']);
-		} else if (strcmp($previousLink, 'developer')) {
-			showMenu($menus['sub2']);
+		if(0 == strcmp($page, '/documentation')) {
+			showMenu($menus["$title"]);
+		}
+		
+		if (0 == strcmp($page, '/developer')) {
+			showMenu($menus["$title"]);
 		}
 	}
+	echo '</ul>';
 }
+echo '</ul>';
 ?>
 
