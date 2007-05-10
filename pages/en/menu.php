@@ -33,11 +33,9 @@ $menus = array(
 		'People' 			=> '/people' 
 		);
 
-		function lnk($text, $link) {
-			?>
-				<li><a href="<?=$link?>"><?=$text ?></a></li>
-				<?
-		}
+function lnk($text, $link) {
+	echo '<li><a href="'.$link.'">'.$text.'</a></li>';
+}
 
 function showMenu($category) {
 	echo '<ul class="submenu">';	
@@ -94,3 +92,4 @@ foreach($menus as $title => $link) {
 	echo '</ul>';
 }
 ?>
+
