@@ -80,7 +80,6 @@ foreach($menus as $title => $link) {
 			showMenu($menus["$title"]);
 		}
 	}
-	echo '</ul>';
 }
 echo '</ul>';
 ?>
