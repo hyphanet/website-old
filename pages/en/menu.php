@@ -47,6 +47,7 @@ function showMenu($category) {
 		}
 		/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
 	}
+	echo '</ul>';
 }
 
 function page($text, $link) {
