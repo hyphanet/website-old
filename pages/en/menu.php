@@ -38,6 +38,19 @@ function lnk($text, $link) {
 <li><a href="<?=$link?>"><?=$text ?></a></li>
 <?
 }
+
+function showMenu($category) {
+	echo '<ul class="submenu">';	
+	foreach ($category as $subtitle => $sublink) {
+		if (strcmp(substr($sublink, 0, 4), 'http')) {
+			page($subtitle, $sublink);
+		} else {
+			lnk($subtitle, $sublink);
+		}
+		/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
+	}
+}
+
 function page($text, $link) {
   global $page;
   //far away from perfect but better than nothing!
@@ -72,16 +85,10 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if(strcmp($title, 'Documentation') || strcmp($title, 'Developer')) {
-			echo '<ul class="submenu">';	
-			foreach ($link as $subtitle => $sublink) {
-				if (strcmp(substr($sublink, 0, 4), 'http')) {
-					page($subtitle, $sublink);
-				} else {
-					lnk($subtitle, $sublink);
-				}
-			/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
-			}
+		if(strcmp($title, 'Documentation')) {
+			showMenu('sub1');
+		} else if (strcmp($title, 'Developer')) {
+			showMenu('sub2');
 		}
    	}
 	echo '</ul>';
