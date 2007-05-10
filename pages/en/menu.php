@@ -72,17 +72,20 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		echo '<ul class="submenu">';	
-			foreach ($link as $subtitle => $sublink) {
-					if (strcmp(substr($sublink, 0, 4), 'http')) {
-						page($subtitle, $sublink);
-					} else {
-						lnk($subtitle, $sublink);
+		if(isset($_GET["$title"]) {
+				echo '<ul class="submenu">';	
+				foreach ($link as $subtitle => $sublink) {
+				if (strcmp(substr($sublink, 0, 4), 'http')) {
+				page($subtitle, $sublink);
+				} else {
+				lnk($subtitle, $sublink);
 
-				
-			/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
+
+				/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
+				}
+		} else {
+			echo '<a href="?"'.$title.'=show"><small>expand</small></a>';
 		}
-   		
    	}
 	echo '</ul>';
 }
