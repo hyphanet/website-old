@@ -14,6 +14,20 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
+<p><b>15th May, 2007 - John Pozadzides donates $10,000 to Freenet Project</b></p>
+John Pozadzides, founder of <a href="http://HTMLHelp.com">HTMLHelp.com</a> and former Vice President of Sales for <a href="http://savvis.net">SAVVIS Communications</a>, has donated $10,000 to the Freenet Project to fund ongoing
+development of the Freenet software.  John says:
+<blockquote>
+More than a decade ago when I founded HTMLHelp.com I had a vision of the Internet as the “great equalizer”. I believed that it would free us from the content filtering imposed by mega-media companies and governments. It turns out this has been true for most of us - but not all.
+<p/>
+I view supporting the Freenet Project as a logical extension of that original dream, this time to include people who were previously unable to freely participate.
+</blockquote>
+This donation will be used to fund general development, and in particular, improvements to software usability and stability.  A specific
+goal is the completion of Freenet's "opennet" functionality which will make it far easier for many users to get Freenet up and running.
+<p/>
+Anyone is free to make their own donation to the project, via a variety of convenient methods including Paypal and Google Checkout through our <a href="donate.html">donations page</a>.
+<p/>
+You can read John's blog entry announcing this donation <a href="http://onemansblog.com/2007/05/15/privacy-equals-freedom-support-the-freenet-project/">here</a>.
 <p><b>12 March, 2007 - Google Summer of Code update</b></p>
 <p>We have selected 6 students to work for us over the summer, paid for by 
 <a href="http://code.google.com/soc/freenet/about.html">Google Summer of Code</a>.<p>
