@@ -37,8 +37,8 @@ There are a number of ways to add peer node references.
 
 <h3>Fproxy</h3>
 <p>Connecting peer nodes with FProxy can be done in several ways. Common for all these are that they are all done under the 
-<span style="font-weight:bold;">Darknet</span> menu item or using the <a href="http://127.0.0.1:8888/darknet/">
-http://127.0.0.1:8888/darknet/</a> link. Below is the thing that makes it all happen:</p>
+<span style="font-weight:bold;">Darknet</span> menu item or using the <a href="http://127.0.0.1:8888/friends/">
+http://127.0.0.1:8888/friends/</a> link. Below is the thing that makes it all happen:</p>
 
 <img src="/image/add_peers.png">
 <p>As you can see, there are three ways of getting a node reference from someone else:</p>
@@ -52,8 +52,8 @@ the <span style="font-weight:bold;">private</span> box is checked, and press <sp
 <p>The paste-bin then returns an URL (e.g. http://dark-code.bulix.org/yuf01h-34676?raw), which can be shared with others. Make sure that
 you add <span style="font-weight:bold;">?raw</span> to the link. This makes the link point only to the actual pasted data, with no extra 
 design elements.</p>
-<p>Your own Freenet reference can be found on the <a href="http://127.0.0.1:8888/darknet/">
-http://127.0.0.1:8888/darknet/</a> page, under the caption <span style="font-weight:bold;">My reference</span>.
+<p>Your own Freenet reference can be found on the <a href="http://127.0.0.1:8888/friends/">
+http://127.0.0.1:8888/friends/</a> page, under the caption <span style="font-weight:bold;">My reference</span>.
 It might look something like this (cut for screen purposes):</p>
 
 <pre>

@@ -65,7 +65,7 @@ interface. <BR> &nbsp;<BR> </P>
 <h3>So it's running, what do I do?</h3>
 
 You need to get connected.  If you know anyone running Freenet, ask them 
-for their reference, and give them yours.  If you visit <pre>http://127.0.0.1:8888/darknet/</pre> 
+for their reference, and give them yours.  If you visit <pre>http://127.0.0.1:8888/friends/</pre> 
 in your browser, you can see your reference at the bottom and you can add
 other people's references, either by cutting and pasting the reference
 itself, or by pointing Freenet to a URL or a file containing their
