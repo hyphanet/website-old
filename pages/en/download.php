@@ -62,6 +62,9 @@ slow computer, you may need to wait about 30 seconds), and visit
 <pre>http://127.0.0.1:8888/</pre> in your web browser to access Freenet's user
 interface. <BR> &nbsp;<BR> </P>
 
+<h3>Offline installation</h3>
+Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online installer).
+
 <h3>So it's running, what do I do?</h3>
 
 You need to get connected.  If you know anyone running Freenet, ask them 
