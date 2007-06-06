@@ -35,7 +35,7 @@ for a fuller analysis.</p>
 
 <h3>Unix, and Linux</h3>
 <p>You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. </p>>
-<p>Java version 1.4.1 and later will work. Generally, we recommend using latest available version.</p>
+<p>Java version 1.4.2 and later will work. Generally, we recommend using latest available version.</p>
 
 <p>Type on a command line : 
 <pre>
