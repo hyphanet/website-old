@@ -83,7 +83,7 @@ Each file that exists on Freenet has a key associated
 with it. Freenet 0.7 has various types of keys. Keys 
 are used for everything on freenet, and are a kind of 
 <a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
-(e.g. freenet:KSK@gpl.txt). 
+(e.g. freenet:=KSK@sample.txt). 
 </p>
 <p>
 Most keys are hashes: there is no notion of semantic 
@@ -117,7 +117,7 @@ CHKs are the most fundamental. All files over 1kB are ultimately divided into
 one or more 32kB CHKs. CHKs' filenames are determined only by their contents. 
 SSKs are the other basic type. These combine a public key with a human-readable 
 filename and therefore allow for freesites. KSKs are a variant of SSKs where 
-everything is determined by a simple human readable filename (e.g. KSK@gpl.txt). 
+everything is determined by a simple human readable filename (e.g. =KSK@sample.txt). 
 These are spammable but convenient in some cases. And USKs are a form of 
 updatable keys especially useful for freesites and 
 <span style="font-weight: bold;">Address Resolution Keys</span>.

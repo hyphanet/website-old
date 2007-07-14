@@ -80,7 +80,7 @@ Version
 Revision=1
 EndPart
 Document
-Redirect.Target=KSK@gpl.txt
+Redirect.Target==KSK@sample.txt
 EndPart
 Document
 Name=target1
@@ -105,7 +105,7 @@ for the interface to indicate what names are possible, in a
 directory-listing sort of interface. </p>
 
 <p> Requesting KSK@metadata-test// should invoke the redirect to
-KSK@gpl.txt, and return results identical to requesting KSK@gpl.txt
+=KSK@sample.txt, and return results identical to requesting =KSK@sample.txt
 directly.  The reason for this is that the document name requested is
 "", and that matches the Name of the first (non-version) Part, which
 doesn't have a Name field, so is assumed to have name "".</p>

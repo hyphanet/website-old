@@ -233,7 +233,7 @@ may have listed different fields.</p>
 
 ClientGet
 RemoveLocalKey=&lt;true|false&gt;
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 HopsToLive=&lt;number: hops to live&gt;
 EndMessage
 </pre>
@@ -314,7 +314,7 @@ simply terminate the connection.  In a successful Request, a
 ClientPut
 RemoveLocalKey=&lt;true|false&gt;
 HopsToLive=&lt;number: hops to live&gt;
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 DataLength=&lt;number: number of bytes of metadata + data&gt;
 [MetadataLength=&lt;number: default = 0, number of bytes of metadata&gt;]
 Data 
@@ -353,7 +353,7 @@ yet:</p>
 <pre>(Node -&gt; Client)
 
 Pending
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 Timeout=&lt;number: in milliseconds&gt;
 [PublicKey=&lt;string: public key&gt;]
 [PrivateKey=&lt;string: private key&gt;]
@@ -370,7 +370,7 @@ EndMessage
 <pre>(Node -&gt; Client)
 
 Success
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 [PublicKey=&lt;string: public key&gt;]
 [PrivateKey=&lt;string: private key&gt;]
 EndMessage
@@ -404,7 +404,7 @@ Data
 <pre>(Node -&gt; Client)
 
 Success 
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 EndMessage
 </pre>
 
@@ -485,7 +485,7 @@ the <code>Public</code> field set to the public key.</p>
 <pre>(Client -&gt; Node)
 
 GetSize
-URI=&lt;string: fully specified URI, such as freenet:KSK@gpl.txt&gt;
+URI=&lt;string: fully specified URI, such as freenet:=KSK@sample.txt&gt;
 EndMessage
 </pre>
 

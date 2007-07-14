@@ -124,7 +124,7 @@ To insert a Content Hash Key (CHK) with file "gpl.txt":
 
 To insert a Keyword Signed Key (KSK) with file "gpl.txt" against a
 freenet node at address raven.cp.net with hops to live 10:
-  fcpput --htl 10 --address raven.cp.net KSK@gpl.txt gpl.txt
+  fcpput --htl 10 --address raven.cp.net =KSK@sample.txt gpl.txt
 
 To insert a Subspace Signed Key (SSK) with file "gpl.txt":
   fcpput SSK@LNlEaG7L24af-OH~CKmyPOvJ~EM/ gpl.txt
