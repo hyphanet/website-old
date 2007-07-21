@@ -98,10 +98,9 @@ applications for freenet</a>.
 RAM or more (especially if using Windows XP). <BR>
 &nbsp;<BR>
 <h3>Upgrading</h3>
-Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts.
-
-After installing Freenet, Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.
-<p> Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.
+<p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
+<ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
+<li>Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.</li></ul>
 <p>
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from <a href="https://emu.freenetproject.org/svn/trunk/freenet/">https://emu.freenetproject.org/svn/trunk/freenet/</a>.
