@@ -26,9 +26,8 @@ It will automatically install Freenet and other required components for you. Whe
 <BR>
 Freenet works best with 
 <ul>
-<li><b>Windows XP Professional</b>,</li>
-<li><b>Windows 2000 Professional</b> or</li> 
-<li><b>Windows NT 4.x</b>.</li></b> 
+<li><b>Windows XP Professional</b> or</li>
+<li><b>Windows 2000 Professional</b></li> 
 </ul>
 Windows 95, 98 and ME (Millennium Edition) don't work as well; in particular, the installer won't run on those operating systems.<br>
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
