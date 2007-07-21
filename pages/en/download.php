@@ -86,9 +86,9 @@ yours before your nodes can communicate.</b>
 
 <h3>So I'm connected, what do I do?</h3>
 
-You can find links to some pages in the index on the FProxy homepage at 
-<pre>http://127.0.0.1:8888/</pre>.  You can find links to some <a
-href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
+You can find links to some pages in the index on the FProxy homepage at:
+<pre>http://127.0.0.1:8888/</pre>
+You can find links to some <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
 applications for freenet</a>.
 	
 <h3>Hardware requirements</h3>
