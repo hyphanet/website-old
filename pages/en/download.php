@@ -34,7 +34,8 @@ Also we strongly recommend you not run an OS for which security support has been
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 
 <h3>Mac OSX</h3>
-<a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.
+<a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
+If this doesn't work, try the linux instructions below.
 
 <h3>Unix, and Linux</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
