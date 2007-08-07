@@ -59,6 +59,8 @@ cd freenet
 </p>
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 
+<h3>After installing</h3>
+
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit
 <pre>http://127.0.0.1:8888/</pre> in your web browser to access Freenet's user
