@@ -28,6 +28,10 @@ Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employ
 demonstration to accompany the talk is <a 
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
 </td></tr>
+<tr><td class="pdfimage"><img src="/image/pdf.icon.jpg"></td><td class="paper-text">
+<a href="http://www.math.chalmers.se/~ossa/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br>
+A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
+</td></tr>
 <tr><td class="pdfimage">&nbsp;</td><td class="paper-text">
 <a href="/ngrouting.html">Next Generation Routing Algorithm</a><br>
 This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
