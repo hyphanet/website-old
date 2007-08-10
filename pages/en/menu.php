@@ -25,6 +25,7 @@ $menus = array(
 			'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 			'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
+			'SVN Repository'	=> 'https://emu.freenetproject.org/svn/trunk/',
 			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/',
 			'Javadoc' 		=> 'http://emu.freenetproject.org/javadoc/'),
 		'Mailing Lists' 		=> '/lists',
