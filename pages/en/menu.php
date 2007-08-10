@@ -73,11 +73,11 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if ("$page" == '/documentation') {
+		if ("$page" == '/documentation' || in_array("$page", $menus["sub1"])) {
 			showMenu($menus["$title"]);
 		}
 		
-		if ("$page" == '/developer') {
+		if ("$page" == '/developer' || in_array("$page", $menus["sub2"])) {
 			showMenu($menus["$title"]);
 		}
 	}
