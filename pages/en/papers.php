@@ -32,6 +32,11 @@ href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> av
 <a href="http://www.math.chalmers.se/~ossa/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br>
 A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 </td></tr>
+<tr><td></td><td class="paper-text">
+<a href="http://crisp.cs.du.edu/pitchblack/">Routing in the Dark: Pitch Black</a><br>
+A paper will soon be released describing some attacks on Freenet 0.7's 
+location swapping algorithm.
+</td></tr>
 <tr><td class="pdfimage">&nbsp;</td><td class="paper-text">
 <a href="/ngrouting.html">Next Generation Routing Algorithm</a><br>
 This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
