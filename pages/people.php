@@ -24,3 +24,7 @@ and has helped on other matters like the current installer.</p>
 <p><b>Scott Miller</b><br>
 Scott is responsible for the implementation of much of the cryptography
 elements within Freenet.</p>
+
+<p><b>Steven Starr</b><br>
+Steven helps with administration of Freenet Project Inc, and is an advisor
+to the project on business and publicity matters.</p>
