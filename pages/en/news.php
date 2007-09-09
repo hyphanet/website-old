@@ -5,8 +5,9 @@ old new build announcements) -->
 <!-- removed due to large donation - its unfair to imply that the project
 	is at death's door
 <h3>Financial Status</h3>
-The project's current Paypal balance is <b><? 
-include("paypaltotal.txt"); 
+The project's current Paypal balance is <b>
+<? 
+#include("paypaltotal.txt"); 
 ?></b>.  The project requires approximately $2,300 per month to pay for 
 its 
 full time developer, Matthew Toseland.  If you would like to help 
