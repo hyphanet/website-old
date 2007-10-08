@@ -406,10 +406,10 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 <P> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
 
 <p><b id="access">How can I access the code and website?</b><br>
-We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="https://emu.freenetproject.org/svn/trunk/">Emu</a>.
+We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="http://freenet.googlecode.com/svn/trunk/">Freenet's subversion repository</a>.
 
 <p><b id="devtools">What tools do I need to help develop?</b><br>
-To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://emu.freenetproject.org/svn/trunk/freenet">http://emu.freenetproject.org/svn/trunk/freenet</a>using <a href="http://subversion.tigris.org/">subversion</a>,
+To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). To do web development you
 will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.

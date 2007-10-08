@@ -70,13 +70,13 @@
  bleeding edge, access the source from SVN as follows (all on one line):</p>
 
  <p><code>svn<br>
-&nbsp;&nbsp;&nbsp; co https://emu.freenetproject.org/svn/trunk/apps/fcptools/<br>
+&nbsp;&nbsp;&nbsp; co http://freenet.googlecode.com/svn/trunk/apps/fcptools/<br>
 </code></p>
  <p>This will download the fcptools source from SVN HEAD into the directory 
  fcptools. From there the normal GNU/Make commands will build the source 
  (check INSTALL.* and README.* under the fcptools directory for all the 
  details).</p>
- <p><a href="https://emu.freenetproject.org/svn/trunk/apps/fcptools/">
+ <p><a href="http://freenet.googlecode.com/svn/trunk/apps/fcptools/">
  Follow this link</a> to browse the  code.</p>
 
  <h2>Using FCPTools</h2>
