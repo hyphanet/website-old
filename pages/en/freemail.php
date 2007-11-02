@@ -3,7 +3,7 @@
 <p>Freemail is an email system for Freenet. It allows you to send anonymous emails to other Freenet users using your standard email
 client. It is currently not bundled in the Freenet installer, and has to be downloaded separately.<p>
 
-<p>You can download the latest pre-compiled version from <a href="http://downloads.freenetproject.org/alpha/Freemail/">http://downloads.freenetproject.org/alpha/Freemail/</a></p>
+<p>You can download the latest pre-compiled version from <a href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a></p>
 
 <h3>The short version</h3>
 
