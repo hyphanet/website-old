@@ -33,3 +33,7 @@ to the project on business and publicity matters.</p>
 Julien (batosai) is responsible for the French translation of Freenet's user 
 interface, who has also worked on a <a href="http://www.freenet-doc.fr">French 
 help site</a> for Freenet.</p>
+
+<p>And hundreds of others, who either haven't asked to be added here, who 
+prefer to remain nameless, or who we just haven't got around to thanking. 
+Not to mention thousands of users/testers!</p>
