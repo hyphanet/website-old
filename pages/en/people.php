@@ -36,4 +36,4 @@ help site</a> for Freenet.</p>
 
 <p>And hundreds of others, who either haven't asked to be added here, who 
 prefer to remain nameless, or who we just haven't got around to thanking. 
-Not to mention thousands of users/testers!</p>
+Not to mention thousands of users, tester, and <a href="/sponsors.html">donors</a>!</p>
