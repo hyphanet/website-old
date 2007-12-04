@@ -29,3 +29,7 @@ elements within Freenet.</p>
 Steven helps with administration of Freenet Project Inc, and is an advisor    
 to the project on business and publicity matters.</p>
 
+<p><b>Julien Cornuwel</b><br>
+Julien (batosai) is responsible for the French translation of Freenet's user 
+interface, who has also worked on a <a href="http://www.freenet-doc.fr">French 
+help site</a> for Freenet.</p>
