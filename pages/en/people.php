@@ -29,6 +29,16 @@ elements within Freenet.</p>
 Steven helps with administration of Freenet Project Inc, and is an advisor    
 to the project on business and publicity matters.</p>
 
+<p><b>Michael Rogers</b><br>
+Michael has mostly contributed detailed simulations as part of the Google 
+Summer of Code. He has been helpful in designing the 
+<a href="http://wiki.freenetproject.org/NewTransportLayer">new transport layer</a>.</p>
+
+<p><b>Dave Baker</b><br>
+Dave's main contribution has been <a href="http://freenetproject.org/freemail.html">Freemail</a>, 
+his Summer of Code project to build a working email-over-freenet system, as well as some 
+debugging and core work in various places.</p>
+
 <p><b>Julien Cornuwel</b><br>
 Julien (batosai) is responsible for the French translation of Freenet's user 
 interface, who has also worked on a <a href="http://www.freenet-doc.fr">French 
@@ -36,7 +46,7 @@ help site</a> for Freenet.</p>
 
 <p><b>Robert Hailey</b><br>
 Robert has helped improve the speed and security of Freenet by finding two
-<b>major</b> bugs.</p>
+<b>major</b> bugs, and has recently contributed some code.</p>
 
 <p>And <b>hundreds of others</b>, who either haven't asked to be added here, who 
 prefer to remain nameless, or who we just haven't got around to thanking. 
