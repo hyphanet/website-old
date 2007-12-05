@@ -70,12 +70,12 @@ The next step is to create a password for your account. The syntax to create a p
 java -jar Freemail.jar --passwd [username] [password]
 </pre>
 <p>
-To create the password <span style="font-weight:bold;">secretpass</span>for the user <span style="font-weight:bold;">john</span>, write:
+To create the password <span style="font-weight:bold;">secretpass</span> for the user <span style="font-weight:bold;">john</span>, write:
 </p>
 <pre>
 java -jar Freemail.jar --passwd john secretpass
 </pre>
-<p>Now we have an account, a password for that account and a rather lenghty Freemail-address. The problem is that not many people in the
+<p>Now we have an account, a password for that account and a rather lengthy Freemail-address. The problem is that not many people in the
 world will be able to remember that Freemail-address. The solution to this problem is to create a short address that points to the long
 one:</p>
 <p>
