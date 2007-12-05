@@ -50,4 +50,4 @@ Robert has helped improve the speed and security of Freenet by finding two
 
 <p>And <b>hundreds of others</b>, who either haven't asked to be added here, who 
 prefer to remain nameless, or who we just haven't got around to thanking. 
-Not to mention thousands of users, tester, and <a href="/sponsors.html">donors</a>!</p>
+Not to mention thousands of users, testers, and <a href="/sponsors.html">donors</a>!</p>
