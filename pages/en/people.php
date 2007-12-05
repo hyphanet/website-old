@@ -15,8 +15,7 @@ and stability of the network.</p>
 
 <p><b>Oskar Sandberg</b><br>
 Oskar was also one of the earliest contributors to the Freenet project, and
-continues to play a core role in ongoing development: he suggested the
-swapping algorithm at the core of Freenet 0.7.</p>
+continues to play a core role in ongoing development.</p>
 
 <p><b>Florent Daigni&egrave;re</b><br>
 Florent has been our system administrator since around the time 0.7 was started,
