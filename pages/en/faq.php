@@ -417,10 +417,10 @@ identifying someone making requests on Freenet.</p>
 Node you talk to, and even if you limit yourself to talk only to trusted
 nodes (a feature that will be implemented in the future), they will
 have to talk to the rest of the network at some time or another. The
-anonymity that Freenet
-offers is really just obscurity in the fact that it is hard to prove
-that your node wasn't proxying the request for or insert of data on
-behalf of somebody else (who might also just have been proxying it).</p>
+anonymity that Freenet offers is really just obscurity in the fact that 
+it is hard to prove that your node wasn't proxying the request for or 
+insert of data on behalf of somebody else (who might also just have 
+been proxying it).</p>
 <p>The problem is that the only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
