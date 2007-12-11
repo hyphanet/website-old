@@ -426,7 +426,7 @@ these are permanent, fixed connections to people you actually know. This
 greatly limits your exposure as your attacker will need to get connected to 
 you in order to attack you, however on <a href="http://wiki.freenetproject.org/OpenNet">
 opennet</a> aka the <a href="http://127.0.0.1:8888/strangers/">Strangers</a> 
-network, the attacker can trivially connect to you. However, once he does manage to
+network, he can get connected very easily. Once he does manage to
 connect to you, he can probably work out what you are uploading/downloading, 
 especially if it consists of large files or other content that can be correlated 
 over the long-term such as a frost identity.</p>
