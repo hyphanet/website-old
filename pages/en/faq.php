@@ -426,10 +426,14 @@ these are permanent, fixed connections to people you actually know. This
 greatly limits your exposure as your attacker will need to get connected to 
 you in order to attack you, however on <a href="http://wiki.freenetproject.org/OpenNet">
 opennet</a> aka the <a href="http://127.0.0.1:8888/strangers/">Strangers</a> 
-network, he can get connected very easily. Once he does manage to
-connect to you, he can probably work out what you are uploading/downloading, 
-especially if it consists of large files or other content that can be correlated 
-over the long-term such as a frost identity.</p>
+network, he can get connected very easily. The whole darknet model assumes 
+that attacking the social network is far more expensive than 
+<a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a>
+opennet nodes and connecting to them (or blocking them to attack the whole 
+network; the Chinese firewall for example blocks Freenet 0.5). Anyway, once an
+attacker manages to connect to you, he can probably work out what you are 
+uploading/downloading, especially if it consists of large files or other 
+content that can be correlated over the long-term such as a frost identity.</p>
 <p>The only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
