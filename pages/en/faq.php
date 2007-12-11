@@ -434,7 +434,7 @@ and connecting to nodes (which is technically very easy). One significant
 advantage over Tor etc is that if enough users only connect to Friends, it is very
 difficult to block the entire network; blocking Mixmaster or the current Tor on 
 the other hand is very easy.
-<p>The only way that you can offer true
+<p>The only way that we can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
 through (a la Mixmaster). There are plans to implement 
