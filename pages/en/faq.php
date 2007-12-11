@@ -414,7 +414,7 @@ traffic analysis, compromising any given majority of the nodes, etc.)
 that these were designed to counter would probably be successful in
 identifying someone making requests on Freenet.</p>
 <p>Your identity is always visible to the nodes you are actually connected to.
-They know what keys your node sends requests for: your anonymity against them
+They know what keys your node requests: your anonymity against them
 consists in a limited level of plausible deniability, that maybe you are 
 forwarding these requests for some other node. Unfortunately, your peers can do 
 <a href="http://wiki.freenetproject.org/CorrelationAttacks">correlation 
