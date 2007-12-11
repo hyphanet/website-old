@@ -419,21 +419,18 @@ is a limited level of plausible deniability, that maybe you are
 forwarding these requests for some other node. Unfortunately, your peers can do 
 <a href="http://wiki.freenetproject.org/CorrelationAttacks">correlation 
 attacks</a> to figure out which requests are from you and which requests are from
-your peers or somebody else. One key thing you can do to protect yourself is
-to get lots of <a href="http://127.0.0.1:8888/friends/">"Friends"</a>
+your peers or somebody else. These attacks rely on the attacker knowing what
+the keys are for, and there being lots of them, so for example, a big splitfile, 
+a big freesite inserted regularly, a Frost poster maybe who uploads files too.</p>
+<p>At the moment, the most important thing you can do to protect yourself is to 
+get lots of <a href="http://127.0.0.1:8888/friends/">"Friends"</a>
 aka <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> connections:
-these are permanent, fixed connections to people you actually know. This 
-greatly limits your exposure as your attacker will need to get connected to 
-you in order to attack you, however on <a href="http://wiki.freenetproject.org/OpenNet">
-opennet</a> aka the <a href="http://127.0.0.1:8888/strangers/">Strangers</a> 
-network, he can get connected very easily. The whole darknet model assumes 
-that attacking the social network is far more expensive than 
-<a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a>
-opennet nodes and connecting to them (or blocking them to attack the whole 
-network; the Chinese firewall for example blocks Freenet 0.5). Anyway, once an
-attacker manages to connect to you, he can probably work out what you are 
-uploading/downloading, especially if it consists of large files or other 
-content that can be correlated over the long-term such as a frost identity.</p>
+these are permanent, fixed connections to people you actually know. Once you have 
+enough, you can turn off <a href="http://wiki.freenetproject.org/OpenNet">opennet</a>,
+and only connect to people you know. This makes it very much more expensive for an 
+attacker, as he has to infiltrate the social network, rather than just 
+<a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a> the opennet
+and connecting to nodes (which is technically very easy).
 <p>The only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
