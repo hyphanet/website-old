@@ -409,7 +409,6 @@ You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</
 Short answer: Probably yes.</p>
 <p>Long answer:</p>
 <p>Freenet does not offer true anonymity in the way that the <i>Mixmaster</i>
-
 and cypherpunk remailers do. Most of the non-trivial attacks (advanced
 traffic analysis, compromising any given majority of the nodes, etc.)
 that these were designed to counter would probably be successful in
@@ -425,14 +424,13 @@ behalf of somebody else (who might also just have been proxying it).</p>
 <p>The problem is that the only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
-through (a la Mixmaster). Freenet's
-
-dynamic routing cannot offer that, so to attain true anonymity you have
-to send the message through an external network of anonymous remailers
-first (a future SMTP-&gt;Freenet bridge would make this possible).
-There are also plans for doing mixmaster-style injection of requests
-over the "standard" protocol, however this probably won't be implemented
-before version 1.0, which is still some way off.</p>
+through (a la Mixmaster). Freenet's dynamic routing cannot offer that, 
+so to attain true anonymity you have to send the message through an 
+external network of anonymous remailers first (a future SMTP-&gt;Freenet 
+bridge would make this possible). There are also plans for doing 
+mixmaster-style injection of requests over the "standard" protocol, 
+however this probably won't be implemented before version 1.0, which 
+is still some way off.</p>
 
 <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br>
 Short answer: no.</p>
