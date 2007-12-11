@@ -430,7 +430,10 @@ enough, you can turn off <a href="http://wiki.freenetproject.org/OpenNet">openne
 and only connect to people you know. This makes it very much more expensive for an 
 attacker, as he has to infiltrate the social network, rather than just 
 <a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a> the opennet
-and connecting to nodes (which is technically very easy).
+and connecting to nodes (which is technically very easy). One significant 
+advantage over Tor etc is that if enough users only connect to Friends, it is very
+difficult to block the entire network; blocking Mixmaster or the current Tor on 
+the other hand is very easy.
 <p>The only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
