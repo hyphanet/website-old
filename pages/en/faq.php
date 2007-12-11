@@ -408,9 +408,9 @@ You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</
 </h2><p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
 Short answer: Probably yes.</p>
 <p>Long answer:</p>
-<p>Freenet does not offer true anonymity in the way that the <i>Mixmaster</i>
-and cypherpunk remailers do. Most of the non-trivial attacks (advanced
-traffic analysis, compromising any given majority of the nodes, etc.)
+<p>Freenet does not offer true anonymity in the way that Tor and the
+<i>Mixmaster</i> cypherpunk remailers do. Most of the non-trivial attacks 
+(advanced traffic analysis, compromising any given majority of the nodes, etc.)
 that these were designed to counter would probably be successful in
 identifying someone making requests on Freenet.</p>
 <p>Your identity is always visible to the nodes you are actually connected to.
