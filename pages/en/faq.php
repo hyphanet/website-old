@@ -413,24 +413,33 @@ and cypherpunk remailers do. Most of the non-trivial attacks (advanced
 traffic analysis, compromising any given majority of the nodes, etc.)
 that these were designed to counter would probably be successful in
 identifying someone making requests on Freenet.</p>
-<p>On Freenet, whatever you do, your identity is still revealed to the first Freenet
-Node you talk to, and even if you limit yourself to talk only to trusted
-nodes (a feature that will be implemented in the future), they will
-have to talk to the rest of the network at some time or another. The
-anonymity that Freenet offers is really just obscurity in the fact that 
-it is hard to prove that your node wasn't proxying the request for or 
-insert of data on behalf of somebody else (who might also just have 
-been proxying it).</p>
-<p>The problem is that the only way that you can offer true
+<p>Your identity is always visible to the nodes you are actually connected to.
+They know what keys your node sends requests for: your anonymity consists in a
+limited level of plausible deniability, that maybe you are forwarding these 
+requests for some other node. Unfortunately, your peers can do 
+<a href="http://wiki.freenetproject.org/CorrelationAttacks">correlation 
+attacks</a> to figure out which requests are from you and which requests are from
+your peers or somebody else. One key thing you can do to protect yourself is
+to get lots of <a href="http://127.0.0.1:8888/friends/">"Friends"</a>
+aka <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> connections:
+these are permanent, fixed connections to people you actually know. This 
+greatly limits your exposure as your attacker will need to get connected to 
+you in order to attack you, however on <a href="http://wiki.freenetproject.org/OpenNet">
+opennet</a> aka the <a href="http://127.0.0.1:8888/strangers/">Strangers</a> 
+network, the attacker can trivially connect to you. However, once he does manage to
+connect to you, he can probably work out what you are uploading/downloading, 
+especially if it consists of large files or other content that can be correlated 
+over the long-term such as a frost identity.</p>
+<p>The only way that you can offer true
 anonymity is if the client can directly control the routing of data,
 and thus encrypt it with a series of keys of the nodes it will pass
-through (a la Mixmaster). Freenet's dynamic routing cannot offer that, 
-so to attain true anonymity you have to send the message through an 
-external network of anonymous remailers first (a future SMTP-&gt;Freenet 
-bridge would make this possible). There are also plans for doing 
-mixmaster-style injection of requests over the "standard" protocol, 
-however this probably won't be implemented before version 1.0, which 
-is still some way off.</p>
+through (a la Mixmaster). There are plans to implement 
+<a href="http://wiki.freenetproject.org/PremixRouting">"premix routing"</a>
+during <a href="http://wiki.freenetproject.org/FreenetZeroPointEight">Freenet
+0.8</a>, which would function similarly to Mixmaster remailers, Tor, etc, for
+the first few hops, but this is still a long way off.</p>
+<p>More information on the current practical state of Freenet security is available
+<a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
 
 <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br>
 Short answer: no.</p>
