@@ -363,22 +363,9 @@ Currently, a document posted to Freenet
 with the same name as one already present may actually serve to
 propagate the existing document. There is also currently no means of
 deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-<p>One may employ a date-based redirect (DBR), though -- these are
-evaluated according to the current time and date. A DBR with a
-frequency of a day will point at a new target key every 24 hours. If
-this new target is always inserted before the DBR rolls over, the
-illusion of having the "same" document that is still updatable is
-achieved. If nothing resides at the current target, it appears as if
-the content were "deleted".</p>
-<p>It should be noted, though, that by not going through the DBR
-one can access the target corresponding to any time in the past (as
-long as the content has not been "pushed out" to make room) or future
-(as long as the content has been already inserted).</p>
-<p>The problem is it is not clear how useful they are for documents
-that change at irregular intervals. DBR sites, also, may not be
-retired, as they will break soon, after future-dates insertions expire.</p>
-<p>As of today, probably the best way for most cases is the use of "edition" publishing.</p> 
-
+<p>However, you can use an <a href="http://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)
+to provide a form of updatable freesite: your node will automatically look for later editions of
+the site (after you visit it, or always if you bookmark it), and show you the latest version.</p>
 
 <h2> Contribution answers
 </h2><p><b id="idea">I have this great idea....</b><br>
