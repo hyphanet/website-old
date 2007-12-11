@@ -34,7 +34,6 @@
 </li><li><a href="#healing">What is healing?</a>
 </li><li><a href="#fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</a>
 </li><li><a href="#seednodes">How do I extract the necessary seedNode values from my own node?</a>
-</li><li><a href="#roadmp">Is there a future roadmap of Freenet?</a>
 
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
 </li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
@@ -306,9 +305,6 @@ java -cp freenet.jar freenet.client.cli.Main get KEY filename<BR>
 </code><p>
 Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p>
 You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="/fcptools.html">FCPTools</a>.
-
-<p><b id="roadmp">Is there a future roadmap of Freenet?</b><br>
-Yes, there is a provisional, unofficial roadmap of Freenet, describing the possible future development of the project <a href="/roadmap.html"> here.</a>
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
 The name comes from the Heisenberg Uncertainty Principle of
