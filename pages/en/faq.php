@@ -511,7 +511,7 @@ what Freenet
 is and what it is not, however. No single network can offer everybody
 everything, and there are security issues (like anonymity, discussed
 above) that Freenet,
-by it's nature, will never deal with to extent you might wish. If this
+by it's nature, may not deal with to extent you might wish. If this
 upsets you, all of our code is freely available, so you are free to
 take as much of it as you like and write your own distributed network
 that suits your desires. </p>
