@@ -1,18 +1,14 @@
 <h2>Download Freenet 0.7</h2>
 <h3>Important note for first time users</h3>
 
-Freenet 0.7 is different to most other P2P networks in that, to protect
-your security, you only connect directly to other people you trust, but
-through them you gain access to the entire Freenet network.
-<p>
-
-When you first start Freenet 0.7 your node will not know any other nodes
-on the network, you need to connect to other nodes - at least three. 
-Ideally you should find people you trust that are already part of the
-Freenet 0.7 network and connect to them, but if that isn't possible in
-the early stages of the Freenet 0.7 network you can try connecting to
-the irc server <b>irc.freenode.net</b> and join the channel
-<b>#freenet-refs</b>, to see if anyone will connect to you.
+<p>In an ideal world, all Freenet users would only connect to people they
+trust (see your Friends page once your node is installed). In practice, if 
+you don't know anyone already on Freenet you will have to enable promiscuous 
+mode so your node automatically connects to other nodes (this is less 
+secure). It may take several minutes for your node to connect to enough 
+nodes for Freenet to be usable, and performance will likely improve over 
+time after that. You will get best performance if you can leave your node
+running 24x7.</p>
 
 <p> <i>If you have a firewall or a NAT box click <a
 href="/faq.html#firewall"><b>here</b></a>
@@ -72,21 +68,18 @@ Some people might encounter difficulties connecting to our server because of cen
 
 <h3>So it's running, what do I do?</h3>
 
-You need to get connected.  If you know anyone running Freenet, ask them 
+<p>You need to get connected.  If you know anyone running Freenet, ask them 
 for their reference, and give them yours.  If you visit <pre>http://127.0.0.1:8888/friends/</pre> 
 in your browser, you can see your reference at the bottom and you can add
 other people's references, either by cutting and pasting the reference
 itself, or by pointing Freenet to a URL or a file containing their
-reference.
-<p>
-If you don't know anyone running Freenet, visit #freenet-refs on 
-irc.freenode.net and ask nicely to exchange references with someone.  
-You will find a tool like <a 
-href="http://dark-code.bulix.org/">http://dark-code.bulix.org</a> useful (please don't 
-paste references into the #freenet-refs IRC channel).
-<p>
-</B>Note: You need to add their reference and they need to add 
-yours before your nodes can communicate.</b>
+reference.</p>
+<p><b>Note: You need to add their reference and they need to add 
+yours before your nodes can communicate.</b></p>
+<p>If you don't know anyone running Freenet, enable promiscuous mode
+(also known as opennet; the first time wizard will ask you), and wait 
+a few minutes for the node to announce itself, and Freenet will 
+start working by itself.</p>
 
 <h3>So I'm connected, what do I do?</h3>
 
@@ -94,6 +87,13 @@ You can find links to some pages in the index on the FProxy homepage at:
 <pre>http://127.0.0.1:8888/</pre>
 You can find links to some <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
 applications for freenet</a>.
+
+<h3>It doesn't work, now what?</h3>
+<p>If you have problems installing or running Freenet, please contact us on
+<a href="mailto:support@freenetproject.org">the support list</a> 
+(<a href="/lists.html">subscribe here</a>), or join us on 
+<a href="http://en.wikipedia.org/wiki/IRC" title="Internet Relay Chat is a non-anonymous chat system used by many developers and users of Freenet">IRC</a>
+on <a href="irc://irc.freenode.net/freenet">#freenet</a> on irc.freenode.net.</p>
 	
 <h3>Hardware requirements</h3>
 <b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
