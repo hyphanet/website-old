@@ -14,7 +14,6 @@ running 24x7.</p>
 href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
-<a href="javascript:toggleLayer('windows');">Show windows instructions</a>
 <div class="hideit" id="windows">
 <h3>Windows</h3>
 - Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32-with_jre.exe">freenet webinstall</a> (13MB)</big><br>
@@ -33,14 +32,12 @@ Also we strongly recommend you not run an OS for which security support has been
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 </div>
 
-<a href="javascript:toggleLayer('macos');">Show Mac OSX instructions</a>
 <div class="hideit" id="macos">
 <h3>Mac OSX</h3>
 <a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
 If this doesn't work, try the linux instructions below.
 </div>
 
-<a href="javascript:toggleLayer('unix');">Show Unix/Linux instructions</a>
 <div class="hideit" id="unix">
 <h3>Unix, and Linux</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
@@ -64,6 +61,24 @@ cd freenet
 </p>
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 </div>
+
+Show <a href="javascript:toggleLayer('windows');">Windows instructions</a><br>
+Show <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a><br>
+Show <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a><br>
+<script language="javascript">
+	var OSName="";
+	if (navigator.appVersion.indexOf("Win")!=-1)
+		OSName="windows";
+	else if (navigator.appVersion.indexOf("Mac")!=-1)
+		OSName="macos";
+	else if (navigator.appVersion.indexOf("X11")!=-1)
+		OSName="unix";
+	else if (navigator.appVersion.indexOf("Linux")!=-1)
+		OSName="unix";
+	
+	if(OSName != "")
+		toggleLayer(OSName);
+</script>
 
 <h3>After installing</h3>
 
