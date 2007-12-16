@@ -32,7 +32,7 @@ include 'includes/common.inc.php';
 			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
 		}
 	</script>
-	<script type="text/javascript" src="PluginDetect.js">
+	<script type="text/javascript" src="PluginDetect.js"/>
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
