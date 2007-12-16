@@ -36,7 +36,7 @@ for some info.</i> <BR> &nbsp;<BR>
 <div class="hideit" id="jws">
 <h2>Installation Instructions</h2>
 Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:toggleLayer('windows');">Windows instructions</a>, <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a>, <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a>).
-<div>
+</div>
 
 <div class="hideit" id="nojws">
 Show <a href="javascript:toggleLayer('windows');">Windows instructions</a><br>
