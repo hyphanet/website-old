@@ -87,12 +87,6 @@ cd freenet
 	else if (navigator.appVersion.indexOf("Linux")!=-1)
 		OSName="unix";
 
-	if(Java >= 1 && navigator.javaEnabled())
-		toggleLayer("jws");
-	else if (OSName != "") {
-		toggleLayer("nojws");
-		toggleLayer(OSName);
-	}
 	hideDiv("jws");
 	hideDiv("nojws");
 	hideDiv("windows");
