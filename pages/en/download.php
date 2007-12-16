@@ -31,7 +31,7 @@ for some info.</i> <BR> &nbsp;<BR>
 		OSName="unix";
 
 	
-	if(Java > 1)
+	if(Java >= 1 && navigator.javaEnabled())
 		toggleLayer("jws");
 	else if (OSName != "") {
 		toggleLayer("nojws");
