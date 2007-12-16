@@ -15,7 +15,7 @@ href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
 <a href="javascript:toggleLayer('windows');">Show windows instructions</a>
-<div class="hideit" name="windows">
+<div class="hideit" id="windows">
 <h3>Windows</h3>
 - Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32-with_jre.exe">freenet webinstall</a> (13MB)</big><br>
 - or <a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">click here</a> if you already have java installed (3MB).<br>
@@ -34,14 +34,14 @@ If the installer doesn't work (something seriously wrong) then please let us kno
 </div>
 
 <a href="javascript:toggleLayer('macos');">Show Mac OSX instructions</a>
-<div class="hideit" name="macos">
+<div class="hideit" id="macos">
 <h3>Mac OSX</h3>
 <a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
 If this doesn't work, try the linux instructions below.
 </div>
 
 <a href="javascript:toggleLayer('unix');">Show Unix/Linux instructions</a>
-<div class="hideit" name="unix">
+<div class="hideit" id="unix">
 <h3>Unix, and Linux</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
 Java version 1.4.2 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 1.5 update 4. Generally, we recommend using latest.
