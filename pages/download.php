@@ -23,16 +23,24 @@ code to help us understand the network, which may also be exploitable by attacke
 See <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a> 
 for a fuller analysis.</p>
 
+<a href="javascript:toggleLayer('windows');">Show windows instructions</a>
+<div class="hideit" name="windows">
 <h3>Windows</h3>
 <p>- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">freenet webinstall</a></big></p>
 <p> It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. </p>
 <p>(Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) </p>
 <p>Freenet works best with <b>Windows 2000 Professional, XP Professional or NT. </b> Windows 95, 98 and 2000 Millennium Edition don't work as well; in particular, the installer won't run on those operating systems.</p>
 <p>If the installer doesn't work (something seriously wrong) then please <a href="https://bugs.freenetproject.org">let us know</a>, install Java, and try the Linux instructions below.</p>
+</div>
 
+<a href="javascript:toggleLayer('macos');">Show MacOSX instructions</a>
+<div class="hideit" name="macos">
 <h3>Mac OSX</h3>
 <p><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.</p>
+</div>
 
+<a href="javascript:toggleLayer('unix');">Show Linux/Unix instructions</a>
+<div class="hideit" name="unix">
 <h3>Unix, and Linux</h3>
 <p>You need to have a recent Java Runtime Environment. We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. </p>>
 <p>Java version 1.4.2 and later will work. Generally, we recommend using latest available version.</p>
@@ -52,6 +60,7 @@ cat freenet07.tar.gz | gzip -d | tar xv
 ./run.sh start
 </pre>
 </p>
+</div>
 
 <h3>Notes</h3>
 <p>Afer you start Freenet, wait a few seconds for it to start up (on a

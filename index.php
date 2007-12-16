@@ -15,7 +15,23 @@ include 'includes/common.inc.php';
 
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System" />
 	<link href="/style.css" rel="stylesheet" type="text/css">
-
+	<script language="javascript">
+		function toggleLayer( whichLayer )
+		{
+			var elem, vis;
+			if( document.getElementById ) // this is the way the standards work
+				elem = document.getElementById( whichLayer );
+			else if( document.all ) // this is the way old msie versions work
+				elem = document.all[whichLayer];
+			else if( document.layers ) // this is the way nn4 works
+				elem = document.layers[whichLayer];
+			vis = elem.style;
+			// if the style.display value is blank we try to figure it out here
+			if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
+				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
+			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+		}
+	</script>
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
