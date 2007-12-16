@@ -28,8 +28,8 @@ include 'includes/common.inc.php';
 			vis = elem.style;
 			// if the style.display value is blank we try to figure it out here
 			if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
-				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
-			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'none':'block';
+			vis.display = (vis.display==''||vis.display=='block')?'block':'none';
 		}
 
 		toggleLayer("hideit");
