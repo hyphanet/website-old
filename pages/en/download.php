@@ -87,6 +87,7 @@ cd freenet
 		OSName="unix";
 
 	
+	toggleLayer("hideit");
 	if(Java >= 1 && navigator.javaEnabled())
 		toggleLayer("jws");
 	else if (OSName != "") {
