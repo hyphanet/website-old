@@ -94,7 +94,6 @@ cd freenet
 	hideDiv("unix");
 	if(Java >= 1 && navigator.javaEnabled()) {
 		showDiv("jws");
-		showDiv(OSName);
 	}
 	else if (OSName != "") {
 		showDiv("nojws");
