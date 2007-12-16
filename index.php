@@ -31,10 +31,13 @@ include 'includes/common.inc.php';
 				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
 			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
 		}
-
-		toggleLayer("hideit");
 	</script>
 	<script type="text/javascript" src="PluginDetect.js"></script>
+	<noscript>
+		 <style type="text/css">
+			div.hideit { display:block; }
+		 </style>
+	</noscript>
 </head>
 
 <body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
