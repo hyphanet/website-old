@@ -14,6 +14,9 @@ running 24x7.</p>
 href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
+<h2>Installation Instructions</h2>
+Clicking the <a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> link should start the installer up. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:toggleLayer('windows');">Windows instructions</a>, <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a>, <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a>).
+
 <div class="hideit" id="windows">
 <h3>Windows</h3>
 - Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32-with_jre.exe">freenet webinstall</a> (13MB)</big><br>
@@ -61,24 +64,6 @@ cd freenet
 </p>
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 </div>
-
-Show <a href="javascript:toggleLayer('windows');">Windows instructions</a><br>
-Show <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a><br>
-Show <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a><br>
-<script language="javascript">
-	var OSName="";
-	if (navigator.appVersion.indexOf("Win")!=-1)
-		OSName="windows";
-	else if (navigator.appVersion.indexOf("Mac")!=-1)
-		OSName="macos";
-	else if (navigator.appVersion.indexOf("X11")!=-1)
-		OSName="unix";
-	else if (navigator.appVersion.indexOf("Linux")!=-1)
-		OSName="unix";
-	
-	if(OSName != "")
-		toggleLayer(OSName);
-</script>
 
 <h3>After installing</h3>
 
