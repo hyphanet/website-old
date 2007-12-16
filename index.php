@@ -16,20 +16,29 @@ include 'includes/common.inc.php';
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System" />
 	<link href="/style.css" rel="stylesheet" type="text/css">
 	<script language="javascript">
-		function toggleLayer( whichLayer )
+		function hideDiv( whichDivId )
 		{
 			var elem, vis;
 			if( document.getElementById ) // this is the way the standards work
-				elem = document.getElementById( whichLayer );
+				elem = document.getElementById( whichDivId );
 			else if( document.all ) // this is the way old msie versions work
-				elem = document.all[whichLayer];
+				elem = document.all[whichDivId];
 			else if( document.layers ) // this is the way nn4 works
-				elem = document.layers[whichLayer];
+				elem = document.layers[whichDivId];
 			vis = elem.style;
-			// if the style.display value is blank we try to figure it out here
-			if(vis.display==''&&elem.offsetWidth!=undefined&&elem.offsetHeight!=undefined)
-				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
-			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
+			vis.display = 'none';
+		}
+		function showDiv( whichDivId )
+		{
+			var elem, vis;
+			if( document.getElementById ) // this is the way the standards work
+				elem = document.getElementById( whichDivId );
+			else if( document.all ) // this is the way old msie versions work
+				elem = document.all[whichDivId];
+			else if( document.layers ) // this is the way nn4 works
+				elem = document.layers[whichDivId];
+			vis = elem.style;
+			vis.display = 'inline';
 		}
 	</script>
 	<script type="text/javascript" src="PluginDetect.js"></script>

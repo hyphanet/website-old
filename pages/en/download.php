@@ -14,16 +14,17 @@ running 24x7.</p>
 href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
-<div class="hideit" id="jws">
+<div id="jws">
 <h2>Installation Instructions</h2>
-Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:toggleLayer('windows');">Windows instructions</a>, <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a>, <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a>).
+Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Unix/Linux instructions</a>).
 </div>
 
-<div class="hideit" id="nojws">
-Show <a href="javascript:toggleLayer('windows');">Windows instructions</a>, <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a>, <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a><br>
+<div style="display: none;" id="nojws">
+<h2>Installation Instructions</h2>
+If your platform is not the one listed below, select your specific platform: <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Unix/Linux instructions</a><br>
 </div>
 
-<div class="hideit" id="windows">
+<div id="windows">
 <h3>Windows</h3>
 - Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32-with_jre.exe">freenet webinstall</a> (13MB)</big><br>
 - or <a href="http://downloads.freenetproject.org/alpha/installer/freenet-win32.exe">click here</a> if you already have java installed (3MB).<br>
@@ -41,13 +42,13 @@ Also we strongly recommend you not run an OS for which security support has been
 If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
 </div>
 
-<div class="hideit" id="macos">
+<div id="macos">
 <h3>Mac OSX</h3>
 <a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
 If this doesn't work, try the linux instructions below.
 </div>
 
-<div class="hideit" id="unix">
+<divy id="unix">
 <h3>Unix, and Linux</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
 Java version 1.4.2 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 1.5 update 4. Generally, we recommend using latest.
@@ -91,6 +92,19 @@ cd freenet
 	else if (OSName != "") {
 		toggleLayer("nojws");
 		toggleLayer(OSName);
+	}
+	hideDiv("jws");
+	hideDiv("nojws");
+	hideDiv("windows");
+	hideDiv("macos");
+	hideDiv("unix");
+	if(Java >= 1 && navigator.javaEnabled()) {
+		showDiv("jws");
+		showDiv(OSName);
+	}
+	else if (OSName != "") {
+		showDiv("nojws");
+		showDiv(OSName);
 	}
 //--></script>
 
