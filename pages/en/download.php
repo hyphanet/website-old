@@ -88,6 +88,7 @@ cd freenet
 
 	
 	toggleLayer("hideit");
+	toggleLayer("hideit");
 	if(Java >= 1 && navigator.javaEnabled())
 		toggleLayer("jws");
 	else if (OSName != "") {
