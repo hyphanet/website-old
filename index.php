@@ -31,6 +31,8 @@ include 'includes/common.inc.php';
 				vis.display = (elem.offsetWidth!=0&&elem.offsetHeight!=0)?'block':'none';
 			vis.display = (vis.display==''||vis.display=='block')?'none':'block';
 		}
+
+		toggleLayer("hideit");
 	</script>
 	<script type="text/javascript" src="PluginDetect.js"></script>
 </head>
@@ -64,10 +66,6 @@ include 'includes/common.inc.php';
 		<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=978&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"></a>
 	</div>
 </div>
-
-<script language="javascript">
-	toggleLayer("hideit");
-</script>
 
 <div id="content"><? 	include (escapeshellcmd($file));  ?>
 
