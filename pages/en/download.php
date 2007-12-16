@@ -14,7 +14,11 @@ running 24x7.</p>
 href="/faq.html#firewall"><b>here</b></a>
 for some info.</i> <BR> &nbsp;<BR>
 
-<script language="javascript">
+<script language="javascript"><!--
+	// Try to detect if Sun Java 1.4.2 or higher is installed
+	minVersion = '1,4,2'
+	var Java = PluginDetect.isMinVersion('Java', minVersion);
+
 	// Os detection
 	var OSName="";
 	if (navigator.appVersion.indexOf("Win")!=-1)
@@ -25,14 +29,15 @@ for some info.</i> <BR> &nbsp;<BR>
 		OSName="unix";
 	else if (navigator.appVersion.indexOf("Linux")!=-1)
 		OSName="unix";
+
 	
-	if(navigator.javaEnabled())
+	if(Java > 1)
 		toggleLayer("jws");
 	else if (OSName != "") {
 		toggleLayer("nojws");
 		toggleLayer(OSName);
 	}
-</script>
+//--></script>
 <div class="hideit" id="jws">
 <h2>Installation Instructions</h2>
 Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:toggleLayer('windows');">Windows instructions</a>, <a href="javascript:toggleLayer('macos');">Mac OSX instructions</a>, <a href="javascript:toggleLayer('unix');">Unix/Linux instructions</a>).
