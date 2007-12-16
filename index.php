@@ -15,7 +15,7 @@ include 'includes/common.inc.php';
 
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System" />
 	<link href="/style.css" rel="stylesheet" type="text/css">
-	<script language="text/javascript">
+	<script language="javascript">
 		function toggleLayer( whichLayer )
 		{
 			var elem, vis;
