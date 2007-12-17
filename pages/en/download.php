@@ -150,7 +150,6 @@ RAM or more (especially if using Windows XP).
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
 <ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
 <li>Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.</li></ul>
-<p>
 <h3>Source Code</h3>
 You can obtain the latest source code from SVN from <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>.
 <BR>
