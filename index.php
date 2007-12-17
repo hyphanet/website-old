@@ -6,16 +6,15 @@ include 'includes/common.inc.php';
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=" />
+	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=">
 	<title>The Freenet Project - <?= $page ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta name="language"    content="en" />
-	<meta name="robots"      content="index,follow" />
-	<meta name="keywords"    content="gnu, fsf, gpl, fdl, free software, coding, freenet, The Free Network Project, network, decentralized, DHT, anonymous, EFF, Electronic Frontier Foundation, freedom, freedom of speech, liberty, philosophy, java, censorship, encryption, peer-to-peer, file sharing, internet, Ian Clarke, Matthew Toseland, Oskar Sandberg, Florent Daigniere, Scott Miller, Steven Starr" />
-
-	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System" />
+	<meta name="language"    content="en">
+	<meta name="robots"      content="index,follow">
+	<meta name="keywords"    content="gnu, fsf, gpl, fdl, free software, coding, freenet, The Free Network Project, network, decentralized, DHT, anonymous, EFF, Electronic Frontier Foundation, freedom, freedom of speech, liberty, philosophy, java, censorship, encryption, peer-to-peer, file sharing, internet, Ian Clarke, Matthew Toseland, Oskar Sandberg, Florent Daigniere, Scott Miller, Steven Starr">
+	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
 	<link href="/style.css" rel="stylesheet" type="text/css">
-	<script language="javascript">
+	<script type="text/javascript">
 		function hideDiv( whichDivId )
 		{
 			var elem, vis;
