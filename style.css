@@ -1,3 +1,7 @@
+body {
+	margin: 0 0 0 0; 
+}
+
 div#menu {
 	 font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif; 
 	float:left;

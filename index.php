@@ -43,7 +43,7 @@ include 'includes/common.inc.php';
 	<script type="text/javascript" src="PluginDetect.js"></script>
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000" leftmargin=0 topmargin=0 marginwidth=0 marginheight=0>
+<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000">
 <div id="top">
 	<a href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="/image/title.gif" width="414" height="51"></a>
 </div>
