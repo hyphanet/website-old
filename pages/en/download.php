@@ -150,7 +150,8 @@ RAM or more (especially if using Windows XP).
 <ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
 <li>Linux users may similarly upgrade by running the update.sh shell script in the freenet/bin/ directory.</li></ul>
 <h3>Source Code</h3>
-You can obtain the latest source code from SVN from <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>.
+<p>You can obtain the latest source code from SVN:</p>
+<pre>svn co --ignore-externals http://freenet.googlecode.com/svn/trunk/freenet/</pre>
 <BR>
 <p>
 <small><b>Note:</b> You can still find the download page for Freenet 0.5 <a href="/download-old.html">here</a>, however 0.5 is no longer officially maintained or supported and 0.7 has many radical improvements not least being that it is significantly faster.</small>
