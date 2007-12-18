@@ -63,7 +63,6 @@ java -jar new_installer.jar
 wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 cat freenet07.tar.gz | gzip -d | tar xv
 cd freenet
-./bin/1run.sh
 ./run.sh start
 </pre>
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
