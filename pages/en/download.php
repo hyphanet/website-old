@@ -102,9 +102,11 @@ cd freenet
 
 <P>Afer you start Freenet, wait a few seconds for it to start up (on a
 slow computer, you may need to wait about 30 seconds), and visit</p>
-<pre>http://127.0.0.1:8888/</pre>
+<pre>http://127.0.0.1:8888/wizard/</pre>
 <p>in your web browser to access Freenet's user
-interface.</p>
+interface. Freenet will ask you a few questions and then go to the node homepage,
+<pre>http://127.0.0.1:8888/</pre>
+<p>from which you can access freesites, add friends etc.</p>
 
 <h3>Offline installation</h3>
 Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).
