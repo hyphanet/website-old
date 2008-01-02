@@ -106,15 +106,23 @@ slow computer, you may need to wait about 30 seconds), and visit</p>
 <p>in your web browser to access Freenet's user
 interface. Freenet will ask you a few questions and then go to the node homepage,
 <pre>http://127.0.0.1:8888/</pre>
-<p>from which you can access freesites, add friends etc.</p>
+<p>from which you can access freesites, add friends etc. Hopefully the installer
+will open the page for you, so you won't be reading this.</p>
 
 <h3>Offline installation</h3>
 Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).
 
 <h3>So it's running, what do I do?</h3>
 
-<p>You need to get connected.  If you know anyone running Freenet, ask them 
-for their reference, and give them yours.  If you visit</p>
+<p>You need to get connected.  The wizard will ask you whether to enable 
+insecure mode. If you do, your Freenet node should automatically announce 
+itself and start working within a few minutes. If not, Freenet will not 
+work until you add some friends on the Friends page.</p>
+
+<p>If you know anyone running Freenet, even if you have enabled insecure 
+mode, you can improve your security and help to build the network by 
+connecting to their node. Ask them for their reference, and give them yours.
+If you visit</p>
 <pre>http://127.0.0.1:8888/friends/</pre>
 <p>in your browser, you can see your reference at the bottom and you can add
 other people's references, either by cutting and pasting the reference
@@ -122,7 +130,7 @@ itself, or by pointing Freenet to a URL or a file containing their
 reference.</p>
 <p><b>Note: You need to add their reference and they need to add 
 yours before your nodes can communicate.</b></p>
-<p>If you don't know anyone running Freenet, enable promiscuous mode
+<p>If you don't know anyone running Freenet, enable insecure mode
 (also known as opennet; the first time wizard will ask you), and wait 
 a few minutes for the node to announce itself, and Freenet will 
 start working by itself.</p>
