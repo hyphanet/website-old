@@ -1,13 +1,20 @@
 <h2>Connecting to Freenet</h2>
+<p>There are two ways to connect to Freenet:</p>
+<ul><li>You can enable insecure mode (the installation wizard will ask you) and Freenet will automatically find nodes to connect to - Strangers.</li>
+<li>You can connect to nodes run by people you know - Friends. Note that these should be people you actually know on some level,
+in order to maintain good network topology and maximum security.</li></ul>
 <p>
-In order to connect to Freenet, you have to exchange Node references with other users of Freenet. The references
+In practice, you should probably use both of these options, unless you are really paranoid, in which
+case you should of course only connect to people you trust. Insecure mode should work automatically
+once enabled, so the rest of this page is about connecting to Friends.
+</p>
+<p>
+To connect to your friends' nodes, you have to exchange Node references with them. The references
 must be added on <span style="font-weight:bold;">both sides</span> to be established. That is, you need to add his/hers, and he/she needs to add yours.
 </p>
 <p>
-<span style="font-weight:bold;">Note:</span> You cannot use Freenet without peers.
-</p>
-<p>
-<span style="font-style:italic;">When you have a freshly connected node, the routing tables are empty, and therefore requests are sent
+<span style="font-style:italic;">When you have a freshly connected node, you have no data cached in your datastore,
+and very few connections even if insecure mode is enabled. Requests are sent
 out in a random fashion. <span style="font-weight:bold;">This makes some (or all) requests time out before retrieving anything.</span> It takes a couple of days for your 
 Freenet-node to get up to speed, so please don't get discouraged by this.
 </span>
@@ -16,8 +23,10 @@ Freenet-node to get up to speed, so please don't get discouraged by this.
 You should have at least three nodes that are connected to you at all times, ideally at least five to seven. Since some nodes may
 be unreachable at times, you need to connect to some more nodes to get the expected number. The nodes
 that are connected directly to you are the only nodes on freenet that might see what kind of traffic that passes
-through to your Freenet node. These are also the only nodes that you can see on the network, the others are hidden
-from you.
+through to your Freenet node. But if insecure mode is enabled, any node can find yours; this is the big
+advantage of <b>not</b> enabling insecure mode: you are effectively invisible except to your Friends.
+In practice most people start off with insecure mode and gradually add Friends, and hopefully turn off
+insecure mode once they have at least 10 Friends.
 </p>
 <img src="/image/Freenet-architecture-small.png">
 <br/>
