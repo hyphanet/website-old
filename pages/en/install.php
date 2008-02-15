@@ -7,7 +7,7 @@ To install Freenet might not be as difficult as you might have heard. There are 
 <li>Headless install</li>
 </ul>
 
-<p>If you want to install the Freenet software on a computer which lacks a GUI, see the <a href="#headless">Headless install</a> below. 
+<p>If you want to install the Freenet software on a computer which lacks a GUI, see the <a href="/download.html#unix">Headless install</a> instructions. 
 Otherwise, continue reading.</p>
 
 <h4>Graphical install</h4>
