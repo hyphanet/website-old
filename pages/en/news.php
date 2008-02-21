@@ -36,7 +36,7 @@ this point. There is more to do before 0.7.0, and one or two features which need
 be completed before that.</p>
 <p>Freenet 0.7a2 can be downloaded from 
 <a href="http://freenetproject.org/download.html">here</a>.</p>
-<p>This release would not have been possible without the release of numerous 
+<p>This release would not have been possible without the work of numerous 
 volunteers, and Matthew Toseland, Freenet's full time developer. Matthew's work is 
 funded through donations via our website (as well as a few larger sponsors from time 
 to time), we ask that anyone who can help us to ensure Matthew's continued 
