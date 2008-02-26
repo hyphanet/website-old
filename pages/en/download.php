@@ -89,10 +89,12 @@ cd freenet
 	hideDiv("windows");
 	hideDiv("macos");
 	hideDiv("unix");
-	if(Java >= 1 && navigator.javaEnabled()) {
+	if(navigator.userAgent.indexOf("Windows NT 6.0") > -1) {
+		// Windows vista has UAC enabled by default. We need to propose the .exe as JWS won't work :|
+		showDiv("windows");
+	} else if(Java >= 1 && navigator.javaEnabled()) {
 		showDiv("jws");
-	}
-	else if (OSName != "") {
+	} else if (OSName != "") {
 		showDiv("nojws");
 		showDiv(OSName);
 	}
