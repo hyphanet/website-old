@@ -31,7 +31,7 @@ FUQID is the Freenet Utility for Queued Inserts and Downloads. It is a Windows a
 fn_curses is an ncurses (text mode) Freenet download queue manager written in perl.
 </p>
 <hr/>
-<h2>Freenet 0.5 applications</h2>
+<h3>Freenet 0.5 applications</h3>
 <br /><a href="oldtools.html">See here</a>.
 <br /><hr/>
 <br /><h2>Other tools? Want to contribute?
