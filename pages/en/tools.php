@@ -26,6 +26,10 @@ jSite is a graphical application that you can use to create, insert and manage y
 FUQID is the Freenet Utility for Queued Inserts and Downloads. It is a Windows application for adding stuff to, and downloading stuff from, Freenet. It will also work on Linux using <a href="http://www.winehq.com/">Wine</a>.
 </p>
 <br />
+<p><a class='wiki'  href="http://nostromo.joeh.org/content/fn_curses/..html"><b>fn_curses</b></a><br />
+<br />
+fn_curses is an ncurses (text mode) Freenet download queue manager written in perl.
+</p>
 <hr/>
 <h2>Freenet 0.5 applications</h2>
 <br /><a href="oldtools.html">See here</a>.
