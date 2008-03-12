@@ -267,7 +267,7 @@ Opinions differ about the choice of java for the reference implementation of
 freenet (even among the core developers). <a href="/people.html">Ian Clarke</a> and several
 other developers are java proponents and the choice for java was made. Even if everybody could be convinced
 to switch to a different language reimplementing the current freenet protocol would be quite a big task, and
-take up a significant amount of time, while there is only a limited about of developer-time available. Flame wars
+take up a significant amount of time, while there is only a limited amount of developer-time available. Flame wars
 on the development list about the language choice aren't welcome, people willing to implement freenet
 in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
 
