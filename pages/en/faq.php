@@ -384,7 +384,7 @@ will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and 
 Generally speaking, joining our IRC channel is a good idea : #freenet on irc.freenode.net</p>
 
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
-Yes, an unofficial, more elaborate <a href="http://www.freenethelp.org">Freenet Help Site</a> was created, to go deeper into the questions newbies may have about the usage and  inner-workings of Freenet. It's a wiki, thus everybody can contribute too it.</p>
+You could have a look at <a href="http://wiki.freenetproject.org/">our wiki. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
 
 <p><b id="bugs">Where can I report bugs?</b><br>
 You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">development mailing list</a>.</p>
