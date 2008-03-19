@@ -484,11 +484,9 @@ keep requests away from it when it is not. The key to avoiding
 identify even the most carefully designed malicious node and not keep
 sending requests to it. This issue is not fully dealt with by the
 current test code, but you can rest assured that a number of possible
-solutions (for example allowing clients to vote on the validity of the
-information returned on requests, and enforcing that all information be
-indexed by a hash of the contents at the lowest level) have been on the
-table and discussed for some time now.</p>
-
+solutions have been on the table and discussed for some time now.
+Several have been implemented (enforcing hashes or signatures on content, 
+per node failure tables, backing off from a node that causes timeouts ...)</p>
 
 <p><b id="attackY">What about attack Y?</b><br>
 Freenet
