@@ -104,7 +104,7 @@ Do you get to do that anonymously? Freenet is designed with anonymity in mind, p
 
 <p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b><br>
 If you are happy with what you are getting then no. But if you want
-more you should consider donating more, making your node permanent and
+more you should consider donating more and running your node as close to 24x7 as possible, and
 you should ask your friends to do the same.</p>
 
 <p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b><br>
