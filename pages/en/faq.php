@@ -180,14 +180,11 @@ Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://
 <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
 
 <p><b id="search">Is Freenet searchable?</b><br>
-No search mechanism has yet been implemented. One of the design
-goals was to make it impossible to locate the exact place where any
-piece of information is stored. Even a server operator cannot determine
-what is stored at his own node. This naturally makes searching very
-difficult. Information is currently retrieved by "keys" which should be
-guessable, or communicated by some other means.</p>
-<p>Proposals for adding safe searching and indexing capabilities to Freenet are being discussed for the future. For example, Freenet documents can contain hyperlinks which could be spidered in the same way as the web -- for example, see <a href="http://www.freenet.org.nz/search/">this spider</a> (WARNING: NOT ANONYMOUS!). Alternately, lists of keywords or other metadata could be circulated through the network. </p>
-
+Yes, there are a few different search mechanisms. To search the freenet web,
+go to the plugins page, load the XMLLibrarian plugin if it isn't already there,
+and use that. Alternatively, Frost and Thaw also provide searching for messages 
+and files. Note that searching on Freenet is a good deal more difficult than
+on other networks because of Freenet's different architecture and design goals.
 
 <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br>
 <ol>
