@@ -233,8 +233,10 @@ won't work because even if the data is still available on their node,
 there is no way to ensure that requests for that data will be routed to
 that node. We have considered many other ways that Freenet could store data 
 permanently, but they either won't work, or compromise Freenet's core goals 
-of anonymity, and scalability.</p>
-
+of anonymity, and scalability. However, if you simply reinsert your data 
+regularly, or if it is regularly downloaded (not by the same person as it 
+would be cached on their node and the path to their node), it should 
+remain available indefinitely.</p>
 
 <p><b id="why-java">Why is Freenet implemented in Java?</b><BR>
 Opinions differ about the choice of java for the reference implementation of
