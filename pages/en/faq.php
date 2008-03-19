@@ -310,8 +310,8 @@ heisenbugs being reported in your logfile and are running a current version of f
 to the mailinglist.
 
 <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
-To see the latest changes of the builds in the stable branch, you can go to the <b><a href="http://cia.navi.cx/stats/project/freenet">changelog</b></a>. 
-Alternatively, on every new build, a brief summary of all the main changes is posted to the support and devl lists and the freenet-announce board on Frost.
+On every new build, a brief summary of all the main changes is posted to the support and devl lists and the freenet-announce board on Frost.
+Alternatively for a much more detailed view, check <a href="http://cia.navi.cx/stats/project/freenet">the SVN logs</b></a>.
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
 Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
