@@ -278,7 +278,7 @@ fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 </p>
 
 </p><p><b id="fec">What is FEC?</b><br>
-FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into several small blocks -- this is called a <i>splitfile</i>.
+FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into many small blocks -- this is called a <i>splitfile</i>.
 FEC adds redundant check blocks to a splitfile, so that if some of the
 blocks fall out of the network or can't be found, you might still be
 able to retrieve enough of the file to reconstruct it.</p>
