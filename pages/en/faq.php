@@ -347,7 +347,7 @@ Currently, a document posted to Freenet
 with the same name as one already present may actually serve to
 propagate the existing document. There is also currently no means of
 deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-<p>However, you can use an <a href="http://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)
+<p>However, you can use an <a href="http://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)</a>
 to provide a form of updatable freesite: your node will automatically look for later editions of
 the site (after you visit it, or always if you bookmark it), and show you the latest version.</p>
 
