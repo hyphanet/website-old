@@ -451,6 +451,8 @@ own. Given an immense will and capacity greater than the total of the
 entire network, it is possible to cripple any public network (including
 the Internet itself) with floods, but it is our intention to always
 keep Freenet as resistant to this as theoretically possible.</p>
+<p>Curiously enough, the above analysis only applies to <a href="http://wiki.freenetproject.org/Opennet">Opennet</a>.
+On Darknet, you might have a little more success, although it would be much harder to change your entry point in any significant way.</p>
 
 <p><b id="hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</b><br>
 
