@@ -9,7 +9,6 @@
 </li><li><a href="#leech">I don't have to donate anything when using filesharing application X and I get to leech more.</a>
 </li><li><a href="#donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</a>
 </li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
-</li><li><a href="#permanent">What do I get from running a permanent node?</a>
 </li><li><a href="#legal">Is Freenet legal?</a>
 </li><li><a href="#trouble">Can I get trouble if I run a node?</a>
 </li><li><a href="#copyright">What about copyright?</a>
@@ -111,22 +110,6 @@ you should ask your friends to do the same.</p>
 Your experience will definitely get better, but for a really great
 improvement we need more people to start thinking like you. Bandwidth
 counts more than diskspace.</p>
-
-<p><b id="permanent">What do I get from running a permanent node?</b><br>
-Don't be frightened from the word permanent. It doesn't mean that once you start your node you're hooked to freenet
-for life. And once you see how much better it is to run a permanent
-node, you will likely not want to switch back to transient. Your node
-will connect itself better to the rest of the network, so requesting
-keys will be faster. Since you will be getting a lot of traffic it is
-likely that the newly stored material will be closer to you (or even on
-your very own node) and you will have faster access to the newest
-editions of the freesites or the latest uploads in Frost. Without permanent
-nodes, there is no network to request from. By running a permanent node you are 
-helping the network.<br>Perhaps more importantly, running a permanent node improves
-your anonymity. Since all requests coming from a transient node originate on that node,
-the node you're connecting to is guaranteed that the request came from you. A permanent
-node forwards requests for other nodes too, so the node you connect to can never be sure
-if it was actually you requesting or inserting the data in question.</p>
 
 <p><b id="legal">Is Freenet legal?</b><br>
 If by legal you mean not illegal, then yes it is. Of course,
