@@ -90,7 +90,6 @@ authorship of emails. Moreover, you could actually sign information
 while remaining anonymous, thus having an anonymous persona. You could
 prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you could build up an anonymous reputation for reliability.</p>
 
-
 <p><b id="donate-bw">Do I have to donate disk space and bandwidth?</b><br>
 You aren't really donating in the sense that you lose the disk
 space and the bandwidth; but you aren't really sharing either (at least
@@ -99,7 +98,6 @@ pitching in to the common Freenet resource pool.</p>
 
 <p><b id="leech">I don't have to donate anything when using filesharing application X and I get to leech more.</b><br>
 Do you get to do that anonymously? Freenet is designed with anonymity in mind, performance comes second.</p>
-
 
 <p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b><br>
 If you are happy with what you are getting then no. But if you want
