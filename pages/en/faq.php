@@ -369,6 +369,7 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 </li><li> Install the client software on your machine to test retrieving information and publishing your own.
 </li><li> Work on the Freenet web site (including the FAQ).
 </li><li> Contribute your ideas to the discussion lists.
+</li><li> Translate the user interface into your local language.
 </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet.</p>
 <P> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
 
