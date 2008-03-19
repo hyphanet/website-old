@@ -4,10 +4,7 @@
 <P><LI>Write unit tests for various components of Fred (routing table, data store, ADTs, the message handler, key encoding and decoding algorithms, and so forth). 
 <P><LI>Come up with a smoke test suite for a newly compiled node. 
 <P><LI>Produce a gcj-based binary distro of Fred. 
-<P><LI>Produce a Kaffe-bundled distro of Fred. 
-<P><LI>Fix the logger so we can filter out messages we don't care about.
-<P><LI>Create a royalty-free drawing or picture of a toad.
-<P><LI>Scrutinise the webpages of the Freenet-site for spelling/grammar mistakes and report them.
+<P><LI>Scrutinise the webpages of the Freenet-site for spelling/grammar mistakes and out of date content and report them.
 <P><LI>Feel free to suggest additions/improvements on texts or pictures/artwork; we'll have a look at them.
 <P><LI>Run a node 24/24.
 <P><LI>Create Freesites and/or insert content on Freenet.
@@ -15,6 +12,7 @@
 <P><LI>Donate.
 <P><LI>Donate more.
 <P><LI>Help coding & debugging if you can.
+<P><LI>Translate the web interface into your native language.
 <P><LI>Whine less about what's wrong with it, but give specific bug-reports in stead.
 <P><LI>Join #freenet on freenode for other suggestions/discussions.
 <P><LI>Document the various fproxy options. 
