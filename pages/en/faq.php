@@ -117,6 +117,7 @@ You might be interested in <a href="http://www.eff.org/wp/iaal-what-peer-peer-de
 There have been questions raised about Freenet's legality in France under the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>,
 and its legality across the EU should <a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> pass.
 Also we have grounds to believe that Freenet 0.5 is <a href="http://wiki.freenetproject.org/China">blocked</a> in China, although that doesn't necessarily make it illegal (the website of course has been blocked since forever).
+If you want legal advice, ask a lawyer.
 </p>
 
 <p><b id="trouble">Can I get trouble if I run a node?</b><br>
