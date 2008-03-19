@@ -272,7 +272,13 @@ on the development list about the language choice aren't welcome, people willing
 in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
 
 <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
-If you want everyone to be able to use your node, go to <a href="http://127.0.0.1:8888/config/">fproxy's configuration page</a> and change the following parameters:
+If you want everyone to be able to use your node you have the following options:<br></p>
+<ul>
+<li>Go to <a href="http://127.0.0.1:8888/config/">fproxy's configuration page</a> and enable advanced mode in the FPROXY section</li>
+<li>Stop your node and edit freenet.ini manually</li>
+</ul>
+<p>In both cases change the following parameters:</p>
+<p>If you want everyone to be able to access your node:
 </p><code>
 fproxy.bindTo=0.0.0.0<BR>
 fproxy.allowedHosts=0.0.0.0<BR>
@@ -284,6 +290,16 @@ controls within Freenet, then you can use lines like this:</p>
 fproxy.bindTo=0.0.0.0<br>
 fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 </code>
+<p>Or even (find your IP address from ipconfig/ifconfig/winipcfg and substitute it for 192.168.1.1):</p>
+<code>
+fproxy.bindTo=127.0.0.1,192.168.1.1<br>
+fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
+</code>
+<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):</p>
+<code>
+fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
+</code>
+</p>
 
 </p><p><b id="fec">What is FEC?</b><br>
 FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into several small blocks -- this is called a <i>splitfile</i>.
