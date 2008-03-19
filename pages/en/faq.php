@@ -32,7 +32,6 @@
 </li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
 </li><li><a href="#fec">What is FEC?</a>
 </li><li><a href="#healing">What is healing?</a>
-</li><li><a href="#fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</a>
 </li><li><a href="#seednodes">How do I extract the necessary seedNode values from my own node?</a>
 
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
@@ -313,14 +312,6 @@ question), some of the blocks may have become unavailable.  Healing
 lets you repair the file by recalculating the data for the missing
 blocks, and then reinserting them into Freenet.</p>
 
-
-<p><b id="fec-cli">My browser can't save large files from Freenet.  Can I retrieve them from the command line?</b><br>
-Yes, you can.  Use this command:
-</p><code>
-java -cp freenet.jar freenet.client.cli.Main get KEY filename<BR>
-</code><p>
-Be sure to specify the filename you want to save the key into.  You can use the --help option to learn the other switches, such as healing percentage, HTL for the individual blocks, etc.<p>
-You can also use standalone freenet tools like <a href="http://127.0.0.1:8888/SSK@CKesZYUJWn2GMvoif1R4SDbujIgPAgM/fuqid/9//">FUQID</a> (windows only, link only works if you have fproxy running on 127.0.0.1:8888), or <a href="/fcptools.html">FCPTools</a>.
 
 <p><b id="heisenbug">What is a Heisenbug?</b><br>
 The name comes from the Heisenberg Uncertainty Principle of
