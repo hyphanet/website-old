@@ -170,9 +170,12 @@ freenet sites will ever load faster than regular websites, it does adapt to
 sudden surges of visitors (which will often occur when relatively unknown sites 
 get linked to from a big site) better, and high download speeds for big files
 are feasible too. Just don't expect very low latency.
+
 <h2> Technical answers</h2>
 <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br>
-Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it with a Freenet client. One of the services that Fred offers is called fproxy, which lets you talk to Freenet with a web browser. Point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
+Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it through a Freenet client. One built-in client is fproxy, which lets you talk to Freenet with a web browser. 
+Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu. This should launch a customised firefox profile optimised for browsing Freenet (with a black theme so you can see clearly that you're not browsing the web). 
+Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
 
 <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
 
