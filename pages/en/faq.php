@@ -231,7 +231,9 @@ other goals. For example, people often suggest that someone's node could
 just never drop data they want to cache permanently. This, however,
 won't work because even if the data is still available on their node,
 there is no way to ensure that requests for that data will be routed to
-that node. We have considered many other ways that Freenet could store data permanently, but they either won't work, or compromise Freenet's core goals of anonymity, and scalability.</p>
+that node. We have considered many other ways that Freenet could store data 
+permanently, but they either won't work, or compromise Freenet's core goals 
+of anonymity, and scalability.</p>
 
 
 <p><b id="why-java">Why is Freenet implemented in Java?</b><BR>
