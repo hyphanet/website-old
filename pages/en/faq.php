@@ -187,32 +187,16 @@ and files. Note that searching on Freenet is a good deal more difficult than
 on other networks because of Freenet's different architecture and design goals.
 
 <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br>
-<ol>
-<!-- :: Most of it isn't necessary anymore::
-<li>Open the <b>freenet.conf</b> or <b>freenet.ini</b> file in a text 
-editor.  On Windows you will normally find this file in <b>c:\Program 
-Files\Freenet</b>, on Linux you will find it wherever you unpacked the 
-Freenet tarball.
-<li>Find the line containing the <b>node.ipAddressOverride</b> setting and change it 
-to:
-<pre>
-node.ipAddressOverride=x.x.x.x
-</pre>
-...where x.x.x.x is the IP address of your NAT or Firewall (consult the 
-manual if you are unsure how to determine this).
-<li>Find the line containing <b>node.listenPort</b> and take a note of the 
-number it is set to - do <i>not</i> change it.
--->
-<li>Freenet ought to work "out of the box" behind most NATing device...
-but following the following steps might be usefull for your node to re-establish its links faster.
-<li>Configure your NAT or firewall to forward connections to the 
-node.listenPort number (You can find it in a file called freenet.ini in the freenet
-folder), to the same port on your computer (you will probably need to know your computer's 
-internal IP address which will often begin with 192.168.x.x). Remember that freenet 0.7 uses UDP.
-<li>Configure your NAT or firewall, if necessary, to allow outgoing
-connections to any port on any host. Freenet does not use a standard
-port number, to make it harder to block.
-</ol>
+Mostly, Freenet should just work with a NAT. However, you should forward the ports
+manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
+see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
+and Opennet FNP ports. You may need to look up your router's documentation to figure
+out how to do this. Freenet should have forwarded them itself through <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
+but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have java before 1.5).</p>
+<p>If you have a dyndns address or other domain name pointing to the computer you run 
+your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/">the config page</a>, 
+and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
+
 <p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br>
 No, but it is preferred. You can run the software and test it from
 a "transient" connection (such as provided by typical modem/ISP
