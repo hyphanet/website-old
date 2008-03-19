@@ -15,6 +15,17 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
+<p><b>17th Mar, 2008 - Freenet accepted into Google Summer of Code 2008</b></p>
+<p>Google has accepted us into their <a href="http://code.google.com/soc/2008/">Summer of Code</a> 
+for the third year. The last two years have been a mixed bag, but some good code has
+come out of it (not least Thaw), and some good developers too. This year we will be doing
+fewer projects than last year because we only have two confirmed mentors, and we will
+be selecting candidates more carefully. If you want to get paid $4,500 by Google to 
+work on Freenet over the summer, please have a look at the 
+<a href="http://wiki.freenetproject.org/SummerOfCode2008">wiki page</a> (including ideas list, 
+although feel free to suggest a proposal that isn't there)
+and <a href="mailto:devl@freenetproject.org">contact us</a>.</p>
+
 <p><b>29th Jan, 2008 - Freenet 0.7.0a2 alphatest released</b></p>
 <p>Freenet version 0.7a2 is now available for public testing.</p>
 <p>Freenet is a global peer-to-peer network designed to allow users to publish 
