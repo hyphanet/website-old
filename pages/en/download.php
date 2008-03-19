@@ -64,6 +64,7 @@ cat freenet07.tar.gz | gzip -d | tar xv
 cd freenet
 ./run.sh start
 </pre>
+<p>Read the <a href="faq.html#fproxy-lan">FAQ</a> on how to enable web-access from a remote computer.</p>
 <!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 -->
