@@ -112,7 +112,12 @@ counts more than diskspace.</p>
 <p><b id="legal">Is Freenet legal?</b><br>
 If by legal you mean not illegal, then yes it is. Of course,
 anything can be found to be illegal at some point in the future, and
-the law can be an ass sometimes, so we can make no guarantee about Freenet's future legality.</p>
+the law can be an ass sometimes, so we can make no guarantee about Freenet's future legality.
+You might be interested in <a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">the EFF's advice</a> to peer to peer developers.
+There have been questions raised about Freenet's legality in France under the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>,
+and its legality across the EU should <a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> pass.
+Also we have grounds to believe that Freenet 0.5 is <a href="http://wiki.freenetproject.org/China">blocked</a> in China, although that doesn't necessarily make it illegal (the website of course has been blocked since forever).
+</p>
 
 <p><b id="trouble">Can I get trouble if I run a node?</b><br>
 This is related to the previous question. We have done everything
