@@ -411,7 +411,7 @@ a big freesite inserted regularly, a Frost poster maybe who uploads files too.</
 get lots of <a href="http://127.0.0.1:8888/friends/">"Friends"</a>
 aka <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> connections:
 these are permanent, fixed connections to people you actually know. Once you have 
-enough, you can turn off <a href="http://wiki.freenetproject.org/OpenNet">opennet</a>,
+enough, you can turn off <a href="http://wiki.freenetproject.org/OpenNet">opennet</a> (aka insecure mode),
 and only connect to people you know. This makes it very much more expensive for an 
 attacker, as he has to infiltrate the social network, rather than just 
 <a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a> the opennet
