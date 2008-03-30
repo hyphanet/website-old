@@ -51,7 +51,7 @@ function selectPage($lang_q, $page) {
 				{
 					if ($aLang == $userlang) {										// if we have a match, set file-include to $path
 						$file = $path;
-						if (file_exists($_SERVER['DOCUMENT_ROOT'].$file)) 									// if file exists, break loop
+						if (file_exists($_SERVER['DOCUMENT_ROOT'].'/'.$file)) 									// if file exists, break loop
 						{
  							break 2;
  						}
