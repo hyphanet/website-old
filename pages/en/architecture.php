@@ -9,7 +9,7 @@ that are connected directly to you are the only nodes on freenet that might see 
 through to your Freenet node. These are also the only nodes that you can see on the network, the others are hidden
 from you.
 </p>
-<img src="/freenet/image/Freenet-architecture-small.png">
+<img src="/image/Freenet-architecture-small.png">
 <br/>
 <span style="font-size:75%;font-style:italic;">Figure 1: Visible Freenet connections</span>
 <p>
