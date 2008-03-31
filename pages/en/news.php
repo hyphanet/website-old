@@ -2,18 +2,6 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
-<!-- removed due to large donation - its unfair to imply that the project
-	is at death's door
-<h3>Financial Status</h3>
-The project's current Paypal balance is <b>
-<? 
-#include("paypaltotal.txt"); 
-?></b>.  The project requires approximately $2,300 per month to pay for 
-its 
-full time developer, Matthew Toseland.  If you would like to help 
-support the Freenet Project, you can make a convenient donation through 
-our <a href="/donate.html">donations page</a>.
--->
 <h3>News</h3>
 <p><b>31st Mar, 2008 - Freenet 0.7.0 release candidate 1 released</b></p>
 <p>Freenet version 0.7 Release Candidate 1 is now available for public testing.</p>
