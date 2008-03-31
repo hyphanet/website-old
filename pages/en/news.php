@@ -15,6 +15,32 @@ support the Freenet Project, you can make a convenient donation through
 our <a href="/donate.html">donations page</a>.
 -->
 <h3>News</h3>
+<p><b>31st Mar, 2008 - Freenet 0.7.0 release candidate 1 released</b></p>
+<p>Freenet version 0.7 Release Candidate 1 is now available for public testing.</p>
+<p>Freenet is a global peer-to-peer network designed to allow users to publish and 
+consume information without fear of censorship.  To use it, you must download the 
+Freenet software, available for Windows, Mac, Linux and other operating systems.  
+Once you install and run Freenet, your computer will join a global, decentralized 
+P2P network. You will be able to publish and consume information anonymously, either 
+through your web browser, or through a variety of third party applications.</p>
+<p>Freenet 0.7 is a ground-up rewrite of Freenet.  The key user-facing feature in 
+Freenet 0.7 is the ability to operate Freenet in a "darknet" mode, where your Freenet 
+node will only talk to other Freenet users that you trust.  This makes it much more 
+difficult for an adversary to discover that you are using Freenet, let alone what 
+you are doing with it. 0.7 also includes significant improvements to both security 
+and performance.</p>
+<p>Freenet 0.7 RC1 can be downloaded from:</p>
+<p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
+<p>This release would not have been possible without the release of numerous volunteers, 
+and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through 
+donations via our website (as well as a few larger sponsors from time to time).  We ask 
+that anyone who can help us to ensure Matthew's continued employment visit our donations 
+page and make a contribution at:</p>
+<p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
+<p>The Freenet Project is also participating in the Google Summer of Code project this 
+year, if you are interested in joining, please see the Summer of Code site as soon as 
+possible:</p>
+<p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
 <p><b>17th Mar, 2008 - Freenet accepted into Google Summer of Code 2008</b></p>
 <p>Google has accepted us into their <a href="http://code.google.com/soc/2008/">Summer of Code</a> 
 for the third year. The last two years have been a mixed bag, but some good code has
