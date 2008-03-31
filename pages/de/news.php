@@ -17,7 +17,7 @@ our <a href="/donate.html">donations page</a>.
 <h3>Neuigkeiten</h3>
 <!-- Translation-Disclaimer - do not remove. Modify date of Translation! -->
 <p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 30.3.2008)
-ist evtl. veraltet, die<a href="/index.php?page=news&lang=en">Englische Version</a>
+ist evtl. veraltet, die <a href="/index.php?page=news&lang=en">Englische Version</a>
 sollte aber auf dem neusten Stand sein.</p>
 <p><b>17. M&auml;rz 2008 - Freenet im Google Summer of Code 2008 aufgenommen</b></p>
 <p>Google hat uns zum dritten Mal in ihrem
@@ -45,7 +45,7 @@ weltweiten, dezentralen P2P Netzwerks und Sie werden in der Lage sein
 Informationen anonym zu lesen und zu ver&ouml;ffentlichen, entweder &uuml;ber Ihren
 Web-Browser oder &uuml;ber eine Vielfalt von Programmen von Drittanbietern, so wie
 Frost (siehe <a href="http://jtcfrost.sf.net/">http://jtcfrost.sf.net/</a>).</p>
-<p>Seit der ersten Alpha-Version sind eine große Anzahl von &Auml;nderungen
+<p>Seit der ersten Alpha-Version sind eine gro&szlig;e Anzahl von &Auml;nderungen
 vorgenommen worden, im speziellen erhebliche Verbesserungen der
 Benutzerfreundlichkeit. Zum Beispiel ist es nicht mehr n&ouml;tig andere Leute zu
 finden mit denen man sich verbinden kann, Freenet kann andere Leute f&uuml;r Sie
@@ -54,15 +54,17 @@ maximale Sicherheit zu erlangen. Weiterhin ist Freenet nun eine ganze Ecke
 schneller und viele Fehler wurden behoben.</p>
 <p>Es wurden zahlreiche weitere Verbesserungen vorgenommen und wir werden in den
 kommenden Monaten eine funktionskomplette Beta-Version gefolgt von 0.7.0 selbst
-ver&ouml;ffentlichen (wir hoffen danach regelm&auml;ßige Ver&ouml;ffentlichungen anbieten zu
-k&ouml;nnen). Aber wir dachten es w&auml;re zu diesem Zeitpunkt das Beste einen gr&ouml;ßeren
-Test zu machen. Es gibt vor 0.7.0 noch mehr zu tun und ein oder zwei Funktionen
-welche bis dahin fertig gestellt werden m&uuml;ssen.</p>
+ver&ouml;ffentlichen (wir hoffen danach regelm&auml;&szlig;ige
+Ver&ouml;ffentlichungen anbieten zu k&ouml;nnen). Aber wir dachten es w&auml;re
+zu diesem Zeitpunkt das Beste einen gr&ouml;&szlig;eren Test zu machen. Es gibt
+vor 0.7.0 noch mehr zu tun und ein oder zwei Funktionen welche bis dahin fertig
+gestellt werden m&uuml;ssen.</p>
 <p>Freenet 0.7a2 kann <a href="http://freenetproject.org/download.html">hier</a>
 heruntergeladen werden.</p>
 <p>Diese Ver&ouml;ffentlichung w&auml;re ohne die zahlreichen Freiwilligen und Matthew
 Toseland, Freenets Vollzeit-Entwickler, nicht m&ouml;glich gewesen. Matthews Arbeit
-wird durch Spenden &uuml;ber unsere Webseite finanziert (und einigen gr&ouml;ßeren Spenden
-von Zeit zu Zeit), wir rufen jeden der uns helfen kann dazu auf Matthews
-Anstellung durch den Besuch unserer <a href="/donate.html">Spenden-Seite</a>
-(und einer Zuwendung) sicher zu stellen.</p>
+wird durch Spenden &uuml;ber unsere Webseite finanziert (und einigen
+gr&ouml;&szlig;eren Spenden von Zeit zu Zeit), wir rufen jeden der uns helfen
+kann dazu auf Matthews Anstellung durch den Besuch unserer
+<a href="/donate.html">Spenden-Seite</a> (und einer Zuwendung) sicher zu
+stellen.</p>
