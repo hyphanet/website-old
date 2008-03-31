@@ -19,7 +19,7 @@ our <a href="/donate.html">donations page</a>.
 <p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 31.3.2008)
 ist evtl. veraltet, die <a href="/index.php?page=news&lang=en">Englische Version</a>
 sollte aber auf dem neusten Stand sein.</p>
-<<!-- End of translation disclaimer -->
+<!-- End of translation disclaimer -->
 
 <p><b>31. März 2008 - Freenet 0.7.0 Release Candidate 1 veröffentlicht</b></p>
 <p>Die Freenet-Version 0.7.0 Release Candidate 1 steht nun zum öffentlichen Test
@@ -47,8 +47,8 @@ wesentliche Verbesserungen der Sicherheit und Geschwindigkeit.
 <p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
 <p>Diese Veröffentlichung wäre ohne die zahlreichen Freiwilligen und Matthew
 Toseland, Freenets Vollzeit-Entwickler, nicht möglich gewesen. Matthews Arbeit
-wird durch Spenden über unsere Webseite finanziert (und einigen größeren Spenden
-von Zeit zu Zeit). Wir rufen jeden, der uns helfen kann, dazu auf Matthews
+wird durch Spenden über unsere Webseite (und einige größeren Spenden
+von Zeit zu Zeit) finanziert. Wir rufen jeden, der uns helfen kann, dazu auf Matthews
 Anstellung sicherzustellen. Besuchen Sie unsere Spenden-Seite und spenden Sie
 auf:</p>
 <p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
