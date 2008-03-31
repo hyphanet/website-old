@@ -40,7 +40,7 @@ page and make a contribution at:</p>
 <p>The Freenet Project is also participating in the Google Summer of Code project this 
 year, if you are interested in joining, please see the Summer of Code site as soon as 
 possible:</p>
-<p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
+<p><a href="http://code.google.com/soc/2008/">http://code.google.com/soc/2008/</a></p>
 <p><b>17th Mar, 2008 - Freenet accepted into Google Summer of Code 2008</b></p>
 <p>Google has accepted us into their <a href="http://code.google.com/soc/2008/">Summer of Code</a> 
 for the third year. The last two years have been a mixed bag, but some good code has
