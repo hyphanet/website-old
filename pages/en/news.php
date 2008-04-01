@@ -19,7 +19,7 @@ you are doing with it. 0.7 also includes significant improvements to both securi
 and performance.</p>
 <p>Freenet 0.7 RC1 can be downloaded from:</p>
 <p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
-<p>This release would not have been possible without the release of numerous volunteers, 
+<p>This release would not have been possible without the help of numerous volunteers, 
 and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through 
 donations via our website (as well as a few larger sponsors from time to time).  We ask 
 that anyone who can help us to ensure Matthew's continued employment visit our donations 
