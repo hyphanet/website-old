@@ -93,10 +93,11 @@ alt="Regelmäßig per PayPal spenden">
       <input type="hidden" name="cmd" value="_xclick">
       <input type="hidden" name="business" value="ian@freenetproject.org">
       <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="item_name" value="Spende an das Freenet-Projekt">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
       <input type="hidden" name="return" value="http://freenetproject.org/">
       <input type="image" 
-src="http://www.paypal.com/de_DE/i/btn/x-click-butcc-donate.gif" border="0" 
+src="http://www.paypal.com/de_DE/DE/i/btn/x-click-butcc-donate.gif" border="0" 
 name="submit" alt="Einmalig spenden per Paypal"></form>
 </center>
 <p>
