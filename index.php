@@ -83,5 +83,7 @@ This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html
 </div>
 </div>
 	<div class="hideit">Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script><script type="text/javascript">_uacct = "UA-354970-1";urchinTracker();</script>
 </body>
 </html>
