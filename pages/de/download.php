@@ -13,7 +13,7 @@ Knoten rund um die Uhr laufen lassen können.
 </p>
 
 <p><i>Wenn Sie eine Firewall oder ein NAT-Gerät (z.B. ein Router) haben, klicken
-Sie <a href="/faq.html#firewall"><b>here</b></a> um ein paar Informationen zu
+Sie <a href="/faq.html#firewall"><b>hier</b></a> um ein paar Informationen zu
 bekommen.</i></p>
 
 <div id="jws">
@@ -21,7 +21,7 @@ bekommen.</i></p>
 Wenn Sie auf <big><big><a
 href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp"
 >Freenet 0.7 installieren</a></big></big> klicken, sollte das
-Installations-Programm starten. Wenn es das aus irgend einem Grund nicht
+Installations-Programm starten. Wenn das aus irgend einem Grund nicht
 funktioniert, können Sie es mit der plattformspezifischen Anleitung versuchen
 (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');"
 >Windows-Anleitung</a>, <a href="javascript:hideDiv('windows');showDiv('macos');
@@ -214,7 +214,7 @@ nicht-anonymes Chat-System welches von vielen Entwicklern und Benutzern von
 Freenet benutzt wird">IRC</a>-Kanal <a href="irc://irc.freenode.net/freenet"
 >#freenet</a> (Englisch) auf irc.freenode.net. Deutschsprachige Unterstützung
 finden Sie im deutschen Kanal <a href="irc://irc.freenode.net/freenet-de"
->#freenet-de</a> im selben Netzwerk.
+>#freenet-de</a> auf dem selben Netzwerk.
 </p>
 	
 <h3>Hardware-Anforderungen</h3>
