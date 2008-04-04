@@ -2,6 +2,7 @@
 
 $pages = array(
 
-'en' => 'pages/en/download-old.php')
+'en' => 'pages/en/download-old.php',
+'de' => 'pages/de/download-old.php')
 
 ?>
