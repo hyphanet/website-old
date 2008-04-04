@@ -87,7 +87,7 @@ XP benutzen).
 <p>
 Nachdem Sie Freenet installiert haben können Windows-Benutzer auf die neuste
 tägliche &bdquo;Schnappschuss&ldquo;-Version von Freenet aktualisieren, indem
-auf &bdquo;Update Snapshot&ldquo; in dem Freenet-Ordner in ihrem Startmenü
+sie auf &bdquo;Update Snapshot&ldquo; im Freenet-Ordner in ihrem Startmenü
 klicken.
 </p>
 <p>
