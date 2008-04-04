@@ -55,3 +55,4 @@ page and make a contribution at:</p>
 <p>The Freenet Project is also participating in the Google Summer of Code project this 
 year, if you are interested in joining, please see the Summer of Code site as soon as 
 possible:</p>
+<p><a href="http://code.google.com/soc/2008/">http://code.google.com/soc/2008/</a></p>
