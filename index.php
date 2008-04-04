@@ -7,6 +7,7 @@ include 'includes/common.inc.php';
 <html>
 <head>
 	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=">
+
 	<title>The Freenet Project - <?= $page ?></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 	<meta name="language"    content="en">
