@@ -3,7 +3,32 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 <h3>News</h3>
-<p><b>31st Mar, 2008 - Freenet 0.7.0 release candidate 1 released</b></p>
+
+<p><b>4th April, 2008 - Freenet Receives Donation Funding Ongoing Development Work</b></p>
+<p>
+	Google's <a href="http://code.google.com/opensource/">Open Source Team</a> has
+	donated US$18,000 to the Freenet Project to support the ongoing
+	development of the Freenet software.
+</p>
+<p>
+	Freenet is a 501c3 non-profit corporation whose goal is the
+	development of free software that allows users to publish and obtain
+	information on the Internet without fear of censorship.
+</p>
+<p>
+	Earlier this week Freenet launched the first release-candidate for
+	Freenet 0.7, the 7th major iteration of Freenet since the project
+	started in 1999.  Freenet 0.7's most important new feature is its
+	ability to run in a "darknet" mode, to further protect the identities
+	of Freenet users in countries which do not respect freedom of speech
+	on the Internet.
+</p>
+<p>
+	This donation will ensure the continued employment of Freenet's full-
+	time software developer, Matthew Toseland.
+</p>
+
+<p><b>31st Mar, 2008 - Freenet 0.7.0 release candidate 1 now available</b></p>
 <p>Freenet version 0.7 Release Candidate 1 is now available for public testing.</p>
 <p>Freenet is a global peer-to-peer network designed to allow users to publish and 
 consume information without fear of censorship.  To use it, you must download the 
@@ -28,14 +53,3 @@ page and make a contribution at:</p>
 <p>The Freenet Project is also participating in the Google Summer of Code project this 
 year, if you are interested in joining, please see the Summer of Code site as soon as 
 possible:</p>
-<p><a href="http://code.google.com/soc/2008/">http://code.google.com/soc/2008/</a></p>
-<p><b>17th Mar, 2008 - Freenet accepted into Google Summer of Code 2008</b></p>
-<p>Google has accepted us into their <a href="http://code.google.com/soc/2008/">Summer of Code</a> 
-for the third year. The last two years have been a mixed bag, but some good code has
-come out of it (not least Thaw), and some good developers too. This year we will be doing
-fewer projects than last year because we only have two confirmed mentors, and we will
-be selecting candidates more carefully. If you want to get paid $4,500 by Google to 
-work on Freenet over the summer, please have a look at the 
-<a href="http://wiki.freenetproject.org/SummerOfCode2008">wiki page</a> (including ideas list, 
-although feel free to suggest a proposal that isn't there)
-and <a href="mailto:devl@freenetproject.org">contact us</a>.</p>
