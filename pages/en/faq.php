@@ -62,9 +62,9 @@
 </li><li><a href="#attackY">What about attack Y?</a>
 </li></ol>
 <h3> Misc. questions</h3>
-
-<ol><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-<li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
+<ol><li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a>
+</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
+</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
 </li></ol>
 <h2> Philosophical answers
 </h2><p><b id="what">What is Freenet?</b><br>
@@ -502,3 +502,6 @@ by it's nature, may not deal with to extent you might wish. If this
 upsets you, all of our code is freely available, so you are free to
 take as much of it as you like and write your own distributed network
 that suits your desires. </p>
+
+<p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br>
+<a href="/images/rabbit/freenet-bunny.svg">Here</a>.</p>
