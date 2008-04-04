@@ -24,8 +24,8 @@ old new build announcements) -->
 	on the Internet.
 </p>
 <p>
-	This donation will ensure the continued employment of Freenet's full-
-	time software developer, Matthew Toseland.
+	This donation will ensure the continued employment of Freenet's full-time 
+	software developer, Matthew Toseland.
 </p>
 
 <p><b>31st Mar, 2008 - Freenet 0.7.0 release candidate 1 now available</b></p>
