@@ -504,4 +504,4 @@ take as much of it as you like and write your own distributed network
 that suits your desires. </p>
 
 <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br>
-<a href="/images/rabbit/freenet-bunny.svg">Here</a>.</p>
+<a href="/image/rabbit/freenet-bunny.svg">Here</a>.</p>
