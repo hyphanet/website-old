@@ -5,10 +5,39 @@ old new build announcements) -->
 
 <h3>Neuigkeiten</h3>
 <!-- Translation disclaimer - do not remove. Modify date of translation! -->
-<p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 31.3.2008)
+<p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 5.4.2008)
 ist evtl. veraltet, die <a href="/index.php?page=news&lang=en">Englische Version</a>
 sollte aber auf dem neusten Stand sein.</p>
 <!-- End of translation disclaimer -->
+
+<p><b>4. April 2008 - Freenet erhält Spende zur Finanzierung laufender
+Entwicklungsarbeit</b></p>
+
+<p>
+Googles <a href="http://code.google.com/opensource/">Open-Source-Team</a> hat
+dem Freenet-Projekt 18.000 US-$ gespendet um die laufende Entwicklung der
+Freenet-Software zu unterstützen.
+</p>
+<p>
+Freenet ist eine gemeinnützige Organisation (nach 501c3) deren Ziel die
+Entwicklung der Freenet-Software ist, die es den Benutzern erlaubt Informationen
+im Internet zu beziehen und zu veröffentlichen, ohne Zensur fürchten zu müssen.
+</p>
+<p>
+Am Anfang dieser Woche ließ Freenet den ersten Release Candidate
+(Veröffentlichungs-Kandidat) für Freenet 0.7 vom Stapel laufen, der 7. große
+Schritt seit der Gründung des Projekts 1999. Das wichtigste neue Merkmal von
+Freenet 0.7, ist seine Fähigkeit in einem &bdquo;Darknet&ldquo;-Modus zu laufen
+um die Identitäten der Freenet-Benutzer, in Ländern welche die Meinungsfreiheit
+im Internet nicht respektieren, besser zu schützen.
+</p>
+<p>
+Diese Spende wird die weitere Beschäftigung von Freenets
+Vollzeit-Software-Entwickler, Matthew Toseland, sicher stellen, sodass wir
+weiterhin die Geschwindigkeit, Benutzerfreundlichkeit und Sicherheit von Freenet
+verbessern können, welche bereits in Version 0.7 deutlich erhöht wurden.
+</p>
+
 
 <p><b>31. März 2008 - Freenet 0.7.0 Release Candidate 1 veröffentlicht</b></p>
 <p>Die Freenet-Version 0.7.0 Release Candidate 1 steht nun zum öffentlichen Test
@@ -45,19 +74,3 @@ auf:</p>
 Code&ldquo;-Projekt teil. Wenn Sie daran interessiert sind mitzumachen, besuchen
 Sie so schnell wie möglich die &bdquo;Summer of Code&ldquo;-Seite:</p>
 <p><a href="http://code.google.com/soc/2008/">http://code.google.com/soc/2008/</a></p>
-
-
-<p><b>17. M&auml;rz 2008 - Freenet im Google Summer of Code 2008 aufgenommen</b></p>
-<p>Google hat uns zum dritten Mal in ihrem
-<a href="http://code.google.com/soc/2008/">Summer of Code</a> aufgenommen. Die
-letzten beiden Jahre waren gemischt, aber es kam dabei einiger guter Code
-(nicht zuletzt Thaw) und auch ein paar gute Entwickler heraus. Dieses Jahr
-werden wir weniger Projekte durchf&uuml;hren weil wir nur zwei Mentoren haben die
-fest zugesagt haben und wir werden die Kandidaten sorgf&auml;ltiger
-ausw&auml;hlen. Wenn Sie von Google 4500$ daf&uuml;r bezahlt bekommen
-m&ouml;chten, den Sommer &uuml;ber an Freenet zu arbeiten, werfen Sie bitte
-einen Blick auf die
-<a href="http://wiki.freenetproject.org/SummerOfCode2008">Wiki-Seite</a>
-(sie enth&auml;lt auch eine Liste mit Ideen, aber tun Sie sich keinen Zwang an etwas
-vorzuschlagen das dort nicht aufgelistet ist) und
-<a href="mailto:devl@freenetproject.org">kontaktieren Sie uns</a>.</p>
