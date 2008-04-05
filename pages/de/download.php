@@ -77,8 +77,10 @@ Wenn dies nicht funktioniert, versuchen Sie es mit der Anleitung für Linux.
 <h3>Linux und andere Unix-ähnliche Systeme</h3>
 Sie brauchen ein aktuelles <b>Java Runtime Environment</b> (JRE - Java
 Ausführungs-Umgebung). Die besten Ergebnisse haben wir mit Suns Java Runtime
-Environment erzielt, welches von <a href="http://java.com/de/"
->http://java.com/de/</a> heruntergeladen werden kann.<br>
+Environment erzielt, welches Sie mit Ihrer <a
+href="http://de.wikipedia.org/wiki/Paketverwaltung">Paketverwaltung</a>
+installieren oder von <a href="http://java.com/de/" >http://java.com/de/</a>
+herunterladen können.<br>
 Java Version 1.4.2 und höher wird funktionieren. Seien Sie sich jedoch bewusst,
 dass in den Versionen vor Java 1.5 Update 4 Sicherheitslücken im Applet sind.
 Generell empfehlen wir die neuste Version zu benutzen.
