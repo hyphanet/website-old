@@ -2,6 +2,7 @@
 
 $pages = array(
 
-'en' => 'pages/en/fairshare.php')
+'en' => 'pages/en/fairshare.php',
+'de' => 'pages/de/fairshare.php')
 
 ?>
