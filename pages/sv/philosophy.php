@@ -45,7 +45,7 @@ kretsloppet kan brytas om staten/regeringen har makten att reglera vilken inform
 som befolkningen har tillgång till.</p>
 
 
-</p><h3>4. Censur och frihet</h3>
+<h3>4. Censur och frihet</h3>
 <p>Alla människor värdesätter sin frihet, vissa anser den till och med så viktig att
 de är villiga att dö för den. Många vill gärna tro att de är fria att tänka och
 ha vilka åsikter de vill, speciellt i västländerna. Överväg nu att någon hade möjlighet
