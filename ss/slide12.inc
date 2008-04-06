@@ -1,4 +1,4 @@
-<h1>Document encryption</h1
+<h1>Document encryption</h1>
 Insertion
 <ol>
 <li>Alice has a document, <i>PDoc</i>, with key <i>PKey</i> - she
