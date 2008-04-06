@@ -11,6 +11,6 @@ href="mailto:ian@locut.us">Ian Clarke</a> (på engelska).
 </p>
 <? 
 
-	include("pages/sv/news.php");
+	include("pages/en/news.php");
 
 ?>
