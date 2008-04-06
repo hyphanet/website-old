@@ -54,9 +54,9 @@ alt="Regelmäßig per PayPal spenden">
 </form>
 </td></tr></table>
 </center>
-<p>
+<br>
 <hr width="90%">
-</p>
+<br>
 </li>
 
 <li>Sie können über Google Checkout spenden:<br>
@@ -100,9 +100,9 @@ alt="Regelmäßig per PayPal spenden">
 src="http://www.paypal.com/de_DE/DE/i/btn/x-click-butcc-donate.gif" border="0" 
 name="submit" alt="Einmalig spenden per Paypal"></form>
 </center>
-<p>
+<br>
 <hr width="90%">
-</p>
+<br>
 </li>
 <li>Mit diesem Formular können Sie über
 <a href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> Spenden:<br>
@@ -130,9 +130,9 @@ value="http://freenetproject.org/">
 </form>
 </td></tr></table>
 </center>
-<p>
+<br>
 <hr width="90%">
-</p>
+<br>
 </li>
 <li>Sie können auch spenden indem Sie Dinge aus dem
 <a href="http://cafepress.com/freenetproject/">Freenet-Store</a> kaufen.
