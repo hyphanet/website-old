@@ -51,4 +51,4 @@ möglicherweise neue Funktionen beschrieben sind bevor sie ihren Weg auf die
 Webseite finden. Es ist eine gute Informationsquelle für alle möglichen
 Freenet-verwandten Themen.
 </li>
-
+</ul>
