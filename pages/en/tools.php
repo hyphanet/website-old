@@ -8,7 +8,7 @@ Frost is a filesharing and message board application for Freenet. Visit the <a c
 
 <p><a class='wiki'  href='http://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
-Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.</b>
+Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
 </p>
 
 <p><a class='wiki'  href='http://www.freenet.org.nz/pyfcp/'><b>pyFreenet</b></a><br />

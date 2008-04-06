@@ -1,6 +1,5 @@
-<h4><big style="font-weight: normal;"><big></big></big><big
- style="font-weight: bold;"><big>GnuPlot with FreeNet HOWTO</big></big></h4>
-</div>
+<h4><big style="font-weight: bold;">GnuPlot with FreeNet HOWTO</big></h4>
+
 Plotting data with GnuPlot is both fun and easy! Using it for Freenet
 development... well... the harder part is collecting all the numbers
 you want to chart. Graphing with gnuplot is the easy part.<span

@@ -57,7 +57,7 @@ FreeNet White Paper</a><br>
 Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 </td></tr>
 </table>
-<br/
+<br/>
 <hr>
 <p>
 See also all the other <a href="http://wiki.freenetproject.org/FreenetSpecifications">Developer documentation</a>.<p>

@@ -52,4 +52,4 @@ may be described before finding its way into the website.
 It is a good source of information about all sorts of
 Freenet related issues.
 </li>
-
+</ul>

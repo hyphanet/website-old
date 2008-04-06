@@ -6,7 +6,7 @@ Pleas notice that many of these tools are outdated and unmaintained. All develop
 <br /><p>
 <h3><a href="/fphowto.html">Development Aides</a></h3>
 <p>
-<br /><h3>Freenet Publishing & Retrieval Tools</h3>
+<br /><h3>Freenet Publishing &amp; Retrieval Tools</h3>
 
 <br /><a class='wiki'  href='http://127.0.0.1:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/9//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet 0.5 for this link to work.</span></b>
 <br />

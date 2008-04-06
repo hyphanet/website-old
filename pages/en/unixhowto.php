@@ -5,7 +5,7 @@
 <br/>The following applies to Unix/Linux/OS X users. (Someone write an equivalent for Windows?)
 <br/>
 <br/><ol>
-<br/><li>Get Sun's Java runtime environment. Other Java Virtual Machines are likely to be
+<li><br/>Get Sun's Java runtime environment. Other Java Virtual Machines are likely to be
 <br/>unreliable/buggy for Freenet. 
 <br/><a href="http://java.sun.com/">http://java.sun.com/</a> and <b style="color:black;background-color:#ffff66">download</b> the source.
 <br/>
@@ -80,71 +80,72 @@
 <br/>
 <br/><ol>
 
-<br/><li>Install <a href="http://www.kaffe.org/">Kaffe</a>.
-<br/><font face="courier" size="2"><ul>
-</font><br/><font face="courier" size="2"><li>mkdir&nbsp;/usr/local/src
-</font><br/><font face="courier" size="2"><li>cd&nbsp;/usr/local/src
-</font><br/><font face="courier" size="2"><li>cvs&nbsp;-d:pserver:readonly@cvs.kaffe.org:/cvs/kaffe&nbsp;login
-</font><br/><font face="courier" size="2">&nbsp;<ul>
-</font><br/><font face="courier" size="2">&nbsp;<li>The&nbsp;password&nbsp;is&nbsp;<b>readonly</b>.
+<li><br/>Install <a href="http://www.kaffe.org/">Kaffe</a>.
+<br/><ul>
+<li><br/><font face="courier" size="2">mkdir&nbsp;/usr/local/src</font><br/>
+<li><font face="courier" size="2">cd&nbsp;/usr/local/src</font><br/>
+<li><font face="courier" size="2">cvs&nbsp;-d:pserver:readonly@cvs.kaffe.org:/cvs/kaffe&nbsp;login</font><br/>
+<ul>
+<li><font face="courier" size="2">The&nbsp;password&nbsp;is&nbsp;<b>readonly</b>.</font><br/>
+</ul>
+<li><font face="courier" size="2">cvs&nbsp;-d:pserver:readonly@cvs.kaffe.org:/cvs/kaffe&nbsp;co&nbsp;kaffe
+</font><br/><li><font face="courier" size="2">cd&nbsp;kaffe
+</font><br/><li><font face="courier" size="2">./configure&nbsp;&nbsp;--with-includes=/usr/local/include&nbsp;--with-libraries=/usr/local/lib&nbsp;--with-engine=jit3
+</font><br/><li><font face="courier" size="2">Edit&nbsp;<b>libtool</b>&nbsp;and&nbsp;change&nbsp;<b>need_version=no</b>&nbsp;to&nbsp;<b>need_version=yes</b>
 
-</font><br/><font face="courier" size="2">&nbsp;</ul>
-</font><br/><font face="courier" size="2"><li>cvs&nbsp;-d:pserver:readonly@cvs.kaffe.org:/cvs/kaffe&nbsp;co&nbsp;kaffe
-</font><br/><font face="courier" size="2"><li>cd&nbsp;kaffe
-</font><br/><font face="courier" size="2"><li>./configure&nbsp;&nbsp;--with-includes=/usr/local/include&nbsp;--with-libraries=/usr/local/lib&nbsp;--with-engine=jit3
-</font><br/><font face="courier" size="2"><li>Edit&nbsp;<b>libtool</b>&nbsp;and&nbsp;change&nbsp;<b>need_version=no</b>&nbsp;to&nbsp;<b>need_version=yes</b>
-
-</font><br/><font face="courier" size="2"><li>gmake
-</font><br/><font face="courier" size="2"><li>gmake&nbsp;install
-</font><br/><font face="courier" size="2"></ul>
-</font><br/>
-<br/><li>Create a Freenet user account.
-<br/><font face="courier" size="2"><ul>
-</font><br/><font face="courier" size="2"><li>Choose&nbsp;a&nbsp;partition&nbsp;with&nbsp;lots&nbsp;of&nbsp;space.
-</font><br/><font face="courier" size="2"><li>vipw
-</font><br/><font face="courier" size="2"><li>mkdir&nbsp;~freenet
-
-</font><br/><font face="courier" size="2"><li>chown&nbsp;freenet&nbsp;~freenet
-</font><br/><font face="courier" size="2"><li>vi&nbsp;~freenet/.profile
-</font><br/><font face="courier" size="2">&nbsp;<ul>
-</font><br/><font face="courier" size="2">&nbsp;<li>Set&nbsp;PATH&nbsp;so&nbsp;that&nbsp;java&nbsp;will&nbsp;be&nbsp;in&nbsp;it.
-</font><br/><font face="courier" size="2">&nbsp;<li>Set&nbsp;CLASSPATH&nbsp;so&nbsp;that&nbsp;~freenet/freenet.jar&nbsp;and&nbsp;~freenet/freenet-ext.jar&nbsp;will&nbsp;be&nbsp;in&nbsp;it.
-
-</font><br/><font face="courier" size="2">&nbsp;</ul>
-</font><br/><font face="courier" size="2"><li>Everything&nbsp;else&nbsp;is&nbsp;done&nbsp;as&nbsp;the&nbsp;freenet&nbsp;user.
-</font><br/><font face="courier" size="2"></ul>
-</font><br/>
+</font><br/><li><font face="courier" size="2">gmake
+</font><br/><li><font face="courier" size="2">gmake&nbsp;install
+</font><br/></ul>
+<li>Create a Freenet user account.<br/>
+<ul>
+<li><font face="courier" size="2">Choose&nbsp;a&nbsp;partition&nbsp;with&nbsp;lots&nbsp;of&nbsp;space.</font><br/>
+<li><font face="courier" size="2">vipw</font><br/>
+<li><font face="courier" size="2">mkdir&nbsp;~freenet</font><br/>
+<li><font face="courier" size="2">chown&nbsp;freenet&nbsp;~freenet</font><br/>
+<li><font face="courier" size="2">vi&nbsp;~freenet/.profile</font><br/>
+<ul>
+<li><font face="courier" size="2">Set&nbsp;PATH&nbsp;so&nbsp;that&nbsp;java&nbsp;will&nbsp;be&nbsp;in&nbsp;it.</font><br/>
+<li><font face="courier" size="2">Set&nbsp;CLASSPATH&nbsp;so&nbsp;that&nbsp;~freenet/freenet.jar&nbsp;and&nbsp;~freenet/freenet-ext.jar&nbsp;will&nbsp;be&nbsp;in&nbsp;it.</font><br/>
+</ul></li>
+<li><font face="courier" size="2">Everything&nbsp;else&nbsp;is&nbsp;done&nbsp;as&nbsp;the&nbsp;freenet&nbsp;user.</font><br/></li>
+</ul>
+<br/>
 <br/><li><b style="color:black;background-color:#ffff66">Download</b> the three files you need.
-<br/><font face="courier" size="2"><ul>
-</font><br/><font face="courier" size="2"><li>su&nbsp;-&nbsp;freenet
+<br/><ul>
+<li><font face="courier" size="2">su&nbsp;-&nbsp;freenet
 
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/freenet-ext.jar
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/freenet-latest.jar
-</font><br/><font face="courier" size="2"><li>mv&nbsp;freenet-latest.jar&nbsp;freenet-DATE.jar
-</font><br/><font face="courier" size="2"><li>ln&nbsp;-s&nbsp;freenet-DATE.jar&nbsp;freenet.jar
-</font><br/><font face="courier" size="2">&nbsp;<ul>
-</font><br/><font face="courier" size="2">&nbsp;<li>I&nbsp;keep&nbsp;multiple&nbsp;versions&nbsp;because&nbsp;sometimes&nbsp;one&nbsp;of&nbsp;them's&nbsp;bad.
-
-</font><br/><font face="courier" size="2">&nbsp;</ul>
-</font><br/><font face="courier" size="2"><li>wget&nbsp;http://downloads.freenetproject.org/seednodes/seednodes.ref
-</font><br/><font face="courier" size="2">&nbsp;<ul>
-</font><br/><font face="courier" size="2">&nbsp;<li>Or&nbsp;if&nbsp;you&nbsp;prefer,&nbsp;get&nbsp;someone&nbsp;else's&nbsp;seednodes.ref&nbsp;file.
-</font><br/><font face="courier" size="2">&nbsp;</ul>
-</font><br/><font face="courier" size="2"></ul>
+</font><br/><li><font face="courier" size="2">wget&nbsp;http://downloads.freenetproject.org/freenet-ext.jar
+</font><br/><li><font face="courier" size="2">wget&nbsp;http://downloads.freenetproject.org/freenet-latest.jar
+</font><br/><li><font face="courier" size="2">mv&nbsp;freenet-latest.jar&nbsp;freenet-DATE.jar
+</font><br/><li><font face="courier" size="2">ln&nbsp;-s&nbsp;freenet-DATE.jar&nbsp;freenet.jar
 </font><br/>
+<ul>
+<li><font face="courier" size="2">I&nbsp;keep&nbsp;multiple&nbsp;versions&nbsp;because&nbsp;sometimes&nbsp;one&nbsp;of&nbsp;them's&nbsp;bad.
+
+</font><br/>
+</ul>
+<li><font face="courier" size="2">wget&nbsp;http://downloads.freenetproject.org/seednodes/seednodes.ref
+</font><br/>
+<ul>
+<li><font face="courier" size="2">Or&nbsp;if&nbsp;you&nbsp;prefer,&nbsp;get&nbsp;someone&nbsp;else's&nbsp;seednodes.ref&nbsp;file.
+</font><br/>
+</ul>
+</ul>
+
 <br/><li>Configure the node.
 
-<br/><font face="courier" size="2"><ul>
-</font><br/><font face="courier" size="2"><li>java&nbsp;freenet.node.Main&nbsp;--config
-</font><br/><font face="courier" size="2"><li>Optionally,&nbsp;edit&nbsp;freenet.conf&nbsp;by&nbsp;hand&nbsp;to&nbsp;change&nbsp;things&nbsp;you&nbsp;want&nbsp;changed.
-</font><br/><font face="courier" size="2"></ul>
+<br/><ul>
+<li><font face="courier" size="2">java&nbsp;freenet.node.Main&nbsp;--config
+</font><br/><li><font face="courier" size="2">Optionally,&nbsp;edit&nbsp;freenet.conf&nbsp;by&nbsp;hand&nbsp;to&nbsp;change&nbsp;things&nbsp;you&nbsp;want&nbsp;changed.
 </font><br/>
+</ul>
 
-<br/><li>Start the node.
-<br/><font face="courier" size="2"><ul>
-</font><br/><font face="courier" size="2"><li>nohup&nbsp;java&nbsp;freenet.node.Main&nbsp;&
-</font><br/><font face="courier" size="2"></ul>
-</font><br/></ol>
+<br/><li>Start the node.<br/>
+<ul>
+<li><font face="courier" size="2">nohup&nbsp;java&nbsp;freenet.node.Main&nbsp;&amp;
+</font><br/></li>
+</ul>
+</ol>
 <br/>
 <br/>That's just the fundamentals.  In actual practice, running Freenet on OpenBSD required a bit more tweaking than this.  For example, I had to put <b>kern.maxfiles=4096</b> in <b>/etc/sysctl.conf</b>, and <b>:openfiles-max=512:</b> in the <b>default</b> stanza in <b>/etc/login.conf</b>.  And I had to use ksh for freenet's shell, instead of bash.  And maybe some other changes, all of which I've forgotten by now.
 

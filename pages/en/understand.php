@@ -180,7 +180,6 @@ or for example:
 		<td style="background: #def0ff;">AAEA--8</td>
 	</tr>
 </table>
-</p>
 <p>
 The decryption key is stored encrypted within the file, so it is not 
 possible to decrypt the file without the CHK key.
@@ -242,7 +241,6 @@ A typical SSK key looks like this:
 		<td style="background: #def0ff;">version</td>
 	</tr>
 </table>
-</p>
 <p>
 For example (cut for screen purposes):
 <table>
@@ -260,7 +258,6 @@ For example (cut for screen purposes):
 		<td style="background: #def0ff;">4</td>
 	</tr>
 </table>
-</p>
 <h3>How Signed Subspace Keys work</h3>
 <ul>
 <li>The author generates a cryptographic keypair: a 
@@ -317,7 +314,6 @@ A typical USK key looks like this:
 		<td style="background: #ddd;">/</td>	
 	</tr>
 </table>
-</p>
 <p>
 It is almost identical to the Signed Subspace Key, with the exception of the 
 version-number. There are two types of USK addresses:
@@ -357,7 +353,6 @@ Example (cut for screen purposes):
 	
 	</tr>
 </table>
-</p>
 <p>
 When you visit a link with a <span style="font-weight: bold;">negative</span> 
 number at the end, Freenet searches for the version you requested 
@@ -387,18 +382,17 @@ Example (cut for screen purposes):
 	
 	</tr>
 </table>
-</p>
 <p>The real treat with USKs comes when data is to be inserted into Freenet.
 But more on that elsewhere.
 </p>
 <h3>Keyword Signed Keys</h3>
+<p>
 Keyword-Signed Keys (KSKs) allow you to save named pages in Freenet. They 
 are not secure against spamming or name hijacking. Several people could 
 each insert a different file to Freenet, all with the same address.
 However, there is a collision detection, which tries to prevent 
 overwriting of a once-inserted page. A KSK address looks like this:
 </p>
-<p>
 <table>
 	<tr>
 		<td style="background: #def0ff;">KSK</td>
@@ -406,7 +400,6 @@ overwriting of a once-inserted page. A KSK address looks like this:
 		<td style="background: #def0ff;">myfile.txt</td>
 	</tr>
 </table>
-</p>
 <p>
 The drawback to KSKs is that anyone can insert a file with the same name
 as yours and divert traffic from your file to their own. The advantage

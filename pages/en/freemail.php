@@ -20,6 +20,7 @@ you an address looking like:</p>
 <ul>
 <li>&lt;anything&gt;@[short Freemail-address].freemail</li>
 </ul>
+<p>
 After running the last command you now have a running Freemail proxy, listening on localhost at IMAP port 3143 for incoming mails, 
 and SMTP port 3025 for outgoing mails. Connect to it using your favourite email client software</p>
 
@@ -60,7 +61,7 @@ Mailsite keys generated.
 Your Freemail address is: anything@DS3FG3R...SF6FHJ8YUK.freemail
 Generating cryptographic keypair (this could take a few minutes)...
 Account creation completed.
-Account created for john. You may now set a password with --passwd <password>
+Account created for john. You may now set a password with --passwd &lt;password&gt;
 </pre>
 
 <p>

@@ -17,8 +17,8 @@ from you.
 (except from your own node) invisible to you. The traffic routing algorithm is therefore only able to direct traffic to one 
 of the few nodes that you know of that it thinks is most able to find what you are looking for.
 </p>
+<p>
 The traffic is encrypted, so it is quite difficult for the nodes that you connect to to see what your Freenet-traffic
 consists of, but it is far from impossible. It is therefore important that you connect only to people you know. If
 that is not possible, then at least people you've talked to.
 </p>
-<p>

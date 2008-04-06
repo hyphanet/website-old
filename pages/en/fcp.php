@@ -59,7 +59,7 @@ EndMessage
     </ul>
   </li>
 
-  <li><code>ClientGet</code></li>
+  <li><code>ClientGet</code>
   	<ul>
     <li><code>URIError</code></li>
     <li><code>Restarted</code></li>
@@ -68,8 +68,9 @@ EndMessage
     <li><code>DataFound</code></li>
         <li><code>DataChunk</code></li>
 	</ul>
+  </li>
 
-  <li><code>ClientPut</code></li>
+  <li><code>ClientPut</code>
   	<ul>
     <li><code>URIError</code></li>
     <li><code>Restarted</code></li>
@@ -78,21 +79,25 @@ EndMessage
     <li><code>Pending</code></li>
     <li><code>Success</code></li>
 	</ul>
+  </li>
 
-  <li><code>GenerateCHK</code></li>
+  <li><code>GenerateCHK</code>
   <ul>
 	<li><code>Success</code></li>
   </ul>
+  </li>
 
-  <li><code>GenerateSVKPair</code></li>
+  <li><code>GenerateSVKPair</code>
   <ul>
 	<li><code>Success</code></li>
   </ul>
+  </li>
 
-  <li><code>ClientDelete</code></li>
+  <li><code>ClientDelete</code>
   <ul>
 	<li><code>Success</code> </li>
   </ul>
+  </li>
 
   <li><code>InvertPrivateKey</code>
     <ul>

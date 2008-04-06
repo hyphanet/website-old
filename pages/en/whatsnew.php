@@ -1,9 +1,8 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
-<tr>
 <h2>What's new?</h2><p>
 <h3>Changelog for the stable branch</h3><br>
 
-<LI> <span style='color:blue'>Date: 2006-06-29 01:52</b></a></span><P>
+<ul>
+<LI> <span style='color:blue'>Date: 2006-06-29 01:52</span><P>
 <b>Mandatory build 844</b><p>
 <pre>
 Freenet 0.7 build 844 is now available. It should show up through the
@@ -17,7 +16,7 @@ probably had other consequences.
 Please upgrade!
 </pre>
 <hr>
-<LI> <span style='color:blue'>Date: Fri, 23 Jun 2006 20:11:00</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 23 Jun 2006 20:11:00</span><P>
 <b>Mandatory build 839</b><p>
 <pre>
 Please upgrade your 0.7 nodes to version 839. This should be available
@@ -28,7 +27,7 @@ backoff problems we have been having over the last few days. Thank you.
 </pre>
 <hr>
 <p>
-<LI> <span style='color:blue'>Date: Sat, 14 Jan 2006 03:08:00</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sat, 14 Jan 2006 03:08:00</span><P>
 <b>Fproxy works in 0.7!</b><p>
 <pre>
 Build 349 of Freenet 0.7 now has (minimal) fproxy support. It's
@@ -54,7 +53,7 @@ I will post to that effect.
 </pre>
 <hr>
 <p>
-<LI> <span style='color:blue'>Date: Mon, 22 Nov 2004 16:14:37 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Mon, 22 Nov 2004 16:14:37 +0000</span><P>
 <b>Build 5100</b><p>
 <pre>
 Freenet stable build 5100 is now available. The snapshots have been
@@ -78,7 +77,7 @@ Changes:
 <hr>
 
 <p>
-<LI> <span style='color:blue'>Date: Tue, 26 Oct 2004 00:20:40 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 26 Oct 2004 00:20:40 +0100</span><P>
 <b>Build 5099</b><p>
 <pre>
 Stable build 5099 is now available widely. This is a stable network
@@ -112,7 +111,7 @@ The changes in this build are numerous, the highlights:
 <hr>
 
 <p>
-<LI> <span style='color:blue'>Date: Fri, 24 Sep 2004 19:53:55 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 24 Sep 2004 19:53:55 +0100</span><P>
 <b>Build 5096</b><p>
 <pre>
 Freenet stable build 5096 is now available. The snapshots have been
@@ -183,7 +182,7 @@ There are many changes in this build, here are some of them:
 <hr>
 
 <p>
-<LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 03 Sep 2004 20:35:39 +0100</span><P>
 <b>Build 5095</b><p>
 <pre>
 Freenet stable build 5095 is now available. Please upgrade, test, and
@@ -211,7 +210,7 @@ so haven't been an immediate priority...
 </pre>
 <hr>
 
-<LI> <span style='color:blue'>Date: Thu, 26 Aug 2004 21:37:57 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 26 Aug 2004 21:37:57 +0100</span><P>
 <b>Build 5092</b><p>
 <pre>
 Freenet stable build 5092 is now available. The snapshots have been
@@ -224,7 +223,7 @@ On any platform, stop the node, fetch
 http://freenetproject.org/snapshots/freenet-latest.jar and overwrite
 your existing freenet.jar with it, then restart the node.
 
-The md5sum of the above jar is, as of this notice, <>
+The md5sum of the above jar is, as of this notice, &lt;&gt;
 
 Major changes: Lots!
 - Implemented request queueing. Requests are held for up to a time that
@@ -269,7 +268,7 @@ Major changes: Lots!
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Wed, 11 Aug 2004 02:07:09 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 11 Aug 2004 02:07:09 +0100</span><P>
 <b>Build 5091</b><p>
 <pre>
 Stable build 5091 is now available. Please upgrade.
@@ -293,7 +292,7 @@ Major Changes:
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Fri, 06 Aug 2004 19:49:50 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 06 Aug 2004 19:49:50 +0100</span><P>
 <b>Build 5090</b><p>
 
 <pre>
@@ -379,7 +378,7 @@ New diagnostic variables:
 </pre>
 <hr>
 
-<LI> <span style='color:blue'>Date: Wed, 04 Aug 2004 21:56:21 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 04 Aug 2004 21:56:21 +0100</span><P>
 <b>Build 5089</b><p>
 
 <pre>
@@ -417,7 +416,7 @@ For changelog of crappy builds 5086 to 5088; see maillist.
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Fri, 23 Jul 2004</b></a></span><P>
+<LI> <span style='color:blue'>Date: Fri, 23 Jul 2004</span><P>
 <b>Build 5085</b><p>
 <pre>
 This is the result of more than 2 months work, and has many changes:
@@ -466,14 +465,14 @@ announcements (but still not working properly), fixes for
 NullPointerExceptions (if you don't know what these are you don't want
 to), improvements to the routing table status pages, always overwrite
 the old logfile unless told otherwise in the config file (logOverwrite)
-to prevent the disk filling up, two new stats, node_<number> renamed to
+to prevent the disk filling up, two new stats, node_&lt;number&gt; renamed to
 node, and loads of internal refactoring (moving code around, deleting
 dead code).
 </pre>
 
 <hr>
 
-<LI> <span style='color:blue'>Date: Wed, 02 Jun 2004</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 02 Jun 2004</span><P>
 <b>Build 5084</b><p>
 
 
@@ -501,7 +500,7 @@ Two changes only in this build:<p>
 
 
 <LI> <span style='color:blue'>Date: Sat, 29 May 2004 21:31:54 +0100
-</b></a></span><P>
+</span><P>
 <b>Build 5083</b><p>
 
 
@@ -581,7 +580,7 @@ the nodes, hopefully, but it won't use the estimators.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Sat, 15 May 2004 21:00:12 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sat, 15 May 2004 21:00:12 +0100</span><P>
 <b>Build 5082</b><p>
 
 Freenet stable build 5082 is now available. The snapshots have been
@@ -627,7 +626,7 @@ debugged on unstable.<p>
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Thu, 13 May 2004 04:25:10 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 13 May 2004 04:25:10 +0100</span><P>
 <b>Build 5081</b><p>
 
 
@@ -669,7 +668,7 @@ Changelog: Fixed lots of bugs:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Tue, 04 May 2004 00:30:22 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 04 May 2004 00:30:22 +0100</span><P>
 <b>Build 5078</b><p>
 
 Freenet stable build 5078 is now available. The snapshots have been
@@ -690,7 +689,7 @@ Changelog:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Sun, 25 Apr 2004 02:08:22 +0100</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sun, 25 Apr 2004 02:08:22 +0100</span><P>
 <b>Build 5077</b><p>
 
 Stable build 5077 is now available. The snapshots have been updated.
@@ -735,7 +734,7 @@ results in the commit comments). Some highlights:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Wed, 17 Mar 2004 16:09:24 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 17 Mar 2004 16:09:24 +0000</span><P>
 <b>Build 5076</b><p>
 
 Freenet stable build 5076 is now available. The snapshots have been
@@ -758,7 +757,7 @@ Major changes:<p>
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Sat, 13 Mar 2004 18:54:08 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sat, 13 Mar 2004 18:54:08 +0000</span><P>
 <b>Build 5075</b><p>
 
 Freenet stable build 5075 is now available. The snapshots have been
@@ -782,7 +781,7 @@ Major changes:<p>
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Sat, 06 Mar 2004 02:53:49 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sat, 06 Mar 2004 02:53:49 +0000</span><P>
 <b>Build 5074</b><p>
 
 Freenet stable build 5074 is now available. The snapshots will have been
@@ -808,7 +807,7 @@ Major changes:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Wed, 03 Mar 2004 16:15:27 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 03 Mar 2004 16:15:27 +0000</span><P>
 <b>Build 5073</b><p>
 
 
@@ -832,7 +831,7 @@ Changelog:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Thu, 26 Feb 2004 01:16:18 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 26 Feb 2004 01:16:18 +0000</span><P>
 <b>Build 5072</b><p>
 
 
@@ -851,7 +850,7 @@ releasing a new stable build so soon after the first one.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Wed, 25 Feb 2004 21:46:11 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 25 Feb 2004 21:46:11 +0000</span><P>
 <b>Build 5071</b><p>
 
 
@@ -871,7 +870,7 @@ significant rate limiting fix, and lots of minor fixes. Please upgrade.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Thu, 19 Feb 2004 02:26:34 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 19 Feb 2004 02:26:34 +0000</span><P>
 <b>Build 5070</b><p>
 
 
@@ -893,7 +892,7 @@ the CVS list.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Sun, 15 Feb 2004 01:08:54 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sun, 15 Feb 2004 01:08:54 +0000</span><P>
 <b>Build 5069</b><p>
 
 
@@ -949,7 +948,7 @@ changes, are present in this build. Details:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 13:34:17 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 13:34:17 +0000</span><P>
 <b>Build 5068</b><p>
 
 
@@ -967,7 +966,7 @@ one optimization.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 01:25:59 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 10 Feb 2004 01:25:59 +0000</span><P>
 <b>Build 5067</b><p>
 
 
@@ -990,7 +989,7 @@ This fixes two major bugs in 5066:<p>
 
 
 
-<LI> <span style='color:blue'>Date: Sun, 08 Feb 2004 02:31:14 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Sun, 08 Feb 2004 02:31:14 +0000</span><P>
 <b>Build 5066</b><p>
 
 Freenet stable build 5066 is now available. The snapshots have been
@@ -1019,7 +1018,7 @@ gets bigger. Please upgrade and reseed.
 
 
 
-<LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 21:02:21 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 21:02:21 +0000</span><P>
 <b>Build 5065</b><p>
 
 Freenet stable build 5065 is now available. The snapshots have been
@@ -1036,7 +1035,7 @@ spider originally... If it doesn't work, we msay revert it.<p>
 
 <hr>
 
-<LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 01:58:35 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 27 Jan 2004 01:58:35 +0000</span><P>
 <b>Build 5064</b><p>
 
 Freenet stable build 5064 is now available. The snapshots have been
@@ -1076,7 +1075,7 @@ running average of transfers cancelled.<p>
 
 <hr>
 
-<LI> <span style='color:blue'>Date: Tue, 20 Jan 2004 19:55:34 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 20 Jan 2004 19:55:34 +0000</span><P>
 <b>Build 5063</b><p>
 
 Freenet stable build 5063 is now available. The snapshots have been
@@ -1097,7 +1096,7 @@ Changes:<p>
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Tue, 20 Jan 2004 19:40:40 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Tue, 20 Jan 2004 19:40:40 +0000</span><P>
 <b>Build 5062</b><p>
 
 
@@ -1120,7 +1119,7 @@ Changes:<p>
 
 <hr>
 
-<LI> <span style='color:blue'>Date: Thu, 15 Jan 2004 17:44:31 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 15 Jan 2004 17:44:31 +0000</span><P>
 <b>Build 5061</b><p>
 
 
@@ -1148,7 +1147,7 @@ for requests to fail.<p>
 
 
 
-<LI> <span style='color:blue'>Date: Thu, 15 Jan 2004 04:09:52 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Thu, 15 Jan 2004 04:09:52 +0000</span><P>
 <b>Build 5060</b><p>
 
 
@@ -1179,7 +1178,7 @@ Changelog:<p>
 <hr>
 
 
-<LI> <span style='color:blue'>Date: Wed, 14 Jan 2004 23:05:08 +0000</b></a></span><P>
+<LI> <span style='color:blue'>Date: Wed, 14 Jan 2004 23:05:08 +0000</span><P>
 <b>Build 5058</b><p>
 
 Freenet stable build 5058 is now available. The snapshots have been
@@ -1213,10 +1212,9 @@ Changelog:<p>
   various problems...<p>
 * Up the lastGoodBuild to 5053 to remove ambiguity; probably no
   practical impact.<p>
+
+</ul>
 <P>
 <hr>
-<tr>
-<td align="right" valign="bottom">
 Want to help? Make a summary of a discussion on the freenet maillist and send it to <a href="mailto:newsbyte@freenetproject.org">NewsByte</a>
-</td>
 

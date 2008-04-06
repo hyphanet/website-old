@@ -36,7 +36,7 @@ can become a member by clicking on this button (you will need a
 Amount:
 <p>
 <span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"></span>&nbsp; 
-<span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="true" 
+<span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="checked" 
 value="10.00"></span>&nbsp; 
 <span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"></span>&nbsp;
 </p>

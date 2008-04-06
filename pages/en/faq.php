@@ -272,13 +272,13 @@ fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 fproxy.bindTo=127.0.0.1,192.168.1.1<br>
 fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 </code>
-<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):</p>
+<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):
 <code>
 fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 </code>
 </p>
 
-</p><p><b id="fec">What is FEC?</b><br>
+<p><b id="fec">What is FEC?</b><br>
 FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into many small blocks -- this is called a <i>splitfile</i>.
 FEC adds redundant check blocks to a splitfile, so that if some of the
 blocks fall out of the network or can't be found, you might still be
@@ -312,7 +312,7 @@ to the mailinglist.
 
 <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
 On every new build, a brief summary of all the main changes is posted to the support and devl lists and the freenet-announce board on Frost.
-Alternatively for a much more detailed view, check <a href="http://cia.navi.cx/stats/project/freenet">the SVN logs</b></a>.
+Alternatively for a much more detailed view, check <a href="http://cia.navi.cx/stats/project/freenet">the SVN logs</a>.
 
 <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br>
 Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
@@ -385,7 +385,7 @@ will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and 
 Generally speaking, joining our IRC channel is a good idea : #freenet on irc.freenode.net</p>
 
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
-You could have a look at <a href="http://wiki.freenetproject.org/">our wiki. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
+You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
 
 <p><b id="bugs">Where can I report bugs?</b><br>
 You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">development mailing list</a>.</p>

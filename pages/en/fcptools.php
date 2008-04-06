@@ -183,4 +183,4 @@ Options:
   -f, --logfile file     Full pathname for the output log file
                          (default stdout)</pre>
 
-<p><h1>*</h1></p>
+<p></p><h1>*</h1>

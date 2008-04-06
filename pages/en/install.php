@@ -15,7 +15,7 @@ Otherwise, continue reading.</p>
 <p>For a graphical installation you have to have:</p>
 <ul>
 <li>A working Java Runtime Environment,</li>
-<li>a downloaded copy of <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar" alt="new_installer.jar">
+<li>a downloaded copy of <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">
 http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a> and</li>
 <li>a working graphical user interface (GUI)</li>
 </ul>

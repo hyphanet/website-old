@@ -1,13 +1,11 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
-<tr>
-<center><h2>Summary of some discussions on the maillist</h2>
+<h2>Summary of some discussions on the maillist</h2>
 <P>
-<h3>February</h3></center>
+<h3>February</h3>
 <P>
 1) <span style='color:blue'><b>Freenet User Interface
 </b></span><P>
 Ian said:<br>
-<i>
+<div style="font-style:italic;">
 <p>
 I really want to tackle the issue of Freenet's user friendliness (or 
 lack thereof) head on.
@@ -68,7 +66,7 @@ probably aren't the right person.
 Having said that, don't worry too much, giving up one's social life to work on Freenet seems to come naturally after a while anyway.<p>
 Ian.
 <p>
-</i>
+</div>
 <br>
 <p>
 As usual, toad was sceptic about it, asking what exactly did this gave us and stating that substituting variables is trivial, and we already have it. However, he was a bit more enthousiastic about JMX as a possibility, as Iakin had pointed out in an earlier post. Ian responded with explaining that FreeMarker allows you to completely separate the data itself, from how you present that data. And that this is simply not even nearly possible with the current primitive variable substitution template mechanism. Toad apparently had no idea what that (or something else - a bold remark by Ian at the end, perhaps?) meant. Also, Ian had no clue what JMX meant, to the surprise of  Niklas, who explained it to him a zillion times before. Niklas, lastly, repeated that JMX stands for Java Management eXtenstion and provided some links: http://article.gmane.org/gmane.network.freenet.devel/5490 http://article.gmane.org/gmane.network.freenet.devel/5541 and  http://java.sun.com/products/JavaManagement/index.jsp . 
@@ -85,11 +83,6 @@ As usual, toad was sceptic about it, asking what exactly did this gave us and st
 
 <p>
 
-
-
-</td>
-<tr>
-<td align="right" valign="bottom">
 <BR>
 <P>
 <BR>
@@ -98,5 +91,5 @@ As usual, toad was sceptic about it, asking what exactly did this gave us and st
 <P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-</td>
+
 

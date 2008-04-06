@@ -11,7 +11,7 @@
 <P><LI>Spread the word, try to get Freenet in the news.
 <P><LI>Donate.
 <P><LI>Donate more.
-<P><LI>Help coding & debugging if you can.
+<P><LI>Help coding &amp; debugging if you can.
 <P><LI>Translate the web interface into your native language.
 <P><LI>Whine less about what's wrong with it, but give specific bug-reports in stead.
 <P><LI>Join #freenet on freenode for other suggestions/discussions.

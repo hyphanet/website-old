@@ -1,7 +1,6 @@
-<h1>Applications over Freenet
+<h1>Applications over Freenet</h1>
 
-</h1>
-<br/><b>Here you can share ideas about new applications that can run on top of Freenet. Before posting you should do a search on "Freenet" in <a class='wiki'  href='http://sourceforge.net/'>Sourceforge</a> to see if someone else hasn't already started a similiar project. <p>
+<br/><b>Here you can share ideas about new applications that can run on top of Freenet. Before posting you should do a search on "Freenet" in <a class='wiki'  href='http://sourceforge.net/'>Sourceforge</a> to see if someone else hasn't already started a similiar project. </b>
 <br/><b>Useful Links:</b>
 <br/>
 <br/>The spec of the <a href="/fcp.html">protocol</a> (FCP) which applications use to interact with Freenet - and all the other <a href="/docs.html">Developer documentation</a>.
@@ -46,7 +45,7 @@ It is a win-win situation; those who want to share and leech get to do it more e
 
 <br/>"So I decided to start work on a native Win32 Frost client (that I have named Flame). It won't have file exchange support but just really basic
 <br/>
-<br/>messaging functionality. I have been able to retrieve todays Freenet board Frost messages with it and read them in it (other boards should work too) but there are a few things to do (being able to write & insert messages and reply to messages in particular) but it is coming along nicely and I shall place it on the site once I have a more or less functional version up and running." ''(added by SebastianSpaeth - 22 Feb 2002)''
+<br/>messaging functionality. I have been able to retrieve todays Freenet board Frost messages with it and read them in it (other boards should work too) but there are a few things to do (being able to write &amp; insert messages and reply to messages in particular) but it is coming along nicely and I shall place it on the site once I have a more or less functional version up and running." ''(added by SebastianSpaeth - 22 Feb 2002)''
 <br/><hr/><a class='wiki'  href='http://eof.sourceforge.net/'><b>Everything Over Freenet</b></a>
 <br/>
 <br/>Everything Over Freenet (EOF) creates gateways for other protocols (such as SMTP) to work over Freenet.
@@ -62,6 +61,6 @@ It is a win-win situation; those who want to share and leech get to do it more e
 <br/><a class='wiki'  href='http://127.0.0.1:8888/SSK@txvIBhnrQG~BSKZ9C3U3pP9pjk4PAgM/flogger/1//'><b>Flogger</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work</span></b>
 <br/>
 <br/>A Freenet community publication system. Currently in the planning stages.
-<br/>Email: <a class='wiki'  href='mailto:jrandom@cryptomail.org'>jrandom@cryptomail.org</a><br/></div>
+<br/>Email: <a class='wiki'  href='mailto:jrandom@cryptomail.org'>jrandom@cryptomail.org</a><br/>
 <p class="editdate">Last modification date: Tuesday 11 of February, 2003 [16:47:26] by mihi</p>
 

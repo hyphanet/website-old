@@ -23,7 +23,7 @@
 <br/>This kind of key works somewhat like a PGP keypair. You give one of them (the public key) away, and the other (the private key) you must keep in secret, for you will use it to insert things inside your namespace.
 <br/><div class='simplebox' align='center'>
 <br/>Example: SSK@rBjVda8pC-Kq04jUurIAb8IzAGcPAgM/TFE//
-<br/></div><br/></div>
+<br/></div><br/>
 <p class="editdate">Last modification date: Monday 10 of March, 2003 [12:34:02] by greycat</p>
 <br/>
 

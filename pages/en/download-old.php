@@ -1,9 +1,9 @@
 <body><h2>Download Freenet 0.5</h2>
 
-<small><p>
+<p><small>
 Note that Freenet 0.5 is no-longer well supported as development effort has shifted to Freenet 0.7,
 which you can download from <a href="/download.html">here</a>.
-</p></small>
+</small></p>
 
 <h3>Important note for first time users</h3>
 
@@ -72,8 +72,7 @@ Linux users may similarily upgrade by running the update.sh shell script in the
 freenet/ directory.
 <p>
 To see the latest changes of the builds in the stable branch, you can go to the
-<b><a
-href="/whatsnew.html">Changelog</b></a>.
+<b><a href="/whatsnew.html">Changelog</a></b>.
 
 
 <BR>&nbsp;<BR>

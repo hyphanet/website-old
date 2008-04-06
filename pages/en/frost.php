@@ -60,6 +60,7 @@ Sharing files can be done by clicking the
 in the appearing tab.
 </p>
 <h3>Further information</h3>
+<p>
 Additional information about Frost can be found in
 the mailing-list or on the official website:
 </p>

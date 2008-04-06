@@ -4,13 +4,14 @@
 <h2>Table of Contents</h2>
 <ul>
  <li> <a href="#Na3f">Overview</a></li>
- <li> <a href="#Na8c">Part Spec</a></li>
+ <li> <a href="#Na8c">Part Spec</a>
  <ul><li> <a href="#Na91">Redirect (CDC)</a></li>
      <li> <a href="#Na9f">DateRedirect (CDC)</a></li>
      <li> <a href="#Nae0">SplitFile (CDC)</a></li>
      <li> <a href="#Nb55">Info (MC)</a></li>
      <li> <a href="#Nb63">ExtInfo (MC)</a></li>
  </ul>
+ </li>
  <li> <a href="#Nb72">Examples</a></li>
  <li> <a href="#Nb9a">Handling Other Commands</a></li>
 </ul>
@@ -40,11 +41,11 @@ VERSIONPART := "Version\n" "Revision=1\n" ["Encoding=gzip\n"] "EndPart\n"
 part := "Document\n" [field ...] "EndPart\n"
 lastpart := "Document\n" [field ...] "End\n"
 field := KEY '=' VALUE '\n'
-KEY := <string not containing either '\n' or '='> 
+KEY := &lt;string not containing either '\n' or '='&gt; 
      //Heirarchical key name
-VALUE := <string not containing '\n'> 
+VALUE := &lt;string not containing '\n'&gt; 
      //value of the associated key
-REST := <arbitrary data of arbitrary length, not parsed by this parser> 
+REST := &lt;arbitrary data of arbitrary length, not parsed by this parser&gt; 
      //useful for XML metadata or other metadata not 
      //storable in the Info.* keyspace
 </pre>
@@ -179,7 +180,7 @@ recursive(!) algorithm:</p>
 <br/>
 <br/><ul><li> The date format is in UNIX format - seconds from the epoch
 </li></ul>
-<ul><li> Only applies to KSKs and SSKs</a>
+<ul><li> Only applies to KSKs and SSKs
 </li></ul>
 <ul><li> The date must be taken UTC (TZ offset = 0)
 </li></ul>
@@ -208,10 +209,10 @@ The client should take the current time (GMT) and work out the last
 <br/>
 <br/><font face="courier" size="2">&nbsp;&nbsp;SplitFile.Size=&lt;hex&nbsp;file&nbsp;size&gt;
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;SplitFile.BlockCount=&lt;hex&nbsp;no.&nbsp;of&nbsp;data&nbsp;blocks&gt;
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='SplitFile.CheckBlockCount=&nbsp;&lt;hex.&nbsp;no&nbsp;of&nbsp;check&nbsp;blocks&gt;'>SplitFile.CheckBlockCount=&nbsp;&lt;hex.&nbsp;no&nbsp;of&nbsp;check&nbsp;blocks&gt;</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a class='wiki' href='SplitFile.CheckBlockCount=&nbsp;&lt;hex.&nbsp;no&nbsp;of&nbsp;check&nbsp;blocks&gt;'>SplitFile.CheckBlockCount=&nbsp;&lt;hex.&nbsp;no&nbsp;of&nbsp;check&nbsp;blocks&gt;</a>
 
 </font><br/><font face="courier" size="2">&nbsp;&nbsp;SplitFile.Block.&lt;n&gt;=&lt;URI&gt;
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='SplitFile.Graph.&lt;x&gt;=&nbsp;a,b,c...'>SplitFile.Graph.&lt;x&gt;=&nbsp;a,b,c...</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a class='wiki' href='SplitFile.Graph.&lt;x&gt;=&nbsp;a,b,c...'>SplitFile.Graph.&lt;x&gt;=&nbsp;a,b,c...</a>
 </font><br/>
 <br/>
 <br/><ul><li> <a name="Naec"></a>0 &lt;= n &lt;= 65535
@@ -236,8 +237,8 @@ The document is made up of a number of pieces, allowing swarming.
 </dd></dl><br/>
 <br/><h3><a name="Nb55">Info (MC) </a>
 </h3>
-<br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='Info.Format=&lt;string:&nbsp;MIME-type&gt;'>Info.Format=&lt;string:&nbsp;MIME-type&gt;</a>
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='Info.Description=&lt;string:&nbsp;freeform&gt;'>Info.Description=&lt;string:&nbsp;freeform&gt;</a>
+<br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;<a class='wiki' href='Info.Format=&lt;string:&nbsp;MIME-type&gt;'>Info.Format=&lt;string:&nbsp;MIME-type&gt;</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;&nbsp;<a class='wiki' href='Info.Description=&lt;string:&nbsp;freeform&gt;'>Info.Description=&lt;string:&nbsp;freeform&gt;</a>
 </font><br/>
 <br/>The Info.* namespace is reserved for Dublin Core metadata.  Prepend "Info." to the keys you want to use to prevent collisions.  See http://www.freenetproject.org/doc/infometadata.html for details.
 <br/>
@@ -248,8 +249,8 @@ The document is made up of a number of pieces, allowing swarming.
 <br/><h3><a name="Nb63">ExtInfo (MC)</a>
 </h3>
 <br/>
-<br/><font face="courier" size="2">&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='ExtInfo.Trailing=yes'>ExtInfo.Trailing=yes</a>
-</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a&nbsp;class='wiki'&nbsp;&nbsp;href='ExtInfo.URI=&lt;URI&gt;'>ExtInfo.URI=&lt;URI&gt;</a>
+<br/><font face="courier" size="2">&nbsp;&nbsp;<a class='wiki' href='ExtInfo.Trailing=yes'>ExtInfo.Trailing=yes</a>
+</font><br/><font face="courier" size="2">&nbsp;&nbsp;<a class='wiki' href='ExtInfo.URI=&lt;URI&gt;'>ExtInfo.URI=&lt;URI&gt;</a>
 </font><br/>
 <br/>
 <br/>If ExtInfo.Trailing is set to yes, the metadata for this file will include all data after the final "End" in the control document. If the ExtInfo.URI parameter exists, the contents of the URI pointed to should be included in the metadata for the current document.

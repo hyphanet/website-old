@@ -1,7 +1,5 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
-<tr>
-<center><h2>Summary of some discussions on the maillist</h2>
-</center>
+
+<h2 style="text-align:center;">Summary of some discussions on the maillist</h2>
 <P>
 <BR>
 <P>
@@ -17,17 +15,3 @@
 </b></a></span><P>
 <LI> <span style='color:blue'><a href="http://www.freenetproject.org/index.php?page=mailsum0404"><b>April
 </b></a></span><P>
-
-
-</td>
-<tr>
-<td align="right" valign="bottom">
-<BR>
-<P>
-<BR>
-<P>
-<BR>
-<P>
-<BR>
-</td>
-

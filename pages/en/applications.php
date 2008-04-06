@@ -3,7 +3,7 @@
 </h1>
 <br/>A variety of people have written some excellent tools and clients for use with Freenet.
 <br/>
-<br/><h3>Freenet Publishing & Retrieval Tools
+<br/><h3>Freenet Publishing &amp; Retrieval Tools
 </h3>
 <br/><a class='wiki'  href='http://localhost:8888/SSK@M7yZgrl8gwtAe1xEcR5Xyv4tFsoPAgM/fiw/6//'><b>Freesite Insertion Wizard</b></a> <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 <br/>

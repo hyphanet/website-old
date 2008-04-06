@@ -1,13 +1,11 @@
-<table width="100%" border="0" cellspacing="0" cellpadding="0" height="100%">
-<tr>
-<center><h2>Summary of some discussions on the maillist</h2>
+<h2>Summary of some discussions on the maillist</h2>
 <P>
-<h3>January</h3></center>
+<h3>January</h3>
 <P>
 1) <span style='color:blue'><b>Rant
 </b></span><P>
 Newsbyte ranted:<br>
-<i>Well, this may be a bit off topic, but what the heck. 
+<div style="font-style:italic;">Well, this may be a bit off topic, but what the heck. 
 I've just been out with some friends, and, as always when we get moderately drunk, we talked about politics, religion, philosophy etc. (when we are real drunk or when no babes are present, we usually talk about sex ;-)
 <p>
 Well, anyhow, being all european, and all friends (birds of a feather) we fully agreed on a lot of topics. Israel, Iraq, USA, etc...opinions didn't differ much there. But then it came to a typical european concept of free speech, which, I presume, may strike USA-citizens as a bit weird. While, seen at large, we have the same concept of free speech as in the USA, this opinion, curiously, always seem to shift to a more restricted idea of free speech when it concerns things as racism. In this respect (one of the few, I might add), I think the usa concept of it is much more honest and fair. This has undoubtably to do with our historic heritage, notably WWII. 
@@ -25,7 +23,7 @@ Sometimes, with all the tech babble and the problems and all that, I ask myself 
 Yes, it's the potential of making the power that the government (and corporations, and, yes, my friends) seem to think they have the perogative of, to become totally obsolete, that made me interested in Freenet. With a system as Freenet (when it will be fully working ;-), they can shout and do all they want, my ideal of a free society with a free flow of opinions will be there (at least in cyberspace). There might be drawbacks, as with any technology (and it's consequences), but all by all, it's worth it. <p>
 /*end rant*/
 <p>
-</i>
+</div>
 <br>
 <p>
 Jay Oliveri gave his considerable input by stating that, indeed, it was completely off topic for the development list and that Newsbyte had furthered the argument for more restrictive posting to this list. To which Newsbyte responded he was glad it (the rant) had some use, followed by an emoticon that indicated a possible irony and a link to <a href="http://www.verbumvanum.org/shirky">www.verbumvanum.org/shirky</a>  (chapter 3). Toad gave a little input on the devl-list too, but his/the more important and thoughtfull responses were not done on the maillist.
@@ -38,18 +36,12 @@ Jay Oliveri gave his considerable input by stating that, indeed, it was complete
 2) <span style='color:blue'><b>Re: Stable node performance and gradual decline
 </b></span><P>
 Niklas Bergh 'surprised' us with a graph:<br>
-<i>Also see <a href="http://iakin.poweruser.org/freenetstuff/bw2.jpg"> http://iakin.poweruser.org/freenetstuff/bw2.jpg</a> for a graph that clearly indicates the gradual decline between the 15:th and most of the 18:th (actually there was an OOM generated the 18:th which killed the node). The graph also includes a slight preview of the result of some recent speed enhancements/locking changes (not present in stable code yet). 
+<div style="font-style:italic;">Also see <a href="http://iakin.poweruser.org/freenetstuff/bw2.jpg"> http://iakin.poweruser.org/freenetstuff/bw2.jpg</a> for a graph that clearly indicates the gradual decline between the 15:th and most of the 18:th (actually there was an OOM generated the 18:th which killed the node). The graph also includes a slight preview of the result of some recent speed enhancements/locking changes (not present in stable code yet). 
 <p>
-</i>
+</div>
 There was no response within the thread, probably because all could fully agree with the conclusion the current network works like crap.
 
 <p>
-
-
-
-</td>
-<tr>
-<td align="right" valign="bottom">
 <BR>
 <P>
 <BR>
@@ -58,5 +50,3 @@ There was no response within the thread, probably because all could fully agree 
 <P>
 <BR>
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian Clarke</a><BR>
-</td>
-
