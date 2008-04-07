@@ -28,7 +28,7 @@ Am Anfang dieser Woche ließ Freenet den ersten Release Candidate
 (Veröffentlichungs-Kandidat) für Freenet 0.7 vom Stapel laufen, der 7. große
 Schritt seit der Gründung des Projekts 1999. Das wichtigste neue Merkmal von
 Freenet 0.7, ist seine Fähigkeit in einem &bdquo;Darknet&ldquo;-Modus zu laufen
-um die Identitäten der Freenet-Benutzer, in Ländern welche die Meinungsfreiheit
+um die Identitäten der Freenet-Benutzer, in Ländern welche die Redefreiheit
 im Internet nicht respektieren, besser zu schützen.
 </p>
 <p>
