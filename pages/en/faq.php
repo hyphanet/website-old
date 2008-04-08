@@ -20,6 +20,7 @@
 <h3> Technical questions</h3>
 
 <ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
+</li><li><a href="#slow">Why is Freenet so slow?</a>
 </li><li><a href="#search">Is Freenet searchable?</a>
 </li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
 </li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
@@ -179,6 +180,20 @@ Freenet should have installed a Browse Freenet shortcut on the desktop and/or th
 Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
 
 <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
+
+<p><b id="slow">Why is Freenet so slow?</b><br>
+When you first install Freenet, it will be slow, and you may see Data Not Found 
+or Route Not Found errors for freesites. This is normal, and Freenet will speed
+up significantly over time. For best performance you should try to run Freenet
+as close to 24 hours a day as possible. This is why we install Freenet as a
+service.<br>
+Please bear in mind that Freenet is inherently high latency: it can take a while 
+to (for example) load a page for the first time, even if it is capable of reasonable
+speeds (as anonymous systems go!) for large popular files. The Browse Freenet
+icon/menu item should launch a customised version of Firefox which will use many
+connections to maximise performance especially when you open many freesites in
+tabs. If that doesn't work then see <a href="#connections">here</a>. And of course,
+protecting your anonymity does cost a certain amount of performance.</p>
 
 <p><b id="search">Is Freenet searchable?</b><br>
 Yes, there are a few different search mechanisms. To search the freenet web,
