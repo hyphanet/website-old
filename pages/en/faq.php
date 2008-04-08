@@ -186,8 +186,8 @@ When you first install Freenet, it will be slow, and you may see Data Not Found
 or Route Not Found errors for freesites. This is normal, and Freenet will speed
 up significantly over time. For best performance you should try to run Freenet
 as close to 24 hours a day as possible. This is why we install Freenet as a
-service.<br>
-Please bear in mind that Freenet is inherently high latency: it can take a while 
+service.</p>
+<p>Please bear in mind that Freenet is inherently high latency: it can take a while 
 to (for example) load a page for the first time, even if it is capable of reasonable
 speeds (as anonymous systems go!) for large popular files. The Browse Freenet
 icon/menu item should launch a customised version of Firefox which will use many
