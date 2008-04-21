@@ -72,7 +72,6 @@ include 'includes/common.inc.php';
 	<div align="center">
 		<a href="http://sourceforge.net"><img src="http://sflogo.sourceforge.net/sflogo.php?group_id=978&amp;type=1" width="88" height="31" border="0" alt="SourceForge.net Logo"></a>
 	</div>
-</div>
 <br>
 	<div align="center">
 		<a href="http://hackontest.org/index.php?action=Root-projectDetail%2846%29"><img src="http://hackontest.org/templates/banners/HackontestBanner_150x40.jpg" alt="We are a hackontest candidate!"></a>
