@@ -6,7 +6,7 @@ old new build announcements) -->
 
 <p><b>24th Apr, 2008 - Freenet 0.7.0 release candidate 2 now available</b></p>
 <p>Freenet version 0.7 Release Candidate 2 is now available for public testing. 
-Release candidate 2 features many bugfixes and a number of usability improvements.</p>
+Release Candidate 2 features many bugfixes and a number of usability improvements.</p>
 <p>Freenet is a global peer-to-peer network designed to allow users to publish and 
 consume information without fear of censorship.  To use it, you must download the 
 Freenet software, available for Windows, Mac, Linux and other operating systems.  
