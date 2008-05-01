@@ -31,7 +31,8 @@ div#content {
 	font-size: 14px;
 	font-weight: normal;
 	color: #000000;
-	width: 600px;
+	/* width: 600px; */
+	max-width: 600px;
 	float: left;
 
 }
@@ -78,7 +79,7 @@ div#menu a:visited {color:#000;}
 div#menu a:hover {background-color:#eee;}
 
 .menu {
-		width: 155px;
+		/* width: 155px; */
 		font-size: 16px;		
 		list-style-type: none; 		
 		list-style-position: inside;
