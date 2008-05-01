@@ -85,12 +85,17 @@ Java Version 1.4.2 und höher wird funktionieren. Seien Sie sich jedoch bewusst,
 dass in den Versionen vor Java 1.5 Update 4 Sicherheitslücken im Applet sind.
 Generell empfehlen wir die neuste Version zu benutzen.
 
-<p>Geben Sie folgendes in einer Kommandozeile ein:</p>
+<p>Öffnen Sie eine Kommandozeile (Terminal) und geben Sie folgendes ein:</p>
 <pre>
 wget <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar"
 >http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a>
 java -jar new_installer.jar
 </pre>
+
+<p>Alternativ können Sie auf manchen Systemen auch <a
+href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar"
+>das Installationsprogramm</a> herunterladen und es anklicken, wenn jedoch
+Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 
 <p>Oder folgendes, wenn es sich um ein System ohne grafische Oberfläche handelt:
 </p>
@@ -105,7 +110,9 @@ cd freenet
 um herauszufinden wie man den Web-Zugriff von einem entfernten Computer
 aktiviert.</p>
 <!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
-<p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
+<p>You might find the <a
+href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html"
+>mini-howto</a> useful (it might be of interest to Windows users too).</p>
 -->
 </div>
 
