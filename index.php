@@ -44,7 +44,7 @@ include 'includes/common.inc.php';
 	<script type="text/javascript" src="PluginDetect.js"></script>
 </head>
 
-<body bgcolor="#FFFFFF" text="#000000" link="#000000" vlink="#000033" alink="#000000">
+<body>
 <div id="top">
 	<a href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="/image/title.gif" width="414" height="51"></a>
 </div>
@@ -64,7 +64,7 @@ include 'includes/common.inc.php';
 		}	
 	?>
 	<br>
-	<div align="center">
+	<div class="shop" align="center">
 		<a href="http://www.cafeshops.com/freenetproject"><img width="83" height="82" border="0" src="/image/freenet-mug.gif" alt="Freenet Store"><br>
 		<font size="-2">Visit the Freenet Store!</font></a>
 	</div>

@@ -44,7 +44,7 @@ function page($text, $link) {
 //  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
   if ($link == $page) {
 ?>
-<li><span style="font-weight: 800; background:#eee;"><?=$text ?></span></li>
+<li><span class="selected-menu"><?=$text ?></span></li>
 <?
   } else {
 	lnk($text, $link.".html");
