@@ -56,7 +56,10 @@ padding: 20px 0px 0px 0px;
 
 }
 
-div#footer { text-align: center; }
+div#footer {
+	text-align: center;
+	clear: both;
+}
 
 div#content li { list-style-type: square; }
 
