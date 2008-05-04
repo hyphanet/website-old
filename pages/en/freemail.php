@@ -156,7 +156,7 @@ If you use Thunderbird as your email client:
 <li>For the Incoming User Name, use the account name you chose earlier ('john' in this example), which may not be the same as your email 
 address. Click Next.</li>
 <li>Enter an arbitrary Account Name and click Next and then Finish.</li>
-<li>Nw we have to change the IMAP port number from the default: On the left panel click on Server Settings under the new account. 
+<li>Now we have to change the IMAP port number from the default: On the left panel click on Server Settings under the new account. 
 Change the Port to 3143 from the default of 143.</li>
 </ol>
 <p>
