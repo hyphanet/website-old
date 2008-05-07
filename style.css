@@ -1,17 +1,11 @@
-html {
-	background: #AACCFF;
-}
-
 body {
-	margin: 0 auto;
-	padding: 5px 20px;
-	border: 1px solid #77BBFF;
-	background: #FFF;
+	padding: 10px 10px;
 }
 
 div#menu {
 	font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif; 
 	float:left;
+	width: 150px;
 	font-style: normal;
 	font-weight: normal;
 	text-align: left;
@@ -20,14 +14,12 @@ div#menu {
 	background: #CCDDFF;
 	text-decoration: none;
 	margin-top: 15px;
-	margin-right: 30px;
 	margin-bottom: 10px;
 	border: 1px solid #99CCFF;
 }
 
 
 div#top {
-		margin-top:5px;
 		background-image:url(/image/hdr_bg_tall.gif);
 		background-repeat:repeat;
 		width: 100%;
@@ -36,14 +28,13 @@ div#top {
 		
 div#content {
 	/*font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;*/
-	/* padding-left:20px; */
+	padding-left:20px;
 	font-style: normal;
 	font-size: 14px;
 	font-weight: normal;
 	color: #000000;
-	/* width: 600px; */
-	/* float: left; */
-
+	margin-left: 10.5em;
+	min-width: 20em;
 }
 
 #content h2 {
@@ -81,6 +72,7 @@ pre {
 div#menu a:link {color:#000;}
 div#menu a:visited {color:#000;}
 div#menu a:hover {color:#13B;}
+div#menu img {border: 0;}
 
 .menu {
 		/* width: 155px; */
