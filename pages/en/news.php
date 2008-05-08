@@ -17,6 +17,8 @@ old new build announcements) -->
 
 <p><a href="/download.html">http://freenetproject.org/download.html</a></p>
 
+<p>If you have any difficulty getting Freenet to work, or any questions not answered in <a href="/faq.html">the faq</a>, please join #freenet on irc.freenode.net. Thank you.</p>
+
 <p>This release would not have been possible without the efforts of numerous volunteers, and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through donations via our website (as well as a few larger sponsors from time to time).  We ask that anyone who can help us to ensure Matthew's continued employment visit our donations page and make a contribution at:</p>
 
 <p><a href="/donate.html">http://freenetproject.org/donate.html</a></p>
