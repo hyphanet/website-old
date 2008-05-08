@@ -42,9 +42,10 @@ function selectPage($lang_q, $page) {
 	if (isset($page))
 	{
 		#echo "common - page exists ".dirname(__FILE__).'/'.$page.'.inc.php';
-		if (file_exists(dirname(__FILE__).'/'.$page.'.inc.php')) {
+		$tmpfile = dirname(__FILE__).'/'.$page.'.inc.php';
+		if (file_exists($tmpfile)) {
 			#echo "file exists";
-			include dirname(__FILE__).'/'.$page.'.inc.php';							// include file with  $pages-array
+			include $tmpfile;
 			foreach ( $lang_q as $aLang => $relevance ) 							// loop through each language
 			{	
 				foreach ( $pages as $userlang => $path )        					// loop through each language-file
@@ -59,11 +60,14 @@ function selectPage($lang_q, $page) {
 				}
 				
 			}	
-			if (!isset($file))
-			{
-				$file = $pages['en']; //if no match, default to english
-			}		
+		} else {
+			syslog(LOG_CRIT, "Huh, someone attempted to access a non-existent file! $tmpfile");
 		}
+
+		if (!isset($file))
+		{
+			$file = $pages['en']; //if no match, default to english
+		}		
 	}
 	return $file;
 
