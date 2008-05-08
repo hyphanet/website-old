@@ -14,7 +14,7 @@ if (!isset($_REQUEST["rewritten"])) {
 
         header("Request-URI: $newURI");
         header("Content-Location: $newURI");
-        header("Location: $newURI");
+        header("Location: $newURI", 301);
         die;
 } 
 
