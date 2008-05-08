@@ -1,5 +1,23 @@
 <?php
 
+if (!isset($_REQUEST["rewritten"])) {
+        $currentURI = htmlentities($_SERVER['REQUEST_URI']);
+        $host = htmlentities($_SERVER['HTTP_HOST']);
+        $prefix = "http://".$host;
+                                                            
+        if ($c=preg_match_all ("/\\/index\\.php\\?page=([^&]+)/is", $currentURI, $matches)) {
+                $page_name = $matches[1][0].".html";
+        } else {          
+                $page_name = "";
+        }                               
+        $newURI = $prefix.'/'.$page_name;
+
+        header("Request-URI: $newURI");
+        header("Content-Location: $newURI");
+        header("Location: $newURI");
+        die;
+} 
+
 function setLanguage() {
 	global $lang;
 	
