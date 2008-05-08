@@ -4,29 +4,22 @@ style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 <h3>News</h3>
 
-<p><b>24th Apr, 2008 - Freenet 0.7.0 release candidate 2 now available</b></p>
-<p>Freenet version 0.7 Release Candidate 2 is now available for public testing. 
-Release Candidate 2 features many bugfixes and a number of usability improvements.</p>
-<p>Freenet is a global peer-to-peer network designed to allow users to publish and 
-consume information without fear of censorship.  To use it, you must download the 
-Freenet software, available for Windows, Mac, Linux and other operating systems.  
-Once you install and run Freenet, your computer will join a global, decentralized 
-P2P network. You will be able to publish and consume information anonymously, either 
-through your web browser, or through a variety of third party applications.</p>
-<p>Freenet 0.7 is a ground-up rewrite of Freenet.  The key user-facing feature in 
-Freenet 0.7 is the ability to operate Freenet in a "darknet" mode, where your Freenet 
-node will only talk to other Freenet users that you trust.  This makes it much more 
-difficult for an adversary to discover that you are using Freenet, let alone what 
-you are doing with it. 0.7 also includes significant improvements to both security 
-and performance.</p>
-<p>Freenet 0.7 RC2 can be downloaded from:</p>
-<p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
-<p>This release would not have been possible without the help of numerous volunteers, 
-and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through 
-donations via our website (as well as a few larger sponsors from time to time).  We ask 
-that anyone who can help us to ensure Matthew's continued employment visit our donations 
-page and make a contribution at:</p>
-<p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
+<p><b>8th May, 2008 - Freenet 0.7.0 released!</b></p>
+<p>The Freenet Project is very pleased to announce the release of Freenet 0.7.0.</p>
+
+<p>Freenet is software designed to allow the free exchange of information over the Internet without fear of censorship, or reprisal.  To achieve this Freenet makes it very difficult for adversaries to reveal the identity, either of the person publishing, or downloading content.  The Freenet project started in 1999, released Freenet 0.1 in March 2000, and has been under active development ever since.</p>
+
+<p>Freenet is unique in that it handles the storage of content, meaning that if necessary users can upload content to Freenet and then disconnect.  We've discovered that this is a key requirement for many Freenet users.  Once uploaded, content is mirrored and moved around the Freenet network, making it very difficult to trace, or to destroy.   Content will remain in Freenet for as long as people are retrieving it, although Freenet makes no guarantee that content will be stored indefinitely.</p>
+
+<p>The journey towards Freenet 0.7 began in 2005 with the realization that some of Freenet's most vulnerable users needed to hide the fact that they were using Freenet, not just what they were doing with it.  The result of this realization was a ground-up redesign and rewrite of Freenet, adding a "darknet" capability, allowing users to limit who their Freenet software would communicate with to trusted friends.  This would make it far more difficult for a third-party to determine who is using Freenet.</p>
+
+<p>Freenet 0.7 also embodies significant improvements to almost every other aspect of Freenet, including efficiency, security, and usability.  Freenet is available for Windows, Linux, and OSX. It can be downloaded from:</p>
+
+<p><a href="/download.html">http://freenetproject.org/download.html</a></p>
+
+<p>This release would not have been possible without the release of numerous volunteers, and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through donations via our website (as well as a few larger sponsors from time to time).  We ask that anyone who can help us to ensure Matthew's continued employment visit our donations page and make a contribution at:</p>
+
+<p><a href="/donate.html">http://freenetproject.org/donate.html</p>
 
 <p><b>4th April, 2008 - Freenet Receives Donation Funding Ongoing Development Work</b></p>
 <p>
