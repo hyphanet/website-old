@@ -2,7 +2,7 @@
   <h3>Ian Clarke - 29. März 2001</h3>
   <!-- Translation disclaimer -->
   <p>Dies ist die deutsche Übersetzung des Artikels. Die englische
-  Originalversion finden Sie <a href="/index.php?page=fairshare&lang=en"
+  Originalversion finden Sie <a href="/fairshare.html?lang=en"
   >hier</a>.</p>
 
   <h3>Einleitung</h3>

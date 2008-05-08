@@ -6,7 +6,7 @@ old new build announcements) -->
 <h3>Neuigkeiten</h3>
 <!-- Translation disclaimer - do not remove. Modify date of translation! -->
 <p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 5.4.2008)
-ist evtl. veraltet, die <a href="/index.php?page=news&lang=en">Englische Version</a>
+ist evtl. veraltet, die <a href="/news.html?lang=en">Englische Version</a>
 sollte aber auf dem neusten Stand sein.</p>
 <!-- End of translation disclaimer -->
 

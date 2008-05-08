@@ -1,5 +1,14 @@
 <?
 
+if (!isset($_REQUEST["rewritten"])) {
+	$currentURI = "$_SERVER["REQUEST_URI"]";
+	$newURI = ereg_replace("/test\.php\?page=(.+)","/$1.html",$currentURI);
+	header("Request-URI: $newURI");
+	header("Content-Location: $newURI");
+	header("Location: $newURI");
+	die;
+}   
+
 include 'includes/common.inc.php';
 
 ?>
