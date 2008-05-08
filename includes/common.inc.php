@@ -113,7 +113,7 @@ else
 }
 
 if (isset($_REQUEST["page"])) {
-	$page = htmlentities($_REQUEST["page"]);	
+	$page = escapeshellcmd(htmlentities($_REQUEST["page"]));	
 	$file = selectPage($lang_q, $page);		
 	if(!file_exists($file) )
 	{
