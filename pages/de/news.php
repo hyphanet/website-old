@@ -5,10 +5,59 @@ old new build announcements) -->
 
 <h3>Neuigkeiten</h3>
 <!-- Translation disclaimer - do not remove. Modify date of translation! -->
-<p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 5.4.2008)
+<p>Die deutsche &Uuml;bersetzung der Neuigkeiten (Stand vom 8.5.2008)
 ist evtl. veraltet, die <a href="/news.html?lang=en">Englische Version</a>
 sollte aber auf dem neusten Stand sein.</p>
 <!-- End of translation disclaimer -->
+
+<p><b>8. Mai 2008 - Freenet 0.7.0 &bdquo;Darknet&ldquo; veröffentlicht!</b></p>
+
+<p>Das Freenet-Projekt ist hocherfreut die Veröffentlichung von Freenet 0.7.0 
+bekannt geben zu können.</p>
+<p>Die Freenet-Software wurde entworfen um den freien Austausch von 
+Informationen über das Internet zu ermöglichen ohne Zensur oder 
+Vergeltungsschläge befürchten zu müssen. Um dies zu erreichen, macht Freenet es
+Angreifern sehr schwer die Identität der Person, die den Inhalt veröffentlicht
+hat oder derjenigen die ihn herunterlädt, aufzudecken. Das Freenet-Projekt wurde
+1999 gegründet, veröffentlichte im Mai 2000 Freenet 0.1 und ist seitdem in 
+aktiver Entwicklung.</p>
+<p>Freenet ist dadurch einzigartig, dass es sich um die Speicherung der Inhalte
+kümmert, was bedeutet, dass die Benutzer, wenn notwendig, Inhalte ins Freenet
+hochladen und dann die Verbindung trennen können. Wir haben herausgefunden, dass
+dies eine wichtige Anforderung für viele Freenet-Benutzer ist. Wenn sie einmal
+hochgeladen wurden, werden Inhalte im Freenet-Netzwerk gespiegelt und verschoben,
+was die Zurückverfolgung oder Zerstörung sehr erschwert. Inhalte werden so lange
+im Freenet verbleiben, wie Leute diese Inhalte anfordern, Freenet gibt 
+allerdings keine Garantie dafür, dass Inhalte unendlich lange gespeichert 
+werden.</p>
+<p>Die Entwicklung von Freenet 0.7 begann im Jahre 2005 mit der Erkenntnis, dass
+einige der am gefährdetesten Freenet-Benutzer die Tatsache dass sie Freenet
+benutzen verbergen müssen, nicht nur was sie damit machen. Das Ergebnis dieser
+Erkenntnis waren vollkommen neuer Entwurf und Neuentwicklung von Freenet, welche
+eine &bdquo;Darknet&ldquo;-Funktion hinzufügten, welche es den Benutzern 
+ermöglicht die Personen mit denen die Freenet-Software kommuniziert auf 
+vertrauenswürdige Freunde zu beschränken. Dies macht es für eine dritte Person
+viel schwieriger herauszufinden wer Freenet benutzt.</p>
+<p>Freenet 0.7 enthält auch in allen anderen Aspekten von Freenet wichtige 
+Verbesserungen, unter anderem Effizienz, Sicherheit und Benutzerfreundlichkeit.
+Freenet ist für Windows, Linux und OSX verfügbar. Es kann unter folgender 
+Adresse heruntergeladen werden:</p>
+<p><a href="/download.html">http://freenetproject.org/download.html</a></p>
+<p>Wenn Sie Schwierigkeiten haben, Freenet zu installieren, oder irgendwelche 
+Fragen, die nicht in den <a href="/faq.html">häufig gestellten Fragen (FAQ)</a>
+beantwortet werden, dann besuchen Sie uns im 
+<a href="http://de.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> im Kanal 
+<a href="irc://irc.freenode.net/%23freenet">#freenet</a> auf irc.freenode.net.
+Danke.</p>
+<p>Diese Veröffentlichung wäre ohne die Mühe von vielen Freiwilligen und Matthew
+Toseland, Freenets Vollzeit-Entwickler, nicht möglich gewesen. Matthews Arbeit
+wird durch Spenden auf unserer Web-Seite (und einigen größeren Sponsoren von 
+Zeit zu Zeit) finanziert. Wir fordern jeden der uns helfen kann Matthews 
+Anstellung zu sichern, dazu auf unsere Spenden-Seite aufzurufen und einen 
+Beitrag zu leisten:</p> 
+
+<p><a href="/donate.html">http://freenetproject.org/donate.html</a></p>
+
 
 <p><b>4. April 2008 - Freenet erhält Spende zur Finanzierung laufender
 Entwicklungsarbeit</b></p>
@@ -37,40 +86,3 @@ Vollzeit-Software-Entwickler, Matthew Toseland, sicher stellen, sodass wir
 weiterhin die Geschwindigkeit, Benutzerfreundlichkeit und Sicherheit von Freenet
 verbessern können, welche bereits in Version 0.7 deutlich erhöht wurden.
 </p>
-
-
-<p><b>31. März 2008 - Freenet 0.7.0 Release Candidate 1 veröffentlicht</b></p>
-<p>Die Freenet-Version 0.7.0 Release Candidate 1 steht nun zum öffentlichen Test
-zur Verfügung.</p>
-<p>
-Freenet ist ein weltweites Peer-to-Peer Netzwerk, entworfen um es den Benutzern
-zu ermöglichen Informationen zu lesen und zu veröffentlichen ohne Zensur
-befürchten zu müssen. Um es zu benutzen, müssen Sie die Freenet-Software
-herunterladen, diese ist für Windows, MacOS, Linux und andere Betriebssysteme
-verfügbar. Sobald Sie Freenet installiert und gestartet haben, wird Ihr Computer
-einem weltweiten, dezentralen P2P Netzwerk beitreten. Sie werden in der Lage
-sein Informationen anonym zu lesen und zu veröffentlichen, entweder über Ihren
-Web-Browser oder über eine Vielfalt von Programmen von Drittanbietern.
-</p>
-<p>
-Freenet 0.7 ist eine komplett neu geschriebene Version von Freenet. Das
-Hauptmerkmal von 0.7, welches der Benutzer zu Gesicht bekommt, ist die
-Fähigkeit, Freenet in einem &bdquo;Darknet&ldquo;-Modus zu betreiben, in dem Ihr
-Freenet-Knoten mit anderen Freenet-Benutzern, denen Sie vertrauen, kommuniziert.
-Dies erschwert es einem Angreifer erheblich, herauszufinden, dass Sie Freenet
-benutzen, ganz zu schweigen davon, was Sie damit machen. 0.7 enthält außerdem
-wesentliche Verbesserungen der Sicherheit und Geschwindigkeit.
-</p>
-<p>Hier kann Freenet 0.7 RC1 heruntergeladen werden:</p>
-<p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
-<p>Diese Veröffentlichung wäre ohne die zahlreichen Freiwilligen und Matthew
-Toseland, Freenets Vollzeit-Entwickler, nicht möglich gewesen. Matthews Arbeit
-wird durch Spenden über unsere Webseite (und einige größeren Spenden
-von Zeit zu Zeit) finanziert. Wir rufen jeden, der uns helfen kann, dazu auf Matthews
-Anstellung sicherzustellen. Besuchen Sie unsere Spenden-Seite und spenden Sie
-auf:</p>
-<p><a href="http://freenetproject.org/donate.html">http://freenetproject.org/donate.html</a></p>
-<p>Das Freenet-Projekt nimmt dieses Jahr auch am &bdquo;Google Summer of
-Code&ldquo;-Projekt teil. Wenn Sie daran interessiert sind mitzumachen, besuchen
-Sie so schnell wie möglich die &bdquo;Summer of Code&ldquo;-Seite:</p>
-<p><a href="http://code.google.com/soc/2008/">http://code.google.com/soc/2008/</a></p>
