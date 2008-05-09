@@ -13,6 +13,12 @@ John Gilmore is one of the founders of the Electronic Frontier Foundation, the C
 <li><a href="http://bytemark.co.uk/">Bytemark Hosting</a><br>
 Bytemark provides discounted hosting facilities to Freenet and comes with 
 our highest recommendation.
+ <p>
+<li><a href="http://www.zoozle.org/">zoozle Torrent Search</a><br>
+zoozle is a search engine for BitTorrent and P2P networks. It is also
+available in <a href="http://www.zoozle.net/" title="deutsche Torrent
+Suchmaschine">german</a> and <a href="http://www.zoozle.biz/" title="le
+français moteur de recherche pour BitTorrent">french</a>.
 </ol>
 <p>
 
