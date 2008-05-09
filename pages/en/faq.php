@@ -227,9 +227,9 @@ to get only the relevant settings:</p>
 
 <code>
 network.http.max-connections 200<BR>
-network.http.max-connections-per-server 100<BR>
-network.http.max-persistent-connections-per-proxy 50<BR>
-network.http.max-persistent-connections-per-server 10<BR>
+network.http.max-connections-per-server 200<BR>
+network.http.max-persistent-connections-per-proxy 200<BR>
+network.http.max-persistent-connections-per-server 200<BR>
 </code>
 <p>Note that these settings will cause mozilla to use more
 connections for all your browsing, which may not be desirable from a
