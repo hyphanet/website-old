@@ -4,7 +4,16 @@ style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 <h3>News</h3>
 
-<p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b></p>
+<p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b>
+<script type="text/javascript">
+digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
+digg_skin = 'compact';
+digg_window = 'new';
+</script>
+<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+<script>reddit_url='http://freenetproject.org/?0.7final'</script>
+<script type="text/javascript" src="http://reddit.com/button.js?t=1"></script>
+</p>
 <p>The Freenet Project is very pleased to announce the release of Freenet 0.7.0.</p>
 
 <p>Freenet is software designed to allow the free exchange of information over the Internet without fear of censorship, or reprisal.  To achieve this Freenet makes it very difficult for adversaries to reveal the identity, either of the person publishing, or downloading content.  The Freenet project started in 1999, released Freenet 0.1 in March 2000, and has been under active development ever since.</p>
@@ -21,14 +30,7 @@ old new build announcements) -->
 
 <p>This release would not have been possible without the efforts of numerous volunteers, and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through donations via our website (as well as a few larger sponsors from time to time).  We ask that anyone who can help us to ensure Matthew's continued employment visit our donations page and make a contribution at:</p>
 
-<p><a href="/donate.html">http://freenetproject.org/donate.html</a>
-<script type="text/javascript">
-digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
-</script>
-<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
-<script>reddit_url='http://freenetproject.org/?0.7final'</script>
-<script type="text/javascript" src="http://reddit.com/button.js?t=1"></script>
-</p>
+<p><a href="/donate.html">http://freenetproject.org/donate.html</a></p>
 
 
 <p><b>4th April, 2008 - Freenet Receives Donation Funding Ongoing Development Work</b></p>
