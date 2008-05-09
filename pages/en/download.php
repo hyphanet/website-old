@@ -152,7 +152,7 @@ applications for freenet</a>.</p>
 <a href="mailto:support@freenetproject.org">the support list</a> 
 (<a href="/lists.html">subscribe here</a>), or join us on 
 <a href="http://en.wikipedia.org/wiki/IRC" title="Internet Relay Chat is a non-anonymous chat system used by many developers and users of Freenet">IRC</a>
-on <a href="irc://irc.freenode.net/freenet">#freenet</a> on irc.freenode.net.</p>
+in the <a href="irc://irc.freenode.net/freenet">#freenet</a> channel at irc.freenode.net.</p>
 	
 <h3>Hardware requirements</h3>
 <p>

@@ -344,10 +344,10 @@ your key and brief description of your information, to the author of
 one of the existing Freenet sites. Most of the "portal" sites which are linked from the Freenet
 web interface (fproxy) have a submission form which lets you send them
 messages anonymously. You could also send your key to people by using
-the Freenet <a href="/lists.html">mailing lists</a>, or the IRC channel (irc.freenode.net #freenet), or by private e-mail, or by advertising your Freenet
-
-site on your World Wide Web site. Or if you're feeling extravagant, you
-could try skywriting it. (Graffiti is not recommended, for legal
+the Freenet <a href="/lists.html">mailing lists</a>, in the
+IRC channel (irc.freenode.net #freenet), by private e-mail, or by advertising your Freenet
+site on your World Wide Web site. If you're feeling extravagant, you
+could even try skywriting it. (Graffiti is not recommended, for legal
 reasons.)</p>
 
 <p><b id="chk">How do I publish a Content Hash Key (CHK)?</b><br>
@@ -395,7 +395,7 @@ To build and deploy the Freenet server, you will need Java tools compatible with
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). To do web development you
 will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.
-Generally speaking, joining our IRC channel is a good idea : #freenet on irc.freenode.net</p>
+Generally speaking, joining our IRC channel is a good idea: #freenet on irc.freenode.net</p>
 
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
 You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.

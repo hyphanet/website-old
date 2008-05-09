@@ -60,7 +60,7 @@
  <h3>Contact Information</h3>
 
  <p>All Freenet and FCPLib related email send to <SCRIPT language="javascript">eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%27%3c%61%20%68%72%65%66%3d%22%6d%61%69%6c%74%6f%3a%4a%61%79%20%4f%6c%69%76%65%72%69%20%3c%69%6c%6e%65%72%6f%40%67%6d%78%2e%6e%65%74%3e%22%3e%4a%61%79%20%4f%6c%69%76%65%72%69%3c%2f%61%3e%27%29%3b'))</SCRIPT>. I am currently subscribed to 
- Freenet-dev, Freenet-tech, and Freenet-support. On the Freenode IRC network I can be found in #freenet under the registered nick 
+ Freenet-dev, Freenet-tech, and Freenet-support. On the Freenode IRC network, I can be found in #freenet under the registered nick 
  &quot;Jay&quot;.</p>
  
  <h2>Source Code</h2>
