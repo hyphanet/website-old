@@ -57,6 +57,16 @@ Anstellung zu sichern, dazu auf unsere Spenden-Seite aufzurufen und einen
 Beitrag zu leisten:</p> 
 
 <p><a href="/donate.html">http://freenetproject.org/donate.html</a></p>
+<p>
+<script type="text/javascript">
+digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
+digg_skin = 'compact';
+digg_window = 'new';
+</script>
+<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+<script>reddit_url='http://freenetproject.org/?0.7final'</script>
+<script type="text/javascript" src="http://reddit.com/button.js?t=1"></script>
+</p>
 
 
 <p><b>4. April 2008 - Freenet erhält Spende zur Finanzierung laufender
