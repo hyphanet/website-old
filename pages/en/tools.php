@@ -33,7 +33,7 @@ Frost is a filesharing and message board application for Freenet. Visit the <a c
 
 <p><b>FMS</b><br />
 <br />
-FMS is a spam-resistent message board application for Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/freenet:USK@F-BKUq9vNTrvp7D90r5edQ4MfZCrx3pP7TofdDlCRoU,YFUeosm79Z3KZxC62qQCteCCUI3D-LYyRk6P9auVpPA,AQACAAE/freenetapps/1/'>FMS freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+FMS is a spam-resistent message board application for Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@0npnMrqZNKRCRoGojZV93UNHCMN-6UU3rRSAmP6jNLE,~BG-edFtdCC1cSH4O3BWdeIYa8Sw5DfyrSV-TKdO5ec,AQACAAE/fms/48/'>FMS freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 </p>
 
 <br /><h2>Other tools? Want to contribute?
