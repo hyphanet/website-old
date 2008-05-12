@@ -79,7 +79,7 @@ function selectPage($lang_q, $page) {
 				
 			}	
 		} else {
-			syslog(LOG_CRIT, "Huh, someone attempted to access a non-existent file! $tmpfile");
+			syslog(LOG_CRIT, "Huh, someone attempted to access a non-existent file! page=$page file=$tmpfile");
 		}
 
 		if (!isset($file))
@@ -147,7 +147,7 @@ if (isset($_REQUEST["page"])) {
 			echo "<body>404 error - broken link</body>";
 			$to="webmaster";
 			$subject="404 error";
-			$content="\nA 404 error has occurred on the website : may you fix it ?\nFrom :  ".htmlspecialchars($_SERVER["HTTP_REFERER"])."\nTo : ".htmlspecialchars($_SERVER["REQUEST_URI"])."\nAt : ".date("D M j Y g:i:s a T"."\nUser-agent : ".htmlspecialchars($_SERVER["HTTP_USER_AGENT"]));
+			$content="\nA 404 error has occurred on the website : may you fix it ?\nFrom :  ".$_SERVER["HTTP_REFERER"]."\nTo : ".$_SERVER["REQUEST_URI"]."\nAt : ".date("D M j Y g:i:s a T"."\nUser-agent : ".$_SERVER["HTTP_USER_AGENT"]);
 			@mail($to,$subject,escapeshellcmd($content),"svn-build");
 		}
 		die;
