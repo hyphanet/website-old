@@ -5,7 +5,7 @@ if (!isset($_REQUEST["rewritten"])) {
         $host = htmlentities($_SERVER['HTTP_HOST']);
         $prefix = "http://".$host;
                                                             
-        if ($c=preg_match_all ("/\\/index\\.php\\?page=([^&]+)/is", $currentURI, $matches)) {
+        if ($c=preg_match_all ("/\\/index\\.php\\?page=[/]*([^&]+)/is", $currentURI, $matches)) {
                 $page_name = $matches[1][0].".html";
         } else {          
                 $page_name = "";
