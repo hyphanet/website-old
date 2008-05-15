@@ -60,6 +60,7 @@ function selectPage($lang_q, $page) {
 	if (isset($page))
 	{
 		#echo "common - page exists ".dirname(__FILE__).'/'.$page.'.inc.php';
+		$page = trim($page, '/');
 		$tmpfile = dirname(__FILE__).'/'.$page.'.inc.php';
 		if (file_exists($tmpfile)) {
 			#echo "file exists";
