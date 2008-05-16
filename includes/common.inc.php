@@ -141,12 +141,12 @@ if (isset($_REQUEST["page"])) {
 	$file = selectPage($lang_q, $page);		
 	if(!file_exists($file) )
 	{
-		header('HTTP/1.0 404 Not Found');
+		header('HTTP/1.0 404 Not Found', 404);
 		if(empty($_SERVER["HTTP_REFERER"]) || empty($_SERVER["REQUEST_URI"])){
 			header("Location: /");
 		}else{
 			echo "<html><head><title>404</title><head>";
-			echo "<body>404 error - broken link</body>";
+			echo "<body>404 error - broken link</body></html>";
 			$to="webmaster";
 			$subject="404 error";
 			$content="\nA 404 error has occurred on the website : may you fix it ?\nFrom :  ".$_SERVER["HTTP_REFERER"]."\nTo : ".$_SERVER["REQUEST_URI"]."\nAt : ".date("D M j Y g:i:s a T"."\nUser-agent : ".$_SERVER["HTTP_USER_AGENT"]);
