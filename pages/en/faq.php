@@ -206,7 +206,7 @@ manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Frien
 see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
 and Opennet FNP ports. You may need to look up your router's documentation to figure
 out how to do this. Freenet should have forwarded them itself through <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
-but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have java before 1.5).</p>
+but this doesn't always work (and it never works if you don't have the UPnP plugin loaded).</p>
 <p>If you have a dyndns address or other domain name pointing to the computer you run 
 your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/">the config page</a>, 
 and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
@@ -391,7 +391,7 @@ Absolutely. Even if you don't have the time or skills to become a co-developer o
 We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="http://freenet.googlecode.com/svn/trunk/">Freenet's subversion repository</a>.
 
 <p><b id="devtools">What tools do I need to help develop?</b><br>
-To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
+To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.5 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
 (This is not necessary if you only want to download, compile, and run
 the server without contributing to its code). Further instructions for building and deploying the server are included with the code itself.
 Generally speaking, joining our IRC channel is a good idea: <a href="irc://irc.freenode.net/freenet">#freenet on irc.freenode.net</a></p>

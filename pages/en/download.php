@@ -49,7 +49,7 @@ If this doesn't work, try the linux instructions below.
 <div id="unix">
 <h3>Linux and other Unix-like systems</h3>
 You need to have a recent <b>Java Runtime Environment</b> (JRE). We have experienced best results with Sun's Java Runtime Environment which can be obtained via your <a href="http://en.wikipedia.org/wiki/Package_manager">package manager</a> or from <a href="http://www.java.com/">http://www.java.com/</a>. <BR>
-Java version 1.4.2 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 1.5 update 4. Generally, we recommend using latest.
+Java version 1.5 and later will work. However, be aware that there are applet security vulnerabilities in all versions prior to Java 1.5 update 4. Generally, we recommend using latest.
 
 <p>Open a terminal and type:</p>
 <pre>
@@ -72,8 +72,8 @@ cd freenet
 </div>
 
 <script type="text/javascript"><!--
-	// Try to detect if Sun Java 1.4.2 or higher is installed
-	var Java = PluginDetect.isMinVersion('Java', '1,4,2');
+	// Try to detect if Sun Java 1.5.0 or higher is installed
+	var Java = PluginDetect.isMinVersion('Java', '1,5,0');
 
 	// Os detection
 	var OSName="";

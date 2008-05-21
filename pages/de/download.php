@@ -81,7 +81,7 @@ Environment erzielt, welches Sie mit Ihrer <a
 href="http://de.wikipedia.org/wiki/Paketverwaltung">Paketverwaltung</a>
 installieren oder von <a href="http://java.com/de/" >http://java.com/de/</a>
 herunterladen können.<br>
-Java Version 1.4.2 und höher wird funktionieren. Seien Sie sich jedoch bewusst,
+Java Version 1.5.0 und höher wird funktionieren. Seien Sie sich jedoch bewusst,
 dass in den Versionen vor Java 1.5 Update 4 Sicherheitslücken im Applet sind.
 Generell empfehlen wir die neuste Version zu benutzen.
 
@@ -117,8 +117,8 @@ href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520sh
 </div>
 
 <script type="text/javascript"><!--
-	// Try to detect if Sun Java 1.4.2 or higher is installed
-	var Java = PluginDetect.isMinVersion('Java', '1,4,2');
+	// Try to detect if Sun Java 1.5.0 or higher is installed
+	var Java = PluginDetect.isMinVersion('Java', '1,5,0');
 
 	// Os detection
 	var OSName="";
