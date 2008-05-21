@@ -50,7 +50,6 @@ function setLanguage() {
    		$lang_q[$lang] = '1' ;
    	}
    
-   //return $lang_index; // uncomment for returning array with keys={0..n-1}, values={most..least preferred}
     return $lang_q;
 		
 }
