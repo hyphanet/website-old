@@ -393,9 +393,8 @@ We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <
 <p><b id="devtools">What tools do I need to help develop?</b><br>
 To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.4 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
 (This is not necessary if you only want to download, compile, and run
-the server without contributing to its code). To do web development you
-will need <i>SSH</i> (or <i>OpenSSH</i>). Further instructions for building and deploying the server are included with the code itself.
-Generally speaking, joining our IRC channel is a good idea: #freenet on irc.freenode.net</p>
+the server without contributing to its code). Further instructions for building and deploying the server are included with the code itself.
+Generally speaking, joining our IRC channel is a good idea: <a href="irc://irc.freenode.net/freenet">#freenet on irc.freenode.net</a></p>
 
 <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br>
 You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
