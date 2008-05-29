@@ -63,11 +63,4 @@ according to your needs and press <span style="font-weight:bold;">Next</span> wh
 exchanging node references to add peer-nodes to yours, in order to communicate on Freenet. But more on that later.</p>
 <br/><br/><br/>
 
-<p>Clicking the <span style="font-weight:bold;">Fproxy web interface</span> link in the image above, opens up Freenets main interface,
-where peer-nodes are added and configuration for your Freenet node is done. When newly started, it also displays some helpful error
-messages, as can be seen below.</p>
-<img src="/image/install/11-FProxy_home.png"/><br/><br/><br/>
-<p>The first thing you should do, is to change your node name. This can be done by either writing the node name directly in the main
-window under the caption <span style="font-weight:bold;">Node name for darknet</span>, or by clicking the 
-<span style="font-weight:bold;">Configuration</span> menu item and looking for the same caption there. When finished, press 
-<span style="font-weight:bold;">Apply</span> to save the new settings.</p>
+<p>Clicking the <span style="font-weight:bold;">Get started on Freenet</span> link in the image above, opens up Freenet's first time wizard.</p>
