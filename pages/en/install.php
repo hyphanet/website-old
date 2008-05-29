@@ -32,12 +32,6 @@ step requires you to know where you stored the file (the path to it), so it is q
 <p>Next is shown an about-box, some information about the version of Freenet and authors. Just click <span style="font-weight:bold;">
 Next</span> to proceed.</p>
 <img src="/image/install/2-about.png"/><br/><br/><br/>
-<p>Then comes the License Agreement to the GNU General Public License. After you've read the text, click 
-<span style="font-weight:bold;">I accept the terms of this license agreement</span> and press <span style="font-weight:bold;">Next
-</span>.</p>
-
-<img src="/image/install/3-acceptLicense.png"/><br/><br/><br/>
-
 <p>The next step is to choose the directory in which to install Freenet. The default location on Linux operating systems is 
 <span style="font-weight:bold;">/home/username/Freenet</span> as shown below. Change it to something appropriate or leave &quot;as is&quot;.
 Click <span style="font-weight:bold;">Next</span> when you are finished.</p>
