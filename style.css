@@ -6,7 +6,7 @@ div#menu {
 	font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif; 
 	float:left;
 	/* fixed width is needed for IE: see http://archives.freenetproject.org/message/20080604.081350.896d3fc2.en.html */
-	width: 150px;
+	width: 10.5em;
 	font-style: normal;
 	font-weight: normal;
 	text-align: left;
