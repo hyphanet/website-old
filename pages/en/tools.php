@@ -11,7 +11,7 @@ Thaw is a filesharing application, to add stuff to, and download stuff from, Fre
 Freemail provides anonymous e-mail over Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@xOg49GNltumTJJzj0fVzuGDpo4hJUsy2UsGQkjE7NY4,EtUH5b9gGpp8JiY-Bm-Y9kHX1q-yDjD-9oRzXn21O9k,AQACAAE/freemail/2/'>Freemail freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
 </p>
 
-<p><a class='wiki'  href='http://www.freenet.org.nz/pyfcp/'><b>pyFreenet</b></a><br />
+<p><a class='wiki'  href='http://www.freenet.org.nz/python/pyFreenet/'><b>pyFreenet</b></a><br />
 <br />
 pyFreenet is an API and a set of tools to access freenet from the python programing language. Tools are currently command-line only.
 </p>
