@@ -10,6 +10,7 @@
 </li><li><a href="#donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</a>
 </li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
 </li><li><a href="#legal">Is Freenet legal?</a>
+</li><li><a href="#blocked">Is Freenet blocked by national firewalls?</a>
 </li><li><a href="#trouble">Can I get trouble if I run a node?</a>
 </li><li><a href="#copyright">What about copyright?</a>
 </li><li><a href="#childporn">What about child porn, offensive content or terrorism?</a>
@@ -109,21 +110,37 @@ improvement we need more people to start thinking like you. Bandwidth
 counts more than diskspace.</p>
 
 <p><b id="legal">Is Freenet legal?</b><br>
-If by legal you mean not illegal, then yes it is. Of course,
-anything can be found to be illegal at some point in the future, and
-the law can be an ass sometimes, so we can make no guarantee about Freenet's future legality.
-You might be interested in <a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">the EFF's advice</a> to peer to peer developers.
-There have been questions raised about Freenet's legality in France under the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>,
-and its legality across the EU should <a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> pass.
-Also we have grounds to believe that Freenet 0.5 is <a href="http://wiki.freenetproject.org/China">blocked</a> in China, although that doesn't necessarily make it illegal (the website of course has been blocked since forever).
-If you want legal advice, ask a lawyer.
+We don't currently know of any prosecutions for using merely using Freenet.
+Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
+makes Freenet illegal in France; others have told us about the German data retention
+law which allegedly requires anonymity systems to retain enough data to trace web
+requests, which may or may not apply to us. Europe-wide, the
+<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> may have
+wide-ranging effects, including on Freenet, should it pass... or it may not. 
+Many of these things are arguable either way (depending on how broadly the 
+legislation is applied) and will have to be decided in caselaw.
+The law can be an ass sometimes. You can read the EFF's advice to peer to peer developers 
+<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
+If you need legal advice, talk to a lawyer. Also read the next section especially if you
+are in China; blocking the protocol may suggest the authorities don't like us!
 </p>
 
+<p><b id="blocked">Is Freenet blocked by national firewalls?</b><br>
+The Chinese national firewall (Golden Shield) has blocked our website for many years,
+and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
+like us, so be careful if you run Freenet in China. Some other countries such as the 
+United Kingdom are <a href="http://news.bbc.co.uk/1/hi/business/7240234.stm">seriously considering</a>
+forcing ISPs to block all peer to peer systems capable of sharing illegal files; this 
+would probably include Freenet. Freenet 0.7 has some minimal defences against blocking; 
+the protocol is relatively hard to identify (we will make this a lot harder in future),
+and it supports a <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> mode 
+(i.e. only connecting to your friends) which makes automated harvesting and blocking 
+of nodes very difficult.
+
 <p><b id="trouble">Can I get trouble if I run a node?</b><br>
-This is related to the previous question. We have done everything
+This is related to <a href="#legal">"Is Freenet legal?"</a>. We have done everything
 we can to make it extremely difficult for any sane legal system to
 justify punishing someone for running a Freenet
-
 node, and there is little precedent for such action in today's developed
 countries. Many legal systems recognise the importance of freedom of
 speech, which is Freenet's
@@ -132,7 +149,9 @@ government might not agree with; you should make an informed decision
 as to whether to take that risk.</p>
 
 <p><b id="copyright">What about copyright?</b><br>
-There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.</p>
+There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.
+Specific copyright-related laws may be a problem, please read <a href="#legal">Is Freenet legal?</a>
+and <a href="#blocked">Is Freenet blocked by national firewalls?</a>.</p>
 
 <p><b id="childporn">What about child porn, offensive content or terrorism?</b><br>
 While most people wish that child pornography and terrorism did not
