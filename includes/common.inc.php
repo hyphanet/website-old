@@ -2,7 +2,7 @@
 
 if (!isset($_REQUEST["rewritten"])) {
         $currentURI = htmlentities($_SERVER['REQUEST_URI']);
-        $prefix = "http://freenetproject.org"
+        $prefix = "http://freenetproject.org";
                                                             
         if ($c=preg_match_all ("/\\/index\\.php\\?page=[\\/]*([^&]+)/is", $currentURI, $matches)) {
                 $page_name = $matches[1][0].".html";
