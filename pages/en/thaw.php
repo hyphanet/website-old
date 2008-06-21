@@ -6,9 +6,7 @@ Freenet filesharing.
 </p>
 <h3>Starting Thaw</h3>
 <p>
-Thaw should be included in the Freenet installation
-by default. It should be found in the Freenet
-directory. To start it, write in a command prompt:
+You can <a href="http://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download Thaw here</a>. To start it, write in a command prompt:
 </p>
 <pre>
 java -jar Thaw.jar

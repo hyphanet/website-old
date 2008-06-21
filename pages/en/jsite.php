@@ -3,13 +3,13 @@
 jSite is a graphical application that you can 
 use to create, insert and manage your own 
 Freenet sites. It was written in Java by Bombe. 
-It comes packaged with the Freenet installer, 
-so it should be in your main Freenet directory.
+</p>
+<p>
+You can <a href="http://downloads.freenetproject.org/alpha/jSite/jSite.jar">download jSite here</a>
 </p>
 <h3>Starting jSite</h3>
 <p>
-To start jSite, type the following in a terminal
-while in the Freenet-directory (e.g. /home/username/Freenet):
+To start jSite, type the following in a terminal:
 </p>
 <pre>
 java -jar jSite.jar
