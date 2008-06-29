@@ -4,6 +4,27 @@ style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 <h3>News</h3>
 
+<p><b>29th June, 2008 - Freenet Summit, Sunday July 6th, London Bridge, London</b></p>
+<p>
+We are having a Freenet get-together on the afternoon of Sunday 6th
+July in London.  We have reserved some tables at "The Woolpack" bar in
+London Bridge, the full address is:
+<blockquote>
+ 98, Bermondsey St,
+ London,
+ SE1 3UB
+</blockquote>
+Our tables are booked from 12.30pm, and they do serve food.
+</p><p>
+If you intend to come along, please join this Google
+group and send an email to it so that we can maintain a count of how
+many people to expect:
+</p>
+<blockquote>
+ <a href="http://groups.google.com/group/freenet-summit-2008">http://groups.google.com/group/freenet-summit-2008</a>
+</blockquote>
+</p>
+
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b>
 <script type="text/javascript">
 digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
@@ -31,30 +52,3 @@ digg_window = 'new';
 <p>This release would not have been possible without the efforts of numerous volunteers, and Matthew Toseland, Freenet's full time developer. Matthew's work is funded through donations via our website (as well as a few larger sponsors from time to time).  We ask that anyone who can help us to ensure Matthew's continued employment visit our donations page and make a contribution at:</p>
 
 <p><a href="/donate.html">http://freenetproject.org/donate.html</a></p>
-
-
-<p><b>4th April, 2008 - Freenet Receives Donation Funding Ongoing Development Work</b></p>
-<p>
-	Google's <a href="http://code.google.com/opensource/">Open Source Team</a> has
-	donated US$18,000 to the Freenet Project to support the ongoing
-	development of the Freenet software.
-</p>
-<p>
-	Freenet is a 501c3 non-profit corporation whose goal is the
-	development of free software that allows users to publish and obtain
-	information on the Internet without fear of censorship.
-</p>
-<p>
-	Earlier this week Freenet launched the first release-candidate for
-	Freenet 0.7, the 7th major iteration of Freenet since the project
-	started in 1999.  Freenet 0.7's most important new feature is its
-	ability to run in a "darknet" mode, to further protect the identities
-	of Freenet users in countries which do not respect freedom of speech
-	on the Internet.
-</p>
-<p>
-	This donation will ensure the continued employment of Freenet's full-time 
-	software developer, Matthew Toseland, so that we can continue
-	to improve Freenet's performance, usability and security, which has already
-	advanced significantly in 0.7.
-</p>
