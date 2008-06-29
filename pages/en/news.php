@@ -14,9 +14,7 @@ London Bridge, the full address is:
  London,
  SE1 3UB
 </blockquote>
-Our tables are booked from 12.30pm, and they do serve food.
-</p><p>
-If you intend to come along, please join this Google
+Our tables are booked from 12.30pm, and they do serve food.  If you intend to come along, please join this Google
 group and send an email to it so that we can maintain a count of how
 many people to expect:
 </p>
@@ -24,7 +22,7 @@ many people to expect:
  <a href="http://groups.google.com/group/freenet-summit-2008">http://groups.google.com/group/freenet-summit-2008</a>
 </blockquote>
 </p>
-
+<p/>
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b>
 <script type="text/javascript">
 digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
