@@ -31,6 +31,7 @@
 </li><li><a href="#why-java">Why is Freenet implemented in Java?</a>
 
 </li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
+</li><li><a href="#openjdk">The installer breaks downloading files and I'm using Ubuntu 8.04 and/or OpenJDK</a>
 </li><li><a href="#fec">What is FEC?</a>
 </li><li><a href="#healing">What is healing?</a>
 </li><li><a href="#heisenbug">What is a Heisenbug?</a>
@@ -309,6 +310,15 @@ fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 </code>
 </p>
+
+<p><b id="openjdk">Problems installing with OpenJDK</b><br>
+<p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
+have some problems with SSL which cause the installer to fail. Please install
+the Sun JRE, at least version 5:</p>
+<pre>
+apt-get install sun-java5-jre
+update-alternatives --config java
+</pre>
 
 <p><b id="fec">What is FEC?</b><br>
 FEC stands for Forward Error Correction.  When large files are inserted into Freenet, they are split into many small blocks -- this is called a <i>splitfile</i>.
