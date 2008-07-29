@@ -314,7 +314,7 @@ fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 <p><b id="openjdk">Problems installing with OpenJDK</b><br>
 <p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
 have some problems with SSL which cause the installer to fail. Please install
-the Sun JRE, at least version 5. On Ubuntu or Debian:</p>
+the Sun JRE, at least version 5. On Ubuntu or Debian, open a terminal and type:</p>
 <pre>
 apt-get install sun-java5-jre
 update-alternatives --config java
