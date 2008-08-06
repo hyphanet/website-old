@@ -54,10 +54,10 @@ http://127.0.0.1:8888/friends/</a> link. Below is the thing that makes it all ha
 <p>As you can see, there are three ways of getting a node reference from someone else:</p>
 <ul>
 <li>Pasting it &quot;as is&quot;, in the top field,</li>
-<li>an URL pointing at the reference, such as <a href="http://dark-code.bulix.org/">http://dark-code.bulix.org/</a> or</li>
+<li>a URL pointing at the reference, or</li>
 <li>a file, containing the reference.</li>
 </ul>
-<p>bulix.org is a so called <span style="font-weight:bold;">paste-bin</span>, where you can add your node reference, make sure that
+<p><a href="http://dark-code.bulix.org/">http://dark-code.bulix.org/</a> is a so called <span style="font-weight:bold;">paste-bin</span>, where you can add your node reference, make sure that
 the <span style="font-weight:bold;">private</span> box is checked, and press <span style="font-weight:bold;">Paste</span>.</p>
 <p>The paste-bin then returns an URL (e.g. http://dark-code.bulix.org/yuf01h-34676?raw), which can be shared with others. Make sure that
 you add <span style="font-weight:bold;">?raw</span> to the link. This makes the link point only to the actual pasted data, with no extra 
