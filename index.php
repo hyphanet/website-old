@@ -67,10 +67,6 @@ include 'includes/common.inc.php';
 		<a href="http://www.cafeshops.com/freenetproject"><img width="83" height="82" border="0" src="/image/freenet-mug.gif" alt="Freenet Store"><br>
 		<font size="-2">Visit the Freenet Store!</font></a>
 	</div>
-<br>
-	<div align="center">
-		<a href="http://hackontest.org/index.php?action=Root-projectDetail%2846%29"><img src="http://hackontest.org/templates/banners/HackontestBanner_150x40.jpg" alt="We are a hackontest candidate!"></a>
-	</div>
 </div>
 
 <div id="content"><? 	include (escapeshellcmd($file));  ?>
