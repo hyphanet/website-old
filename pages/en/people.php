@@ -41,8 +41,7 @@ debugging and core work in various places.</p>
 
 <p><b>Julien Cornuwel</b><br>
 Julien (batosai) is responsible for the French translation of Freenet's user 
-interface, who has also worked on a <a href="http://www.freenet-doc.fr">French 
-help site</a> for Freenet.</p>
+interface, who has also worked on a <a href="http://doc-fr.freenetproject.org">French help site</a> for Freenet.</p>
 
 <p><b>Robert Hailey</b><br>
 Robert has helped improve the speed and security of Freenet by finding two
