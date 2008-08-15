@@ -19,10 +19,10 @@ zoozle is a search engine for BitTorrent and P2P networks. It is also
 available in <a href="http://www.zoozle.net/" title="deutsche Torrent
 Suchmaschine">german</a> and <a href="http://www.zoozle.biz/" title="le
 français moteur de recherche pour BitTorrent">french</a>.
-</ol>
 <p>
 <li><a href="http://www.yourkit.com/">YourKit, LLC</a><br>
 YourKit is kindly supporting Freenet by providing us a free of charge license of its full-featured Java Profiler. YourKit, LLC is the creator of innovative and intelligent tools for profiling Java applications. You can learn more about <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> following the link.
+</ol>
 <p>
 
 Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
