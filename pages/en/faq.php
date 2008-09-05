@@ -291,7 +291,7 @@ If you want everyone to be able to use your node you have the following options:
 <p>If you want everyone to be able to access your node:
 </p><code>
 fproxy.bindTo=0.0.0.0<BR>
-fproxy.allowedHosts=0.0.0.0<BR>
+fproxy.allowedHosts=*<BR>
 </code><p>
 Of course, this leaves your node wide open, unless you control
 access with a firewall of some sort.  If you'd prefer to use access
