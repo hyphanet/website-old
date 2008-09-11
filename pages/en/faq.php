@@ -147,7 +147,11 @@ countries. Many legal systems recognise the importance of freedom of
 speech, which is Freenet's
 core goal. Having said that, there is risk in doing anything that your
 government might not agree with; you should make an informed decision
-as to whether to take that risk.</p>
+as to whether to take that risk. Furthermore, your ISP or hosting provider
+may have a problem with Freenet. At least one French hosting provider
+has been known to ban Freenet (along with Tor and others) from their
+servers; please read your terms and conditions to make sure you can are 
+allowed to run Freenet.</p>
 
 <p><b id="copyright">What about copyright?</b><br>
 There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.
