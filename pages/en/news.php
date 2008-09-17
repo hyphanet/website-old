@@ -4,25 +4,6 @@ style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 <h3>News</h3>
 
-<p><b>29th June, 2008 - Freenet Summit, Sunday July 6th, London Bridge, London</b></p>
-<p>
-We are having a Freenet get-together on the afternoon of Sunday 6th
-July in London.  We have reserved some tables at "The Woolpack" bar in
-London Bridge, the full address is:
-<blockquote>
- 98, Bermondsey St,
- London,
- SE1 3UB
-</blockquote>
-Our tables are booked from 12.30pm, and they do serve food.  If you intend to come along, please join this Google
-group and send an email to it so that we can maintain a count of how
-many people to expect:
-</p>
-<blockquote>
- <a href="http://groups.google.com/group/freenet-summit-2008">http://groups.google.com/group/freenet-summit-2008</a>
-</blockquote>
-</p>
-<p/>
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b>
 <script type="text/javascript">
 digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_the_darknet';
