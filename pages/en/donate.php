@@ -92,6 +92,17 @@ value="ian@freenetproject.org">
       <input type="hidden" name="no_shipping" value="1">
 <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
+<input type="hidden" name="currency_code" value="USD">
+Amount:
+<p>
+<select name="amount">
+<option value="100.00">$100.00</option>
+<option value="50.00">$50.00</option>
+<option value="20.00">$20.00</option>
+<option selected value="10.00">$10.00</option>
+<option value="5.00">$5.00</option>
+</select>
+</p>
       <input type="image" 
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit"></form>
