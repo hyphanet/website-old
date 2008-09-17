@@ -95,7 +95,6 @@ value="ian@freenetproject.org">
 value="http://freenetproject.org/">
       <input type="hidden" name="cancel_return" 
 value="http://freenetproject.org/">
-	  <input type="hidden" name="item_name" value="Donation to Freenet">
       <input type="image" 
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit"></form>
