@@ -11,7 +11,7 @@ future of The Freenet Project and you can be assured donations have been and wil
 to be used wisely. All support is very much appreciated.
 
 <h4>How can I donate?</h4>
-You have three options:
+You have four options:
 <ul>
 <li>You can become a Freenet project "member" for a <b>recurring
 payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
