@@ -11,7 +11,7 @@ future of The Freenet Project and you can be assured donations have been and wil
 to be used wisely. All support is very much appreciated.
 
 <h4>How can I donate?</h4>
-You have four options:
+You have three options:
 <ul>
 <li>You can become a Freenet project "member" for a <b>recurring
 payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
@@ -98,36 +98,6 @@ value="http://freenetproject.org/">
       <input type="image" 
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit"></form>
-</center>
-<P>
-<hr width="90%">
-<p>
-<li>You can donate once through <a 
-href="http://www.e-gold.com/e-gold.asp?cid=767764">E Gold</a> by filling 
-out this form:<br>
-<center>
-<table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">
-<form action="https://www.e-gold.com/sci_asp/payments.asp" method="POST" 
-target=_top>
-<input type="hidden" name="PAYEE_ACCOUNT" value="767764">
-<input type="hidden" name="PAYEE_NAME" value="Freenet Project Inc">Enter 
-Amount You'd like to Donate:<br>USD$<input type=text 
-name="PAYMENT_AMOUNT" value="20" size=4>
-<input type=hidden name="PAYMENT_UNITS" value=1>worth of E-Gold
-<input type=hidden name="PAYMENT_METAL_ID" value=1>
-<input type="hidden" name="STATUS_URL" 
-value="mailto:ian@freenetproject.org"><input type="hidden" 
-name="NOPAYMENT_URL" value="http://freenetproject.org/">
-<input type="hidden" name="NOPAYMENT_URL_METHOD" value="LINK">
-<input type="hidden" name="PAYMENT_URL" 
-value="http://freenetproject.org/">
-<input type="hidden" name="PAYMENT_URL_METHOD" value="LINK">
-<input type="hidden" name="BAGGAGE_FIELDS" value="CUSTOMERID">
-<input type="hidden" name="CUSTOMERID" value="0">
-<input type="hidden" name="SUGGESTED_MEMO" value='Donation to Freenet Project'><br>
-<input type="submit" name="PAYMENT_METHOD" value="Donate Now">
-</form>
-</td></tr></table>
 </center>
 <P>
 <hr width="90%">
