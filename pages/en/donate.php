@@ -88,6 +88,7 @@ method="post">
       <input type="hidden" name="cmd" value="_xclick">
       <input type="hidden" name="business" 
 value="ian@freenetproject.org">
+	  <input type="hidden" name="item_name" value="Freenet Donation">
       <input type="hidden" name="no_shipping" value="1">
 <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
