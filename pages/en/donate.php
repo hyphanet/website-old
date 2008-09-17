@@ -93,8 +93,10 @@ value="ian@freenetproject.org">
 <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
 <input type="hidden" name="currency_code" value="USD">
+<table cellpadding="5" cellspacing="0" width="1%">
+<tr>
+<td>
 Amount:
-<p>
 <select name="amount">
 <option value="100.00">$100.00</option>
 <option value="50.00">$50.00</option>
@@ -102,10 +104,15 @@ Amount:
 <option selected value="10.00">$10.00</option>
 <option value="5.00">$5.00</option>
 </select>
-</p>
+</td>
+<td>
       <input type="image" 
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-name="submit"></form>
+name="submit">
+</td>
+</tr>
+</table>
+</form>
 </center>
 <P>
 <hr width="90%">
