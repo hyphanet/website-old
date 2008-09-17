@@ -96,7 +96,6 @@ value="ian@freenetproject.org">
 <table cellpadding="5" cellspacing="0" width="1%">
 <tr>
 <td>
-Amount:
 <select name="amount">
 <option value="100.00">$100.00</option>
 <option value="50.00">$50.00</option>
