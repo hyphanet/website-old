@@ -115,7 +115,7 @@ interface. Freenet will ask you a few questions and then go to the node homepage
 will open the page for you, so you won't be reading this.</p>
 
 <h3>Offline installation</h3>
-Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).
+Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/new_installer_offline.jar">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).
 
 <h3>So it's running, what do I do?</h3>
 
