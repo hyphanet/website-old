@@ -106,42 +106,33 @@ cd freenet
 	}
 //--></script>
 
-<h3>After installing</h3>
-
-<P>Afer you start Freenet, wait a few seconds for it to start up (on a
-slow computer, you may need to wait about 30 seconds), and visit</p>
-<pre>http://127.0.0.1:8888/wizard/</pre>
-<p>in your web browser to access Freenet's user
-interface. Freenet will ask you a few questions and then go to the node homepage,
-<pre>http://127.0.0.1:8888/</pre>
-<p>from which you can access freesites, add friends etc. Hopefully the installer
-will open the page for you, so you won't be reading this.</p>
-
 <h3>Offline installation</h3>
 Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/new_installer_offline.jar">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).
 
 <h3>So it's running, what do I do?</h3>
 
-<p>You need to get connected.  The wizard will ask you whether to enable 
-insecure mode. If you do, your Freenet node should automatically announce 
-itself and start working within a few minutes. If not, Freenet will not 
-work until you add some friends on the Friends page.</p>
-
-<p>If you know anyone running Freenet, even if you have enabled insecure 
-mode, you can improve your security and help to build the network by 
-connecting to their node. Ask them for their reference, and give them yours.
-If you visit</p>
-<pre>http://127.0.0.1:8888/friends/</pre>
-<p>in your browser, you can see your reference at the bottom and you can add
-other people's references, either by cutting and pasting the reference
-itself, or by pointing Freenet to a URL or a file containing their
-reference.</p>
-<p><b>Note: You need to add their reference and they need to add 
-yours before your nodes can communicate.</b></p>
-<p>If you don't know anyone running Freenet, enable insecure mode
-(also known as opennet; the first time wizard will ask you), and wait 
-a few minutes for the node to announce itself, and Freenet will 
-start working by itself.</p>
+<p>When the installer closes, it should open a browser window pointing to
+the first-time wizard. Here you can configure basic settings, and then
+start using Freenet. You can access Freenet later on via the Browse 
+Freenet icon on the desktop and your start menu. If the browser window
+isn't opened, for example because you used the headless installer, you 
+should open:</p>
+<pre>http://127.0.0.1:8888/wizard/</pre>
+<p>It is best to use the Browse Freenet icon, because this uses a 
+customised Firefox profile optimised for Freenet, improving security and
+performance.</p>
+<p>If you know anyone running Freenet, you can improve your security and 
+help to build the network by connecting to their node. First, open the 
+<a href="http://127.0.0.1:8888/friends/">Friends page</a>. You and your
+friend should each download their "node reference". Send the file to
+the other person, and add his node reference using the form at the bottom
+of the page. When both are added, your node should show up on the Friends 
+page, probably as "CONNECTED" or "BUSY". You can set a name for your node
+on the config page to make it easier to see who it is.</p>
+<p>Note that you should only connect to nodes run by people <b>you actually
+know</b>. If you add noderefs from total strangers, this will not 
+significantly improve your security (they could be NSA, after all), and will
+reduce the performance of the network.</p>
 
 <h3>So I'm connected, what do I do?</h3>
 
