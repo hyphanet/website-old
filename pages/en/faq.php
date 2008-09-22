@@ -230,7 +230,7 @@ manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Frien
 see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
 and Opennet FNP ports. You may need to look up your router's documentation to figure
 out how to do this. Freenet should have forwarded them itself through <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
-but this doesn't always work (and it never works if you don't have the UPnP plugin loaded).</p>
+but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have one router behind another).</p>
 <p>If you have a dyndns address or other domain name pointing to the computer you run 
 your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/">the config page</a>, 
 and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
