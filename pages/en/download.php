@@ -8,7 +8,10 @@ security level (on the config page) to "normal" or "low", so that your node
 automatically connects to other nodes. It may take several minutes for your 
 node to connect to enough nodes for Freenet to be usable, and performance 
 will likely improve over time after that. You will get best performance if 
-you can leave your node running 24x7.</p>
+you can leave your node running 24x7, so by default the installer will
+install a service/cronjob to start Freenet when your computer boots up. 
+Since Freenet is a distributed network, you will *not* get good performance 
+if you only run it when you are actually using it.</p>
 
 <p><i>If you have a firewall or a NAT box click <a href="/faq.html#firewall"><b>here</b></a>
 for some info.</i></p>
