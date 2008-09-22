@@ -126,7 +126,7 @@ help to build the network by connecting to their node. First, open the
 <a href="http://127.0.0.1:8888/friends/">Friends page</a>. You and your
 friend should each download their "node reference". Send the file to
 the other person, and add his node reference using the form at the bottom
-of the page. When both are added, your node should show up on the Friends 
+of the page. When both are added, your friend's node should show up on the Friends 
 page, probably as "CONNECTED" or "BUSY". You can set a name for your node
 on the config page to make it easier to see who it is.</p>
 <p>Note that you should only connect to nodes run by people <b>you actually
