@@ -116,8 +116,8 @@ the first-time wizard. Here you can configure basic settings, and then
 start using Freenet. You can access Freenet later on via the Browse 
 Freenet icon on the desktop and your start menu. If the browser window
 isn't opened, for example because you used the headless installer, you 
-should open:</p>
-<pre>http://127.0.0.1:8888/wizard/</pre>
+should open it manually:</p>
+<pre><a href="http://127.0.0.1:8888/wizard/">http://127.0.0.1:8888/wizard/</pre>
 <p>It is best to use the Browse Freenet icon, because this uses a 
 customised Firefox profile optimised for Freenet, improving security and
 performance.</p>
