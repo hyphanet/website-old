@@ -8,9 +8,9 @@ Internet?'"</i><br>
 Foundation</a>
 </blockquote>
 <p>
-<b>Press enquiries</b> should be directed to <a 
-href="mailto:ian@locut.us">Ian Clarke</a>.
-</p>
 <? 
 	include("pages/en/news.php");
 ?>
+<b>Press enquiries</b> should be directed to <a 
+href="mailto:ian@locut.us">Ian Clarke</a>.
+</p>
