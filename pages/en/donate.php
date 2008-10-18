@@ -53,7 +53,7 @@ payments with PayPal - it's fast, free and secure!">
 <hr width="90%">
 <P>
 
-<li>You can donate through Google Checkout:<br>
+<li>You can <b>donate once</b> through Google Checkout:<br>
 <center>
 <form action="https://checkout.google.com/cws/v2/Merchant/828420057535417/checkout" id="BB_BuyButtonForm930897499" method="post" name="BB_BuyButtonForm930897499">
     <input name="o" type="hidden" value="shoppingcart"/>
@@ -97,6 +97,7 @@ value="ian@freenetproject.org">
 <tr>
 <td>
 <select name="amount">
+<option value="500.00">$500.00</option>
 <option value="100.00">$100.00</option>
 <option value="50.00">$50.00</option>
 <option value="20.00">$20.00</option>
@@ -118,7 +119,8 @@ name="submit">
 <P>
 <li>You can now also donate to the project by purchasing items from the 
  Freenet <a 
-href="http://cafepress.com/freenetproject/">store</a>.
+href="http://cafepress.com/freenetproject/">store</a>.</li>
+<li>Alternatively, please <a href="ian@freenetproject.org">contact us</a>.</li>
 </ul>
 <h4>How can I be sure that my donation will be used appropriately?</h4>
 All donations go to The  
