@@ -120,7 +120,8 @@ name="submit">
 <li>You can now also donate to the project by purchasing items from the 
  Freenet <a 
 href="http://cafepress.com/freenetproject/">store</a>.</li>
-<li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a>.</li>
+<li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
+if you cannot use any of these payment methods.</li>
 </ul>
 <h4>How can I be sure that my donation will be used appropriately?</h4>
 All donations go to The  
