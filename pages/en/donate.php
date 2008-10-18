@@ -18,7 +18,7 @@ payment</b> of $5, $10, or $20 per month.  The advantage of this is that
 it gives the
 project a more stable and dependable income which makes it easier
 to make long term committments to potential developers - right now
-it is difficult to say whether we will be able to pay a developer
+it is often difficult to say whether we will be able to pay a developer
 the following month although so-far we have been fortunate.  You
 can become a member by clicking on this button (you will need a
 <a href="http://paypal.com/">PayPal</a> account):
