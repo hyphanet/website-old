@@ -59,7 +59,7 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 wget <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a>
 java -jar new_installer.jar
 </pre>
-<p>Alternatively, downloading <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">the installer</a>(<a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar.sha1">sha1</a> <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar.sig">sig</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">the installer</a> (<a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar.sig">sig</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
