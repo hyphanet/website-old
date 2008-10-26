@@ -10,7 +10,7 @@
 <ul>
 <li>You might or might not have access to the full svn tree.</li>
 <li>All the commits are sent to one of our self-hosted <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo">mailing list</a> and might be reviewed there (read you should subscribe to the mailing lists).
-<li>We are using an auto-build tool: If you commit something which doesn't build you will get an email from emu saying so.</li>
+<li>We are using an auto-build tool: If you commit something which doesn't build you will get an email from emu (our development server) saying so.</li>
 <li>In case you would like to do an "indent" only commit, please ensure your commit message matches the following regular expression : '^[ ]*[Ii]ndent(ing)?([ ])*(:|$)')' so that it can be programatically verified by our <a href="https://emu.freenetproject.org/svn/trunk/scripts">home grown tools</a>.</li>
 <li>We have some level of integration in between <a href="https://bugs.freenetproject.org/">the freenet bug tracker</a> and our repository: If you want to link a ticket to a commit, ensure that your commit message matches '/\b(?:bug|issue)\s*[#]{0,1}(\d+)\b/i'. If you want a commit to resolve a ticket ensure it matches '/\b(?:(?:re){0,1}solve(?:d|s){0,1}|fix(?:ed|es){0,1})\s+(?:bug|issue)?\s*[#]{0,1}(\d+)\b/i'.</li>
 </ul>
