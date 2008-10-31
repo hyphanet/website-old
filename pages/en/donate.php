@@ -82,6 +82,9 @@ payments with PayPal - it's fast, free and secure!">
 <hr width="90%">
 
 <li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
+<table cellpadding="5" cellspacing="0" width="1%">
+<tr>
+<td>Choose an amount:</td>
 <center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
@@ -93,8 +96,6 @@ value="ian@freenetproject.org">
 <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
 <input type="hidden" name="currency_code" value="USD">
-<table cellpadding="5" cellspacing="0" width="1%">
-<tr>
 <td>
 <select name="amount">
 <option value="500.00">$500.00</option>
@@ -110,12 +111,10 @@ value="ian@freenetproject.org">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit">
 </td>
-</tr>
-</table>
 </form>
-</center>
-
-<center>
+</tr>
+<tr>
+<td>Specify an amount: $</td>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
@@ -126,9 +125,6 @@ value="ian@freenetproject.org">
 <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
 <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
 <input type="hidden" name="currency_code" value="USD">
-<table cellpadding="5" cellspacing="0" width="1%">
-<tr>
-<td>Or $</td>
 <td>
 <input type="text" name="amount">
 </td>
@@ -137,9 +133,9 @@ value="ian@freenetproject.org">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit">
 </td>
+</form>
 </tr>
 </table>
-</form>
 </center>
 <P>
 <hr width="90%">
