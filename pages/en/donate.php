@@ -83,7 +83,7 @@ payments with PayPal - it's fast, free and secure!">
 
 <li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
 <center>
-<p>Choose an amount:
+Choose an amount:
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
@@ -106,7 +106,7 @@ value="ian@freenetproject.org">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit">
 </form>
-</p><p>Specify an amount: $
+Specify an amount: $
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
@@ -122,7 +122,6 @@ value="ian@freenetproject.org">
 src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
 name="submit">
 </form>
-</p>
 </center>
 <P>
 <hr width="90%">
