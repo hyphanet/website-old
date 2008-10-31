@@ -128,7 +128,7 @@ value="ian@freenetproject.org">
 <input type="hidden" name="currency_code" value="USD">
 <table cellpadding="5" cellspacing="0" width="1%">
 <tr>
-<td>Enter amount ($):</td>
+<td>$</td>
 <td>
 <input type="text" name="amount">
 </td>
