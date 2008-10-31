@@ -82,10 +82,10 @@ payments with PayPal - it's fast, free and secure!">
 <hr width="90%">
 
 <li>You can <b>donate once</b> via Paypal by clicking on this button:<br>
+<center>
 <table cellpadding="5" cellspacing="0" width="1%">
 <tr>
 <td>Choose an amount:</td>
-<center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
