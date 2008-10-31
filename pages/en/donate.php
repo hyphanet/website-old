@@ -114,6 +114,33 @@ name="submit">
 </table>
 </form>
 </center>
+
+<p>Or enter a different amount:</p>
+<center>
+      <form action="https://www.paypal.com/cgi-bin/webscr" 
+method="post">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" 
+value="ian@freenetproject.org">
+	  <input type="hidden" name="item_name" value="Freenet Donation">
+      <input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html">
+<input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html">
+<input type="hidden" name="currency_code" value="USD">
+<table cellpadding="5" cellspacing="0" width="1%">
+<tr>
+<td>
+<input type="text" name="amount">
+</td>
+<td>
+      <input type="image" 
+src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
+name="submit">
+</td>
+</tr>
+</table>
+</form>
+</center>
 <P>
 <hr width="90%">
 <P>
