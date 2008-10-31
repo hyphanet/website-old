@@ -85,7 +85,7 @@ payments with PayPal - it's fast, free and secure!">
 <center>
 <table cellpadding="5" cellspacing="0" width="1%">
 <tr>
-<td>Choose an amount:</td>
+<td></td>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
@@ -114,7 +114,7 @@ name="submit">
 </form>
 </tr>
 <tr>
-<td>Specify an amount: $</td>
+<td>Other amount: $</td>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
       <input type="hidden" name="cmd" value="_xclick">
