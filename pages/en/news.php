@@ -14,10 +14,10 @@ old new build announcements) -->
 		$totalBGP = $totalUSD * 0.61460;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
-		<h3>Financial Status</h3>
-		<p>The project's current Paypal balance is <b>\$$totalUSD</b>.<br>
-		We have enough money to pay the project's full time developer and the server for another <b>$days days</b>. If you would like to help support the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
-		</p>
+<h3>Financial Status</h3>
+<p>The project's current balance is <b>\$$totalUSD</b>.<br>
+We have enough money to pay the project's full time developer and the server for another <b>$days days</b>. If you would like to help support the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
+</p>
 		";
 	}
 ?>
