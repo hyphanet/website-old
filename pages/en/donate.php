@@ -115,7 +115,6 @@ name="submit">
 </form>
 </center>
 
-<p>Or enter a different amount:</p>
 <center>
       <form action="https://www.paypal.com/cgi-bin/webscr" 
 method="post">
@@ -129,6 +128,7 @@ value="ian@freenetproject.org">
 <input type="hidden" name="currency_code" value="USD">
 <table cellpadding="5" cellspacing="0" width="1%">
 <tr>
+<td>Or a different amount:</td>
 <td>
 <input type="text" name="amount">
 </td>
