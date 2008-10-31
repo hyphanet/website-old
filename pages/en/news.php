@@ -2,6 +2,22 @@
 few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
+<?php
+	// updated hourly on emu
+	$file = "/tmp/paypal.txt";
+	if(file_exists($file)) {
+		$totalUSD = readfile($file) + 4820.11;
+		$totalBGP = $totalUSD * 0.61460;
+		$days = $totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12));
+		echo "
+		<h3>Financial Status</h3>
+		<p>The project's current Paypal balance is <b>$totalUSD</b>.<br>
+		We have enough money to pay the project's full time developer and the server, for another $days days. If you would like to help support the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
+		</p>
+		";
+	}
+?>
+
 <h3>News</h3>
 
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b></p>
