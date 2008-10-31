@@ -6,7 +6,7 @@ old new build announcements) -->
 	// updated hourly on emu
 	$file = "/tmp/paypal.txt";
 	if(file_exists($file)) {
-		$totalUSD = (readfile($file) + 4820.11);
+		$totalUSD = (fread($file) + 4820.11);
 		$totalBGP = $totalUSD * 0.61460;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
