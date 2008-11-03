@@ -16,7 +16,7 @@ old new build announcements) -->
 		echo "
 <h3>Financial Status</h3>
 <p>The project's current balance is <b>\$$totalUSD</b>.<br>
-We have enough money to pay for the project's full time developer and the server for <a title=\"approximate figure not including work already paid for (1 month or less)\">around</a> another <b>$days days</b>. If you would like to help support the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
+We have enough money to pay for the project's full time developer and the server for <a title=\"approximate figure not including work already paid for (1 month or less)\">around another <b>$days days</b></a>. If you would like to help support the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
 </p>
 		";
 	}
