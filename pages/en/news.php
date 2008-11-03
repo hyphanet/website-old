@@ -11,7 +11,7 @@ old new build announcements) -->
 		fclose($handle);
 
 		$totalUSD = ($paypalTotal + 4820.11);
-		$totalBGP = $totalUSD * 0.61460;
+		$totalBGP = $totalUSD * 0.63354;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
 <h3>Financial Status</h3>
