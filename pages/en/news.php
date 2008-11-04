@@ -5,13 +5,17 @@ old new build announcements) -->
 <?php
 	// updated hourly on emu
 	$file = "/tmp/paypal.txt";
+	$file2 = "/tmp/usd_rate.txt";
 	if(file_exists($file)) {
 		$handle = fopen($file, "r");
 		$paypalTotal = fread($handle, filesize($file));
 		fclose($handle);
+		$handle = fopen($file2, "r");
+		$usdRate = fread($handle, filesize($file));
+		fclose($handle);
 
 		$totalUSD = ($paypalTotal + 4820.11);
-		$totalBGP = $totalUSD * 0.63354;
+		$totalBGP = $totalUSD * $usdRate;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
 <h3>Financial Status</h3>
