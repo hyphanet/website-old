@@ -4,7 +4,7 @@
 <p>We are using <a href="http://subversion.tigris.org/">subversion</a> as our source code managment system.
 
 <p>You can obtain the latest source code from SVN using the following command line:</p>
-<pre>svn co --ignore-externals http://freenet.googlecode.com/svn/trunk/freenet/</pre>
+<pre>svn co http://freenet.googlecode.com/svn/trunk/freenet/</pre>
 
 <p>They are a few integration tools tied to the repository: here is what you need to know:
 <ul>
