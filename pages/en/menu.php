@@ -27,6 +27,7 @@ $menus = array(
 			'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
 			'SVN Repository'	=> 'http://freenet.googlecode.com/svn/trunk/',
 			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/'),
+                'Suggestions' => 'http://freenet.uservoice.com/',
 		'Mailing Lists' 		=> '/lists',
 		'Tools' 			=> '/tools',
 		'Papers' 			=> '/papers',
