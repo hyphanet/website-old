@@ -28,6 +28,9 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
+<p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
+You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
+
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b></p>
 <p>The Freenet Project is very pleased to announce the release of Freenet 0.7.0.</p>
 
