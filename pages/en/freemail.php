@@ -154,6 +154,10 @@ the command: </p>
 java -jar Freemail.jar
 </pre>
 
+<p>Note: If you have installed the freemail plugin for your Freenet proxy 
+daemon, starting or restarting the daemon will start the freemail service
+for you automatically.</p>
+
 <h3>Mail client setup</h3>
 
 <p>Now you have the Freemail proxy running, which means that you can
