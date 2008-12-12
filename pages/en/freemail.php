@@ -1,28 +1,43 @@
 <h2>Freemail</h2>
 
-<p>Freemail is an email system for Freenet. It allows you to send anonymous emails to other Freenet users using your standard email
-client. It is currently not bundled in the Freenet installer, and has to be downloaded separately. You can also try the Freemail plugin by selecting it from the list on the plugins page of your Freenet node. Beware, though, that the plugin is still in an early stage of development, and users should be confident about looking in log files and reporting problems if they find them.<p>
+<p>Freemail is an email system for Freenet. It allows you to send
+anonymous emails to other Freenet users using your standard email
+client. It is currently not bundled in the Freenet installer, and has
+to be downloaded separately. You can also try the Freemail plugin by
+selecting it from the list on the plugins page of your Freenet
+node. Beware, though, that the plugin is still in an early stage of
+development, and users should be active about looking in log files
+and reporting problems if they find them.<p>
 
-<p>You can download the latest pre-compiled version from <a href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a></p>
+<p>You can download the latest pre-compiled version from <a
+href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a></p>
 
 <h3>The short version</h3>
 
 <p>To setup an account for Freemail, execute the following commands:</p>
 <pre>
-java -jar Freemail.jar --newaccount [username]
-java -jar Freemail.jar --passwd [username] [password]
-java -jar Freemail.jar --shortaddress [username] [short Freemail-address]
+java -jar Freemail.jar --newaccount &lt;username&gt;
+java -jar Freemail.jar --passwd &lt;username&gt; &lt;password&gt;
+java -jar Freemail.jar --shortaddress &lt;username&gt; &lt;short-Freemail-address&gt;
 java -jar Freemail.jar
 </pre>
 
-<p>Exchange the values within [brackets] with the appropriate values. The chosen short Freemail-address must be unique and will give
+<p>Exchange the values within &lt;brackets&gt; with the appropriate
+values. The chosen short Freemail-address must be unique and will give
 you an address looking like:</p>
+
 <ul>
-<li>&lt;anything&gt;@[short Freemail-address].freemail</li>
+<li>&lt;anything&gt;@&lt;short-Freemail-address&gt;.freemail</li>
 </ul>
-<p>
-After running the last command you now have a running Freemail proxy, listening on localhost at IMAP port 3143 for incoming mails, 
-and SMTP port 3025 for outgoing mails. Connect to it using your favourite email client software</p>
+
+<p>The &lt;anything&gt; before the @ will be ignored.  It is only
+there because mail user ansd transport agents want to see an @ in
+addresses. Yes, we <em>do</em> know this is an ugly kludge.</p>
+
+<p>After running the last command you now have a running Freemail
+proxy, listening on localhost at IMAP port 3143 for incoming mails,
+and SMTP port 3025 for outgoing mails. Connect to it using your
+favourite email client software</p>
 
 <p>If you didn't follow, read the long version below.</p>
  
