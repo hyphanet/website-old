@@ -31,7 +31,7 @@ you an address looking like:</p>
 </ul>
 
 <p>The &lt;anything&gt; before the @ will be ignored.  It is only
-there because mail user ansd transport agents want to see an @ in
+there because mail user and transport agents want to see an @ in
 addresses. Yes, we <em>do</em> know this is an ugly kludge.</p>
 
 <p>After running the last command you now have a running Freemail
@@ -45,31 +45,36 @@ favourite email client software</p>
 <h3>The long version</h3>
 
 <h3>Account Setup</h3>
-<p>
-Change to the directory containing the Freemail.jar file. At the command line, type:
+
+<p> Change to the directory containing the Freemail.jar file. At the
+command line, type:</p>
+
 <pre>
 java -jar Freemail.jar
 </pre>
-<p>
-If you are running Freemail for the first time, it will prompt you to create an account:
-</p>
+
+<p>If you are running Freemail for the first time, it will prompt you
+to create an account:</p>
+
 <pre>
 Starting Freemail for the first time.
 You will probably want to add an account by running Freemail with arguments --newaccount &lt;username&gt;
 </pre>
 
-<p>
-So do what it says. The username you create here is used to authenticate to the Freemail-service and is only seen by you, 
-it isn't part of your freemail address:
-</p>
+<p>So do what it says. The username you create here is used to
+authenticate to the Freemail-service and will only be seen by you, it isn't
+part of your freemail address:</p>
+
 <pre>
 java -jar Freemail.jar --newaccount john
 </pre>
-<p>
-It now generates your Freemail address which is a long random string like 
-<span style="font-weight:bold;">anything@DS3FG3R...SF6FHJ8YUK.freemail</span>. Generating the cryptographic keypair will take a few 
-minutes.
-</p>
+
+<p>It now generates your Freemail address which is a long random
+string like <span
+style="font-weight:bold;">anything@DS3FG3R...SF6FHJ8YUK.freemail</span>. Generating
+the cryptographic keypair is a computation-inttensive process and may
+take a few minutes on a slow machine.</p>
+
 <pre>
 Generating mailsite keys...
 Mailsite keys generated.
@@ -79,30 +84,35 @@ Account creation completed.
 Account created for john. You may now set a password with --passwd &lt;password&gt;
 </pre>
 
-<p>
-The next step is to create a password for your account. The syntax to create a password is shown below:
-</p>
+<p>The next step is to create a password for your account. The syntax
+to create a password is shown below:</p>
+
 <pre>
-java -jar Freemail.jar --passwd [username] [password]
+java -jar Freemail.jar --passwd &lt;username&gt; &lt;password&gt;
 </pre>
-<p>
-To create the password <span style="font-weight:bold;">secretpass</span> for the user <span style="font-weight:bold;">john</span>, type:
-</p>
+
+<p>To create the password <span
+style="font-weight:bold;">secretpass</span> for the user <span
+style="font-weight:bold;">john</span>, type:</p>
+
 <pre>
 java -jar Freemail.jar --passwd john secretpass
 </pre>
-<p>Now we have an account, a password for that account and a rather lengthy Freemail-address. The problem is that not many people in the
-world will be able to remember that Freemail-address. The solution to this problem is to create a short address that points to the long
+
+<p>Now we have an account, a password for that account and a rather
+lengthy Freemail-address. The problem is that not many people in the
+world will be able to remember that Freemail-address. The solution to
+this problem is to create a short address that points to the long
 one:</p>
-<p>
-To do this, run the main command again:
-</p>
+
+<p>To do this, run the main command again:</p>
+
 <pre>
 java -jar Freemail.jar
 </pre>
-<p>
-and the software will prompt you to create a short Freemail address:
-</p>
+
+<p>and the software will prompt you to create a short Freemail address:</p>
+
 <pre>
 Secure Freemail address: anything@DS3FG3R...SF6FHJ8YUK.freemail
 You don't have a short Freemail address. You could get one by running Freemail
@@ -111,57 +121,63 @@ you'd like. For example, 'java -jar freemail.jar --shortaddress bob bob' will gi
 you the address 'anything@bob.freemail'. Try to pick something unique!
 trying slotinsert to freenet:SSK@sdfgsdfg...ertretert/mailsite-1/mailpage
 </pre>
-<p>
-The syntax to create a short freemail address is:
-</p>
+
+<p>The syntax to create a short freemail address is:</p>
+
 <pre>
-java -jar Freemail.jar --shortaddress [username] [short address]
+java -jar Freemail.jar --shortaddress &lt;username&gt; &lt;short address&gt;
 </pre>
-<p>
-To create an alias known as <span style="font-weight:bold;">jsmith</span> for user <span style="font-weight:bold;">john</span>, write:
-</p>
+
+<p> To create an alias known as <span
+style="font-weight:bold;">jsmith</span> for user <span
+style="font-weight:bold;">john</span>, write: </p>
+
 <pre>
 java -jar Freemail.jar --shortaddress john jsmith
 </pre>
-<p>
-If that short alias is free, it will tell you your Freemail address:
-</p>
+
+<p>If that short alias is free, it will tell you your Freemail address:</p>
+
 <pre>
 Secure Freemail address: anything@DS3FG3R...SF6FHJ8YUK.freemail
 Short Freemail address (*probably* secure): anything@jsmith.freemail
 </pre>
-<p>
-Now you have created a Freemail account, a long and a short address and set up a password for the account. Now, all you need to do is
-to start the Freemail proxy, to listen for incoming IMAP and SMTP connections. The Freemail proxy must run while you use Freemail, or
-else no mails you send will get delivered. To start the server, run the command:
-</p>
+
+<p> Now you have created a Freemail account, a long and a short
+address and set up a password for the account. Now, all you need to do
+is to start the Freemail proxy, to listen for incoming IMAP and SMTP
+connections. The Freemail proxy must run while you use Freemail, or
+else no mails you send will get delivered. To start the server, run
+the command: </p>
+
 <pre>
 java -jar Freemail.jar
 </pre>
 
 <h3>Mail client setup</h3>
 
-<p>Now you have the Freemail proxy running, which means that you can send and receive emails through Freenet. For this we recommend that
-you setup your favorite email client.
-</p>
-<p>
-The settings for the email client, illustrated below with the Firefox-bundled Thunderbird email client, must be setup with the following
-settings:
-</p>
+<p>Now you have the Freemail proxy running, which means that you can
+send and receive emails through Freenet. For this we recommend that
+you setup your favorite email client.  </p>
+
+<p>The settings for the email client, illustrated below with the
+Firefox-bundled Thunderbird email client, must be setup with the
+following settings:</p>
+
 <ul>
 <li><span style="font-weight:bold;">Incoming emails </span>- Protocol: <span style="font-weight:bold;">IMAP</span>, Server: 
 <span style="font-weight:bold;">localhost</span>, Port: <span style="font-weight:bold;">3143</span></li>
 <li><span style="font-weight:bold;">Outgoing emails </span>- Protocol: <span style="font-weight:bold;">SMTP</span>, Server: 
 <span style="font-weight:bold;">localhost</span>, Port: <span style="font-weight:bold;">3025</span></li>
 </ul>
-<p>
-Remember that the Freemail.jar program needs to be running whilst you are reading and sending freemails.
-</p>
+
+<p>Remember that the Freemail.jar program needs to be running whilst
+you are reading and sending freemails.</p>
 
 <h3>Thunderbird</h3>
-<p>
-If you use Thunderbird as your email client:
-</p>
+
+<p>If you use Thunderbird as your email client:</p>
+
 <ol>
 <li> From the Edit menu, select Account Settings.</li>
 <li> Click the Add Account... button.</li>
@@ -174,9 +190,9 @@ address. Click Next.</li>
 <li>Now we have to change the IMAP port number from the default: On the left panel click on Server Settings under the new account. 
 Change the Port to 3143 from the default of 143.</li>
 </ol>
-<p>
-Now you should be able to read incoming freemails. To send out emails:
-</p>
+
+<p>Now you should be able to read incoming freemails. To send out emails:</p>
+
 <ol>
 <li>From the Edit menu, select Account Settings.</li>
 <li>In the left-hand panel, scroll down and click on the Outgoing Server (SMTP) option.</li>
@@ -190,6 +206,6 @@ find and click on the top line of the new incoming mail account you added. In ou
 me@jsmith.freemail. There should be a drop-down box called Outgoing Server (SMTP). Set this to the new setup we just added: 
 something like Freemail - localhost. And click OK.</li>
 </ol>
-<p>
-Congratulations - you're now set up to send and receive email over Freenet!
-</p>
+
+<p>Congratulations - you're now set up to send and receive email over
+Freenet!</p>
