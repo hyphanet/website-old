@@ -109,10 +109,10 @@ cd freenet
 <h3>Offline installation</h3>
 <p>Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/new_installer_offline.jar">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).</p>
 
-<div id="unix">
+<div id="mirrored">
 <h3>Mirrored installation</h3>
 <p>If you have a working Freenet installation directory that you have mirrored 
-from one Unix machine to another (e.g. via rsync or unison), enabling the mirrorred installation is not difficult.  Nothing in a Freenet installation cares about its host's IP address; it can't, or Freenet would fail on machines that get IP addressss from a DHCP pool</p>
+from one Unix machine to another (e.g. via rsync or unison), enabling the mirrored installation is not difficult.  Nothing in a Freenet installation cares about its host's IP address; it can't, or Freenet would fail on machines that get IP addressss from a DHCP pool</p>
 <p>All you actually need to do is tell the system you've mirrored to that it should start the Freenet proxy daemon for you on boot.  Do <tt>crontab -l</tt> on the source machine, find the line that is tagged "FREENET AUTOSTART" and add that to your crontab on the mirrored machine.</p>
 </div>
 
