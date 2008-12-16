@@ -5,10 +5,10 @@ To install Freenet might not be as difficult as you might have heard. There are 
 <ul>
 <li>Graphical install</li>
 <li>Headless install</li>
+<li>Enabling a mirror copy of a Freenet installation</li>
 </ul>
 
-<p>If you want to install the Freenet software on a computer which lacks a GUI, see the <a href="/download.html#unix">Headless install</a> instructions. 
-Otherwise, continue reading.</p>
+<p>If you want to install the Freenet software on a computer which lacks a GUI, see the <a href="/download.html#unix">Headless install</a> instructions. If you have mirrored a working Freenet installation to a machine without explicitly installing it, see <a href="/download.html#mirrored">Mirrored install</a>. Otherwise, continue reading.</p>
 
 <h4>Graphical install</h4>
 
