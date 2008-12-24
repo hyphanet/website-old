@@ -72,7 +72,7 @@ java -jar Freemail.jar --newaccount john
 <p>It now generates your Freemail address which is a long random
 string like <span
 style="font-weight:bold;">anything@DS3FG3R...SF6FHJ8YUK.freemail</span>. Generating
-the cryptographic keypair is a computation-inttensive process and may
+the cryptographic keypair is a computation-intensive process and may
 take a few minutes on a slow machine.</p>
 
 <pre>
@@ -213,3 +213,30 @@ something like Freemail - localhost. And click OK.</li>
 
 <p>Congratulations - you're now set up to send and receive email over
 Freenet!</p>
+
+<h3>Troubleshooting tips</h3>
+
+<p>If you try to run the Freemail jar and get messages that look like the 
+following:</p>
+
+<pre>
+24/12/2008 11:20:52 ERROR(freemail.smtp.SMTPListener): Error in SMTP server - Address already in use
+24/12/2008 11:20:52 ERROR(freemail.imap.IMAPListener): Error in IMAP server - Address already in use
+</pre>
+
+<p>...it probably means you downloaded the Freemail plugin through the Web
+interface and your node is already running it.  On a Linux machine you
+can check to see if the private SMTP and IMAP ports are actually in use
+with <code>netstat -tln</code>; the port numbers you're looking for in
+the listing are 3143 (Freenet IMAP) and 3025 (Freenet SMTP).</p>
+
+<p>If you get these messages and these ports are <em>not</em> in use,
+try shutting down and restarting the node.  If the problem persists
+after that, you have found a bug and should file it with the Freenet
+developers.</p>
+
+<p>If the ports are indeed in use, check the <b>List of Plugins</b> on
+your <b>Plugins</b>. If Freemail is in that list, then you can eaither
+unload it and go through the manual procedure (running java -jar
+Freemail.jar) or configure your Freemail account through the web
+interface.</p>
