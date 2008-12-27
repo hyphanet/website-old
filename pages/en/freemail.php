@@ -43,11 +43,8 @@ included hand-configuration instructions down this page.</p>
 
 <p>Now you have the Freemail proxy running, which means that you can
 send and receive emails through Freenet. For this we recommend that
-you setup your favorite email client.  </p>
-
-<p>The settings for the email client, illustrated below with fetchmail and the
-Firefox-bundled Thunderbird email client, must be setup with the
-following settings:</p>
+you set up your favorite email client to use the special Freenet private 
+ports:</p>
 
 <ul>
 <li><span style="font-weight:bold;">Incoming emails </span>- Protocol: <span style="font-weight:bold;">IMAP</span>, Server: 
@@ -59,7 +56,7 @@ following settings:</p>
 <p>Remember that the Freemail.jar program needs to be running whilst
 you are reading and sending freemails.</p>
 
-<h3>fetchmail</h3>
+<h3>Fetching Freemail with fetchmail</h3>
 
 <p>You can easily make <a
 href="http://fetchmail.berlios.de/">fetchmail</a> poll your freenet
