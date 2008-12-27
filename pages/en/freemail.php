@@ -189,11 +189,15 @@ poll freenet via localhost with proto imap port 3143
     user LOCALNAME here is IMAPNAME there with password PASSWORD
 </pre>
 
-<p>This will cause Freemail mail to be automatically fetched and merrged into
+<p>This will cause Freemail mail to be automatically fetched and merged into
 your normal incoming mail stream, so any of your email clients will see it.
 Of course, you will need to change IMAPNAME and PASSWORD to match the 
 authetication pair you gave when you created the Freemail account, and LOCALNAME
 to the local login you want to receive the mail.</p>
+
+<p>A variant of this recipe will still work if you have your freenet
+node. running on another machine. Just change "localhost" to the DNS
+address of the node host.</p>
 
 <h3>Thunderbird</h3>
 
