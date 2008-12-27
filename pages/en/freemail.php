@@ -164,7 +164,7 @@ for you automatically.</p>
 send and receive emails through Freenet. For this we recommend that
 you setup your favorite email client.  </p>
 
-<p>The settings for the email client, illustrated below with the
+<p>The settings for the email client, illustrated below with fetchmail and the
 Firefox-bundled Thunderbird email client, must be setup with the
 following settings:</p>
 
@@ -177,6 +177,23 @@ following settings:</p>
 
 <p>Remember that the Freemail.jar program needs to be running whilst
 you are reading and sending freemails.</p>
+
+<h3>fetchmail</h3>
+
+<p>You can easily make <a
+href="http://fetchmail.berlios.de/">fetchmail</a> poll your freenet
+mail with an entry like this:</p>
+
+<pre>
+poll freenet via localhost with proto imap port 3143
+    user LOCALNAME here is IMAPNAME there with password PASSWORD
+</pre>
+
+<p>This will cause Freemail mail to be automatically fetched and merrged into
+your normal incoming mail stream, so any of your email clients will see it.
+Of course, you will need to change IMAPNAME and PASSWORD to match the 
+authetication pair you gave when you created the Freemail account, and LOCALNAME
+to the local login you want to receive the mail.</p>
 
 <h3>Thunderbird</h3>
 
