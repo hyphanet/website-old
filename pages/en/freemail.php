@@ -12,9 +12,11 @@ and reporting problems if they find them.<p>
 <p>You can download the latest pre-compiled version from <a
 href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a></p>
 
-<h3>The easy way to set up a Freemail account is to visit the Freemail
+<h3>Easy account setup</p>
+
+<p>The easy way to set up a Freemail account is to visit the Freemail
 plugin, after you have downloaded it, through your <b>Plugins</b> web
-page.  The web interface will prompt you for an IMAP name, an IMPAP
+page.  The web interface will prompt you for an IMAP name, an IMAP
 password, and a Freemail shortname to associate with the account.
 When the account is created, it will email you the secure name that it
 generated for you.</h3>
