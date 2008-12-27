@@ -53,8 +53,11 @@ ports:</p>
 <span style="font-weight:bold;">localhost</span>, Port: <span style="font-weight:bold;">3025</span></li>
 </ul>
 
-<p>Remember that the Freemail.jar program needs to be running whilst
-you are reading and sending freemails.</p>
+<p>Your Freemail plugin must be running while you are reading and
+sending freemails. Leaving your node running, with the Freemail pugin
+enabled, will ensure this. For debugging purposes, it is also possible
+to send and receive Freemail mail with only the Freenet jar
+running.</p>
 
 <h3>Fetching Freemail mail with fetchmail</h3>
 
