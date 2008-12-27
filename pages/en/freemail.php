@@ -56,7 +56,7 @@ ports:</p>
 <p>Remember that the Freemail.jar program needs to be running whilst
 you are reading and sending freemails.</p>
 
-<h3>Fetching Freemail with fetchmail</h3>
+<h3>Fetching Freemail mail with fetchmail</h3>
 
 <p>You can easily make <a
 href="http://fetchmail.berlios.de/">fetchmail</a> poll your freenet
