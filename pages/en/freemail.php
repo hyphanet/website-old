@@ -12,7 +12,7 @@ and reporting problems if they find them.<p>
 <p>You can download the latest pre-compiled version from <a
 href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a></p>
 
-<h3>Easy account setup</p>
+<h3>Easy account setup</h3>
 
 <p>The easy way to set up a Freemail account is to visit the Freemail
 plugin, after you have downloaded it, through your <b>Plugins</b> web
