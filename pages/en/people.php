@@ -39,10 +39,6 @@ Dave's main contribution has been <a href="http://freenetproject.org/freemail.ht
 his Summer of Code project to build a working email-over-freenet system, as well as some 
 debugging and core work in various places.</p>
 
-<p><b>Julien Cornuwel</b><br>
-Julien (batosai) is responsible for the French translation of Freenet's user 
-interface, who has also worked on a <a href="http://doc-fr.freenetproject.org">French help site</a> for Freenet.</p>
-
 <p><b>Robert Hailey</b><br>
 Robert has helped improve the speed and security of Freenet by finding two
 <b>major</b> bugs, and has recently contributed some code.</p>
