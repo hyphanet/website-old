@@ -443,7 +443,8 @@ Freenet has a web interface: much of the content on Freenet is in the form of
 the web interface. However, because of weaknesses in current browsers, we 
 <b>strongly</b> recommend that you use a separate browser for Freenet. Specifically,
 browser history stealing, in all its forms, is a major threat if you share a 
-browser between Freenet and the WWW at large.
+browser between Freenet and the WWW at large: malicious web pages will be able to
+probe which freesites you have visited, and report this information to their owners.
 
 <p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
 Short answer: Probably yes.</p>
