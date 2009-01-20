@@ -56,7 +56,8 @@
 </li></ol>
 <h3> Security questions</h3>
 
-<ol><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
+<ol><li><a href="#browser">Can I browse Freenet with my regular browser?</a>
+</li><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
 </li><li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a>
 </li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 </li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
@@ -436,7 +437,15 @@ You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>.
 You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">development mailing list</a>.</p>
 
 <h2> Security answers
-</h2><p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
+</h2><p><b id="browser">Can I use my regular browser to browse Freenet?</b><br>
+Freenet has a web interface: much of the content on Freenet is in the form of
+"freesites", downloads, configuration and friend connections can be managed from 
+the web interface. However, because of weaknesses in current browsers, we 
+<b>strongly</b>recommend that you use a separate browser for Freenet. Specifically,
+browser history stealing, in all its forms, is a major threat if you share a 
+browser between Freenet and the WWW at large.
+
+<p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
 Short answer: Probably yes.</p>
 <p>Long answer:</p>
 <p>Freenet does not offer true anonymity in the way that Tor and the
