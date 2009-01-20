@@ -46,9 +46,11 @@ datastore.
 </p>
 <p>
 The initial diskspace allocated for the datastore is
-<span style="font-weight: bold;">1 Gigabyte</span>, 
-but it is encouraged to increase this to allow for 
-a more pleasant Freenet-experience.
+5% of available disk space if it is over 20GB, 10% if it is
+over 10GB, 512MB if under 10GB, and 256MB if under 5GB.
+You can change the store size at any time, the more the 
+better, both for your personal browsing and for Freenet as 
+a whole.
 </p>
 <h3>Freenet Routing</h3>
 <p>
