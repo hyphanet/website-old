@@ -441,7 +441,7 @@ You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</
 Freenet has a web interface: much of the content on Freenet is in the form of
 "freesites", downloads, configuration and friend connections can be managed from 
 the web interface. However, because of weaknesses in current browsers, we 
-<b>strongly</b>recommend that you use a separate browser for Freenet. Specifically,
+<b>strongly</b> recommend that you use a separate browser for Freenet. Specifically,
 browser history stealing, in all its forms, is a major threat if you share a 
 browser between Freenet and the WWW at large.
 
