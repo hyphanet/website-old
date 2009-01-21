@@ -476,7 +476,7 @@ its neighbours. Hence the attacks on Freenet are completely different to the att
 on Tor. Both compromise to some degree to enable more or less real-time performance.
 <p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
 to Tor's onion routing; this should greatly reduce the impact of many of the below
-attacks.
+attacks.</p>
 <b>Major known attacks:</b>
 <p>In the interests of giving would-be users as much information as possible, and on
 the assumption that any serious attacker would do their homework, here are the major 
