@@ -521,8 +521,7 @@ to intercept the insert while it is in progress.</li>
 traffic analysis (basic message padding etc); if the attacker also has nodes on the 
 network, the extra data will likely be helpful. However on Tor-style networks,
 global traffic analysis will defeat the network completely: all that is needed is
-to observe both the entry and exit points. Freenet is not quite so vulnerable 
-because it doesn't use tunnels.</li>
+to observe both the entry and exit points.</li>
 <li><b>Swapping attacks</b>: It is possible to attack the swapping algorithm, and
 thereby disrupt the network. This has been demonstrated by the authors of the Pitch 
 Black paper. We are working on a solution, but this only affects the darknet (Friends 
