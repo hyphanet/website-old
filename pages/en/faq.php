@@ -449,8 +449,8 @@ probe which freesites you have visited, and report this information to their own
 <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
 <p><b>Short answer:</b> Probably yes.</p>
 <p><b>Long answer:</b></p>
-<p>Freenet has a different threat model to Tor and the Mixmaster remailers,
-partly because it has different functionality. Freenet is designed to resist
+<p>Freenet has a different threat model to Tor and the Mixmaster remailers. 
+Freenet is designed to resist
 censorship. The network must therefore be robust, and content must be distributed
 without requiring a central server, whether anonymous or not. Defences focus 
 generally on a distant attacker attempting to find a whistleblower. Tor on the 
