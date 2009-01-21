@@ -493,9 +493,9 @@ configurable at some point, but turning it off enables an easier attack). If the
 attacker can obtain your hard disk, or connect to your node and probe your datastore
 by requesting keys and timing how long they take, he may be able to determine what
 you have been downloading from/uploading to Freenet. Right now the best way to 
-prevent this is to only connect to your trusted friends, as above, and encrypt your hard disk. In version 0.9, 
-we will implement some form of cryptographic tunnels, which will eliminate the 
-need to cache locally requested data in the datastore and largely solve this attack.</li>
+prevent this is to only connect to your trusted friends, as above, and encrypt your hard disk. 
+Once we have tunnels, we will not need to cache locally requested keys in the
+datastore, which will solve this attack.</li>
 <li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
 the keys being requested (probably because it was posted publicly), you can show 
 statistically that the node in question probably requested it, based on the 
