@@ -522,8 +522,8 @@ traffic analysis (basic message padding etc); if the attacker also has nodes on 
 network, the extra data will likely be helpful. However on Tor-style networks,
 global traffic analysis will defeat the network completely: all that is needed is
 to observe both the entry and exit points.</li>
-<li><b>Swapping attacks</b>: It is possible to attack the swapping algorithm, and
-thereby disrupt the network. This has been demonstrated by the authors of the Pitch 
+<li><b>Swapping attacks</b>: It is possible to attack the location swapping algorithm, and
+thereby disrupt routing. This has been demonstrated by the authors of the Pitch 
 Black paper. We are working on a solution, but this only affects the darknet (Friends 
 network), which presently is a small proportion of the overall Freenet.</li>
 </ul>
