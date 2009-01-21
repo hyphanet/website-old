@@ -460,7 +460,7 @@ must be able to move across the network relatively quickly, and must be able to
 perform the attack while the data is being inserted; after that, it is distributed 
 across the network and is much harder to trace, and the originator may have left the 
 network. However, if by chance or by overwhelming force the attacker is connected
-to the whistleblower (or just seizes the datastore of everyone on the network), he 
+to the whistleblower (or just seizes the computers of everyone on the network), he 
 may be able to identify this much more quickly. All of this is vastly more difficult 
 on a darknet, where everyone connects only to their friends, where it is very hard for
 an attacker to find nodes, and where to connect to a given node he must social engineer
