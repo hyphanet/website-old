@@ -447,7 +447,7 @@ browser between Freenet and the WWW at large: malicious web pages will be able t
 probe which freesites you have visited, and report this information to their owners.
 
 <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
-<b><b>Short answer:</b> Probably yes.</p>
+<p><b>Short answer:</b> Probably yes.</p>
 <p><b>Long answer:</b></p>
 <p>Freenet has a different threat model to Tor and the Mixmaster remailers,
 partly because it has different functionality. Freenet is designed to resist
