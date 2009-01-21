@@ -447,42 +447,88 @@ browser between Freenet and the WWW at large: malicious web pages will be able t
 probe which freesites you have visited, and report this information to their owners.
 
 <p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
-Short answer: Probably yes.</p>
-<p>Long answer:</p>
-<p>Freenet does not offer true anonymity in the way that Tor and the
-<i>Mixmaster</i> cypherpunk remailers do. Most of the non-trivial attacks 
-(advanced traffic analysis, compromising any given majority of the nodes, etc.)
-that these were designed to counter would probably be successful in
-identifying someone making requests on Freenet.</p>
-<p>Your identity is always visible to the nodes you are actually connected to.
-They know what keys your node requests: your anonymity against them
-is a limited level of plausible deniability, that maybe you are 
-forwarding these requests for some other node. Unfortunately, your peers can do 
-<a href="http://wiki.freenetproject.org/CorrelationAttacks">correlation 
-attacks</a> to figure out which requests are from you and which requests are from
-your peers or somebody else. These attacks rely on the attacker knowing what
-the keys are for, and there being lots of them, so for example, a big splitfile, 
-a big freesite inserted regularly, a Frost poster maybe who uploads files too.</p>
-<p>At the moment, the most important thing you can do to protect yourself is to 
-get lots of <a href="http://127.0.0.1:8888/friends/">"Friends"</a>
-aka <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> connections:
-these are permanent, fixed connections to people you actually know. Once you have 
-enough, you can turn off <a href="http://wiki.freenetproject.org/OpenNet">opennet</a> (aka insecure mode),
-and only connect to people you know. This makes it very much more expensive for an 
-attacker, as he has to infiltrate the social network, rather than just 
-<a href="http://wiki.freenetproject.org/NodeHarvesting">harvesting</a> the opennet
-and connecting to nodes (which is technically very easy). One significant 
-advantage over Tor etc is that if enough users only connect to Friends, it is very
-difficult to block the entire network; blocking Mixmaster or the current Tor on 
-the other hand is very easy.
-<p>The only way that we can offer true
-anonymity is if the client can directly control the routing of data,
-and thus encrypt it with a series of keys of the nodes it will pass
-through (a la Mixmaster). There are plans to implement 
-<a href="http://wiki.freenetproject.org/PremixRouting">"premix routing"</a>
-during <a href="http://wiki.freenetproject.org/FreenetZeroPointEight">Freenet
-0.8</a>, which would function similarly to Mixmaster remailers, Tor, etc, for
-the first few hops, but this is still a long way off.</p>
+<b><b>Short answer:</b> Probably yes.</p>
+<p><b>Long answer:</b></p>
+<p>Freenet has a different threat model to Tor and the Mixmaster remailers,
+partly because it has different functionality. Freenet is designed to resist
+censorship. The network must therefore be robust, and content must be distributed
+without requiring a central server, whether anonymous or not. Defences focus 
+generally on a distant attacker attempting to find a whistleblower. Tor on the 
+other hand is designed to anonymise real-time data streams, and assumes that 
+there is a "free world" where a large number of nodes can be run in the open 
+without any threat of their being shut down. Freenet also has no concept of a 
+"client": all participants are nodes, relaying requests for other nodes as well 
+as possibly starting their own.</p>
+<p>Mixmaster style networks are claimed to be robust against compromise of vast 
+numbers of nodes, and advanced traffic analysis, but introduce delays of several
+hours; both Freenet and Tor are more or less real-time systems, and therefore
+compromise to some degree (often configurable) to enable usable performance.</p>
+<p>The attacks are different for the two types of networks. There are a range
+of attacks that work on Tor but do not work on Freenet (e.g. intersection attacks),
+and there are many attacks that work on Freenet but have no equivalent on Tor. Most
+of the below attacks against Freenet are greatly mitigated by running darknet mode;
+that is, adding connections to your (at least nominally trusted) friends on the 
+Friends page, and setting the security level to HIGH or MAXIMUM so that your node 
+connects only to your friends. Adding connections to people you don't know will not
+significantly improve your security as they might well be attackers, and it will
+break the network topology and reduce overall performance, so please don't do it.
+Also, in Freenet 0.9, we expect to add a form of cryptographic tunnels, vaguely
+related to Tor's onion routing; this should greatly reduce the impact of most
+of the below attacks, especially on darknet mode. </p>
+<b>Very long answer:</b>
+<p>In the interests of giving would-be users as much information as possible, and on
+the assumption that any serious attacker would do their homework, here are the major 
+classes of attack on Freenet we are presently aware of:</p>
+
+<ul><li><b>Harvesting</b>: Simply by running some powerful Freenet nodes, an 
+attacker can identify most of the opennet (Strangers network) relatively easily.
+These nodes can then be attacked one by one (subject to resources), their traffic
+analysed, or simply blocked on a national firewall. Connecting only to friends
+largely solves this problem. It is still possible for ISPs to identify nodes with 
+traffic flow analysis. Obviously a large network will make this harder. And this 
+attack is trivial on Tor, although they provide a means to work around it.</li>
+<li><b>Datastore attacks</b>: Everything any node requests through your node is
+cached locally. Everything you fetch is also cached locally (we may make this 
+configurable at some point, but turning it off enables an easier attack). If the
+attacker can obtain your hard disk, or connect to your node and probe your datastore
+by requesting keys and timing how long they take, he may be able to determine what
+you have been downloading from/uploading to Freenet. Right now the best way to 
+prevent this is to only connect to your trusted friends, as above. In version 0.9, 
+we will implement some form of cryptographic tunnels, which will eliminate the 
+need to cache locally requested data in the datastore and largely solve this attack.</li>
+<li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
+the keys being requested (probably because it was posted publicly), you can show 
+statistically that the node in question probably requested it, based on the 
+proportion of the keys requested from that node, the locations of nearby nodes, the 
+HTL on the requests and so on. This will again be largely eliminated by tunnels.</li>
+<li><b>Adaptive search</b>: If you want to find the author of some content, and you
+can predict the content or the keys to be inserted, you can listen out for their 
+inserts. Each request gives you a data point suggesting roughly where the originator 
+might be (on the location space), and on each insert you intercept you can move 
+slightly closer to the originator, by obtaining connections to nodes which are closer 
+to your current guesstimate of the target's location. If you are right these new 
+connections will yield more of the target's requests/inserts, and you can rapidly 
+close in on the originator. The best defense right now is darknet (connecting to 
+friends only): Darknet makes it very difficult for an attacker to obtain new 
+connections closer to his guess of where the target is. The tunnels proposal will 
+likely make this attack considerably more difficult. Also, if the attacker cannot guess 
+the content to be inserted in advance, this is very much more difficult (hence 
+reinserting big files is <b>bad</b>); we will randomize the insertion keys in 0.9 to 
+give additional protection for inserters. And of course this is of no use for tracing 
+the author if the author has finished the insert and left the network: you have
+to intercept the insert while it is in progress.</li>
+<li><b>Traffic analysis</b>: Freenet provides minimal protection against global
+traffic analysis (basic message padding etc); if the attacker also has nodes on the 
+network, the extra data will likely be helpful. However on Tor-style networks,
+global traffic analysis will defeat the network completely: all that is needed is
+to observe both the entry and exit points. Freenet is not quite so vulnerable 
+because it doesn't use tunnels.</li>
+<li><b>Swapping attacks</b>: It is possible to attack the swapping algorithm, and
+thereby disrupt the network. This has been demonstrated by the authors of the Pitch 
+Black paper. We are working on a solution, but this only affects the darknet (Friends 
+network), which presently is a small proportion of the overall Freenet.</li>
+</ul>
+</p>
 <p>More information on the current practical state of Freenet security is available
 <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
 
