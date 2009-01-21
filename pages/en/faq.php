@@ -475,11 +475,11 @@ service without providing any value to it; on Freenet, every node relays data fo
 its neighbours. Hence the attacks on Freenet are completely different to the attacks
 on Tor. Both compromise to some degree to enable more or less real-time performance.</p>
 <p>If you can use the darknet, trust your friends, don't reinsert files or insert easily
-predictable data, and change your anonymous identity after some volume of inserts, you
-should be relatively safe using Freenet. If you can connect, build up some trust in your
-anonymous persona, insert your controversial content, and then disappear, again, you are
-better off with Freenet, especially if the content is a website. In some other cases, 
-Tor is better.</p>
+predictable data (this requirement will be relaxed in 0.9), and change your anonymous 
+identity after some volume of inserts, you should be relatively safe using Freenet. If 
+you can connect, build up some trust in your anonymous persona, insert your controversial 
+content, and then disappear, again, you are better off with Freenet, especially if the 
+content is a website. In some other cases, Tor is better.</p>
 <p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
 to Tor's onion routing; this should greatly reduce the impact of many of the below
 attacks.</p>
