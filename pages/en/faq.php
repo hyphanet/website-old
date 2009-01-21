@@ -446,7 +446,7 @@ browser history stealing, in all its forms, is a major threat if you share a
 browser between Freenet and the WWW at large: malicious web pages will be able to
 probe which freesites you have visited, and report this information to their owners.
 
-<p><b id="attack">Won't attack X break Freenet's anonymity?</b><br>
+<p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
 <b><b>Short answer:</b> Probably yes.</p>
 <p><b>Long answer:</b></p>
 <p>Freenet has a different threat model to Tor and the Mixmaster remailers,
