@@ -469,7 +469,7 @@ secure, and additionally is far more difficult to block on a national firewall.<
 <p>Tor on the other hand is designed to anonymise real-time data streams, on the 
 assumption that the list of nodes can be public, that there is a free world where
 nodes can be operated safely, that the authors of controversial content will be able
-to either host (hidden) web servers themselves or upload it to centralised storage systems,
+to either host (hidden) web servers themselves or upload it to other (hidden, but usually centralised) storage systems,
 and so on. And Tor has a concept of a "client", which is somebody who uses the 
 service without providing any value to it; on Freenet, every node relays data for
 its neighbours. Hence the attacks on Freenet are completely different to the attacks
