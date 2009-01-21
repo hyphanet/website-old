@@ -453,7 +453,7 @@ probe which freesites you have visited, and report this information to their own
 Freenet is designed to resist
 censorship. The network must therefore be robust, and content must be distributed
 without requiring a central server, whether anonymous or not. Defences focus 
-generally on a distant attacker attempting to find a whistleblower. Tor on the 
+generally on a distant attacker attempting to find the source of some content (e.g. a whistleblower). Tor on the 
 other hand is designed to anonymise real-time data streams, and assumes that 
 there is a "free world" where a large number of nodes can be run in the open 
 without any threat of their being shut down. Freenet also has no concept of a 
