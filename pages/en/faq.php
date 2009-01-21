@@ -453,8 +453,8 @@ probe which freesites you have visited, and report this information to their own
 Freenet is designed to resist
 censorship. The network must therefore be robust, and content must be distributed
 without requiring a central server, whether anonymous or not. Defences focus 
-generally on a distant attacker attempting to find the source of some content (e.g. a whistleblower). Tor on the 
-other hand is designed to anonymise real-time data streams, and assumes that 
+generally on a distant attacker attempting to find the source of some content (e.g. a whistleblower). 
+Thus it provides a different kind of anonymity to Tor, which is designed to anonymise real-time data streams, and assumes that 
 there is a "free world" where a large number of nodes can be run in the open 
 without any threat of their being shut down. Freenet also has no concept of a 
 "client": all participants are nodes, relaying requests for other nodes as well 
@@ -596,8 +596,7 @@ not dealt with yet. So if you do manage to figure out a truly new kind
 of attack, we are interested in hearing about it. Please keep in mind
 what Freenet
 is and what it is not, however. No single network can offer everybody
-everything, and there are security issues (like anonymity, discussed
-above) that Freenet,
+everything, and there are security issues that Freenet,
 by it's nature, may not deal with to extent you might wish. If this
 upsets you, all of our code is freely available, so you are free to
 take as much of it as you like and write your own distributed network
