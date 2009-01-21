@@ -483,7 +483,7 @@ classes of attack on Freenet we are presently aware of:</p>
 <ul><li><b>Harvesting</b>: Simply by running some powerful Freenet nodes, an 
 attacker can identify most of the opennet (Strangers network) relatively easily.
 These nodes can then be attacked one by one (subject to resources), their traffic
-analysed, or simply blocked on a national firewall. Connecting only to friends
+analysed, or simply be blocked on a national firewall. Connecting only to friends
 largely solves this problem. It is still possible for ISPs to identify nodes with 
 traffic flow analysis. Obviously a large network will make this harder. And this 
 attack is trivial on Tor, although they provide a means to work around it.</li>
