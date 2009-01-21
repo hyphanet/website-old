@@ -451,31 +451,33 @@ probe which freesites you have visited, and report this information to their own
 <p><b>Long answer:</b></p>
 <p>Freenet has a different threat model to Tor and the Mixmaster remailers. 
 Freenet is designed to resist
-censorship. The network must therefore be robust, and content must be distributed
-without requiring a central server, whether anonymous or not. Defences focus 
-generally on a distant attacker attempting to find the source of some content (e.g. a whistleblower). 
-Thus it provides a different kind of anonymity to Tor, which is designed to anonymise real-time data streams, and assumes that 
-there is a "free world" where a large number of nodes can be run in the open 
-without any threat of their being shut down. Freenet also has no concept of a 
-"client": all participants are nodes, relaying requests for other nodes as well 
-as possibly starting their own.</p>
-<p>Mixmaster style networks are claimed to be robust against compromise of vast 
-numbers of nodes, and advanced traffic analysis, but introduce delays of several
-hours; both Freenet and Tor are more or less real-time systems, and therefore
-compromise to some degree (often configurable) to enable usable performance.</p>
-<p>The attacks are different for the two types of networks. There are a range
-of attacks that work on Tor but do not work on Freenet (e.g. intersection attacks),
-and there are many attacks that work on Freenet but have no equivalent on Tor. Most
-of the below attacks against Freenet are greatly mitigated by running darknet mode;
-that is, adding connections to your (at least nominally trusted) friends on the 
-Friends page, and setting the security level to HIGH or MAXIMUM so that your node 
-connects only to your friends. Adding connections to people you don't know will not
-significantly improve your security as they might well be attackers, and it will
-break the network topology and reduce overall performance, so please don't do it.
-Also, in Freenet 0.9, we expect to add a form of cryptographic tunnels, vaguely
-related to Tor's onion routing; this should greatly reduce the impact of most
-of the below attacks, especially on darknet mode. </p>
-<b>Very long answer:</b>
+censorship: The network must therefore be robust, and content must be distributed
+without requiring a central server, whether anonymous or not. Anonymity is important
+for requesters and especially for those who upload content in the first place. The
+typical example is a corporate or government whistleblower. Generally to find the
+originator of some content, the attacker must be able to predict the data in advance,
+must be able to move across the network relatively quickly, and must be able to 
+perform the attack while the data is being inserted; after that, it is distributed 
+across the network and is much harder to trace, and the originator may have left the 
+network. However, if by chance or by overwhelming force the attacker is connected
+to the whistleblower (or just seizes the datastore of everyone on the network), he 
+may be able to identify this much more quickly. All of this is vastly more difficult 
+on a darknet, where everyone connects only to their friends, where it is very hard for
+an attacker to find nodes, and where to connect to a given node he must social engineer
+its operator! Freenet does support opennet mode (plug and play), but darknet is far more 
+secure, and additionally is far more difficult to block on a national firewall.</p>
+<p>Tor on the other hand is designed to anonymise real-time data streams, on the 
+assumption that the list of nodes can be public, that there is a free world where
+nodes can be operated safely, that the authors of controversial content will be able
+to either host web servers themselves or upload it to centralised storage systems,
+and so on. And Tor has a concept of a "client", which is somebody who uses the 
+service without providing any value to it; on Freenet, every node relays data for
+its neighbours. Hence the attacks on Freenet are completely different to the attacks
+on Tor. Both compromise to some degree to enable more or less real-time performance.
+<p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
+to Tor's onion routing; this should greatly reduce the impact of many of the below
+attacks.
+<b>Major known attacks:</b>
 <p>In the interests of giving would-be users as much information as possible, and on
 the assumption that any serious attacker would do their homework, here are the major 
 classes of attack on Freenet we are presently aware of:</p>
