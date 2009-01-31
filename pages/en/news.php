@@ -30,10 +30,9 @@ We have enough money to pay for the project's full time developer and the server
 
 <p><b>31st Jan, 2009 - IRC spam</b></p>
 Somebody has been spamming various IRC networks (at least four so far), with an advertisement for us.
-This is not of our doing, we have nothing to do with it. So far this fool (who we believe spammed our
-channel on freenode some years back, through Tor, forcing us to auto-quiet Tor on the channel), appears 
-to have been connecting directly; so you should be able to just whois him and mail the abuse address 
-for his ISP. Sorry for the inconvenience, but we are not responsible, so hunt him down and make him squirm!
+This is not of our doing, we have nothing to do with it, most likely it is somebody trying to harm our
+reputation; similar things have happened in the past. We suggest you whois his IP address and mail
+his ISP's abuse address.
 
 <p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
 You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
