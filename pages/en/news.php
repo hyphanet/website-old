@@ -28,12 +28,12 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
-<p><b>31st Jan, 2009 - IRC spam apology</b></p>
+<p><b>31st Jan, 2009 - IRC spam</b></p>
 Somebody has been spamming various IRC networks (at least four so far), with an advertisement for us.
 This is not of our doing, we have nothing to do with it. So far this fool (who we believe spammed our
 channel on freenode some years back, through Tor, forcing us to auto-quiet Tor on the channel), appears 
 to have been connecting directly; so you should be able to just whois him and mail the abuse address 
-for his ISP. Sorry for all this, we had nothing to do with it.
+for his ISP. Sorry for the inconvenience, but we are not responsible, so hunt him down and make him squirm!
 
 <p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
 You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
