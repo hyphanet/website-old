@@ -32,7 +32,7 @@ We have enough money to pay for the project's full time developer and the server
 Somebody has been spamming various IRC networks (at least four so far), with an advertisement for us.
 This is not of our doing, we have nothing to do with it, most likely it is somebody trying to harm our
 reputation; similar things have happened in the past. We suggest you whois his IP address and mail
-his ISP's abuse address.
+his ISP's abuse address. Hunt down the worm and make him pay! ;)
 
 <p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
 You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
