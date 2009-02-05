@@ -6,7 +6,7 @@ contributed to the project. </p>
 Freenet is based on Ian's paper "A Distributed Decentralised Information
 Storage and Retrieval System".  Ian started the Freenet Project around July of
 1999, and continues to coordinate the project.  In his day job, Ian is the
-founder and CEO of <a href="http://thoof.com/">Thoof</a>.</p>
+founder and CEO of <a href="http://uprizer.com/">Uprizer Labs</a>.</p>
 
 <p><b>Matthew Toseland</b><br>
 Matthew has been working on Freenet since before the 0.5 release.  His work
