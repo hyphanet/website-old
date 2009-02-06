@@ -41,7 +41,6 @@ include 'includes/common.inc.php';
 		}
 	</script>
 	<script type="text/javascript" src="PluginDetect.js"></script>
-	<script src="http://asset.userfly.com/users/15747/userfly.js" type="text/javascript"></script>
 </head>
 
 <body>
