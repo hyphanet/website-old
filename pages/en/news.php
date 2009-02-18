@@ -12,7 +12,7 @@ old new build announcements) -->
 		fclose($handle);
 		$usdRate = 0.70374;
 
-		$totalUSD = ($paypalTotal + 5108.52);
+		$totalUSD = ($paypalTotal + 3058.69);
 		$totalBGP = $totalUSD * $usdRate;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
