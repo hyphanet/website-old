@@ -10,7 +10,7 @@ old new build announcements) -->
 		$handle = fopen($file, "r");
 		$paypalTotal = fread($handle, filesize($file));
 		fclose($handle);
-		$usdRate = 0.70374;
+		$usdRate = 0.70268;
 
 		$totalUSD = ($paypalTotal + 3058.69);
 		$totalBGP = $totalUSD * $usdRate;
