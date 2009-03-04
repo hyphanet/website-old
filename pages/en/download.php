@@ -94,8 +94,8 @@ cd freenet
 	hideDiv("windows");
 	hideDiv("macos");
 	hideDiv("unix");
-	if(navigator.userAgent.indexOf("Windows NT 6.0") > -1) {
-		// Windows vista has UAC enabled by default. We need to propose the .exe as JWS won't work :|
+	if(navigator.userAgent.indexOf("Windows NT 6.") > -1) {
+		// Windows vista/7 have UAC enabled by default. We need to propose the .exe as JWS won't work :|
 		showDiv("nojws");
 		showDiv("windows");
 	} else if(Java >= 1 && navigator.javaEnabled()) {
