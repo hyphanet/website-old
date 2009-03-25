@@ -130,10 +130,10 @@ are in China; blocking the protocol may suggest the authorities don't like us!
 <p><b id="blocked">Is Freenet blocked by national firewalls?</b><br>
 The Chinese national firewall (Golden Shield) has blocked our website for many years,
 and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
-like us, so be careful if you run Freenet in China. Some other countries such as the 
-United Kingdom are <a href="http://news.bbc.co.uk/1/hi/business/7240234.stm">seriously considering</a>
-forcing ISPs to block all peer to peer systems capable of sharing illegal files; this 
-would probably include Freenet. Freenet 0.7 has some minimal defences against blocking; 
+like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
+are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
+peer networks (but right now Freenet works fine in France and we have many French users!). 
+Freenet 0.7 has some minimal defences against blocking; 
 the protocol is relatively hard to identify (we will make this a lot harder in future),
 and it supports a <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> mode 
 (i.e. only connecting to your friends) which makes automated harvesting and blocking 
