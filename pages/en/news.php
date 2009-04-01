@@ -10,9 +10,9 @@ old new build announcements) -->
 		$handle = fopen($file, "r");
 		$paypalTotal = fread($handle, filesize($file));
 		fclose($handle);
-		$usdRate = 0.70724;
+		$usdRate = 0.69769;
 
-		$totalUSD = ($paypalTotal + 3058.69);
+		$totalUSD = ($paypalTotal + 876.88);
 		$totalBGP = $totalUSD * $usdRate;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
 		echo "
