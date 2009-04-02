@@ -31,6 +31,8 @@ We have enough money to pay for the project's full time developer and the server
 That means Google will be paying for a bunch of students to work for us over the summer. If you are
 interested, please create an account through the above link, and contact us via IRC or the mailing lists (details below).
 See <a href="http://wiki.freenetproject.org/SummerOfCode2009">here</a> for more details.
+<p><b>UPDATE:</b>The deadline is <i>tomorrow</i>! Get your applications in <a href="http://socghop.appspot.com/">here</a>.
+They don't have to be perfect, we will help you flesh out the details if necessary after the deadline, but they do have to be related to what you want to do!</p>
 
 <p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
 You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
