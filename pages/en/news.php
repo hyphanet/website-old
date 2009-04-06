@@ -30,8 +30,8 @@ We have enough money to pay for the project's full time developer and the server
 
 <p><b>26th March, 2009 - Summer of Code 2009</b></p>
 <p>Freenet has been accepted into <a href="http://socghop.appspot.com/">Google Summer of Code 2009</a>! 
-That means Google will be paying for a bunch of students to work for us over the summer. If you are
-interested, please create an account through the above link, and contact us via IRC or the mailing lists (details below).
+That means Google will be paying for a bunch of students to work for us over the summer. 
+We have had 24 proposals from students and the application period has now passed.
 See <a href="http://wiki.freenetproject.org/SummerOfCode2009">here</a> for more details.
 
 <p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
