@@ -26,6 +26,31 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
+<p><b>1st April, 2009 - Freenet now uses db4o, lower memory use and better
+large-file downloads!</b></p>
+<p>Since Freenet 0.7, Freenet has had built-in code for downloading and
+uploading large files.  This has improved performance and usability, 
+but it has also meant that when lots of downloads are going at the same time, 
+Freenet could use a lot of memory.  Also, it could make Freenet slow to start 
+up, and use a lot of system resources.</p>
+<p>DB4O is an open source database technology, that we hoped might help us address
+these problems.  By storing the current progress of uploads and
+downloads in <a href="http://www.db4o.com/">this database</a> rather
+than in memory, Freenet's memory usage can be greatly reduced.</p>
+<p>We are currently testing these significant changes, meaning that it
+will be included in the official Freenet in the very near future.</p>
+<p>If you want to help with testing this new functionality, run
+"update.cmd testing" (or "update.sh testing" if on mac/linux), in the 
+directory you installed Freenet to.  Please report any bugs you find <a
+href="https://bugs.freenetproject.org/">here</a>, or to the mailing lists.</p>
+<p>You may also want to join #freenet-testers on irc.freenode.net. If you don't
+want to help testing, we will release a stable build based on this code soon,
+and an alpha of 0.8 hopefully within the next month.</p>
+<p>Also please note that this work has been almost entirely the work of
+our one paid developer, and currently we can only have enough funds to
+pay him for another month, so <a href="/donate.php">please consider donating</a>
+if you'd like to see these improvements continue.</p>
+
 <p><b>26th March, 2009 - Summer of Code 2009</b></p>
 <p>Freenet has been accepted into <a href="http://socghop.appspot.com/">Google Summer of Code 2009</a>! 
 That means Google will be paying for a bunch of students to work for us over the summer. 
