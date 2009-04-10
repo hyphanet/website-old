@@ -48,7 +48,7 @@ want to help testing, we will release a stable build based on this code soon,
 and an alpha of 0.8 hopefully within the next month.</p>
 <p>Also please note that this work has been almost entirely the work of
 our one paid developer, and currently we can only have enough funds to
-pay him for another month, so <a href="/donate.php">please consider donating</a>
+pay him for another month, so <a href="/donate.html">please consider donating</a>
 if you'd like to see these improvements continue.</p>
 
 <p><b>26th March, 2009 - Summer of Code 2009</b></p>
