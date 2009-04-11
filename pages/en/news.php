@@ -26,7 +26,7 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
-<p><b>1st April, 2009 - Freenet now uses db4o, lower memory use and better
+<p><b>1st April, 2009 (updated 11th April) - Freenet now uses db4o, lower memory use and better
 large-file downloads!</b></p>
 <p>Since Freenet 0.7, Freenet has had built-in code for downloading and
 uploading large files.  This has improved performance and usability, 
@@ -37,15 +37,14 @@ up, and use a lot of system resources.</p>
 these problems.  By storing the current progress of uploads and
 downloads in <a href="http://www.db4o.com/">this database</a> rather
 than in memory, Freenet's memory usage can be greatly reduced.</p>
-<p>We are currently testing these significant changes, meaning that it
-will be included in the official Freenet in the very near future.</p>
-<p>If you want to help with testing this new functionality, run
-"update.cmd testing" (or "update.sh testing" if on mac/linux), in the 
-directory you installed Freenet to.  Please report any bugs you find <a
-href="https://bugs.freenetproject.org/">here</a>, or to the mailing lists.</p>
-<p>You may also want to join #freenet-testers on irc.freenode.net. If you don't
-want to help testing, we will release a stable build based on this code soon,
-and an alpha of 0.8 hopefully within the next month.</p>
+<p>These changes are now a part of Freenet. If you do not yet have Freenet,
+click the <a href="/download.html">download page</a> to try it out. If you
+do have Freenet, your node should automatically update (or at least ask you
+for permission to update) to build 1208. If you find any bugs, please
+<a href="https://bugs.freenetproject.org/">report them!</a>. If you have
+problems with Freenet and want to talk about them, please use either the
+<a href="/lists.html">support mailing list</a> or the <a href="irc://irc.freenode.net/freenet">
+#freenet IRC channel on irc.freednode.net</a>.
 <p>Also please note that this work has been almost entirely the work of
 our one paid developer, and currently we can only have enough funds to
 pay him for another month, so <a href="/donate.html">please consider donating</a>
