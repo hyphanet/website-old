@@ -26,7 +26,7 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
-<p><b>1st April, 2009 (updated 11th April) - Freenet now uses db4o, lower memory use and better
+<p><b>11th April, 2009 - Freenet now uses db4o, lower memory use and better
 large-file downloads!</b></p>
 <p>Since Freenet 0.7, Freenet has had built-in code for downloading and
 uploading large files.  This has improved performance and usability, 
