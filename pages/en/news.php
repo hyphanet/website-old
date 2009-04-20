@@ -14,7 +14,7 @@ old new build announcements) -->
 
 		$totalUSD = ($paypalTotal + 876.88);
 		$totalBGP = $totalUSD * $usdRate;
-		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 80)/(365.25/12)));
+		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 40)/(365.25/12)));
 		echo "
 <h3>Financial Status</h3>
 <p>The project's current balance is <b>\$$totalUSD</b>.<br>
