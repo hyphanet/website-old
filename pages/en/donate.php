@@ -4,9 +4,8 @@
 Although countless people have given their time and skill to the project since its
 inception, The Freenet Project relies on your donations both to support those developers
 working full-time on this increasingly complex project, and to cover hardware (ie. the
-project development computer) and administrative costs (ie.domain registrations). It is also
-a goal to be able to find ourselves in the position to start a legal defense fund to help
-ensure the future of Freenet development.<br> Everyone involved is keenly interested in the
+project development computer) and administrative costs (ie.domain registrations). We would
+also like to start a legal defense fund should the need arise. <br> Everyone involved is keenly interested in the
 future of The Freenet Project and you can be assured donations have been and will continue
 to be used wisely. All support is very much appreciated.
 
