@@ -1,23 +1,54 @@
 <h2>Developer</h2>
 
 <h3>Source Code</h3>
-<p>We are using <a href="http://subversion.tigris.org/">subversion</a> as our source code managment system.
+<p>We are using <a href="http://git-scm.com/">git</a> as our source code management system, hosted on <a href="http://www.github.com/">github</a>.
 
-<p>You can obtain the latest source code from SVN using the following command line:</p>
-<pre>svn co http://freenet.googlecode.com/svn/trunk/freenet/</pre>
+<p>You can obtain the latest source code from git using the following command line:</p>
+<pre>git clone git://github.com/freenet/fred-staging.git</pre>
 
-<p>They are a few integration tools tied to the repository: here is what you need to know:
-<ul>
-<li>You might or might not have access to the full svn tree.</li>
-<li>All the commits are sent to one of our self-hosted <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo">mailing list</a> and might be reviewed there (read you should subscribe to the mailing lists).
-<li>We are using an auto-build tool: If you commit something which doesn't build you will get an email from emu (our development server) saying so.</li>
-<li>In case you would like to do an "indent" only commit, please ensure your commit message matches the following regular expression : '^[ ]*[Ii]ndent(ing)?([ ])*(:|$)')' so that it can be programatically verified by our <a href="https://emu.freenetproject.org/svn/trunk/scripts">home grown tools</a>.</li>
-<li>We have some level of integration in between <a href="https://bugs.freenetproject.org/">the freenet bug tracker</a> and our repository: If you want to link a ticket to a commit, ensure that your commit message matches '/\b(?:bug|issue)\s*[#]{0,1}(\d+)\b/i'. If you want a commit to resolve a ticket ensure it matches '/\b(?:(?:re){0,1}solve(?:d|s){0,1}|fix(?:ed|es){0,1})\s+(?:bug|issue)?\s*[#]{0,1}(\d+)\b/i'.</li>
+<p>We strongly recommend that you use the official command-line git client,
+or the Windows port. We have had problems with others.</p>
+
+<p>Visit <a href="http://github.com/freenet/">our page on github</a> to see all the repositories (plugins, applications, libraries, etc).
+
+<p>Git is a distributed revision control system, this means amongst other things:<ul>
+<li>Everyone has a full copy of the repository, including all the history.
+<li>Branching and merging is easy.
+<li>Working offline (e.g. on a train) is easy.
+<li>We are much less vulnerable to compromise or failure of a central server.
+<li>Anonymous contribution over Freenet is much easier.
+<li>Generally a more secure workflow.
 </ul>
+<p>We have divided the code up into many sub-projects, each of which has two
+repositories: the -staging repository, which has the latest code, to which
+any developer can write, and the -official repository, which contains code
+which has been reviewed by trusted developers. This is for security, because
+we give out developer rights without any real checking, and because git 
+allows destruction of old history. Stable builds are released from the official
+repository, and the responsible developer will create a signed tag, which you 
+can verify, for that build.</p>
 
-To get access to the repository you should contact us either through the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development mailing list</a> or on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> in the <a href="irc://irc.freenode.net/%23freenet">#freenet</a> channel at irc.freenode.net.
+<p>Most other projects using github use a different model, where a trusted 
+maintainer pulls from other people's trees, rather than allowing any developer
+to commit to a staging area; if you fork our code, and would like us to merge
+your changes (maybe even over Freenet, but there will be additional checks in 
+this case: for legal reasons we must be certain that anonymous contributions 
+are your own work), feel free to contact us!</p>
+
+<p>To get write access to the repository you should create a github account and then contact us either through the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development mailing list</a> or on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> in the <a href="irc://irc.freenode.net/%23freenet">#freenet</a> channel at irc.freenode.net.
+Note that you must use a real (working) email address when committing; we will provide contributors with @freenetproject.org redirects.</p>
 </p>
 
 <h3>Build Instructions</h3>
 <p>To build the source code you will need <a href="http://ant.apache.org/">Apache ANT</a>.</p>
+<h3>Full Build</h3>
+<p>The above will only build the main Freenet daemon, and will pull in
+freenet-ext.jar for third party dependancies from the website. To build
+freenet-ext.jar you need to get the contrib module, build it, and put it into
+lib/freenet-ext.jar before you build the main project. Note also that the
+contrib module contains a number of native libraries used to improve 
+performance; you may also want to rebuild these.</p>
+<p>Plugins, installers etc can generally be built with ant, but some 
+libraries may be written in other languages and have their own building 
+procedures.</p>
 <br>
