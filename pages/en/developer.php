@@ -89,5 +89,5 @@ then):</p>
 <p>More documentation for git can be found <a href="http://git-scm.com/documentation">here</a>
 or <a href="http://www.kernel.org/pub/software/scm/git/docs/">here</a>.</p>
 <p>If you don't like a commit, generally you should post to the devl 
-<a href="/lists.html>mailing list</a>. You should CC the author of the 
+<a href="/lists.html">mailing list</a>. You should CC the author of the 
 commit, but unless it is a trivial matter you should always mail devl.</p>
