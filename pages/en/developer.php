@@ -42,9 +42,9 @@ Note that you must use a real (working) email address when committing; we will p
 <h3>Build Instructions</h3>
 <p>To build the source code you will need <a href="http://ant.apache.org/">Apache ANT</a>.</p>
 <h3>Full Build</h3>
-<p>The above will only build the main Freenet daemon, and will pull in
+<p>Building Fred (the Freenet reference daemon) with ant will pull in
 freenet-ext.jar for third party dependancies from the website. To build
-freenet-ext.jar you need to get the contrib module, build it, and put it into
+freenet-ext.jar yourself you need to get the contrib module, build it, and put it into
 lib/freenet-ext.jar before you build the main project. Note also that the
 contrib module contains a number of native libraries used to improve 
 performance; you may also want to rebuild these.</p>
