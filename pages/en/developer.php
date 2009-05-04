@@ -3,13 +3,17 @@
 <h3>Source Code</h3>
 <p>We are using <a href="http://git-scm.com/">git</a> as our source code management system, hosted on <a href="http://www.github.com/">github</a>.
 
-<p>You can obtain the latest source code from git using the following command line:</p>
-<pre>git clone git://github.com/freenet/fred-staging.git</pre>
-
 <p>We strongly recommend that you use the official command-line git client,
 or the Windows port. We have had problems with others.</p>
 
+<p>You can obtain the latest source code from git using the following command line:</p>
+<pre>git clone git://github.com/freenet/fred-staging.git</pre>
+
+<p>Once you have cloned the repository, to get new changes you should do:</p>
+<pre>git pull origin</pre>
+
 <p>Visit <a href="http://github.com/freenet/">our page on github</a> to see all the repositories (plugins, applications, libraries, etc).
+More information on how to use git is further down this page.
 
 <p>Git is a distributed revision control system, this means amongst other things:<ul>
 <li>Everyone has a full copy of the repository, including all the history.
@@ -52,3 +56,38 @@ performance; you may also want to rebuild these.</p>
 libraries may be written in other languages and have their own building 
 procedures.</p>
 <br>
+<h3>Basic git workflow</h3>
+<p>To pull all changes to the repository:</p>
+<pre>git pull origin</pre>
+<p>Or if you want to review the changes before you merge them into your
+local repository:</p>
+<pre>git fetch origin
+git log -p -M --ignore-space-change master..origin/master
+</pre>
+<p>If you are happy with the changes, then either merge your local changes
+into the remote changes:</p>
+<pre>git rebase origin/master</pre>
+<p>Or merge the remote changes into your local repository:</p>
+<pre>git merge origin/master</pre>
+<p>The latter will result in a non-linear history, so you should use rebase
+unless your local changes are very large.</p>
+<p>To commit your local changes to your local repository:</p>
+<pre>git commit -a</pre>
+<p>Or:
+<pre>git commit [ filenames you want to commit ]</pre>
+<p>To upload your changes (assuming you have cloned the -staging tree):</p>
+<pre>git push origin</pre>
+<p>To view recent changes:</p>
+<pre>git log -p -M --ignore-space-change</pre>
+<p>To undo one or more local commits, assuming you have not pushed your 
+changes, and have not merged remote changes (this will simply reset your
+local repository to a previous version, getting rid of everything since 
+then):</p>
+<pre>git reset [ last good revision ]</pre>
+<p>Or if you have committed your change, you will need to revert it:</p>
+<pre>git revert [ revision to get rid of ]</pre>
+<p>More documentation for git can be found <a href="http://git-scm.com/documentation">here</a>
+or <a href="http://www.kernel.org/pub/software/scm/git/docs/">here</a>.</p>
+<p>If you don't like a commit, generally you should post to the devl 
+<a href="/lists.html>mailing list</a>. You should CC the author of the 
+commit, but unless it is a trivial matter you should always mail devl.</p>
