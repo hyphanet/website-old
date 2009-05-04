@@ -55,7 +55,6 @@ performance; you may also want to rebuild these.</p>
 <p>Plugins, installers etc can generally be built with ant, but some 
 libraries may be written in other languages and have their own building 
 procedures.</p>
-<br>
 <h3>Basic git workflow</h3>
 <p>To pull all changes to the repository:</p>
 <pre>git pull origin</pre>
