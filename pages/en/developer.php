@@ -4,7 +4,8 @@
 <p>We are using <a href="http://git-scm.com/">git</a> as our source code management system, hosted on <a href="http://www.github.com/">github</a>.
 
 <p>We strongly recommend that you use the official command-line git client,
-or the Windows port. We have had problems with others.</p>
+or the Windows port. If you want to use the Eclipse git integration, see
+the tutorial <a href="http://github.com/guides/using-the-egit-eclipse-plugin-with-github">here</a>.</p>
 
 <p>You can obtain the latest source code from git using the following command line:</p>
 <pre>git clone git://github.com/freenet/fred-staging.git</pre>
