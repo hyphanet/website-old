@@ -12,7 +12,7 @@ old new build announcements) -->
 		fclose($handle);
 		$usdRate = 0.68535;
 
-		$totalUSD = ($paypalTotal + 404.65);
+		$totalUSD = ($paypalTotal + 18404.65);
 		$totalBGP = $totalUSD * $usdRate;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 40)/(365.25/12)));
 		echo "
@@ -26,6 +26,21 @@ We have enough money to pay for the project's full time developer and the server
 
 <h3>News</h3>
 
+<p><b>7th May, 2009 - Another big donation funds ongoing development</b></p>
+<p><a href="http://www.google.com/">Google</a>'s <a href="http://code.google.com/opensource/">Open Source team</a> has donated US$18,000 to the Freenet Project to 
+support the ongoing development of the Freenet software (thanks again 
+Google!).</p>
+<p>Their last donation funded the db4o project, which has now been merged into 
+Freenet, greatly improving performance for large download queues while 
+reducing memory usage, amongst other benefits.</p>
+<p>We are currently working on Freenet 0.8, which will be released later this 
+year, and will include additional performance improvements, usability work, 
+and security improvements, as well as the usual debugging. Features are not 
+yet finalized but we expect it to include Freetalk (a new anonymous web 
+forums tool), a new Vista-compatible installer for Windows (that part will be 
+out in a few days), and hopefully Bloom filter sharing, a new feature 
+enabling nodes to know what is in their peers' datastores, greatly improving 
+performance, combined with some related security improvements.</p>
 <p><b>11th April, 2009 - Freenet now uses db4o, lower memory use and better
 large-file downloads!</b></p>
 <p>Since Freenet 0.7, Freenet has had built-in code for downloading and
