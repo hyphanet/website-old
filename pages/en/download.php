@@ -28,7 +28,7 @@ If your platform is not the one listed below, select your specific platform: <a 
 
 <div id="windows">
 <h3>Windows</h3>
-- Download and run <big><a href="http://downloads.freenetproject.org/alpha/installer/install.exe">freenet webinstall</a> (3MB)</big><br>
+- Download and run <big><a href="https://checksums.freenetproject.org/latest/FreenetInstaller.exe">the installer</a> (8MB)</big><br>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
