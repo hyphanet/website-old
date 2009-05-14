@@ -94,8 +94,10 @@ cd freenet
 	hideDiv("windows");
 	hideDiv("macos");
 	hideDiv("unix");
-	if(navigator.userAgent.indexOf("Windows NT 6.") > -1) {
+	if(OSName == "windows") {
+		// Disable JWS on Windows
 		// Windows vista/7 have UAC enabled by default. We need to propose the .exe as JWS won't work :|
+		// But the wininstaller is better than the JWS installer anyway, so use it for all Windows.
 		showDiv("nojws");
 		showDiv("windows");
 	} else if(Java >= 1 && navigator.javaEnabled()) {
