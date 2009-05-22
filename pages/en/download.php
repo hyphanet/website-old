@@ -56,10 +56,10 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 
 <p>Open a terminal and type:</p>
 <pre>
-wget <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a>
+wget <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">https://checksums.freenetproject.org/cc/new_installer_offline.jar</a>
 java -jar new_installer.jar
 </pre>
-<p>Alternatively, downloading <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">the installer</a> (<a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar.sig">sig</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">the installer</a> (<a href="https://checksums.freenetproject.org/latest/new_installer_offline.jar.sig">sig</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
@@ -107,9 +107,6 @@ cd freenet
 		showDiv(OSName);
 	}
 //--></script>
-
-<h3>Offline installation</h3>
-<p>Some people might encounter difficulties connecting to our server because of censorship. We do have an offline version of the installer available : <a href="http://downloads.freenetproject.org/alpha/installer/new_installer_offline.jar">Freenet 0.7 offline installer</a>. You shouldn't use it unless you have to (it's bigger to download and might not be as up to date as the online one).</p>
 
 <div id="mirrored">
 <h3>Mirrored installation</h3>
