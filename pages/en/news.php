@@ -65,15 +65,6 @@ our one paid developer, and currently we can only have enough funds to
 pay him for another month, so <a href="/donate.html">please consider donating</a>
 if you'd like to see these improvements continue.</p>
 
-<p><b>26th March, 2009 - Summer of Code 2009</b></p>
-<p>Freenet has been accepted into <a href="http://socghop.appspot.com/">Google Summer of Code 2009</a>! 
-That means Google will be paying for a bunch of students to work for us over the summer. 
-We have had 24 proposals from students and the application period has now passed.
-See <a href="http://wiki.freenetproject.org/SummerOfCode2009">here</a> for more details.</p>
-
-<p><b>11th Dec, 2008 - Submit your suggestions for Freenet</b></p>
-You can now request and vote on features for Freenet through <a href="http://freenet.uservoice.com/">freenet.uservoice.com</a>.  What are you waiting for?!
-
 <p><b>8th May, 2008 - Freenet 0.7.0 "Darknet" released!</b></p>
 <p>The Freenet Project is very pleased to announce the release of Freenet 0.7.0.</p>
 
