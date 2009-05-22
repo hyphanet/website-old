@@ -1,5 +1,27 @@
 <h2>Donations</h2>
 
+<?php
+	// updated hourly on emu
+	$file = "/tmp/paypal.txt";
+	$file2 = "/tmp/usd_rate.txt";
+	if(file_exists($file)) {
+		$handle = fopen($file, "r");
+		$paypalTotal = fread($handle, filesize($file));
+		fclose($handle);
+		$usdRate = 0.68535;
+
+		$totalUSD = ($paypalTotal + 18404.65);
+		$totalBGP = $totalUSD * $usdRate;
+		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 40)/(365.25/12)));
+		echo "
+<h3>Financial Status</h3>
+<p>The project's current balance is <b>\$$totalUSD</b>.<br>
+We have enough money to pay for the project's full time developer and the server for <a title=\"approximate figure not including work already paid for (1 month or less)\">around another <b>$days days</b></a>. If you would like to help <a href=\"/donate.html\">support</a> the Freenet Project, <a href=\"/donate.html\">click here to make a donation</a>.
+</p>
+		";
+	}
+?>
+
 <h4>Why does The Freenet Project need donations?</h4>
 <p>
 Although countless people have given their time and skill to the project since its
