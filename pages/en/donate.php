@@ -10,7 +10,7 @@
 		fclose($handle);
 		$usdRate = 0.68535;
 
-		$totalUSD = ($paypalTotal + 18404.65);
+		$totalUSD = ($paypalTotal + 19126.45);
 		$totalBGP = $totalUSD * $usdRate;
 		$days = round($totalBGP / ((4 * 30 * 12 * 1.039 * 1.025 + 40)/(365.25/12)));
 		echo "
