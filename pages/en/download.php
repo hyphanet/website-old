@@ -54,7 +54,7 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 wget <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">https://checksums.freenetproject.org/cc/new_installer_offline.jar</a> -O new_installer_offline.jar
 java -jar new_installer_offline.jar
 </pre>
-<p>Alternatively, downloading <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">the installer</a> (<a href="https://checksums.freenetproject.org/latest/new_installer_offline.jar.sig">sig</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">the installer</a> (<a href="https://checksums.freenetproject.org/latest/new_installer_offline.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
