@@ -157,8 +157,8 @@ in the <a href="irc://irc.freenode.net/freenet">#freenet</a> channel at irc.free
 <b>Recommended:</b> 1GHz or more processor with 512MB
 <!-- decreasing agaisnt my will :(-->
 RAM or more (especially if using Windows XP), 50GB disk space.</p>
-<p>In more detail:<br>
-<b>Memory:</b> Freenet will use approximately 192MB of RAM, plus the overheads of the
+<h4>In more detail:</h4>
+<p><b>Memory:</b> Freenet will use approximately 192MB of RAM, plus the overheads of the
 Java Virtual Machine, plus 1MB for every 2GB of datastore.<br>
 <b>Disk:</b> Freenet will use as much disk space as you let it use, for storing content from the network,
 and it will also use some space to store your downloads and uploads.<br>
