@@ -16,7 +16,7 @@ should just work.</p>
 
 <div id="jws">
 <h2>Installation Instructions</h2>
-Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
+Clicking the <big><big><a href="https://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
 </div>
 
 <div style="display: none;" id="nojws">
@@ -38,7 +38,7 @@ for which security support has been discontinued.<br>
 
 <div id="macos">
 <h3>Mac OSX</h3>
-<a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
+<a href="https://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
 If this doesn't work, try the linux instructions.
 </div>
 
