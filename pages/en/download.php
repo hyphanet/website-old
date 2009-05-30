@@ -1,17 +1,18 @@
 <h2>Download Freenet 0.7</h2>
 <h3>Important note for first time users</h3>
 
-<p>In an ideal world, all Freenet users would only connect to people they
-trust (see your Friends page once your node is installed). In practice, if 
-you don't know anyone already on Freenet you will have to set the network 
-security level (on the config page) to "normal" or "low", so that your node 
-automatically connects to other nodes. It may take several minutes for your 
-node to connect to enough nodes for Freenet to be usable, and performance 
-will likely improve over time after that. You will get best performance if 
-you can leave your node running 24x7, so the installer will
-install a service/cronjob to start Freenet when your computer boots up. 
-You will <b>not</b> get good performance 
-if you only run it when you are actually using it.</p>
+<p>Freenet will run continually in the background, in order to maximise 
+performance. Running it only when you are using it will <b>not</b> result
+in good performance. Freenet has a footprint of around 200MB of RAM and
+10% of a modern CPU, so this should not be a problem. We strongly recommend
+you use the links on the start menu to shut down Freenet when you play
+computer games, and start it back up afterwards. We will implement a system
+tray icon for this in future.</p>
+
+<p>If you know several people who are already using Freenet, you can enable
+high security and only connect to them, but if you do not know anyone on
+Freenet, you should set the security level to normal or low, and Freenet
+should just work.</p>
 
 <div id="jws">
 <h2>Installation Instructions</h2>
