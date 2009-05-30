@@ -33,14 +33,9 @@ If your platform is not the one listed below, select your specific platform: <a 
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
 <BR>
-Freenet works best with 
-<ul>
-<li><b>Windows XP Professional</b> or</li>
-<li><b>Windows 2000 Professional</b></li> 
-</ul>
-Windows 95, 98 and ME (Millennium Edition) don't work as well; in particular, the installer won't run on those operating systems.
-Also we strongly recommend you not run an OS for which security support has been discontinued.<br>
-If the installer doesn't work (something seriously wrong) then please let us know, install Java, and try the Linux instructions below.
+Freenet works best with Windows XP Professional. Freenet will run on Vista and Windows 7 but the uninstaller is not perfect on those systems.
+Freenet will not run on anything older than Windows 2000 Professional (i.e. 95/98/ME), and in any case you should not run an operating system
+for which security support has been discontinued.<br>
 </div>
 
 <div id="macos">
