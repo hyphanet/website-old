@@ -67,6 +67,13 @@ cd freenet
 <!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
 <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 -->
+<div id="mirrored">
+<h3>Mirrored installation</h3>
+<p>If you have a working Freenet installation directory that you have mirrored 
+from one Unix machine to another (e.g. via rsync or unison), enabling the mirrored installation is not difficult.  Nothing in a Freenet installation cares about its host's IP address; it can't, or Freenet would fail on machines that get IP addressss from a DHCP pool</p>
+<p>All you actually need to do is tell the system you've mirrored to that it should start the Freenet proxy daemon for you on boot.  Do <tt>crontab -l</tt> on the source machine, find the line that is tagged "FREENET AUTOSTART" and add that to your crontab on the mirrored machine.</p>
+<p>However: each installation has a unique identity key generated at installation time. If you try to run two instances with the same identity <em>at the same time</em>, both proxy demons will become confused and upset. Don't do this!</p>
+</div>
 </div>
 
 <script type="text/javascript"><!--
@@ -102,14 +109,6 @@ cd freenet
 		showDiv(OSName);
 	}
 //--></script>
-
-<div id="mirrored">
-<h3>Mirrored installation</h3>
-<p>If you have a working Freenet installation directory that you have mirrored 
-from one Unix machine to another (e.g. via rsync or unison), enabling the mirrored installation is not difficult.  Nothing in a Freenet installation cares about its host's IP address; it can't, or Freenet would fail on machines that get IP addressss from a DHCP pool</p>
-<p>All you actually need to do is tell the system you've mirrored to that it should start the Freenet proxy daemon for you on boot.  Do <tt>crontab -l</tt> on the source machine, find the line that is tagged "FREENET AUTOSTART" and add that to your crontab on the mirrored machine.</p>
-<p>However: each installation has a unique identity key generated at installation time. If you try to run two instances with the same identity <em>at the same time</em>, both proxy demons will become confused and upset. Don't do this!</p>
-</div>
 
 <h3>So it's running, what do I do?</h3>
 
