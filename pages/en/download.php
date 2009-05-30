@@ -119,9 +119,10 @@ Freenet icon on the desktop and your start menu. If the browser window
 isn't opened, for example because you used the headless installer, you 
 should open it manually:</p>
 <pre><a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
-<p>It is best to use the Browse Freenet icon, because this uses a 
-customised Firefox profile optimised for Freenet, improving security and
-performance.</p>
+<p>For best security you should use a separate browser for Freenet, 
+preferably in privacy mode. On Windows, the Browse Freenet icon will 
+try to use Chrome in incognito mode if possible. Internet Explorer does
+not work well with Freenet, Firefox and Opera are widely used.</p>
 <p>If you know anyone running Freenet, you can improve your security and 
 help to build the network by connecting to their node. First, open the 
 <a href="http://127.0.0.1:8888/friends/">Friends page</a>. You and your
