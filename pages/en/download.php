@@ -13,9 +13,6 @@ install a service/cronjob to start Freenet when your computer boots up.
 You will <b>not</b> get good performance 
 if you only run it when you are actually using it.</p>
 
-<p><i>If you have a firewall or a NAT box click <a href="/faq.html#firewall"><b>here</b></a>
-for some info.</i></p>
-
 <div id="jws">
 <h2>Installation Instructions</h2>
 Clicking the <big><big><a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
@@ -109,6 +106,12 @@ from one Unix machine to another (e.g. via rsync or unison), enabling the mirror
 		showDiv(OSName);
 	}
 //--></script>
+
+<h3>Firewalls and routers</h3>
+
+<p>Freenet should work fine with most routers, but if you are having problems
+and you have a firewall or router, click <a href="/faq.html#firewall"><b>here</b></a>
+for some info.</i></p>
 
 <h3>So it's running, what do I do?</h3>
 
