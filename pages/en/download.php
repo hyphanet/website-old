@@ -156,12 +156,7 @@ in the <a href="irc://irc.freenode.net/freenet">#freenet</a> channel at irc.free
 <b>Minimum:</b> 400MHz Pentium 2, with at least 256MB of RAM, at least 1GB free disk space.<br>
 <b>Recommended:</b> 1GHz or more processor with 512MB
 <!-- decreasing agaisnt my will :(-->
-RAM or more (especially if using Windows XP), 50GB disk space.</p>
-<h4>In more detail:</h4>
-<p><b>Memory:</b> Freenet will use approximately 192MB of RAM, plus the overheads of the
-Java Virtual Machine, plus 1MB for every 2GB of datastore.<br>
-<b>Disk:</b> Freenet will use as much disk space as you let it use, for storing content from the network,
-and it will also use some space to store your downloads and uploads.<br>
+RAM or more (especially if using Windows XP), 50GB disk space for a large datastore and some downloads.</p>
 </p>
 <h3>Upgrading</h3>
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
