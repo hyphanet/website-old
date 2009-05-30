@@ -41,7 +41,7 @@ for which security support has been discontinued.<br>
 <div id="macos">
 <h3>Mac OSX</h3>
 <a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br>
-If this doesn't work, try the linux instructions below.
+If this doesn't work, try the linux instructions.
 </div>
 
 <div id="unix">
