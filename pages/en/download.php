@@ -158,6 +158,8 @@ in the <a href="irc://irc.freenode.net/freenet">#freenet</a> channel at irc.free
 <!-- decreasing agaisnt my will :(-->
 RAM or more (especially if using Windows XP), 50GB disk space for a large datastore and some downloads.</p>
 </p>
+<p>Freenet will use a portion of your disk for its datastore, it uses this to store data from your node and other nodes, you can configure this to any size from 100MB upwards,
+but we recommend at least 1GB. Freenet also uses disk space for your downloads. Freenet's memory usage is approximately 192MB plus 1MB for every 2GB of datastore.
 <h3>Upgrading</h3>
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
 <ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
