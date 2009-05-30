@@ -153,11 +153,12 @@ in the <a href="irc://irc.freenode.net/freenet">#freenet</a> channel at irc.free
 	
 <h3>Hardware requirements</h3>
 <p>
-<b>Minimum:</b> 400MHz Pentium 2, with at least 192MB of RAM.<br>
-<b>Recommended:</b> 1GHz or more processor with 256MB
+<b>Minimum:</b> 400MHz Pentium 2, with at least 256MB of RAM.<br>
+<b>Recommended:</b> 1GHz or more processor with 512MB
 <!-- decreasing agaisnt my will :(-->
 RAM or more (especially if using Windows XP).
-</p>
+<b>Memory:</b> Freenet will use approximately 192MB of RAM, plus the overheads of the
+Java Virtual Machine, plus 1MB for every 2GB of datastore.</p>
 <h3>Upgrading</h3>
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
 <ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
