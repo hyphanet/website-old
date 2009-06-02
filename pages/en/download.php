@@ -130,7 +130,7 @@ try to use Chrome in incognito mode if possible. Internet Explorer does
 not work well with Freenet, Firefox and Opera are widely used.</p>
 <p>If you know anyone running Freenet, you can improve your security and 
 help to build the network by connecting to their node. First, open the 
-<a href="http://127.0.0.1:8888/friends/">Friends page</a>. You and your
+<a href="http://127.0.0.1:8888/addfriend/">Add a friend page</a>. You and your
 friend should each download their "node reference". Send the file to
 the other person, and add his node reference using the form at the bottom
 of the page. When both are added, your friend's node should show up on the Friends 
