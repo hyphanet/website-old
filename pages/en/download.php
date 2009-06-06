@@ -168,7 +168,5 @@ but we recommend at least 1GB. Freenet also uses disk space for your downloads. 
 <p>Freenet provides now an update-over-freenet mechanism ; We recommend people to use it in favour of the updating scripts. However, you may also update your node manually:</p>
 <ul><li>Windows users can upgrade to the latest-stable Freenet release by clicking on "update.cmd" in the Freenet directory.</li>
 <li>Linux users may similarly upgrade by running the update.sh shell script in the Freenet directory.</li></ul>
-<p>
-<small><b>Note:</b> You can still find the download page for Freenet 0.5 <a href="/download-old.html">here</a>, however 0.5 is no longer officially maintained or supported and 0.7 has many radical improvements not least being that it is significantly faster.</small>
-<small><b>Source Code:</b> See <a href="/developer.php">the developer page</a> for git access, or download the lastest stable tarball <a href="http://downloads.freenetproject.org/alpha/freenet-FREENETTAG-source.tar.bz2">here</a>.
-</p>
+<p><small><b>Note:</b> You can still find the download page for Freenet 0.5 <a href="/download-old.html">here</a>, however 0.5 is no longer officially maintained or supported and 0.7 has many radical improvements not least being that it is significantly faster.</small></p>
+<p><small><b>Source Code:</b> See <a href="/developer.php">the developer page</a> for git access, or download the lastest stable tarball <a href="http://downloads.freenetproject.org/alpha/freenet-FREENETTAG-source.tar.bz2">here</a>.</p>
