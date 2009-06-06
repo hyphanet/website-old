@@ -26,7 +26,7 @@ If your platform is not the one listed below, select your specific platform: <a 
 
 <div id="windows">
 <h3>Windows</h3>
-- Download and run <big><a href="https://checksums.freenetproject.org/cc/FreenetInstaller.exe">the installer</a> (8MB)</big><br>
+- Download and run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the installer</a> (8MB)</big><br>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
@@ -49,10 +49,10 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 
 <p>Open a terminal and type:</p>
 <pre>
-wget <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">https://checksums.freenetproject.org/cc/new_installer_offline.jar</a> -O new_installer_offline.jar
+wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 java -jar new_installer_offline.jar
 </pre>
-<p>Alternatively, downloading <a href="https://checksums.freenetproject.org/cc/new_installer_offline.jar">the installer</a> (<a href="https://checksums.freenetproject.org/latest/new_installer_offline.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the installer</a> (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
