@@ -22,7 +22,7 @@ work, please contact us and we will try to find out what is wrong.</p>
 
 <div id="jws">
 <h2>Installation Instructions</h2>
-Clicking the <big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
+Clicking the <big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
 </div>
 
 <div style="display: none;" id="nojws">
