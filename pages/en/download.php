@@ -14,6 +14,12 @@ high security and only connect to them, but if you do not know anyone on
 Freenet, you should set the security level to normal or low, and Freenet
 should just work.</p>
 
+<p><b>Anti-virus software:</b> Severe problems have been reported with 
+Kaspersky, and other firewalls and antivirus software may also break 
+Freenet's installation. Having said that, we do NOT recommend that you turn 
+off your antivirus software on a Windows system; if installation doesn't 
+work, please contact us and we will try to find out what is wrong.</p>
+
 <div id="jws">
 <h2>Installation Instructions</h2>
 Clicking the <big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
@@ -26,7 +32,7 @@ If your platform is not the one listed below, select your specific platform: <a 
 
 <div id="windows">
 <h3>Windows</h3>
-- Download and run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the installer</a> (8MB)</big><br>
+- Download and run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the installer</a> (8MB)</big><br>
 <br>
 It will automatically install Freenet and other required components for you. When done, your default browser will automatically open up to Freenet's web-based user interface. <br>
 (Freenet contains <u><b>NO spyware or adware</b></u> , it's Free Software! The source code is publicly available for review) <BR>
@@ -49,10 +55,10 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 
 <p>Open a terminal and type:</p>
 <pre>
-wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 java -jar new_installer_offline.jar
 </pre>
-<p>Alternatively, downloading <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the installer</a> (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the installer</a> (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
