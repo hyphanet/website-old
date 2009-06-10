@@ -45,7 +45,6 @@ $menus = array(	'beginner' => array(
 				'FAQ' => 'faq',
 				'Documentation' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 				'Wiki'	=> 'http://wiki.freenetproject.org/',
-				'Browse SVN' => 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
 				'Bug Tracker' => 'https://bugs.freenetproject.org/',
 				'Mailing Lists' => 'lists',
 				'Javadoc' => 'http://emu.freenetproject.org/javadoc/',

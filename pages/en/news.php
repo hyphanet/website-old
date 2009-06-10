@@ -5,7 +5,7 @@ old new build announcements) -->
 
 <h3>News</h3>
 
-<p><b>9th May, 2009 - 0.7.5 release candidate 1!</b></p>
+<p><b>9th June, 2009 - 0.7.5 release candidate 1!</b></p>
 <p>The Freenet Project is very pleased to announce the first release candidate (beta) of Freenet 0.7.5.</p>
 <p>Freenet is free software designed to allow the free exchange of information over the Internet without fear of censorship, or reprisal. To achieve this Freenet makes it very difficult for adversaries to reveal the identity, either of the person publishing, or downloading content. The Freenet project started in 1999, released Freenet 0.1 in March 2000, and has been under active development ever since.</p>
 <p>Freenet is somewhat unusual in that you can publish content to Freenet, and then disconnect from the network.  This content will remain available to other Freenet users, although it may eventually be deleted if nobody is interested in it.  Freenet will copy and move the content around the network according to demand, making it very difficult for an adversary to remove content.  Freenet will automatically create more copies of popular content to ensure that it will always be available.</p>

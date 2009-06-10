@@ -24,7 +24,6 @@ $menus = array(
 				'sub3' 				=> array(				
 												'Vad är nytt?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 												'Freenet Specar' => 'http://wiki.freenetproject.org/FreenetSpecifications',
-												'Browse SVN' 	=> 'http://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
 												'Bug Tracker' 	=> 'https://bugs.freenetproject.org/',
 												'Javadoc' 		=> 'http://emu.freenetproject.org/javadoc/'),
 				'E-postlistor'	 	=> 'lists',
