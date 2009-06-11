@@ -55,10 +55,10 @@ Java version 1.5 and later will work. However, be aware that there are applet se
 
 <p>Open a terminal and type:</p>
 <pre>
-wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
 java -jar new_installer_offline.jar
 </pre>
-<p>Alternatively, downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the installer</a> (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
+<p>Alternatively, downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">the installer</a> (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">gpg signature</a>) and then clicking on the file may work on some systems, but if there are problems we recommend the above command lines.</p>
 
 <p>Or do the following on a headless system:</p>
 <pre>
