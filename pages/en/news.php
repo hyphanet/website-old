@@ -6,11 +6,6 @@ old new build announcements) -->
 <h3>News</h3>
 
 <p><b>12th June, 2009 - Freenet 0.7.5 released!</b>
-<script type="text/javascript" src="http://www.reddit.com/r/programming/button.js?url=http://freenetproject.org/index.html"></script>
-<script type="text/javascript">
-digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_5_the_darknet';
-</script>
-<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
 </p>
 <p>The Freenet Project is very pleased to announce the release of Freenet 0.7.5.</p>
 <p>Freenet is free software designed to allow the free exchange of information over the Internet without fear of censorship, or reprisal. To achieve this Freenet makes it very difficult for adversaries to reveal the identity, either of the person publishing, or downloading content. The Freenet project started in 1999, released Freenet 0.1 in March 2000, and has been under active development ever since.</p>
@@ -29,6 +24,13 @@ digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_5_the_
 <p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
 <p>If you have any difficulty getting Freenet to work, or any questions not answered in the <a href="/faq.html">faq, please join us on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> in the #freenet channel at irc.freenode.net, or email the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support mailing list</a>. If you have any suggestions for how to improve Freenet, please visit <a href="http://freenet.uservoice.com/">our uservoice page</a>. </p>
 <p>There is a lot of work still to do on Freenet, particularly when it comes to ease of use.  If you have Java programming or web design skills, or would like to help translate Freenet into your own language, and would like to help us improve Freenet, please join our <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development mailing list</a> and introduce yourself.</p>
+
+<script type="text/javascript" src="http://www.reddit.com/r/programming/button.js?url=http://freenetproject.org/index.html"></script>
+<script type="text/javascript">
+digg_url = 'http://digg.com/software/Freenet_project_releases_Freenet_0_7_5_the_darknet';
+</script>
+<script src="http://digg.com/tools/diggthis.js" type="text/javascript"></script>
+
 <p><b>7th May, 2009 - Another big donation funds ongoing development</b></p>
 
 <p><a href="http://www.google.com/">Google</a>'s <a href="http://code.google.com/opensource/">Open Source team</a> has donated US$18,000 to the Freenet Project to 

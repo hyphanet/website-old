@@ -135,8 +135,10 @@ href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520sh
 	hideDiv("windows");
 	hideDiv("macos");
 	hideDiv("unix");
-	if(navigator.userAgent.indexOf("Windows NT 6.0") > -1) {
-		// Windows vista has UAC enabled by default. We need to propose the .exe as JWS won't work :|
+	if(OSName == "windows") {
+		// Disable JWS on Windows
+		// Windows vista/7 have UAC enabled by default. We need to propose the .exe as JWS won't work :|
+		// But the wininstaller is better than the JWS installer anyway, so use it for all Windows.
 		showDiv("nojws");
 		showDiv("windows");
 	} else if(Java >= 1 && navigator.javaEnabled()) {
