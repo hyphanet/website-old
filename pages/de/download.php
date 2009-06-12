@@ -19,7 +19,7 @@ bekommen.</i></p>
 <div id="jws">
 <h2>Installations-Anweisungen</h2>
 Wenn Sie auf <big><big><a
-href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp"
+href="http://checksums.freenetproject.org/latest/freenet.jnlp"
 >Freenet 0.7 installieren</a></big></big> klicken, sollte das
 Installations-Programm starten. Wenn das aus irgend einem Grund nicht
 funktioniert, können Sie es mit der plattformspezifischen Anleitung versuchen
@@ -43,7 +43,7 @@ showDiv('unix');">Anleitung für Linux und Unix-ähnliche Systeme</a><br>
 <div id="windows">
 <h3>Windows</h3>
 - Laden Sie das <big><a
-href="http://downloads.freenetproject.org/alpha/installer/install.exe"
+href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe"
 >Freenet-Webinstallationsprogramm</a> (3MB)</big> herunter und führen Sie es aus
 <br><br>
 Es wird automatisch Freenet und andere benötigte Komponenten für Sie
@@ -68,7 +68,7 @@ Anleitung für Linux.
 
 <div id="macos">
 <h3>Mac OSX</h3>
-<a href="http://downloads.freenetproject.org/alpha/installer/mac/freenet.jnlp"
+<a href="checksums.freenetproject.org/latest/freenet.jnlp"
 >Installieren Sie Freenet 0.7</a> indem Sie JavaWebStart benutzen.<br>
 Wenn dies nicht funktioniert, versuchen Sie es mit der Anleitung für Linux.
 </div>
@@ -87,13 +87,12 @@ Generell empfehlen wir die neuste Version zu benutzen.
 
 <p>Öffnen Sie eine Kommandozeile (Terminal) und geben Sie folgendes ein:</p>
 <pre>
-wget <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar"
->http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a>
+wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer.jar
 java -jar new_installer.jar
 </pre>
 
 <p>Alternativ können Sie auf manchen Systemen auch <a
-href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar"
+href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar"
 >das Installationsprogramm</a> herunterladen und es anklicken, wenn jedoch
 Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 
@@ -160,16 +159,6 @@ wird Ihnen ein paar Fragen stellen und dann zur Startseite des Knotens,</p>
 <p>gehen, von wo aus Sie Freesites aufrufen, Freunde hinzufügen usw. können.
 Hoffentlich öffnet das Installationsprogramm die Seite für Sie, sodass Sie dies
 hier gar nicht lesen.</p>
-
-<h3>Offline-Installation</h3>
-<p>
-Manche Leute könnten aufgrund von Zensur Probleme haben sich mit unseren Servern
-zu verbinden. Wir haben eine Offline-Version des Installationsprogramms parat:
-<a href="http://downloads.freenetproject.org/alpha/installer/">Freenet 0.7
-Offline-Installationsprogramm</a>. Sie sollten es nur benutzen wenn Sie es
-müssen (es muss mehr heruntergeladen werden und könnte nicht so aktuell wie
-die Online-Version sein).
-</p>
 
 <h3>Es funktioniert, was mache ich jetzt?</h3>
 
@@ -246,10 +235,6 @@ klicken.</li>
 <li>Linux-Benutzer können auf ähnliche Weise Aktualisieren indem Sie das
 Shell-Skript update.sh im &bdquo;freenet/bin/&ldquo;-Verzeichnis ausführen.</li>
 </ul>
-<h3>Quellcode</h3>
-<p>Sie können den aktuellsten Quellcode aus dem SVN beziehen:</p>
-<pre>svn co --ignore-externals http://freenet.googlecode.com/svn/trunk/freenet/</pre>
-<br>
 <p>
 <small><b>Hinweis:</b> <a href="/download-old.html">Hier</a> können Sie
 immernoch die Download-Seite für Freenet 0.5 finden, 0.5 wird jedoch nicht mehr
