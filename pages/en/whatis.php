@@ -11,9 +11,8 @@ decentralization the network will be vulnerable to attack.</p>
 who is requesting the information and what its content is.</p>
 
 <p> Users contribute to the network by giving bandwidth and a portion of
-their hard drive (called the "data store") for storing files. Unlike
-other peer-to-peer file sharing networks, Freenet does not let the user
-control what is stored in the data store. Instead, files are kept or
+their hard drive (called the "data store") for storing files. 
+Files are automatically kept or
 deleted depending on how popular they are, with the least popular being
 discarded to make way for newer or more popular content. Files in the
 data store are encrypted to reduce the likelihood of prosecution by
