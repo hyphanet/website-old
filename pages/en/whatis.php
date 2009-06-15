@@ -31,9 +31,8 @@ for gosh's sake remove this turn-based idiosyncrasy.-->
 <li>Send email messages</li>
 </ul>
 <p>
-Unlike many cutting edge projects, Freenet long ago escaped the science
-lab, it has been downloaded by over 2 million users since the project
-started, and it is used for the distribution of censored information all
+Freenet has been downloaded by over 2 million users since the project
+started, and used for the distribution of censored information all
 over the world including countries such as <a
 href="http://freenet-china.org">China</a> and the Middle East.  Ideas
 and concepts pioneered in Freenet have had a significant impact in the
