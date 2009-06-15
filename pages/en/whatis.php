@@ -14,8 +14,8 @@ who is requesting the information and what its content is.</p>
 their hard drive (called the "data store") for storing files. 
 Files are automatically kept or
 deleted depending on how popular they are, with the least popular being
-discarded to make way for newer or more popular content. Files in the
-data store are encrypted to reduce the likelihood of prosecution by
+discarded to make way for newer or more popular content. Files
+are encrypted to reduce the likelihood of prosecution by
 persons wishing to censor Freenet content.</p>
 
 <p> The network can be used in a number of different ways and isn't
