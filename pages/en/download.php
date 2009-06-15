@@ -1,4 +1,4 @@
-<h2>Download Freenet 0.7</h2>
+<h2>Download Freenet 0.7.5</h2>
 <h3>Important note for first time users</h3>
 
 <p>Freenet will run continually in the background, in order to maximise 
