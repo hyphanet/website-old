@@ -1,5 +1,6 @@
 body {
 	padding: 10px 10px;
+	background:url(image/gradient.png) repeat-x ;
 }
 
 div#menu {
@@ -21,11 +22,13 @@ div#menu {
 
 
 div#top {
-		background-image:url(/image/hdr_bg_tall.gif);
-		background-repeat:repeat;
-		width: 100%;
-		height: 51px;
-		}
+	background:url(image/banner.png) no-repeat;
+	width: 700px;
+	height: 48px;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-left: 0%;
+}
 		
 div#content {
 	/*font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;*/
