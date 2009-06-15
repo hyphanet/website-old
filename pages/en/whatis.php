@@ -47,11 +47,10 @@ magazine.
 </p>
 <p>
 An important recent development, which very few other networks have, is the
-"darknet": Freenet can operate in a purely friend-to-friend mode, and yet
-still be a globally scalable, reasonably efficient network. By only 
-connecting to people they trust, users can greatly reduce their vulnerability,
-even in places where running Freenet may be illegal, and the website blocked.
-Through their friends' friends, because of the small world effect, a global
-darknet is possible, even if there is no "free world" to tunnel to, or it is
-not practical to do so.
+"darknet": By only connecting to people they trust, users can greatly reduce 
+their vulnerability, and yet still connect to a global network through their
+friends' friends' friends and so on. This enables people to use Freenet even
+in places where Freenet may be illegal, makes it very difficult for 
+governments to block it, and does not rely on tunneling to the "free world".
 </p>
+<p>Sounds good? <a href="/download.html">Try it!</a></p>
