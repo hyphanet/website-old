@@ -46,3 +46,13 @@ Ian Clarke, Freenet's creator and project coordinator, was selected as
 one of the top 100 innovators of 2003 by MIT's Technology Review
 magazine.
 </p>
+<p>
+An important recent development, which very few other networks have, is the
+"darknet": Freenet can operate in a purely friend-to-friend mode, and yet
+still be a globally scalable, reasonably efficient network. By only 
+connecting to people they trust, users can greatly reduce their vulnerability,
+even in places where running Freenet may be illegal, and the website blocked.
+Through their friends' friends, because of the small world effect, a global
+darknet is possible, even if there is no "free world" to tunnel to, or it is
+not practical to do so.
+</p>
