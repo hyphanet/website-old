@@ -2,7 +2,7 @@
 //    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(
-		'Home'				=> '/',
+		'Home'				=> '/index',
 		'Download'			=> '/download',
 		'About'				=> '/whatis',
 		'sub-about'			=> array(
@@ -70,19 +70,23 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if ("$page" == '/documentation' || in_array("$page", $menus["sub-help"])) {
+		if (("$page" == '/documentation' || in_array("$page", $menus["sub-help"])) &&
+			"$title" == "sub-help") {
 			showMenu($menus["$title"]);
 		}
 		
-		if ("$page" == '/developer' || in_array("$page", $menus["sub2"])) {
+		if (("$page" == '/developer' || in_array("$page", $menus["sub2"])) &&
+			"$title" == "sub2") {
 			showMenu($menus["$title"]);
 		}
 		
-		if ("$page" == '/whatis' || in_array("$page", $menus["sub-about"])) {
+		if (("$page" == '/whatis' || in_array("$page", $menus["sub-about"])) &&
+			"$title" == "sub-about") {
 			showMenu($menus["$title"]);
 		}
 		
-		if ("$page" == '/donate' || in_array("$page", $menus["sub-donate"])) {
+		if (("$page" == '/donate' || in_array("$page", $menus["sub-donate"])) &&
+			"$title" == "sub-donate") {
 			showMenu($menus["$title"]);
 		}
 		
