@@ -7,7 +7,7 @@ Without anonymity there can never be true freedom of speech, and without
 decentralization the network will be vulnerable to attack.</p>
 
 <p> Communications by Freenet nodes are encrypted and are
-"routed-through" other nodes to make it extremely difficult to determine
+routed through other nodes to make it extremely difficult to determine
 who is requesting the information and what its content is.</p>
 
 <p> Users contribute to the network by giving bandwidth and a portion of
