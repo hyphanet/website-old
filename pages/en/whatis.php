@@ -15,8 +15,8 @@ their hard drive (called the "data store") for storing files.
 Files are automatically kept or
 deleted depending on how popular they are, with the least popular being
 discarded to make way for newer or more popular content. Files
-are encrypted to reduce the likelihood of prosecution by
-persons wishing to censor Freenet content.</p>
+are encrypted, so generally the user cannot easily discover what is in
+his datastore, and hopefully can't be held accountable for it.</p>
 
 <p> The network can be used in a number of different ways and isn't
 restricted to just sharing files like other peer-to-peer networks. It
