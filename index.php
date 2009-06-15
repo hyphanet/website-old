@@ -88,6 +88,5 @@ This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html
 	var pageTracker = _gat._getTracker("UA-354970-1");
 	pageTracker._trackPageview();
 	</script>
-        <script type="text/javascript" src="http://cetrk.com/pages/scripts/0009/9311.js"> </script>
 </body>
 </html>
