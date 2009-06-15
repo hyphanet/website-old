@@ -45,7 +45,8 @@ include 'includes/common.inc.php';
 
 <body>
 <div id="top">
-	<a href="http://freenetproject.org/"><img border="0" alt="The Freenet Project" src="/image/title.gif" width="414" height="51"></a>
+	<a href="http://freenetproject.org/" style="text-decoration:none; border:none;
+	display:block; height:48px; width:250px;" alt="The Free Network Project">&nbsp;</a>
 </div>
 
 <div id="menu">	
