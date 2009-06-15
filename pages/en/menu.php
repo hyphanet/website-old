@@ -11,18 +11,13 @@ $menus = array(
 			'Papers'		=> '/papers',
 			'People'		=> '/people',
 			'News'			=> '/news'),
-		'Documentation' 	=> '/documentation',
-		'sub1' 				=> array(
-			'Install' 		=>'/install',
-			'Connect' 		=> '/connect',
-			'Content'		=> '/content',
-			'Understand' 		=> '/understand',
-			'Freemail' 		=> '/freemail',
-			'Frost' 		=> '/frost',
-			'jSite'			=> '/jsite',
-			'Thaw'			=> '/thaw',
-			'FAQ' 			=> '/faq',
-			'Wiki'			=> 'http://wiki.freenetproject.org/'),  
+		'Help'				=> '/documentation',
+		'sub-help'			=> array(
+			'Documentation'	=> '/documentation',
+			'FAQ'			=> '/faq',
+			'Mailing lists'	=> '/lists',
+			'Suggestions'	=> 'http://freenet.uservoice.com/',
+			'Wiki'			=> 'http://wiki.freenetproject.org'),
 		'Donate'			=> '/donate',
 		'sub-donate'		=> array(
 			'Donate'		=> '/donate',
@@ -33,8 +28,6 @@ $menus = array(
 			'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/'),
-        'Suggestions' => 'http://freenet.uservoice.com/',
-		'Mailing Lists' 		=> '/lists',
 );
 
 function lnk($text, $link) {
@@ -77,7 +70,7 @@ foreach($menus as $title => $link) {
 	}
 	else
 	{
-		if ("$page" == '/documentation' || in_array("$page", $menus["sub1"])) {
+		if ("$page" == '/documentation' || in_array("$page", $menus["sub-help"])) {
 			showMenu($menus["$title"]);
 		}
 		
