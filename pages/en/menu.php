@@ -2,10 +2,15 @@
 //    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(
-		'What is Freenet?' 	=> '/whatis',
-		'Philosophy' 		=> '/philosophy',
-		'News' 				=> '/news', 
+		'Home'				=> '/',
 		'Download'			=> '/download',
+		'About'				=> '/whatis',
+		'sub-about'			=> array(
+			'What is Freenet?' => '/whatis',
+			'Philosophy'	=> '/philosophy',
+			'Papers'		=> '/papers',
+			'People'		=> '/people',
+			'News'			=> '/news'),
 		'Documentation' 	=> '/documentation',
 		'sub1' 				=> array(
 			'Install' 		=>'/install',
@@ -19,17 +24,17 @@ $menus = array(
 			'FAQ' 			=> '/faq',
 			'Wiki'			=> 'http://wiki.freenetproject.org/'),  
 		'Donate'			=> '/donate',
-		'Sponsors'			=> '/sponsors',
+		'sub-donate'		=> array(
+			'Donate'		=> '/donate',
+			'Sponsors'		=> '/sponsors',
+			'Buy stuff'		=> 'http://www.cafeshops.com/freenetproject'),
 		'Developer' 			=> '/developer',
 		'sub2' 				=> array(				
 			'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
 			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/'),
-                'Suggestions' => 'http://freenet.uservoice.com/',
+        'Suggestions' => 'http://freenet.uservoice.com/',
 		'Mailing Lists' 		=> '/lists',
-		'Tools' 			=> '/tools',
-		'Papers' 			=> '/papers',
-		'People' 			=> '/people' 
 );
 
 function lnk($text, $link) {
@@ -79,6 +84,17 @@ foreach($menus as $title => $link) {
 		if ("$page" == '/developer' || in_array("$page", $menus["sub2"])) {
 			showMenu($menus["$title"]);
 		}
+		
+		if ("$page" == '/whatis' || in_array("$page", $menus["sub-about"])) {
+			showMenu($menus["$title"]);
+		}
+		
+		if ("$page" == '/donate' || in_array("$page", $menus["sub-donate"])) {
+			showMenu($menus["$title"]);
+		}
+		
+		
+		
 	}
 }
 echo '</ul>';
