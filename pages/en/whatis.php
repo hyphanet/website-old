@@ -18,19 +18,17 @@ discarded to make way for newer or more popular content. Files
 are encrypted, so generally the user cannot easily discover what is in
 his datastore, and hopefully can't be held accountable for it.</p>
 
-<p> The network can be used in a number of different ways and isn't
-restricted to just sharing files like other peer-to-peer networks. It
-acts more like an Internet within an Internet. For example Freenet can
-be used for:</p>
+<p> Freenet is not a traditional filesharing network, it is more like an
+Internet within the Internet. For example, users can:</p>
 
 <ul>
-<li>Publishing websites or 'freesites'</li>
-<li>Communicating via message boards</li>
+<li>Publish websites or 'freesites'</li>
+<li>Communicate via message boards</li>
 <!--
 <li>Playing simple turn-based games like Chess
 for gosh's sake remove this turn-based idiosyncrasy.-->
-<li>Content distribution</li>
-<li>Sending email messages</li>
+<li>Distribute files</li>
+<li>Send email messages</li>
 </ul>
 <p>
 Unlike many cutting edge projects, Freenet long ago escaped the science
