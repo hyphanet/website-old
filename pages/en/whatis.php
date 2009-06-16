@@ -1,4 +1,13 @@
 <h2>What is Freenet?</h2>
+<blockquote>
+<i>"I worry about my child and the Internet all the time, even though
+she's too young to have logged on yet. Here's what I worry about. I
+worry that 10 or 15 years from now, she will come to me and say 'Daddy,
+where were you when they took freedom of the press away from the
+Internet?'"</i><br>
+--Mike Godwin, <a href="http://eff.org/">Electronic Frontier
+Foundation</a>
+</blockquote>
 <p> Freenet is free software which lets you anonymously share files, browse 
 and publish "freesites" (web sites accessible only through Freenet) and 
 chat on forums, without fear of censorship. Users are anonymous, and 
