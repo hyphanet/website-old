@@ -37,7 +37,7 @@ function showMenu($category) {
 	echo '<ul class="submenu">';	
 	foreach ($category as $subtitle => $sublink) {
 		if (strcmp(substr($sublink, 0, 4), 'http')) {
-			page($subtitle, $sublink);
+			simple_page($subtitle, $sublink);
 		} else {
 			lnk($subtitle, $sublink);
 		}
@@ -46,11 +46,27 @@ function showMenu($category) {
 	echo '</ul>';
 }
 
-function page($text, $link) {
+function simple_page($text, $link) {
 	global $page;
 	//far away from perfect but better than nothing!
 	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
 	if ($link == $page) {
+		echo '<li><span class="selected-menu">'.$text.'</span></li>';
+	} else {
+		lnk($text, $link.".html");
+	}
+}
+
+function page($text, $link) {
+	global $page;
+	global $menus;
+	//far away from perfect but better than nothing!
+	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
+	if ($link == $page ||
+	($text == "Help" && in_array("$page", $menus["sub-help"])) ||
+	($text == "About" && in_array("$page", $menus["sub-about"])) ||
+	($text == "Donate" && in_array("$page", $menus["sub-donate"])) ||
+	($text == "Developer" && in_array("$page", $menus["sub2"]))) {
 		echo '<li><span class="selected-menu">'.$text.'</span></li>';
 	} else {
 		lnk($text, $link.".html");
