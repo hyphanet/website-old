@@ -2,6 +2,7 @@
 //    Last edited Saturday, October 04, 2003
 $pos = 1;
 $menus = array(
+		'Home'				=> '/index',
 		'Download'			=> '/download',
 		'About'				=> '/whatis',
 		'sub-about'			=> array(
