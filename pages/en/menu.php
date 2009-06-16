@@ -24,8 +24,8 @@ $menus = array(
 			'Sponsors'		=> '/sponsors',
 			'Buy stuff'		=> 'http://www.cafeshops.com/freenetproject'),
 		'Developer' 			=> '/developer',
-		'sub2' 				=> array(				
-			'Whats New?' 	=> 'http://cia.navi.cx/stats/Project/freenet/',
+		'sub2' 				=> array(
+			'Source Code'	=> '/developer',
 			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
 			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/'),
 );
