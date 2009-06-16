@@ -1,5 +1,5 @@
 <p>
-<h3>What is Freenet?</h3>
+<h2>Share, chat and browse anonymously on the Free Network</h2>
 <p> Freenet is free software which lets you anonymously share files, browse 
 and publish "freesites" (web sites accessible only through Freenet) and 
 chat on forums, without fear of censorship. Users are anonymous, and 
