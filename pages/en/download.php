@@ -14,12 +14,6 @@ high security and only connect to them, but if you do not know anyone on
 Freenet, you should set the security level to normal or low, and Freenet
 should just work.</p>
 
-<p><b>Anti-virus software:</b> Severe problems have been reported with 
-Kaspersky, and other firewalls and antivirus software may also break 
-Freenet's installation. Having said that, we do NOT recommend that you turn 
-off your antivirus software on a Windows system; if installation doesn't 
-work, please contact us and we will try to find out what is wrong.</p>
-
 <div id="jws">
 <h2>Installation Instructions</h2>
 Clicking the <big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet</a></big></big> link should start the installer up, assuming you have <a href="http://www.java.com/getjava/">Java</a> installed. If it doesn't work for some reason, you can try the platform specific instructions (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux and Unix-like instructions</a>).
