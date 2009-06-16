@@ -1,9 +1,10 @@
 <h2>What is Freenet?</h2>
 <p> Freenet is free software which lets you anonymously share files, browse 
-and publish web sites ("freesites"), and chat on forums, without fear of 
-censorship. Users are anonymous, and Freenet is entirely decentralised. 
-Without anonymity there can never be true freedom of speech, and without 
-decentralisation the network would be vulnerable to attack.</p>
+and publish "freesites" (web sites accessible only through Freenet), and 
+chat on forums, without fear of censorship. Users are anonymous, and 
+Freenet is entirely decentralised. Without anonymity there can never be 
+true freedom of speech, and without decentralisation the network would be 
+vulnerable to attack.</p>
 
 <p> Communications by Freenet nodes are encrypted and are
 routed through other nodes to make it extremely difficult to determine
