@@ -3,7 +3,7 @@ few sentences - create a separate page and link to that (ie. Slashdot
 style).  Additionally, please remove obsolete news items (such as
 old new build announcements) --> 
 
-<h3>News</h3>
+<h3>Blog</h3>
 
 <p><b>12th June, 2009 - Freenet 0.7.5 released!</b></p>
 <p>
