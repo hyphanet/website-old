@@ -64,10 +64,6 @@ include 'includes/common.inc.php';
 		}	
 	?>
 	<br>
-	<div class="shop" align="center">
-		<a href="http://www.cafeshops.com/freenetproject"><img width="83" height="82" border="0" src="/image/freenet-mug.gif" alt="Freenet Store"><br>
-		<font size="-2">Visit the Freenet Store!</font></a>
-	</div>
 </div>
 
 <div id="content"><? 	include (escapeshellcmd($file));  ?>
