@@ -7,7 +7,6 @@ Freenet is entirely decentralised. Without anonymity there can never be
 true freedom of speech, and without decentralisation the network would be 
 vulnerable to attack.</p>
 <a href="/whatis.html">Learn more!</a></p>
-<p><a href="/download.html" title="Get Freenet!"><img src="/image/getfreenet1.png" border="0"/></a></p>
 <? 
 	include("pages/en/news.php");
 ?>
