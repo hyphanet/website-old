@@ -29,7 +29,7 @@ his datastore, and hopefully can't be held accountable for it. Chat forums,
 websites, and search functionality, are all built on top of this distributed 
 data store.</p>
 <p>
-Freenet has been downloaded by over 2 million users since the project
+Freenet has been downloaded over 2 million times since the project
 started, and used for the distribution of censored information all
 over the world including countries such as <a
 href="http://freenet-china.org">China</a> and the Middle East.  Ideas
