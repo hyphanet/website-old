@@ -41,6 +41,7 @@ include 'includes/common.inc.php';
 		}
 	</script>
 	<script type="text/javascript" src="PluginDetect.js"></script>
+	<!--[if lt IE 7]><script defer type="text/javascript" src="js/fixpng.js"></script><![endif]-->
 </head>
 
 <body>
