@@ -9,13 +9,13 @@ href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a>
 (requires Java 1.5).
 </td></tr>
 <tr><td class="pdfimage"><img src="/image/pdf.icon.jpg"></td><td class="paper-text">
-<a href="http://www.math.chalmers.se/~ossa/lic.pdf">Searching in a Small World</a> (PDF)<br>
+<a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br>
 Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
 networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
 the new Darknet architecture.
 </td></tr>
 <tr><td class="pdfimage"><img src="/image/pdf.icon.jpg"></td><td class="paper-text">
-<a href="http://www.math.chalmers.se/~ossa/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br>
+<a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br>
 A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
 by Freenet 0.7.
 </td></tr>
@@ -29,7 +29,7 @@ demonstration to accompany the talk is <a
 href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
 </td></tr>
 <tr><td class="pdfimage"><img src="/image/pdf.icon.jpg"></td><td class="paper-text">
-<a href="http://www.math.chalmers.se/~ossa/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br>
+<a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br>
 A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 </td></tr>
 <tr><td></td><td class="paper-text">
