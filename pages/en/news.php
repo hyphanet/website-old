@@ -5,6 +5,10 @@ old new build announcements) -->
 
 <h3>Blog</h3>
 
+<p><b>8th July, 2009 - Big donation from <a href="http://www.finanzvergleich.de">German finance site</a></b></p>
+<p>The German financial services comparison site, <a href="http://www.finanzvergleich.de">Finanz Vergleich</a>
+has given us $1,500 to fund ongoing development. This will go mainly towards ongoing work on Freenet's stability and usability. Thanks!</p>
+
 <p><b>12th June, 2009 - Freenet 0.7.5 released!</b></p>
 <p>The Freenet Project is very pleased to announce the release of Freenet 0.7.5.</p>
 <p>Freenet is free software designed to allow the free exchange of information over the Internet without fear of censorship, or reprisal. To achieve this Freenet makes it very difficult for adversaries to reveal the identity, either of the person publishing, or downloading content. The Freenet project started in 1999, released Freenet 0.1 in March 2000, and has been under active development ever since.</p>

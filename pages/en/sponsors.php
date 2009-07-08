@@ -21,10 +21,13 @@ donated $1,500.</li>
 <li><a href="http://www.yourkit.com/">YourKit, LLC</a><br>
 YourKit is kindly supporting Freenet by providing us a free of charge license of its full-featured Java Profiler. YourKit, LLC is the creator of innovative and intelligent tools for profiling Java applications. You can learn more about <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit Java Profiler</a> following the link.</li>
 <li><a href="http://www.google.com/">Google</a><br>
-Google <a href="http://code.google.com/">open source</a> have donated $18,000,
+Google <a href="http://code.google.com/">open source</a> have twice donated $18,000,
 as well as paying for students to work with us over summer for four years 
 through the <a href="http://code.google.com/soc/">Summer of Code</a> 
 programme.
+</li>
+<li><a href="http://www.finanzvergleich.de">Finanzvergleich</a> is a German 
+financial services comparison site, who have contributed $1,500.
 </li>
 </ol>
 <p>
