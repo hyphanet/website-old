@@ -10,18 +10,38 @@
 	  <a href="whatis.html">Learn more!</a>
 	</p>
       </div>
+
       <div id="screenshots">
 	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot.png"
 	alt="freenet screenshot" width="100%" /></a>
       </div>
       
-      <div id="download" class="sprites">
-	<a href="download.html">
-	  <span id="software">Freenet</span>
-	  <span id="action">Download</span>
-	  <span id="version">Version 0.7.5</span>
-	</a>
+      <div id="windows" class="sprites download">
+   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-1222.exe">
+   	   <span id="software">Freenet</span>
+   	   <span id="action">Download</span>
+   	   <span id="version">0.7.5 for Windows</span>
+   	</a>
       </div>
+	
+	<div id="unix" class="download sprites">
+	     <a href="http://freenet.googlecode.com/files/new_installer_offline_1222.jar">
+	     	<span id="software">Freenet</span>
+	     	<span id="action">Download</span>
+	     	<span id="version">0.7.5 for Unix</span>
+	     </a>
+	</div>
+	
+	<div id="macos" class="download sprites">
+	     <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
+	     	<span id="software">Freenet</span>
+  	     	<span id="action">Download</span>
+	     	<span id="version">0.7.5 for Mac</span>
+	     </a>
+	</div>
+
+	<p style="clear:both;">If you need further informations about installation, click <a href="download.html">here</a>.</p>
+
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
@@ -34,3 +54,21 @@
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
+
+      <script type="text/javascript"><!--
+			 // Os detection
+			 var OSName="";
+			 if (navigator.appVersion.indexOf("Win")!=-1)
+			    OSName="windows";
+			 else if (navigator.appVersion.indexOf("Mac")!=-1)
+			      OSName="macos";
+			 else if (navigator.appVersion.indexOf("X11")!=-1)
+			      OSName="unix";
+			 else if (navigator.appVersion.indexOf("Linux")!=-1)
+			      OSName="unix";
+			 
+			 hideDiv("windows");
+			 hideDiv("macos");
+			 hideDiv("unix");
+			 showDiv(OSName);
+      </script>

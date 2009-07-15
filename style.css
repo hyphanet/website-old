@@ -111,14 +111,14 @@ body,ul.dropdown {
     margin: 0px;
 }
 
-#whatis , #download{
+#whatis , .download{
     position: relative;
     left: 0;
     width: 50%;
     float:left;
 }
 
-#download {
+.download {
     width: 320px;
     height: 110px;
     margin-top: 20px;
@@ -128,18 +128,18 @@ body,ul.dropdown {
     clear: both;
 }
 
-#download:hover{
+.download:hover{
     background-position: 0px -200px;
 }
 
-#download a {
+.download a {
     display: block;
     text-decoration: none;
     height: 110px;
     width: 190px;
 }
 
-#download a span#software {
+.download a span#software {
     position: relative;
     display: block;
     left: 130px;
@@ -148,7 +148,7 @@ body,ul.dropdown {
     padding-top: 10px;
 }
 
-#download a span#action {
+.download a span#action {
     position: relative;
     display: block;
     left: 130px;
@@ -156,7 +156,7 @@ body,ul.dropdown {
     color: white;
 }
 
-#download a span#version {
+.download a span#version {
     position: relative;
     display: block;
     left: 130px;
