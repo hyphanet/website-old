@@ -56,7 +56,7 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-1222.exe">the
+	  run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
 	      installer</a> (8MB)</big><br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
@@ -117,14 +117,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_1222.jar">http://freenet.googlecode.com/files/new_installer_offline_1222.jar</a> -O new_installer_offline.jar
+	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternatively,
-	  downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_1222.jar">the
+	  downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">the
 	    installer</a>
-	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_1222.jar.sig">gpg
+	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">gpg
 	    signature</a>) and then clicking on the file may work on
 	  some systems, but if there are problems we recommend the
 	  above command lines.
@@ -135,7 +135,7 @@
 	</p>
 	
 	<pre>
-	  wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
+	  wget <a href="http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2</a>
 	  cat freenet07.tar.gz | gzip -d | tar xv
 	  cd freenet
 	  ./run.sh start</pre>
@@ -340,6 +340,6 @@
 	  <b>Source Code:</b>
 	  See <a href="developer.html">the developer page</a> 
 	  for git access, or download the lastest stable
-	  tarball <a href="http://freenet.googlecode.com/files/freenet-build01222-source.tar.bz2">here</a>.
+	  tarball <a href="http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a>.
 	</small>
       </p>

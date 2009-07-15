@@ -17,7 +17,7 @@
       </div>
       
       <div id="windows" class="sprites download">
-   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-1222.exe">
+   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
    	   <span id="software">Freenet</span>
    	   <span id="action">Download</span>
    	   <span id="version">0.7.5 for Windows</span>
@@ -25,7 +25,7 @@
       </div>
 	
 	<div id="unix" class="download sprites">
-	     <a href="http://freenet.googlecode.com/files/new_installer_offline_1222.jar">
+	     <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">
 	     	<span id="software">Freenet</span>
 	     	<span id="action">Download</span>
 	     	<span id="version">0.7.5 for Unix</span>
