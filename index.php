@@ -51,14 +51,14 @@ include 'includes/common.inc.php';
 	<div id="logo" class="sprites">
 	  <a href="index.html"></a>
 	</div>
-	<div id="lang">
+	<!--<div id="lang">
 	  <p> Select your language :
 	    <a class="drapeau" href="it/home.html">it</a> 
 	    <a class="drapeau" href="es/home.html">es</a>
 	    <a class="drapeau" href="fr/home.html">fr</a> 
 	    <a id="selected-lang" class="drapeau">en</a>
 	  </p>
-	</div>
+	</div>-->
       </div>
     </div>
 

@@ -20,6 +20,10 @@ pre {
 
 div#content div#whatis p { font-size: 135%; }
 
+div.hideit {
+    visibility: hidden;
+}
+
 #header, #footer{
     width: 800px;
     margin: auto;
@@ -220,6 +224,9 @@ ul.default{
  * @link		http://www.lwis.net/
  * @copyright	2006-2008 Live Web Institute. All Rights Reserved.
  *
+ *
+ * Licensed under the GLP
+ *
  */
 
 ul.dropdown,
@@ -300,6 +307,8 @@ ul.dropdown li.rtl ul ul {
  * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
  * Expected directory tag - li
  *
+ * Licensed under GLP
+ *
  */
 
 
@@ -336,14 +345,14 @@ ul.dropdown li.dir ul li{
     background-color: #adafa2;
     color: #fff;
     height: 30px;
-    width: 125px;
+    width: 150px;
     font-size: 1em;
 }
 
 ul.dropdown li.dir ul li a{
     text-align: left;
     padding-left: 7px;
-    width: 118px;
+    width: 143px;
     height: 30px;
     line-height:30px;
 }
