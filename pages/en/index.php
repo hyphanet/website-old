@@ -23,6 +23,14 @@
    	   <span id="version">0.7.5 for Windows</span>
    	</a>
       </div>
+
+      <div id="jws" class="sprites download">
+        <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
+   	   <span id="software">Freenet</span>
+   	   <span id="action">Download</span>
+   	   <span id="version">0.7.5</span>
+   	</a>
+      </div>
 	
 	<div id="unix" class="download sprites">
 	     <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">
@@ -38,6 +46,10 @@
   	     	<span id="action">Download</span>
 	     	<span id="version">0.7.5 for Mac</span>
 	     </a>
+	</div>
+
+	<div id="default">
+	     <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
 	</div>
 
 	<p style="clear:both;">If you need further informations about installation, click <a href="download.html">here</a>.</p>
@@ -56,6 +68,9 @@
       </div>
 
       <script type="text/javascript"><!--
+			 // Try to detect if Sun Java 1.5.0 or higher is installed
+			 var Java = PluginDetect.isMinVersion('Java', '1,5,0');
+			 
 			 // Os detection
 			 var OSName="";
 			 if (navigator.appVersion.indexOf("Win")!=-1)
@@ -67,8 +82,18 @@
 			 else if (navigator.appVersion.indexOf("Linux")!=-1)
 			      OSName="unix";
 			 
-			 hideDiv("windows");
-			 hideDiv("macos");
-			 hideDiv("unix");
-			 showDiv(OSName);
+			 hideDiv("jws");
+			 hideDiv("default");
+  			 hideDiv("windows");
+ 			 hideDiv("macos");
+  			 hideDiv("unix");
+  			 if(OSName == "windows") {
+				showDiv("windows");
+  		         } else if(Java >= 1 && navigator.javaEnabled()) {
+    			       	showDiv("jws");
+  		 	 } else if (OSName != "") {
+			       	showDiv(OSName);
+			 } else {
+				showDiv("default");
+			 }
       </script>
