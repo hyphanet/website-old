@@ -13,7 +13,7 @@ include 'includes/common.inc.php';
 	<meta name="language"    content="en">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="/style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		function hideDiv( whichDivId )
 		{
@@ -45,11 +45,24 @@ include 'includes/common.inc.php';
 </head>
 
 <body>
-<div id="top">
-	<a href="http://freenetproject.org/" style="text-decoration:none; border:none;
-	display:block; height:48px; width:250px;" alt="The Free Network Project">&nbsp;</a>
-</div>
 
+    <div id="backheader" class="sprites">
+      <div id="header" class="sprites">
+	<div id="logo" class="sprites">
+	  <a href="index.html"></a>
+	</div>
+	<div id="lang">
+	  <p> Select your language :
+	    <a class="drapeau" href="it/home.html">it</a> 
+	    <a class="drapeau" href="es/home.html">es</a>
+	    <a class="drapeau" href="fr/home.html">fr</a> 
+	    <a id="selected-lang" class="drapeau">en</a>
+	  </p>
+	</div>
+      </div>
+    </div>
+
+<div id="backmenu">	
 <div id="menu">	
 	<? 
 		// Include language specific menu-file 
@@ -66,16 +79,19 @@ include 'includes/common.inc.php';
 	?>
 	<br>
 </div>
+</div>
 
 <div id="content"><? 	include (escapeshellcmd($file));  ?>
-
-<div id="footer">
-<!--<p><? //echo otherLanguages(); ?></p>-->
-<p>
-This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
-</p>
 </div>
-</div>
+<div id="backfooter">
+     <div id="footer">
+	<p>
+	  <b>Contact</b> : Press enquiries should be directed
+	  to <a href="mailto:ian@locut.us">Ian Clarke</a><br/>
+	  This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
+	</p>
+      </div>
+    </div>
 	<div class="hideit">Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)</div>
 
 	<script type="text/javascript">

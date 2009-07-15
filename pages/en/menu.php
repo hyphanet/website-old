@@ -1,115 +1,41 @@
-<?
-//    Last edited Saturday, October 04, 2003
-$pos = 1;
-$menus = array(
-		'Home'				=> '/index',
-		'Download'			=> '/download',
-		'About'				=> '/whatis',
-		'sub-about'			=> array(
-			'What is Freenet?' => '/whatis',
-			'Philosophy'	=> '/philosophy',
-			'Papers'		=> '/papers',
-			'People'		=> '/people',
-			'Blog'			=> '/news'),
-		'Help'				=> '/documentation',
-		'sub-help'			=> array(
-			'Documentation'	=> '/documentation',
-			'FAQ'			=> '/faq',
-			'Mailing lists'	=> '/lists',
-			'Suggestions'	=> 'http://freenet.uservoice.com/',
-			'Wiki'			=> 'http://wiki.freenetproject.org'),
-		'Donate'			=> '/donate',
-		'sub-donate'		=> array(
-			'Donate'		=> '/donate',
-			'Sponsors'		=> '/sponsors',
-			'Buy stuff'		=> 'http://www.cafeshops.com/freenetproject'),
-		'Developer' 			=> '/developer',
-		'sub2' 				=> array(
-			'Source Code'	=> '/developer',
-			'Freenet Specs' => 'http://wiki.freenetproject.org/FreenetSpecifications',
-			'Bug Tracker' 	=> 'https://bugs.freenetproject.org/'),
-);
-
-function lnk($text, $link) {
-	echo '<li><a href="'.$link.'">'.$text.'</a></li>';
-}
-
-function showMenu($category) {
-	echo '<ul class="submenu">';	
-	foreach ($category as $subtitle => $sublink) {
-		if (strcmp(substr($sublink, 0, 4), 'http')) {
-			simple_page($subtitle, $sublink);
-		} else {
-			lnk($subtitle, $sublink);
-		}
-		/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
-	}
-	echo '</ul>';
-}
-
-function simple_page($text, $link) {
-	global $page;
-	//far away from perfect but better than nothing!
-	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
-	if ($link == $page) {
-		echo '<li><span class="selected-menu">'.$text.'</span></li>';
-	} else {
-		lnk($text, $link.".html");
-	}
-}
-
-function page($text, $link) {
-	global $page;
-	global $menus;
-	//far away from perfect but better than nothing!
-	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
-	if ($link == $page ||
-	($text == "Help" && in_array("$page", $menus["sub-help"])) ||
-	($text == "About" && in_array("$page", $menus["sub-about"])) ||
-	($text == "Donate" && in_array("$page", $menus["sub-donate"])) ||
-	($text == "Developer" && in_array("$page", $menus["sub2"]))) {
-		echo '<li><span class="selected-menu">'.$text.'</span></li>';
-	} else {
-		lnk($text, $link.".html");
-	}
-}
-
-echo '<ul class="menu">';
-foreach($menus as $title => $link) {
-	if (!stristr(substr($title, 0, 3), 'sub'))
-	{	
-		if (strcmp(substr($link, 0, 4), 'http')) {
-			page($title, $link);
-		} else {
-			lnk($title, $link);
-		}	
-	}
-	else
-	{
-		if (("$page" == '/documentation' || in_array("$page", $menus["sub-help"])) &&
-			"$title" == "sub-help") {
-			showMenu($menus["$title"]);
-		}
-		
-		if (("$page" == '/developer' || in_array("$page", $menus["sub2"])) &&
-			"$title" == "sub2") {
-			showMenu($menus["$title"]);
-		}
-		
-		if (("$page" == '/whatis' || in_array("$page", $menus["sub-about"])) &&
-			"$title" == "sub-about") {
-			showMenu($menus["$title"]);
-		}
-		
-		if (("$page" == '/donate' || in_array("$page", $menus["sub-donate"])) &&
-			"$title" == "sub-donate") {
-			showMenu($menus["$title"]);
-		}
-		
-		
-		
-	}
-}
-echo '</ul>';
-?>
-
+    <div id="backmenu">
+      <div id="menu">
+	<ul id="nav" class="dropdown dropdown-horizontal">
+	  <li class="simple"><a href="index.html">Home</a></li>
+	  <li class="simple"><a href="download.html">Download</a></li>
+	  <li class="dir"><a href="whatis.html">About</a>
+	    <ul>
+	      <li><a href="whatis.html">What is Freenet?</a></li>
+	      <li><a href="news.html">News</a></li>
+	      <li><a href="philosophy.html">Philosophy</a></li>
+	      <li><a href="people.html">People</a></li>
+	      <li><a href="papers.html">Papers</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="documentation.html">Help</a>
+	    <ul>
+	      <li><a href="documentation.html">Documentation</a></li>
+	      <li><a href="faq.html">FAQ</a></li>
+	      <li><a href="lists.html">Mailing lists</a></li>
+	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
+	      <li><a href="http://wiki.freenetproject.org/">Wiki</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="donate.html">Donate</a>
+	    <ul>
+	      <li><a href="donate.html">Donate</a></li>
+	      <li><a href="sponsors.html">Sponsors</a></li>
+	      <li><a href="http://www.cafeshops.com/freenetproject">Buy Stuff!</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="developer.html">Contribute</a>
+	    <ul>
+	      <li><a href="developer.html">Source code</a></li>
+	      <li><a href="http://wiki.freenetproject.org/FreenetSpecifications">Freenet specs</a></li>
+	      <li><a href="http://bugs.freenetproject.org/">Bug tracker</a></li>
+	      <li><a href="translation.html">Translation</a></li>
+	    </ul>
+	  </li>
+	</ul>
+      </div>
+    </div>

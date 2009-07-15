@@ -1,110 +1,359 @@
-body {
-	padding: 10px 10px;
-	background:url(image/gradient.png) repeat-x ;
-}
-
-div#menu {
-	font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif; 
-	float:left;
-	/* fixed width is needed for IE: see http://archives.freenetproject.org/message/20080604.081350.896d3fc2.en.html */
-	width: 9.5em;
-	font-style: normal;
-	font-weight: normal;
-	text-align: left;
-	line-height: 100%;
-	color: #000000;
-	background: #CCDDFF;
-	text-decoration: none;
-	margin-top: 15px;
-	margin-bottom: 10px;
-	border: 1px solid #99CCFF;
-}
-
-
-div#top {
-	background:url(image/banner.png) no-repeat;
-	width: 700px;
-	height: 48px;
-	margin: auto;
-	margin-bottom: 15px;
-	margin-left: 0%;
-}
-		
-div#content {
-	/*font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;*/
-	padding-left:20px;
-	font-style: normal;
-	font-size: 14px;
-	font-weight: normal;
-	color: #000000;
-	margin-left: 10.5em;
-	min-width: 20em;
-}
-
-#content h2 {
-font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;
-}
-#content h3 {
-font-family: Sans-serif, Arial, "Times New Roman", Georgia, Times, serif;
-padding: 20px 0px 0px 0px;
-
-}
-
-div#footer {
-	text-align: center;
-	clear: both;
-}
-
-div#content li { list-style-type: square; }
-
-li { padding: 5px; }
-a:link { text-decoration: none; color: #0033AA }
-a:visited { text-decoration: none; color: #0033AA }
-a:hover { text-decoration: none; color: #0033AA }
-
-div.hideit { display: none; }
+.sprites {background:url('image/sprites.png');}
 
 pre { 
-		background-color: #eee;
-		margin-left: 20px;
-		font-size:12px;
-		padding: 10px;
-		border: 1px dashed #ccc; 
-	}
-
-
-div#menu a:link {color:#000;}
-div#menu a:visited {color:#000;}
-div#menu a:hover {color:#13B;}
-div#menu img {border: 0;}
-
-.menu {
-		/* width: 155px; */
-		font-size: 16px;		
-		list-style-type: none; 		
-		list-style-position: inside;
-		margin:0 0 0 0; 
-		padding:0; 
-	  }
-	  
-.submenu { 
-			list-style-type: none; 
-			font-size: 75%;
-			margin: 0 0 0 1em;
-			padding: 0;
+    background: #eee; 
+    border: 1px dashed #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.shop {
-	width: 100%;
-	background: #FFFFFF;
-	text-align: center;
+#content {
+    background: #fff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+    width: 800px;
+    margin: auto;
+    border-left: #aaa 1px solid;
+    border-right: #aaa 1px solid;
 }
 
-.selected-menu {
-	font-weight: bold;
-	color:#13B;
+div#content div#whatis p { font-size: 135%; }
+
+#header, #footer{
+    width: 800px;
+    margin: auto;
+    color: white;
 }
 
-.paper-text { padding: 10px 0px 0px 30px; }
-.videoimage { vertical-align: top; padding-top:14px; padding-left:7px;}
-.pdfimage { vertical-align: top; padding-top:14px;}
+#footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+#footer p {
+    margin: 0;
+    font-style: italic;
+}
+
+#footer a {
+    color: white;
+    font-style: normal;
+}
+
+#footer a:hover {
+    color: #bbb;
+}
+
+#backheader {
+    height: 90px;
+    background-image:url('image/header_back.png');
+}
+
+#backfooter {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url('image/header_back.png');
+}
+
+#logo{
+    float:left;
+    width: 250px;
+    height: 90px;
+    background-position: 0px 0px;
+}
+
+#logo  a{
+    display: block;
+    width: 250px;
+    height: 90px;
+}
+
+#menu{
+    width: 800px;
+    margin: auto;
+}
+#backmenu{
+    height: 30px;
+    background-image:url('image/menu_back.png');
+}
+
+div#lang {
+    float: right;
+}
+
+div#lang p {
+    clear: both;
+}
+
+div#lang #selected-lang{
+    visibility: hidden;
+    margin-left: -1em;
+}
+
+.drapeau{
+    float: right;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+a.drapeau:hover {
+    color: #aaa;
+}
+
+body,ul.dropdown {
+    padding: 0px;
+    margin: 0px;
+}
+
+#whatis , #download{
+    position: relative;
+    left: 0;
+    width: 50%;
+    float:left;
+}
+
+#download {
+    width: 320px;
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    float:left;
+    background-position: 0px -90px;
+    clear: both;
+}
+
+#download:hover{
+    background-position: 0px -200px;
+}
+
+#download a {
+    display: block;
+    text-decoration: none;
+    height: 110px;
+    width: 190px;
+}
+
+#download a span#software {
+    position: relative;
+    display: block;
+    left: 130px;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+
+#download a span#action {
+    position: relative;
+    display: block;
+    left: 130px;
+    font-size: 20px;
+    color: white;
+}
+
+#download a span#version {
+    position: relative;
+    display: block;
+    left: 130px;
+    font-size: 15px;
+    color: white;
+}
+
+p{
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#news{
+    clear:both;
+}
+
+div#news h4,
+div#news p{
+    margin: 0;
+}
+
+#screenshots{
+    right:0%;
+    float:right;
+    width: 48%;
+    height: 320px;
+    margin-top: 20px;
+}
+
+#people h5 {
+    margin-bottom:-1em;
+}
+
+#papers img {
+    float: left;
+    clear: left;
+    margin-right: 5px;
+    margin-bottom: 1em;
+}
+
+#papers hr {
+    clear: left;
+}
+
+#sponsors li {
+    margin-bottom: 1em; 
+}
+
+a img { border:none; }
+
+ul.default{
+    font-size: 11pt;
+}
+/**
+ * Horizontal CSS Drop-Down Menu Module
+ *
+ * @file		dropdown.css
+ * @package		Dropdown
+ * @version		0.7.1
+ * @type		Transitional
+ * @stacks		597-599
+ * @browsers	Windows: IE6+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2006-2008 Live Web Institute. All Rights Reserved.
+ *
+ */
+
+ul.dropdown,
+ul.dropdown li,
+ul.dropdown ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.dropdown {
+    position: relative;
+    z-index: 597;
+    float: left;
+}
+
+ul.dropdown li {
+    float: left;
+    line-height: 1.3em;
+    vertical-align: middle;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    position: relative;
+    z-index: 599;
+    cursor: default;
+}
+
+ul.dropdown ul {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 598;
+    width: 100%;
+}
+
+ul.dropdown ul li {
+    float: none;
+}
+
+ul.dropdown ul ul {
+    top: 1px;
+    left: 99%;
+}
+
+ul.dropdown li:hover > ul {
+    visibility: visible;
+}
+
+
+ul.dropdown li.rtl ul {
+    top: 100%;
+    right: 0;
+    left: auto;
+}
+
+ul.dropdown li.rtl ul ul {
+    top: 1px;
+    right: 99%;
+    left: auto;
+}
+
+/** 
+ * Default CSS Drop-Down Menu Theme
+ *
+ * @file		default.css
+ * @name		Default
+ * @version		0.1
+ * @type		transitional
+ * @browsers	Windows: IE5+, Opera7+, Firefox1+
+ *				Mac OS: Safari2+, Firefox2+
+ *
+ * @link		http://www.lwis.net/
+ * @copyright	2008 Live Web Institute. All Rights Reserved.
+ *
+ * Module Classes: *.dir {} *.on {} *.open {} li.hover {} li.first {} li.last {}
+ * Expected directory tag - li
+ *
+ */
+
+
+/*-------------------------------------------------/
+ * @section		Base Drop-Down Styling
+ * @structure	ul (unordered list)
+ *				ul li (list item)
+ *				ul li a (links)
+ *				/*\.class|(li|a):hover/
+ * @level sep	ul
+ */
+
+
+ul.dropdown {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dropdown li.dir, ul.dropdown li.simple, ul.dropdown a{
+    text-align: center;
+    display: block;
+    height: 30px;
+    width: 125px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.dropdown a{
+    padding-top: 0px;
+    line-height:30px;
+}
+
+
+ul.dropdown li.dir ul li{
+    background-color: #adafa2;
+    color: #fff;
+    height: 30px;
+    width: 125px;
+    font-size: 1em;
+}
+
+ul.dropdown li.dir ul li a{
+    text-align: left;
+    padding-left: 7px;
+    width: 118px;
+    height: 30px;
+    line-height:30px;
+}
+
+ul.dropdown li.hover,
+ul.dropdown li:hover {
+    background-color: #4f4f46;
+}
+
+ul.dropdown a:link,
+ul.dropdown a:visited	{ color: #fff; text-decoration: none; }
+ul.dropdown a:hover {background:#4f4f46;}
+ul.dropdown a:active	{ color: white; }
