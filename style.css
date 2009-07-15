@@ -345,14 +345,14 @@ ul.dropdown li.dir ul li{
     background-color: #adafa2;
     color: #fff;
     height: 30px;
-    width: 150px;
+    width: 18ex;
     font-size: 1em;
 }
 
 ul.dropdown li.dir ul li a{
     text-align: left;
-    padding-left: 7px;
-    width: 143px;
+    padding-left: 2ex;
+    width: 16ex;
     height: 30px;
     line-height:30px;
 }
