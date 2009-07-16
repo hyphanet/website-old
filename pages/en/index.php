@@ -14,8 +14,8 @@
       <div id="screenshots">
 	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot.png"
 	alt="freenet screenshot" width="100%" /></a>
-      </div>
-      
+      </div>      
+
       <div id="windows" class="sprites download">
    	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
    	   <span id="software">Freenet</span>
@@ -52,7 +52,7 @@
 	     <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
 	</div>
 
-	<p style="clear:both;">If you need further informations about installation, click <a href="download.html">here</a>.</p>
+	<p style="clear:both; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
       <div id="news">
 	<h4>Latest news</h4>
