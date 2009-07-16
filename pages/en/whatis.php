@@ -60,5 +60,5 @@
       </p>
       
       <p>
-	Sounds good? <a href="../download.html">Try it!</a>
+	Sounds good? <a href="download.html">Try it!</a>
       </p>
