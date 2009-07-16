@@ -68,6 +68,11 @@
       </div>
 
       <script type="text/javascript"><!--
+			 hideDiv("jws");
+  			 hideDiv("windows");
+ 			 hideDiv("macos");
+  			 hideDiv("unix");
+
 			 // Try to detect if Sun Java 1.5.0 or higher is installed
 			 var Java = PluginDetect.isMinVersion('Java', '1,5,0');
 			 
@@ -82,17 +87,15 @@
 			 else if (navigator.appVersion.indexOf("Linux")!=-1)
 			      OSName="unix";
 			 
-			 hideDiv("jws");
-			 hideDiv("default");
-  			 hideDiv("windows");
- 			 hideDiv("macos");
-  			 hideDiv("unix");
   			 if(OSName == "windows") {
 				showDiv("windows");
+				hideDiv("default");
   		         } else if(Java >= 1 && navigator.javaEnabled()) {
     			       	showDiv("jws");
+				hideDiv("default");
   		 	 } else if (OSName != "") {
 			       	showDiv(OSName);
+				hideDiv("default");
 			 } else {
 				showDiv("default");
 			 }
