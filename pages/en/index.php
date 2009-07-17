@@ -16,6 +16,10 @@
 	alt="freenet screenshot" width="100%" /></a>
       </div>      
 
+      <div id="default">
+      	   <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
+      </div>
+
       <div id="windows" class="sprites download">
    	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
    	   <span id="software">Freenet</span>
@@ -27,8 +31,8 @@
       <div id="jws" class="sprites download">
         <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
    	   <span id="software">Freenet</span>
-   	   <span id="action">Download</span>
-   	   <span id="version">0.7.5</span>
+   	   <span id="action">Install</span>
+   	   <span id="version">0.7.5 with Java Web Start</span>
    	</a>
       </div>
 	
@@ -36,23 +40,11 @@
 	     <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">
 	     	<span id="software">Freenet</span>
 	     	<span id="action">Download</span>
-	     	<span id="version">0.7.5 for Unix</span>
+	     	<span id="version">0.7.5 for Linux/Unix</span>
 	     </a>
 	</div>
 	
-	<div id="macos" class="download sprites">
-	     <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
-	     	<span id="software">Freenet</span>
-  	     	<span id="action">Download</span>
-	     	<span id="version">0.7.5 for Mac</span>
-	     </a>
-	</div>
-
-	<div id="default">
-	     <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
-	</div>
-
-	<p style="clear:both; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
+	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
       <div id="news">
 	<h4>Latest news</h4>
@@ -70,7 +62,6 @@
       <script type="text/javascript"><!--
 			 hideDiv("jws");
   			 hideDiv("windows");
- 			 hideDiv("macos");
   			 hideDiv("unix");
 
 			 // Try to detect if Sun Java 1.5.0 or higher is installed
@@ -90,7 +81,7 @@
   			 if(OSName == "windows") {
 				showDiv("windows");
 				hideDiv("default");
-  		         } else if(Java >= 1 && navigator.javaEnabled()) {
+  		         } else if((Java >= 1 && navigator.javaEnabled()) || OSName == "macos") {
     			       	showDiv("jws");
 				hideDiv("default");
   		 	 } else if (OSName != "") {

@@ -126,7 +126,8 @@ body,ul.dropdown {
     width: 320px;
     height: 110px;
     background-position: 0px -90px;
-    clear: both;
+    margin-top: 20px;
+    clear: left;
 }
 
 .download:hover{
@@ -136,8 +137,8 @@ body,ul.dropdown {
 .download a {
     display: block;
     text-decoration: none;
-    height: 110px;
-    width: 190px;
+    height: 100%;
+    width: 100%;
 }
 
 .download a span#software {
