@@ -116,14 +116,13 @@ body,ul.dropdown {
     margin: 0px;
 }
 
-#whatis , .download{
+#whatis, .download {
     position: relative;
-    left: 0;
     width: 50%;
     float:left;
 }
 
-.download {
+div.download {
     width: 320px;
     height: 110px;
     background-position: 0px -90px;
@@ -131,40 +130,38 @@ body,ul.dropdown {
     clear: left;
 }
 
-.download:hover{
+div.download:hover{
     background-position: 0px -200px;
 }
 
 .download a {
     display: block;
     text-decoration: none;
-    height: 100%;
-    width: 100%;
+    width: 320px;
+    height: 110px;
 }
 
-.download a span#software {
+.download a span#software, .download a span#action, .download a span#version {
     position: relative;
     display: block;
     left: 130px;
-    font-size: 30px;
     color: white;
+}
+
+.download a span#software {
+    width: 8ex;
+    font-size: 30px;
     padding-top: 10px;
 }
 
 .download a span#action {
-    position: relative;
-    display: block;
-    left: 130px;
+    width: 9ex;
     font-size: 20px;
-    color: white;
 }
 
 .download a span#version {
-    position: relative;
-    display: block;
-    left: 130px;
+    width: 21ex;
     font-size: 15px;
-    color: white;
 }
 
 p {
