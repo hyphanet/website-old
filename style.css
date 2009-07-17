@@ -62,6 +62,7 @@ div.hideit {
     padding-top: 10px;
     padding-bottom: 10px;
     background-image: url('image/header_back.png');
+    margin-bottom: -20px;
 }
 
 #logo{

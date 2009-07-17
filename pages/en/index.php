@@ -1,5 +1,5 @@
       <div id="whatistitle">
-	<h1>Share. Chat. Browse. Anonymously. On the Free&nbsp;Network</h1>
+	<h1>Share, Chat, Browse. Anonymously. On the Free&nbsp;Network.</h1>
       </div>
       <div id="whatis">
 	<p>
@@ -61,7 +61,7 @@
 	</p>
       </div>
 
-      <script type="text/javascript"><!--
+      <script type="text/javascript">
 			 hideDiv("jws");
   			 hideDiv("windows");
   			 hideDiv("unix");
@@ -83,7 +83,10 @@
   			 if(OSName == "windows") {
 				showDiv("windows");
 				hideDiv("default");
-  		         } else if((Java >= 1 && navigator.javaEnabled()) || OSName == "macos") {
+  		         } else if(OSName == "macos") {
+			   	showDiv("jws");
+				hideDiv("default");
+			 } else if(Java >= 1 && navigator.javaEnabled()) {
     			       	showDiv("jws");
 				hideDiv("default");
   		 	 } else if (OSName != "") {
