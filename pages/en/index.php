@@ -1,5 +1,7 @@
+      <div id="whatistitle">
+	<h1>Share. Chat. Browse. Anonymously. On the Free&nbsp;Network</h1>
+      </div>
       <div id="whatis">
-	<h1>Share, chat and browse anonymously on the Free&nbsp;Network</h1>
 	<p>
 	  Freenet is free software which lets you anonymously share files, browse 
 	  and publish "freesites" (web sites accessible only through Freenet) and chat 
