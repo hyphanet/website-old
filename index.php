@@ -46,8 +46,8 @@ include 'includes/common.inc.php';
 
 <body>
 
-    <div id="backheader" class="sprites">
-      <div id="header" class="sprites">
+    <div id="backheader">
+      <div id="header">
 	<div id="logo" class="sprites">
 	  <a href="index.html"></a>
 	</div>

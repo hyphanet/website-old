@@ -125,7 +125,6 @@ body,ul.dropdown {
 .download {
     width: 320px;
     height: 110px;
-    float:left;
     background-position: 0px -90px;
     clear: both;
 }
@@ -166,7 +165,7 @@ body,ul.dropdown {
     color: white;
 }
 
-p{
+p {
     font-size: 0.9em;
     font-family: Arial, Helvetica, sans-serif;
 }
