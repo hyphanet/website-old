@@ -30,20 +30,26 @@
    	</a>
       </div>
 
-      <div id="jws" class="sprites download">
+      <div id="macos" class="sprites download">
         <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
    	   <span id="software">Freenet</span>
    	   <span id="action">Install</span>
-   	   <span id="version">0.7.5 with Java Web Start</span>
+   	   <span id="version">0.7.5 for Mac OS</span>
    	</a>
       </div>
 	
-	<div id="unix" class="download sprites">
-	     <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">
-	     	<span id="software">Freenet</span>
-	     	<span id="action">Download</span>
-	     	<span id="version">0.7.5 for Linux/Unix</span>
-	     </a>
+	<div id="unix">
+	     <div class="download sprites">
+	     	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
+	     	     <span id="software">Freenet</span>
+	     	     <span id="action">Install</span>
+	     	     <span id="version">0.7.5 for Linux/Unix</span>
+	     	  </a>
+	     </div>
+	     <p style="float: left; clear: left;">
+		If it doesn't work, please refer to the 
+	     	<a href="download.html#unix">installation instructions</a>
+	     </p>
 	</div>
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
@@ -62,9 +68,9 @@
       </div>
 
       <script type="text/javascript">
-			 hideDiv("jws");
   			 hideDiv("windows");
-  			 hideDiv("unix");
+			 hideDiv("macos");
+			 hideDiv("unix");
 
 			 // Try to detect if Sun Java 1.5.0 or higher is installed
 			 var Java = PluginDetect.isMinVersion('Java', '1,5,0');
@@ -83,16 +89,13 @@
   			 if(OSName == "windows") {
 				showDiv("windows");
 				hideDiv("default");
-  		         } else if(OSName == "macos") {
-			   	showDiv("jws");
-				hideDiv("default");
-			 } else if(Java >= 1 && navigator.javaEnabled()) {
-    			       	showDiv("jws");
-				hideDiv("default");
   		 	 } else if (OSName != "") {
 			       	showDiv(OSName);
 				hideDiv("default");
 			 } else {
+			   	showDiv("windows");
+				showDiv("macos");
+				showDiv("unix");
 				showDiv("default");
 			 }
       </script>

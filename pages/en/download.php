@@ -17,7 +17,8 @@
 	  security level to normal or low, and Freenet should just
 	work.
       </p>
-      
+
+      <!--      
       <div id="jws">
 	<h2>Installation Instructions</h2>
 	<p>
@@ -35,8 +36,9 @@
 	    and Unix-like instructions</a>). 
 	</p>
       </div>
+      -->  
       
-      <div style="display: none;" id="nojws">
+      <div id="nojws">
 	
 	<h2>Installation Instructions</h2>
 	<p>
@@ -92,7 +94,11 @@
       <div id="unix">
 	
 	<h3>Linux and other Unix-like systems</h3>
-	
+
+	<p>
+	  Try the <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">JavaWebStart installer</a>.<br/>
+	  If it doesn't work, please try the instructions given below.
+	</p>	
 	<p>
 	  You need to have a recent <b>Java Runtime Environment</b>
 	  (JRE). We have experienced best results with Sun's Java
@@ -183,9 +189,9 @@
 	
       </div>
       
-      <script type="text/javascript"><!--
+      <script type="text/javascript">
 					 // Try to detect if Sun Java 1.5.0 or higher is installed
-					 var Java = PluginDetect.isMinVersion('Java', '1,5,0');
+					 //var Java = PluginDetect.isMinVersion('Java', '1,5,0');
 					 
 					 // Os detection
 					 var OSName="";
@@ -198,24 +204,16 @@
 					 else if (navigator.appVersion.indexOf("Linux")!=-1)
 					 OSName="unix";
 					 
-					 hideDiv("jws");
-					 hideDiv("nojws");
 					 hideDiv("windows");
 					 hideDiv("macos");
 					 hideDiv("unix");
-					 if(OSName == "windows") {
-					 // Disable JWS on Windows
-					 // Windows vista/7 have UAC enabled by default. We need to propose the .exe as JWS won't work :|
-					 // But the wininstaller is better than the JWS installer anyway, so use it for all Windows.
-					 showDiv("nojws");
-					 showDiv("windows");
-					 } else if(Java >= 1 && navigator.javaEnabled()) {
-					 showDiv("jws");
-					 } else if (OSName != "") {
-					 showDiv("nojws");
-					 showDiv(OSName);
+					 if (OSName != "") {
+					   showDiv(OSName);
+					 } else {
+					   showDiv("windows");
+					   showDiv("macos");
+					   showDiv("unix");
 					 }
-					 //-->
       </script>
       
       <h3>Firewalls and routers</h3>
