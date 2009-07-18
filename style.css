@@ -144,7 +144,7 @@ div.download:hover{
 .download a span#software, .download a span#action, .download a span#version {
     position: relative;
     display: block;
-    left: 130px;
+    left: 115px;
     color: white;
 }
 
@@ -157,11 +157,13 @@ div.download:hover{
 .download a span#action {
     width: 9ex;
     font-size: 20px;
+    margin-top: -2px;
 }
 
 .download a span#version {
-    width: 21ex;
-    font-size: 15px;
+    width: 26ex;
+    font-size: 12px;
+    margin-top: 4px;
 }
 
 p {
