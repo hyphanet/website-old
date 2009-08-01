@@ -141,7 +141,7 @@
 	</p>
 	
 	<pre>
-	  wget <a href="http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2</a>
+	  wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 	  cat freenet07.tar.gz | gzip -d | tar xv
 	  cd freenet
 	  ./run.sh start</pre>
