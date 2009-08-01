@@ -57,11 +57,11 @@
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
-	  (07/08/2009) <a href="news.html#big-donation-german-finance">Big
+	  (08 July 2009) <a href="news.html#big-donation-german-finance">Big
 	    donation from</a> <a href="http://www.finanzvergleich.de/">German finance site</a><br/>
-	  (06/12/2009) <a href="news.html#freenet-0-7-5-released">Freenet
+	  (12 June 2009) <a href="news.html#freenet-0-7-5-released">Freenet
 	    0.7.5 released!</a><br/>
-	  (05/07/2009) <a href="/news.html#another-big-donation-google">Another
+	  (7th May 2009) <a href="/news.html#another-big-donation-google">Another
 	    big donation funds ongoing development</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
