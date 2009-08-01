@@ -57,6 +57,8 @@
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (30 July 2009) <a href="news.html#build1226">Improvements to security and
+	    preparation for big new performance feature in new stable build</a><br/>
 	  (08 July 2009) <a href="news.html#big-donation-german-finance">Big
 	    donation from</a> <a href="http://www.finanzvergleich.de/">German finance site</a><br/>
 	  (12 June 2009) <a href="news.html#freenet-0-7-5-released">Freenet

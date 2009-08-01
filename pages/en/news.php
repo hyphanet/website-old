@@ -1,5 +1,58 @@
       <h1>News</h1>
 
+	<a name="build1226"><h3>30th July, 2009 - Various security improvements and preparation for Bloom filter sharing in new stable build</h3></a>
+	
+	<p>
+	Build 1226 is now available, including many changes. Existing Freenet nodes will
+	update automatically. Some of the more interesting new features include:</p>
+	<ul>
+	<li><b>Finally fixing <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">The Register's attack</a>!</b><br>
+	In 2005, The Register discovered what many of us had known for some time - that
+	Freenet caches everything you visit in your datastore, and therefore that if
+	your computer is seized or stolen, the bad guys may be able to determine what
+	you have been browsing. Or they could even do it remotely by probing your
+	datastore. This is now fixed. Freenet does not store anything that you download,
+	visit, or upload, in your datastore. However, to maximise performance, we do
+	have a private cache of freesites you have visited, called the "client cache",
+	and we have a "slashdot cache" which caches everything else but only for 30
+	minutes, to help with <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
+	and flash floods. We had planned to fix this with encrypted tunnels (formerly
+	known as premix routing), but that is a difficult project which may cost a lot
+	of performance. The changes in this build may reduce performance slightly, but 
+	they will enable new things which should greatly improve performance, as well as
+	improving Freenet's usefulness in hostile regimes. No security system is 
+	perfect, but nonetheless Freenet may be better for a specific application than 
+	the alternatives, <b>especially if you can use darknet</b>, and darknet Freenet 
+	can function where very little else will.</li>
+	<li><b>Encryption for sensitive local data</b><br>
+	Both the new client cache and the downloads/uploads database can now be encrypted.
+	This is controlled by the "physical security level" setting. If you set this to
+	LOW, nothing is encrypted, not even temporary files, and Freenet will use less
+	CPU and work slightly faster. If you set it to NORMAL or higher, Freenet 
+	now encrypts your client cache and downloads database. At NORMAL, the keys are
+	kept in a file master.keys, so if you securely delete this file (or click the
+	panic button on the downloads page), both are gone. At HIGH, the keys are still
+	in master.keys, but it is password-protected. At MAXIMUM, the keys are not 
+	stored at all, they are different every time you start Freenet; this means
+	that your download queue will only last until the next restart, but at least
+	you can be sure that if you restart the node, nobody can tell what you were
+	doing with it. So you have detailed control over the tradeoff between security,
+	convenience and performance. This allows those with slow computers to use LOW,
+	and those who live in hostile regimes where their computer is likely to be
+	seized to use HIGH or MAXIMUM.</li>
+	<li><b>Preparation for Bloom filter sharing</b><br>
+	There were two reasons for all this. The first is to improve security for those
+	living in hostile regimes where their computer may be seized and they may get
+	into trouble for what they have been doing on Freenet. The second is to prepare
+	for the big performance feature for 0.8, Bloom filter sharing. Essentially, the
+	idea is that we tell our peers what keys we have in our datastore using a highly 
+	compressed data structure called a Bloom filter. We can then tell immediately
+	when one of our peers has the block we are looking for, potentially avoiding
+	searching and transferring the data through many other nodes. This should 
+	improve performance considerably, reducing latency, increasing download speeds,
+	and making it easier to find rare content. Watch this space!</li>
+	</ul>
+
       <a name="big-donation-german-finance"><h3>8th July, 2009 - Big
       donation from <a href="http://www.finanzvergleich.de">German
       finance site</a></h3></a>
