@@ -1,7 +1,7 @@
     <div id="backmenu">
       <div id="menu">
 	<ul id="nav" class="dropdown dropdown-horizontal">
-	  <li class="simple"><a href="index.html">Home</a></li>
+	  <li class="simple"><a href="home.html">Home</a></li>
 	  <li class="simple"><a href="download.html">Download</a></li>
 	  <li class="dir"><a href="whatis.html">About</a>
 	    <ul>
@@ -25,15 +25,15 @@
 	    <ul>
 	      <li><a href="donate.html">Donate</a></li>
 	      <li><a href="sponsors.html">Sponsors</a></li>
-	      <li><a href="http://www.cafeshops.com/freenetproject">Buy Stuff!</a></li>
+	      <li><a href="store.html">Store</a></li>
 	    </ul>
 	  </li>
-	  <li class="dir"><a href="developer.html">Contribute</a>
+	  <li class="dir"><a href="contribute.html">Contribute</a>
 	    <ul>
-	      <li><a href="developer.html">Source code</a></li>
+	      <li><a href="contribute.html">Source code</a></li>
 	      <li><a href="http://wiki.freenetproject.org/FreenetSpecifications">Freenet specs</a></li>
 	      <li><a href="http://bugs.freenetproject.org/">Bug tracker</a></li>
-	      <li><a href="translation.html">Translation</a></li>
+	      <li><a href="http://wiki.freenetproject.org/TranslatingFreenet">Translation</a></li>
 	    </ul>
 	  </li>
 	</ul>
