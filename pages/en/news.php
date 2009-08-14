@@ -1,5 +1,22 @@
       <h1>News</h1>
 
+	<a name="xml-vuln"><h3>8th July, 2009 - Upgrade your Java Virtual Machine <b>now</b>: severe XML vulnerability affecting Freenet</h3></a>
+	<p>If you are running Freenet on Java prior to 1.6 build 15 or 1.5 build 20, please upgrade as soon as possible.
+	Until you update Java, Freenet will disable the search function and various other plugins to
+	minimise risk. However, if you have untrusted people on your LAN (local network),
+	we recommend you <b>shut down Freenet immediately</b> until you are able to upgrade
+	your Java. Also, do not run Thaw, which is known to be vulnerable, until you have
+	upgraded, and do not accept jSite config files from anyone. Build 1228 of 
+	Freenet will tell you if your Java is vulnerable. Windows users generally will be 
+	notified by Java when updates are available; the situation may be more tricky for 
+	Linux and Mac OS/X users as they will have to wait for an update from their linux distributions
+	or from Apple respectively.</p>
+	
+	<p>For more details, see <a href="http://www.cert.fi/en/reports/2009/vulnerability2009085.html">here</a>.
+	The problem is a remote code execution vulnerability affecting Java and also some
+	other programs using certain XML parsing libraries. It was <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625">initially thought</a> to
+	be purely a denial of service attack, but there is exploit code circulating.</p>
+
 	<a name="build1226"><h3>30th July, 2009 - Various security improvements and preparation for Bloom filter sharing in new stable build</h3></a>
 	
 	<p>

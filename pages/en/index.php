@@ -57,6 +57,8 @@
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (8 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
+	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>
 	  (30 July 2009) <a href="news.html#build1226">Improvements to security and
 	    preparation for big new performance feature in new stable build</a><br/>
 	  (08 July 2009) <a href="news.html#big-donation-german-finance">Big
