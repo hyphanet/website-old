@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-	<a name="xml-vuln"><h3>8th July, 2009 - Upgrade your Java Virtual Machine <b>now</b>: severe XML vulnerability affecting Freenet</h3></a>
+	<a name="xml-vuln"><h3>8th August, 2009 - Upgrade your Java Virtual Machine <b>now</b>: severe XML vulnerability affecting Freenet</h3></a>
 	<p>If you are running Freenet on Java prior to 1.6 build 15 or 1.5 build 20, please upgrade as soon as possible.
 	Until you update Java, Freenet will disable the search function and various other plugins to
 	minimise risk. However, if you have untrusted people on your LAN (local network),
