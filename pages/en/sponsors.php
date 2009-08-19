@@ -65,6 +65,12 @@
 	    site, who have contributed $1,500.
 	  </li>
 	  
+	  <li>
+	    <a href="http://www.topdir.de" title="Top Directory">TopDir</a><br/>
+	    TopDir is a human edited web directory with informations about
+	    interesting topics and websites in the German language.
+	  </li>
+	  
 	</ul>
 
 	<p>
