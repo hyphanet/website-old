@@ -1,11 +1,9 @@
       <h1>Download Freenet</h1>
       <h3>Important note for first time users</h3>
       <p>
-	Freenet will run continually in the background, in order to
-	maximise performance. Running it only when you are using it
-	will not result in good performance. Freenet has a footprint
-	of around 200MB of RAM and 10% of a modern CPU, so this
-	should not be a problem. We strongly recommend you use the
+    For best performance, Freenet will run continually. It should
+    not interfere with your computer usage, as it requires around 
+    200MB of RAM and 10% of one CPU core. We strongly recommend you use the
 	links on the start menu to shut down Freenet when you play
 	computer games, and start it back up afterwards. We will
 	implement a system tray icon for this in future.
