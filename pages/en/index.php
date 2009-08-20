@@ -14,8 +14,8 @@
       </div>
 
       <div id="screenshots">
-	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot.png"
-	alt="freenet screenshot" width="383" height="238" /></a>
+	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
+	alt="freenet screenshot" width="450" height="363" /></a>
       </div>      
 
       <div id="default">
@@ -56,6 +56,7 @@
 
       <div id="news">
 	<h4>Latest news</h4>
+	<br>
 	<p>
 	  (8 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
 	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>
