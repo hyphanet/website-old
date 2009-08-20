@@ -5,10 +5,11 @@
       <p>
 	We are using <a href="http://git-scm.com/">git</a> as our
 	source code management system, hosted
-	on <a href="http://www.github.com/">github</a>. We keep both
-	the source code for Freenet itself, for the website, for the
-	official plugins and the various installers in git, so please 
-	read below if you are interested in contributing to any of these.
+	on <a href="http://www.github.com/">github</a>. We have many
+	different git repositories for the website, freenet itself (fred),
+	official plugins, the two installers, libraries and so on; 
+	for the list, see <a href="http://github.com/freenet/">our page on github</a>.
+	
       </p>
 
       <p>
@@ -27,10 +28,7 @@
 	git pull origin</pre>
 
       <p>
-	Visit <a href="http://github.com/freenet/">our page on
-	github</a> to see all the repositories (plugins, applications,
-	libraries, etc). More information on how to use git is further
-	down this page.
+    More information on how to use git is further down this page.
       </p>
 
       <p>
