@@ -10,9 +10,9 @@
       </p>
       <p>
 	If you know several people who are already using Freenet,
-	you can enable high security and only connect to them, but
+	you can enable high network security and only connect to them, but
 	if you do not know anyone on Freenet, you should set the
-	  security level to normal or low, and Freenet should just
+	network security level to normal or low, and Freenet should just
 	work.
       </p>
 
