@@ -30,7 +30,7 @@
 	  </li>
 	  <li class="dir"><a href="contribute.html">Contribute</a>
 	    <ul>
-	      <li><a href="contribute.html">Source code</a></li>
+	      <li><a href="developer.html">Source code</a></li>
 	      <li><a href="http://wiki.freenetproject.org/FreenetSpecifications">Freenet specs</a></li>
 	      <li><a href="http://bugs.freenetproject.org/">Bug tracker</a></li>
 	      <li><a href="http://wiki.freenetproject.org/TranslatingFreenet">Translation</a></li>
