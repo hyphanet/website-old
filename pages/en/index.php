@@ -15,7 +15,7 @@
 
       <div id="screenshots">
 	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
-	alt="freenet screenshot" width="450" height="363" /></a>
+	alt="freenet screenshot" width="383" height="309" /></a>
       </div>      
 
       <div id="default">
