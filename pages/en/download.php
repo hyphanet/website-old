@@ -10,10 +10,11 @@
       </p>
       <p>
 	If you know several people who are already using Freenet,
-	you can enable high network security and only connect to them, but
-	if you do not know anyone on Freenet, you should set the
-	network security level to normal or low, and Freenet should just
-	work.
+	you can tell Freenet to only connect to them, making your usage of
+	Freenet almost undetectable (and a bit slower), but if you don't
+	know anyone on Freenet, it can connect to other people using 
+	Freenet automatically. You will be asked about this in the wizard 
+	which shows up after installing Freenet.
       </p>
 
       <!--      
