@@ -101,7 +101,7 @@ Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 <pre>
 wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz"
 >http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
-cat freenet07.tar.gz | gzip -d | tar xv
+tar xvzf freenet07.tar.gz
 cd freenet
 ./run.sh start
 </pre>
