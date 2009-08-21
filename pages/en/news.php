@@ -1,5 +1,20 @@
       <h1>News</h1>
 
+
+	<a name="more-peers"><h3>21st August, 2009 - Freenet increases peers limit (#1 on uservoice)</h3></a>
+	<p>Freenet 0.7 build 1231 solves what was <a href="http://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
+	the number one uservoice request</a>. Until now, most Freenet nodes have had exactly 20 connections. Now,
+	the number of connections (opennet peers, or "Connections to Strangers") will vary according to how much
+	upstream bandwidth you have, between 10 and 40. So slow nodes will have fewer peers (trading slightly less
+	effective routing for more efficiency) and fast nodes will have more peers. Overall we expect this will
+	improve speed, but it is difficult to simulate these things, so lets find out!</p>
+	
+	<p>Also, <a href="http://code.google.com/soc/">Google Summer of Code</a> is now over, and all of our
+	students have passed. Much of their work is still in the process of being merged into Freenet itself.
+	Still to come, better friend to friend file transfers, a new CSS filter, a filter for ATOM feeds, a new
+	search plugin with many improvements and a new scalable index format, and much greater (but still 
+	optional) use of javascript in the web interface to make it more responsive.</p>
+
 	<a name="xml-vuln"><h3>8th August, 2009 - Upgrade your Java Virtual Machine <b>now</b>: severe XML vulnerability affecting Freenet</h3></a>
 	<p>If you are running Freenet on Java prior to 1.6 build 15 or 1.5 build 20, please upgrade as soon as possible.
 	Until you update Java, Freenet will disable the search function and various other plugins to

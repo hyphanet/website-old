@@ -58,6 +58,7 @@
 	<h4>Latest news</h4>
 	<br>
 	<p>
+	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
 	  (8 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
 	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>
 	  (30 July 2009) <a href="news.html#build1226">Improvements to security and
@@ -66,8 +67,6 @@
 	    donation from</a> <a href="http://www.finanzvergleich.de/">German finance site</a><br/>
 	  (12 June 2009) <a href="news.html#freenet-0-7-5-released">Freenet
 	    0.7.5 released!</a><br/>
-	  (7th May 2009) <a href="/news.html#another-big-donation-google">Another
-	    big donation funds ongoing development</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
