@@ -318,7 +318,7 @@
 	<li>Windows users can upgrade to the latest-stable Freenet
 	  release by clicking on "update.cmd" in the Freenet
 	  directory.</li>
-	<li>Linux users may similarly upgrade by running the
+	<li>Mac and Linux users may similarly upgrade by running the
 	  update.sh shell script in the Freenet directory.</li>
       </ul>
       
