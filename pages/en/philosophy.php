@@ -2,7 +2,7 @@
       <h6> By Ian Clarke </h6>
       <p>
 	<ol>
-	  <li><a href="#disclaimer">A Dislaimer</a></li>
+	  <li><a href="#disclaimer">A Disclaimer</a></li>
 	  <li><a href="#prior_reading">Suggested prior reading</a></li>
 	  <li><a href="#free_flow_info">The importance of the Free flow of
 	      information</a></li>
