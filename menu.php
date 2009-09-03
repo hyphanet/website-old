@@ -25,7 +25,7 @@
 	    <ul>
 	      <li><a href="donate.html">Donate</a></li>
 	      <li><a href="sponsors.html">Sponsors</a></li>
-	      <li><a href="store.html">Store</a></li>
+	      <li><a href="http://www.cafepress.co.uk/freenetproject">Store</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="contribute.html">Contribute</a>
