@@ -180,14 +180,6 @@ div#news p{
     margin: 0;
 }
 
-#screenshots{
-    right:0%;
-    float:right;
-    width: 48%;
-    height: 320px;
-    margin-top: 1em;
-}
-
 #people h5 {
     margin-bottom:-1em;
 }
@@ -369,3 +361,53 @@ ul.dropdown a:link,
 ul.dropdown a:visited	{ color: #fff; text-decoration: none; }
 ul.dropdown a:hover {background:#4f4f46;}
 ul.dropdown a:active	{ color: white; }
+
+/* iCarousel */
+
+#screenshots_container {
+    right:15px;
+    float:right;
+    width: 48%;
+    height: 350px;
+}
+
+#screenshots {  
+    position: relative; /* important */
+    overflow: hidden; /* important */  
+    width: 405px; /* important */  
+    height: 350px; /* important */  
+}  
+  
+#screenshots_frame {position: relative}  
+#screenshots_previous {float: left;}  
+#screenshots_next {float: right;}  
+#screenshots_content {  
+    position: absolute;  
+    top: 0;  
+    margin-left: 20px;
+}  
+  
+#screenshots_content  
+#screenshots_content li {  
+    list-style: none;  
+    margin: 0;  
+    padding: 0;  
+}  
+
+#screenshots_content {  
+    width: 5418px;
+}  
+
+#screenshots ul li {  
+    display: block;  
+    float: left;  
+    margin: 5px;  
+    padding: 5px;  
+    border: 1px solid #666;  
+    background-color: #fff;  
+}  
+   
+#screenshots ul li img {  
+    display: block;  
+}  
+      

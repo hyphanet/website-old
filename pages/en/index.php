@@ -1,3 +1,26 @@
+<script type="text/javascript" src="js/mootools.v1.1.js"> </script>
+<script type="text/javascript" src="js/iCarousel-full.js"> </script>
+
+<script type="text/javascript">
+    window.addEvent("domready", function() {
+            new iCarousel("screenshots_content", {
+                    idPrevious: "screenshots_previous",
+                    idNext: "screenshots_next",
+                    idToggle: "undefined",
+                    item: {
+                            klass: "screenshots_item",
+                            size: 405
+                    },
+                    animation: {
+                            type: "scroll",
+                            duration: 400,
+                            amount: 1
+                    }
+            });
+    });
+</script>
+
+
       <div id="whatistitle">
 	<h1>Share, Chat, Browse. Anonymously. On the Free&nbsp;Network.</h1>
       </div>
@@ -13,10 +36,21 @@
 	</p>
       </div>
 
+      <div id="screenshots_container">
       <div id="screenshots">
-	<a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
-	alt="freenet screenshot" width="383" height="309" /></a>
+	<!--<a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
+	alt="freenet screenshot" width="383" height="309" /></a>-->
+        <ul id="screenshots_content">  
+         <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2" /></a></li>  
+         <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 3" /></a></li>  
+         <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 4" /></a></li>  
+        </ul>  
+        <div id="screenshots_frame">  
+         <img id="screenshots_previous" src="image/prev.png" alt="move previous" />  
+         <img id="screenshots_next" src="image/next.png" alt="move next" />  
+     	</div>  
       </div>      
+      </div>
 
       <div id="default">
       	   <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
@@ -70,6 +104,7 @@
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
+
 
       <script type="text/javascript">
   			 hideDiv("windows");
