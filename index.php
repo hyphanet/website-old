@@ -108,5 +108,24 @@ var _wh = ((document.location.protocol=='https:') ? "https://sec1.woopra.com" : 
 document.write(unescape("%3Cscript src='" + _wh + "/js/woopra.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <!-- Woopra Code End -->
+<!-- Uservoice feedback tab -->
+<script type="text/javascript">
+  var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  /* required */
+  key: 'freenet',
+  host: 'freenet.uservoice.com', 
+  forum: '8861', 
+  /* optional */
+  alignment: 'left',
+  background_color:'black', 
+  text_color: 'white',
+  hover_color: 'green',
+  lang: 'en'
+})
+</script>
 </body>
 </html>
