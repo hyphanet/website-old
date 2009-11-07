@@ -123,7 +123,7 @@ UserVoice.Tab.show({
   alignment: 'left',
   background_color:'black', 
   text_color: 'white',
-  hover_color: 'green',
+  hover_color: 'blue',
   lang: 'en'
 })
 </script>
