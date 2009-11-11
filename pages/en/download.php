@@ -288,7 +288,7 @@
       
       <h3>Hardware requirements</h3>
       <p>
-    Generally a 1GHz processor and 2GB of RAM should be fine. Freenet will run on smaller
+    Generally a 1GHz processor and 1GB of RAM should be fine. Freenet will run on smaller
     systems especially on older OSs, but it uses at least 128MB of RAM, so unless the system
     does nothing else, even on Windows XP it will struggle in less than 512MB. However, the 
     processor is less of a problem, people have been known to run it on 400MHz Pentium 2's or
