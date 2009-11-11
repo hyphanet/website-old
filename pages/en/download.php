@@ -149,6 +149,12 @@
 	  Read the <a href="faq.html#fproxy-lan">FAQ</a> on how to
 	  enable web-access from a remote computer.
 	</p>
+	
+	<p>Note that this will not install the system tray icon or desktop/menu shortcuts, so
+	you should open Freenet manually in a web browser:</p>
+      
+      <pre>
+	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
 
 	<!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
 	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
@@ -230,14 +236,7 @@
 	the first-time wizard. Here you can configure basic settings, and then
 	start using Freenet. You can access Freenet later on via the system tray
 	menu (bottom right on the screen, or use the Browse Freenet icon on the 
-	desktop and/or start menu). If the browser window
-	isn't opened, for example because you used the headless installer, you 
-	should open it manually by clicking the Browse Freenet icon/menu item, 
-	or visiting:
-      </p>
-      
-      <pre>
-	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
+	desktop and/or start menu).
       
       <p>
 	For best security you should use a separate browser for Freenet, 
