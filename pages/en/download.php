@@ -306,7 +306,7 @@
       <h3>Upgrading</h3>
       
       <p>
-	Freenet provides now an update-over-freenet mechanism ; We
+	Freenet provides now an update-over-freenet mechanism; We
 	recommend people to use it in favour of the updating
 	scripts. However, you may also update your node manually:
       </p>
