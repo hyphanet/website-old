@@ -10,16 +10,13 @@
       </p>
       <p>
 	If you know several people who are already using Freenet,
-	you can <a href="http://127.0.0.1:8888/addfriend/">add them as Friends, 
+	you can <a href="http://127.0.0.1:8888/addfriend/">add them as Friends</a>, 
 	and tell Freenet to only connect to them, making your usage of Freenet 
 	almost undetectable (and a bit slower unless you have 10+ friends
 	who are usually online when you are), but if you don't know anyone on 
 	Freenet, it can connect automatically to Strangers. You will be asked 
 	about this in the wizard which shows up after installing Freenet, or you 
-	can <a href="http://127.0.0.1:8888/seclevels/">change it later</a> (note
-	that the links given don't work until after you have completed the 
-	<a href="http://127.0.0.1:8888/wizard/">first time configuration wizard</a>
-	which will show up after installing).
+	can <a href="http://127.0.0.1:8888/seclevels/">change it later</a>.
       </p>
 
       <!--      
