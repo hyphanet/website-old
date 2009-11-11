@@ -238,7 +238,7 @@
       
       <p>
 	For best security you should use a separate browser for Freenet, 
-	preferably in privacy mode. On Windows, the Browse Freenet icon will 
+	preferably in privacy mode. On Windows, the system tray menu will 
 	try to use Chrome in incognito mode if possible. Internet Explorer does
 	not work well with Freenet, Firefox and Opera are widely
 	used.
