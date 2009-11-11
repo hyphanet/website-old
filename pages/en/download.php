@@ -228,8 +228,9 @@
       <p>
 	When the installer closes, it should open a browser window pointing to
 	the first-time wizard. Here you can configure basic settings, and then
-	start using Freenet. You can access Freenet later on via the Browse 
-	Freenet icon on the desktop and your start menu. If the browser window
+	start using Freenet. You can access Freenet later on via the system tray
+	menu (bottom right on the screen, or use the Browse Freenet icon on the 
+	desktop and/or start menu). If the browser window
 	isn't opened, for example because you used the headless installer, you 
 	should open it manually by clicking the Browse Freenet icon/menu item, 
 	or visiting:
