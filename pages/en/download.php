@@ -3,10 +3,10 @@
       <p>
     For best performance, Freenet will run continually. It should
     not interfere with your computer usage, as it requires around 
-    200MB of RAM and 10% of one CPU core. We strongly recommend you use the
-	links on the start menu to shut down Freenet when you play
-	computer games, and start it back up afterwards. We will
-	implement a system tray icon for this in future.
+    200MB of RAM and 10% of one CPU core. We strongly recommend you
+    shut down Freenet while playing computer games etc. On Windows 
+    you can do this from the system tray icon, on other systems use
+    the links on the system menu or the desktop.
       </p>
       <p>
 	If you know several people who are already using Freenet,
