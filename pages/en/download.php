@@ -306,10 +306,13 @@
       <h3>Upgrading</h3>
       
       <p>
-	Freenet provides now an update-over-freenet mechanism; We
-	recommend people to use it in favour of the updating
-	scripts. However, you may also update your node manually:
-      </p>
+	Freenet provides now an update-over-freenet mechanism:
+	It will keep itself up to date automatically from other
+	Freenet nodes, and this will normally work even if it is
+	unable to route to them due to them being too new. This is
+	anonymous and secure, and we recommend people use it.
+	However, if something is severely broken, you can update
+	your node manually from our servers:</p>
       
       <ul>
 	<li>Windows users can upgrade to the latest-stable Freenet
