@@ -288,13 +288,12 @@
       
       <h3>Hardware requirements</h3>
       <p>
-	<b>Minimum:</b> 400MHz Pentium 2, with at least 256MB of RAM, at least 1GB free disk space.<br/>
-	<b>Recommended:</b> 1GHz or more processor with 512MB
-	<!-- decreasing agaisnt my will :(-->
-	RAM or more (especially if using Windows XP), 50GB disk
-	space for a larger datastore and some downloads.
-      </p>
-      
+    Generally a 1GHz processor and 2GB of RAM should be fine. Freenet will run on smaller
+    systems especially on older OSs, but it uses at least 128MB of RAM, so unless the system
+    does nothing else, even on Windows XP it will struggle in less than 512MB. However, the 
+    processor is less of a problem, people have been known to run it on 400MHz Pentium 2's or
+    ATOM's; downloads and browsing may be slow, but it's adequate for a pure node.</p>
+    
       <p>
 	Freenet will use a portion of your disk for its datastore,
 	it uses this to store data from your node and other nodes,
