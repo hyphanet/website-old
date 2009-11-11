@@ -156,10 +156,6 @@
       <pre>
 	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
 
-	<!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
-	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
-	     -->
-
 	<div id="mirrored">
 	  
 	  <h3>Mirrored installation</h3>
@@ -194,6 +190,8 @@
 	
       </div>
       
+      	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
+
       <script type="text/javascript">
 					 // Try to detect if Sun Java 1.5.0 or higher is installed
 					 //var Java = PluginDetect.isMinVersion('Java', '1,5,0');
