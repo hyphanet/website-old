@@ -14,9 +14,9 @@
 	and tell Freenet to only connect to them, making your usage of Freenet 
 	almost undetectable (and a bit slower unless you have 10+ friends
 	who are usually online when you are), but if you don't know anyone on 
-	Freenet, it can connect automatically to Strangers. You will be asked 
-	about this in the wizard which shows up after installing Freenet, or you 
-	can <a href="http://127.0.0.1:8888/seclevels/">change it later</a>.
+	Freenet, it can connect automatically to Strangers, if Freenet is in
+	low or normal security mode. Freenet will ask you after installing about
+	this, or you can <a href="http://127.0.0.1:8888/seclevels/">change it later</a>.
       </p>
 
       <!--      
