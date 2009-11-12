@@ -286,7 +286,7 @@
     systems, but it uses at least 128MB of RAM, so unless the system
     does nothing else it will struggle in less than 512MB. However, the 
     processor is less of a problem, people have been known to run it on 400MHz Pentium 2's or
-    ATOM's; downloads and browsing may be slow, but it's adequate for a pure node.</p>
+    ATOM's, although downloads and browsing may be slow.</p>
     
       <p>
 	Freenet will use a portion of your disk for its datastore,
