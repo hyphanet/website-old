@@ -276,10 +276,8 @@
       <p>
 	If you have problems installing or running Freenet, please contact us on
 	<a href="mailto:support@freenetproject.org">the support list</a> 
-	(<a href="lists.html">subscribe here</a>), or join us on 
-	<a href="http://en.wikipedia.org/wiki/IRC" title="Internet Relay Chat is a non-anonymous chat system used by many developers and users of Freenet">IRC</a>
-	in the <a href="irc://irc.freenode.net/freenet">#freenet</a>
-	channel at irc.freenode.net.
+	(<a href="lists.html">subscribe here</a>), or join us on IRC on the
+	#freenet channel on irc.freenode.net (try <a href="http://webchat.freenode.net/">here</a>).
       </p>
       
       <h3>Hardware requirements</h3>
