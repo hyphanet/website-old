@@ -428,8 +428,9 @@
 	predictable data (this requirement will be relaxed in 0.9), and change your anonymous 
 	identity after some volume of inserts, you should be relatively safe using Freenet. If 
 	you can connect, build up some trust in your anonymous persona, insert your controversial 
-	content, and then disappear, again, you are better off with Freenet (but beware seednode
-	compromises!), especially if the content is a website. In some other cases, Tor is better.</p>
+	content, and then disappear, again, you are better off with Freenet, especially if the 
+	content is a website (but if you are connecting on opennet, beware of seednode compromises). 
+	In some other cases, Tor is better.</p>
       <p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
 	to Tor's onion routing; this should greatly reduce the impact of many of the below
 	attacks.<br/>
@@ -448,7 +449,10 @@
 	<li><b>Datastore attacks</b>: This is largely solved as of build 1224, we don't
 	  cache our local requests or inserts, and neither do the nodes immediately connected
 	  to us, to a depth of at least 2 hops (3 on inserts). However, if your node is older
-	  than that, seizing the store might give a bad guy some interesting information.</li>
+	  than that, seizing the store might give a bad guy some interesting information.
+	  Also note that the client-cache caches local requests (but not inserts), so it should
+	  be encrypted and passworded by setting the physical security level to HIGH, or turned 
+	  off.</li>
 	<li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
 	  the keys being requested (probably because it was posted publicly), you can show 
 	  statistically that the node in question probably requested it, based on the 
