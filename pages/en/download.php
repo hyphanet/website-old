@@ -44,13 +44,11 @@
 	
 	<h2>Installation Instructions</h2>
 	<p>
-	  If your platform is not the one listed below, select your
-	  specific
-	  platform: <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX
-	    instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
-	    and Unix-like instructions</a><br/>
+	  Show instructions for:
+	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
+	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
+	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
+	    etc</a><br/>
 	</p>
       </div>
       
