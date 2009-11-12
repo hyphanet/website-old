@@ -289,8 +289,7 @@
     ATOM's, although downloads and browsing may be slow.</p>
     
       <p>
-	Freenet will use a portion of your disk for its datastore,
-	it uses this to store data from your node and other nodes,
+	Freenet will use a portion of your disk for storing data, 
 	you can configure this to any size from 100MB upwards, but
 	we recommend at least 1GB. Freenet also uses disk space for
 	your downloads. Freenet's memory usage is approximately
