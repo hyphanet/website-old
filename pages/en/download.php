@@ -189,10 +189,12 @@
 	  
 	</div>
 	
-      </div>
-      
+    <h3>HOWTO</h3>  
+	      
       	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
 
+      </div>
+      
       <script type="text/javascript">
 					 // Try to detect if Sun Java 1.5.0 or higher is installed
 					 //var Java = PluginDetect.isMinVersion('Java', '1,5,0');
