@@ -239,7 +239,8 @@
 	the first-time wizard. Here you can configure basic settings, and then
 	start using Freenet. You can access Freenet later on via the system tray
 	menu (bottom right on the screen), or use the Browse Freenet shortcut on the 
-	desktop and/or start menu.
+	desktop and/or start menu. If it doesn't work, open 
+	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser.
       
       <p>
 	For best security you should use a separate browser for Freenet, 
