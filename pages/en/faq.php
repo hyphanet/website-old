@@ -428,8 +428,8 @@
 	predictable data (this requirement will be relaxed in 0.9), and change your anonymous 
 	identity after some volume of inserts, you should be relatively safe using Freenet. If 
 	you can connect, build up some trust in your anonymous persona, insert your controversial 
-	content, and then disappear, again, you are better off with Freenet, especially if the 
-	content is a website. In some other cases, Tor is better.</p>
+	content, and then disappear, again, you are better off with Freenet (but beware seednode
+	compromises!), especially if the content is a website. In some other cases, Tor is better.</p>
       <p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
 	to Tor's onion routing; this should greatly reduce the impact of many of the below
 	attacks.<br/>
