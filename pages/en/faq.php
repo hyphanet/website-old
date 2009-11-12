@@ -445,15 +445,10 @@
 	  largely solves this problem. It is still possible for ISPs to identify nodes with 
 	  traffic flow analysis. Obviously a large network will make this harder. And this 
 	  attack is trivial on Tor, although they provide a means to work around it.</li>
-	<li><b>Datastore attacks</b>: Everything any node requests through your node is
-	  cached locally. Everything you fetch is also cached locally (we may make this 
-	  configurable at some point, but turning it off enables an easier attack). If the
-	  attacker can obtain your hard disk, or connect to your node and probe your datastore
-	  by requesting keys and timing how long they take, he may be able to determine what
-	  you have been downloading from/uploading to Freenet. Right now the best way to 
-	  prevent this is to only connect to your trusted friends, as above, and encrypt your hard disk. 
-	  Once we have tunnels, we will not need to cache locally requested keys in the
-	  datastore, which will solve this attack.</li>
+	<li><b>Datastore attacks</b>: This is largely solved as of build 1224, we don't
+	  cache our local requests or inserts, and neither do the nodes immediately connected
+	  to us, to a depth of at least 2 hops (3 on inserts). However, if your node is older
+	  than that, seizing the store might give a bad guy some interesting information.</li>
 	<li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
 	  the keys being requested (probably because it was posted publicly), you can show 
 	  statistically that the node in question probably requested it, based on the 
