@@ -266,8 +266,9 @@
       <h3>So I'm connected, what do I do?</h3>
       
       <p>
-    Freenet itself includes searching, index pages, and more, but you can also use <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
-	  applications</a> for chat and other things.
+    Freenet itself includes anonymous websites ("freesites"), filesharing, searching, and 
+    more, but you can also use <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
+	applications</a> for chat, to help you upload freesites, etc.
       </p>
       
       <h3>It doesn't work, now what?</h3>
