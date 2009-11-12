@@ -251,7 +251,7 @@
       
       <p>
 	If you know anyone running Freenet, you can improve your security and 
-	help to build the network by connecting to their node. First, open the 
+	help to build a robust network by connecting to their node. First, open the 
 	<a href="http://127.0.0.1:8888/addfriend/">Add a friend page</a>. You and your
 	friend should each download their "node reference". Send the file to
 	the other person, and add his node reference using the form at the bottom
