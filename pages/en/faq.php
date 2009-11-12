@@ -473,9 +473,13 @@
 	  to intercept the insert while it is in progress.</li>
 	<li><b>Traffic analysis</b>: Freenet provides minimal protection against global
 	  traffic analysis (basic message padding etc); if the attacker also has nodes on the 
-	  network, the extra data will likely be helpful. However on Tor-style networks,
-	  global traffic analysis will defeat the network completely: all that is needed is
-	  to observe both the entry and exit points.</li>
+	  network, the extra data will likely be helpful. We certainly do not guarantee that it
+	  is impossible to trace data transfers from one node to the next with detailed traffic
+	  data, however it is hoped that this will fall down on the busier nodes. One day we 
+	  will implement steganographic transports and/or constant bitrate links as an option
+	  for more paranoid users. Note that on Tor-style networks, global traffic analysis 
+	  will defeat the network completely: all that is needed is to observe both the entry 
+	  and exit points.</li>
 	<li><b>Swapping attacks</b>: It is possible to attack the location swapping algorithm, and
 	  thereby disrupt routing. This has been demonstrated by the authors of the Pitch 
 	  Black paper. We are working on a solution, but this only affects the darknet (Friends 
