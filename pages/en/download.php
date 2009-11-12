@@ -270,14 +270,8 @@
       <h3>So I'm connected, what do I do?</h3>
       
       <p>
-	You can find links to some pages in the index on the FProxy
-	homepage at:
-      </p>
-      <pre>
-	http://127.0.0.1:8888/</pre>
-      <p>
-	You can find links to some <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
-	  applications for freenet</a>.
+    Freenet itself includes searching, index pages, and more, but you can also use <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
+	  applications</a> for chat and other things.
       </p>
       
       <h3>It doesn't work, now what?</h3>
