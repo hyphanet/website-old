@@ -258,14 +258,9 @@
 	the other person, and add his node reference using the form at the bottom
 	of the page. When both are added, your friend's node should show up on the Friends 
 	page, probably as "CONNECTED" or "BUSY". You can set a name for your node
-	on the config page to make it easier to see who it is.
-      </p>
-      
-      <p>
-	Note that you should only connect to nodes run by people <b>you actually
-	  know</b>. If you add noderefs from total strangers, this will not 
-	significantly improve your security (they could be NSA, after all), and will
-	reduce the performance of the network.
+	on the config page to make it easier to see who it is. Only add nodes run by people
+	<b>you actually know</b>, whether online or offline, as adding total strangers
+	harms performance and does not improve security much (they could be the bad guys!).
       </p>
       
       <h3>So I'm connected, what do I do?</h3>
