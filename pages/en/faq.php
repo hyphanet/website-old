@@ -457,7 +457,7 @@
 	  the keys being requested (probably because it was posted publicly), you can show 
 	  statistically that the node in question probably requested it, based on the 
 	  proportion of the keys requested from that node, the locations of nearby nodes, the 
-	  HTL on the requests and so on. This will again be largely eliminated by tunnels.</li>
+	  HTL on the requests and so on. This will be largely eliminated by tunnels.</li>
 
 	<li><b>Adaptive search</b>: If you want to find the author of some content, and you
 	  can predict the content or the keys to be inserted, you can listen out for their 
