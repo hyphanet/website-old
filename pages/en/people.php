@@ -76,7 +76,7 @@
 	  And <b>hundreds of others</b>, who either haven't asked to be added here, who 
 	  prefer to remain nameless, or who we just haven't got around to thanking. 
 	  Not to mention thousands of users, testers,
-	  and <a href="../donate/sponsors.html">donors</a>!
+	  and <a href="sponsors.html">donors</a>!
 	</p>
 
       </div>
