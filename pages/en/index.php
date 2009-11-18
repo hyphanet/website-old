@@ -42,7 +42,7 @@
 	alt="freenet screenshot" width="383" height="309" /></a>-->
         <ul id="screenshots_content">  
          <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2" /></a></li>  
-         <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 3" /></a></li>  
+         <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
          <li class="screenshots_item"><a href="#"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 4" /></a></li>  
         </ul>  
         <div id="screenshots_frame">  
