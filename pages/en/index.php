@@ -1,30 +1,42 @@
-<script type="text/javascript" src="js/mootools.v1.1.js"> </script>
-<script type="text/javascript" src="js/iCarousel-full.js"> </script>
+<!--
+  jQuery library
+-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+
+<!--
+  jCarousel library
+-->
+<script type="text/javascript" src="js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+<!--
+  jCarousel core stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="js/jcarousel/lib/jquery.jcarousel.css" />
+<!--
+  jCarousel skin stylesheet
+-->
+<link rel="stylesheet" type="text/css" href="js/jcarousel/skins/tango/skin.css" />
+
+<script type="text/javascript" src="js/jcarousel/lib/thickbox/thickbox.js"></script>
+<link rel="stylesheet" href="js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
 
 <script type="text/javascript">
-    window.addEvent("domready", function() {
-            new iCarousel("screenshots_content", {
-                    idPrevious: "screenshots_previous",
-                    idNext: "screenshots_next",
-                    idToggle: "undefined",
-                    item: {
-                            klass: "screenshots_item",
-                            size: 405
-                    },
-                    animation: {
-                            type: "scroll",
-                            duration: 400,
-                            amount: 1
-                    }
-            });
+<!--
+$(document).ready(function() {
+    $("#mycarousel").jcarousel({
+      'visible': 1,
+      'scroll': 1,
+      'wrap': 'both'
     });
+});
+//-->
 </script>
 
+<!-- Contents -->
 
-      <div id="whatistitle">
+      <div id="whatistitle" style="margin-bottom: 10px";>
 	<h1>Share, Chat, Browse. Anonymously. On the Free&nbsp;Network.</h1>
       </div>
-      <div id="whatis">
+      <div class="whatis">
 	<p>
 	  Freenet is free software which lets you anonymously share files, browse 
 	  and publish "freesites" (web sites accessible only through Freenet) and chat 
@@ -37,24 +49,24 @@
       </div>
 
       <div id="screenshots_container">
-      <div id="screenshots">
-	<!--<a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
-	alt="freenet screenshot" width="383" height="309" /></a>-->
-        <ul id="screenshots_content">  
-         <li class="screenshots_item"><a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2" /></a></li>  
-         <li class="screenshots_item"><a href="image/fN_screenshot_minimalist.png"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
-         <li class="screenshots_item"><a href="image/fN_screenshot_downloads.png"><img src="image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
-         <li class="screenshots_item"><a href="image/fN_screenshot_freetalk_messages.png"><img src="image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
-         <li class="screenshots_item"><a href="image/fN_screenshot_searched.png"><img src="image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
-        </ul>  
-        <div id="screenshots_frame">  
-         <img id="screenshots_previous" src="image/prev.png" alt="move previous" />  
-         <img id="screenshots_next" src="image/next.png" alt="move next" />  
-     	</div>  
-      </div>      
+	<div id="screenshot_nojs">
+	     <a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
+	     alt="freenet screenshot" width="383" height="309" /></a>
+	     <p style="text-align: center;"><a href="screenshots.html">More Freenet screenshots</a></p>
+	</div>
+	<div id="screenshot_js" style="display: none;">
+           <ul id="mycarousel" class="jcarousel-skin-tango">
+             <li><a href="image/fN_screenshot.png" class="thickbox"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
+             <li><a href="image/fN_screenshot_minimalist.png" class="thickbox"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
+             <li><a href="image/fN_screenshot_downloads.png" class="thickbox"><img src="image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
+             <li><a href="image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
+             <li><a href="image/fN_screenshot_searched.png" class="thickbox"><img src="image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
+           </ul>
+	</div>
       </div>
 
-      <div id="default">
+
+      <div id="default" class="whatis" style="clear:left; margin-top: 10px; color: red;">
       	   <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
       </div>
 
@@ -112,7 +124,8 @@
   			 hideDiv("windows");
 			 hideDiv("macos");
 			 hideDiv("unix");
-
+			 hideDiv("screenshot_nojs");
+			 showDiv("screenshot_js");
 			 // Try to detect if Sun Java 1.5.0 or higher is installed
 			 var Java = PluginDetect.isMinVersion('Java', '1,5,0');
 			 

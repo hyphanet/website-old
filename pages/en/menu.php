@@ -10,6 +10,7 @@
 	      <li><a href="philosophy.html">Philosophy</a></li>
 	      <li><a href="people.html">People</a></li>
 	      <li><a href="papers.html">Papers</a></li>
+	      <li><a href="screenshots.html">Screenshots</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="documentation.html">Help</a>

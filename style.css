@@ -116,7 +116,7 @@ body,ul.dropdown {
     margin: 0px;
 }
 
-#whatis, .download {
+.whatis, .download {
     position: relative;
     width: 50%;
     float:left;
