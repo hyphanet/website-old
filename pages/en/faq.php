@@ -303,7 +303,36 @@
 	on the development list about the language choice aren't welcome, people willing to implement freenet
 	in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
       </p>
-
+      
+      <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
+    If you want everyone to be able to use your node you have the following options:<br></p>
+    <ul>
+    <li>Go to <a href="http://127.0.0.1:8888/config/">fproxy's configuration page</a> and enable advanced mode in the FPROXY section</li>
+    <li>Stop your node and edit freenet.ini manually</li>
+    </ul>
+    <p>In both cases change the following parameters:</p>
+    </p><code>
+    fproxy.bindTo=0.0.0.0<BR>
+    fproxy.allowedHosts=*<BR>
+    </code><p>
+    Of course, this leaves your node wide open, unless you control
+    access with a firewall of some sort.  If you'd prefer to use access
+    controls within Freenet, then you can use lines like this:</p>
+    <code>
+    fproxy.bindTo=0.0.0.0<br>
+    fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br
+    </code>
+    <p>Or even (find your IP address from ipconfig/ifconfig/winipcfg and substitute it for 192.168.1.1):</p>
+	<code>
+	fproxy.bindTo=127.0.0.1,192.168.1.1<br>
+	fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
+	</code>
+	<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):
+	<code>
+	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
+	</code>
+	</p>
+    
       <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br/>
 	Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
 	to know exactly what went wrong.
