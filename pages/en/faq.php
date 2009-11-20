@@ -341,6 +341,12 @@
       <p><b id="stabchange">How can I change from stable to unstable?</b><br/>
 	There is no unstable network anymore.
       </p>
+      
+      <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
+    On every new build, a brief summary of all the main changes is posted to the support and devl lists 
+    and the en.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
+    for a much more detailed view, check out the <a href="http://github.com/freenet/">git repositories</a>.
+    </p>
 
       <h2>Publisher answers</h2>
       <p>
