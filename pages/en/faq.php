@@ -34,9 +34,6 @@
 
 	</li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
 	</li><li><a href="#openjdk">The installer breaks while downloading files and I'm using Ubuntu 8.04 and/or OpenJDK</a>
-	</li><li><a href="#fec">What is FEC?</a>
-	</li><li><a href="#healing">What is healing?</a>
-	</li><li><a href="#heisenbug">What is a Heisenbug?</a>
 
 	</li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
 	</li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
