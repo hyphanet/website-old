@@ -121,11 +121,10 @@
       <p><b id="legal">Is Freenet legal?</b><br/>
 	We don't currently know of any prosecutions for using merely using Freenet.
 	Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
-
 	makes Freenet illegal in France; others have told us about the German data retention
 	law which allegedly requires anonymity systems to retain enough data to trace web
 	requests, which may or may not apply to us. Europe-wide, the
-	<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> may have
+	<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> might have
 	wide-ranging effects, including on Freenet, should it pass... or it may not. 
 	Many of these things are arguable either way (depending on how broadly the 
 	legislation is applied) and will have to be decided in caselaw.
@@ -210,8 +209,8 @@
 
       <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
 	Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it through a Freenet client. One built-in client is fproxy, which lets you talk to Freenet with a web browser. 
-	Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu. This should launch a customised firefox profile optimised for browsing Freenet (with a black theme so you can see clearly that you're not browsing the web). 
-	Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Bookmarks" panel to reach some of the popular Freenet index sites.</p>
+	Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu, or a system tray icon (rabbit) with a Launch Freenet menu item.
+	Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Freesite subscriptions" panel to reach some of the popular Freenet index sites.</p>
 
       <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
 
@@ -224,11 +223,12 @@
 
       <p>Please bear in mind that Freenet is inherently high latency: it can take a while 
 	to (for example) load a page for the first time, even if it is capable of reasonable
-	speeds (as anonymous systems go!) for large popular files. The Browse Freenet
-	icon/menu item should launch a customised version of Firefox which will use many
-	connections to maximise performance especially when you open many freesites in
-	tabs. If that doesn't work then see <a href="#connections">here</a>. And of course,
-	protecting your anonymity does cost a certain amount of performance.</p>
+	speeds (as anonymous systems go!) for large popular files. You can also improve performance
+	for freesite browsing by using a separate browser and <a href="#connections">increasing 
+	its connection limit</a>. You should also set the datastore size and bandwidth limit as
+	high as possible. But protecting your anonymity does cost a certain amount of performance.
+	You can configure how much to a degree by changing the security levels on the page under
+	Configuration. </p>
 
       <p><b id="search">Is Freenet searchable?</b><br/>
 	Yes, there are a few different search mechanisms. To search the freenet web (freesites),
