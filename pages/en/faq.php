@@ -307,7 +307,7 @@
       <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
     If you want everyone to be able to use your node you have the following options:<br></p>
     <ul>
-    <li>Go to <a href="http://127.0.0.1:8888/config/">fproxy's configuration page</a> and enable advanced mode in the FPROXY section</li>
+    <li>Go to the <a href="http://127.0.0.1:8888/config/fproxy">web interface configuration page</a> and enable advanced mode</li>
     <li>Stop your node and edit freenet.ini manually</li>
     </ul>
     <p>In both cases change the following parameters:</p>
