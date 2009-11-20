@@ -231,11 +231,13 @@
 	protecting your anonymity does cost a certain amount of performance.</p>
 
       <p><b id="search">Is Freenet searchable?</b><br/>
-	Yes, there are a few different search mechanisms. To search the freenet web,
-	go to the plugins page, load the XMLLibrarian plugin if it isn't already there,
-	and use that. Alternatively, Frost and Thaw also provide searching for messages 
-	and files. Note that searching on Freenet is a good deal more difficult than
-	on other networks because of Freenet's different architecture and design goals.
+	Yes, there are a few different search mechanisms. To search the freenet web (freesites),
+	you should be able to just use the search box on the homepage, or go to Search 
+	Freenet on the Browse submenu. If it's not there, go to the Plugins page under 
+	Configuration, and load the Library plugin. Alternatively, Frost and Thaw also 
+	provide searching for messages and files. Note that searching on Freenet is a good 
+	deal more difficult than on other networks because of Freenet's different 
+	architecture and design goals.
       </p>
 
       <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
