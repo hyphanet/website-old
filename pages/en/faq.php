@@ -329,6 +329,15 @@
 	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 	</code>
 	</p>
+	
+	  <p><b id="openjdk">Problems installing with OpenJDK</b><br>
+	<p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
+	have some problems with SSL which cause the installer to fail. Please install
+	the Sun JRE, at least version 5. On Ubuntu or Debian, open a root terminal and type:</p>
+	<pre>
+	apt-get install sun-java6-jre
+	update-java-alternatives -s java-6-sun
+	</pre>
     
       <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br/>
 	Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
