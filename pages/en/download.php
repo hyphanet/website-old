@@ -158,6 +158,11 @@
       
       <pre>
 	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
+	
+	<p>Note also that most people use the GUI installer - use that if you can. The scripts
+	in the headless installer can be a bit unreliable, so try again if it doesn't work the
+	first time. And <b>you must have Sun Java installed and set as default</b> 
+	(man update-java-alternatives on debian/ubuntu) before you install.</p>
 
 	<div id="mirrored">
 	  
