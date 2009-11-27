@@ -282,7 +282,7 @@
 	If you have problems installing or running Freenet, please contact us on
 	<a href="mailto:support@freenetproject.org">the support list</a> 
 	(<a href="lists.html">subscribe here</a>), or join us on IRC on the
-	#freenet channel on irc.freenode.net (try <a href="http://webchat.freenode.net/">here</a>).
+	#freenet channel on irc.freenode.net (try <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">here</a>).
       </p>
       
       <h3>Hardware requirements</h3>

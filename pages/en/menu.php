@@ -10,7 +10,6 @@
 	      <li><a href="philosophy.html">Philosophy</a></li>
 	      <li><a href="people.html">People</a></li>
 	      <li><a href="papers.html">Papers</a></li>
-	      <li><a href="screenshots.html">Screenshots</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="documentation.html">Help</a>
@@ -20,6 +19,7 @@
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Mailing lists</a></li>
 	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
+	      <li><a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="donate.html">Donate</a>
