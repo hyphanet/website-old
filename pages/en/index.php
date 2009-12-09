@@ -103,15 +103,19 @@ $(document).ready(function() {
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
 	<div id="donate_button">
+	     <h4>Make a donation</h4>
+	     <p>The Freenet Project is a free open source project, but it needs your help to survive. If you can, and want to support Freenet, please consider a donation.
+	     <br>
+	     With the money you
+	     </p>
 	     <p><a href="donate.html">Donate!</a></p>
 	</div>
 
       <div id="news">
 	<h4>Latest news</h4>
-	<br>
 	<p>
 	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
-	  (8 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
+	  (08 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
 	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>
 	  (30 July 2009) <a href="news.html#build1226">Improvements to security and
 	    preparation for big new performance feature in new stable build</a><br/>

@@ -117,8 +117,7 @@ body,ul.dropdown {
 }
 
 div#donate_button{
-    height: 70px;
-    margin: 20px 0px 20px 15px;
+    margin: 20px 0px 20px 0px;
 }
 
 div#donate_button a{
@@ -133,6 +132,7 @@ div#donate_button a{
     font-weight: bold;
     background: url('image/donate_both.png');
     background-position: -10px -15px;
+    margin-top: 10px;
 }
 
 div#donate_button a:hover{
@@ -196,11 +196,6 @@ p {
 
 div#news{
     clear:both;
-}
-
-div#news h4,
-div#news p{
-    margin: 0;
 }
 
 #people h5 {
