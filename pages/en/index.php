@@ -104,7 +104,7 @@ $(document).ready(function() {
 
 	<div id="donate_button">
 	     <h4>Make a donation</h4>
-	     <p>The Freenet Project is a free open source project, but it needs your help to survive. If you can, and want to support Freenet, please consider a donation.</p>
+	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
 	     <p><a href="donate.html">Donate!</a></p>
 	</div>
 
