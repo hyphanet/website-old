@@ -123,20 +123,19 @@ div#donate_button{
 div#donate_button a{
     display: block;
     text-decoration: none;
-    width: 200px;
-    height: 70px;
+    width: 216px;
+    height: 86px;
     font-size: 30px;
     color: white;
-    line-height: 70px;
+    line-height: 86px;
     text-align: center;
     font-weight: bold;
-    background: url('image/donate_both.png');
-    background-position: -10px -15px;
+    background: url('image/donate_button.png');
     margin-top: 10px;
 }
 
 div#donate_button a:hover{
-    background-position: -10px -85px;
+    background-position: 0 -86px;
 }
 
 .whatis, .download, #donate_button {
