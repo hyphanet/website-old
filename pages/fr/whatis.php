@@ -1,4 +1,4 @@
-      <h1>Qu'est-ce que Freenet?</h1>
+      <h1>Qu'est-ce que Freenet ?</h1>
       <blockquote>
 	<i>"I worry about my child and the Internet all the time, even though
 	  she's too young to have logged on yet. Here's what I worry about. I
@@ -12,7 +12,7 @@
       <p> 
       Freenet est un logiciel libre qui vous permet de partager des fichiers,
       naviguer dans et publier des "freesites" (sites web accessibles uniquement
-      à travers Freenet), discuter sur des forums, de façon anonyme et sans craindre
+      à travers Freenet), discuter sur des forums, le tout de façon anonyme et sans craindre
       la censure. Freenet est décentralisé pour le rendre moins vulnérable aux
       attaques, et s'il est utilisé en mode "darknet", où les utilisateurs se
       connectent uniquement à leurs amis, il est très difficile à détecter. 
@@ -34,7 +34,7 @@
       sont populaires ou non. Le moins populaire est détruit pour laisser la place
       aux nouveaux fichiers ou aux contenus plus populaires.<br/>
       Les fichiers sont chiffrés, et les utilisateurs ne peuvent donc pas
-      découvrir facielement quel est le contenu de son datastore, et 
+      découvrir facilement quel est le contenu de son datastore, et 
       devrait ne pas pouvoir en être tenu responsable.<br/>
       Les forums de discussion, les sites, et la fonction de recherche, sont
       tous construits à partir de ce datastore distribué.
@@ -47,9 +47,9 @@
       Les idées et concepts précurseurs de Freenet ont eu un impact significatif
       dans le milieu académique. Notre papier de 2000 intitutléé "Freenet: A Distributed
       Anonymous Information Storage and Retrieval System" (Freenet : un système de stockage
-      et récupération d'information anonyme et distribué) a été le papier
+      et de récupération d'information anonyme et distribué) a été le papier
       de science informatique le plus cité de 2000 d'après <a href="http://citeseer.nj.nec.com/articles2000.html">Citeseer</a>, 
-      et Freenet a aussi inspiré des papiers dans les mondes de la loi et la 
+      et Freenet a aussi inspiré des papiers dans les mondes de la loi et de la 
       philosophie.<br/>
       Ian Clarke, le créateur de Freenet et le coordinateur du projet,
       a été sélectionné comme l'un des 100 plus grands innovateurs de 2003
@@ -67,5 +67,5 @@
       </p>
       
       <p>
-      Ça vous plaît ? <a href="download.html">Essayez le !</a>
+      Ça vous plaît ? <a href="download.html">Essayez !</a>
       </p>

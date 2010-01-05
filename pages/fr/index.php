@@ -109,7 +109,7 @@ $(document).ready(function() {
 	</div>
 
       <div id="news">
-	<h4>Dernière nouvelles (en anglais pour l'instant)</h4>
+	<h4>Dernières nouvelles (en anglais pour l'instant)</h4>
 	<p>
 	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
 	  (08 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
