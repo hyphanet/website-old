@@ -1,4 +1,4 @@
-<?
+<?php
 
 include 'includes/common.inc.php';
 
@@ -8,12 +8,12 @@ include 'includes/common.inc.php';
 <head>
 	<META name="verify-v1" content="xaEIQxVVIFnpATgCaqfqrDfmoUnHpMhig0LfSGbfIzE=">
 
-	<title>The Freenet Project - <?= $page ?></title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-	<meta name="language"    content="en">
+	<title>The Freenet Project - <?php echo $page ?></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language"    content="<?php echo $lang?>">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="<?php if($lang != "en") echo "../"?>style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		function hideDiv( whichDivId )
 		{
@@ -40,8 +40,8 @@ include 'includes/common.inc.php';
 			vis.display = 'inline';
 		}
 	</script>
-	<script type="text/javascript" src="PluginDetect.js"></script>
-	<!--[if lt IE 7]><script defer type="text/javascript" src="js/fixpng.js"></script><![endif]-->
+	<script type="text/javascript" src="<?php if($lang != "en") echo "../"?>PluginDetect.js"></script>
+	<!--[if lt IE 7]><script defer type="text/javascript" src="<?php if($lang != "en") echo "../"?>js/fixpng.js"></script><![endif]-->
 </head>
 
 <body>
@@ -51,20 +51,29 @@ include 'includes/common.inc.php';
 	<div id="logo" class="sprites">
 	  <a href="index.html"></a>
 	</div>
-	<!--<div id="lang">
-	  <p> Select your language :
-	    <a class="drapeau" href="it/home.html">it</a> 
-	    <a class="drapeau" href="es/home.html">es</a>
-	    <a class="drapeau" href="fr/home.html">fr</a> 
-	    <a id="selected-lang" class="drapeau">en</a>
+	<div id="lang">
+	  <p> 
+	  <?php if($lang == "en") 
+	  {
+		echo "Select your language:";
+	  }
+	  else 
+	  {
+		echo "Selectionner la langue :";
+	  }
+	  ?>
+	    <!--<a class="drapeau" href="it/index.html">it</a>
+	    <a class="drapeau" href="es/index.html">es</a>-->
+	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="fr/index.html">fr</a> 
+	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="/index.html">en</a>
 	  </p>
-	</div>-->
+	</div>
       </div>
     </div>
 
 <div id="backmenu">	
 <div id="menu">	
-	<? 
+	<?php 
 		// Include language specific menu-file 
 		
 		$menu = selectPage($lang_q, 'menu');
@@ -80,7 +89,7 @@ include 'includes/common.inc.php';
 </div>
 </div>
 
-<div id="content"><? 	include (escapeshellcmd($file));  ?>
+<div id="content"><?php 	include (escapeshellcmd($file));  ?>
 </div>
 <div id="backfooter">
      <div id="footer">
