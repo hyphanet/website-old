@@ -1,43 +1,44 @@
-      <h1>Freenet Frequently Asked Questions</h1>
+      <h1>La foire au questions de Freenet</h1>
 
-      <h3> Philosophical questions</h3>
+      <h3>Questions philosophiques</h3>
 
-      <ol><li><a href="#what">What is Freenet?</a>
-	</li><li><a href="#who">Who is behind Freenet?</a>
-	</li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
-	</li><li><a href="#donate-bw">Do I have to donate disk space and bandwidth?</a>
-	</li><li><a href="#leech">I don't have to donate anything when using filesharing application X and I get to leech more.</a>
+      <ol><li><a href="#what">Qu'est-ce que Freenet ?</a>
+	</li><li><a href="#who">Qui est derrière Freenet ?</a>
+	</li><li><a href="#trust">Si les auteurs sont anonymes, comment croire l'information ?</a>
+	</li><li><a href="#donate-bw">Dois-je donner de l'espace disque et du débit ?</a>
+	</li><li><a href="#leech">Je n'ai pas besoin de donner quoique ce soit quand j'utilise l'application de partage de fichier X, et je peux "leecher" (télécharger sans rien donner en retour) plus.</a>
 
-	</li><li><a href="#donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</a>
-	</li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
-	</li><li><a href="#legal">Is Freenet legal?</a>
-	</li><li><a href="#blocked">Is Freenet blocked by national firewalls?</a>
-	</li><li><a href="#trouble">Can I get trouble if I run a node?</a>
-	</li><li><a href="#copyright">What about copyright?</a>
-	</li><li><a href="#childporn">What about child porn, offensive content or terrorism?</a>
-	</li><li><a href="#offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</a>
+	</li><li><a href="#donate-more-bw">Tous mes amis ont donné très peu d'espace et de débit. Pourquoi devrais-je donner plus ?</a>
+	</li><li><a href="#donate-lot">Si je donne plus, est-que les performances vont s'accroitre sensiblement ?</a>
+	</li><li><a href="#legal">Freenet est-il légal ?</a>
+	</li><li><a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a>
+	</li><li><a href="#trouble">Puis-je être inquiété si je fais tourner un nœud ?</a>
+	</li><li><a href="#copyright">Et en ce qui conerne le droit d'auteur ?</a>
+	</li><li><a href="#childporn">Et en ce qui conerne la pornographie infantile, les contenus choquants ou offensants, ou le terrorisme ?</a>
+	</li><li><a href="#offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</a>
 	</li><li><a href="#export">How about encryption export restrictions?</a>
 
-	</li><li><a href="#whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</a>
+	</li><li><a href="#whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</a>
       </li></ol>
-      <h3> Technical questions</h3>
+      
+      <h3>Questions techniques</h3>
 
-      <ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
-	</li><li><a href="#slow">Why is Freenet so slow?</a>
-	</li><li><a href="#search">Is Freenet searchable?</a>
-	</li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
-	</li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
+      <ol><li><a href="#how">Comment utiliser ce logiciel ? Je l'ai téléchargé, mais quand il s'exécute, il n'y a pas d'interface graphique.</a>
+	</li><li><a href="#slow">Pourquoi Freenet est-il aussi lent ?</a>
+	</li><li><a href="#search">Peut-on effectuer des recherches sur Freenet ?</a>
+	</li><li><a href="#firewall">Comment puis-je faire fonctionner Freenet avec un pare-feu/NAT ?</a>
+	</li><li><a href="#connection-perm">Ai-je besoin d'une connexion permanente pour faire tourner un nœud ?</a>
 
-	</li><li><a href="#connections">Why does Freenet only download 1 or 2 files at a time?</a>
-	</li><li><a href="#store-perm">Why can't Freenet store data permanently?</a>
-	</li><li><a href="#why-java">Why is Freenet implemented in Java?</a>
+	</li><li><a href="#connections">Pourquoi Freenet ne télécharge-t-il qu'un ou deux fichiers à la fois ?</a>
+	</li><li><a href="#store-perm">Pourquoi Freenet ne peut-il pas stocker les données de façon permanente ?</a>
+	</li><li><a href="#why-java">Pourquoi avoir implémenté Freenet en java ?</a>
 
-	</li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
-	</li><li><a href="#openjdk">The installer breaks while downloading files and I'm using Ubuntu 8.04 and/or OpenJDK</a>
+	</li><li><a href="#fproxy-lan">Comment autoriser les connexions à FProxy depuis d'autres ordinateurs ?</a>
+	</li><li><a href="#openjdk">Le programme d'installation s'arrête lorsqu'il télécharge des fichiers, et j'utilise Ubuntu 8.04 et/ou OpenJDK</a>
 
-	</li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
-	</li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
-	</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
+	</li><li><a href="#whatsnew">Quoi de neuf ? Où sont répertoriés les changements ?</a>
+	</li><li><a href="#backtrace">Pourquoi y a-t-il autant de messages dans mes fichiers de log avec des backtrace attachées ?</a>
+	</li><li><a href="#stabchange">Comment passer de la version stable à instable ?</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -71,22 +72,23 @@
 	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
 	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
       </li></ol>
-      <h2> Philosophical answers
-      </h2><p><b id="what">What is Freenet?</b><br/>
-	Freenet
-	is free software designed to ensure true freedom of communication over
-	the Internet. It allows anybody to publish and read information with
-	complete anonymity. Nobody controls Freenet, not even its creators, meaning that the system is not vulnerable to manipulation or shutdown. Freenet
 
-	is also very efficient in how it deals with information, adaptively
-	replicating content in response to demand.  For more information,
-	please read <a href="/whatis.html">What Is Freenet</a>.</p>
-
-      <p><b id="who">Who is behind Freenet?</b><br/>
-	Freenet grew out of a design for an anonymous publication system created by Ian
-	Clarke while a student at the University of Edinburgh, Scotland. Since
-	then many other people have contributed towards making Ian's proposal a
-	reality.</p>
+      <h2>Réponses philosophiques</h2>
+      <p><b id="what">Qu'est-ce que Freenet ?</b><br/>
+	Freenet est un logiciel libre et gratuit conçu pour assurer la vraie liberté
+	de communication sur Internet. Tout le monde peut publier et lire de l'information
+	avec un anonymat complet. Personne ne contrôle Freenet, pas même ses créateurs,
+	ce qui veut dire que le système n'est pas vulnérable aux manipulations, ou à 
+	un arrêt du réseau. Freenet est aussi très efficace dans sa façon de gérer
+	l'information, puisqu'il remplace dynamiquement les contenus suivant
+	la demande. Pour plus d'informations, se référer à <a href="whatis.html">Freenet ?</a>.
+	</p>
+	
+      <p><b id="who">Qui est derrière Freenet?</b><br/>
+	Freenet est né à partir du concept de système permettant une publication anonyme, crééé
+	par Ian Clarke alors qu'il était étudiant à l'Université d'Édimbourg, en Ecosse. Depuis
+	lors, de nombreuses personnes ont contribué à réaliser la proposition de Ian.
+      </p>
 
       <p><b id="trust">If authors are anonymous how can you trust information?</b><br/>
 	Cryptographic signing of information allows people to prove

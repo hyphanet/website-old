@@ -6,6 +6,7 @@ $pages = array(
 'de' => 'pages/de/menu.php',
 'sv' => 'pages/sv/menu.php',
 'no' => 'pages/no/menu.php',
-'da' => 'pages/da/menu.php')
+'da' => 'pages/da/menu.php',
+'fr' => 'pages/fr/menu.php')
 
 ?>
