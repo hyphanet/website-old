@@ -91,13 +91,9 @@ div#lang {
     float: right;
 }
 
-div#lang p {
-    clear: both;
-}
-
 div#lang #selected-lang{
     visibility: hidden;
-    margin-left: -1em;
+    margin-left: -1em; /* avoid having a gap between two visible languages */
 }
 
 .drapeau{
@@ -358,13 +354,14 @@ ul.dropdown li.dir ul li{
     color: #fff;
     height: 30px;
     width: 18ex;
+    max-width: 133px;
     font-size: 1em;
 }
 
 ul.dropdown li.dir ul li a{
-    text-align: left;
-    padding-left: 2ex;
-    width: 16ex;
+    text-align: center;
+    width: 18ex;
+    max-width: 133px;
     height: 30px;
     line-height:30px;
 }
