@@ -2,76 +2,82 @@
 
       <h3>Questions philosophiques</h3>
 
-      <ol><li><a href="#what">Qu'est-ce que Freenet ?</a>
-	</li><li><a href="#who">Qui est derrière Freenet ?</a>
-	</li><li><a href="#trust">Si les auteurs sont anonymes, comment croire l'information ?</a>
-	</li><li><a href="#donate-bw">Dois-je donner de l'espace disque et du débit ?</a>
-	</li><li><a href="#leech">Je n'ai pas besoin de donner quoique ce soit quand j'utilise l'application de partage de fichier X, et je peux "leecher" (télécharger sans rien donner en retour) plus.</a>
-
-	</li><li><a href="#donate-more-bw">Tous mes amis ont donné très peu d'espace et de débit. Pourquoi devrais-je donner plus ?</a>
-	</li><li><a href="#donate-lot">Si je donne plus, est-que les performances vont s'accroitre sensiblement ?</a>
-	</li><li><a href="#legal">Freenet est-il légal ?</a>
-	</li><li><a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a>
-	</li><li><a href="#trouble">Puis-je être inquiété si je fais tourner un nœud ?</a>
-	</li><li><a href="#copyright">Et en ce qui conerne le droit d'auteur ?</a>
-	</li><li><a href="#childporn">Et en ce qui conerne la pornographie infantile, les contenus choquants ou offensants, ou le terrorisme ?</a>
-	</li><li><a href="#offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</a>
-	</li><li><a href="#export">How about encryption export restrictions?</a>
-
-	</li><li><a href="#whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</a>
-      </li></ol>
+      <ol>
+	<li><a href="#what">Qu'est-ce que Freenet ?</a></li>
+	<li><a href="#who">Qui est derrière Freenet ?</a></li>
+	<li><a href="#trust">Si les auteurs sont anonymes, comment croire l'information ?</a></li>
+	<li><a href="#donate-bw">Dois-je donner de l'espace disque et du débit ?</a></li>
+	<li><a href="#leech">Je n'ai pas besoin de donner quoique ce soit quand j'utilise l'application de partage de fichier X, et je peux "leecher" (télécharger sans rien donner en retour) plus.</a></li>
+	<li><a href="#donate-more-bw">Tous mes amis ont donné très peu d'espace et de débit. Pourquoi devrais-je donner plus ?</a></li>
+	<li><a href="#donate-lot">Si je donne plus, est-que les performances vont s'accroitre sensiblement ?</a></li>
+	<li><a href="#legal">Freenet est-il légal ?</a></li>
+	<li><a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a></li>
+	<li><a href="#trouble">Puis-je être inquiété si je fais tourner un nœud ?</a></li>
+	<li><a href="#copyright">Et en ce qui conerne le droit d'auteur ?</a></li>
+	<li><a href="#childporn">Et en ce qui conerne la pornographie infantile, les contenus choquants ou offensants, ou le terrorisme ?</a></li>
+	<li><a href="#offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</a></li>
+	<li><a href="#export">How about encryption export restrictions?</a></li>
+	<li><a href="#whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</a></li>
+      </ol>
       
       <h3>Questions techniques</h3>
 
-      <ol><li><a href="#how">Comment utiliser ce logiciel ? Je l'ai téléchargé, mais quand il s'exécute, il n'y a pas d'interface graphique.</a>
-	</li><li><a href="#slow">Pourquoi Freenet est-il aussi lent ?</a>
-	</li><li><a href="#search">Peut-on effectuer des recherches sur Freenet ?</a>
-	</li><li><a href="#firewall">Comment puis-je faire fonctionner Freenet avec un pare-feu/NAT ?</a>
-	</li><li><a href="#connection-perm">Ai-je besoin d'une connexion permanente pour faire tourner un nœud ?</a>
+      <ol>
+	<li><a href="#how">Comment utiliser ce logiciel ? Je l'ai téléchargé, mais quand il s'exécute, il n'y a pas d'interface graphique.</a></li>
+	<li><a href="#slow">Pourquoi Freenet est-il aussi lent ?</a></li>
+	<li><a href="#search">Peut-on effectuer des recherches sur Freenet ?</a></li>
+	<li><a href="#firewall">Comment puis-je faire fonctionner Freenet avec un pare-feu/NAT ?</a></li>
+	<li><a href="#connection-perm">Ai-je besoin d'une connexion permanente pour faire tourner un nœud ?</a></li>
 
-	</li><li><a href="#connections">Pourquoi Freenet ne télécharge-t-il qu'un ou deux fichiers à la fois ?</a>
-	</li><li><a href="#store-perm">Pourquoi Freenet ne peut-il pas stocker les données de façon permanente ?</a>
-	</li><li><a href="#why-java">Pourquoi avoir implémenté Freenet en java ?</a>
+	<li><a href="#connections">Pourquoi Freenet ne télécharge-t-il qu'un ou deux fichiers à la fois ?</a></li>
+	<li><a href="#store-perm">Pourquoi Freenet ne peut-il pas stocker les données de façon permanente ?</a></li>
+	<li><a href="#why-java">Pourquoi avoir implémenté Freenet en java ?</a></li>
 
-	</li><li><a href="#fproxy-lan">Comment autoriser les connexions à FProxy depuis d'autres ordinateurs ?</a>
-	</li><li><a href="#openjdk">Le programme d'installation s'arrête lorsqu'il télécharge des fichiers, et j'utilise Ubuntu 8.04 et/ou OpenJDK</a>
-
-	</li><li><a href="#whatsnew">Quoi de neuf ? Où sont répertoriés les changements ?</a>
-	</li><li><a href="#backtrace">Pourquoi y a-t-il autant de messages dans mes fichiers de log avec des backtrace attachées ?</a>
-	</li><li><a href="#stabchange">Comment passer de la version stable à instable ?</a>
-      </li></ol>
+	<li><a href="#fproxy-lan">Comment autoriser les connexions à FProxy depuis d'autres ordinateurs ?</a></li>
+	<li><a href="#openjdk">Le programme d'installation s'arrête lorsqu'il télécharge des fichiers, et j'utilise Ubuntu 8.04 et/ou OpenJDK</a></li>
+	
+	<li><a href="#whatsnew">Quoi de neuf ? Où sont répertoriés les changements ?</a></li>
+	<li><a href="#backtrace">Pourquoi y a-t-il autant de messages dans mes fichiers de log avec des backtrace attachées ?</a></li>
+	<li><a href="#stabchange">Comment passer de la version stable à instable ?</a></li>
+      </ol>
+      
       <h3> Publisher questions</h3>
 
-      <ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
-	</li><li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a>
-	</li><li><a href="#update">Can Freenet documents be updated / deleted?</a>
-
-      </li></ol>
+      <ol>
+	<li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a></li>
+	<li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a></li>
+	<li><a href="#update">Can Freenet documents be updated / deleted?</a></li>
+      </ol>
+      
       <h3> Contribution questions</h3>
 
-      <ol><li><a href="#idea">I have this great idea....</a>
-	</li><li><a href="#contribute">Can I contribute to the Freenet Project?</a>
-	</li><li><a href="#access">How can I access the code and website?</a>
-	</li><li><a href="#devtools">What tools do I need to help develop?</a>
-	</li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
-	</li><li><a href="#bugs">Where can I report bugs?</a>
-
-      </li></ol>
+      <ol>
+	<li><a href="#idea">I have this great idea....</a></li>
+	<li><a href="#contribute">Can I contribute to the Freenet Project?</a></li>
+	<li><a href="#access">How can I access the code and website?</a></li>
+	<li><a href="#devtools">What tools do I need to help develop?</a></li>
+	<li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a></li>
+	<li><a href="#bugs">Where can I report bugs?</a></li>
+      </ol>
+      
       <h3> Security questions</h3>
 
-      <ol><li><a href="#browser">Can I browse Freenet with my regular browser?</a>
-	</li><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
-	</li><li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a>
-	</li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
-	</li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
-	</li><li><a href="#attackY">What about attack Y?</a>
-
-      </li></ol>
+      <ol>
+	<li><a href="#browser">Can I browse Freenet with my regular browser?</a></li>
+      	<li><a href="#attack">Won't attack X break Freenet's anonymity?</a></li>
+      	<li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a></li>
+      	<li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a></li>
+      	<li><a href="#cancer">What about hostile "cancer" nodes within the network?</a></li>
+	<li><a href="#attackY">What about attack Y?</a></li>
+      </ol>
+      
       <h3> Misc. questions</h3>
-      <ol><li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a>
-	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
-      </li></ol>
+      
+      <ol>
+	<li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a></li>
+	<li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a></li>
+	<li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a></li>
+     </ol>
 
       <h2>Réponses philosophiques</h2>
       <p><b id="what">Qu'est-ce que Freenet ?</b><br/>
