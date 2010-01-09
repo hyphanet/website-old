@@ -1,97 +1,100 @@
-      <h2>Mailing Lists</h2>
+      <h2>Listes de diffusion</h2>
       <p>
-	These are the mailing lists that can be used for support or general
-	information about Freenet.
+	Les listes de diffusions suivantes peuvent être utilisées pour le support
+	ou l'obtention d'information à propos de Freenet.
       </p>
 
-      <h3>Subscribing</h3>
+      <h3>Abonnement</h3>
       <p>
-	To subscribe to one of the lists, click the list name and give your 
-	email address in the field below the <span style="font-weight: bold;">
-	  Subscribing to &lt;mailinglist&gt;</span>
-	header. To enter a password is optional, and if you do not enter one, one will
-	be automatically generated for you. Then press the 
-	<span style="font-weight: bold;">Subscribe</span> button.
-	You will recieve a confirmation email, and when that is answered,
-	you will recieve mails from the list.
+	Afin de souscrire à l'une des listes, cliquez sur le nom de la liste
+	et entrez votre adresse email dans le champ en dessous de l'en-tête 
+	 <span style="font-weight: bold;">Subscribing to &lt;mailinglist&gt;</span>. 
+	Vous n'avez pas besoin d'entrer de mot de passe&nbsp;; si vous n'en entrez
+	aucun, nous vous en fourniront un généré automatiquement.<br/>
+	Appuyez ensuite sur le boutton <span style="font-weight: bold;">Subscribe</span>.<br/>
+	Vous recevrez alors un email de confirmation. Une fois que vous y aurez répondu,
+	vous commencerez à recevoir les emails de la liste.
       </p>
 
-      <h3>Unsubscribing</h3>
-
+      <h3>Désabonnement</h3>
       <p>
-	To unsubscribe to one of the lists you are subscribed to, click the list name
-	and give your subscription email address under the heading <span style="font-weight: bold;">
-	  &lt;mailinglist&gt; Subscribers</span> and press the button <span style="font-weight: bold;">
-	  Unsubscribe or edit options</span>.
+	Pour vous désabonner de l'une des listes auxquelles vous être abonné, cliquez
+	sur le nom de la liste et entrez votre adresse email utilisée pour l'abonnement sous
+	l'en-tête <span style="font-weight: bold;">&lt;mailinglist&gt; Subscribers</span> et
+	appuyez ensuite sur le bouton <span style="font-weight: bold;">Unsubscribe or edit options</span>.
       </p>
 
       <p>
-	<i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
+	<i><b>Remarque</b>: Nous recevons en permanence des requêtes de personnes qui veulent qu'on les désabonne.
+	C'est à </i><span style='text-decoration:underline;'>VOUS</span><i> de le faire ! Cliquez simplement sur le lien fourni
+	en bas de chaque mail, entrez votre adresse email dans le champ texte de la section "Suscribers", et tapez votre
+	mot de passe sous l'option "unsuscribe". (Vous pouvez récupérer votre mot de passe sur cette même page, au cas
+	où vous l'auriez oublié).</i>
       </p>
       
-      <h3>The lists</h3>
+      <h3>Les listes</h3>
       
       <ul>
 	<li>
 	  <a class="wiki"
 	     href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/announce/">Announcements</a>
 	  (<a class="wiki"href="http://archives.freenetproject.org/list/announce.en.html">archive</a>)<br/>
-	  Please sign up here to be notified of major Freenet developments, such as announcements of new releases or important bugfixes. This list is moderated and is very low traffic (less than one message per month).
+	  Veuillez vous enregistrer ici pour être notifié de tous les développements majeurs de Freenet, tels que les annonces
+	  de nouvelles versions ou de corrections de bug importantes. Cette list est modérée et a un trafic très limité (moins d'un message par mois).
 	</li>
 	
 	<li>
 	  <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">Support</a>
 	  (<a href='http://archives.freenetproject.org/list/support.en.html'>archive</a>)<br/>
-	  Asking for or giving advice relating to getting Freenet working, 
-	  bug reports, and suggestions on improving the user experience. Requests 
-	  for help are more likely to be heard here than in the other mailing 
-	  lists.  <b>Note: </b> Emails sent to this mailing list from those not 
-	  subscribed to the list must be manually approved, and this can impose 
-	  a delay of several days.  To avoid this delay,
-	  please <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscribe</a>.
+	  Demander des conseils pour faire fonctionner Freenet ou en donner,
+	  faire des rapport de bugs, des suggestions pour améliorer l'expérience
+	  utilisateur. Les demandes d'aide ont plus de chance d'aboutir ici que sur
+	  les autres listes de diffusion.<br/>
+	   <b>Remarque : </b> Les emails envoyés à cette liste de diffusion par les personnes
+	   qui ne sont pas abonnées à la liste ont besoin d'être approuvés manuellement, et peuvent
+	   ainsi être sujets à des délais de plusieurs jours. Pour éviter tout délai, merci de vous
+	   <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">abonner</a>.
 	</li>
 	
 	<li>
 	  <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/tech/">Tech</a>
 	  (<a href="http://archives.freenetproject.org/list/tech.en.html">archive</a>)<br/>
-	  This is for general technical discussion of Freenet.  If you want to discuss
-	  longer-term technical ideas about Freenet, please use this list.
+	  Pour des discussions techniques  générales à propos de Freenet. Si vous souhaitez
+	  discuter d'idées techniques à long terme à propos de Freenet, merci d'utiliser
+	  cette liste. 
 	</li>
 	
 	<li>
 	  <a class="wiki" href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Development</a> (<a 
 class="wiki" href="http://archives.freenetproject.org/list/devl.en.html">archive</a>)<br/>
-	  This list is for active developers to discuss bugs, and the implementation 
-	  of near-term new features.  Please only post to this list if you know what 
-	  you are talking about, otherwise use the tech mailing list (see above).
-	</li>
-	
-	<li>
-	  <a class="wiki"  href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/cvs">CVS</a>  
-	  (<a class="wiki"
-	  href="http://archives.freenetproject.org/list/cvs.en.html">archive</a>)<br/>
-	  A read-only mailing list to which CVS checkins are mailed.  This will probably only be of interest to developers.
+	  Cette liste est dédiée aux développeurs actifs afin de discuter des bugs et de
+	  l'implémentation à court terme de nouvelles fonctionnalités. Merci de n'utiliser
+	  cette liste que si vous savez de quoi vous parler, sinon, utilisez la liste de 
+	  diffusion "tech" (voir ci-dessus).
 	</li>
 	
 	<li>
 	  <a class="wiki" href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/">Darknet-Tools</a> (<a class="wiki" href="http://archives.freenetproject.org/list/darknet-tools.en.html">archive</a>)<br/>
-	  A mailing list to discuss and develop ways of extending the darknet while keeping it a darknet: 
-	  Instant messenger plugins, IRC plugins, email invitations, functionality in the node needed to 
-	  support these, and any other means of extending the darknet while keeping it a darknet as much as
-	  possible.
+	  Une liste de discussion sur les solutions pour étendre le darknet sans le dénaturer :
+	  plugins de messagerie instantanée, plugins IRC, invitations par email, fonctionnalités du nœud
+	  nécessaires à leur implémentation, et n'importe quel moyen d'étendre le darknet sans le transformeer
+	  en quelque chose d'autre.
 	</li>
 
 	<li>
 	  <a class="wiki" href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> (<a class="wiki"  href="http://archives.freenetproject.org/list/chat.en.html">archive</a>)<br/>
-	  This list is for general discussion of Freenet, topics that are not suitable 
-	  to other lists. Discussions of politics, law, philosophy, lawsuits, 
-	  programming languages, related technology that should not be part of
-	  Freenet, and any thread that the developers and users don't deem appropriate 
-	  to the main lists should be discussed here. Questions such as "How can I prevent 
-	  my node from being used by terrorists?", or "Why don't you rewrite Freenet in C++?"
-	  should be addressed to this list.
+	  Cette liste est faite pour les discussions générales à propos de Freenet,
+	  pour les sujets qui ne rentrent pas dans la définition des autres listes.
+	  Les discussions à propos de la politique, des lois, de la philosophies,
+	  des procès, des langages de programmation, de technologies qui ne devraient
+	  pas faire partie de Freenet, et tous les autres fils de discussion que les
+	  développeurs et les utilisateurs ne trouvent pas appropriés pour les listes
+	  principales devraient être dicsutés ici. Des questions telles que "Comment puis-je
+	  éviter que mon nœud soit utilisé par des terroristes ?", ou "Pourquoi ne réécrivez-vous
+	  pas Freenet en C++ ?" devraient être adressées à cette liste.
 	</li>
       </ul>
       <p>
-	<i><b>Third party tools</b>: We are hosting some other mailing lists on our server here is the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/">full list</a>.</i>
+	<i><b>Outils tiers</b>: Nous hébergeons d'autres listes de diffusions sur notre serveur, vous pouvez en voir
+	<a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/">la liste complète ici</a>.</i>
       </p>

@@ -6,9 +6,9 @@
 	<li><a href="#what">Qu'est-ce que Freenet ?</a></li>
 	<li><a href="#who">Qui est derrière Freenet ?</a></li>
 	<li><a href="#trust">Si les auteurs sont anonymes, comment croire l'information ?</a></li>
-	<li><a href="#donate-bw">Dois-je donner de l'espace disque et du débit ?</a></li>
+	<li><a href="#donate-bw">Dois-je donner de l'espace disque et du bande passante ?</a></li>
 	<li><a href="#leech">Je n'ai pas besoin de donner quoique ce soit quand j'utilise l'application de partage de fichier X, et je peux "leecher" (télécharger sans rien donner en retour) plus.</a></li>
-	<li><a href="#donate-more-bw">Tous mes amis ont donné très peu d'espace et de débit. Pourquoi devrais-je donner plus ?</a></li>
+	<li><a href="#donate-more-bw">Tous mes amis ont donné très peu d'espace et de bande passante. Pourquoi devrais-je donner plus ?</a></li>
 	<li><a href="#donate-lot">Si je donne plus, est-que les performances vont s'accroitre sensiblement ?</a></li>
 	<li><a href="#legal">Freenet est-il légal ?</a></li>
 	<li><a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a></li>
@@ -41,42 +41,42 @@
 	<li><a href="#stabchange">Comment passer de la version stable à instable ?</a></li>
       </ol>
       
-      <h3> Publisher questions</h3>
+      <h3>Questions à propos de la publication</h3>
 
       <ol>
-	<li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a></li>
-	<li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a></li>
-	<li><a href="#update">Can Freenet documents be updated / deleted?</a></li>
+	<li><a href="#find">Si je publie quelque chose dans Freenet, comment les autres vont-ils le trouver ? Ne doivent-ils pas connaître la clé que j'ai utilisée ?</a></li>
+	<li><a href="#chk">Comment publier une Content Hash Key (CHK) ?</a></li>
+	<li><a href="#update">Les documents insérés dans Freenet peuvent-ils être modifiés ou supprimés ?</a></li>
       </ol>
       
-      <h3> Contribution questions</h3>
+      <h3>Questions à propos de la contribution</h3>
 
       <ol>
-	<li><a href="#idea">I have this great idea....</a></li>
-	<li><a href="#contribute">Can I contribute to the Freenet Project?</a></li>
-	<li><a href="#access">How can I access the code and website?</a></li>
-	<li><a href="#devtools">What tools do I need to help develop?</a></li>
-	<li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a></li>
-	<li><a href="#bugs">Where can I report bugs?</a></li>
+	<li><a href="#idea">J'ai une idée formidable...</a></li>
+	<li><a href="#contribute">Puis-je contribuer au projet Freenet ?</a></li>
+	<li><a href="#access">Comment puis-je accéder au code et au site web ?</a></li>
+	<li><a href="#devtools">De quels outils ai-je besoin pour développer ?</a></li>
+	<li><a href="#freenethelp">Y a-t-il un site d'aide qui permet d'en savoir plus sur les questions que les débutants pourraient avoir sur Freenet, et où les gens peuvent aussi contribuer ?</a></li>
+	<li><a href="#bugs">Où puis-je rapporter les problèmes (bugs) ? </a></li>
       </ol>
       
-      <h3> Security questions</h3>
+      <h3>Question à propos de la sécurité</h3>
 
       <ol>
-	<li><a href="#browser">Can I browse Freenet with my regular browser?</a></li>
-      	<li><a href="#attack">Won't attack X break Freenet's anonymity?</a></li>
-      	<li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a></li>
-      	<li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a></li>
-      	<li><a href="#cancer">What about hostile "cancer" nodes within the network?</a></li>
-	<li><a href="#attackY">What about attack Y?</a></li>
+	<li><a href="#browser">Puis-je naviguer sur Freenet avec mon navigateur habituel ?</a></li>
+      	<li><a href="#attack">L'attaque X ne va-t-elle pas briser l'anonymat garanti par Freenet ?</a></li>
+      	<li><a href="#flooding">Freenet est-il vulnérable aux attaques de type flood ?</a></li>
+      	<li><a href="#hash">Pourquoi les hasher les clés et chiffrer les données alors que le propriétaire d'un nœud pourrait très bien identifier les données s'il essayait ?</a></li>
+      	<li><a href="#cancer">Et à propos des nœud "cancereux" et hotiles au sein du réseau ?</a></li>
+	<li><a href="#attackY">Et à propos de l'attaque Y ?</a></li>
       </ol>
       
-      <h3> Misc. questions</h3>
+      <h3>Autres questions</h3>
       
       <ol>
-	<li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a></li>
-	<li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a></li>
-	<li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a></li>
+	<li><a href="#rabbit">Où puis-je récupérer une copie haute qualité de l'icône en forme de lapin ?</a></li>
+	<li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">Une autre FAQ sur le wiki (en anglais)</a></li>
+	<li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Une page dédiée à la sécurité de Freenet 0.7 sur notre wiki (en anglais)</a></li>
      </ol>
 
       <h2>Réponses philosophiques</h2>
@@ -90,38 +90,50 @@
 	la demande. Pour plus d'informations, se référer à <a href="whatis.html">Freenet ?</a>.
 	</p>
 	
-      <p><b id="who">Qui est derrière Freenet?</b><br/>
+      <p>
+	<b id="who">Qui est derrière Freenet?</b><br/>
 	Freenet est né à partir du concept de système permettant une publication anonyme, crééé
 	par Ian Clarke alors qu'il était étudiant à l'Université d'Édimbourg, en Ecosse. Depuis
 	lors, de nombreuses personnes ont contribué à réaliser la proposition de Ian.
       </p>
 
-      <p><b id="trust">If authors are anonymous how can you trust information?</b><br/>
-	Cryptographic signing of information allows people to prove
-	authorship, this technique is frequently used to authenticate
-	authorship of emails. Moreover, you could actually sign information
-	while remaining anonymous, thus having an anonymous persona. You could
-	prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you could build up an anonymous reputation for reliability.</p>
+      <p>
+	<b id="trust">Si les auteurs sont anonymes, comment croire l'information ?</b><br/>
+	Le signement par chiffrement de l'information permet de prouver la paternité d'un document&nbsp;;
+	cette technique est souvent utilisée pour authentifier la paternité des emails. De plus,
+	vous pouvez signer l'information tout en restant anonyme, et ainsi avoir une "personnalité"
+	anonyme. Vous pouvez prouvez que vous avez écrit différentes informations sur Freenet,
+	sans pour autant révéler votre identité. Vous pouvez ainsi vous construire une réputation anonyme
+	quant à votre sérieux.
+     </p>
 
-      <p><b id="donate-bw">Do I have to donate disk space and bandwidth?</b><br/>
-	You aren't really donating in the sense that you lose the disk
-	space and the bandwidth; but you aren't really sharing either (at least
-	not the same way as with filesharing programs). It is more like
-	pitching in to the common Freenet resource pool.</p>
+      <p>
+	<b id="donate-bw">Dois-je donner de l'espace disque ou du bande passante ?</b><br/>
+	Vous ne donnez rien dans le sens où vous perdez de l'espace disque ou de la
+	bande passante&nbsp;; mais vous ne partagez pas vraiment non plus (au moins pas
+	de la même façon qu'avec les applications de partage de fichier). C'est plus
+	comme si vous ajoutiez quelque chose aux ressources commune de Freenet.
+     </p>
 
-      <p><b id="leech">I don't have to donate anything when using filesharing application X and I get to leech more.</b><br/>
+      <p>
+	<b id="leech">Je n'ai pas besoin de donner quoi que ce soit quand j'utilise l'application de partage de fichier X, et je peux "leecher" plus.</b><br/>
+	Pouvez-vous le faire anonymement ? Freenet est conçu pour l'anonymat d'abord, les performances viennent en seconde position.
+      </p>
 
-	Do you get to do that anonymously? Freenet is designed with anonymity in mind, performance comes second.</p>
+      <p>
+	<b id="donate-more-bw">Tous mes amis ont donné peu d'espace disque et de bande passante. Pourquoi devrais-je donner plus ?</b><br/>
+      	Si vous vous contentez de ce que vous avez, alors non. Mais si
+	vous voulez plus, vous devriez considérer de donner plus et de faire
+	tourner votre nœud 24/7 si possible, et demander à vos amis de faire
+	de même.
+      </p>
 
-      <p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b><br/>
-	If you are happy with what you are getting then no. But if you want
-	more you should consider donating more and running your node as close to 24x7 as possible, and
-	you should ask your friends to do the same.</p>
-
-      <p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b><br/>
-	Your experience will definitely get better, but for a really great
-	improvement we need more people to start thinking like you. Bandwidth
-	counts more than diskspace.</p>
+      <p>
+	<b id="donate-lot">Si je donne plus, est-ce que les performances vont s'accroitre sensiblement ?</b><br/>
+	C'est sûr, mais pour une amélioration encore plus grande, nous avons besoin que
+	les utilisateurs commencent à penser comme vous. La bande passante compte plus
+	que l'espace disque.
+      </p>
 
       <p><b id="legal">Is Freenet legal?</b><br/>
 	We don't currently know of any prosecutions for using merely using Freenet.

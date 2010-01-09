@@ -1,82 +1,84 @@
       <div id="people">
 
-	<h1>People</h2>
-	<p><b>Note:</b> This is an incomplete list, a large number of people have
-	  contributed to the project. </p>
+	<h1>Contributeurs</h1>
+	<p>
+		<b>Remarque :</b> Cette liste est incomplète, et un grand nombre de personnes
+		ont contribué à ce projet.
+	</p>
 	
 	<h5>Ian Clarke</h5>
 	<p>
-	  Freenet is based on Ian's paper "A Distributed Decentralised Information
-	  Storage and Retrieval System".  Ian started the Freenet Project around July of
-	  1999, and continues to coordinate the project.  In his day job, Ian is the
-	  founder and CEO of <a href="http://uprizer.com/">Uprizer
+	  Freenet est basé sur le papier de Ian intitulé "A Distributed Decentralised Information
+	  Storage and Retrieval System" ("Un Système Distribué et Décentralisé de Stockage et de Récupération
+	  d'Information"). Ian a commencé le projet Freenet aux alentours de Juillet 1999, et continue
+	  à coordonner le projet. Dans son travail de tous les jours, Ian est le fondateur et
+	  PDG de <a href="http://uprizer.com/">Uprizer
 	    Labs</a>.
 	</p>
 	
 	<h5>Matthew Toseland</h5>
 	<p>
-	  Matthew has been working on Freenet since before the 0.5 release.  His work
-	  and that of others has resulted in dramatic improvements to the performance
-	  and stability of the network.
+	  Matthew a travaillé sur Freenet depuis la version 0.5 et même avant. Son
+	  travail et celui d'autres a permis des améliorations drastiques des performances
+	  et de la stabilité du réseau.
 	</p>
 
 	<h5>Oskar Sandberg</h5>
 	<p>
-	  Oskar was also one of the earliest contributors to the Freenet project, and
-	  continues to play a core role in ongoing development.
+	  Oskar a aussi été un des premiers contributeurs au projet Freenet, et il continue
+	  à jouer un rôle principal dans son développement.
 	</p>
 
 	<h5>Florent Daigni&egrave;re</h5>
 	<p>
-	  Florent has been our system administrator since around the time 0.7 was started,
-	  and has helped on other matters like the current installer.
+	  Florent a été notre administrateur système depuis environ le début de la version 0.7,
+	  et nous a aidé pour d'autres sujets tel que le programme d'installation actuel.
 	</p>
 
 	<h5>Scott Miller</h5>
 	<p>
-	  Scott is responsible for the implementation of much of the cryptography
-	  elements within Freenet.
+	  Scott est responsable de l'implémentation de la majorité des éléments
+	  cryptographiques dans Freenet.
 	</p>
 
 	<h5>Steven Starr</h5>
 	<p>
-	  Steven helps with administration of Freenet Project Inc, and is an advisor    
-	  to the project on business and publicity matters.
+	  Steven aide à l'administration de Freenet Project Inc., et conseille
+	  le projet sur des sujets touchant au business ou à la publicité.
 	</p>
 
 	<h5>Michael Rogers</h5>
 	<p>
-	  Michael has mostly contributed detailed simulations as part of the Google 
-	  Summer of Code. He has been helpful in designing the 
-	  <a href="http://wiki.freenetproject.org/NewTransportLayer">new
-	    transport layer</a>.
+	  Michael a contribué principalement à une simulation détaillée pour son Google
+	  Summer Of Code. Il nous a aussi aidé lors de la conception de la 
+	  <a href="http://wiki.freenetproject.org/NewTransportLayer">nouvelle couche
+	    de transport</a>.
 	</p>
 
 	<h5>Dave Baker</h5>
 	<p>
-	  Dave's main contribution has been <a href="http://freenetproject.org/freemail.html">Freemail</a>, 
-	  his Summer of Code project to build a working email-over-freenet system, as well as some 
-	  debugging and core work in various places.
+	  La principale contribution de Dave a été <a href="http://freenetproject.org/freemail.html">Freemail</a>, 
+	  son projet de Summer of Code de construire un système fonctionnel d'email par dessus freenet, ainsi
+	  que du debuggage et du travail dans différents endroits du coeur de Freenet.
 	</p>
 
 	<h5>Robert Hailey</h5>
 	<p>
-	  Robert has helped improve the speed and security of Freenet by finding two
-	  <b>major</b> bugs, and has recently contributed some code.
+	  Robert a aidé à accroître la vitesse et la sécurité de Freenet en trouvant
+	  deux bugs <b>majeurs</b>, et a récemment contribué au code.
 	</p>
 
 	<h5>David Sowder</h5>
 	<p>
-	  David (Zothar) has helped the Freenet project as time permits and interest
-	  directs, including configuration, statistics and peer management via FCP,
-	  the FProxy stats page and Node 2 Node Messages (N2NM/N2NTMs).
+	  David (Zothar) a aidé le projet Freenet selon son temps et ses intérêts,
+	  dans la configuration, les statistiques et la gestion des pairs via FCP, 
+	  la page de statistiques de FProxy et les messages nœud à nœud (N2NM/N2NTMs).
 	</p>
 
 	<p>
-	  And <b>hundreds of others</b>, who either haven't asked to be added here, who 
-	  prefer to remain nameless, or who we just haven't got around to thanking. 
-	  Not to mention thousands of users, testers,
-	  and <a href="sponsors.html">donors</a>!
+	  Et une <b>centaines d'autres</b>, qui soit n'ont pas demandé à apparaître ici, soit
+	  préfèrent rester sans nom, ou que nous n'avons juste pas remercié. Sans paler les
+	  milliers d'utilisateurs, de testeurs, et de <a href="sponsors.html">donateurs</a> !
 	</p>
 
       </div>
