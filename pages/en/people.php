@@ -1,6 +1,6 @@
       <div id="people">
 
-	<h1>People</h2>
+	<h1>People</h1>
 	<p><b>Note:</b> This is an incomplete list, a large number of people have
 	  contributed to the project. </p>
 	
