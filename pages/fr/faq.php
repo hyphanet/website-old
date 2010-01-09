@@ -13,8 +13,8 @@
 	<li><a href="#legal">Freenet est-il légal ?</a></li>
 	<li><a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a></li>
 	<li><a href="#trouble">Puis-je être inquiété si je fais tourner un nœud ?</a></li>
-	<li><a href="#copyright">Et en ce qui conerne le droit d'auteur ?</a></li>
-	<li><a href="#childporn">Et en ce qui conerne la pornographie infantile, les contenus choquants ou offensants, ou le terrorisme ?</a></li>
+	<li><a href="#copyright">Qu'en est-il du droit d'auteur ?</a></li>
+	<li><a href="#childporn">Qu'en est-il de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme ?</a></li>
 	<li><a href="#offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</a></li>
 	<li><a href="#export">How about encryption export restrictions?</a></li>
 	<li><a href="#whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</a></li>
@@ -135,91 +135,115 @@
 	que l'espace disque.
       </p>
 
-      <p><b id="legal">Is Freenet legal?</b><br/>
-	We don't currently know of any prosecutions for using merely using Freenet.
-	Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
-	makes Freenet illegal in France; others have told us about the German data retention
-	law which allegedly requires anonymity systems to retain enough data to trace web
-	requests, which may or may not apply to us. Europe-wide, the
-	<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> might have
-	wide-ranging effects, including on Freenet, should it pass... or it may not. 
-	Many of these things are arguable either way (depending on how broadly the 
-	legislation is applied) and will have to be decided in caselaw.
-	The law can be an ass sometimes. You can read the EFF's (US-centric) advice to peer to peer developers 
-	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
-	If you need legal advice, talk to a lawyer. Also read the next section especially if you
-	are in China; blocking the protocol may suggest the authorities don't like us!
+      <p>
+	<b id="legal">Is Freenet legal?</b><br/>
+        Nous ne sommes au courant d'aucune poursuite judiciaire suite à l'utilisation de Freenet.
+	Certaines personnes affirment que la loi <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
+	(lien en anglais) rend Freenet illégal en France&nbsp;; d'autres nous ont parlé de la
+	loi allemande à propos de la rétention de données, qui exige des systèmes anonymes
+	qu'ils conservent suffisamment de données pour tracer les requêtes web, ce qui pourrait,
+	ou non, s'appliquer à nous. À l'échelle européenne, la loi 
+	<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> (lien en anglais)
+	pourrait avoir de vastes effets, y compris sur Freenet, si elle passe... ou peut-être que non.
+	Toutes ces choses peuvent avoir différents effets (suivant comment la législation est 
+	appliquée) et devront faire l'objet d'une jurisprudence. Vous pouvez lire les conseils
+	pour les développeurs d'application pair à pair de l'EFF (centrés sur les États-Unis)
+	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">ici</a>
+	(lien en anglais). Si vous avez besoin de conseils juridiques, parlez à un avocat.
+	Vous pouvez également lire la prochaine section, spécialement si vous êtes en Chine&nbsp;
+	peut-être que les autorités bloquent notre protocole parce qu'elles ne nous aiment pas !
       </p>
 
-      <p><b id="blocked">Is Freenet blocked by national firewalls?</b><br/>
-	The Chinese national firewall (Golden Shield) has blocked our website for many years,
-	and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
-	like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
-	are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-	peer networks (but right now Freenet works fine in France and we have many French users!). 
-	Freenet 0.7 has some minimal defences against blocking; 
-	the protocol is relatively hard to identify (we will make this a lot harder in future),
-	and it supports a <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> mode 
-	(i.e. only connecting to your friends) which makes automated harvesting and blocking 
-	of nodes very difficult.
+      <p>
+	<b id="blocked">Is Freenet blocked by national firewalls?</b><br/>
+	Le pare-feu national Chinois (le Bouclier Doré) a bloqué notre site web pendant
+	de nombreuses année, ainsi que la version 0.5 du protocole selon des observations
+	datant de 2005. Cela suggère que la Chine ne nous aime pas, donc soyez prudent si
+	vous faîtes tourner Freenet en Chine. D'autres pays (comme la France) sont connus pour
+	être hostile aux réseaux pair à pair, et pourraient obliger les FAI (Fournisseur d'Accès
+	à Internet) à bloquer le trafic pair à pair (même si à l'heure actuelle Freenet fonctionne
+	parfaitement bien en France, et ce n'est pas nos nombreux utilisateurs Français qui diront
+	le contraire !). Freenet 0.7 possède certaines défenses minimales contre le blocage&nbsp;;
+	le protocole est relativement difficile à identifier (nous le rendrons encore plus difficile
+	dans le future), et le mode <a href="http://wiki.freenetproject.org/DarkNet">darknet</a>
+	(dans lequel vous ne vous connectez qu'à vos amis) rend le harvesting (collecte d'IPs) automatique
+	et le blocage des nœuds Freenet très difficile.
       </p>
       
-      <p><b id="trouble">Can I get trouble if I run a node?</b><br/>
-	This is related to <a href="#legal">"Is Freenet legal?"</a>. We have done everything
-	we can to make it extremely difficult for any sane legal system to
-	justify punishing someone for running a Freenet
-	node, and there is little precedent for such action in today's developed
-	countries. Many legal systems recognise the importance of freedom of
-	speech, which is Freenet's
-	core goal. Having said that, there is risk in doing anything that your
-	government might not agree with; you should make an informed decision
-	as to whether to take that risk. Furthermore, your ISP or hosting provider
-	may have a problem with Freenet. At least one French hosting provider
-	has been known to ban Freenet (along with Tor and others) from their
-	servers; please read your terms and conditions to make sure you are 
-	allowed to run Freenet.</p>
+      <p>
+	<b id="trouble">Can I get trouble if I run a node?</b><br/>
+	Ce sujet est lié à <a href="#legal">"Freenet est-il légal ?"</a>.
+	Nous avons fait tout ce que nous pouvions pour rendre extrêmement
+	difficile à n'importe quel système judiciaire sensé de justifier de punir
+	quelqu'un pour avoir fait tourné un nœud Freenet, et il y a peu de
+	précédent de telles actions dans les pays développés actuels. De nombreux
+	systèmes judiciaires reconnaissent l'importance de la liberté d'expression,
+	qui est le principal but de Freenet. Ceci étant dit, il y a un risque
+	en faisant quelque chose avec laquelle votre gouvernement pourrait ne pas
+	être d'accord&nbsp;; vous devriez prendre une décision réfléchie pour savoir
+	si vous êtes prêt à prendre ce risque. De plus, votre FAI (Fournisseur d'Accès à Internet)
+	pourrait avoir un problème avec Freenet. Au moins un fournisseur de solution d'hébergement
+	est connu pour avoir banni Freenet (ainsi que Tor et autres) de leurs serveurs&nbsp;;
+	merci de lire les termes et conditions de votre offre afin de vous assurez
+	que vous avez le droit d'exécuter Freenet.
+      </p>
 
-      <p><b id="copyright">What about copyright?</b><br/>
-	There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.
-	Specific copyright-related laws may be a problem, please read <a href="#legal">Is Freenet legal?</a>
-	and <a href="#blocked">Is Freenet blocked by national firewalls?</a>.</p>
+      <p>
+	<b id="copyright">What about copyright?</b><br/>
+	Il y a d'excellentes opinions à ce sujet sur la page <a href="/philosophy.html">Philosophy</a>.
+	Les lois spécifiques aux droits d'auteurs pourraient être un problème, merci de lire
+	<a href="#legal">Freenet est-il légal?</a> et <a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a>.
+      </p>
 
-      <p><b id="childporn">What about child porn, offensive content or terrorism?</b><br/>
-	While most people wish that child pornography and terrorism did not
-	exist, humanity should not be deprived of their freedom to communicate
-	just because of how a very small number of people might use that
-	freedom.</p>
-
-
-      <p><b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
-	The true test of someone who claims to believe in Freedom of Speech
-	is whether they tolerate speech which they disagree with, or even find
-	disgusting. If this is not acceptable to you, you should not run a Freenet node. There is another thing you can do. Since content in Freenet
-	is available as long as its popular, you can help limit the popularity
-	of whatever information you do not like. For example, if you do not
-	want a file to spread you should not request it and tell everyone you
-	know not to request that specific key. However, keep in mind that freenet 
-	is not designed so as to only allow communication between people if a sufficient
-	number of people agree with the communication. Freenet is designed to make communication
-	possible even if there's just one publisher and one reader, and this is already reasonably
-	feasible on the current freenet.</p>
-
-      <p><b id="export">How about encryption export restrictions?</b><br/>
-	The Freenet Project has notified the US authorities (since the files are hosted on SourceForge,
-	which is on US soil) that it will be exporting crypto. As long as your
-	country doesn't prohibit the use of encryption you are fine.</p>
+      <p>
+	<b id="childporn">What about child porn, offensive content or terrorism?</b><br/>
+	Bien que la plupart des gens aimeraient que la pornographie infantile
+	et le terrorisme n'existe pas, l'humanité ne devrait pas être privée
+	de la liberté de communiqué simplement parce qu'un très petit nombre
+	de personnes pourraient l'utiliser à d'autres fins.
+      </p>
 
 
-      <p><b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
-	Yes, in fact even without the anonymity feature Freenet
-	is very useful because of its unique way it handles content distribution
-	and information load. In simple terms that means you can publish a
-	website without worrying about how big the site will be and without
-	having to put someone elses ad banners on it. While it is unlikely that
-	freenet sites will ever load faster than regular websites, it does adapt to
-	sudden surges of visitors (which will often occur when relatively unknown sites 
-	get linked to from a big site) better, and high download speeds for big files
-	are feasible too. Just don't expect very low latency.
+      <p>
+	<b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
+	Le véritable test pour ceux qui affirment croire en la liberté
+	d'expression est de savoir s'ils tolèrent un discours avec lequel ils
+	sont en désaccord, ou qu'ils trouvent répugnant. Si vous n'êtes pas
+	d'accord avec cela, vous ne devriez pas faire tourner de nœud Freenet.
+	Il y a autre chose que vous pouvez faire. Puisque le contenu de Freenet est
+	disponible tant qu'il est populaire, vous pouvez aider à limiter la
+	popularité de n'importe quelle information que vous n'aimez pas. Par exemple,
+	si vous ne voulez pas qu'un fichier se répande, vous ne devriez pas
+	le télécharger, et faire passer le messages à tous ceux que vous connaissez.
+	Cependant, il vous faut garder à l'esprit que Freenet n'est pas conçu pour
+	rendre possible la communication entre les personnes uniquement si
+	un nombre suffisant de personnes est d'accord avec cette communication.
+	Freenet est conçu pour rendre la communication possible même s'il n'y a
+	qu'un éditeur et qu'un lecteur, ce qui est presque déjà le cas avec la version
+	actuelle de Freenet. 
+      </p>
+
+      <p>
+	<b id="export">How about encryption export restrictions?</b><br/>
+      	Le projet Freenet a averti les autorités des États Unis (puisque les fichiers sont
+	hébergés sur le territoire américain) qu'il fait usage d'algorithmes de chiffrements.
+	Tant que votre pays n'interdit pas l'utilisation de chiffrement, c'est bon.    
+     </p>
+
+      <p>
+	<b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
+	Oui, en fait même sans garantir l'anonymat, Freenet est déjà
+	très utile, grâce à sa façon unique de gérer la distribution
+	de contenus et la charge d'information. Plus simplement,
+	cela signifie que vous pouvez publier un site sans vous
+	préoccuper de sa taille et sans avoir à y intégrer la bannière
+	publicitaire de quelqu'un d'autre. Bien qu'il soit peu probable
+	que les sites Freenet (freesites) soient un jour chargés plus
+	rapidement que les sites web "normaux", le réseau s'adapte mieux à
+	un pic soudain de visiteurs (ce qui est souvent le cas quand le lien de
+	sites quasi inconnus se retrouvent sur un gros site) et des taux de
+	transferts élevés pour des gros fichiers est aussi envisageable. Ne vous
+	attendez simplement pas à une latence faible.
       </p>
       
       <h2> Technical answers</h2>
