@@ -1,82 +1,80 @@
       <div id="papers">
-	<h1>Papers</h1>
+	<h1>Papiers</h1>
 	<p>
-	  <img src="../images/video.icon.png" />
-	  <a href="/22c3vid.html">Video of Small World talk, Berlin, December 2005</a><br/>
-	  This is a video of a talk given by Ian Clarke and Oskar
-	  Sandberg at the Chaos Computer Congress in Berlin, December
-	  2005, describing the (then) new architecture for Freenet
-	  0.7.  You can also download
-	  the <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>,
-	  and the source for the Java <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
-	  (requires Java 1.5).
+	  <b>Tous les papiers mentionnés ci-dessous sont en anglais.</b>
+	</p>
+	<img style="margin-right: 16px;" src="../../image/video.icon.png" />
+	<p>
+	  <a href="/22c3vid.html">Video de la conférence sur le Small World, Berlin, Decembre 2005</a><br/>
+	  Une vidéo de la conférence donnée par Ian Clarke et Oskar Sandberg
+	  au Chaos Computer Congress à Berlin, en décembre 2005, décrivant la nouvelle
+	  (à l'époque) architecture de Freenet 0.7. Vous pouvez aussi télécharger le
+	  <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a>,
+	  ainsi que les sources pour la <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo Java</a> 
+	  (Java 1.5 requis).
 	</p>
 	
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
-	  Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
-	  networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
-	  the new Darknet architecture.
+	  La thèse d'Oskar Sandberg décrivant un mécanisme simple et décentralisé pour construire des réseaux de type
+	  small world inspirée par l'architecture originale de Freenet. La partie II de la thèse décrie les bases de la 
+	  nouvelle architecture Darknet. 
 	</p>
 	
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
-	  A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
-	  by Freenet 0.7.
+	  Un papier d'Oskar Sandberg qui décrit les bases théoriques pour le nouveau mécanisme de routage "Darknet"
+	  utilisé par Freenet 0.7.
 	</p>
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 	  (slideshow)<br/>
-	  This is a <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
-	  at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
-	  Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
-	  demonstration to accompany the talk is <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
+	  C'est un <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a> d'une conférence donnée
+	  au Chaos Computer Congress le 30 décembre 2005 à Berlin, Allemagne, par Ian Clarke et Oskar Sandberg.
+	  Y est décrit la nouvelle approche "Darknet" utilisée dans Freenet 0.7. Une démonstation en Java accompagnant
+	  la conférence est <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">églameent</a> disponible.
 	</p>
 
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
-	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
+	  Une thèse par Vilhelm Verendel qui explore des façons d'optimiser l'algorithme de swapping.
 	</p>
-	<p>
+
+	<p style="clear: left;margin-left: 39px;">
 	  <a href="http://crisp.cs.du.edu/pitchblack/">Routing in the Dark: Pitch Black</a><br/>
-	  A paper will soon be released describing some attacks on Freenet 0.7's 
-	  location swapping algorithm.
+	  Un papier qui sera bientôt publié et qui décrit quelques attaques de l'algorithme
+	  de location swapping de Freenet 0.7.
 	</p>
-	<p>
+
+	<p style="margin-left: 39px;" >
 	  <a href="/ngrouting.html">Next Generation Routing Algorithm</a><br/>
-	  This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
-	  approach which had nodes making routing decisions based on sophisticated analysis of
-	  the time required to route previous requests.  This algorithm was promising, but
-	  was eventually dropped in favour of a much simpler approach in Freenet 0.7.
+	  Cet article décrit l'algorithme de routage de "prochaine génération" de Freenet.
+	  C'était une nouvelle approche dans laquelle les nœud prenaient les décisions de routage
+	  en se basant sur une analyse sophistiquée du temps requis pour router les requêtes précédentes.
+	  Cet algorithme était prometteur, mais a finalement été délaissé en faveur d'une approche
+	  beaucoup plus simple dans Freenet 0.7.
 	</p>
+
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-ieee.pdf">Protecting Freedom of Information 
 	    Online with Freenet</a><br/>
-	  An IEEE Internet Computing article describing the Freenet architecture 
-	  circa 2002 - probably the best introduction to the theory behind 
+	  Un article de l'IEEE Internet Computing décrivant l'architecture de Freenet
+	  aux environs 2002 - probablement la meilleure introduction à la théorie derrière
 	  Freenet.
 	</p>
 	<p>
-	  <img src="../images/pdf.icon.jpg"/>
+	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="/papers/ddisrs.pdf">FreeNet White Paper</a><br/>
-	  Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
+	  Le papier blanc originel de Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 	</p>
 	<hr/>
 	<p>
-	  See also all the
-	  other <a href="http://wiki.freenetproject.org/FreenetSpecifications">Developer
-	    documentation</a>.
+	  Voir aussi la <a href="http://wiki.freenetproject.org/FreenetSpecifications">documentation
+	    de développement</a>.
 	<p>
-	<p>
-	  And an unofficial, more
-	  elaborate <a href="http://www.freenethelp.org">Freenet Help
-	    Site</a> was created, to go deeper into the questions
-	  newbies may have about the usage and  inner-workings of
-	  Freenet.
-	</p>
 	</div>
