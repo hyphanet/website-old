@@ -246,39 +246,51 @@
 	attendez simplement pas à une latence faible.
       </p>
       
-      <h2> Technical answers</h2>
+      <h2>Réponses techniques</h2>
 
-      <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
-	Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it through a Freenet client. One built-in client is fproxy, which lets you talk to Freenet with a web browser. 
-	Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu, or a system tray icon (rabbit) with a Launch Freenet menu item.
-	Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Freesite subscriptions" panel to reach some of the popular Freenet index sites.</p>
+      <p>
+	<b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
+	Fred (the Freenet REference Daemon - démon Freenet de référence) est éxécuté en tant que démon, ou service, en tâche de fond. Vous pouvez communiquer avec via un client Freenet. FProxy, par exemple, est un client intégré qui vous permet de communiquer avec Freenet à travers un navigateur internet.
+	Lors de l'installation de Freenet, un raccourci "Browse Freenet" devrait avoir été créé sur le bureau et/ou dans le menu démarrer, ainsi qu'un icône dans la zone de notification (lapin Freenet) avec un item "Launch Freenet".
+	Si rien de tout cela ne fonctionne, visitez la page <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> avec votre navigateur. Cliquez sur quelques liens situés dans le paneau "Freesite subscriptions" pour visiter quelques freesites d'indexation populaires.
+      </p>
 
-      <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
+      <p>
+	Si vous cherchez des applications qui s'exécutent au-dessus de Freenet et fournissent différentes interface et fonctionnalités, merci de vous référer à la page <a href="/tools.html">Outils</a>.
+      </p>
 
-      <p><b id="slow">Why is Freenet so slow?</b><br/>
-	When you first install Freenet, it will be slow, and you may see Data Not Found 
-	or Route Not Found errors for freesites. This is normal, and Freenet will speed
-	up significantly over time. For best performance you should try to run Freenet
-	as close to 24 hours a day as possible. This is why we install Freenet as a
-	service.</p>
+      <p>
+	<b id="slow">Why is Freenet so slow?</b><br/>
+	Quand vous installez Freenet pour la première, il sera lent, et vous pourrez
+	rencontrer les erreurs "Data Not Found" (Donnée introuvable) ou "Route Not Found"
+	(Route introuvable). C'est normal, et Freenet deviendra sensiblement plus rapide 
+	au fil du temps. Pour atteindre les meilleures performances possibles, vous devriez
+	essayer de faire tourner Freenet aussi longtemps que possible (idéalement, 24h/24).
+	C'est pour cette raison que nous installons Freenet en tant que service.
+      </p>
+      <p>
+	Merci de garder à l'esprit qu'une latence élevée est inhérente au principe de Freenet :
+	cela peut prendre du temps à charger une page la première fois, même si Freenet est
+	capable de vitesses raisonnables (pour un système anonyme !) pour les gros fichiers
+	populaires. Vous pouvez également améliorer les performances en utilisant un 
+	navigateur autre que celui que vous utilisez habituellement et <a href="#connections">accroître 
+	sa limite de connexions</a>. Vous devriez aussi configurer la taille du datastore et la limite de
+	bande passante aussi hautes que possible. Mais protéger votre anonymat est coûteux en
+	terme de performance. Vous pouvez configurer cela en changeant les niveaux de sécurité dans
+	la page Configuration.
+      </p>
 
-      <p>Please bear in mind that Freenet is inherently high latency: it can take a while 
-	to (for example) load a page for the first time, even if it is capable of reasonable
-	speeds (as anonymous systems go!) for large popular files. You can also improve performance
-	for freesite browsing by using a separate browser and <a href="#connections">increasing 
-	its connection limit</a>. You should also set the datastore size and bandwidth limit as
-	high as possible. But protecting your anonymity does cost a certain amount of performance.
-	You can configure how much to a degree by changing the security levels on the page under
-	Configuration. </p>
-
-      <p><b id="search">Is Freenet searchable?</b><br/>
-	Yes, there are a few different search mechanisms. To search the freenet web (freesites),
-	you should be able to just use the search box on the homepage, or go to Search 
-	Freenet on the Browse submenu. If it's not there, go to the Plugins page under 
-	Configuration, and load the Library plugin. Alternatively, Frost and Thaw also 
-	provide searching for messages and files. Note that searching on Freenet is a good 
-	deal more difficult than on other networks because of Freenet's different 
-	architecture and design goals.
+      <p>
+	<b id="search">Is Freenet searchable?</b><br/>
+	Oui, il y a quelques mécanismes de recherche différents. Pour chercher dans
+	les freesites, vous pouvez simplement utiliser le champ de recherche de la
+	page d'accueil, ou bien vous rendre sur la page "Chercher sur Freenet" dans le menu
+	"Naviguer". Si elle n'existe pas, rendez-vous dans la section Plugins de la page
+	de Configuration, et chargez le plugin nommé "Library". De façon alternative,
+	Frost et Thaw fournissent aussi des fonctions de recherche de messages et
+	de fichiers. Veuillez noter qu'il est bien plus difficile de chercher quelque chose
+	sur Freenet que sur les autres réseaux, en raison de son architecture et de sa conception
+	qui ont des objectifs différents.
       </p>
 
       <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
@@ -293,20 +305,25 @@
 	your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/">the config page</a>, 
 	and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
 
-      <p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
-	No, but it is preferred. You can run the software and test it from
-	a "transient" connection (such as provided by typical modem/ISP
-	setups), but for the network as a whole to be most useful, we will need
-	as many permanent nodes as possible (most cable modem or DSL setups are
-	sufficiently "permanent" for this). A later version of Freenet may take better advantage of transient nodes.</p>
+      <p>
+	<b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
+	Non, mais c'est préférable. Vous pouvez exécuter le logiciel et le 
+	tester sur une connexion "éphémère" (telle que fournie par les configurations
+	habituelles des FAI/modem), mais pour que l'ensemble du réseau soit plus
+	utile et performant, nous avons besoin d'un maximum de connexion permanente
+	(la plupart des connexions par cable ou DSL sont suffisamment "permanentes").
+	Une version future de Freenet pourrait tirer un meilleur avantage des
+	nœuds "éphémères". 
+      </p>
 
-      <p><b id="connections">Why does Freenet only download 1 or 2 files at a time?</b><br/>
-	Many browsers limit the number of simultaneous connections to something far too low for efficiently browsing Freenet (since Freenet
-	pages often have much higher latency than web pages). This can usually
-	be reconfigured. For example, for Mozilla Firefox, type <span style="font-weight: bold;">about:config</span> in the address field
-	of the browser and replace the value of the following settings to the one stated. Filter on <span style="font-weight: bold;">&quot;connections&quot;</span>
-
-	to get only the relevant settings:</p>
+      <p><
+	b id="connections">Why does Freenet only download 1 or 2 files at a time?</b><br/>
+	De nombreux navigateurs limitent beaucou trop le nombre de connexions simultanées pour pouvoir
+	naviguer efficacement sur Freenet (puisque les pages Freenet ont souvent une latence bien plus grandes que
+	les pages web). Ce comportement peut être configuré. Par exemple, pour Mozilla Firefox, entrez 
+	<span style="font-weight: bold;">about:config</span> dans la barre d'adresse et remplacez les valeurs des 
+	otpions suivantes par les valeurs données ici. Tapez <span style="font-weight: bold;">&quot;connections&quot;</span> dans
+	le champ "Filter" pour n'afficher que les options pertinentes :</p>
 
       <code>
 	network.http.max-connections 200<br/>
@@ -314,13 +331,14 @@
 	network.http.max-persistent-connections-per-proxy 200<br/>
 	network.http.max-persistent-connections-per-server 200<br/>
       </code>
-      <p>Note that these settings will cause mozilla to use more
-	connections for all your browsing, which may not be desirable from a
-	network congestion point of view; volunteers to make mozilla allow this
-	sort of settings to be set per host would be welcome...</p>
-      <p>Note also that if you have installed Freenet recently, it should have created
-	a Firefox profile for browsing Freenet with similar settings, with a black theme,
-	which you can access through the Browse Freenet icon.</p>
+      
+      <p>
+	Veuillez noter que Mozilla Firefox utilisera plus de connexions
+	pour tout type de navigation, y compris pour les sites webs, ce qui
+	n'est pas souhaitable d'un point de vue de la congestion du réseau.
+	Toute aide pour permettre à mozilla d'adopter un comportement qui s'adapte en
+	fonction du site visité serait la bienvenue...
+      </p>
 
       <p><b id="store-perm">Why can't Freenet store data permanently?</b><br/>
 	Because we can't find a way to do this without compromising Freenet's
