@@ -1,7 +1,7 @@
       <div id="papers">
-	<h1>Papiers</h1>
+	<h1>Publications</h1>
 	<p>
-	  <b>Tous les papiers mentionnés ci-dessous sont en anglais.</b>
+	  <b>Toutes les publications mentionnées ci-dessous sont en anglais.</b>
 	</p>
 	<img style="margin-right: 16px;" src="../../image/video.icon.png" />
 	<p>
@@ -25,7 +25,7 @@
 	<p>
 	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
-	  Un papier d'Oskar Sandberg qui décrit les bases théoriques pour le nouveau mécanisme de routage "Darknet"
+	  Une publication d'Oskar Sandberg qui décrit les bases théoriques pour le nouveau mécanisme de routage "Darknet"
 	  utilisé par Freenet 0.7.
 	</p>
 	<p>
@@ -46,7 +46,7 @@
 
 	<p style="clear: left;margin-left: 39px;">
 	  <a href="http://crisp.cs.du.edu/pitchblack/">Routing in the Dark: Pitch Black</a><br/>
-	  Un papier qui sera bientôt publié et qui décrit quelques attaques de l'algorithme
+	  Un article qui sera bientôt publié et qui décrit quelques attaques de l'algorithme
 	  de location swapping de Freenet 0.7.
 	</p>
 
@@ -70,7 +70,7 @@
 	<p>
 	  <img src="../../image/pdf.icon.jpg"/>
 	  <a href="/papers/ddisrs.pdf">FreeNet White Paper</a><br/>
-	  Le papier blanc originel de Ian Clarke, Division of Informatics, University of Edinburgh 1999.
+	  La publication originale de Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 	</p>
 	<hr/>
 	<p>
