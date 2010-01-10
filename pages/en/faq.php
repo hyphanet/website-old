@@ -274,9 +274,6 @@
 	connections for all your browsing, which may not be desirable from a
 	network congestion point of view; volunteers to make mozilla allow this
 	sort of settings to be set per host would be welcome...</p>
-      <p>Note also that if you have installed Freenet recently, it should have created
-	a Firefox profile for browsing Freenet with similar settings, with a black theme,
-	which you can access through the Browse Freenet icon.</p>
 
       <p><b id="store-perm">Why can't Freenet store data permanently?</b><br/>
 	Because we can't find a way to do this without compromising Freenet's
