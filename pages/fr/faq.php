@@ -340,66 +340,79 @@
 	fonction du site visité serait la bienvenue...
       </p>
 
-      <p><b id="store-perm">Why can't Freenet store data permanently?</b><br/>
-	Because we can't find a way to do this without compromising Freenet's
-	other goals. For example, people often suggest that someone's node could
-	just never drop data they want to cache permanently. This, however,
-	won't work because even if the data is still available on their node,
-	there is no way to ensure that requests for that data will be routed to
-	that node. We have considered many other ways that Freenet could store data 
-	permanently, but they either won't work, or compromise Freenet's core goals 
-	of anonymity, and scalability. However, if you simply reinsert your data 
-	regularly, or if it is regularly downloaded (not by the same person as it 
-	would be cached on their node and the path to their node), it should 
-	remain available indefinitely.</p>
+      <p>
+	<b id="store-perm">Why can't Freenet store data permanently?</b><br/>
+      	Parce que nous ne trouvons aucune façon de réaliser cela sans compromettre
+	les autres objectifs de Freenet. Par exemple, on nous suggère souvent
+	que les nœuds ne devraient pas pouvoir effacer les données que le possesseur
+	veut garder de façon permanente. Cependant, cela ne fonctionne pas, puisqu'il
+	n'y a aucune garantie que même si les données sont toujours stockées dans leur
+	nœud, les requêtes pour ces données seront bien routées vers ce nœud.
+	Nous avons considéré de nombreuses autres façon pour Freenet de stocker
+	les données de façon permanente, mais soit elles ne fonctionneront pas,
+	soit elles compromettent un des objectifs principaux de Freenet, ou l'anonymat,
+	ou l'extensibilité (passage à l'échelle). Toutefois, si vous réinsérez simplement
+	les données régulièrement, ou qu'elles sont régulièrement téléchargées (pas par
+	la même personne puisqu'elles seraient mises en cache sur leur nœud ou sur le
+	chemin vers leur nœud), elles devraient être disponibles indéfiniment.
+      </p>
 
-      <p><b id="why-java">Why is Freenet implemented in Java?</b><br/>
-	Opinions differ about the choice of java for the reference implementation of
-	freenet (even among the core developers). <a href="/people.html">Ian Clarke</a> and several
-	other developers are java proponents and the choice for java was made. Even if everybody could be convinced
-	to switch to a different language reimplementing the current freenet protocol would be quite a big task, and
-	take up a significant amount of time, while there is only a limited amount of developer-time available. Flame wars
-	on the development list about the language choice aren't welcome, people willing to implement freenet
-	in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
+      <p>
+	<b id="why-java">Why is Freenet implemented in Java?</b><br/>
+	Les opinions diffèrent à propos du choix de Java pour l'implémentation
+	de référence de Freenet (même entre les développeurs principaux). <a href="/people.html">Ian Clarke</a> 
+	et plusieurs autres développeurs sont en faveur de Java, et un choix en faveur de Java a été fait. Même
+	si tout le monde était convaincu de changer de langage, réimplémenter le protocole Freenet actuel serait
+	une tâche plutôt énorme, et prendrait un temps considérable, alors même que nous avons des ressources
+	limitées. Les joutes sur la liste de discussion consacrée au développement à propos du choix du langage
+	ne sont pas acceptées. Cependant, si quelqu'un souhaite implémenter Freenet dans un autre langage, nous
+	l'encourageons chaleureusement à essayer. Toutefois, ne sous-estimez pas la quantité de travail à fournir. 
       </p>
       
-      <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
-    If you want everyone to be able to use your node you have the following options:<br></p>
-    <ul>
-    <li>Go to the <a href="http://127.0.0.1:8888/config/fproxy">web interface configuration page</a> and enable advanced mode</li>
-    <li>Stop your node and edit freenet.ini manually</li>
-    </ul>
-    <p>In both cases change the following parameters:</p>
-    </p><code>
-    fproxy.bindTo=0.0.0.0<BR>
-    fproxy.allowedHosts=*<BR>
-    </code><p>
-    Of course, this leaves your node wide open, unless you control
-    access with a firewall of some sort.  If you'd prefer to use access
-    controls within Freenet, then you can use lines like this:</p>
-    <code>
-    fproxy.bindTo=0.0.0.0<br>
-    fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br
-    </code>
-    <p>Or even (find your IP address from ipconfig/ifconfig/winipcfg and substitute it for 192.168.1.1):</p>
+      <p>
+	<b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
+      	Si vous voulez que tout le monde puisse utiliser votre nœud, différentes options s'offrent à vous :<br>
+	
+    	<ul>
+		<li>Rendez-vous sur la <a href="http://127.0.0.1:8888/config/fproxy">page de configuration de l'interface web</a> et passez en mode avancé</li>
+    		<li>Arrêtez votre nœud et éditez le fichier freenet.ini manuellement</li>
+    	</ul>
+	Dans les deux cas, changez les paramètres suivants
+	In both cases change the following parameters:
+    	<code>
+    	fproxy.bindTo=0.0.0.0<br/>
+    	fproxy.allowedHosts=*<br/>
+    	</code>
+	Bien entendu, votre nœud sera ouvert à tout le monde, à moins que vous en controlliez
+	l'accès avec un pare-feu ou quelque chose du genre. Si vous préfèreriez utiliser le contrôle
+	d'accès intégré à Freenet, alors vous pouvez configurer quelque chose comme ça :
+	<code>
+    	fproxy.bindTo=0.0.0.0<br/>
+    	fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br/>
+    	</code>
+    	Ou encore (trouvez votre adresse IP grâce à ipconfig/ifconfig/winipcfg et remplacez 192.168.1.1 avec) :
 	<code>
 	fproxy.bindTo=127.0.0.1,192.168.1.1<br>
 	fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 	</code>
-	<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):
+	Et si vous souhaitez garantir un accès total (cad changement de configuration, redémarrage, etc.) au nœud (ATTENTION : Soyez très prudent à qui vous donnez un
+	accès total à fproxy !) :
 	<code>
-	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
+	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br/>
 	</code>
-	</p>
+      </p>
 	
-	  <p><b id="openjdk">Problems installing with OpenJDK</b><br>
-	<p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
-	have some problems with SSL which cause the installer to fail. Please install
-	the Sun JRE, at least version 5. On Ubuntu or Debian, open a root terminal and type:</p>
-	<pre>
+      <p>
+	<b id="openjdk">Problems installing with OpenJDK</b><br>
+	Certaines version d'OpenJDK, en particulier celle inclue dans Ubuntu 8.04,
+	ont quelques problèmes avec SSL ce qui engendre des erreurs lors de l'exécution
+	du programme d'installation. Veuillez installer le JRE de Sun, au moins dans sa
+	version 5. Sur Ubuntu ou Debian, ouvrez un terminal root, et entrez :
+      </p>
+      <pre>
 	apt-get install sun-java6-jre
 	update-java-alternatives -s java-6-sun
-	</pre>
+      </pre>
     
       <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br/>
 	Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
