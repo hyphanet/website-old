@@ -111,6 +111,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (4th February 2010) <a href="news.html#status-update-jan-2010">Status update (Jan 2010)</a><br/>
 	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
 	  (08 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
 	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>

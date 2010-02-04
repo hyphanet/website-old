@@ -1,5 +1,65 @@
       <h1>News</h1>
 
+	<a name="status-update-jan-2010"><h3>4th February, 2010 - Freenet status update</h3></a>
+	<p>Time for a status update...</p>
+<h2>BUILD 1240</h2>
+<p>Our last stable build, 1239, was in November. We have just released a new one, 1240. This has many changes (opennet stuff, optimisations, all sorts of stuff), which I list in the mail about it. One of the most important is that there are several new seednodes, and many dead ones have been removed. I have tested it 3 times today and it's bootstrapped fast each time, although yesterday it bootstrapped very slowly one time.</p>
+<h2>NETWORK STATUS AND NETWORK STATISTICS</h2>
+<p>Evan Daniel has been doing some useful work analysing the network. Amongst other things, he has discovered that:</p>
+<ul><li>The Guardian article, in December, which was reprinted around the world, has more than doubled the size of our network, although there is a slight downward trend now. This may be due to seednodes issues and not having had a build since November.</li>
+<li>We have around 4500-7000 nodes online at any given time.</li>
+<li>Over 5 days, we have around 14000 non-transient nodes.</li>
+<li>For nodes online at any one time, roughly 37% are 24x7 nodes (96% uptime average), 33% are regular users (56% average uptime), and 30% are occasional or newbie nodes (16% average uptime).</li>
+</ul>
+<h2>EMU IS DEAD, LONG LIVE OSPREY</h2>
+<p>We have finally gotten rid of emu! Our faithful and powerful dedicated server supplied at a discount by Bytemark is no more. We now have a virtual machine called Osprey, which does most of the same job, for a much lower cost, and has a much simplified setup so should be easier to maintain. We have tried to outsource services, for example we use Google Code for our downloads, but some things will have to stay under our direct control for some time to come e.g. mailing lists and the bug tracker.</p>
+<p>You may have some difficulty with the update scripts, if you use update.sh / update.cmd. If it doesn't work, try updating the script manually from <a href="https://checksums.freenetproject.org/latest/update.cmd">https://checksums.freenetproject.org/latest/update.cmd</a> (or <a href="https://checksums.freenetproject.org/latest/update.sh">update.sh</a>)</p>
+<h2>WOT, FREETALK, RELATED THINGS AND OTHER PLUGINS</h2>
+<p>Xor (also known as p0s) continues to work on the Web of Trust and Freetalk plugins. These are approaching the point where we can make them loadable from the plugins page, and then bundle them, enabled by default.</p>
+<p>WoT is the backend system which implements a pseudonymous web of trust, which functions in a similar way to that in FMS. You can create identities, assign trust to other identities, announce your identity via CAPTCHAs and so on. This is the Community menu, from which you can see your identities and other people's, and the trust relationships between them. WoT is used by Freetalk, FlogHelper, and probably soon by distributed searching, real time chat and other things.</p>
+<p>Freetalk is a spam-resistant chat system based on WoT. This is similar to FMS, but it will eventually be bundled with Freenet, and will be a part of it by default. You will be able to embed a Freetalk board on your freesite. FlogHelper is a WoT-based plugin for writing a flog (freenet blog), which is very easy to use, but uses WoT to manage identities. I would have bundled FlogHelper months ago, but WoT isn't ready yet and FlogHelper needs it.</p>
+<p>WoT should be ready soon. Recently a major issue has been discovered with the trust calculation algorithm, after that is fixed and some minor issues, WoT will become a semi-official plugin, which will sadly require flushing the existing "testing" web of trust, so sadly all old messages and identities will go away. Freetalk needs more work, about 50% of the bugs marked for 0.1 on the roadmap are fixed at the moment.</p>
+<p>In build 1240, we pull in a new version of Library. This is a great improvement over the old version, it is faster, it supports embedding a search on a freesite, and has many bugs fixed. However searching for common terms can still cause out of memory crashes.</p>
+<p>There is another issue with Library: infinity0 spent last summer creating a scalable index format for Library, which should make it a lot easier to insert and maintain big indexes. We will soon change the spider to use this new format, and in the process we expect to greatly improve performance for writing indexes, so it doesn't take a week any more and is done incrementally. I realise this has been promised before, but it is important, so it will happen sooner or later, hopefully sooner.</p>
+<p>Full Web of Trust-based distributed searching, with a focus on filesharing, is on the distant horizon at the moment. infinity0 might be able to do some work on it as part of his studies, we'll see. It won't be in 0.8.0.</p>
+<h2>PRIORITIES AND RELEASES</h2>
+<p>We would like to get 0.8 out soon, or at least a beta of 0.8. Several major issues:</p>
+<ul><li>The windows installer needs to be fixed on 64-bit. This is being worked on.</li>
+<li>Freetalk must be ready.</li>
+<li>Auto-configuration of memory limits in the installers, and asking the user about memory usage (at least in some cases) is relatively easy and important, but not vital.</li>
+<li>Substantial improvements to opennet, particularly making nodes announce onto the network and get where they should be as quickly as possible.</li>
+<li>Substantial improvements to data persistence. We have done much here already but there is more to do.</li>
+<li>Library must work well and fast out of the box. This means amongst other things the new spider mentioned above.</li>
+<li><b>MANY BUG FIXES!</b> The first beta does not need to be perfect, but there are some critical issues that need dealing with, such as the fact that nodes often don't resume properly after being suspended for a while.</li>
+</ul>
+<p>Please test Freenet, and report any bugs and usability issues you find on <a href="https://bugs.freenetproject.org/">the bug tracker</a> or via Freetalk board en.freenet (note that this will be wiped soon so if after a new Freetalk release it is wiped you may need to resend).</p>
+<h2>OPENNET IMPROVEMENTS</h2>
+<p>We have many ideas on how to improve opennet bootstrapping (make nodes assimilate into the network more quickly), and to improve opennet generally. Some of these are implemented in 1240, including many bugfixes. More will be put out over time so we can see their impact. Improving opennet should improve performance for the majority of users who don't run 24x7 and it should improve performance for everyone else too, as those nodes will get connected and start doing useful work more quickly.</p>
+<h2>DATA PERSISTENCE</h2>
+<p>We have many ideas on how to improve data persistence. There is a lot of capacity on the network, yet data seems to become inaccessible quite quickly (stats below). I am convinced that improving data persistence will improve Freenet's usability and perceived performance immensely. The continued popularity of insert on demand on uservoice demonstrates this as much as anything: People want a system that works! IMHO we can greatly improve things without resorting to insert on demand, although filesharing clients based on distributed searching may eventually offer it (but there are serious security issues with insert on demand).</p>
+<p>Evan is convinced that mostly poor data persistence is not due to data falling out of stores, but due to the small number of nodes that stored the data (as opposed to caching it) going offline or becoming unreachable. We have increased the number of nodes that store data, we have made the node use the store for caching if there is free space, we have done various things aimed at improving data persistence, and there is much more we can do. An immediate question is whether the security improvements gained last year by not caching at high HTL have broken many inserts by making them not get cached on the right nodes; we will test this in 1241. A related question is why inserting the same key 3 times gives such a huge performance gain relative to inserting it once; we will investigate this soon after. We will probably triple-insert the top blocks of splitfiles soonish, but the bigger prize is to achieve the 90%+ success after a week that we see with triple-insertion of a single block, and this may well be possible with some changes to how inserts work...</p>
+<p>Finally, the redundancy in the client layer could be a lot smarter: We divide files up into groups of 128 blocks, called segments, and then add another 128 "check blocks" for redundancy. Unfortunately this means that sometimes the last segment only has 1 block and 1 check block, and so is much less reliable than the rest of the splitfile. We will fix this.</p>
+<p>We have been collecting statistics on data retrievability over time. The below are "worst case" in that they relate to single CHK blocks, with no retries. Real life, with many retries (at least 2 for a direct fetch and more if the file is queued), and with large, redundant splitfiles, should be substantially better than these numbers. Every day we insert 32 blocks and fetch a bunch of 32 blocks from 1 day ago, 3 days ago, 7 days ago, etc. There are two of these running to get more data, so I am just showing both results here. The percentages are the proportion of the original insert that is still retrievable:</p>
+<table border="0">
+<tr><td>1 day</td><td>76% / 77%</td></tr>
+<tr><td>3 days</td><td>66% / 70%</td></tr>
+<tr><td>7 days</td><td>60% / 61%</td></tr>
+<tr><td>15 days</td><td>48% / 48%</td></tr>
+<tr><td>31 days</td><td>36% / 33%</td></tr>
+<tr><td>63 days</td><td>21% / 19%</td></tr>
+</table>
+<p>Now, here's an interesting one. In each case we insert a 64KB CHK splitfile - that is, one block at the top and four underneath it. We insert one three times, and we insert three different ones once each. We then pull them after a week. We can therefore compare success rates for a single block inserted once, a single block inserted 3 times, and a simulated MHK, that is, a block which has been re-encoded into 3 blocks so that we fetch all of them and if any of them succeeds we can regenerate the others.</p>
+<p>Total attempts where insert succeeded and fetch executed: 63</p>
+<p>Single keys succeeded: 61</p>
+<p>MHKs succeeded: 58</p>
+<p>Single key individual fetches: 189</p>
+<p>Single key individual fetches succeeded: 141</p>
+<p>Success rate for individual keys (from MHK inserts): 0.746031746031746</p>
+<p>Success rate for the single key triple inserted: 0.9682539682539683</p>
+<p>Success rate for the MHK (success = any of the 3 different keys worked): 0.9206349206349206</p>
+<h2>USER INTERFACE AND USABILITY</h2>
+<p>Ian's friend pupok is working on a new AJAXy user interface mockup for Freenet. sashee's web-pushing branch, which makes the user interface a lot more dynamic without making it look much difference, should be merged soon, but turned off by default, since it has some nasty bugs. When it is turned on, it solves the age-old parallel connections bug, showing individual progress for each image without hogging your browser's limited number of connections (6 or 8 on modern browsers). Both of these may miss 0.8.</p>
+<p>More broadly on usability, usability testing is always welcome: Persuade a friend to install Freenet, watch them do it, don't help them unless they get really stuck, report any problems they have or any comments they make about how it could be better.</p>
 
 	<a name="more-peers"><h3>21st August, 2009 - Freenet increases peers limit (#1 on uservoice)</h3></a>
 	<p>Freenet 0.7 build 1231 solves what was <a href="http://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
