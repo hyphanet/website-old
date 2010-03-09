@@ -111,6 +111,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (9th March 2010) <a href="news.html#new-paper-march-2010">New paper about Freenet 0.7.5+</a><br/>
 	  (4th February 2010) <a href="news.html#status-update-jan-2010">Status update (Jan 2010)</a><br/>
 	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
 	  (08 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
@@ -119,8 +120,6 @@ $(document).ready(function() {
 	    preparation for big new performance feature in new stable build</a><br/>
 	  (08 July 2009) <a href="news.html#big-donation-german-finance">Big
 	    donation from</a> <a href="http://www.finanzvergleich.de/">German finance site</a><br/>
-	  (12 June 2009) <a href="news.html#freenet-0-7-5-released">Freenet
-	    0.7.5 released!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>

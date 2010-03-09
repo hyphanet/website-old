@@ -1,5 +1,8 @@
       <h1>News</h1>
 
+	<a name="new-paper-march-2010"><h3>9th March, 2010 - New paper added</h3></a>
+	<p>A new paper has been added, <a href="http://freenetproject.org/papers/freenet-0.7.5-paper.pdf">Private Communication Through a Network of Trusted Connections: The Dark Freenet"</a>, written by Oskar and Vive (two of our theoreticians) with some help from Toad (chief coder). This focuses on the architecture of the network, rather than on the routing and swapping algorithms, which <a href="/papers.html">other papers</a> have described in detail. It has a slight focus on darknet, but should be of interest to anyone interested in how the network works.</p>
+
 	<a name="status-update-jan-2010"><h3>4th February, 2010 - Freenet status update</h3></a>
 	<p>Time for a status update...</p>
 <h2>BUILD 1240</h2>
