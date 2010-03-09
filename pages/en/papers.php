@@ -1,5 +1,13 @@
       <div id="papers">
 	<h1>Papers</h1>
+	
+	<p>
+	  <img src="../image/pdf.icon.jpg"/>
+	  <a href="/papers/freenet-0.7.5-paper.pdf">The Dark Freenet</a> (PDF)<br/>
+	  Detailed paper about the Freenet 0.7.5 network, as opposed to its routing algorithm, which is detailed in the
+	  below papers. Includes some new simulations. This has been submitted to PET 2010.
+	</p>
+
 	  <img style="margin-right: 16px;" src="../image/video.icon.png" />
 	<p>
 
