@@ -9,8 +9,7 @@
 	  Freenet is based on Ian's paper "A Distributed Decentralised Information
 	  Storage and Retrieval System".  Ian started the Freenet Project around July of
 	  1999, and continues to coordinate the project.  In his day job, Ian is the
-	  founder and CEO of <a href="http://uprizer.com/">Uprizer
-	    Labs</a>.
+	  founder and CEO of <a href="http://sensearray.com/">SenseArray</a>.
 	</p>
 	
 	<h5>Matthew Toseland</h5>
