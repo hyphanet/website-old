@@ -18,7 +18,7 @@
 	      <li><a href="http://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Mailing lists</a></li>
-	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
+<!--	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li> -->
 	      <li><a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a></li>
 	    </ul>
 	  </li>
