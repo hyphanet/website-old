@@ -403,7 +403,7 @@
 	</li><li> Work on the Freenet web site (including the FAQ).
 	</li><li> Contribute your ideas to the discussion lists.
 	</li><li> Translate the user interface into your local language.
-      </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet.</p>
+      </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet. Or maybe even mention us on your website and promote us just like this <a href="http://www.webhostingsearch.com/">web hosting guide</a> did.</p>
       
       <p> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
       

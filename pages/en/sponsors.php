@@ -16,6 +16,12 @@
 	  </li>
 	  
 	  <li>
+	    <a href="http://www.webhostingsearch.com/">Web Hosting Search</a><br/>
+	    WebHostingSearch is a top rated guide to various world wide web hosting companies.
+	    Mr Chris Reynolds and the friendly team behind this company have become one of our proud promoters.
+	  </li>
+	  
+	  <li>
 	    <a href="http://www.toad.com/gnu/">John Gilmore</a><br/>
 	    John Gilmore is one of the founders of the Electronic
 	    Frontier Foundation, the Cypherpunks mailing list, and
