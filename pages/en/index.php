@@ -112,6 +112,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>
 	  (9th March 2010) <a href="news.html#new-paper-march-2010">New paper about Freenet 0.7.5+</a><br/>
 	  (4th February 2010) <a href="news.html#status-update-jan-2010">Status update (Jan 2010)</a><br/>
 	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>

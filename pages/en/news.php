@@ -1,5 +1,18 @@
       <h1>News</h1>
 
+	<a name="build-1243-opennet-changes"><h3>17th March, 2010 - Opennet performance improvements and build 1243</h3></a>
+	<p>Build 1243 is now out. This contains many changes aimed at making new nodes get up to speed faster by getting 
+	connected to many other nodes as quickly as possible. This "announcement" or "bootstrapping" process, which only
+	happens if you have opennet enabled (i.e. your network security level is LOW or NORMAL) also happens when your
+	node has been offline for an extended period (hours). Let us know how it goes! We always welcome feedback, particularly
+	<a href="https://bugs.freenetproject.org/">bug reports</a>.</p>
+	
+	<p>PS we have taken uservoice offline due to not being able to efficiently deal with spam. We are still interested in
+	suggestions on how to improve Freenet, please post them on the <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> or the 
+	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
+	<a href="http://freenetproject.org/lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
+	if you know of any.</p>
+
 	<a name="new-paper-march-2010"><h3>9th March, 2010 - New paper added</h3></a>
 	<p>A new paper has been added, <a href="http://freenetproject.org/papers/freenet-0.7.5-paper.pdf">Private Communication Through a Network of Trusted Connections: The Dark Freenet</a>, written by Oskar and Vive (two of our theoreticians) with some help from Toad (chief coder). This focuses on the architecture of the network, rather than on the routing and swapping algorithms, which <a href="/papers.html">other papers</a> have described in detail. It has a slight focus on darknet, but should be of interest to anyone interested in how the network works. It also has some new simulations...</p>
 
