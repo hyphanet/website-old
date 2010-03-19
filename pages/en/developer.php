@@ -157,3 +157,21 @@
 	commit, but unless it is a trivial matter you should always
 	mail devl.
       </p>
+    <p>Please avoid monster commits. All commits are reviewed manually
+    both to ensure security and to avoid bugs, and this is much easier if
+    you follow some basic rules:</p>
+    <ul>
+    <li>Keep cosmetic changes separate from functional changes. In
+    particular, indenting and braces improvements, while these are 
+    generally acceptable, should <b>not</b> be mixed with functional 
+    changes.</li>
+    <li>Don't break the build: When you push, fred should build. Ideally
+    each individual commit should build.</li>
+    <li>Small commits: "git commit" is a purely local operation, so there
+    is no reason to combine a bunch of unrelated changes in a single 
+    commit. Obviously use your judgement.</li>
+    <li>Big or controversial stuff should go on a branch, rather than
+    just getting pushed. We may be in the process of getting a new build 
+    out, and if big stuff is pushed it is likely to be shifted to a branch
+    while the build is deployed.</li>
+    </ul>
