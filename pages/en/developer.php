@@ -152,7 +152,7 @@
 	or <a href="http://www.kernel.org/pub/software/scm/git/docs/">here</a>.
       </p>
       <p>
-	If you don't like a commit, generally you should post to the devl 
+	If you don't like a commit, or think it could be improved, generally you should post to the devl 
 	<a href="lists.html">mailing list</a>. You should CC the author of the 
 	commit, but unless it is a trivial matter you should always
 	mail devl.
