@@ -15,6 +15,8 @@
 	a source of project ideas. <a href="http://new-wiki.freenetproject.org/">The new wiki</a>, and 
 	<a href="http://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
 	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
+	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
+	<a href="http://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
 
 	<a name="build-1243-opennet-changes"><h3>17th March, 2010 - Opennet performance improvements and build 1243</h3></a>
 	<p>Build 1243 is now out. This contains many changes aimed at making new nodes get up to speed faster by getting 
