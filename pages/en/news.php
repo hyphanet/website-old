@@ -1,5 +1,21 @@
       <h1>News</h1>
 
+	<a name="gsoc-2010"><h3>18th March, 2010 - Freenet accepted into Google Summer of Code 2010!</h3></a>
+	<p>The Freenet Project has been accepted by Google for a fifth year in Google Summer of Code! This
+	offers students the opportunity to be paid to work for a lively and significant open source project 
+	over the summer, rather than chasing the increasingly scarce menial labour market! Flip bits not burgers!</p>
+	<p>You should submit at least two proposals for projects within Freenet as we often get several 
+	students chasing the same tasks. You can see some ideas for projects 
+	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
+	<p>We will help you to fill in technical details, understand exactly what we need. We also welcome
+	new ideas and approaches, please contact us, on our devl <a href="http://freenetproject.org/lists.html">mailing list</a>,
+	or <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
+	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
+	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
+	a source of project ideas. <a href="http://new-wiki.freenetproject.org/">The new wiki</a>, and 
+	<a href="http://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
+	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
+
 	<a name="build-1243-opennet-changes"><h3>17th March, 2010 - Opennet performance improvements and build 1243</h3></a>
 	<p>Build 1243 is now out. This contains many changes aimed at making new nodes get up to speed faster by getting 
 	connected to many other nodes as quickly as possible. This "announcement" or "bootstrapping" process, which only
