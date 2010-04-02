@@ -6,7 +6,7 @@
 	  <a href="content.html">Content</a>
 	  <a href="understand.html">Understand</a>
 	  <a href="freemail.html">Freemail</a>
-	  <a href="frost.html">Frost</a>
+	  <a href="http://jtcfrost.sf.net/">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
 	  <a href="http://wiki.freenetproject.org">Wiki</a>
