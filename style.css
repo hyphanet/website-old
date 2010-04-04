@@ -132,6 +132,7 @@ div#donate_button a{
 
 div#donate_button a:hover{
     background-position: 0 -86px;
+    text-shadow: 0 0 5px #ddd;
 }
 
 .whatis, .download, #donate_button {
@@ -150,6 +151,7 @@ div.download {
 
 div.download:hover{
     background-position: 0px -200px;
+    text-shadow: 0 0 5px #ddd;
 }
 
 .download a {
@@ -348,6 +350,9 @@ ul.dropdown a{
     line-height:30px;
 }
 
+ul.dropdown li.simple a:hover, ul.dropdown li.dir ul li a:hover{
+    text-shadow: 0 0 5px #aaa;
+}
 
 ul.dropdown li.dir ul li{
     background-color: #adafa2;
@@ -356,6 +361,7 @@ ul.dropdown li.dir ul li{
     width: 18ex;
     max-width: 133px;
     font-size: 1em;
+    text-shadow: none;
 }
 
 ul.dropdown li.dir ul li a{
@@ -366,15 +372,19 @@ ul.dropdown li.dir ul li a{
     line-height:30px;
 }
 
-ul.dropdown li.hover,
 ul.dropdown li:hover {
     background-color: #4f4f46;
+    text-shadow: 0 0 5px #aaa;
 }
 
 ul.dropdown a:link,
 ul.dropdown a:visited	{ color: #fff; text-decoration: none; }
-ul.dropdown a:hover {background:#4f4f46;}
-ul.dropdown a:active	{ color: white; }
+ul.dropdown a:hover {
+    background:#4f4f46;
+}
+ul.dropdown a:active	{ 
+    color: white; 
+}
 
 /* iCarousel */
 
