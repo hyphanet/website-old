@@ -44,29 +44,30 @@
 	<li>Generally a more secure workflow.</li>
       </ul>
       
+    <p>Initially we used git in a manner similar to SVN: Every developer has the right
+    to push to the repository, and we gave out push rights fairly liberally. However,
+    this is probably not the best model: Many other projects using Git use a more
+    centralised (or decentralised, depending on how you look at it) model where you 
+    fork the repository (this is really easy on github), make your changes, push them
+    to your repository, and then ask us to pull them; then a core developer reviews the
+    changes and either pulls them into the main repository or asks for further changes.
+    The advantage is there are fewer reverts in the history, better code in general, stuff
+    can be put off more easily when we are trying to get a release out, and the security
+    model is simpler. We are trying to mode to this model at the moment. You may find
+    it is easier to fork and then post a pull request (github makes both of these things 
+    easy), rather than asking for push rights to -staging.</p>
+    
+    <p>Each part of Freenet currently has two repositories: -official and -staging (e.g.
+    fred-official and fred-staging). This is left over from our using git similarly to 
+    SVN: The -official repository has been reviewed and released at least as a pre-build,
+    and only core devs can push to it - they must review the code they are pushing before 
+    doing so, and will usually sign a tag for the build or pre-build after doing so. The 
+    -staging repository almost anyone can write to. New developers should fork on github
+    and then post pull requests.</p>
+      
       <p>
-	We have divided the code up into many sub-projects, each of which has two
-	repositories: the -staging repository, which has the latest code, to which
-	any developer can write, and the -official repository, which contains code
-	which has been reviewed by trusted developers. This is for security, because
-	we give out developer rights without any real checking, and because git 
-	allows destruction of old history. Stable builds are released from the official
-	repository, and the responsible developer will create a signed tag, which you 
-	can verify, for that build.
-      </p>
-
-      <p>
-	Most other projects using github use a different model, where a trusted 
-	maintainer pulls from other people's trees, rather than allowing any developer
-	to commit to a staging area; if you fork our code, and would like us to merge
-	your changes (maybe even over Freenet, but there will be additional checks in 
-	this case: for legal reasons we must be certain that anonymous contributions 
-	are your own work), feel free to contact us!
-      </p>
-
-      <p>
-	To get write access to the repository you should create a
-	github account and then contact us either through
+    Either way, please keep us informed of what you are doing with Freenet! Create a github
+    account, and then contact us either through
 	the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
 	mailing list</a> or
 	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
@@ -74,7 +75,7 @@
 	the <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
 	channel at irc.freenode.net.Note that you must use a real
 	(working) email address when committing; we will provide
-	contributors with @freenetproject.org redirects.
+	contributors with @freenetproject.org redirects if needed.
       </p>
 
       <h3>Build Instructions</h3>
