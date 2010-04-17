@@ -175,3 +175,15 @@
     out, and if big stuff is pushed it is likely to be shifted to a branch
     while the build is deployed.</li>
     </ul>
+
+    <h3>The website</h3>
+    <p>To edit the website, check out the website-staging repository, edit the files (in pages/en/),
+    commit and push as above. Then remind Toad to deploy it if he doesn't do so in a reasonable time.
+    Alternatively, fork the website module on github, and then post a pull request. This may actually
+    get results more quickly!</p>
+    <p>The website is php-based but is compiled at deploy time into static HTML. You can simulate this
+    to see exactly what your changes will look like by running the make-pages.sh script (you will need
+    php5-cgi). This outputs static HTML to output/.</p>
+    <p>We are trying to move most of the documentation to <a href="http://wiki.freenetproject.org">the 
+    wiki</a>, which should be easier to edit.</p>
+    
