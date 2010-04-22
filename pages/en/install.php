@@ -144,20 +144,14 @@
 
       <p>
 	If all has gone well, a browser window should have opened in the
-	background, showing the following page:
-      </p>
-
-      <img src="../image/install/10-Successful_installation.png"/ width="100%">
-
-      <p>
-	It is a page showing a number of ways to proceed with your Freenet
-	quest. Among other things, it shows how you could go about exchanging
-	node references to add peer-nodes to yours, in order to communicate on
-	Freenet. But more on that later.
-      </p>
-
-      <p>
-	Clicking the <span style="font-weight:bold;">Get started on
-	Freenet</span> link in the image above, opens up Freenet's
-	first time wizard.
+	background. This will ask you a bunch of questions to configure Freenet,
+	and then you should be able to use it.
+	  </p>
+	
+	  <p>
+	It will ask about network security level - "protection from strangers attacking
+	you over the internet". If you choose LOW or NORMAL, Freenet should "just work",
+	connecting in a few minutes. If you choose HIGH or MAXIMUM, Freenet will need you
+	to add Friends before you can use it. These must be people you personally know.
+	Adding people you don't know will not improve security.
       </p>
