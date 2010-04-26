@@ -1,5 +1,21 @@
       <h1>News</h1>
 
+	<a name="gsoc-2010-accepted"><h3>26th April, 2010 - Summer of Code students announced!</h3></a>
+	<p>The Freenet Project has 3 students accepted in Google's <a href="http://feedproxy.google.com/~r/GoogleOpenSourceBlog/~3/FnmsrUS2TBU/this-years-google-summer-of-code.html">Summer of Code</a>. 
+	Google will pay these students to work for us over the summer. They will be working on:</p>
+	<ul><li><b>Low level networking improvements</b> - Martin Nyhus will be working on making Freenet's 
+	low level networking work more efficiently and flexibly. This will improve performance and pave the
+	way for transport plugins in the long term.</li>
+	<li><b>New content filters</b> - Spencer Jackson will be working on filters for Ogg audio and video formats,
+	amongst others, and improvements to the backend filtering code. Freenet has to filter content to ensure that
+	it does not contain any code that might breach your anonymity, e.g. "web bugs". These can also exist in 
+	media files.</li>
+	<li><b>Distributed searching</b> - Tatyana Pyatigoskaya will be working on distributed searching and 
+	filesharing. This includes extending Ximin Luo's work on new index formats last year to support searching
+	indexes published through your Web of Trust, and work on an easy to use interface for maintaining a file index.</li>
+	</ul><p>Good luck to all our students! Much of last year's work has either been merged or will be merged
+	soon, and one of last year's students is a mentor this year. Thanks also to <a href="http://code.google.com/soc/">Google</a>.</p>
+
 	<a name="gsoc-2010"><h3>18th March, 2010 - Freenet accepted into Google Summer of Code 2010!</h3></a>
 	<p>The Freenet Project has been accepted by Google for a fifth year in Google Summer of Code! This
 	offers students the opportunity to be paid to work for a lively and significant open source project 
