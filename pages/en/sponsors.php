@@ -76,8 +76,18 @@
 	    TopDir is a human edited web directory with informations about
 	    interesting topics and websites in the German language.
 	  </li>
+
+	  <li>
+	    <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> and
+	    <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
+	    Another generous sponsor.
+	  </li>
 	  
 	</ul>
+
+	<p>
+	  Freenet Project Inc does not necessarily endorse the business activities of all of the companies listed on this page.
+	</p>
 
 	<p>
 	  Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
