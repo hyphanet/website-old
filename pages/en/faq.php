@@ -38,6 +38,7 @@
 	</li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
 	</li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
 	</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
+	</li><li><a href="#freenetinigone">Freenet doesn't start, says it can't find freenet.ini</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -343,6 +344,10 @@
       
       <p><b id="stabchange">How can I change from stable to unstable?</b><br/>
 	There is no unstable network anymore.
+      </p>
+      
+      <p><b id="freenetinigone">Freenet won't start and the launcher says it can't find freenet.ini</b><br/>
+    This is due to an unfortunate bug, fixed in 1249. You can fix it by renaming freenet.ini.tmp to freenet.ini.
       </p>
       
       <p><b id="whatsnew">What's new? Is there a changelog?</b><br>

@@ -1,5 +1,17 @@
       <h1>News</h1>
 
+	<a name="sorry-folks-1248"><h3>8th June, 2010 - Sorry, "freenet.ini is missing", and 1249</h3></a>
+	<p>Many Windows Freenet installs were broken yesterday due to a bug, with an error message that the launcher
+	was unable to find the file freenet.ini. This was actually due to a long-standing bug fixed in build 1249,
+	but the update to 1248 seems to have triggered it. Sorry folks. All you have to do to fix it is rename 
+	freenet.ini.tmp to freenet.ini (in the directory you installed Freenet to, usually C:\Program Files\Freenet).</p>
+	<p>The main change recently, apart from many bug fixes:</p>
+	<p>There is a new way of indexing freesites (for the built-in search function), using the new Spider 
+	plugin and a new version of the existing Library plugin. This is based on infinity0's Summer of Code work 
+	last year. Hopefully some anonymous person will start running a freesite index using this new tool soon.
+	This should be faster and easier both for the index owner (person who runs Spider) and the users searching
+	for content.</p>
+
 	<a name="gsoc-2010-accepted"><h3>26th April, 2010 - Summer of Code students announced!</h3></a>
 	<p>The Freenet Project has 3 students accepted in Google's <a href="http://feedproxy.google.com/~r/GoogleOpenSourceBlog/~3/FnmsrUS2TBU/this-years-google-summer-of-code.html">Summer of Code</a>. 
 	Google will pay these students to work for us over the summer. They will be working on:</p>
