@@ -39,6 +39,7 @@
 	</li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
 	</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
 	</li><li><a href="#freenetinigone">Freenet doesn't start, says it can't find freenet.ini</a>
+	</li><li><a href="#servicenotrespond">Freenet doesn't start, says "Service did not respond to signal"</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -348,6 +349,11 @@
       
       <p><b id="freenetinigone">Freenet won't start and the launcher says it can't find freenet.ini</b><br/>
     This is due to an unfortunate bug, fixed in 1249. You can fix it by renaming freenet.ini.tmp to freenet.ini.
+      </p>
+      
+      <p><b id="servicenotrespond">Freenet won't start, it says "Service did not respond to signal"</b><br/>
+    This is a known bug in the Windows installer. We are working on a permanent fix. In the meantime, try the
+    steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
       </p>
       
       <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
