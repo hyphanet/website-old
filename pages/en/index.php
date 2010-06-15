@@ -112,6 +112,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (14th June, 2010) <a href="news.html#sorry-again-1253">Another critical bug, and a network reset, UPGRADE NOW!</a><br/>
 	  (8th June, 2010) <a href="news.html#sorry-folks-1248">Critical bug: Unable to find launcher.ini; sorry, and recent work</a><br/>
 	  (26th April 2010) <a href="news.html#gsoc-2010-accepted">Summer of Code students for this year announced!</a><br/>
 	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>

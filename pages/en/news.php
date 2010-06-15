@@ -1,5 +1,32 @@
       <h1>News</h1>
 
+	<a name="sorry-again-1253"><h3>14th June, 2010 - Serious bug, please upgrade immediately</h3></a>
+	<p>Freenet build 1253 fixes a very serious bug, and all users should upgrade immediately, especially those
+	running 32-bit x86 systems. This build is "mandatory", meaning it will not connect to anything before 1252.
+	The bug was in the native FEC acceleration - this is a native (C, not Java) library used to speed up 
+	splitfile decoding (a stage in downloads related to improving the chances that a big file will be 
+	retrievable by adding some "check blocks" or redundant data in case some of the original data blocks can't 
+	be found). It causes segfaults on 32-bit Windows systems and probably 32-bit Linux systems too. It has been
+	exploited "in the wild" (on Frost) to segfault nodes when they access a specific Frost message. We do not 
+	know whether this could be turned into something more serious, so we have turned off all native FEC 
+	acceleration for now; Freenet will be slightly slower when decoding downloaded files, but will not 
+	segfault. We would welcome help with auditing the library code involved, if any C/JNI gurus can spare the
+	time; it is most likely a problem with the JNI interface to the Onion FEC code.</p>
+	<p>Other changes in 1251/1252/1253 are somewhat more hopeful:</p>
+	<ul><li><b>Even splitfile splitting</b> Large files on Freenet are divided into 32KB blocks, which are 
+	then grouped into "segments" of up to around 4MB. Until 1251, all but the last segment would be exactly
+	4MB, so the last segment could be much smaller than this - in some cases having just one block, or just
+	a few blocks. This could cause some downloads to get stuck with just a few blocks remaining. Now all the 
+	segments are the same size, and there are other tweaks. Unfortunately this triggered the above bug.</li>
+	<li><b>New content filter infrastructure</b> Freenet filters various types of data, for example HTML, to 
+	ensure that they cannot give away your IP address. One of our Summer of Code students (Spencer) has been
+	working on improving this, and the first part of his work has been merged. Filtering now happens at a 
+	lower level, and can therefore be used by FCP clients and for persistent downloads. This also paves the 
+	way for efficient handling of large files when Spencer implements filters for multimedia formats later
+	this year.</li>
+	<p>Sorry about this folks. The network will be somewhat chaotic for a few days and may be slower than 
+	usual because of the mandatory build, but most of it seems to have upgraded now. Thanks for your patience.</p>
+
 	<a name="sorry-folks-1248"><h3>8th June, 2010 - Sorry, "freenet.ini is missing", and 1249</h3></a>
 	<p>Many Windows Freenet installs were broken yesterday due to a bug, with an error message that the launcher
 	was unable to find the file freenet.ini. This was actually due to a long-standing bug fixed in build 1249,
