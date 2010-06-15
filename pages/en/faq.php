@@ -40,6 +40,7 @@
 	</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
 	</li><li><a href="#freenetinigone">Freenet doesn't start, says it can't find freenet.ini</a>
 	</li><li><a href="#servicenotrespond">Freenet doesn't start, says "Service did not respond to signal"</a>
+	</li><li><a href="#kaspersky">I have Kaspersky anti-virus and Freenet doesn't install, or consistently shows "Download/upload queue database corrupted!"</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -355,6 +356,11 @@
     This is a known bug in the Windows installer. We are working on a permanent fix. In the meantime, try the
     steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
       </p>
+      
+      <p><b id="kaspersky">I have Kaspersky anti-virus, and Freenet doesn't install, or shows "Download/upload queue database corrupted!"</b><br/>
+	Kaspersky can be a problem with Freenet. See <a href="http://new-wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">here</a>.
+	We recommend you turn off Kaspersky during install and during node startup, and exclude the directory you
+	installed Freenet in (most likely C:\Program Files\Freenet or C:\Program Files (x86)\Freenet).</p>
       
       <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
     On every new build, a brief summary of all the main changes is posted to the support and devl lists 
