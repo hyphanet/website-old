@@ -366,7 +366,9 @@
     On every new build, a brief summary of all the main changes is posted to the support and devl lists 
     and the en.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
     for a much more detailed view, check out the <a href="http://github.com/freenet/">git repositories</a>.
-    </p>
+    Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
+    <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
+    updated and frequently go off on rants on unrelated topics!</p>
 
       <h2>Publisher answers</h2>
       <p>
