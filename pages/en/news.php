@@ -24,6 +24,7 @@
 	lower level, and can therefore be used by FCP clients and for persistent downloads. This also paves the 
 	way for efficient handling of large files when Spencer implements filters for multimedia formats later
 	this year.</li>
+	</ul>
 	<p>Sorry about this folks. The network will be somewhat chaotic for a few days and may be slower than 
 	usual because of the mandatory build, but most of it seems to have upgraded now. Thanks for your patience.</p>
 
