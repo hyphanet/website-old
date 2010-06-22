@@ -51,7 +51,7 @@
 	amongst others, and improvements to the backend filtering code. Freenet has to filter content to ensure that
 	it does not contain any code that might breach your anonymity, e.g. "web bugs". These can also exist in 
 	media files.</li>
-	<li><b>Distributed searching</b> - Tatyana Pyatigoskaya will be working on distributed searching and 
+	<li><b>Distributed searching</b> - Tatyana Pyatigorskaya will be working on distributed searching and 
 	filesharing. This includes extending Ximin Luo's work on new index formats last year to support searching
 	indexes published through your Web of Trust, and work on an easy to use interface for maintaining a file index.</li>
 	</ul><p>Good luck to all our students! Much of last year's work has either been merged or will be merged
