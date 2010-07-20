@@ -51,9 +51,8 @@
 	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 	</p>
 	<p style="clear: left; margin-left: 39px;">
-	  <a href="http://crisp.cs.du.edu/pitchblack/">Routing in the Dark: Pitch Black</a><br/>
-	  A paper will soon be released describing some attacks on Freenet 0.7's 
-	  location swapping algorithm.
+	  <a href="http://grothoff.org/christian/pitchblack.pdf">Routing in the Dark: Pitch Black</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.1543">citeseer</a>)<br/>
+	  A paper describing some attacks on Freenet 0.7's location swapping algorithm.
 	</p>
 	<p style="margin-left: 39px;">
 	  <a href="/ngrouting.html">Next Generation Routing Algorithm</a><br/>
