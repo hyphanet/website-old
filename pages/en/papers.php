@@ -50,7 +50,7 @@
 	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
 	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 	</p>
-	<p style="clear: left; margin-left: 39px;">
+	<p>
 	  <img src="../image/pdf.icon.jpg"/>
 	  <a href="http://grothoff.org/christian/pitchblack.pdf">Routing in the Dark: Pitch Black</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.1543">citeseer</a>) (PDF)<br/>
 	  A paper describing some attacks on Freenet 0.7's location swapping algorithm.
