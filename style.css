@@ -258,7 +258,6 @@ ul.dropdown li {
     vertical-align: middle;
 }
 
-ul.dropdown li.hover,
 ul.dropdown li:hover {
     position: relative;
     z-index: 599;
@@ -341,8 +340,8 @@ ul.dropdown li.dir, ul.dropdown li.simple, ul.dropdown a{
     height: 30px;
     width: 18ex;
     max-width: 133px;
-    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
 }
 
 ul.dropdown a{
@@ -350,18 +349,35 @@ ul.dropdown a{
     line-height:30px;
 }
 
-ul.dropdown li.simple a:hover, ul.dropdown li.dir ul li a:hover{
-    text-shadow: 0 0 5px #aaa;
+ul.dropdown li.simple a:hover, ul.dropdown li.dir a:hover{
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+}
+
+ul.dropdown li.dir ul li a:hover{
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-topright: 0;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
 }
 
 ul.dropdown li.dir ul li{
     background-color: #adafa2;
-    color: #fff;
     height: 30px;
     width: 18ex;
     max-width: 133px;
     font-size: 1em;
-    text-shadow: none;
+    color: #fff;
+}
+
+ul.dropdown li.last,
+ul.dropdown li.last a{
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
 }
 
 ul.dropdown li.dir ul li a{
@@ -372,15 +388,27 @@ ul.dropdown li.dir ul li a{
     line-height:30px;
 }
 
-ul.dropdown li:hover {
-    background-color: #4f4f46;
-    text-shadow: 0 0 5px #aaa;
+ul.dropdown li:hover {    
+    background:#4f4f46;
+    color: #fff;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
 }
 
+ul.dropdown li.simple,
+ul.dropdown li.simple a{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
 ul.dropdown a:link,
-ul.dropdown a:visited	{ color: #fff; text-decoration: none; }
+ul.dropdown a:visited	{ color: #eee; text-decoration: none; }
 ul.dropdown a:hover {
     background:#4f4f46;
+    color: #fff;
 }
 ul.dropdown a:active	{ 
     color: white; 

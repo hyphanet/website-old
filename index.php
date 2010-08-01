@@ -72,8 +72,6 @@ include 'includes/common.inc.php';
       </div>
     </div>
 
-<div id="backmenu">	
-<div id="menu">	
 	<?php 
 		// Include language specific menu-file 
 		
@@ -87,8 +85,6 @@ include 'includes/common.inc.php';
 			include("pages/en/menu.php");
 		}	
 	?>
-</div>
-</div>
 
 <div id="content"><?php 	include (escapeshellcmd($file));  ?>
 </div>
