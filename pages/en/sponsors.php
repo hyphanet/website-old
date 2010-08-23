@@ -82,6 +82,10 @@
 	    <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
 	    Another generous sponsor.
 	  </li>
+
+	  <li>
+	    <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - another generous sponsor.
+	  </li>
 	  
 	</ul>
 
