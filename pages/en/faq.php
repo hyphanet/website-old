@@ -335,7 +335,7 @@
 	have some problems with SSL which cause the installer to fail. Please install
 	the Sun JRE, at least version 5. On Ubuntu or Debian, open a root terminal and type:</p>
 	<pre>
-	apt-get install sun-java6-jre
+	apt-get install sun-java6-bin
 	update-java-alternatives -s java-6-sun
 	</pre>
     
