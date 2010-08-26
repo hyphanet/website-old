@@ -483,16 +483,19 @@
 	its neighbours. Hence the attacks on Freenet are completely different to the attacks
 	on Tor. Both compromise to some degree to enable more or less real-time performance.</p>
 
-      <p>If you can use the darknet, trust your friends, don't reinsert files or insert easily
-	predictable data (this requirement will be relaxed in 0.9), and change your anonymous 
-	identity after some volume of inserts, you should be relatively safe using Freenet. If 
+      <p>If you can use the darknet, trust your friends, don't reinsert files, always 
+    use the "Insert a random, safe key" option, and change your anonymous identity after 
+    some volume of inserts, you should be relatively safe using Freenet. However this has
+    not yet been quantified. If 
 	you can connect, build up some trust in your anonymous persona, insert your controversial 
 	content, and then disappear, again, you are better off with Freenet, especially if the 
 	content is a website (but if you are connecting on opennet, beware of seednode compromises). 
 	In some other cases, Tor is better.</p>
-      <p>In Freenet 0.9, we will add a form of cryptographic tunnels, somewhat similar
-	to Tor's onion routing; this should greatly reduce the impact of many of the below
-	attacks.<br/>
+	  <p>We are still working on Freenet's security and there are major security enhancements
+	which have not yet been implemented, most of which will go in before 1.0. Cryptographic
+	tunnels similar to Tor's onion routing are one possibility, which would greatly reduce
+	the impact of many of the below attacks, but there are several other enhancements 
+	planned, both to anonymity and to network robustness/undetectability.</p>
 	<b>Major known attacks:</b><br/>
 	In the interests of giving would-be users as much information as possible, and on
 	the assumption that any serious attacker would do their homework, here are the major 
@@ -501,39 +504,96 @@
       <ul><li><b>Harvesting</b>: Simply by running some powerful Freenet nodes, an 
 	  attacker can identify most of the opennet (Strangers network) relatively easily.
 	  These nodes can then be attacked one by one (subject to resources), their traffic
-	  analysed, or simply be blocked on a national firewall. Connecting only to friends
-	  largely solves this problem. It is still possible for ISPs to identify nodes with 
-	  traffic flow analysis. Obviously a large network will make this harder. And this 
-	  attack is trivial on Tor, although they provide a means to work around it.</li>
+	  analysed, or simply be blocked on a national firewall. Connecting only to friends (darknet)
+	  largely solves this problem. It is likely possible for ISPs to identify nodes, even 
+	  if they only connect to friends, with traffic flow analysis. Obviously a large 
+	  network will make this harder. Also, steganography will be introduced at some point, 
+	  although Freenet's current protocol is designed to be hard to detect. Traffic flow 
+	  analysis, or brute-force blocking of all peer to peer traffic (e.g. traffic between 
+	  IP addresses marked as "consumer" rather than "business"), will likely be effective 
+	  for quite some time.</li>
+	  
+	  <li><b>Bootstrapping attacks</b>: Unless a node only connects to friends, it will
+	  have to connect to the opennet "seednodes" to announce itself and get initial peers
+	  to connect to. At the moment there are relatively few seednodes and the list is 
+	  maintained manually. The seednodes could be blocked easily by a national firewall etc,
+	  but also, there is little to prevent attackers from setting up their own seednodes and
+	  submitting them, and then "capturing" any new Freenet users who connect to their 
+	  nodes, in order to observe their traffic etc. Freenet will try to announce to multiple
+	  seednodes, but see the below section on "correlation attacks", which generally are 
+	  feasible with only a single connection to the target. So this is a question of 
+	  resources - if the attacker has the resources to surveil all new Freenet nodes, he has
+	  a good chance of pulling it off. This, combined with harvesting, is why many people
+	  regard opennet as hopelessly insecure. In future we may have more seednodes, and only
+	  reveal a small proportion of them to each node, as Tor does with its hidden bridges,
+	  but that will not prevent attackers from creating lots of malicious seednodes and 
+	  getting them into the official lists, and it will likely still be possible to block
+	  all the seednodes with some effort (this has actually happened with Tor hidden
+	  bridges in China). Combined with harvesting, this attack explains why opennet is 
+	  regarded by many core developers as hopelessly insecure. If you want good security
+	  you need to connect only to friends. Hit and run inserts are possible, and can be
+	  relatively safe in terms of many of the other attacks, but you are taking the risk 
+	  that the opennet seednode you connect to may be malicious.</li>
+
 	<li><b>Datastore attacks</b>: This is largely solved as of build 1224, we don't
 	  cache our local requests or inserts, and neither do the nodes immediately connected
 	  to us, to a depth of at least 2 hops (3 on inserts). However, if your node is older
 	  than that, seizing the store might give a bad guy some interesting information.
 	  Also note that the client-cache caches local requests (but not inserts), so it should
 	  be encrypted and passworded by setting the physical security level to HIGH, or turned 
-	  off.</li>
+	  off. You should also encrypt the swapfile in particular and the whole system if 
+	  possible to prevent information leaks from the web browser, media players etc. Note
+	  that some incriminating data (e.g. the list of bookmarks) is still stored in 
+	  plaintext; we're working on it, but did I mention you should 
+	  <a href="http://www.truecrypt.org">encrypt your whole system</a>?</li>
+	  
 	<li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
 	  the keys being requested (probably because it was posted publicly), you can show 
 	  statistically that the node in question probably requested it, based on the 
 	  proportion of the keys requested from that node, the locations of nearby nodes, the 
-	  HTL on the requests and so on. This will be largely eliminated by tunnels.</li>
+	  HTL on the requests and so on. This will be largely eliminated by tunnels (but these
+	  will be quite expensive so may need to be turned off by default except for 
+	  predictable blocks), but in any case it requires a rather powerful attacker compared 
+	  to the next attack... Note also that if you only connect to your friends, a remote
+	  attacker will have to either co-opt your friends or social engineer you into giving
+	  them a connection; either way, connecting to the entire network this way is rather 
+	  expensive: If they already suspect you personally they'll probably bug your keyboard
+	  rather than trying to connect to your Freenet node!</li>
 
-	<li><b>Adaptive search</b>: If you want to find the author of some content, and you
-	  can predict the content or the keys to be inserted, you can listen out for their 
-	  inserts. Each request gives you a data point suggesting roughly where the originator 
-	  might be (on the location space), and on each insert you intercept you can move 
-	  slightly closer to the originator, by obtaining connections to nodes which are closer 
-	  to your current guesstimate of the target's location. If you are right these new 
-	  connections will yield more of the target's requests/inserts, and you can rapidly 
-	  close in on the originator. The best defense right now is darknet (connecting to 
-	  friends only): Darknet makes it very difficult for an attacker to obtain new 
-	  connections closer to his guess of where the target is. The tunnels proposal will 
-	  likely make this attack considerably more difficult. Also, if the attacker cannot guess 
-	  the content to be inserted in advance, this is very much more difficult (hence 
-	  reinserting big files is <b>bad</b>); we will randomize the insertion keys in 0.9 to 
-	  give additional protection for inserters. And of course this is of no use for tracing 
-	  the author if the author has finished the insert and left the network: you have
-	  to intercept the insert while it is in progress.</li>
+	<li><b>Adaptive search</b>: If you want to find the author of some content, and you can
+	  predict the exact keys which will be inserted, and you are able to connect to new 
+	  nodes at will, you may be able to listen out for the keys, guess where they must have
+	  come from, connect to nodes near there, and if your guess is correct, get more keys
+	  which gives you a more accurate fix on the originator, so the attack gets faster and
+	  faster and eventually converges on the originator. This attack is most powerful with
+	  inserts of big, predictable files, but the "Insert a random, safe key" option will
+	  make the keys unpredictable even if the content is guessable, by using random 
+	  encryption keys. The downside is it produces a different key each time for the same
+	  file, and you can never safely reinsert the same file to the same key. Given that
+	  Freenet's data persistence is currently relatively poor, this is a problem. Anyway,
+	  if you <i>can</i> use the random keys option, the attacker is unable to move towards
+	  you until after you announce the file: Most of his samples will come not from the 
+	  actual content inserts but from chat posts. There are far fewer of these, and 
+	  changing your pseudonymous identity periodically will help, provided the attacker 
+	  cannot easily connect the new identity to the old one. Using a dedicated identity for
+	  posting sensitive content, which doesn't chat too much, again will help. Another 
+	  thing which makes a huge difference is connecting only to your friends (i.e. using
+	  darknet): This makes it extremely difficult for an attacker to get new connections 
+	  closer to where he thinks you must be, just as it helps with correlation attacks.
+	  So the biggest problem with this attack is 1) Files which are not very popular fall
+	  off Freenet relatively quickly, so need to be reinserted, but it is not safe to 
+	  reinsert to the same key (this is why we have the "Insert a canonical key" option,
+	  for those who don't care about attacks), and 2) Chat can still be attacked. Tunnels
+	  will help to deal with both problems, and by default will only be used for 
+	  predictable keys so can be relatively slow without this causing problems in practice.
+	  Also there is work going on on various techniques to allow users to do reinserts 
+	  safely via for example preventing the attacker from seeing requests started before he
+	  connected. Another important point is this only works if the source is uploading new
+	  content, or chatting, regularly; creating and bootstrapping a new pseudonymous 
+	  identity over a short period, doing a single insert (of any size) with the safe 
+	  random key option, and announcing it, should be relatively safe from this attack, 
+	  even on opennet - but see the section above on bootstrapping attacks.</li>
+	  
 	<li><b>Traffic analysis</b>: Freenet provides minimal protection against global
 	  traffic analysis (basic message padding etc); if the attacker also has nodes on the 
 	  network, the extra data will likely be helpful. We certainly do not guarantee that it
@@ -543,11 +603,12 @@
 	  for more paranoid users. Note that on Tor-style networks, global traffic analysis 
 	  will defeat the network completely: all that is needed is to observe both the entry 
 	  and exit points.</li>
+	
 	<li><b>Swapping attacks</b>: It is possible to attack the location swapping algorithm, and
-	  thereby disrupt routing. This has been demonstrated by the authors of the Pitch 
-	  Black paper. We are working on a solution, but this only affects the darknet (Friends 
-	  network), which presently is a small proportion of the overall Freenet.</li>
-      </ul>
+	  thereby disrupt routing on friend-to-friend networks. This has been demonstrated by 
+	  the authors of the Pitch Black paper. We are working on a solution, but sadly at the
+	  moment most users use opennet.</li>
+	</ul>
       
       <p>More information on the current practical state of Freenet security is available
 	<a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
