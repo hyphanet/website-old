@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-	<a name="big-donation-september-2010"><h3>Another large donation</h3></a>
+	<a name="big-donation-september-2010"><h3>24th September 2010 - Another large donation, and brief status update</h3></a>
 	<p>Once again Google's Open Source team has donated US$18,000 to the Freenet Project to support the 
 	ongoing development of the Freenet software.</p>
 	
