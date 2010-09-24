@@ -112,6 +112,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (24th September 2010) <a href="news.html#big-donation-september-2010">Another big donation, and brief status update</a><br/>
 	  (26th April 2010) <a href="news.html#gsoc-2010-accepted">Summer of Code students for this year announced!</a><br/>
 	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>
 	  (9th March 2010) <a href="news.html#new-paper-march-2010">New paper about Freenet 0.7.5+</a><br/>

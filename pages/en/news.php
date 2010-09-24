@@ -1,5 +1,23 @@
       <h1>News</h1>
 
+	<a name="big-donation-september-2010"><h3>Another large donation</h3></a>
+	<p>Once again Google's Open Source team has donated US$18,000 to the Freenet Project to support the 
+	ongoing development of the Freenet software.</p>
+	
+	<p>In particular, we will use these funds to complete Freenet 0.8, which will be 
+	released later this year, and will include additional performance improvements, 
+	usability work, and security improvements.  It will also include new ways to 
+	communicate over Freenet, including "Freetalk", a forums discussion system employing 
+	a novel "web of trust" approach to prevent spam in an entirely decentralized way.</p>
+	
+	<p>In other news, the Summer of Code was a qualified success, with two of our students
+	performing very well. Support for ogg vorbis/theora will be merged soon, and the new
+	more efficient transport layer will be merged a bit later. We have over 20,000 regular
+	users, and current work is focused largely on Freetalk and rewriting the load management
+	code for higher and more consistent performance. A fuller status update will be 
+	published on <a href="http://amphibian.dyndns.org/flogmirror">Toad's blog</a> when the
+	current situation calms down a bit.</p>
+	
 	<a name="sorry-again-1253"><h3>14th June, 2010 - Serious bug, please upgrade immediately</h3></a>
 	<p>Freenet build 1253 fixes a very serious bug, and all users should upgrade immediately, especially those
 	running 32-bit x86 systems. This build is "mandatory", meaning it will not connect to anything before 1252.
