@@ -86,6 +86,10 @@
 	  <li>
 	    <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - another generous sponsor.
 	  </li>
+
+	  <li>
+	    <a href="http://www.gartenheinz.de" title="A German Site for Gardening and Plants">A German Site for Gardening and Plants</a> - another generous sponsor.
+	  </li>
 	  
 	</ul>
 
