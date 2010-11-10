@@ -694,7 +694,7 @@
 	media files etc. Even if you only browse freesites and use the chat plugins, there will
 	still be potentially incriminating data in your swapfile, which needs to be encrypted
 	(on recent versions of Windows you could try the command "fsutil behavior set 
-	encryptpagingfile 1", but really the solution is an encrypted drive). It is also 
+	encryptpagingfile 1", but really the solution is an encrypted drive including encrypted swap). It is also 
 	essential that you use your web browser in privacy mode, or with cache and history 
 	turned off; we try to do this if you launch Freenet via the rabbit icon, but there are 
 	no guarantees as unfortunately this functionality seems buggy in current web browsers.
