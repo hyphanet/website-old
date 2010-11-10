@@ -718,7 +718,7 @@
 	data that it stores on disk. Details are below but as explained, leaks are inevitable:
 	you really should <a href="http://www.truecrypt.org/">encrypt your disks!</a></p>
 	
-	<p>The main datastore does not store data you request and insert (or
+	<p>The main datastore does not store data you request or insert (or
 	that is requested or inserted by nearby nodes), because it can be probed by other nodes:
 	This was introduced to fix <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">this attack</a> publicised by The Register.
 	Freenet has a separate client-cache, which stores data which you have recently requested
