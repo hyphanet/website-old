@@ -742,7 +742,7 @@
 	on some of the files.</p>
 
 	  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
-	The password protects your download and upload queue and the client-cache (cache of 
+	The password protects your downloads and uploads and the client-cache (cache of 
 	what you've recently browsed on Freenet). It is stored in the file master.keys. There 
 	is no way to recover the password, but if you forget it you can wipe your downloads and 
 	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
