@@ -68,7 +68,7 @@
 	</li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 	</li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
 	</li><li><a href="#attackY">What about attack Y?</a>
-	</li><li><a href="#privatedata">What private data does Freenet store? How do I get rid of it?</a>
+	</li><li><a href="#privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</a>
 
       </li></ol>
       <h3> Misc. questions</h3>
@@ -688,7 +688,7 @@
 	take as much of it as you like and write your own distributed network
 	that suits your desires. </p>
 	
-	  <p><b id="privatedata">What private data does Freenet store? How do I get rid of it?</b><br/>
+	  <p><b id="privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</b><br/>
 	First of all, we <b>strongly</b> suggest that you install Freenet inside an encrypted 
 	drive using, for example, <a href="http://www.truecrypt.org/">Truecrypt</a>. It is not
 	possible for Freenet to prevent all leaks of private data, especially if you download
