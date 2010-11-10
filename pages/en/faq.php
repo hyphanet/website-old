@@ -67,6 +67,7 @@
 	</li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
 	</li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
 	</li><li><a href="#attackY">What about attack Y?</a>
+	</li><li><a href="#privatedata">What private data does Freenet store? How do I get rid of it?</a>
 
       </li></ol>
       <h3> Misc. questions</h3>
@@ -685,6 +686,51 @@
 	upsets you, all of our code is freely available, so you are free to
 	take as much of it as you like and write your own distributed network
 	that suits your desires. </p>
+	
+	  <p><b id="privatedata">What private data does Freenet store? How do I get rid of it?</b><br/>
+	First of all, we <b>strongly</b> suggest that you install Freenet inside an encrypted 
+	drive using, for example, <a href="http://www.truecrypt.org/">Truecrypt</a>. It is not
+	possible for Freenet to prevent all leaks of private data, especially if you download
+	media files etc. Even if you only browse freesites and use the chat plugins, there will
+	still be potentially incriminating data in your swapfile, which needs to be encrypted
+	(on recent versions of Windows you could try the command "fsutil behavior set 
+	encryptpagingfile 1", but really the solution is an encrypted drive). It is also 
+	essential that you use your web browser in privacy mode, or with cache and history 
+	turned off; we try to do this if you launch Freenet via the rabbit icon, but there are 
+	no guarantees as unfortunately this functionality seems buggy in current web browsers.
+	It is also essential to be careful with the files you download from Freenet - not only
+	could anyone seizing your computer see you have them (media files are likely to be 
+	written to disk even if you open them directly in your web browser and never save them), 
+	but also they could contain threats to anonymity themselves, such as calling back to
+	a malicious website etc; this is common in for instance PDFs and some video formats.
+	Freenet tries to warn you about this.</p>
+	
+	<p>Because not all users will have installed encrypted drives at the time when they 
+	first install Freenet, Freenet itself attempts to encrypt all the potentially incriminating
+	data that it stores on disk. Details are below but as explained, leaks are inevitable:
+	you really should <a href="http://www.truecrypt.org/">encrypt your disks!</a></p>
+	
+	<p>Apart from the main datastore, which does not store data you request and insert (or
+	that is requested or inserted by nearby nodes), because it can be probed by other nodes
+	(this was introduced to fix <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">this attack</a> publicised by The Register).
+	Freenet has a separate client-cache, which stores data which you have recently requested
+	to avoid having to go back to the network every time (which would not only reduce speed
+	but also security at the network level). Also, Freenet stores the list of your downloads
+	and uploads (which you can see on the Filesharing menu), their current progress, and 
+	various other data, in the file node.db4o (or node.db4o.crypt). The actual data is kept
+	in the persistent-temp-* directory. Unless you set the physical security level to LOW,
+	this data is encrypted. At MAXIMUM, the encryption keys are never written to disk, so
+	the data is effectively wiped on restarting the node; otherwise the encryption keys are
+	stored in a file called master.keys (on HIGH this is passworded). You can wipe the data
+	by either using the panic button on the downloads/uploads page or by securely deleting
+	master.keys. Freenet also creates temporary files for normal requests, which are also
+	encrypted unless physical seclevel is LOW, which are in temp-*. Also, some plugins may
+	create their own data files, which may contain for instance messages you have posted or
+	downloaded from chat forums, and currently bookmarks and recently completed files are
+	stored in plain text. It is our intention to move these into node.db4o or store them
+	in separate encrypted databases, as soon as we have automatic backups for node.db4o.
+	See <a href="http://new-wiki.freenetproject.org/Program_files">here</a> for details 
+	on some of the files.</p>
 
       <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
 
