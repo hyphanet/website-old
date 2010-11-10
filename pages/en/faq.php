@@ -703,7 +703,10 @@
 	written to disk even if you open them directly in your web browser and never save them), 
 	but also they could contain threats to anonymity themselves, such as calling back to
 	a malicious website etc; this is common in for instance PDFs and some video formats.
-	Freenet tries to warn you about this.</p>
+	Freenet tries to warn you about this. And of course there are many other threats - you
+	should obey standard security precautions, such as not running operating systems that
+	are no longer updated, using appropriate security software etc (if you have a firewall
+	make sure it allows the two UDP ports Freenet needs through).</p>
 	
 	<p>Because not all users will have installed encrypted drives at the time when they 
 	first install Freenet, Freenet itself attempts to encrypt all the potentially incriminating
