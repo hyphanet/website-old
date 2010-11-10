@@ -718,12 +718,12 @@
 	data that it stores on disk. Details are below but as explained, leaks are inevitable:
 	you really should <a href="http://www.truecrypt.org/">encrypt your disks!</a></p>
 	
-	<p>Apart from the main datastore, which does not store data you request and insert (or
-	that is requested or inserted by nearby nodes), because it can be probed by other nodes
-	(this was introduced to fix <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">this attack</a> publicised by The Register).
+	<p>The main datastore does not store data you request and insert (or
+	that is requested or inserted by nearby nodes), because it can be probed by other nodes:
+	This was introduced to fix <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">this attack</a> publicised by The Register.
 	Freenet has a separate client-cache, which stores data which you have recently requested
 	to avoid having to go back to the network every time (which would not only reduce speed
-	but also security at the network level). Also, Freenet stores the list of your downloads
+	but also security, by giving attackers more opportunities to see your requests). Also, Freenet stores the list of your downloads
 	and uploads (which you can see on the Filesharing menu), their current progress, and 
 	various other data, in the file node.db4o (or node.db4o.crypt). The actual data is kept
 	in the persistent-temp-* directory. Unless you set the physical security level to LOW,
