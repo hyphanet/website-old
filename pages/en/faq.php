@@ -709,8 +709,9 @@
 	(currently it can only filter HTML pages, GIF/PNG/JPEG images and CSS, but we will
 	add support for Ogg soon and other formats later). And of course there are many other threats - you
 	should obey standard security precautions, such as not running operating systems that
-	are no longer updated, using appropriate security software etc (if you have a firewall
-	make sure it allows the two UDP ports Freenet needs through).</p>
+	are no longer updated, not running software not from a trustworthy source, using 
+	appropriate security software etc (if you have a firewall make sure it allows the two 
+	UDP ports Freenet needs through).</p>
 	
 	<p>Because not all users will have installed encrypted drives at the time when they 
 	first install Freenet, Freenet itself attempts to encrypt all the potentially incriminating
