@@ -41,6 +41,7 @@
 	</li><li><a href="#freenetinigone">Freenet doesn't start, says it can't find freenet.ini</a>
 	</li><li><a href="#servicenotrespond">Freenet doesn't start, says "Service did not respond to signal"</a>
 	</li><li><a href="#kaspersky">I have Kaspersky anti-virus and Freenet doesn't install, or consistently shows "Download/upload queue database corrupted!"</a>
+	</li><li><a href="#forgotpass">I set a password and now I forgot it, what can I do?</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -739,6 +740,14 @@
 	in separate encrypted databases, as soon as we have automatic backups for node.db4o.
 	See <a href="http://new-wiki.freenetproject.org/Program_files">here</a> for details 
 	on some of the files.</p>
+
+	  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
+	The password protects your download and upload queue and the client-cache (cache of 
+	what you've recently browsed on Freenet). It is stored in the file master.keys. There 
+	is no way to recover the password, but if you forget it you can wipe your downloads and 
+	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
+	question on private data and local security</a> for more information.</p>
+	
 
       <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
 
