@@ -698,6 +698,8 @@
 	essential that you use your web browser in privacy mode, or with cache and history 
 	turned off; we try to do this if you launch Freenet via the rabbit icon, but there are 
 	no guarantees as unfortunately this functionality seems buggy in current web browsers.
+	Browser plugins could also be a problem, and you should use a separate browser for 
+	Freenet if in any doubt.
 	It is also essential to be careful with the files you download from Freenet - not only
 	could anyone seizing your computer see you have them (media files are likely to be 
 	written to disk even if you open them directly in your web browser and never save them), 
