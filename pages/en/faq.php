@@ -705,7 +705,7 @@
 	written to disk even if you open them directly in your web browser and never save them), 
 	but also they could contain threats to anonymity themselves, such as calling back to
 	a malicious website etc; this is possible in for instance PDFs and some video formats.
-	Freenet tries to warn you about this, when it can't filter out such malicious content
+	Freenet tries to warn you about this when it can't filter out such malicious content
 	(currently it can only filter HTML pages, GIF/PNG/JPEG images and CSS, but we will
 	add support for Ogg soon and other formats later). And of course there are many other threats - you
 	should obey standard security precautions, such as not running operating systems that
