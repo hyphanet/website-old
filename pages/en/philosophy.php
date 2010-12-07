@@ -14,7 +14,6 @@
 	  <li><a href="#copyright">And what of copyright?</a></li>
 	  <li><a href="#rewarded">But how will artists be rewarded for their work without copyright?</a></li>
 	  <li><a href="alternative">Alternatives to Copyright</a></li>
-	  <li><a href="#fairshare">More sophisticated approaches:
 	      Fairshare</a></li>
 	</ol>
       </p>
@@ -216,19 +215,3 @@
 	within a week we had collected over $1000. 
       </p>
       
-      <a name="fairshare"><h3> 11. More sophisticated approaches: Fairshare </h3></a>
-      
-      <p>
-	Of course some people ridicule this idea on the basis (I assume) that
-	nobody would ever pay for something unless forced to do so (despite
-	significant evidence to the contrary). While I disagree with their
-	rather depressing outlook on humanity, there are more sophisticated
-	mechanisms which do appeal to people's self-interest, such as
-	"Fairshare", where people can buy in to artists much as a venture
-	capitalist will buy into an idea they like, and if that artist is
-	successful they will be rewarded in proportion to their original
-	contribution. This has the nice effect of encouraging people to give
-	more money to obscure artists who they believe have potential. If their
-	investment doesn't pay-off, then they still have the satisfaction that
-	they contributed to an artist whose work they enjoy.
-      </p>
