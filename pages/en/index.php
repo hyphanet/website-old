@@ -71,7 +71,7 @@ $(document).ready(function() {
       </div>
 
       <div id="windows" class="sprites download">
-   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
+   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION-alpha.exe">
    	   <span id="software">Freenet</span>
    	   <span id="action">Download</span>
    	   <span id="version">0.7.5 for Windows</span>
@@ -112,7 +112,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
-	  (7th December 2010) <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">Is Freenet part of the solution to Wikileaks' hosting problems? Vote on Reddit</a><br/>
+	  (7th December 2010) <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">Reddit: Is Freenet part of the solution to Wikileaks' hosting problems?</a><br/>
 	  (24th September 2010) <a href="news.html#big-donation-september-2010">Another big donation, and brief status update</a><br/>
 	  (26th April 2010) <a href="news.html#gsoc-2010-accepted">Summer of Code students for this year announced!</a><br/>
 	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>
