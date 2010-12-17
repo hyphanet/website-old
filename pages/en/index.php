@@ -71,7 +71,7 @@ $(document).ready(function() {
       </div>
 
       <div id="windows" class="sprites download">
-   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION-alpha.exe">
+   	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION-new.exe">
    	   <span id="software">Freenet</span>
    	   <span id="action">Download</span>
    	   <span id="version">0.7.5 for Windows</span>
