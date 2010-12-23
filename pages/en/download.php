@@ -58,7 +58,7 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION-new.exe">the
+	  run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
 	      installer</a> (8MB)</big><br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
