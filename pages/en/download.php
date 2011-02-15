@@ -310,7 +310,7 @@
       <h3>Upgrading</h3>
       
       <p>
-	Freenet provides now an update-over-freenet mechanism:
+	Freenet provides an update-over-freenet mechanism:
 	It will keep itself up to date automatically from other
 	Freenet nodes, and this will normally work even if it is
 	unable to route to them due to them being too new. This is
