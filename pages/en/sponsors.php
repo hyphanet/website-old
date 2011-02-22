@@ -1,4 +1,4 @@
-      <div id="sponsors">
+      <div id="main">
 	<h1>Freenet Sponsorship</h1>
 	
 	<p>
