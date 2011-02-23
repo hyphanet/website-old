@@ -17,7 +17,7 @@
 	to be used wisely. All support is very much appreciated.</p>
       
       <h4>How can I donate?</h4>
-      You have four options:
+      You have several options:
       <ul>
 	<li>You can become a Freenet project "member" for
 	  a <b>recurring payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
