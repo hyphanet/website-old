@@ -142,7 +142,7 @@
 	    <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
 	    You can now donate to the Freenet Project using <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
 	    Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br>
-	    <b>You should <a href="https://freenetproject.org/donate.html">make sure</a> you are on the SSL-secured site before using the above link</b></li>
+	    <b>You should <a href="https://freenetproject.org/donate.html">make sure</a> you are on the SSL-secured site before using the above address</b></li>
 	    
 	    <hr width="90%">
 	    <li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
