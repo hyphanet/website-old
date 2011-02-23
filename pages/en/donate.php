@@ -1,3 +1,4 @@
+
       <h1>Donations</h1>
       
       <h4>Financial Status</h4>
@@ -141,8 +142,17 @@
 	    </p>
 	    <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
 	    You can now donate to the Freenet Project using <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
-	    Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br>
-	    <b>You should <a href="https://freenetproject.org/donate.html">make sure</a> you are on the SSL-secured site before using the above address</b></li>
+	    <div id="bitcoin-account">Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
+	    <div id="bitcoin-warning"><b>You should <a href="https://freenetproject.org/donate.html">make sure</a> you are on the SSL-secured site before using the above address</b></div></li>
+	<script type="text/javascript">
+	if(window.location.protocol=="https:") {
+		showDiv("bitcoin-account");
+		hideDiv("bitcoin-warning");
+	} else {
+		showDiv("bitcoin-warning");
+		hideDiv("bitcoin-account");
+	}
+	</script>
 	    
 	    <hr width="90%">
 	    <li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
