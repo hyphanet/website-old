@@ -13,7 +13,7 @@ include 'includes/common.inc.php';
 	<meta name="language"    content="<?php echo $lang?>">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="<?php if($lang != "en") echo "../"?>style.css" rel="stylesheet" type="text/css">
+	<link href="<?php if($lang != "en") echo "../"?>/style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		function hideDiv( whichDivId )
 		{
@@ -40,7 +40,7 @@ include 'includes/common.inc.php';
 			vis.display = 'inline';
 		}
 	</script>
-	<script type="text/javascript" src="<?php if($lang != "en") echo "../"?>PluginDetect.js"></script>
+	<script type="text/javascript" src="<?php if($lang != "en") echo "../"?>/PluginDetect.js"></script>
 	<!--[if lt IE 7]><script defer type="text/javascript" src="<?php if($lang != "en") echo "../"?>js/fixpng.js"></script><![endif]-->
 </head>
 
