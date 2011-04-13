@@ -1,4 +1,13 @@
       <h1>News</h1>
+    
+    <a name="freedom-house-april-2011"><h3>13th April 2011 - Freenet top anti-censorship tool in survey of Chinese users!</h3></a>
+    <p>A <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">report</a> by 
+    <a href="http://freedomhouse.org/">Freedom House</a> surveyed users in 
+    Azerbaijan, Burma, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Summary of results in China">China</a>
+    and Iran for their perceptions of and preferred tools for bypassing local government censorship. 
+    In China, Freenet was the only anti-censorship tool to achieve 5 stars, and 
+    the third most widely used overall.
+    
 	<a name="wikileaks-freenet-december-2010"><h3>7th December 2010 - Wikileaks and Freenet</h3></a>
 	
 	<p>There is a <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">Reddit post</a> about Freenet as a possible solution to censorship proof hosting. Since <a href="http://www.wikileaks.info/">Wikileaks</a> has had problems with hosting lately as a result of government intervention, people have been talking about <a href="http://dot-p2p.org/index.php?title=Ideas">distributed DNS</a>. Others have suggested that Freenet is a better solution.</p>

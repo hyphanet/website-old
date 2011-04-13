@@ -112,12 +112,10 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
-	  (7th December 2010) <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">Reddit: Is Freenet part of the solution to Wikileaks' hosting problems?</a><br/>
+	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  (24th September 2010) <a href="news.html#big-donation-september-2010">Another big donation, and brief status update</a><br/>
-	  (26th April 2010) <a href="news.html#gsoc-2010-accepted">Summer of Code students for this year announced!</a><br/>
 	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>
 	  (9th March 2010) <a href="news.html#new-paper-march-2010">New paper about Freenet 0.7.5+</a><br/>
-	  (4th February 2010) <a href="news.html#status-update-jan-2010">Status update (Jan 2010)</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
