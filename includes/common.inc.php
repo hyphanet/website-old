@@ -78,8 +78,7 @@ function selectPage($lang_q, $page) {
 				
 			}	
 		} else {
-			$ip = isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR'];
-			syslog(LOG_CRIT, "Huh, someone attempted to access a non-existent file! page=$page file=$tmpfile from $ip");
+			trigger_error("page=$page file=$tmpfile");
 		}
 
 		if (!isset($file))
