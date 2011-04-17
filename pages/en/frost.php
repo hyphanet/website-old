@@ -43,7 +43,7 @@
 	<span style="font-weight: bold;">Clean startup</span> 
 	here.
       </p>
-      <img src="../image/frost/clean-start.png"/>
+      <img src="/image/frost/clean-start.png"/>
       <p>
 	Since Freenet is able to run on both Freenet 0.5
 	and the current Freenet 0.7, you will need to
@@ -52,20 +52,20 @@
 	you will probably want 
 	<span style="font-weight: bold;">Freenet 0.7 (Darknet)</span>.
       </p>
-      <img src="../image/frost/select-version.png"/>
+      <img src="/image/frost/select-version.png"/>
       <p>
 	Next step is to choose which identidy you want to be
 	known by when using Frost. As it says, it does not
 	have to be unique, but it certainly helps.
       </p>
-      <img src="../image/frost/choose-identity.png"/>
+      <img src="/image/frost/choose-identity.png"/>
       <p>
 	You will then get the main Frost window, where one
 	can participate in the message boards and up/download
 	files. The windows will probably take a while to
 	populate on the first startup.
       </p>
-      <img src="../image/frost/main-window.png"/>
+      <img src="/image/frost/main-window.png"/>
       <h3>Sharing files</h3>
       <p>
 	Sharing files can be done by clicking the
