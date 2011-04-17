@@ -53,7 +53,7 @@
 
 	<h5>Dave Baker</h5>
 	<p>
-	  Dave's main contribution has been <a href="http://freenetproject.org/freemail.html">Freemail</a>, 
+	  Dave's main contribution has been <a href="freemail.html">Freemail</a>, 
 	  his Summer of Code project to build a working email-over-freenet system, as well as some 
 	  debugging and core work in various places.
 	</p>

@@ -95,7 +95,7 @@
 	students chasing the same tasks. You can see some ideas for projects 
 	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
 	<p>We will help you to fill in technical details, understand exactly what we need. We also welcome
-	new ideas and approaches, please contact us, on our devl <a href="http://freenetproject.org/lists.html">mailing list</a>,
+	new ideas and approaches, please contact us, on our devl <a href="lists.html">mailing list</a>,
 	or <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
 	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
@@ -115,11 +115,11 @@
 	<p>PS we have taken uservoice offline due to not being able to efficiently deal with spam. We are still interested in
 	suggestions on how to improve Freenet, please post them on the <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> or the 
 	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
-	<a href="http://freenetproject.org/lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
+	<a href="lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
 	if you know of any.</p>
 
 	<a name="new-paper-march-2010"><h3>9th March, 2010 - New paper added</h3></a>
-	<p>A new paper has been added, <a href="http://freenetproject.org/papers/freenet-0.7.5-paper.pdf">Private Communication Through a Network of Trusted Connections: The Dark Freenet</a>, written by Oskar and Vive (two of our theoreticians) with some help from Toad (chief coder). This focuses on the architecture of the network, rather than on the routing and swapping algorithms, which <a href="/papers.html">other papers</a> have described in detail. It has a slight focus on darknet, but should be of interest to anyone interested in how the network works. It also has some new simulations...</p>
+	<p>A new paper has been added, <a href="/papers/freenet-0.7.5-paper.pdf">Private Communication Through a Network of Trusted Connections: The Dark Freenet</a>, written by Oskar and Vive (two of our theoreticians) with some help from Toad (chief coder). This focuses on the architecture of the network, rather than on the routing and swapping algorithms, which <a href="/papers.html">other papers</a> have described in detail. It has a slight focus on darknet, but should be of interest to anyone interested in how the network works. It also has some new simulations...</p>
 
 	<a name="status-update-jan-2010"><h3>4th February, 2010 - Freenet status update</h3></a>
 	<p>Time for a status update...</p>
@@ -353,7 +353,7 @@
 	There are versions of Freenet 0.7.5 for Windows, Mac, and
 	Linux.  They can be downloaded from:
       </p>
-      <p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
+      <p><a href="download.html">http://freenetproject.org/download.html</a></p>
       <p>
 	If you have any difficulty getting Freenet to work, or any
 	questions not answered in the <a href="/faq.html">faq</a>, please

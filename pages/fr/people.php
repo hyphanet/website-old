@@ -57,7 +57,7 @@
 
 	<h5>Dave Baker</h5>
 	<p>
-	  La principale contribution de Dave a été <a href="http://freenetproject.org/freemail.html">Freemail</a>, 
+	  La principale contribution de Dave a été <a href="freemail.html">Freemail</a>, 
 	  son projet de Summer of Code de construire un système fonctionnel d'email par dessus freenet, ainsi
 	  que du debuggage et du travail dans différents endroits du coeur de Freenet.
 	</p>

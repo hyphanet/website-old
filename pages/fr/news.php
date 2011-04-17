@@ -172,7 +172,7 @@
 	There are versions of Freenet 0.7.5 for Windows, Mac, and
 	Linux.  They can be downloaded from:
       </p>
-      <p><a href="http://freenetproject.org/download.html">http://freenetproject.org/download.html</a></p>
+      <p><a href="download.html">http://freenetproject.org/download.html</a></p>
       <p>
 	If you have any difficulty getting Freenet to work, or any
 	questions not answered in the <a href="/faq.html">faq</a>, please
