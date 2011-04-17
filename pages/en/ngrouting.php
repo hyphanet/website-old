@@ -50,7 +50,7 @@ node has better knowledge.  The dark strips indicate areas in which
 the node has detailed knowledge about where requests for those keys
 should be routed:
 <p>
-<center><img src="image/rthist.png" width="480" height="100"></center>
+<center><img src="/image/rthist.png" width="480" height="100"></center>
 <p>
 Note that when the node was first initialized keys would have been evenly
 distributed across the keyspace.  This is a good
@@ -60,7 +60,7 @@ when a node successfully responds to a request for a given key - it increases
 the likelihood that other nodes will route requests for similar keys in the
 future.  Over time this effect causes the specialization that can be seen
 very clearly in the diagram above.  You can see an animation of a node's datastore specializing over time
-<a href="image/histanim.mpeg">here</a>.
+<a href="/image/histanim.mpeg">here</a>.
 
 <H3>Next generation routing mechanism</H3>
 <P>The fact that it works, of course, does not mean that it cannot be
@@ -120,7 +120,7 @@ evenly distributed across the keyspace.  When we have a new routing
 time sample for a particular key &ndash; we move the two points
 closest to our new sample toward it.  The amount they are moved can
 be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.
-<P><center><IMG SRC="image/rte_diag.gif" NAME="Graphic1" WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
+<P><center><IMG SRC="/image/rte_diag.gif" NAME="Graphic1" WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
 </center>
 <P>In this diagram it can be seen that two of the reference points
 (blue) are being moved toward our new data sample (red).

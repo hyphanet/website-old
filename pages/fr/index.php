@@ -1,23 +1,23 @@
 <!--
   jQuery library
 -->
-<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.3.min.js"></script>
 
 <!--
   jCarousel library
 -->
-<script type="text/javascript" src="js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
 <!--
   jCarousel core stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="js/jcarousel/lib/jquery.jcarousel.css" />
+<link rel="stylesheet" type="text/css" href="/js/jcarousel/lib/jquery.jcarousel.css" />
 <!--
   jCarousel skin stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="js/jcarousel/skins/tango/skin.css" />
+<link rel="stylesheet" type="text/css" href="/js/jcarousel/skins/tango/skin.css" />
 
-<script type="text/javascript" src="js/jcarousel/lib/thickbox/thickbox.js"></script>
-<link rel="stylesheet" href="js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/js/jcarousel/lib/thickbox/thickbox.js"></script>
+<link rel="stylesheet" href="/js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
 
 <script type="text/javascript">
 <!--

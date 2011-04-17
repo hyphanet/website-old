@@ -62,7 +62,7 @@
 	mode once they have at least 10 Friends.
       </p>
       
-      <img src="image/Freenet-architecture-small.png"/>
+      <img src="/image/Freenet-architecture-small.png"/>
 
       <p><span style="font-size:75%;font-style:italic;">Figure 1: Visible
       Freenet connections</span></p>
@@ -98,7 +98,7 @@
 	link. Below is the thing that makes it all happen:
       </p>
       
-      <img src="image/add_peers.png"/>
+      <img src="/image/add_peers.png"/>
       
       <p>As you can see, there are three ways of getting a node reference from someone else:</p>
       
@@ -166,7 +166,7 @@
 	Darknet-page. It should look something like this:
       </p>
 
-      <img src="image/Freenet-darknet_peers.png"/>
+      <img src="/image/Freenet-darknet_peers.png"/>
 
       <p>There are a number of status messages that can be seen here:</p>
 
