@@ -34,7 +34,7 @@
 	A progress bar should flicker by and after a short
 	startup, the main window should appear.
       </p>
-      <img src="../image/thaw/main-window.png" />
+      <img src="/image/thaw/main-window.png" />
 
       <h3>Downloading files</h3>
 
@@ -43,7 +43,7 @@
 	<span style="font-weight: bold;">Downloads</span>-button
 	mid-page. Then a window like below will appear:
       </p>
-      <img src="../image/thaw/download-keys.png" />
+      <img src="/image/thaw/download-keys.png" />
       <p>
 	One then has to paste freenet keys like the one above,
 	into the main pane of the window. It is also necessary

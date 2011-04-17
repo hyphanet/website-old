@@ -27,10 +27,10 @@
 
       <p>If you want to install the Freenet software on a computer
       which lacks a GUI, see
-      the <a href="../download.html#unix">Headless install</a>
+      the <a href="download.html#unix">Headless install</a>
       instructions. If you have mirrored a working Freenet
       installation to a machine without explicitly installing it,
-      see <a href="../download.html#mirrored">Mirrored
+      see <a href="download.html#mirrored">Mirrored
       install</a>. Otherwise, continue reading.
       </p>
 
@@ -74,7 +74,7 @@
 	program.
       </p>
 
-      <img src="../image/install/1-langselect.png"/>
+      <img src="/image/install/1-langselect.png"/>
 
       <p>
 	Next is shown an about-box, some information about the version
@@ -82,7 +82,7 @@
 	click <span style="font-weight:bold;"> Next</span> to proceed.
       </p>
 
-      <img src="../image/install/2-about.png"/>
+      <img src="/image/install/2-about.png"/>
       
       <p>
 	The next step is to choose the directory in which to install
@@ -94,7 +94,7 @@
 	when you are finished.
       </p>
 
-      <img src="../image/install/4-Install_directory.png"/>
+      <img src="/image/install/4-Install_directory.png"/>
 
       <p>
 	Select the packages that you want to install with your Freenet
@@ -103,7 +103,7 @@
 	press <span style="font-weight:bold;">Next</span>.
       </p>
 
-      <img src="../image/install/5-select_packages.png"/>
+      <img src="/image/install/5-select_packages.png"/>
 
       <p>
 	In the next stage, the packages are installed, and a progress
@@ -112,7 +112,7 @@
 	to the next step.
       </p>
 
-      <img src="../image/install/6-Install_packages.png"/>
+      <img src="/image/install/6-Install_packages.png"/>
 
       <p>
 	After that, the Freenet software is installed and/or
@@ -121,7 +121,7 @@
 	press <span style="font-weight:bold;">Next</span> to proceed.
       </p>
 
-      <img src="../image/install/7-install_progress.png"/>
+      <img src="/image/install/7-install_progress.png"/>
 
       <p>
 	For some graphical environments, shortcuts in the menu-structure
@@ -132,7 +132,7 @@
 	press <span style="font-weight:bold;">Next</span> when finished.
       </p>
 
-      <img src="../image/install/8-create_shortcuts.png"/>
+      <img src="/image/install/8-create_shortcuts.png"/>
 
       <p>
 	After that, the installation is
@@ -140,7 +140,7 @@
 	the window.
       </p>
 
-      <img src="../image/install/9-Install_finished.png"/>
+      <img src="/image/install/9-Install_finished.png"/>
 
       <p>
 	If all has gone well, a browser window should have opened in the

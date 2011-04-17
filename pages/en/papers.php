@@ -2,13 +2,13 @@
 	<h1>Papers</h1>
 	
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-0.7.5-paper.pdf">The Dark Freenet</a> (PDF)<br/>
 	  Detailed paper about the Freenet 0.7.5 network, as opposed to its routing algorithm, which is detailed in the
 	  below papers. Includes some new simulations. This has been submitted to PET 2010.
 	</p>
 
-	  <img style="margin-right: 16px;" src="../image/video.icon.png" />
+	  <img style="margin-right: 16px;" src="/image/video.icon.png" />
 	<p>
 
 	  <a href="/22c3vid.html">Video of Small World talk, Berlin, December 2005</a><br/>
@@ -22,7 +22,7 @@
 	</p>
 	
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
 	  Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
 	  networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
@@ -30,13 +30,13 @@
 	</p>
 	
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
 	  A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
 	  by Freenet 0.7.
 	</p>
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 	  (slideshow)<br/>
 	  This is a <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
@@ -46,12 +46,12 @@
 	</p>
 
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
 	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 	</p>
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://grothoff.org/christian/pitchblack.pdf">Routing in the Dark: Pitch Black</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.1543">citeseer</a>) (PDF)<br/>
 	  A paper describing some attacks on Freenet 0.7's location swapping algorithm.
 	</p>
@@ -63,7 +63,7 @@
 	  was eventually dropped in favour of a much simpler approach in Freenet 0.7.
 	</p>
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-ieee.pdf">Protecting Freedom of Information 
 	    Online with Freenet</a> (PDF)<br/>
 	  An IEEE Internet Computing article describing the Freenet architecture 
@@ -71,7 +71,7 @@
 	  Freenet.
 	</p>
 	<p>
-	  <img src="../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/ddisrs.pdf">FreeNet White Paper</a> (PDF)<br/>
 	  Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 	</p>

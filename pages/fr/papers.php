@@ -3,7 +3,7 @@
 	<p>
 	  <b>Toutes les publications mentionnées ci-dessous sont en anglais.</b>
 	</p>
-	<img style="margin-right: 16px;" src="../../image/video.icon.png" />
+	<img style="margin-right: 16px;" src="/image/video.icon.png" />
 	<p>
 	  <a href="/22c3vid.html">Video de la conférence sur le Small World, Berlin, Decembre 2005</a><br/>
 	  Une vidéo de la conférence donnée par Ian Clarke et Oskar Sandberg
@@ -15,7 +15,7 @@
 	</p>
 	
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
 	  La thèse d'Oskar Sandberg décrivant un mécanisme simple et décentralisé pour construire des réseaux de type
 	  small world inspirée par l'architecture originale de Freenet. La partie II de la thèse décrie les bases de la 
@@ -23,13 +23,13 @@
 	</p>
 	
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
 	  Une publication d'Oskar Sandberg qui décrit les bases théoriques pour le nouveau mécanisme de routage "Darknet"
 	  utilisé par Freenet 0.7.
 	</p>
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 	  (slideshow)<br/>
 	  C'est un <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a> d'une conférence donnée
@@ -39,7 +39,7 @@
 	</p>
 
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
 	  Une thèse par Vilhelm Verendel qui explore des façons d'optimiser l'algorithme de swapping.
 	</p>
@@ -60,7 +60,7 @@
 	</p>
 
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-ieee.pdf">Protecting Freedom of Information 
 	    Online with Freenet</a><br/>
 	  Un article de l'IEEE Internet Computing décrivant l'architecture de Freenet
@@ -68,7 +68,7 @@
 	  Freenet.
 	</p>
 	<p>
-	  <img src="../../image/pdf.icon.jpg"/>
+	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/ddisrs.pdf">FreeNet White Paper</a><br/>
 	  La publication originale de Ian Clarke, Division of Informatics, University of Edinburgh 1999.
 	</p>

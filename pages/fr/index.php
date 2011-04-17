@@ -51,17 +51,17 @@ $(document).ready(function() {
 
       <div id="screenshots_container">
 	<div id="screenshot_nojs">
-	     <a href="../image/fN_screenshot.png"><img src="../image/fN_screenshot_small.png"
+	     <a href="/image/fN_screenshot.png"><img src="/image/fN_screenshot_small.png"
 	     alt="freenet screenshot" width="383" height="309" /></a>
 	     <p style="text-align: center;"><a href="screenshots.html">More Freenet screenshots</a></p>
 	</div>
 	<div id="screenshot_js" style="display: none;">
            <ul id="mycarousel" class="jcarousel-skin-tango">
-             <li><a href="../image/fN_screenshot.png" class="thickbox"><img src="../image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
-             <li><a href="../image/fN_screenshot_minimalist.png" class="thickbox"><img src="../image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
-             <li><a href="../image/fN_screenshot_downloads.png" class="thickbox"><img src="../image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
-             <li><a href="../image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="../image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
-             <li><a href="../image/fN_screenshot_searched.png" class="thickbox"><img src="../image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
+             <li><a href="/image/fN_screenshot.png" class="thickbox"><img src="/image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
+             <li><a href="/image/fN_screenshot_minimalist.png" class="thickbox"><img src="/image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
+             <li><a href="/image/fN_screenshot_downloads.png" class="thickbox"><img src="/image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
+             <li><a href="/image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="/image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
+             <li><a href="/image/fN_screenshot_searched.png" class="thickbox"><img src="/image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
            </ul>
 	</div>
       </div>

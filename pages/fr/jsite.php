@@ -31,7 +31,7 @@
       <p>
 	The first window you see is this:
       </p>
-      <img src="../image/jsite/select-project.png" width="100%"/>
+      <img src="/image/jsite/select-project.png" width="100%"/>
       <p>
 	In the pane to the left, already created projects can
 	be selected for updating, deleting or cloning. Since
@@ -77,7 +77,7 @@
       <p>
 	Below is an example of how it might look:
       </p>
-      <img src="../image/jsite/project-details.png" width="100%"/>
+      <img src="/image/jsite/project-details.png" width="100%"/>
       <p>When everything is filled in correctly, you may
 	press <span style="font-weight: bold;">Next</span>.
       </p>
@@ -87,14 +87,14 @@
 	<span style="font-weight: bold;">Project Files</span>. 
 	Since we have no files in the current directory, yet,
 	the dialog is pretty much empty.</p>
-      <img src="../image/jsite/project-files.png" />
+      <img src="/image/jsite/project-files.png" />
       <p>
 	To add files, we put some files in the local directory
 	we specified earlier, <span style="font-weight: bold;">
 	  /home/test</span>, and press <span style="font-weight: bold;">
 	  Re-scan</span>. Then, presto, the files appear.
       </p>
-      <img src="../image/jsite/default-file.png" />
+      <img src="/image/jsite/default-file.png" />
       <p>
 	We then highlight one of these files that will be 
 	the default page (e.g. index.html might be a good 
@@ -110,7 +110,7 @@
 	appear. It may take quite a while to insert the Freesite,
 	several minutes in fact.
       </p>
-      <img src="../image/jsite/project-insert.png" width="100%"/>
+      <img src="/image/jsite/project-insert.png" width="100%"/>
       <p>
 	When all is finished, you will get a message pop-up that
 	tells you that the site has been inserted successfully.
