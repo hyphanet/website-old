@@ -16,14 +16,14 @@
 	  Sandberg at the Chaos Computer Congress in Berlin, December
 	  2005, describing the (then) new architecture for Freenet
 	  0.7.  You can also download
-	  the <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>,
-	  and the source for the Java <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
+	  the <a href="/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>,
+	  and the source for the Java <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
 	  (requires Java 1.5).
 	</p>
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
+	  <a href="/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
 	  Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
 	  networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
 	  the new Darknet architecture.
@@ -31,7 +31,7 @@
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
+	  <a href="/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
 	  A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
 	  by Freenet 0.7.
 	</p>
@@ -39,15 +39,15 @@
 	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 	  (slideshow)<br/>
-	  This is a <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
+	  This is a <a href="/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
 	  at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
 	  Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
-	  demonstration to accompany the talk is <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
+	  demonstration to accompany the talk is <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
 	</p>
 
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
+	  <a href="/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
 	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
 	</p>
 	<p>

@@ -9,14 +9,14 @@
 	  Une vidéo de la conférence donnée par Ian Clarke et Oskar Sandberg
 	  au Chaos Computer Congress à Berlin, en décembre 2005, décrivant la nouvelle
 	  (à l'époque) architecture de Freenet 0.7. Vous pouvez aussi télécharger le
-	  <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a>,
-	  ainsi que les sources pour la <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">demo Java</a> 
+	  <a href="/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a>,
+	  ainsi que les sources pour la <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">demo Java</a> 
 	  (Java 1.5 requis).
 	</p>
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
+	  <a href="/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
 	  La thèse d'Oskar Sandberg décrivant un mécanisme simple et décentralisé pour construire des réseaux de type
 	  small world inspirée par l'architecture originale de Freenet. La partie II de la thèse décrie les bases de la 
 	  nouvelle architecture Darknet. 
@@ -24,7 +24,7 @@
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
+	  <a href="/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
 	  Une publication d'Oskar Sandberg qui décrit les bases théoriques pour le nouveau mécanisme de routage "Darknet"
 	  utilisé par Freenet 0.7.
 	</p>
@@ -32,15 +32,15 @@
 	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
 	  (slideshow)<br/>
-	  C'est un <a href="http://freenetproject.org/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a> d'une conférence donnée
+	  C'est un <a href="/papers/ccc/ccc-slideshow.pdf.bz2">diaporama</a> d'une conférence donnée
 	  au Chaos Computer Congress le 30 décembre 2005 à Berlin, Allemagne, par Ian Clarke et Oskar Sandberg.
 	  Y est décrit la nouvelle approche "Darknet" utilisée dans Freenet 0.7. Une démonstation en Java accompagnant
-	  la conférence est <a href="http://freenetproject.org/papers/ccc/ccc-freenet-demo.tar.bz2">églameent</a> disponible.
+	  la conférence est <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">églameent</a> disponible.
 	</p>
 
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://freenetproject.org/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
+	  <a href="/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
 	  Une thèse par Vilhelm Verendel qui explore des façons d'optimiser l'algorithme de swapping.
 	</p>
 
