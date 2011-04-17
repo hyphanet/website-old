@@ -29,7 +29,7 @@
 	  the following month although so-far we have been fortunate.  You
 	  can become a member by clicking on this button (you will need a
 	  
-	  <a href="http://paypal.com/">PayPal</a> account):
+	  <a href="https://www.paypal.com/">PayPal</a> account):
 	  <center>
 	    <table>
 	      <tr>
@@ -38,8 +38,8 @@
 		    <input type="hidden" name="cmd" value="_xclick-subscriptions"/>
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Project Membership"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
 		    <input type="hidden" name="no_note" value="1"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
@@ -94,8 +94,8 @@
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Donation"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
 		    <td>
 		      <select name="amount">
@@ -108,9 +108,7 @@
 		      </select>
 		    </td>
 		    <td>
-		      <input type="image" 
-			     src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-			     name="submit"/>
+		      <input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
@@ -122,16 +120,14 @@
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Donation"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
 		    <td>
 		      <input type="text" name="amount"/>
 		    </td>
 		    <td>
-		      <input type="image" 
-			     src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-			     name="submit"/>
+		      <input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
