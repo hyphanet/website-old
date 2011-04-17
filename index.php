@@ -13,7 +13,7 @@ include 'includes/common.inc.php';
 	<meta name="language"    content="<?php echo $lang?>">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="<?php if($lang != "en") echo "../"?>/style.css" rel="stylesheet" type="text/css">
+	<link href="/style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		function hideDiv( whichDivId )
 		{
@@ -40,8 +40,8 @@ include 'includes/common.inc.php';
 			vis.display = 'inline';
 		}
 	</script>
-	<script type="text/javascript" src="<?php if($lang != "en") echo "../"?>/PluginDetect.js"></script>
-	<!--[if lt IE 7]><script defer type="text/javascript" src="<?php if($lang != "en") echo "../"?>js/fixpng.js"></script><![endif]-->
+	<script type="text/javascript" src="/PluginDetect.js"></script>
+	<!--[if lt IE 7]><script defer type="text/javascript" src="/js/fixpng.js"></script><![endif]-->
 </head>
 
 <body>
@@ -99,20 +99,31 @@ include 'includes/common.inc.php';
       </div>
     </div>
 	<div class="hideit">Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)</div>
+<!-- Google Analytics Code Start -->
+	<script type="text/javascript">
 
-	<script type="text/javascript">
-	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-354970-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
 	</script>
-	<script type="text/javascript">
-	var pageTracker = _gat._getTracker("UA-354970-1");
-	pageTracker._trackPageview();
-	</script>
+<!-- Google Analytics Code End -->
 <!-- Woopra Code Start -->
-<script type="text/javascript">
-var _wh = ((document.location.protocol=='https:') ? "https://sec1.woopra.com" : "http://static.woopra.com");
-document.write(unescape("%3Cscript src='" + _wh + "/js/woopra.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
+	<script type="text/javascript">
+	(function(){
+	 var wsc=document.createElement('script');
+	 wsc.src=document.location.protocol+'//static.woopra.com/js/woopra.js';
+	 wsc.async=true;
+	 var ssc = document.getElementsByTagName('script')[0];
+	 ssc.parentNode.insertBefore(wsc, ssc);
+	 })();
+	</script>
 <!-- Woopra Code End -->
 <!-- Uservoice feedback tab -->
 <script type="text/javascript">
