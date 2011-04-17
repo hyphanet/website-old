@@ -173,7 +173,7 @@
 	    L'association a également pour but d'éduquer la communauté mondiale sur ces buts
 	    et de s'en faire l'avocat.
 	    </blockquote>
-	  (ceci est une traduction (elle peut donc comporter des erreurs) du texte suivant :)
+	  (ceci est une traduction (elle peut donc comporter des erreurs) du texte suivant :
 	    <blockquote>
 	      The specific purpose of this corporation is to assist in developing and 
 	      disseminating technological solutions to further the open and democratic 
