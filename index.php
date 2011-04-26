@@ -15,29 +15,25 @@ include 'includes/common.inc.php';
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
 	<link href="/style.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
-		function hideDiv( whichDivId )
+		function getStyleByElementByID(whichDivId)
 		{
-			var elem, vis;
+			var elem;
 			if( document.getElementById ) // this is the way the standards work
 				elem = document.getElementById( whichDivId );
 			else if( document.all ) // this is the way old msie versions work
 				elem = document.all[whichDivId];
 			else if( document.layers ) // this is the way nn4 works
 				elem = document.layers[whichDivId];
-			vis = elem.style;
-			vis.display = 'none';
+			return elem.style;
+		}
+
+		function hideDiv( whichDivId )
+		{
+			getStyleByElementByID(whichDivId).display = 'none';
 		}
 		function showDiv( whichDivId )
 		{
-			var elem, vis;
-			if( document.getElementById ) // this is the way the standards work
-				elem = document.getElementById( whichDivId );
-			else if( document.all ) // this is the way old msie versions work
-				elem = document.all[whichDivId];
-			else if( document.layers ) // this is the way nn4 works
-				elem = document.layers[whichDivId];
-			vis = elem.style;
-			vis.display = 'inline';
+			getStyleByElementByID(whichDivId).display = 'inline';
 		}
 		function addEvent(obj, evType, fn){ 
 			if (obj.addEventListener){ 
