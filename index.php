@@ -80,10 +80,9 @@ include 'includes/common.inc.php';
 	<div id="logo" class="sprites">
 	  <a href="index.html"></a>
 	</div>
+<!--
 	<div id="lang">
 	  <p> 
-	    <!--<a class="drapeau" href="it/index.html">it</a>
-	    <a class="drapeau" href="es/index.html">es</a>-->
 	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="fr/index.html">fr</a> 
 	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="/index.html">en</a>
 
@@ -98,6 +97,7 @@ include 'includes/common.inc.php';
 	  ?>
 	  </p>
 	</div>
+-->
       </div>
     </div>
 
