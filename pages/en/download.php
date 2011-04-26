@@ -20,26 +20,6 @@
 	you add 10+ friends who are usually online when you are.
       </p>
 
-      <!--      
-      <div id="jws">
-	<h2>Installation Instructions</h2>
-	<p>
-	  Clicking the 
-	  <big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install
-		Freenet</a></big></big>
-	  link should start the installer up, assuming you
-	  have <a href="http://www.java.com/getjava/">Java</a>
-	  installed. If it doesn't work for some reason, you can try the
-	  platform specific instructions
-	  (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    instructions</a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX
-	    instructions</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
-	    and Unix-like instructions</a>). 
-	</p>
-      </div>
-      -->  
-      
       <div id="nojws">
 	
 	<h2>Installation Instructions</h2>
@@ -58,7 +38,7 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
+	  run <big><a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
 	      installer</a> (8MB)</big><br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
@@ -123,14 +103,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternatively,
-	  downloading <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">the
+	  downloading <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">the
 	    installer</a>
-	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">gpg
+	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">gpg
 	    signature</a>) and then clicking on the file may work on
 	  some systems, but if there are problems we recommend the
 	  above command lines.
@@ -143,7 +123,7 @@
 	</p>
 	
 	<pre>
-	  wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
+	  wget <a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 	  tar xvzf freenet07.tar.gz
 	  cd freenet
 	  ./run.sh start</pre>
@@ -331,6 +311,6 @@
 	  <b>Source Code:</b>
 	  See <a href="developer.html">the developer page</a> 
 	  for git access, or download the lastest stable
-	  tarball <a href="http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a>.
+	  tarball <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a>.
 	</small>
       </p>

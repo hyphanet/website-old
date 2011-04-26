@@ -20,7 +20,7 @@
 	Freenet sites. It was written in Java by Bombe. 
       </p>
       <p>
-	You can <a href="http://downloads.freenetproject.org/alpha/jSite/jSite.jar">download jSite here</a>
+	You can <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">download jSite here</a>
       </p>
       <h3>Starting jSite</h3>
       <p>
