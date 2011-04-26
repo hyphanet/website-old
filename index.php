@@ -39,6 +39,39 @@ include 'includes/common.inc.php';
 			vis = elem.style;
 			vis.display = 'inline';
 		}
+		function addEvent(obj, evType, fn){ 
+			if (obj.addEventListener){ 
+				obj.addEventListener(evType, fn, true); 
+				return true; 
+			} else if (obj.attachEvent){ 
+				var r = obj.attachEvent("on"+evType, fn); 
+				return r; 
+			} else { 
+				return false; 
+			} 
+		}
+
+		function switchToHTTP()
+		{
+			// If the user uses HTTPS, leave it as it is
+			if(location.protocol.toLowerCase() =='https:') return;
+
+			// Get all the links on the page
+			var aNodeList = document.getElementsByTagName("a");
+			for( var i = 0; i < aNodeList.length; i++ ) 
+			{ 
+				var link = aNodeList[i];
+				// If the links belong to the class maybeSwitchProtocol, transform them to http
+				if(link.className == 'maybeSwitchProtocol')
+				{
+					link.href = link.href.replace('https:','http:');
+					link.innerHTML = link.innerHTML.replace('https:','http:');
+				}
+			} 
+
+		}
+
+		addEvent(window, 'load', switchToHTTP);
 	</script>
 	<script type="text/javascript" src="/PluginDetect.js"></script>
 	<!--[if lt IE 7]><script defer type="text/javascript" src="/js/fixpng.js"></script><![endif]-->
