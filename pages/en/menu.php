@@ -26,7 +26,7 @@
 	    <ul>
 	      <li><a href="donate.html">Donate</a></li>
 	      <li><a href="sponsors.html">Sponsors</a></li>
-	      <li class="last"><a href="http://www.cafepress.com/freenetproject">Store</a></li>
+	      <li class="last"><a href="http://www.zazzle.com/freenetproject*">Store</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="developer.html">Contribute</a>
