@@ -113,9 +113,6 @@ $(document).ready(function() {
 	<h4>Latest news</h4>
 	<p>
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
-	  (24th September 2010) <a href="news.html#big-donation-september-2010">Another big donation, and brief status update</a><br/>
-	  (17th March 2010) <a href="news.html#build-1243-opennet-changes">Bootstrapping new nodes onto the network should be faster</a><br/>
-	  (9th March 2010) <a href="news.html#new-paper-march-2010">New paper about Freenet 0.7.5+</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
