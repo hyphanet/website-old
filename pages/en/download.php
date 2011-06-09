@@ -304,6 +304,6 @@
 	  <b>Source Code:</b>
 	  See <a href="developer.html">the developer page</a> 
 	  for git access, or download the lastest stable
-	  tarball <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a>.
+	  tarball <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a> (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">signature</a>).
 	</small>
       </p>
