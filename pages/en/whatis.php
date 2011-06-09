@@ -42,8 +42,7 @@
 	and concepts pioneered in Freenet have had a significant impact in the
 	academic world.  Our 2000 paper "Freenet: A Distributed Anonymous
 	Information Storage and Retrieval System" was the most cited computer
-	science paper of 2000 according to <a
-					      href="http://citeseer.nj.nec.com/articles2000.html">Citeseer</a>, and
+	science paper of 2000 according to Citeseer, and
 	Freenet has also inspired papers in the worlds of law and philosophy. 
 	Ian Clarke, Freenet's creator and project coordinator, was selected as
 	one of the top 100 innovators of 2003 by MIT's Technology Review
