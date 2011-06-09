@@ -60,7 +60,7 @@
 	
 	<p>
 	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br/>
-	  If this doesn't work, try the linux instructions.
+	  If this doesn't work, try <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">the instructions for Linux</a>.
 	</p>
 	
       </div>
