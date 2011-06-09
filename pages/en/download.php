@@ -88,11 +88,10 @@
 	  from <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	  Java version 1.5 and later will work. However, be aware that
-	  there are applet security vulnerabilities in all versions
-	  prior to Java 1.5 update 4. Generally, we recommend using
-	  latest. Also, you will need wget for the below commands to
-	  work (on Ubuntu, apt-get install wget).
+	  You need Java version 1.6. You should keep it up to date to
+	  avoid problems and for best performance. Also, you might need
+	  wget for the commands below to work (on Ubuntu, do
+	  "apt-get install wget" on a console).
 	</p>
 
 	<p>
