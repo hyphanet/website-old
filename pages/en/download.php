@@ -115,7 +115,7 @@
 	  above command lines.
 	</p>
 	
-	<h3>Headless install</h3>
+	<h3>Headless install (not recommended)</h3>
 	
 	<p>
 	  Or do the following on a headless system:
