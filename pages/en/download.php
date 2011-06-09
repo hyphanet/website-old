@@ -49,13 +49,7 @@
 	  it's Free Software! The source code is publicly available
 	  for review) <br/> 
 	  <br/>
-	  Freenet works best with Windows XP Professional or Vista. 
-	  Some problems have been reported with the installer on Windows 7,
-	  this will be fixed soon.
-	  Freenet will not run on anything older than Windows 2000
-	  Professional (i.e. 95/98/ME), and in any case you should not
-	  run an operating system for which security support has been
-	  discontinued.<br/>
+	  Freenet requires Windows XP or later.<br/>
 	</p>
 	
       </div>
