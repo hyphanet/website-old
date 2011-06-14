@@ -21,7 +21,7 @@
       You have several options:
       <ul>
 	<li>You can become a Freenet project "member" for
-	  a <b>recurring payment</b> of $5, $10, or $20 per month.  The advantage of this is that 
+	  a <b>recurring payment</b> of $5 or more per month.  The advantage of this is that 
 	  it gives the
 	  project a more stable and dependable income which makes it easier
 	  to make long term committments to potential developers - right now
@@ -45,7 +45,7 @@
 		    <input type="hidden" name="currency_code" value="USD"/>
 		    Amount:
 		    <p>
-		      <span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"/></span>&nbsp; <span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="checked" value="10.00"/></span>&nbsp; <span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"/></span>&nbsp;
+		      $50 <input type="radio" name="a3" value="50.00"/></span><span style="{border:1px solid black}">&nbsp;$20 <input type="radio" name="a3" value="20.00"/></span>&nbsp; <span style="{border:1px solid black}">&nbsp;$10 <input type="radio" name="a3" checked="checked" value="10.00"/></span>&nbsp; <span style="{border:1px solid black}">&nbsp;$5 <input type="radio" name="a3" value="5.00"/></span>&nbsp;
 		    </p>
 		    <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
 		    <input type="hidden" name="p3" value="1"/>
@@ -57,7 +57,26 @@
 	      </tr>
 	    </table>
 	  </center>
-	  <hr width="90%"/>
+		  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	  <p>Or set your own amount:
+		    <input type="hidden" name="cmd" value="_xclick-subscriptions"/>
+		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
+		    <input type="hidden" name="item_name" value="Freenet Project Membership"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="no_shipping" value="1"/>
+		    <input type="hidden" name="no_note" value="1"/>
+		    <input type="hidden" name="currency_code" value="USD"/>
+		    <!-- We need javascript to disable the submission button until a value is set. For now just set a default. -->
+		    <input type="text" name="a3" value="10.00"/>
+		    <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
+		    <input type="hidden" name="p3" value="1"/>
+		    <input type="hidden" name="t3" value="M"/>
+		    <input type="hidden" name="src" value="1"/>
+		    <input type="hidden" name="sra" value="1"/>
+		    </p>
+		  </form>
+		  	  <hr width="90%"/>
 	<li>You can <b>donate once</b> through Google Checkout:<br/>
 	  <center>
 	    <form action="https://checkout.google.com/cws/v2/Merchant/828420057535417/checkout" id="BB_BuyButtonForm930897499" method="post" name="BB_BuyButtonForm930897499">
