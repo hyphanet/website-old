@@ -29,7 +29,7 @@
 	      <li class="last"><a href="http://www.zazzle.com/freenetproject*">Store</a></li>
 	    </ul>
 	  </li>
-	  <li class="dir"><a href="developer.html">Contribute</a>
+	  <li class="dir"><a href="developer.html">Get involved</a>
 	    <ul>
 	      <li><a href="developer.html">Source code</a></li>
 	      <li><a href="http://wiki.freenetproject.org/TranslatingFreenet">Translation</a></li>
