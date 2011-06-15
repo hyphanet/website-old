@@ -109,7 +109,7 @@
 	  above command lines.
 	</p>
 	
-	<p><b>Headless servers (geeks only!):</b> The standard installer won't work on a headless (console-only) system unless you install the X libraries and ssh -X into it. We <i>strongly</i> recommend you do this. Or you can use the deprecated and unreliable <a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">headless installer</a>. To make this work, you must first install the latest Sun Java, make sure it is on the path (update-java-alternatives on Ubuntu), and make sure you have wget or curl installed. Also you should increase the memory limit in wrapper.conf after install. Then open http://127.0.0.1:8888/ in a web browser (see <a href="faq.html#fproxy-lan">here</a> for how to open it to your LAN).</p>
+	<p><b>Headless servers:</b> The standard installer won't work on a headless (console-only) system unless you install the X libraries and ssh -X into it. We <i>strongly</i> recommend you do this. Or you can use the deprecated and unreliable <a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">headless installer</a>. To make this work, you must first install the latest Sun Java, make sure it is on the path (update-java-alternatives on Ubuntu), and make sure you have wget or curl installed. Also you should increase the memory limit in wrapper.conf after install. Then open http://127.0.0.1:8888/ in a web browser (see <a href="faq.html#fproxy-lan">here</a> for how to open it to your LAN).</p>
 
 	<div id="mirrored">
 	  
