@@ -441,9 +441,8 @@
       <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br/>
 
 	Have a look at <a href="http://new-wiki.freenetproject.org/">our wiki</a>.
-	An older wiki which is now read-only (the others can be edited), but has a fair amount of content so is
+	An older wiki, which is now read-only, but has a fair amount of content so is
 	sometimes helpful is <a href="http://wiki.freenetproject.org/">here</a>. 
-	A last resort is the <a href="http://www.freenethelp.org">Freenet Help Wiki</a>.
 	There are also several implementations of wiki's over Freenet. The most recent
 	one is called Jfniki. There is a link in the default bookmarks on the Browse 
 	Freenet page after you install Freenet.
