@@ -621,7 +621,7 @@
 	</ul>
       
       <p>More information on the current practical state of Freenet security is available
-	<a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
+	<a href="http://new-wiki.freenetproject.org/Security_summary">here</a>.
       </p>
       
       <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br/>
