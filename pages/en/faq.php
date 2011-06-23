@@ -461,6 +461,9 @@
 	browser between Freenet and the WWW at large: malicious web pages will be able to
 	probe which freesites you have visited, and report this information to their owners.
       </p>
+      <p>With recent browsers, privacy/incognito mode may be sufficient, and the rabbit
+    applet on the system tray on Windows will try to start a browser running in this 
+    mode. However, this is not 100% reliable in our experience, so be careful.</p>
       <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
       <p><b>Short answer:</b> Probably yes.</p>
       <p><b>Long answer:</b></p>
