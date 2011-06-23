@@ -430,21 +430,27 @@
       
       <p><b id="access">How can I access the code and website?</b><br/>
 
-	We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="http://freenet.googlecode.com/svn/trunk/">Freenet's subversion repository</a>.
+	See the <a href="/developer.html">developer page</a> for details of our git repositories etc.
       </p>
       <p><b id="devtools">What tools do I need to help develop?</b><br/>
-	To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.5 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
-	(This is not necessary if you only want to download, compile, and run
-	the server without contributing to its code). Further instructions for building and deploying the server are included with the code itself.
+	To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.6 or later. You can download the source tarballs
+	on the download page for a specific build, or use git to get an up to date copy of the source, see <a href="/developer.html">here</a> for details.
+	Further instructions for building and deploying the server are included with the code itself.
 	Generally speaking, joining our IRC channel is a good idea: <a href="irc://irc.freenode.net/freenet">#freenet on irc.freenode.net</a></p>
 
       <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br/>
 
-	You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
+	Have a look at <a href="http://new-wiki.freenetproject.org/">our wiki</a>.
+	An older wiki which is now read-only (the others can be edited), but has a fair amount of content so is
+	sometimes helpful is <a href="http://wiki.freenetproject.org/">here</a>. 
+	A last resort is the <a href="http://www.freenethelp.org">Freenet Help Wiki</a>.
+	There are also several implementations of wiki's over Freenet. The most recent
+	one is called Jfniki. There is a link in the default bookmarks on the Browse 
+	Freenet page after you install Freenet.
       </p>
       
       <p><b id="bugs">Where can I report bugs?</b><br/>
-	You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">development mailing list</a>.</p>
+	You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">support mailing list</a>.</p>
 
       <h2> Security answers</h2>
       <p><b id="browser">Can I use my regular browser to browse Freenet?</b><br/>
