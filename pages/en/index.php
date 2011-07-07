@@ -38,11 +38,11 @@ $(document).ready(function() {
       </div>
       <div class="whatis">
 	<p>
-	  Freenet is free software which lets you <strong>anonymously</strong> <strong>share</strong> files, browse 
+	  Freenet lets you <strong>anonymously</strong> <strong>share</strong> files, browse 
 	  and <strong>publish</strong> <abbr title="web sites accessible only through Freenet">freesites</abbr> and <strong>chat</strong> 
-	  on forums, without fear of censorship. Freenet is <strong>decentralised</strong> to make it 
+	  on forums, without fear of censorship. Freenet is a peer to peer network with no central servers to make it 
 	  less vulnerable to attack, and if used in "<strong>darknet</strong>" mode, where users only 
-	  connect to their friends, is very difficult to detect.
+	  connect to their friends, is very difficult to detect or block.
 	  <br/>
 	  <a href="whatis.html">Learn more!</a>
 	</p>
