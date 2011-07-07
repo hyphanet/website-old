@@ -38,7 +38,7 @@ $(document).ready(function() {
       </div>
       <div class="whatis">
 	<p>
-	  Share files, chat on forums and browse and publish sites, anonymously and without fear of blocking or censorship! Then connect to your friends in "darknet" mode for even better security!
+	  Share files, chat on forums, browse and publish, anonymously and without fear of blocking or censorship! Then connect to your friends for even better security!
 	  <br/>
 	  <a href="whatis.html">Learn more!</a>
 	</p>
