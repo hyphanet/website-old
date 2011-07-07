@@ -38,11 +38,7 @@ $(document).ready(function() {
       </div>
       <div class="whatis">
 	<p>
-	  Freenet lets you <strong>anonymously</strong> <strong>share</strong> files, browse 
-	  and <strong>publish</strong> <abbr title="web sites accessible only through Freenet">freesites</abbr> and <strong>chat</strong> 
-	  on forums, without fear of censorship. Freenet is a peer to peer network with no central servers to make it 
-	  less vulnerable to attack, and if used in "<strong>darknet</strong>" mode, where users only 
-	  connect to their friends, is very difficult to detect or block.
+	  Share files, chat on forums and browse and publish sites, anonymously and without fear of blocking or censorship! Then connect to your friends in "darknet" mode for even better security!
 	  <br/>
 	  <a href="whatis.html">Learn more!</a>
 	</p>
