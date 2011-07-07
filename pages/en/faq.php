@@ -96,9 +96,9 @@
       <p><b id="trust">If authors are anonymous how can you trust information?</b><br/>
 	Cryptographic signing of information allows people to prove
 	authorship, this technique is frequently used to authenticate
-	authorship of emails. Moreover, you could actually sign information
-	while remaining anonymous, thus having an anonymous persona. You could
-	prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you could build up an anonymous reputation for reliability.</p>
+	authorship of emails. Moreover, you can actually sign information
+	while remaining anonymous, thus having an anonymous persona. You can
+	prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you can build up an anonymous reputation for reliability.</p>
 
       <p><b id="donate-bw">Do I have to donate disk space and bandwidth?</b><br/>
 	You aren't really donating in the sense that you lose the disk
@@ -125,10 +125,12 @@
 	Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	makes Freenet illegal in France; others have told us about the German data retention
 	law which allegedly requires anonymity systems to retain enough data to trace web
-	requests, which may or may not apply to us. Europe-wide, the
-	<a href="http://www.fsfeurope.org/projects/ipred2/ipred2.html">IPRED2</a> might have
-	wide-ranging effects, including on Freenet, should it pass... or it may not. 
-	Many of these things are arguable either way (depending on how broadly the 
+	requests, which may or may not apply to us. ACTA might have
+	wide-ranging effects, including on Freenet, should it pass, and similar laws
+	such as IPRED2 have been tried in the past. There have also been attempts to
+	force peer to peer systems to provide wiretapping capabilities in the USA. As
+	far as we know none of these things - apart from the first two - have passed. 
+	Many of these are arguable either way (depending on how broadly the 
 	legislation is applied) and will have to be decided in caselaw.
 	The law can be an ass sometimes. You can read the EFF's (US-centric) advice to peer to peer developers 
 	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
@@ -144,7 +146,7 @@
 	peer networks (but right now Freenet works fine in France and we have many French users!). 
 	Freenet 0.7 has some minimal defences against blocking; 
 	the protocol is relatively hard to identify (we will make this a lot harder in future),
-	and it supports a <a href="http://wiki.freenetproject.org/DarkNet">darknet</a> mode 
+	and it supports a <a href="http://new-wiki.freenetproject.org/DarkNet">darknet</a> mode 
 	(i.e. only connecting to your friends) which makes automated harvesting and blocking 
 	of nodes very difficult.
       </p>
@@ -179,20 +181,17 @@
       <p><b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
 	The true test of someone who claims to believe in Freedom of Speech
 	is whether they tolerate speech which they disagree with, or even find
-	disgusting. If this is not acceptable to you, you should not run a Freenet node. There is another thing you can do. Since content in Freenet
-	is available as long as its popular, you can help limit the popularity
-	of whatever information you do not like. For example, if you do not
-	want a file to spread you should not request it and tell everyone you
-	know not to request that specific key. However, keep in mind that freenet 
-	is not designed so as to only allow communication between people if a sufficient
-	number of people agree with the communication. Freenet is designed to make communication
-	possible even if there's just one publisher and one reader, and this is already reasonably
-	feasible on the current freenet.</p>
+	disgusting. If this is not acceptable to you, you should not run a Freenet node.
+	Also, content in Freenet is available only as long as it is popular, so it
+	will go away if people lose interest. However, it should persist for some
+	time, and if enough people are interested, it will persist forever.</p>
 
       <p><b id="export">How about encryption export restrictions?</b><br/>
 	The Freenet Project has notified the US authorities (since the files are hosted on SourceForge,
 	which is on US soil) that it will be exporting crypto. As long as your
-	country doesn't prohibit the use of encryption you are fine.</p>
+	country doesn't prohibit the use of encryption you are fine. Further, there
+	is now an exception in the export laws for software doing exactly what Freenet
+	does!</p>
 
 
       <p><b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
@@ -202,8 +201,8 @@
 	website without worrying about how big the site will be and without
 	having to put someone elses ad banners on it. While it is unlikely that
 	freenet sites will ever load faster than regular websites, it does adapt to
-	sudden surges of visitors (which will often occur when relatively unknown sites 
-	get linked to from a big site) better, and high download speeds for big files
+	sudden surges of visitors better (which often happen when relatively unknown sites 
+	get linked to from a big site), and reasonable download speeds for big files
 	are feasible too. Just don't expect very low latency.
       </p>
       
@@ -251,13 +250,13 @@
 	but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have one router behind another).</p>
 
       <p>If you have a dyndns address or other domain name pointing to the computer you run 
-	your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/">the config page</a>, 
+	your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/node?mode=2">the core settings config page</a> (in advanced mode), 
 	and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
 
       <p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
 	No, but it is preferred. You can run the software and test it from
-	a "transient" connection (such as provided by typical modem/ISP
-	setups), but for the network as a whole to be most useful, we will need
+	a "transient" connection (e.g. dial up/mobile modem), but for the network 
+	as a whole to be most useful, we will need
 	as many permanent nodes as possible (most cable modem or DSL setups are
 	sufficiently "permanent" for this). A later version of Freenet may take better advantage of transient nodes.</p>
 
@@ -277,8 +276,8 @@
       </code>
       <p>Note that these settings will cause mozilla to use more
 	connections for all your browsing, which may not be desirable from a
-	network congestion point of view; volunteers to make mozilla allow this
-	sort of settings to be set per host would be welcome...</p>
+	network congestion point of view. But you should ideally be using a separate
+	browser for Freenet anyway, for best security.</p>
 
       <p><b id="store-perm">Why can't Freenet store data permanently?</b><br/>
 	Because we can't find a way to do this without compromising Freenet's
@@ -326,16 +325,15 @@
 	fproxy.bindTo=127.0.0.1,192.168.1.1<br>
 	fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 	</code>
-	<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):
+	<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):</p>
 	<code>
 	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 	</code>
-	</p>
 	
 	  <p><b id="openjdk">Problems installing with OpenJDK</b><br>
 	<p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
 	have some problems with SSL which cause the installer to fail. Please install
-	the Sun JRE, at least version 5. On Ubuntu or Debian, open a root terminal and type:</p>
+	the Sun JRE, at least version 6. On Ubuntu or Debian, open a root terminal and type:</p>
 	<pre>
 	apt-get install sun-java6-bin
 	update-java-alternatives -s java-6-sun
@@ -346,8 +344,13 @@
 	to know exactly what went wrong.
       </p>
       
-      <p><b id="stabchange">How can I change from stable to unstable?</b><br/>
-	There is no unstable network anymore.
+      <p><b id="stabchange">How can I change from the main network to the test network?</b><br/>
+	The test network is a separate network which allows the developers to see exactly
+	what is going on. There is no anonymity on the test network. There is a separate installer
+	(<a href="https://checksums.freenetproject.org/latest/testnet_installer_offline.jar">for Linux, OS/X</a>,
+	<a href="https://checksums.freenetproject.org/latest/TestnetInstaller.exe">for Windows</a>).
+	This can break quite often, so you should probably have some idea what you are doing or at least 
+	be prepared to reinstall regularly!
       </p>
       
       <p><b id="freenetinigone">Freenet won't start and the launcher says it can't find freenet.ini</b><br/>
@@ -355,8 +358,8 @@
       </p>
       
       <p><b id="servicenotrespond">Freenet won't start, it says "Service did not respond to signal"</b><br/>
-    This is a known bug in the Windows installer. We are working on a permanent fix. In the meantime, try the
-    steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
+    This should be fixed now, let us know if you see it. If you have a very old install, you might be interested
+    in the steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
       </p>
       
       <p><b id="kaspersky">I have Kaspersky anti-virus, and Freenet doesn't install, or shows "Download/upload queue database corrupted!"</b><br/>
@@ -366,7 +369,7 @@
       
       <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
     On every new build, a brief summary of all the main changes is posted to the support and devl lists 
-    and the en.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
+    and the eng.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
     for a much more detailed view, check out the <a href="http://github.com/freenet/">git repositories</a>.
     Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
     <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
@@ -380,8 +383,8 @@
       <p>The most common way to do this is to send a message, containing
 	your key and brief description of your information, to the author of
 	one of the existing Freenet sites. Most of the "portal" sites which are linked from the Freenet
-	web interface (fproxy) have a submission form which lets you send them
-	messages anonymously. You could also send your key to people by using
+	web interface (fproxy) read the Freetalk or FMS forums, and there are boards
+	specifically for announcing sites (usually the boards are called "sites"!). You could also send your key to people by using
 	the Freenet <a href="/lists.html">mailing lists</a>, in the
 	IRC channel (irc.freenode.net #freenet), by private e-mail, or by advertising your Freenet
 	site on your World Wide Web site. If you're feeling extravagant, you
@@ -399,9 +402,10 @@
 	with the same name as one already present may actually serve to
 	propagate the existing document. There is also currently no means of
 	deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-      <p>However, you can use an <a href="http://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)</a>
+      <p>However, you can use an <a href="http://new-wiki.freenetproject.org/USK">Updatable Subspace Key (USK)</a>
 	to provide a form of updatable freesite: your node will automatically look for later editions of
-	the site (after you visit it, or always if you bookmark it), and show you the latest version.</p>
+	the site (after you visit it, or always if you bookmark it), and show you the latest version.
+	You can force it to search for the latest version by changing the number at the end of the key to negative.</p>
 
       <h2> Contribution answers
 
@@ -454,7 +458,7 @@
       <h2> Security answers</h2>
       <p><b id="browser">Can I use my regular browser to browse Freenet?</b><br/>
 	Freenet has a web interface: much of the content on Freenet is in the form of
-	"freesites", downloads, configuration and friend connections can be managed from 
+	"freesites", and downloads, configuration and friend connections can be managed from 
 	the web interface. However, because of weaknesses in current browsers, we 
 	<b>strongly</b> recommend that you use a separate browser for Freenet. Specifically,
 	browser history stealing, in all its forms, is a major threat if you share a 
@@ -464,8 +468,9 @@
       <p>With recent browsers, privacy/incognito mode may be sufficient, and the rabbit
     applet on the system tray on Windows will try to start a browser running in this 
     mode. However, this is not 100% reliable in our experience, so be careful.</p>
+    
       <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
-      <p><b>Short answer:</b> Probably yes.</p>
+      <p><b>Short answer:</b> Yes, on opennet. Maybe, on darknet.</p>
       <p><b>Long answer:</b></p>
       <p>Freenet has a different threat model to Tor and the Mixmaster remailers. 
 	Freenet is designed to resist
@@ -483,7 +488,7 @@
 	on a darknet, where everyone connects only to their friends, where it is very hard for
 	an attacker to find nodes, and where to connect to a given node he must social engineer
 	its operator! Freenet does support opennet mode (plug and play), but darknet is far more 
-	secure, and additionally is far more difficult to block on a national firewall.</p>
+	secure, and far more difficult to block on a national firewall.</p>
       <p>Tor on the other hand is designed to anonymise real-time data streams, on the 
 	assumption that the list of nodes can be public, that there is a free world where
 	nodes can be operated safely, that the authors of controversial content will be able
@@ -515,13 +520,12 @@
 	  attacker can identify most of the opennet (Strangers network) relatively easily.
 	  These nodes can then be attacked one by one (subject to resources), their traffic
 	  analysed, or simply be blocked on a national firewall. Connecting only to friends (darknet)
-	  largely solves this problem. It is likely possible for ISPs to identify nodes, even 
-	  if they only connect to friends, with traffic flow analysis. Obviously a large 
-	  network will make this harder. Also, steganography will be introduced at some point, 
-	  although Freenet's current protocol is designed to be hard to detect. Traffic flow 
+	  largely solves this problem. ISPs may be able to identify Freenet nodes with some
+	  effort, although we make this fairly difficult: Freenet's current protocol is designed
+	  to be hard to detect, and steganography will be introduced at some point. However, traffic flow 
 	  analysis, or brute-force blocking of all peer to peer traffic (e.g. traffic between 
-	  IP addresses marked as "consumer" rather than "business"), will likely be effective 
-	  for quite some time.</li>
+	  IP addresses marked as "consumer" rather than "business"), both of which would hit a lot
+	  of things other than Freenet, would likely be effective for quite some time.</li>
 	  
 	  <li><b>Bootstrapping attacks</b>: Unless a node only connects to friends, it will
 	  have to connect to the opennet "seednodes" to announce itself and get initial peers
@@ -533,13 +537,12 @@
 	  seednodes, but see the below section on "correlation attacks", which generally are 
 	  feasible with only a single connection to the target. So this is a question of 
 	  resources - if the attacker has the resources to surveil all new Freenet nodes, he has
-	  a good chance of pulling it off. This, combined with harvesting, is why many people
-	  regard opennet as hopelessly insecure. In future we may have more seednodes, and only
+	  a good chance of pulling it off. In future we may have more seednodes, and only
 	  reveal a small proportion of them to each node, as Tor does with its hidden bridges,
 	  but that will not prevent attackers from creating lots of malicious seednodes and 
 	  getting them into the official lists, and it will likely still be possible to block
-	  all the seednodes with some effort (this has actually happened with Tor hidden
-	  bridges in China). Combined with harvesting, this attack explains why opennet is 
+	  all the seednodes with some effort (something similar has already happened to Tor hidden
+	  bridges in China). Combined with harvesting and adaptive search attacks, this attack explains why opennet is 
 	  regarded by many core developers as hopelessly insecure. If you want good security
 	  you need to connect only to friends. Hit and run inserts are possible, and can be
 	  relatively safe in terms of many of the other attacks, but you are taking the risk 
@@ -590,7 +593,7 @@
 	  thing which makes a huge difference is connecting only to your friends (i.e. using
 	  darknet): This makes it extremely difficult for an attacker to get new connections 
 	  closer to where he thinks you must be, just as it helps with correlation attacks.
-	  So the biggest problem with this attack is 1) Files which are not very popular fall
+	  So the biggest problems with this attack are 1) Files which are not very popular fall
 	  off Freenet relatively quickly, so need to be reinserted, but it is not safe to 
 	  reinsert to the same key (this is why we have the "Insert a canonical key" option,
 	  for those who don't care about attacks), and 2) Chat can still be attacked. Tunnels
@@ -703,21 +706,21 @@
 	media files etc. Even if you only browse freesites and use the chat plugins, there will
 	still be potentially incriminating data in your swapfile, which needs to be encrypted
 	(on recent versions of Windows you could try the command "fsutil behavior set 
-	encryptpagingfile 1", but really the solution is an encrypted drive including encrypted swap). It is also 
+	encryptpagingfile 1", but really the solution is to encrypt your whole system including swap). It is also 
 	essential that you use your web browser in privacy mode, or with cache and history 
 	turned off; we try to do this if you launch Freenet via the rabbit icon, but there are 
 	no guarantees as unfortunately this functionality seems buggy in current web browsers.
 	Browser plugins could also be a problem, and you should use a separate browser for 
 	Freenet if in any doubt.
-	It is also essential to be careful with the files you download from Freenet - not only
+	Be careful with the files you download from Freenet - not only
 	could anyone seizing your computer see you have them (media files are likely to be 
 	written to disk even if you open them directly in your web browser and never save them), 
 	but also they could contain threats to anonymity themselves, such as calling back to
 	a malicious website etc; this is possible in for instance PDFs and some video formats.
 	Freenet tries to warn you about this when it can't filter out such malicious content:
-	Currently it can only filter HTML pages, GIF/PNG/JPEG images and CSS, but we will
+	Currently it can only filter HTML pages, GIF/PNG/JPEG images and CSS, and MP3s, but we will
 	add support for Ogg soon and other formats later. And of course there are many other threats - you
-	should obey standard security precautions, such as not running operating systems that
+	should take standard security precautions, such as not running operating systems that
 	are no longer updated, not running software not from a trustworthy source, using 
 	appropriate security software etc (if you have a firewall make sure it allows the two 
 	UDP ports Freenet needs through).</p>
@@ -740,7 +743,7 @@
 	the data is effectively wiped on restarting the node; otherwise the encryption keys are
 	stored in a file called master.keys (on HIGH this is passworded). You can wipe the data
 	by either using the panic button on the downloads/uploads page or by securely deleting
-	master.keys. Freenet also creates temporary files for normal requests, which are also
+	master.keys. Freenet also creates temporary files for other requests, which are also
 	encrypted unless physical seclevel is LOW, which are in temp-*. Also, some plugins may
 	create their own data files, which may contain for instance messages you have posted or
 	downloaded from chat forums, and currently bookmarks and recently completed files are
