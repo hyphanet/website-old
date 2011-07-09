@@ -42,6 +42,7 @@
 	</li><li><a href="#servicenotrespond">Freenet doesn't start, says "Service did not respond to signal"</a>
 	</li><li><a href="#kaspersky">I have Kaspersky anti-virus and Freenet doesn't install, or consistently shows "Download/upload queue database corrupted!"</a>
 	</li><li><a href="#forgotpass">I set a password and now I forgot it, what can I do?</a>
+	</li><li><a href="#clockskew">Freenet keeps complaining about clock skew</a>
       </li></ol>
       <h3> Publisher questions</h3>
 
@@ -759,6 +760,12 @@
 	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
 	question on private data and local security</a> for more information.</p>
 	
+	  <p><b id="clockskew">Freenet keeps complaining about clock skew</b><br/>
+	Freenet will have problems if your clock is constantly being rewound. Usually this 
+	happens when something is resetting your clock regularly in big jumps. On linux, you 
+	should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
+	helpful), but if you see clock skew errors, try the -x option to avoid big backwards
+	jumps.</p>
 
       <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
 
