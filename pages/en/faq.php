@@ -764,8 +764,11 @@
 	Freenet will have problems if your clock is constantly being rewound. Usually this 
 	happens when something is resetting your clock regularly in big jumps. On linux, you 
 	should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
-	helpful), but if you see clock skew errors, try the -x option to avoid big backwards
-	jumps.</p>
+	helpful), but if you see clock skew errors, try adding the -x option to it to avoid 
+	big backwards jumps. Also, running ntpdate on startup so there is one big jump before
+	freenet starts is a good idea. This can also happen on Windows sometimes, let us know
+	how you managed to fix it ... generally it's not all that serious though, especially if
+	big jumps in the clock are only once a day.</p>
 
       <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
 
