@@ -7,7 +7,7 @@
     The auto-updater has been disabled. This might be because of a local problem, such as running out of disk space, or the auto-updating system may have been compromised. The reason is: Checking for revocation key is failing with an internal error: FetchException:Temporary files error:null:-1:null:false:null:Already finalized..
     </blockquote>
     <p>Restart Freenet, usually it will be able to update within an hour or two.
-    If that doesn't work, use the update.cmd or update.sh scripts to do a manual
+    If that doesn't work (if the error message above comes back), use the update.cmd or update.sh scripts to do a manual
     update (this will download the update from freenetproject.org). You should not
     need to reinstall, please contact us if you have more problems. Thanks, and sorry!<br>
     - Toad</p>
