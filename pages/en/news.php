@@ -1,5 +1,17 @@
       <h1>News</h1>
     
+    <a name="broken-update-1382"><h3>14th July 2011 - Problems with 1382 and auto-update</h3></a>
+    <p>Due to insufficient testing, a serious bug slipped out in builds around 1382.
+    Freenet may not be able to update itself, and will complain about it, with an error like:</p>
+    <pre>
+    The auto-updater has been disabled. This might be because of a local problem, such as running out of disk space, or the auto-updating system may have been compromised. The reason is: Checking for revocation key is failing with an internal error: FetchException:Temporary files error:null:-1:null:false:null:Already finalized..
+    </pre>
+    <p>Restart Freenet, usually it will be able to update within an hour or two.
+    If that doesn't work, use the update.cmd or update.sh scripts to do a manual
+    update (this will download the update from freenetproject.org). You should not
+    need to reinstall, please contact us if you have more problems. Thanks, and sorry!<br>
+    - Toad</p>
+    
     <a name="freedom-house-april-2011"><h3>13th April 2011 - Freenet top anti-censorship tool in survey of Chinese users!</h3></a>
     <p>A <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">report</a> by 
     <a href="http://freedomhouse.org/">Freedom House</a> surveyed users in 

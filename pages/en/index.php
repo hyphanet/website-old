@@ -108,6 +108,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+	  (14th July 2011) <a href="news.html#broken-update-1382">Recent problems, how to fix them, and an apology</a><br/>
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
