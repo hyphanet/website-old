@@ -90,6 +90,10 @@
 	  <li>
 	    <a href="http://www.gartenheinz.de" title="A German Site for Gardening and Plants">A German Site for Gardening and Plants</a> - another generous sponsor.
 	  </li>
+	
+	  <li>
+	    <a href="http://www.easy-carhire.com/">Easy Car Hire</a> Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
+	  </li>
 	  
 	</ul>
 
