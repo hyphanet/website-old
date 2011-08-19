@@ -92,7 +92,8 @@
 	  </li>
 	
 	  <li>
-	    <a href="http://www.easy-carhire.com/">Easy Car Hire</a> Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
+	    <a href="http://www.easy-carhire.com/"><br>
+	    Easy Car Hire</a> Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
 	  </li>
 	  
 	</ul>
