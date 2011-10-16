@@ -59,6 +59,7 @@
 	</li><li><a href="#devtools">What tools do I need to help develop?</a>
 	</li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
 	</li><li><a href="#bugs">Where can I report bugs?</a>
+	</li><li><a href="#theory">I'm a computer scientist/mathematician, how can I help?</a>
 
       </li></ol>
       <h3> Security questions</h3>
@@ -455,6 +456,9 @@
       
       <p><b id="bugs">Where can I report bugs?</b><br/>
 	You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">support mailing list</a>.</p>
+	
+	  <p><b id="theory">I'm a theoretical computer scientist/mathematician, how can I help? (research challenges)</b><br/>
+	See <a href="http://new-wiki.freenetproject.org/Research_challenges">here</a>.</p>
 
       <h2> Security answers</h2>
       <p><b id="browser">Can I use my regular browser to browse Freenet?</b><br/>
