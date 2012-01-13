@@ -95,6 +95,12 @@
 	    <a href="http://www.easy-carhire.com/">Easy Car Hire</a><br>
 	    Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
 	  </li>
+	
+	  <li>
+	    <a href="http://sportsden.ie/">The Sports Den</a><br/>
+	    The Sports Den has a wide variety of outdoor sports equipment, they are
+	    based in Ireland but can ship to the UK, Europe, and the United States.
+	  </li>
 	  
 	</ul>
 
