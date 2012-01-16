@@ -97,7 +97,7 @@
 	  </li>
 	
 	  <li>
-	    <a href="http://sportsden.ie/">The Sports Den</a><br/>
+	    <a href="http://www.sportsden.ie/">The Sports Den</a><br/>
 	    The Sports Den has a wide variety of outdoor sports equipment, they are
 	    based in Ireland but can ship to the UK, Europe, and the United States.
 	  </li>
