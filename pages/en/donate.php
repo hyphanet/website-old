@@ -3,9 +3,9 @@
       
       <h4>Financial Status</h4>
       <p>The project's current balance is <b>$MONEYBALANCE</b> (updated twice a day). 
-      This will pay for the project's one paid developer (we have many volunteers) and the server for 
+<!--      This will pay for the project's one paid developer (we have many volunteers) and the server for 
       another <b>MONEYDAYS days</b>. This does not include work already paid for, which 
-      is generally up to 2 months.</p>
+      is generally up to 2 months.</p> -->
       
       <h4>Why does The Freenet Project need donations?</h4>
       <p>
