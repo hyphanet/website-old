@@ -44,7 +44,7 @@
       </ul>
       
     <p>Inicialmente usamos git de manera similar a SVN: Cada desarrollador tiene permisos
-    de escritura en el repositorio, y nosotros otorgamos permisos de escritura bastante liberalmente. Sin embargo,
+    de publicar en el repositorio, y nosotros otorgabamos permisos de escritura bastante liberalmente. Sin embargo,
     probablemente este no es el mejor modelo: Muchos otros proyectos que usan Git emplean un
     modelo mas (o menos, dependiendo de como lo veas) centralizado donde tu 
     divides el repositorio (esto es realmente fácil en github), haces tus cambios, los escribes
@@ -53,16 +53,16 @@
     La ventaja es que hay menos revisiones en el historial, mejor código en general, las cosas
     pueden retirarse mas facilmente  cuando tratamos de liberar un lanzamiento, y el modelo de
     seguridad es más simple. Tratamos de moderar este modelo actualmente. Encontrarás
-    que es más fácil de dividir -staging y luego solicitar una validación (github hace ambas cosas 
-    muy fácil), antes que solicitar permisos de escritura a -staging.</p>
+    que es más fácil de dividir [Fork] -staging y luego solicitar una validación [Pull Request] (github hace ambas cosas 
+    muy fácil), antes que solicitar permisos de escritura en -staging.</p>
     
     <p>Cada parte de Freenet actualmente tiene dos repositorios: -official y -staging (ej.
     fred-official y fred-staging). Este es un remanente de nuestro uso de git similar a  
     SVN: El repositorio -official ha sido revisado y lanzado al menos como un pre-build,
-    y solamente desarrolladores centrales pueden escribir en el - ellos deben revisar el código que están aprobando antes 
+    y solamente desarrolladores centrales pueden publicar en el - ellos deben revisar el código que están publicando antes 
     de validar, y usualmente firmaran un tag para el  build o pre-build luego de ello. El repositorio 
-    -staging casi cualquiera puede escribirlo. Nuevos desarrolladores deberán dividir en github
-    y luego solicitar validacion.</p>
+    -staging casi cualquiera puede escribirlo. Nuevos desarrolladores deberán dividir [Fork] en github
+    y luego solicitar validacion [Pull Request].</p>
       
       <p>
     De cualquier forma, por favor mantennos informados de los que estas haciendo con Freenet! Crea una 
@@ -82,28 +82,28 @@
       <h3>Compilación completa</h3>
       
       <p>
-	Building Fred (the Freenet reference daemon) with ant will pull in
-	freenet-ext.jar for third party dependancies from the website. To build
-	freenet-ext.jar yourself you need to get the contrib module, build it, and put it into
-	lib/freenet-ext.jar before you build the main project. Note also that the
-	contrib module contains a number of native libraries used to improve 
-	performance; you may also want to rebuild these.
+	Compilar Fred (el demonio de referencia Freenet) con ant requerirá en 
+	freenet-ext.jar dependencias de terceras partes del website. Para compilar
+	freenet-ext.jar por ti mismo necesitas obtener el módulo contribuciones, compilarlo, y ponerlo en
+	lib/freenet-ext.jar antes de compilar el proyecto principal. Nota también que el 
+	módulo contribuciones contiene un número de librerías nativas usadas para mejorar la  
+	performance; quizás quieras tambien recompilar estas.
       </p>
       <p>
-	Plugins, installers etc can generally be built with ant, but some 
-	libraries may be written in other languages and have their own building 
-	procedures.
+	Plugins, instaladores etc generalmente pueden compilarse con ant, pero algunas 
+	librerías podrían estar escritas en otros lenguajes y tener sus propios procedimientos 
+	de compilación.
       </p>
 
-      <h3>Basic git workflow</h3>
-      <p>To pull all changes to the repository:</p>
+      <h3>Secuencia de trabajo básica con git</h3>
+      <p>Para recuperar todos los campos del repositorio:</p>
       
       <pre>
 	git pull origin</pre>
 
       <p>
-	Or if you want to review the changes before you merge them into your
-	local repository:
+	O si quieres revisar los cambios antes de combinarlos en tu  
+	repositorio local:
       </p>
 
       <pre>
@@ -111,77 +111,77 @@
 	git log -p -M --ignore-space-change master..origin/master</pre>
 
       <p>
-	If you are happy with the changes, then either merge your local changes
-	into the remote changes:
+	Si estas feliz con los cambios, entonces combina tus cambios locales
+	con los cambios remotos:
       </p>
 
       <pre>
 	git rebase origin/master</pre>
-      <p>Or merge the remote changes into your local repository:</p>
+      <p>O Combina los cambios remotos en tu repositorio local:</p>
       <pre>
 	git merge origin/master</pre>
-      <p>The latter will result in a non-linear history, so you should use rebase
-	unless your local changes are very large.</p>
-      <p>To commit your local changes to your local repository:</p>
+      <p>Esto último tendrá como resultado una historia no-lineal, asi que deberías usar rebase
+	a menos que tus cambios locales sean muy grandes.</p>
+      <p>Para validar tus cambios locales en tu repositorio local:</p>
 
       <pre>
 	git commit -a</pre>
-      <p>Or:</p>
+      <p>O:</p>
       <pre>
-	git commit [ filenames you want to commit ]</pre>
-      <p>To upload your changes (assuming you have cloned the -staging tree):</p>
+	git commit [ nombres-de-archivos que deseas validar ]</pre>
+      <p>Para publicar tus cambios (asumiendo que has clonado el arbol -staging ):</p>
       <pre>
 	git push origin</pre>
-      <p>To view recent changes:</p>
+      <p>Para ver cambios recientes:</p>
       <pre>
 	git log -p -M --ignore-space-change</pre>
-      <p>To undo one or more local commits, assuming you have not pushed your 
-	changes, and have not merged remote changes (this will simply reset your
-	local repository to a previous version, getting rid of everything since 
-	then):</p>
+      <p>Para deshacer una o más validaciones locales, asumiendo que no has publicado tus cambios 
+	ni has combinado cambios remotos (esto simplemente volverá tu 
+	repositorio local a una versión previa, recomenzando desde 
+	allí):</p>
       <pre>
 	git reset [ last good revision ]</pre>
 
-      <p>Or if you have committed your change, you will need to revert it:</p>
+      <p>O si has validado tus cambios, necesitas revertirlos:</p>
       <pre>
 	git revert [ revision to get rid of ]</pre>
       <p>
-	More documentation for git can be found <a href="http://git-scm.com/documentation">here</a>
-	or <a href="http://www.kernel.org/pub/software/scm/git/docs/">here</a>.
+	Más documentación sobre git puede encontrarse <a href="http://git-scm.com/documentation">aquí</a>
+	o <a href="http://www.kernel.org/pub/software/scm/git/docs/">aquí</a>.
       </p>
       <p>
-	If you don't like a commit, or think it could be improved, generally you should post to the devl 
-	<a href="lists.html">mailing list</a>. You should CC the author of the 
-	commit, but unless it is a trivial matter you should always
-	mail devl.
+	Si no te gusta una validación, o piensas que podría mejorarse, generalmente deberás escribir a  
+	<a href="lists.html">la lista de correo</a> de desarrolladores. Debrías copiar al autor de 
+	la validación, pero a menos que sea un tema trivial deberías escribir a devl
+	siempre.
       </p>
-    <p>Please avoid monster commits. All commits are reviewed manually
-    both to ensure security and to avoid bugs, and this is much easier if
-    you follow some basic rules:</p>
+    <p>Por favor evita validaciones gigantescas. Todas las validaciones son revisadas manualmente
+    para verificar la seguridad y evitar bugs, y es mucho más fácil si
+    sigues algunas reglas básicas:</p>
     <ul>
-    <li>Keep cosmetic changes separate from functional changes. In
-    particular, indenting and braces improvements, while these are 
-    generally acceptable, should <b>not</b> be mixed with functional 
-    changes.</li>
-    <li>Don't break the build: When you push, fred should build. Ideally
-    each individual commit should build.</li>
-    <li>Small commits: "git commit" is a purely local operation, so there
-    is no reason to combine a bunch of unrelated changes in a single 
-    commit. Obviously use your judgement.</li>
-    <li>Big or controversial stuff should go on a branch, rather than
-    just getting pushed. We may be in the process of getting a new build 
-    out, and if big stuff is pushed it is likely to be shifted to a branch
-    while the build is deployed.</li>
+    <li>Mantén los cambios cosméticos separados de los cambios funcionales. En 
+    particular, mejoras en la indentación y corchetes, si bien son  
+    generalmente aceptables,  <b>no deberían</b> mezclarse con cambios  
+    funcionales.</li>
+    <li>No rompas el código: Cuando publiques tus cambios, fred debería compilar. Idealmente
+    cada validación individual deberia compilar.</li>
+    <li>Pequeñas validaciones: "git commit" es puramente una operación local, entonces
+    no hay razón para combinar un manojo de cambios sin relación en una sola validación. 
+    Obviamente usa tu propio criterio.</li>
+    <li>Asuntos grandes o controversiales deberían ir en una rama, preferible antes que simplemente
+    publicarlos. Podríamos estar en proceso de liberar una nueva 
+    compilación, y si publicas cosas grandes es mejor ponerlas en una rama
+    mientras se desarrolla la compilación.</li>
     </ul>
 
-    <h3>The website</h3>
-    <p>To edit the website, check out the website-staging repository, edit the files (in pages/en/),
-    commit and push as above. Then remind Toad to deploy it if he doesn't do so in a reasonable time.
-    Alternatively, fork the website module on github, and then post a pull request. This may actually
-    get results more quickly!</p>
-    <p>The website is php-based but is compiled at deploy time into static HTML. You can simulate this
-    to see exactly what your changes will look like by running the make-pages.sh script (you will need
-    php5-cgi). This outputs static HTML to output/.</p>
-    <p>We are trying to move most of the documentation to <a href="http://wiki.freenetproject.org">the 
-    wiki</a>, which should be easier to edit.</p>
+    <h3>El sitio web</h3>
+    <p>Para editar el sitio web, verifica el repositorio website-staging, edita los archivos (en pages/en/),
+    valida y publica como arriba. Luego recuerdale a Toad publicarlo si no lo ha hecho en un tiempo razonable.
+    Alternativamente, divide [fork] el módulo website en github, y luego solicita una publicacion [pull request]. Esto en realidad
+    da resultado mas rapidamente!</p>
+    <p>El sitio web está basado en php pero es compilado y desarrollado en HTML estático. Puedes simular esto
+    para ver exactamente como se verán tus cambios ejecutando el script make-pages.sh (necesitarás 
+    php5-cgi). Esto genera los HTML estáticos en output/.</p>
+    <p>Estamos tratando de mover la mayoría de la documentación a <a href="http://wiki.freenetproject.org">la 
+    wiki</a>, la cual debería ser mucho más fácil de editar.</p>
     

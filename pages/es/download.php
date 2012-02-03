@@ -1,33 +1,33 @@
-      <h1>Download Freenet</h1>
-      <h3>Important note for first time users</h3>
+      <h1>Descargar Freenet</h1>
+      <h3>Nota importante para usuarios por primera vez.</h3>
       <p>
-    For best performance, Freenet will run continually. It should
-    not interfere with your computer usage, as it requires around 
-    200MB of RAM and 10% of one CPU core, plus some disk access. We 
-    strongly recommend you shut down Freenet while playing computer 
-    games etc. On Windows you can do this from the system tray icon, 
-    on other systems use the links on the system menu or the desktop.
+    Para una mejor performance, Freenet debería ejecutarse sin interrupción. No debería
+    interferir con el normal uso de tu ordenador, ya que requiere alrededor de 
+    200MB de RAM y 10% de un núcleo CPU, más algunos accesos a disco.  
+    Recomendamos que detengas Freenet mientras corres juegos en el  
+    ordenador etc. En Windows puedes hacer esto desde el ícono en la bandeja de sistema, 
+    o en otros sistemas usar los botones en el menú o el escritorio.
       </p>
       <p>
-    Normally Freenet will connect automatically and should "just work",
-    automatically connecting to other nodes (Strangers). However,
-    if you know several people who are already using Freenet, you can
-    enable high security mode and 
-    <a href="http://127.0.0.1:8888/addfriend/">add them as Friends</a>, 
-	so Freenet will only connect to them, making your usage of Freenet 
-	almost undetectable, while still being able to access the rest of the
-	network through their friends' friends etc. This will be slower unless 
-	you add 10+ friends who are usually online when you are.
+    Normalmente Freenet conectará automáticamente y "simplemente funcionará",
+    conectando automáticamente con otros Nodos (Extraños). Sin embargo,
+    si conoces algunas personas que ya estén usando Freenet, puedes
+    habilitar el modo alta_seguridad y 
+    <a href="http://127.0.0.1:8888/addfriend/">agregarlos como Amigos</a>, 
+	entonces Freenet solamente conectará con ellos, haciendo tu uso de Freenet 
+	practicamente indetectable, y aún serás capaz de acceder al resto de lss
+	redes mediante amigos de amigos etc. Esto será lento a menos 
+	que agregues 10+ amigos que estén en línea mientras tú lo estas..
       </p>
 
       <div id="nojws">
 	
-	<h2>Installation Instructions</h2>
+	<h2>Instrucciones de instalación</h2>
 	<p>
-	  Show instructions for:
+	  Ver instrucciones para:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
 	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
+	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">GNU/Linux
 	    etc</a><br/>
 	</p>
       </div>
@@ -37,19 +37,18 @@
 	<h3>Windows</h3>
 	
 	<p>
-	  - Download and
-	  run <big><a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
-	      installer</a> (8MB)</big><br/> 
+	  - Descargar y 
+	  ejecutar <big><a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el 
+	      instalador</a> (8MB)</big><br/> 
 	  <br/>
-	  It will automatically install Freenet and other required
-	  components for you. When done, your default browser will
-	  automatically open up to Freenet's web-based user
-	  interface. <br/>
-	  (Freenet contains <b style="text-decoration: underline;">NO spyware or adware</b> ,
-	  it's Free Software! The source code is publicly available
-	  for review) <br/> 
+	  Instalará automáticamente Freenet y otros componentes
+	  requeridos. Cuando termine, tu navegador por defecto 
+	  automáticamente se abrirá en la interfase basada en web de Freenet's<br/>
+	  (Freenet NO contiene <b style="text-decoration: underline;">spyware o adware</b> ,
+	  es Software Libre! El código fuente está disponible al público
+	  para su revisión) <br/> 
 	  <br/>
-	  Freenet requires Windows XP or later.<br/>
+	  Freenet requiere Windows XP o posterior.<br/>
 	</p>
 	
       </div>
@@ -59,37 +58,36 @@
 	<h3>Mac OSX</h3>
 	
 	<p>
-	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br/>
-	  If this doesn't work, try <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">the instructions for Linux</a>.
+	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Instalar Freenet 0.7</a> usando JavaWebStart.<br/>
+	  Si esto no funciona, prueba <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">las instrucciones para GNU/Linux</a>.
 	</p>
 	
       </div>
       
       <div id="unix">
 	
-	<h3>Linux and other Unix-like systems</h3>
+	<h3>GNU/Linux y otros sistemas tipo-Unix</h3>
 
 	<p>
-	  Try the <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">JavaWebStart installer</a>.<br/>
-	  If it doesn't work, please try the instructions given below.
+	  Prueba el  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">instalador JavaWebStart</a>.<br/>
+	  Si no funciona, por favor intenta con las instrucciones siguientes.
 	</p>	
 	<p>
-	  You need to have a recent <b>Java Runtime Environment</b>
-	  (JRE). We have experienced best results with Sun's Java
-	  Runtime Environment which can be obtained via
-	  your <a href="http://en.wikipedia.org/wiki/Package_manager">package
-	    manager</a> or
-	  from <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
+	  Necesitas tener un <b>Java Runtime Environment</b>
+	  (JRE) actualizado. Hemos obtenido mejores resultados con el  Java
+	  Runtime Environment de Sun el cual puedes obtener mediante 
+	  tu <a href="http://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
+	  de <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	  You need Java version 1.6. You should keep it up to date to
-	  avoid problems and for best performance. Also, you might need
-	  wget for the commands below to work (on Ubuntu, do
-	  "apt-get install wget" on a console).
+	  Necesitas Java versión 1.6. Deberías mantenerla actualizada para
+	  evitar problemas y mejor desempeño. Además, necesitas
+	  wget para que los comandos siguients funcionen (en Ubuntu, haz
+	  "apt-get install wget" en una consola).
 	</p>
 
 	<p>
-	  Open a terminal and type:
+	  Abre una terminal y escribe:
 	</p>
 	
 	<!-- please use "pre" as following (ie a newline after the
@@ -100,52 +98,57 @@
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
-	  Alternatively,
-	  downloading <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">the
-	    installer</a>
-	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">gpg
-	    signature</a>) and then clicking on the file may work on
-	  some systems, but if there are problems we recommend the
-	  above command lines.
+	  Alternativamente,
+	  descarga <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">el 
+	    instalador</a>
+	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">firma gpg
+	    </a>) y luego haciendo click en el archivo funcionará en la mayoría de los sistemas, pero si hay problemas recomendamos las
+	  líneas de comando más arriba.
 	</p>
 	
-	<p><b>Headless servers:</b> The standard installer above requires a GUI (i.e. Gnome, KDE, X windows etc). We strongly recommend you use the standard installer. On a console-only server (for instance a linux virtual server), you should install the X client libraries and use ssh -X to run the GUI installer remotely. It is also possible to use the headless installer. This is deprecated and not recommended. You must install the latest Sun Java, and make sure it is on the path and is the default JVM (try update-java-alternatives on ubuntu), and then install wget or curl, then download <a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">this file</a>, unpack it and run "./run.sh start". Then open <a href="http://127.0.0.1:8888/">a browser</a>. You might also want to change the memory limit in wrapper.conf. See <a href="faq.html#fproxy-lan">here</a> for how to open your node to other computers on the same network.</p>
+	<p><b>Servidores sin monitor:</b> El instalador estandar requiere GUI (ej. Gnome, KDE, X windows etc). Nosotros recomendamos que uses el instalador estandar. 
+	En un servidor con sólo consola (por ejemplo un servidor virtual linux), deberás instalar las librerías del cliente X y usar ssh -X para ejecutar el instalador GUI remotamente. 
+	Tambien es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
+	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
+	<a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
+	Luego abrir <a href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aqui</a> 
+	cómo abrir tu nodo a otras computadores en tu misma red.</p>
 
 	<div id="mirrored">
 	  
-	  <h3>Mirrored installation</h3>
+	  <h3>Instalación duplicada</h3>
 	  
 	  <p>
-	    If you have a working Freenet installation directory that you have mirrored 
-	    from one Unix machine to another (e.g. via rsync or
-	    unison), enabling the mirrored installation is not
-	    difficult.  Nothing in a Freenet installation cares
-	    about its host's IP address; it can't, or Freenet would
-	    fail on machines that get IP addressss from a DHCP pool
+	    Si tienes un directorio de instalación de Freenet funcionando que hayas duplicado 
+	    de una máquina Unix a otra (ej. via rsync o
+	    unison), habilitar la instalación duplicada no es
+	    difícil.  Nada en una instalación Freenet tiene cuidado de
+	    la dirección IP de su host; no puede, o Freenet fallaría
+	    en máquinas que obtengan su dirección IP mediante DHCP.
 	  </p>
 
 	  <p>
-	    All you actually need to do is tell the system you've
-	    mirrored to that it should start the Freenet proxy
-	    daemon for you on boot.  Do <tt>crontab -l</tt> on the
-	    source machine, find the line that is tagged "FREENET
-	    AUTOSTART" and add that to your crontab on the mirrored
-	    machine.
+	    Todo lo que necesitas hacer en realidad es decirle al sistema que haz 
+	    duplicado que debe iniciar el demonio proxy de Freenet
+	    cuando arranque.  Haz <tt>crontab -l</tt> en la
+	    máquina de origen, encuentra la línea etiquetada "FREENET
+	    AUTOSTART" y agregala al crontab en la máquina
+	    duplicada.
 	  </p>
 	  
 	  <p>
-	    However: each installation has a unique identity key
-	    generated at installation time. If you try to run two
-	    instances with the same identity <em>at the same
-	      time</em>, both proxy demons will become confused and
-	    upset. Don't do this!
+	    Sin embargo: cada instalación tiene una única clave identificatoria
+	    generada en el momento de la instalación. Si tratas de ejecutar dos
+	    instancias con la misma identidad <em>al mismo tiempo</em>, 
+	    ambos demonios se confundirán y se enojarán.
+	    No hagas eso...!
 	  </p>
 	  
 	</div>
 	
-    <h3>HOWTO</h3>  
+    <h3>Cómo</h3>  
 	      
-      	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
+      	     <p>Encontrarás el <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-cómo</a> muy útil (debería ser de interés para los usuarios de Windowstambién).</p>
 
       </div>
       
@@ -176,108 +179,108 @@
 					 }
       </script>
       
-      <h3>Firewalls and routers</h3>
+      <h3>Cortafuegos y enrutadores</h3>
       
       <p>
-	Freenet should work fine with most routers, but if you are having problems
-	and you have a firewall or router, click <a href="faq.html#firewall"><b>here</b></a>
-	for some info.
+	Freenet debería funcionar bien con la mayoría de los enrutadores, pero si estás teniendo problemas
+	y tienes un  cortafuegos o enrutador, haz click <a href="faq.html#firewall"><b>aquí</b></a>
+	para más información.
       </p>
       
-      <h3>So it's running, what do I do?</h3>
+      <h3>Está funcionando, qué hago?</h3>
       
       <p>
-	When the installer closes, it should open a browser window pointing to
-	the first-time wizard. Here you can configure basic settings, and then
-	start using Freenet. You can access Freenet later on via the system tray
-	menu (bottom right on the screen), or use the Browse Freenet shortcut on the 
-	desktop and/or start menu. If it doesn't work, open 
-	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser.
+	Cuando se cierra el instalador, deberia abrirse una ventana de navegador apuntando al
+	asistente de primera vez. Allí puedes configurar cosas básicas, y luego
+	comenzar a usar Freenet. Puedes acceder a Freenet más tarde via la bandeja de sistema
+	(abajo a la derecha en la pantalla), o usar el atajo Abrir Freenet en el escritorio 
+	y/o menú de inicio. Si no funciona, abre 
+	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> en tu navegador web.
       
       <p>
-	For best security you should use a separate browser for Freenet, 
-	preferably in privacy mode. On Windows, the system tray menu will 
-	try to use Chrome in incognito mode if possible. Internet Explorer does
-	not work well with Freenet, Firefox and Opera are widely
-	used.
+	Para más seguridad deberías usar un navegador aparte para Freenet, 
+	preferiblemente en modo privacidad. En Windows, la bandeja de sistema tratará
+	de usar Chrome en modo incognito si es posible. Internet Explorer no
+	funciona bien con Freenet, Firefox y Opera son ampliamente usados.
       </p>
       
       <p>
-	If you know anyone running Freenet, you can improve your security and 
-	help to build a robust network by connecting to their node. First, open the 
-	<a href="http://127.0.0.1:8888/addfriend/">Add a friend page</a>. You and your
-	friend should each download their "node reference". Send the file to
-	the other person, and add his node reference using the form at the bottom
-	of the page. When both are added, your friend's node should show up on the Friends 
-	page, probably as "CONNECTED" or "BUSY". You can set a name for your node
-	on the config page to make it easier to see who it is. Only add nodes run by people
-	<b>you actually know</b>, whether online or offline, as adding total strangers
-	harms performance and does not improve security much (they could be the bad guys!).
+	Si conoces a algunas personas corriendo Freenet, puedes mejorar tu seguiridad y  
+	ayudar a construir una red robusta conectándote a sus nodos. Primero, abre la  
+	<a href="http://127.0.0.1:8888/addfriend/">página Agregar un amigo</a>. Tú y tu 
+	amigo deberán cada uno descargar sus "referencias de nodo". Envía el archivo
+	a la otra persona, y agrega su referencia de nodo usando el formulario al pie 
+	de la página.Cuando ambos estén agregados, el nodo de tu amigo debería mostrarse en la página 
+	Amigos, probablemente como "CONECTADO" u "OCUPADO". Puedes proporcionar un nombre a tu nodo
+	en la página de configuración para hacer más fácil ver de quien es. Sólo agrega nodos de gente
+	<b>que actualmente conozcas</b>, estén online u offline, porque agregar puros extraños
+	altera el desempeño y no mejora la seguridad  (ellos podrían ser los malos!).
       </p>
       
-      <h3>So I'm connected, what do I do?</h3>
+      <h3>Entonces estoy conectado, que hago?</h3>
       
       <p>
-    Freenet itself includes anonymous websites ("freesites"), filesharing, searching, and 
-    more, but you can also use <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
-	applications</a> for chat, filesharing, to help you upload freesites, etc.
+    Freenet en si mismo incluye sitios web anonimos ("freesites"), intercambio de archivos, búsqueda, y 
+    más, pero también puedes usar <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">aplicaciones 
+	 de terceras partes</a> para chatear, compartir archivos, ayudarte a subir "freesites", etc.
       </p>
       
-      <h3>It doesn't work, now what?</h3>
+      <h3>No funciona, ahora qué?</h3>
       
       <p>
-	If you have problems installing or running Freenet, please contact us on
-	<a href="mailto:support@freenetproject.org">the support list</a> 
-	(<a href="lists.html">subscribe here</a>), or join us on IRC on the
-	#freenet channel on irc.freenode.net (try <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">here</a>).
+	Si tienes problemas instalando o corriendo Freenet, por favor contacta con nosotros en
+	<a href="mailto:support@freenetproject.org">la lista de soporte</a> 
+	(<a href="lists.html">subscribe aquí</a>), o únete al IRC en el 
+	canal #freenet en irc.freenode.net (intenta <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">aquí</a>).
       </p>
       
-      <h3>Hardware requirements</h3>
+      <h3>Requerimientos de Hardware</h3>
       <p>
-    Generally a 1GHz processor and 1GB of RAM should be fine. Freenet will run on smaller
-    systems, but it uses at least 128MB of RAM, so unless the system
-    does nothing else it will struggle in less than 512MB. However, the 
-    processor is less of a problem, people have been known to run it on 400MHz Pentium 2's or
-    ATOM's, although downloads and browsing would be slow.</p>
+    Generalmente un procesador de 1GHz y 1GB de RAM debería estar bien. Freenet correrá en sistemas más
+    pequeños, pero usa al menos 128MB de RAM, asi que a menos que el sistema
+    no haga otra cosa se arrastrará con menos de 512MB. Sin embargo, el  
+    procesador es menos problemático, se sabe de gente que ha ejecutado en un 400MHz Pentium 2's o
+    ATOM's, aunque las descargas y la navegacion serán lentas.</p>
     
       <p>
-	Freenet will use a portion of your disk for storing data, 
-	you can configure this to any size from 100MB upwards, but
-	we recommend at least 1GB. Freenet also uses disk space for
-	your downloads. Freenet's memory usage is approximately
-	192MB plus 1MB for every 2GB of datastore.
+	Freenet usará una porción de tu disco rígido para almacenar datos, 
+	puedes configurar esto para cualquier tamaño desde 100MB en adelante, pero
+	recomendamos al menos 1GB. Freenet usa espacio en disco para
+	tus descargas. El uso de memoria de Freenet es aproximadamente
+	192MB plus 1MB para cada 2GB de datos almacenados.
       </p>
       
       <p>
-      On 64-bit Windows, we will install a 32-bit Java Virtual Machine because 
-      of limitations of the <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
-      This will not necessarily auto-update itself, so you may need to <a href="http://www.java.com/en/download/manual.jsp">update it occasionally</a>.
+      En Windows 64-bit , instalaremos una Java Virtual Machine de 32-bit  a causa 
+      de limitaciones en el <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
+      Este no se auto actualizará a si mismo necesariamente, quizas necesites <a href="http://www.java.com/en/download/manual.jsp">actualizarlo ocacionalmente</a>.
       </p>
       
-      <h3>Upgrading</h3>
+      <h3>Actualizando</h3>
       
       <p>
-	Freenet provides an update-over-freenet mechanism:
-	It will keep itself up to date automatically from other
-	Freenet nodes, and this will normally work even if it is
-	unable to route to them due to them being too new. This is
-	anonymous and secure, and we recommend people use it.
-	However, if something is severely broken, you can update
-	your node manually from our servers:</p>
+	Freenet provee un mecanismo de actualización-sobre-freenet:
+	este se mantendrá a si mismos actualizado mediante
+	otros nodos Freenet, y normalmente funcionará aún si es
+	incapaz de rutear hacia ellos debido a que son muy nuevos. Esto es
+	anónimo y seguro, y le recomendamos a la gente que lo use.
+	Sin embargo, si algo está severamente roto, puedes actualizar
+	tu nodo manualmente desde nuestros servidores:</p>
       
       <ul>
-	<li>Windows users can upgrade to the latest-stable Freenet
-	  release from the system tray menu, or by running "update.cmd" in the Freenet
-	  directory.</li>
-	<li>Mac and Linux users may upgrade by running the
-	  update.sh shell script in the Freenet directory.</li>
+	<li>Usuarios de Windows pueden actualizar a la última edicion estable deFreenet
+	desde el menú en la bandeja de sistema, o ejecutando "update.cmd" en el directorio Freenet.</li>
+	
+	<li>Usuarios de Mac and GNU/Linux pueden actualizar ejecutando el 
+	  script update.sh en el directorio Freenet.</li>
       </ul>
       
       <p>
 	<small>
-	  <b>Source Code:</b>
-	  See <a href="developer.html">the developer page</a> 
-	  for git access, or download the lastest stable
-	  tarball <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a> (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">signature</a>).
+	  <b>Código fuente:</b>
+	  Visita <a href="developer.html">la página de desarrolladores</a> 
+	  para acceder a git o descargar la última versión estable
+	  <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">aquí</a> 
+	  (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">firma</a>).
 	</small>
       </p>
