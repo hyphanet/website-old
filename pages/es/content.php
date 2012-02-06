@@ -25,7 +25,7 @@
 	<ul>
 	  <li>
 	    <b>Totalmente descentralizada</b><br/>
-	    La informacion puede ser ingresada en Freenet para descargarla
+	    La información puede ser ingresada en Freenet para descargarla
 	    sin confiar en ningun servidor centralizado.  Todo lo que
 	    hay que hacer es proporcionar la "clave" del contenido a
 	    alguien mas y sera capaz de descargarlo.
@@ -36,7 +36,7 @@
 	    descargado un archivo para compartirlo con otros pares.  Freenet
 	    depositará adaptativamente la informacion sobre pares 
 	    cuanto sea necesario para cubrir la demanda independientemente de lo que hayan 
-	    descargado los pares..
+	    descargado los pares.
 	    Esto permite a Freenet to "escalar" mucho mas rapidamente que 
 	    que la mayoría de las soluciones, y mejora el balance de carga.
 	  </li>

@@ -1,4 +1,3 @@
-
       <h1>Donaciones</h1>
       
       <h4>Estado financiero</h4>
@@ -171,13 +170,13 @@
 	    
 	    <hr width="90%">
 	    <li>Alternativamente, por favor <a href="mailto:ian@freenetproject.org">contáctanos</a> 
-	      si no puedes usar ninguno de esos metodos de pago.</li>
+	      si no puedes usar ninguno de esos métodos de pago.</li>
 	    <li>También puedes contribuir al proyecto comprando un souvenir de la  
 	       <a href="http://cafepress.com/freenetproject/">tienda</a>Freenet.</li>
 	  </ul>
 	  <h4>Cómo puedo estar seguro que mi donación será usada con propiedad?</h4>
 	  <p>
-	    Todas las donaciones vabn a  The Freenet Project Inc, una 
+	    Todas las donaciones van a The Freenet Project Inc, una 
 	    corporación sin fines de lucro 501c3 con la siguiente 
 	    misión social:
 	    <blockquote>

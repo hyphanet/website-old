@@ -74,7 +74,7 @@
 	</p>	
 	<p>
 	  Necesitas tener un <b>Java Runtime Environment</b>
-	  (JRE) actualizado. Hemos obtenido mejores resultados con el  Java
+	  (JRE) actualizado. Hemos obtenido mejores resultados con el Java
 	  Runtime Environment de Sun el cual puedes obtener mediante 
 	  tu <a href="http://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
 	  de <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 

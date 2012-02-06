@@ -42,7 +42,7 @@
 	<li>
 	  <a href="understand.html"><strong>Comprendiendo</strong></a><br/>
 	  Explica cómo trabaja Freenet, y un 
-	  glosario con los términos usados mas frecuentemente.
+	  glosario con los términos usados más frecuentemente.
 	</li>
 
 	<li>
@@ -60,7 +60,7 @@
 
 	<li>
 	  <a href="jsite.html"><strong>jSite</strong></a><br/>
-	  jSite es una herramienta para subir sitios web a Freenet  (a.k.a. Freesite).
+	  jSite es una herramienta para subir sitios web a Freenet (a.k.a. Freesite).
 	</li>
 
 	<li>

@@ -93,7 +93,7 @@
 	maneras. Es común a todos que esto se hace bajo
 	el menú <span style="font-weight:bold;">Darknet</span> o usando
 	el  link <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
-	Debajo está lo que sucede:
+	Debajo muestra lo que sucede:
       </p>
       
       <img src="/image/add_peers.png"/>
