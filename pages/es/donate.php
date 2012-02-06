@@ -1,4 +1,3 @@
-
       <h1>Donaciones</h1>
       
       <h4>Estado financiero</h4>
@@ -177,7 +176,7 @@
 	  </ul>
 	  <h4>Cómo puedo estar seguro que mi donación será usada con propiedad?</h4>
 	  <p>
-	    Todas las donaciones vabn a  The Freenet Project Inc, una 
+	    Todas las donaciones van a The Freenet Project Inc, una 
 	    corporación sin fines de lucro 501c3 con la siguiente 
 	    misión social:
 	    <blockquote>
