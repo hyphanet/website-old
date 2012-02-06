@@ -25,7 +25,7 @@
 	<ul>
 	  <li>
 	    <b>Totalmente descentralizada</b><br/>
-	    La informacion puede ser ingresada en Freenet para descargarla
+	    La información puede ser ingresada en Freenet para descargarla
 	    sin confiar en ningun servidor centralizado.  Todo lo que
 	    hay que hacer es proporcionar la "clave" del contenido a
 	    alguien mas y sera capaz de descargarlo.
