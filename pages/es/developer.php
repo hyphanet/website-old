@@ -161,7 +161,7 @@
     <ul>
     <li>Mantén los cambios cosméticos separados de los cambios funcionales. En 
     particular, mejoras en la indentación y corchetes, si bien son  
-    generalmente aceptables,  <b>no deberían</b> mezclarse con cambios  
+    generalmente aceptables, <b>no deberían</b> mezclarse con cambios  
     funcionales.</li>
     <li>No rompas el código: Cuando publiques tus cambios, fred debería compilar. Idealmente
     cada validación individual deberia compilar.</li>
