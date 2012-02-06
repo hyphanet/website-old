@@ -170,7 +170,7 @@
 	    
 	    <hr width="90%">
 	    <li>Alternativamente, por favor <a href="mailto:ian@freenetproject.org">contáctanos</a> 
-	      si no puedes usar ninguno de esos metodos de pago.</li>
+	      si no puedes usar ninguno de esos métodos de pago.</li>
 	    <li>También puedes contribuir al proyecto comprando un souvenir de la  
 	       <a href="http://cafepress.com/freenetproject/">tienda</a>Freenet.</li>
 	  </ul>
