@@ -1,4 +1,4 @@
-<h2>Conferencia sobre Freenet 0.7 en el 22do Chaos Computer Congress.</h2>
+<h2>Conferencia sobre Freenet 0.7 en el 22do Chaos Computer Congress</h2>
 <p>En Diciembre 2005, Ian Clarke y Oskar Sandberg presentaron el nuevo diseño para Freenet en Berlin.  Aquí esta la charla que dieron:</p>
 <p>
 	<center>
