@@ -22,7 +22,7 @@
       <pre>
 	git clone git://github.com/freenet/fred-staging.git</pre>
 
-      <p>Una vez que hayas clonado el repositorio, para recuperar los ultimos cambios:</p>
+      <p>Una vez que hayas clonado el repositorio, para recuperar los últimos cambios:</p>
       <pre>
 	git pull origin</pre>
 
