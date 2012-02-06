@@ -42,7 +42,7 @@
 	<li>
 	  <a href="understand.html"><strong>Comprendiendo</strong></a><br/>
 	  Explica cómo trabaja Freenet, y un 
-	  glosario con los términos usados mas frecuentemente.
+	  glosario con los términos usados más frecuentemente.
 	</li>
 
 	<li>
