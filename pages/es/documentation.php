@@ -60,7 +60,7 @@
 
 	<li>
 	  <a href="jsite.html"><strong>jSite</strong></a><br/>
-	  jSite es una herramienta para subir sitios web a Freenet  (a.k.a. Freesite).
+	  jSite es una herramienta para subir sitios web a Freenet (a.k.a. Freesite).
 	</li>
 
 	<li>
