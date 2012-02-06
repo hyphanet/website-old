@@ -34,13 +34,13 @@ $(document).ready(function() {
 <!-- Contents -->
 
       <div id="whatistitle" style="margin-bottom: 10px";>
-	<h1>Share, Chat, Browse. Anonymously. On the Free&nbsp;Network.</h1>
+	<h1>Compartir, Convesar, Navegar. Anonimamente. En la Red&nbsp;Libre.</h1>
       </div>
       <div class="whatis">
 	<p>
-	  Share files, chat on forums, browse and publish, anonymously and without fear of blocking or censorship! Then connect to your friends for even better security!
+	  Comparte archivos, conversa en foros, navega y publica, anonomamente y sin temor de bloqueo o censura! Luego conecta a tus amigos para mejorar la seguridad!
 	  <br/>
-	  <a href="whatis.html">Learn more!</a>
+	  <a href="whatis.html">Aprender más!</a>
 	</p>
       </div>
 
@@ -48,7 +48,7 @@ $(document).ready(function() {
 	<div id="screenshot_nojs">
 	     <a href="/image/fN_screenshot.png"><img src="/image/fN_screenshot_small.png"
 	     alt="freenet screenshot" width="383" height="309" /></a>
-	     <p style="text-align: center;"><a href="screenshots.html">More Freenet screenshots</a></p>
+	     <p style="text-align: center;"><a href="screenshots.html">Más capturas de Freenet</a></p>
 	</div>
 	<div id="screenshot_js" style="display: none;">
            <ul id="mycarousel" class="jcarousel-skin-tango">
@@ -63,22 +63,22 @@ $(document).ready(function() {
 
 
       <div id="default" class="whatis" style="clear:left; margin-top: 10px; color: red;">
-      	   <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
+      	   <p>No podemos identificar tu S.O. Por favor activa javascript, o ve a la <a href="download.html">página de descargas</a> para instalar Freenet.</p>
       </div>
 
       <div id="windows" class="sprites download">
    	<a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
    	   <span id="software">Freenet</span>
-   	   <span id="action">Download</span>
-   	   <span id="version">0.7.5 for Windows</span>
+   	   <span id="action">Descarga</span>
+   	   <span id="version">0.7.5 parar Windows</span>
    	</a>
       </div>
 
       <div id="macos" class="sprites download">
         <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
    	   <span id="software">Freenet</span>
-   	   <span id="action">Install</span>
-   	   <span id="version">0.7.5 for Mac OS</span>
+   	   <span id="action">Instalar</span>
+   	   <span id="version">0.7.5 para Mac OS</span>
    	</a>
       </div>
 	
@@ -86,31 +86,31 @@ $(document).ready(function() {
 	     <div class="download sprites">
 	     	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">
 	     	     <span id="software">Freenet</span>
-	     	     <span id="action">Install</span>
-	     	     <span id="version">0.7.5 for Linux/Unix</span>
+	     	     <span id="action">Instalar</span>
+	     	     <span id="version">0.7.5 para GNU/Linux - Unix</span>
 	     	  </a>
 	     </div>
 	     <p style="float: left; clear: left;">
-		If it doesn't work, please refer to the 
-	     	<a href="download.html#unix">installation instructions</a>
+		Si no funciona, por favor visita las 
+	     	<a href="download.html#unix">instrucciones de instalación</a>
 	     </p>
 	</div>
 	
-	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
+	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Instrucciones de instalación e instaladores para otros sistemas.</a></p>
 
 	<div id="donate_button">
-	     <h4>Make a donation</h4>
-	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
-	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
+	     <h4>Haz una donación</h4>
+	     <p>No cobramos a nadie por descargar y usar Freenet, somos una organización sin fines de lucro quienes confiamos en tus donaciones para sobrevivir.</p>
+	     <p>Nuestro balance actual es <b>$MONEYBALANCE</b>.</p>
 <!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">Donate!</a></p>
+	     <p><a href="donate.html">Donar!</a></p>
 	</div>
 
       <div id="news">
-	<h4>Latest news</h4>
+	<h4>Ultimas noticias</h4>
 	<p>
-	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
-	  <a href="news.html">Older news</a>
+	  (13 de Abril 2011) <a href="news.html#freedom-house-april-2011">Freenet máxima herramienta anticensuraen encuesta a usuarios Chinos!</a><br/>
+	  <a href="news.html">Noticias anteriores</a>
 	</p>
       </div>
 

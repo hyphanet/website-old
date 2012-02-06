@@ -1,10 +1,10 @@
-      <h1>Documentation</h1>
+      <h1>Documentación</h1>
       <div id="navigation">
-	<p> Go to :
-	  <a href="install.html">Install</a>
-	  <a href="connect.html">Connect</a>
-	  <a href="content.html">Content</a>
-	  <a href="understand.html">Understand</a>
+	<p> Ir :
+	  <a href="install.html">Instalar</a>
+	  <a href="connect.html">Conectar</a>
+	  <a href="content.html">Contenidos</a>
+	  <a href="understand.html">Comprendiendo</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -15,19 +15,19 @@
 
       <h2>Frost</h2>
       <p>
-	Frost is an application for Freenet that 
-	provides usenet-like message boards and 
-	file uploading/downloading/sharing 
-	functionalities. It should get installed 
-	with Freenet 0.7 automatically if you 
-	used the standard Freenet installers.
+	Frost es una aplicación para Freenet que 
+	brinda tableros de mensajes tipo usenet y 
+	funcionalidades de  subida/descarga/intercambio 
+	de archivos. Debería ser instalado 
+	con Freenet 0.7 automáticamente si has 
+	usado el instalador estandar Freenet.
       </p>
       <p>
-	To run Frost on Linux from the command 
-	line, change to your Freenet install 
-	directory, then change to the frost 
-	subdirectory. Then make the frost.sh
-	file executable, and run it:
+	Para correr Frost en GNU/Linux desde la línea de  
+	comandos, cambia a tu directorio de instalación 
+	 Freenet, luego ve al subdirectorio 
+	frost. dale permisos de ejecución al archivo frost.sh
+	y córrelo:
       </p>
       <pre>
 	cd /home/username/
@@ -35,48 +35,48 @@
 	chmod +x ./frost.sh
 	./frost.sh</pre>
       <p>
-	The first time you start Frost, you will
-	get a number of dialogs. The first ask
-	you if you would like to import old
-	Frost data. If this is the first time you
-	use Freenet at all, you can safely answer
+	La primera vez que inicias Frost, verás
+	un número de diálogos. El primero te pregunta
+	si deseas importar viejos datos
+	de Frost. Si es la primera vez que usas
+	Freenel, puedes responder con seguridad
 	<span style="font-weight: bold;">Clean startup</span> 
-	here.
+	aquí.
       </p>
       <img src="/image/frost/clean-start.png"/>
       <p>
-	Since Freenet is able to run on both Freenet 0.5
-	and the current Freenet 0.7, you will need to
-	specify which version you want to run with. If you
-	have followed the previous install instructions,
-	you will probably want 
+	Desde que Frost ies capaz de correr en  ambas Freenet 0.5
+	y la actual Freenet 0.7, necesitarás
+	especificar con cuál versión lo quieres ejecutar. Si has
+	seguido las instrucciones previas,
+	probablemente quieras 
 	<span style="font-weight: bold;">Freenet 0.7 (Darknet)</span>.
       </p>
       <img src="/image/frost/select-version.png"/>
       <p>
-	Next step is to choose which identidy you want to be
-	known by when using Frost. As it says, it does not
-	have to be unique, but it certainly helps.
+	El paso siguiente es elegir con cual identidad you deseas ser
+	conocido cuando uses Frost. Tal como se aclara, no tiene
+	que ser exclusiva, pero ciertamente ayuda.
       </p>
       <img src="/image/frost/choose-identity.png"/>
       <p>
-	You will then get the main Frost window, where one
-	can participate in the message boards and up/download
-	files. The windows will probably take a while to
-	populate on the first startup.
+	LLegamos a la ventana principal de Frost, donde uno
+	puede participar en el tablón de mensajes y subir/bajar
+	archivos. Las ventanas probablemente tarden un poco
+	en completarse en el primer inicio.
       </p>
       <img src="/image/frost/main-window.png"/>
-      <h3>Sharing files</h3>
+      <h3>Compartiendo archivos</h3>
       <p>
-	Sharing files can be done by clicking the
+	Compartir archivos puede hacerse clickeando la pestaña
 	<span style="font-weight: bold;">Shared files</span>
-	-tab and then clicking on the Folder-icon top left
-	in the appearing tab.
+	y luego clickeando en el ícono con forma de carpeta arriba a la izquierda
+	en la pestaña que aparece.
       </p>
-      <h3>Further information</h3>
+      <h3>Más información</h3>
       <p>
-	Additional information about Frost can be found in
-	the mailing-list or on the official
-	website: <a href="http://jtcfrost.sourceforge.net/">Frost
+	Información adicional sobre Frost puede encontrarse en 
+	la lista de correo o en el sitio web oficial:
+	<a href="http://jtcfrost.sourceforge.net/">Frost
 	Homepage</a>
       </p>

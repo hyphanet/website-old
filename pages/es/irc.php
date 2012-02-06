@@ -1,9 +1,9 @@
-<h1>Chat with us on IRC</h1>
+<h1>Conversa con nosotros en IRC</h1>
 
-<p>Many of the developers and users of Freenet can often be found on an <a href="http://en.wikipedia.org/wiki/IRC">IRC</a> channel,
-#freenet on irc.freenode.org. Almost everyone on the channel is a volunteer, and 
-may be busy with other things, so you may not get an instant answer: <b>Ask your 
-question/say what the problem is, then wait for a few minutes, and somebody 
-may help you</b>.</p>
+<p>Muchos de los desarrolladorez y usuarios de Freenet pueden a menudo ser encontrados en un canal <a href="http://en.wikipedia.org/wiki/IRC">IRC</a>,
+#freenet en irc.freenode.org. Casi todos en el canal son voluntarios, y 
+pueden estar ocupados con otras cosas, así que quizas no tengas una respuesta inmediata: <b>Haz tu 
+pregunta/di cual es el problema, luego espera unos pocos muinutos, y alguien  
+te ayudará</b>.</p>
 
-<a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a>
+<a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Conversa con nosotros</a>
