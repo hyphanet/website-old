@@ -36,7 +36,7 @@
 	    descargado un archivo para compartirlo con otros pares.  Freenet
 	    depositará adaptativamente la informacion sobre pares 
 	    cuanto sea necesario para cubrir la demanda independientemente de lo que hayan 
-	    descargado los pares..
+	    descargado los pares.
 	    Esto permite a Freenet to "escalar" mucho mas rapidamente que 
 	    que la mayoría de las soluciones, y mejora el balance de carga.
 	  </li>
