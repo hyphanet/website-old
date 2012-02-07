@@ -1,88 +1,99 @@
-      <h2>Mailing Lists</h2>
+      <h2>Listas de correo</h2>
       <p>
-	These are the mailing lists that can be used for support or general
-	information about Freenet.
+	Estas son las listas de correo que pueden ser usadas para soporte o información
+	general sobre Freenet.
       </p>
 
-      <h3>Subscribing</h3>
+      <h3>Suscribir</h3>
       <p>
-	To subscribe to one of the lists, click the list name and give your 
-	email address in the field below the <span style="font-weight: bold;">
-	  Subscribing to &lt;mailinglist&gt;</span>
-	header. To enter a password is optional, and if you do not enter one, one will
-	be automatically generated for you. Then press the 
-	<span style="font-weight: bold;">Subscribe</span> button.
-	You will recieve a confirmation email, and when that is answered,
-	you will recieve mails from the list.
+	Para suscribir a una de las listas, haz click en su nombre y escribe tu  
+	dirección de email en el campo bajo el título<span style="font-weight: bold;">
+	  Suscribir a &lt;lista-de-email&gt;</span>
+	Ingresar una clave es opcional, y si no ingresas ninguna, se generará 
+	automáticamente para ti. Luego presiona el botón 
+	<span style="font-weight: bold;">Subscribe</span>.
+	Recibirás un email de confirmación, y cuando lo respondas,
+	recibirás correos de la lista.
       </p>
 
-      <h3>Unsubscribing</h3>
+      <h3>Desuscribir</h3>
 
       <p>
-	To unsubscribe to one of the lists you are subscribed to, click the list name
-	and give your subscription email address under the heading <span style="font-weight: bold;">
-	  &lt;mailinglist&gt; Subscribers</span> and press the button <span style="font-weight: bold;">
-	  Unsubscribe or edit options</span>.
+	Para desuscribir a una de las listas a las que estás suscripto, haz click en el nombre de la lista
+	y escribe tu dirección de correo bajo el título <span style="font-weight: bold;">
+	  &lt;lista-de-email&gt; Suscriptores</span> y presiona el botón <span style="font-weight: bold;">
+	  Desuscribir o editar opciones</span>.
       </p>
 
       <p>
-	<i><b>Note</b>: We constantly get requests of people who want to become unsubscribed.  </i><span style='text-decoration:underline;'>YOU</span><i> have to do that yourself! Just click on the www link provided at the bottom of every mail, enter your e-mail address in the text field in section "Subscribers" and provide your password under the unsubscribe option.  (You can get your password there as well, in case you forgot it.)</i>
+	<i><b>Nota</b>: constantemente recibimos pedidos de gente que quiere desuscribirse.  </i><span style='text-decoration:underline;'>TU</span><i> debes hacerlo por ti mismo! 
+	Simplemente haz click en el enlace provisto al pié de cada correo, ingresa tu dirección de email en el campo de texto en la sección "Suscriptores" y escribe tu clave 
+	bajo la opción desuscribir.  (Puedes recuperar tu clave también, en caso que la hayas olvidado.)</i>
       </p>
       
-      <h3>The lists</h3>
+      <h3>Las listas</h3>
       
       <ul>
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/announce/">Announcements</a>
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/announce/">archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/announce/">older messages</a>)<br/>
-	  Please sign up here to be notified of major Freenet developments, such as announcements of new releases or important bugfixes. This list is moderated and is very low traffic (less than one message per month).
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/announce/">Anuncios</a>
+	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/announce/">archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/announce/">mensajes antiguos</a>)<br/>
+	  Por favor regístrate aquí para ser notificado de importantes desarrollos en Freenet, tal como anuncios de nuevas ediciones o corrección de errores. Esta lista es moderada y de tráfico muy bajo (menos de un mensaje por mes).
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">Support</a>
-	  (<a class="maybeSwitchProtocol" href='https://emu.freenetproject.org/pipermail/support/'>archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/support/">older messages</a>)<br/>
-	  Asking for or giving advice relating to getting Freenet working, 
-	  bug reports, and suggestions on improving the user experience. Requests 
-	  for help are more likely to be heard here than in the other mailing 
-	  lists.  <b>Note: </b> Emails sent to this mailing list from those not 
-	  subscribed to the list must be manually approved, and this can impose 
-	  a delay of several days.  To avoid this delay,
-	  please <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscribe</a>.
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">Soporte</a>
+	  (<a class="maybeSwitchProtocol" href='https://emu.freenetproject.org/pipermail/support/'>archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/support/">mensajes antiguos</a>)<br/>
+	  Solicitar o brindar asesoramiento relativo a tener Freenet funcionando, 
+	  reporte de errores, y sugerencias sobre mejorar la experiencia de usuario. Las solicitudes  
+	  de ayuda tienen más chance de ser escuchadas aquí que en las otras listas de  
+	  correo.  <b>Nota: </b> Emails enviados a esta lista por aquellos no  
+	  suscritos a la misma deberán ser aprobados manualmente, y esto puede imponer 
+	  una demora de varios días. Para evitar esta demora,
+	  por favor <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscribe</a>.
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/tech/">Tech</a>
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/tech/">archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/tech/">older messages</a>)<br/>
-	  This is for general technical discussion of Freenet.  If you want to discuss
-	  longer-term technical ideas about Freenet, please use this list.
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/tech/">Técnica</a>
+	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/tech/">archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/tech/">mensajes antiguos</a>)<br/>
+	  Esta es para una discusión técnica general de Freenet.  Si quieres discutir
+	  ideas técnicas a largo plazo sobre Freenet, por favor usa esta lista.
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Development</a> (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/devl/">archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/devl/">older messages</a>)<br/>
-	  This list is for active developers to discuss bugs, and the implementation 
-	  of near-term new features.  Please only post to this list if you know what 
-	  you are talking about, otherwise use the tech mailing list (see above).
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Desarrollo</a> 
+	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/devl/">archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/devl/">mensajes antiguos</a>)<br/>
+	  Esta lista es de desarrolladores activos para discutir fallas, y la implementacion 
+	  de nuevas características a corto plazo.  Por favor escribe a esta lista solamente si sabes de lo 
+	  que estás hablando, de otro modo usa la lista Técnica (ver arriba).
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/">Darknet-Tools</a> (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/darknet-tools/">archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/darknet-tools/">older messages</a>)<br/>
-	  A mailing list to discuss and develop ways of extending the darknet while keeping it a darknet: 
-	  Instant messenger plugins, IRC plugins, email invitations, functionality in the node needed to 
-	  support these, and any other means of extending the darknet while keeping it a darknet as much as
-	  possible.
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/">Herramientas-Darknet</a> 
+	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/darknet-tools/">archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/darknet-tools/">mensajes antiguos</a>)<br/>
+	  Una lista de correos para discutir y desarrollar formas de extender darknet mientras siga siendo darknet: 
+	  Complementos de mensajería instantánea, complementos IRC, invitaciones de email, funcionalidades en el nodo necesarias para 
+	  soportar esto, y otras maneras de extender la darknet mientras sea darknet tanto como 
+	  posible.
 	</li>
 
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/chat/">archive</a>, <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/chat/">older messages</a>)<br/>
-	  This list is for general discussion of Freenet, topics that are not suitable 
-	  to other lists. Discussions of politics, law, philosophy, lawsuits, 
-	  programming languages, related technology that should not be part of
-	  Freenet, and any thread that the developers and users don't deem appropriate 
-	  to the main lists should be discussed here. Questions such as "How can I prevent 
-	  my node from being used by terrorists?", or "Why don't you rewrite Freenet in C++?"
-	  should be addressed to this list.
+	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> 
+	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/chat/">archivo</a>, 
+	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/chat/">mensajes antiguos</a>)<br/>
+	  Es una lista para discusiones generalesw de Freenet, temas que no son ubicables 
+	  en otras listas. Discusiones de políticas, legales, filosofía, juicios, 
+	  lenguajes de programación, tecnología relacionada que no deberia ser parte de 
+	  Freenet, y cualquier hilo que los desarrolladores y usuarios no juzguen apropiado 
+	  para las listas principales deberan discutirse aquí. Preguntas tales como "Cómo puedo prevenir  
+	  mi nodo de ser usado por terroristas?", o "Por que no reescriben Freenet en C++?"
+	  deberían dirigirse a esta lista.
 	</li>
       </ul>
       <p>
-	<i><b>Third party tools</b>: We are hosting some other mailing lists on our server here is the <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/">full list</a>.</i>
+	<i><b>Herramientas de terceras partes</b>: Alojamos algunas otras listas de correo en nuestro servidor, aquí está la <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/">lista completa</a>.</i>
       </p>

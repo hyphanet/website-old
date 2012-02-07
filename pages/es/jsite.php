@@ -1,10 +1,10 @@
-      <h1>Documentation</h1>
+      <h1>Documentación</h1>
       <div id="navigation">
-	<p> Go to :
-	  <a href="install.html">Install</a>
-	  <a href="connect.html">Connect</a>
-	  <a href="content.html">Content</a>
-	  <a href="understand.html">Understand</a>
+	<p> Ir :
+	  <a href="install.html">Instalar</a>
+	  <a href="connect.html">Conectar</a>
+	  <a href="content.html">Contenidos</a>
+	  <a href="understand.html">Comprendiendo</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -15,123 +15,121 @@
 
       <h2>jSite</h2>
       <p>
-	jSite is a graphical application that you can 
-	use to create, insert and manage your own 
-	Freenet sites. It was written in Java by Bombe. 
+	jSite es una aplicación gráfica que puedes usar 
+	para crear, insertar y administrar tus propios 
+	sitios Freenet. Fué escrita en Java por Bombe. 
       </p>
       <p>
-	You can <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">download jSite here</a>
+	Puedes <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">descargar jSite aquí</a>
       </p>
-      <h3>Starting jSite</h3>
+      <h3>Iniciando jSite</h3>
       <p>
-	To start jSite, type the following in a terminal:
+	Para iniciar jSite, escribe lo siguiente en una terminal:
       </p>
       <pre>
 	java -jar jSite.jar</pre>
       <p>
-	The first window you see is this:
+	La primer ventana que ves es esta:
       </p>
       <img src="/image/jsite/select-project.png" width="100%"/>
       <p>
-	In the pane to the left, already created projects can
-	be selected for updating, deleting or cloning. Since
-	this is the first start, no such projects exist.
+	En el panel de la izquierda, algunos proyectos creados pueden
+	ser seleccionados para actualización, borrado o duplicado. Ya que
+	este es el primer inicio, tales proyectos no existen.
       </p>
-      <h3>Creating a Freesite</h3>
+      <h3>Creando un Freesite</h3>
       <p>
-	To create a new Freesite, you click the 
-	<span style="font-weight: bold;">Add project</span>-button. 
-	You then need to fill in the details of the 
-	project. Under the Project information-section:
+	Para crear un nuevo Freesite, haz click en el botón
+	<span style="font-weight: bold;">Agregar proyecto</span>. 
+	Luego necesitas llenar los detalles del proyecto.
+	Bajo la sección información del Proyecto:
       </p>
       <ul>
-	<li><span style="font-weight: bold;">Name</span> 
-	  - this is just a name for you to know the 
-	  project, so anything will do. It may contain spaces.</li>
-	<li><span style="font-weight: bold;">Description</span> 
-	  - again, just a slightly longer 
-	  description of the project for you own convenience.</li>
-	<li><span style="font-weight: bold;">Local Path</span> 
-	  - This is a directory where you will 
-	  store all the pages of the freesite you are creating. 
-	  Put in the full path. You can click the Browse button 
-	  to select a directory graphically or just type it in.</li>
+	<li><span style="font-weight: bold;">Nombre</span> 
+	  - es sólo un nombre para que identifiques el  
+	  proyecto, puede servir cualquiera. Puede contener espacios.</li>
+	<li><span style="font-weight: bold;">Descripción</span> 
+	  - nuevamente, sólo una descripción
+	  breve del proyecto para tu conveniencia.</li>
+	<li><span style="font-weight: bold;">Ruta Local</span> 
+	  - el directorio donde almacenarás 
+	  todas las páginas del Freesite que estás creando. 
+	  Ingresa la ruta completa. Puedes hacer click en el botón Browse 
+	  para seleccionar un directorio graficamente o simplemente escríbelo.</li>
       </ul>
       <p>
-	Under the Address-section, there are some automatically 
-	generated entries, and the human readable name for the 
-	site, as seen in the address-field of the browser:
+	Bajo la sección Dirección, hay algunas entradas generadas 
+	automáticamente, y el nombre del sitio, 
+	como se muestra en la barra de direcciones del navegador:
       </p>
       <ul>
 	<li><span style="font-weight: bold;">Request URI</span> 
-	  - this is filled in automatically and 
-	  should be a long string of seemingly random characters</li>
+	  - se llena automáticamente y 
+	  y debería ser una cadena de caracteres larga que parecen aleatorios</li>
 	<li><span style="font-weight: bold;">Insert URI</span> 
-	  - this is also filled in automatically 
-	  and will look similar to the Request URI.. </li>
-	<li><span style="font-weight: bold;">Path</span> 
-	  - You need to enter a single word here without 
-	  spaces. This will appear at the end of the address of 
-	  your site. You can't leave this blank.</li>
+	  - se llena automáticamente y 
+	  se ve similar a Request URI. </li>
+	<li><span style="font-weight: bold;">Ruta</span> 
+	  - Necesitas ingresar una sola palabra aquí sin 
+	  espacios. Aparecerá al final de la dirección de 
+	  tu sitio. No puedes dejarla en blanco.</li>
       </ul>
       <p>
-	Below is an example of how it might look:
+	Debajo hay un ejemplo de cómo se vería:
       </p>
       <img src="/image/jsite/project-details.png" width="100%"/>
-      <p>When everything is filled in correctly, you may
-	press <span style="font-weight: bold;">Next</span>.
+      <p>Cuando todo se haya completado correctamente, debes
+	presionar <span style="font-weight: bold;">Siguiente</span>.
       </p>
       <p>
-	The next step is to add files to your Freenet site 
-	(or Freesite). This is done in the dialog called
-	<span style="font-weight: bold;">Project Files</span>. 
-	Since we have no files in the current directory, yet,
-	the dialog is pretty much empty.</p>
+	El paso siguiente es agregar archivos a tu sitio Freenet 
+	(o Freesite). Esto se hace en la caja de diálogo llamada 
+	<span style="font-weight: bold;">Archivos de Proyecto</span>. 
+	Ya que no tenemos archivos en el directorio actual, aún,
+	el diálogo esta vacío.</p>
       <img src="/image/jsite/project-files.png" />
       <p>
-	To add files, we put some files in the local directory
-	we specified earlier, <span style="font-weight: bold;">
-	  /home/test</span>, and press <span style="font-weight: bold;">
-	  Re-scan</span>. Then, presto, the files appear.
+	Para agregar archivos, pongamos algunos archivos en el directorio local
+	que especificamos antes, <span style="font-weight: bold;">
+	  /home/test</span>, y presionamos <span style="font-weight: bold;">
+	  Re-scan</span>. luego, presto, aparecen los archivos.
       </p>
       <img src="/image/jsite/default-file.png" />
       <p>
-	We then highlight one of these files that will be 
-	the default page (e.g. index.html might be a good 
-	choice) and check the <span style="font-weight: bold;">
-	  Default file</span> checkbox. It should recognise the 
-	MIME type as text/html, so leave everything else as 
-	they are and click the <span style="font-weight: bold;">
-	  
-	  Insert now</span> button.
+	Luego resaltamos uno de estos archivos que será 
+	la página por defecto (ej. index.html sería una buena 
+	elección) y marcamos el checkbox <span style="font-weight: bold;">
+	  Default file</span>. Debería reconocer el  
+	MIME type como text/html, así que deja todo como está 
+	y haz click en elbotón <span style="font-weight: bold;">
+	  Insert now</span>.
       </p>
       <p>
-	If all goes well, a window like the one below should
-	appear. It may take quite a while to insert the Freesite,
-	several minutes in fact.
+	Si todo fué bien, una ventana como la siguiente debería
+	aparecer.Puede tardar un buen rato insertar el Freesite,
+	varios minutos de hecho.
       </p>
       <img src="/image/jsite/project-insert.png" width="100%"/>
       <p>
-	When all is finished, you will get a message pop-up that
-	tells you that the site has been inserted successfully.
-	You can copy the URI to the clip-board by clicking the
-	<span style="font-weight: bold;">Copy URI to Clipboard</span>
-	-button.
+	Cuando todo esté terminado, verás un mensaje emergente que
+	te dice que el sitio ha sido insertado exitosamente.
+	Puedes copiar la URI en el portapapeles haciendo click en el botón
+	<span style="font-weight: bold;">Copiar URI al Portapapeles</span>.
       </p>
       <p>
-	Then you can use FProxy to surf to your newly created
-	Freesite. Just paste the URI after the
+	Luego puedes usar FProxy para navegar tu recientemente creado
+	Freesite. Sólo pega la URI después del 
       </p>
 
       <p>
 	<a href="http://localhost:8888/">http://localhost:8888/</a>
       </p>
       <p>
-	in the browser address bar, like this (cut for screen
-	purposes):
+	en la barra de direcciones del navegador,como esto (recortado para
+	la pantalla):
       </p>
       <pre>
 	http://localhost:8888/freenet:USK@cJNO6G0[..]joM,AQACAAE/watergate2/1/</pre>
       <p>
-	If it works, congratulations, you have just created your first Freesite!
+	Si funciona, felicitaciones, has creado tu primer Freesite!
       </p>
