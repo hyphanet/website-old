@@ -1,217 +1,213 @@
-      <h1> The Philosophy behind Freenet </h1>
-      <h6> By Ian Clarke </h6>
+      <h1> La filosofía detrás de Freenet </h1>
+      <h6> Por Ian Clarke </h6>
       <p>
 	<ol>
-	  <li><a href="#disclaimer">A Disclaimer</a></li>
-	  <li><a href="#prior_reading">Suggested prior reading</a></li>
-	  <li><a href="#free_flow_info">The importance of the Free flow of
-	      information</a></li>
-	  <li><a href="#censor_freedom">Censorship and freedom</a></li>
+	  <li><a href="#disclaimer">Un descargo</a></li>
+	  <li><a href="#prior_reading">Lecturas previas sugeridas</a></li>
+	  <li><a href="#free_flow_info">La importancia del Libre flujo de información</a></li>
+	  <li><a href="#censor_freedom">Censura y libertad</a></li>
 	  <!-- to be continued... -->
-	  <li><a href="#solution">The solution</a></li>
-	  <li><a href="#is_censorship_necessary">Isn't censorship sometimes necessary?</a></li>
-	  <li><a href="#why_anonymity">But why is anonymity necessary?</a></li>
-	  <li><a href="#copyright">And what of copyright?</a></li>
-	  <li><a href="#rewarded">But how will artists be rewarded for their work without copyright?</a></li>
-	  <li><a href="alternative">Alternatives to Copyright</a></li>
-	      Fairshare</a></li>
+	  <li><a href="#solution">La solución</a></li>
+	  <li><a href="#is_censorship_necessary">No es la censura necesaria a veces?</a></li>
+	  <li><a href="#why_anonymity">Pero por qué es necesario el anonimato?</a></li>
+	  <li><a href="#copyright">Y qué del copyright?</a></li>
+	  <li><a href="#rewarded">Pero cómo serán los artistas recompensados por su trabajo sin copyright?</a></li>
+	  <li><a href="alternative">Alternativas al Copyright</a></li>
 	</ol>
       </p>
 
-      <a name="disclaimer"><h3> 1. A Disclaimer </h3></a>
+      <a name="disclaimer"><h3> 1. Un descargo </h3></a>
       <p>
-	There are many reasons why people get involved in the Freenet
-	Project. Some share the views outlined in this document; some
-	share variations of these views, which are also served by what
-	we are trying to achieve; and some just enjoy the technical
-	challenge. These are the ideas which motivated me to architect
-	the system in the first place, but not necessarily the views
-	that everyone involved in the Freenet project holds.
+	Hay muchas razones por qué la gente se involucra con el Proyecto 
+	Freenet. Algunas comparten los puntos de vista delineados en este documento; algunas
+	comparten variantes de estos puntos de vista, los cuales tambien se sirven
+	de lo que queremos alcanzar; y algunas simplemente disfrutan del reto
+	tecnológico. Estas son las ideas que me motivaron a diseñar
+	el sistema en primer lugar, pero no necesariamente la visión
+	que tiene cada uno de los involucrados en el Proyecto Freenet.
       </p>
 	
-      <a name="prior_reading"><h3> 2. Suggested prior reading </h3></a>
+      <a name="prior_reading"><h3> 2. Lecturas previas sugeridas </h3></a>
       
       <p>
-	For this document to make sense, you should probably know what
-	Freenet is. You can get a good overview on
-	the <a href="/whatis.html">What is Freenet?</a> page.
+	Para que este documento tenga sentido, probablemente deberías saber qué
+	es Freenet. Puedes tener una buena descripción en 
+	la página <a href="/whatis.html">Qué es Freenet?</a>.
       </p>
       
-      <a name="free_flow_info"><h3> 3. The importance of the Free flow of information  </h3></a>
+      <a name="free_flow_info"><h3> 3. La importancia del Libre flujo de información  </h3></a>
       
       <p>
-	Freedom of speech, in most western cultures, is generally
-	considered to be one of the most important rights any
-	individual might have. Why is the freedom to share ideas and
-	opinions so important? There are several ways to answer this
-	question. 
+	Libertad de expresión,en la mayoría de las culturas occidentales,es generalmente
+	considerado ser uno de los derechos mas importantes que 
+	un individuo puede tener.Por que'es la libertad para compartir ideas y
+	opiniones tan importante? hay varias formas de responder a esta
+	pregunta.
       </p>
       
-      <h4> 3.1 Communication is what makes us human </h4>
+      <h4> 3.1 La comunicación es lo que nos hace humanos </h4>
 
       <p>
-	One of the most obvious differences between mankind and the rest of the
-	animal kingdom is our ability to communicate sophisticated and abstract
-	concepts. While we constantly discover that animal's communication
-	ability is more sophisticated than previously assumed, it is unlikely
-	that any other animal approaches our own level of ability in this area.
+	Una de las diferencias mas obvias ente la humanidad y el resto del
+	reino animal es nuestra habilidad para comunicar conceptos sofisticados y
+	abstractos. Mientras constantemente descubrimos que la habilidad de comunicación 
+	de los animales es más sofisticada de lo que asumíamos previamente, es inverosímil
+	que cualquier otro animal se acerque a nuestro nivel de habilidad en esa área.
       </p>
       
-      <h4> 3.2 Knowledge is good </h4>
+      <h4> 3.2 El conocimiento es bueno </h4>
       
       <p>
-	Most people, given the option of knowing something and not knowing
-	something, will choose to have more information rather than less. Wars
-	have been won and lost over who was better-informed. This is because
-	being better-informed allows us to make better decisions, and generally
-	improve our ability to survive and be successful.
+	La mayoría de la gente, dada la opción de conocer algo y no conocer
+	algo, elegirá tener más información antes que menos. Las guerras
+	han sido ganadas y perdidas por aquel que estaba mas informado. Esto es porque
+	estando mejor informados nos permite tomar mejores decisiones, y generalmente
+	mejora nuestra habilidad de sobrevivir y tener éxito.
       </p>
       
-      <h4> 3.3 Democracy assumes a well informed population </h4>
+      <h4> 3.3 Democracia asume una población bien informada </h4>
 	
       <p>
-	Many people today live under democratic governments, and those who
-	don't, probably want to. Democracy is an answer to the question of how
-	to create leaders, while preventing them from abusing that power. It
-	achieves this by giving the population the power to regulate their
-	government through voting, yet the ability to vote does not necessarily
-	mean that you live in a democratic country. For a population to
-	regulate their government effectively it must know what their
-	government is doing, they must be well informed. It is a feedback loop,
-	but this loop can be broken if the government has the power to control
-	the information the population has access to.
+	Mucha gente hoy vive bajo gobiernos democráticos, y aquellos que
+	no, probablemente quieran. Democracia es una respuesta a la pregunta de como
+	crear líderes, mientras los prevenimos de abusar de ese poder. Esto
+	se consigue dando a la población el poder de regular a sus
+	gobiernos a traves del voto, con todo, la habilidad de votar no necesariamente
+	significa que vivas en un país democrático. Para que una población pueda
+	regular a su gobierno efectivamente debe saber lo que sus
+	gobernantes están haciendo, deben estar bien informados. Es un ciclo de realimentación,
+	pero este ciclo puede romperse si el gobierno tiene el poder de controlar
+	la información a la que la población tiene acceso.
       </p>
 
-      <a name="censor_freedom"><h3> 4. Censorship and freedom </h3></a>
+      <a name="censor_freedom"><h3> 4. Censura y libertad </h3></a>
 
       <p>
-	Everyone values their freedom, in fact, many consider it so important
-	that they will die for it. People like to think that they are free to
-	form and hold whatever opinions they like, particularly in western
-	countries. Consider now that someone had the ability to control the
-	information you have access to. This would give them the ability to
-	manipulate your opinions by hiding some facts from you, by presenting
-	you with lies and censoring anything that contradicted those lies. This
-	is not some Orwellian fiction, it is standard practice for most western
-	governments to lie to their populations, so much so, that people now
-	take it for granted, despite the fact that this undermines the very
-	democratic principles which justify the government's existence in the
-	first place. 
+	Todos aprecian su libertad, de hecho, muchos la consideran tan importante
+	que morirían por ella. A la gente le gusta pensar que son libres de
+	forjar y mantener cualquier opinion que les guste, particularmente en los paises
+	occidentales. Considera ahora que algunos tuvieran la habilidad de controlar la
+	información a la que tienes acceso. Esto les daría la habilidad de
+	manipular tus opiniones ocultandote algunos hechos, presentándote
+	mentiras y censurando cualquier cosa que contradiga esas mentiras. Esto
+	no es una ficción Orwelliana, es una práctica corriente para la mayoría de los gobiernos
+	occidentales mentirle a sus pueblos, tanto así, que la gente ahora
+	lo da por hecho, desafiando el hecho de que esto socava los 
+	verdaderos principios democráticos los cuales justifican la existencia de los gobiernos en
+	primer lugar. 
       </p>
 
-      <a name="solution"><h3> 5. The solution </h3></a>
+      <a name="solution"><h3> 5. La solución </h3></a>
 
       <p>
-	The only way to ensure that a democracy will remain effective
-	is to ensure that the government cannot control its
-	population's ability to share information, to communicate. So
-	long as everything we see and hear is filtered, we are not
-	truly free. Freenet's aim is to allow two or more people who
-	wish to share information, to do so.
+	La única manera de asegurar que una democracia permanezca efectiva
+	es asegurar que el gobierno no pueda controlar la capacidad de la población
+	de compartir información,de comunicarse. Absolutamente todo
+	lo que vemos y oimos está filtrado, no somos verdaderamente libres.
+	La meta de Freenet es permitir a dos o más personas que
+	desean compartir información, hacerlo.
       </p>
 
-      <a name="is_censorship_necessary"<h3> 6. Isn't censorship sometimes necessary? </h3></a>
+      <a name="is_censorship_necessary"><h3> 6. No es la censura necesaria a veces? </h3></a>
       <p>
-	Of course no issue is black and white, and there are many who feel that
-	censorship is a good thing in some circumstances. For example, in some
-	European countries propagating information deemed to be racist is
-	illegal. Governments seek to prevent people from advocating ideas which
-	are deemed damaging to society. There are two answers to this however.
-	The first is that you can't allow those in power to impose "good"
-	censorship, without also enabling them to impose "bad" censorship. To
-	impose any form of censorship a government must have the ability to
-	monitor and thus restrict communication. There are already criticisms
-	that the anti-racism censorship in many European countries is hampering
-	legitimate historical analysis of events such as the second
-	world war. 
+	Por supuesto, el asunto no es en blanco y negro, y hay muchos quienes sienten que
+	la censura es una cosa buena en algunas circunstancias. Por ejemplo, en algunos 
+	países Europeos difundir informacion juzgada como racista es ilegal
+	Los gobernantes buscan prevenir a la gente de sostener ideas que
+	son consideradas dañinas para la sociedad. Hay dos respuestas a esto, sin embargo.
+	La primera es que no puedes permitir a aquellos en el poder imponer "buena"
+	censura, sin habilitarlos también a imponer "mala" censura. Para
+	imponer cualquier forma de censura un gobierno debe tener la capacidad de
+	monitorear y luego restringir la comunicación. Ya hay críticas de que 
+	la censura anti-rcista en varios países Europeos está obstaculizando
+	el legítimo análisis histórico de evntos tales como la segunda
+	guerra mundial. 
       </p>
 
       <p>
-	The second argument is that this "good" censorship is
-	counter-productive even when it does not leak into other areas. For
-	example, it is generally more effective when trying to persuade someone
-	of something to present them with the arguments against it, and then
-	answer those arguments. Unfortunately, preventing people from being
-	aware of the often sophisticated arguments used by racists, makes them
-	vulnerable to those arguments when they do eventually
-	encounter them. 
+	El segundo argumento es que la "buena" censura es
+	contra-producente aún cuando no caiga en otras áreas. Por
+	ejemplo, es generalmente más efectiva cuando trata de persuadir a alguien
+	de algo presentandolo con argumentos en contra, y luego
+	responder a esos argumentos. Desafortunadamente, advertir a la gente de 
+	ser conciente de estos a menudo sofisticados argumentos usados por los racistas, los hace
+	vulnerables a esos argumentos cuando eventualmente
+	los encuentran. 
       </p>
 
       <p> 
-	Of course the first argument is the stronger one, and would
-	still hold-true even if you didn't accept the second. Basically, you
-	either have censorship, or you don't. There is no
-	middle-ground.
+	Por supuesto el primer argumento es el más sólido, y debería 
+	mantener su validez  aún si no aceptas el segundo Basicamente, o bien
+	estás censurado, o no lo estás. No hay intermedios.
       </p>
 
-      <a name="why_anonymity"><h3> 7. But why is anonymity necessary? </h3></a>
+      <a name="why_anonymity"><h3> 7. Pero es el anonimato necesario? </h3></a>
 
       <p>
-	You cannot have freedom of speech without the option to remain
-	anonymous. Most censorship is retrospective, it is generally much
-	easier to curtail free speech by punishing those who exercise it
-	afterward, rather than preventing them from doing it in the first
-	place. The only way to prevent this is to remain anonymous. It is a
-	common misconception that you cannot trust anonymous information. This
-	is not necessarily true, using digital signatures people can create a
-	secure anonymous pseudonym which, in time, people can learn to trust.
-	Freenet incorporates a mechanism called "subspaces" to facilitate this. 
+	No puedes tener libertad de expresión sin la opción de mantenerte
+	anónimo. La mayoría de la censura es retrospectiva, es generalmente más 
+	fácil acortar el discurso libre castigando a a quellos que lo ejercen
+	a posteriori, antes que advertirlos de hacerlo en primer lugar.
+	La única forma de prevenir esto es mantenerse anónimo. Es un 
+	error de concepto común que no puedes confiar en la información anónima. Esto
+	no es necesariamente cierto, usando firmas digitales las personas pueden crear un
+	seudónimo anónimo seguro el cual, con el tiempo, la gente puede aprender a confiar.
+	Freenet incorpora un mecanismo llamado "subespacios" para facilitar esto. 
       </p>
       
-      <a name="copyright"><h3> 8. And what of copyright? </h3></a>
+      <a name="copyright"><h3> 8. Y qué del copyright? </h3></a>
 
       <p>
-	Of course much of Freenet's publicity has centered around the issue of
-	copyright, and thus I will speak to it briefly. The core problem with
-	copyright is that enforcement of it requires monitoring of
-	communications, and you cannot be guaranteed free speech if someone is
-	monitoring everything you say. This is important, most people fail to
-	see or address this point when debating the issue of copyright, so let
-	me make it clear:
-	<center>You cannot guarantee freedom of speech and enforce
-	copyright law</center> 
+	Por supuesto mucho de la publicidad sobre Freenet sobre el tema del
+	copyright, así que hablará brevemente. El problema central con el 
+	copyright es que la aplicación de este requiere el monitoreo de las
+	comunicaciones, y no puedes garantizar la libertad de expresión si alguien está
+	monitoreando todo lo que dices. Esto es importante, la mayoría de la gente falla al
+	ver o tratar este punto cuando debaten el tema del copyright, así que permíteme
+	ponerlo en claro:
+	<center>No puedes garantizar libertad de expresión y aplicar leyes de 
+	copyright.</center> 
       </p>
       <p>
-	It is for this reason that Freenet, a system designed to
-	protect Freedom of Speech, must prevent enforcement of
+	Es por esta razón que Freenet, un sistema diseñado para
+	proteger la Libertad de Expresión, debe prevenir la aplicacioón del
 	copyright.
       </p>
 
-      <a name="reward"><h3> 9. But how will artists be rewarded for their work without copyright? </h3></a>
+      <a name="reward"><h3> 9. Pero cómo serán los artistas recompensados por su trabajo sin copyright? </h3></a>
       
       <p>
-	Firstly, even if copyright were the only way that artists could be
-	rewarded for their work, then I would contend that freedom is more
-	important than having professional artists (those who claim that we
-	would have no art do not understand creativity: people will always
-	create, it is a compulsion, the only question is whether they can do it
-	for a living).
+	Primeramente, aún si el copyright fuera la única manera que el artista pudiera ser
+	recompensado por su tarea, yo afirmaría que la libertad es más 
+	importante que tener artistas profesionales (aquellos quienes claman que no
+	tendríamos arte no comprenden la creatividad: las personas siempre
+	crean, Es una compulsión, la única cuestión si podrían hacerlo para 
+	vivir).
       </p>
       <p>
-	Secondly, it could be questioned whether copyright is
-	effective even now. The music industry is one of the most vocally
-	opposed to enhancements in communication technology, yet according to
-	many of the artists who should be rewarded by copyright, it is failing
-	to do so. Rather it has allowed middle-men to gain control over the
-	mechanisms of distribution, to the detriment of both artists and the
-	public.
+	En segundo lugar, podría cuestionarse si el copyright es
+	efectivo aún ahora. La industria de la música es una de las mayores 
+	oponentes a las mejoras en la tecnología de las comunicaciones, de acuerdo a
+	muchos de los artistas quienes deberían ser recompensados por el copyright, está fallando 
+	en hacerlo. De preferencia ha permitido a los intermediarios ganar control sobre los
+	mecanismos de distribución, en detrimento de artistas y público.
       </p>
       
-      <a name="alternative"><h3> 10. Alternatives to Copyright </h3></a>
+      <a name="alternative"><h3> 10. Alternativas al Copyright </h3></a>
       
       <p>
-	Fortunately it won't come to this. There are many alternative ways to
-	reward artists. The simplest is voluntary payment. This is an extension
-	of the patronage system which was frequently used to reward artists
-	prior to copyright, where a wealthy person would fund an artist to
-	allow them to create full-time. The Internet permits an interesting
-	extension of this idea, where rather than having just one wealthy
-	patron, you could have hundreds of thousands, contributing small
-	amounts of money over the Internet.
+	Hay muchas vías alternativas para
+	recompensar a los artistas. La más simple es el pago voluntario. Esto es una extensión
+	del sistema de patrocinio el cual fué frecuentemente usado para recompensar artistas
+	previo al copyright, dónde una persona rica podía financiar a un artista para
+	permitirle crear full-time. Internet permite una interesante 
+	extensión de esta idea, donde preferible que tener sólo un patrón
+	rico, puedes tener cientos de miles, contribuyendo pequeñas cantidades
+	de dinero por internet.
       </p>
       <p> 
-	We actually practice what we preach in this regard too, on the
-	15th of March 2001 the Freenet Project started taking donations, and
-	within a week we had collected over $1000. 
+	Actualmente practicamos lo que predicamos a este respecto también, al
+	15 de Marzo de 2001 el Proyecto Freenet comenzó a recibir donaciones, y
+	en una semana habíamos recolectado más de $1000. 
       </p>
       

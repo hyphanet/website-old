@@ -1,115 +1,111 @@
       <div id="main">
-	<h1>Freenet Sponsorship</h1>
+	<h1>Patrocinio de Freenet</h1>
 	
 	<p>
-	  The following persons, organisations and companies have generously
-	  sponsored this project through donations or discounts on
-	  hardware and services:
+	Las siguientes personas, organizaciones y compañías han patrocinado 
+	  generosamente este proyecto mediante donaciones o descuentos en 
+	  hardware y servicios:
 	</p>
 	<ul>
 	  <li>
 	    <a href="http://onemansblog.com/">John Pozadzides</a><br/>
-	    John is the founder of HTMLHelp.com and former Vice
-	    President of Sales for SAVVIS Communications.  John has
-	    donated $10,000 to the Freenet Project to fund ongoing
-	    development of the Freenet software.
+	    John es el fundador de HTMLHelp.com y anterior Vice
+	    Presidente de Ventas de SAVVIS Communications.  John ha
+	    donado $10,000 al Proyecto Freenet para financiar el desarrollo en 
+	    marcha del software Freenet .
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.webhostingsearch.com/">Web Hosting Search</a><br/>
-	    WebHostingSearch is a top rated guide to various world wide web hosting companies.
-	    Mr Chris Reynolds and the friendly team behind this company have become one of our proud promoters.
+	    WebHostingSearch es una guía muy conocida a varias compañias de alojamiento WWW.l
+	    Mr Chris Reynolds y el amigable equipo tras su empresa se han convertido en uno de nuestros orgullosos promotores.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.toad.com/gnu/">John Gilmore</a><br/>
-	    John Gilmore is one of the founders of the Electronic
-	    Frontier Foundation, the Cypherpunks mailing list, and
-	    Cygnus Solutions. He created the alt.* hierarchy in Usenet
-	    and is a major contributor to the GNU project. He has
-	    donated $10,000.
+	    John Gilmore es uno de los fundadores de  Electronic
+	    Frontier Foundation, la lista de correo de  Cypherpunks, y
+	    Cygnus Solutions. Ha creado el  alt.* hierarchy en Usenet
+	    y es un gran contribuyente al proyecto GNU. El ha 
+	    donado $10,000.
 	  </li>
 	  
 	  <li>
 	    <a href="http://bytemark.co.uk/">Bytemark Hosting</a><br/>
-	    Bytemark provides discounted hosting facilities to Freenet and comes with 
-	    our highest recommendation.
+	    Bytemark provee facilidades de descuentos en el alojanmiento de Freenet y viene con 
+	    nuestra más alta recomendación.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.zoozle.org/">zoozle Torrent Search</a><br/>
-	    zoozle is a search engine for BitTorrent and P2P networks. It is also
-	    available in <a href="http://www.zoozle.net/"
-			    title="deutsche Torrent Suchmaschine">german</a>
-	    and <a href="http://www.zoozle.biz/" title="le moteur
-							français de recherche pour BitTorrent">french</a>. They have
-	    donated $1,500.
+	    zoozle es un buscador de redes BitTorrent y P2P. También
+	    disponible en  <a href="http://www.zoozle.net/" title="deutsche Torrent Suchmaschine">alemán</a>
+	    y <a href="http://www.zoozle.biz/" title="le moteur français de recherche pour BitTorrent">francés</a>. Han
+	    donado $1,500.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.yourkit.com/">YourKit, LLC</a><br/>
-	    YourKit is kindly supporting Freenet by providing us a free
-	    of charge license of its full-featured Java
-	    Profiler. YourKit, LLC is the creator of innovative and
-	    intelligent tools for profiling Java applications. You can
-	    learn more
-	    about <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit
-	      Java Profiler</a> following the link.
+	    YourKit amablemente está apoyando Freenet proveyéndonos una licencia
+	    sin cargo de su  Java Profiler completamente equipado.
+	    YourKit, LLC es el creador de innovadoras e 
+	    inteligentes herramientas para el diseño de aplicaciones Java. Puedes
+	    aprender más sobre <a href="http://www.yourkit.com/java/profiler/index.jsp">YourKit
+	      Java Profiler</a> siguiendo el enlace.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.google.com/">Google</a><br/>
-	    Google <a href="http://code.google.com/">open source</a> have three times donated $18,000,
-	    as well as paying for students to work with us over summer for four years 
-	    through the <a href="http://code.google.com/soc/">Summer of Code</a> 
-	    programme.
+	    Google <a href="http://code.google.com/">open source</a> ha donado ters veces $18,000,
+	    además ha becado estudiantes para trabajar con nosotros en el verano por cuatro años 
+	    mediante el programa  <a href="http://code.google.com/soc/">Summer of Code</a>.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.finanzvergleich.de">Finanzvergleich</a><br/> 
-	    Finanzvergleich is a German financial services comparison
-	    site, who have contributed $1,500.
+	    Finanzvergleich es un sitio de servicios de comparación financiera
+	    Alemán, que ha contribuído con $1,500.
 	  </li>
 	  
 	  <li>
 	    <a href="http://www.topdir.de" title="Top Directory">TopDir</a><br/>
-	    TopDir is a human edited web directory with informations about
-	    interesting topics and websites in the German language.
+	    TopDir es un portal con informaciones sobre
+	    tópicos interesantes y sitios web en lenguaje Alemán.
 	  </li>
 
 	  <li>
-	    <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> and
+	    <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> y
 	    <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
-	    Another generous sponsor.
+	    Otro generoso donante.
 	  </li>
 
 	  <li>
-	    <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - another generous sponsor.
+	    <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - otro patrocinante generoso.
 	  </li>
 
 	  <li>
-	    <a href="http://www.gartenheinz.de" title="A German Site for Gardening and Plants">A German Site for Gardening and Plants</a> - another generous sponsor.
+	    <a href="http://www.gartenheinz.de" title="A German Site for Gardening and Plants">A German Site for Gardening and Plants</a> - otro patrocinante generoso.
 	  </li>
 	
 	  <li>
 	    <a href="http://www.easy-carhire.com/">Easy Car Hire</a><br>
-	    Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
+	    Easy Car Hire ha apoyado generosamente Freenet ayudándonos con algunas de nuestras expensas administrativas a traves de los años.
 	  </li>
 	
 	  <li>
 	    <a href="http://www.sportsden.ie/">The Sports Den</a><br/>
-	    The Sports Den has a wide variety of outdoor sports equipment, they are
-	    based in Ireland but can ship to the UK, Europe, and the United States.
+	    The Sports Den tiene una amplia variedad de equipos de deportes al aire libre, se 
+	    encuentran en Irlanda pero pueden enviar a UK, Europa, y los Estados Unidos.
 	  </li>
 	  
 	</ul>
 
 	<p>
-	  Freenet Project Inc does not necessarily endorse the business activities of all of the companies listed on this page.
+	  Freenet Project Inc. no necesariamente aprueba las actividades de negocios de todas las compañias listadas en esta página
 	</p>
 
 	<p>
-	  Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
+	  Para consultar por donaciones por favor contacta a <a href="mailto:ian@locut.us">Ian
 	    Clarke</a>
 	</p>
 	

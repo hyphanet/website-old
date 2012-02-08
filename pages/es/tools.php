@@ -1,43 +1,47 @@
-<h2>Tools</h2>
-<h3>Freenet 0.7 applications</h3>
+<h2>Herramientas</h2>
+<h3>Aplicaciones Freenet 0.7</h3>
 <br />
 <p><a class="maybeSwitchProtocol" href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
-Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
+Thaw es una aplicación para compartir archivos, para agregar cosas, y bajar cosas de Freenet. Las nuevas versiones implementan soporte "index", para aprender más sobre este, 
+sugiero que visites la <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>página wiki deThaw</a>.
 </p>
 
 <p><b>Freemail</b><br />
 <br />
-Freemail provides anonymous e-mail over Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@xOg49GNltumTJJzj0fVzuGDpo4hJUsy2UsGQkjE7NY4,EtUH5b9gGpp8JiY-Bm-Y9kHX1q-yDjD-9oRzXn21O9k,AQACAAE/freemail/2/'>Freemail freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+Freemail provee email anónimo sobre Freenet. Visita el  <a class='wiki'  href='http://127.0.0.1:8888/USK@xOg49GNltumTJJzj0fVzuGDpo4hJUsy2UsGQkjE7NY4,EtUH5b9gGpp8JiY-Bm-Y9kHX1q-yDjD-9oRzXn21O9k,AQACAAE/freemail/2/'>Freesite Freemail</a>. 
+<b><span style='color:#FF0000;'>Debes estar corriendo Freenet para que este enlace funcione.</span></b>
 </p>
 
 <p><a class='wiki'  href='http://www.freenet.org.nz/python/pyFreenet/'><b>pyFreenet</b></a><br />
 <br />
-pyFreenet is an API and a set of tools to access freenet from the python programing language. Tools are currently command-line only.
+pyFreenet es una API y un conjunto de herramientas para acceder a Freenet mediante el lenguaje de programación python. Las herramientas son comunmente mediante la línea de comandos.
 </p>
 
 <p><a class='wiki'  href='http://wiki.freenetproject.org/FreenetJsite'><b>jSite</b></a><br />
 <br />
-jSite is a graphical application that you can use to create, insert and manage your own Freenet sites.
+jSite es una aplicación gráfica que puedes usar para crear, insertar i administrar tus propios sitios Freenet.
 </p>
 
 <p><a class='wiki'  href="http://nostromo.joeh.org/content/fn_curses/..html"><b>fn_curses</b></a><br />
 <br />
-fn_curses is an ncurses (text mode) Freenet download queue manager written in perl.
+fn_curses es un administrador de colas de descargas ncurses (modo texto) Freenet escrito en perl.
 </p>
 
 <p><a class='wiki'  href='http://jtcfrost.sf.net/'><b>Frost</b></a><br />
 <br />
-Frost is a filesharing and message board application for Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@QRZAI1nSm~dAY2hTdzVWXmEhkaI~dso0OadnppBR7kE,wq5rHGBI7kpChBe4yRmgBChIGDug7Xa5SG9vYGXdxR0,AQACAAE/frost/7/'>Frost freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+Frost es una aplicación de intercambio de archivos y tablón de mensajes para Freenet. Visita el  <a class='wiki'  href='http://127.0.0.1:8888/USK@QRZAI1nSm~dAY2hTdzVWXmEhkaI~dso0OadnppBR7kE,wq5rHGBI7kpChBe4yRmgBChIGDug7Xa5SG9vYGXdxR0,AQACAAE/frost/7/'>Freesite Frost</a>. <b><span style='color:#FF0000;'>Debes estar corriendo Freenet para que este enlace funcione.</span></b>
 </p>
 
 <p><b>FMS</b><br />
 <br />
-FMS is a spam-resistent message board application for Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@0npnMrqZNKRCRoGojZV93UNHCMN-6UU3rRSAmP6jNLE,~BG-edFtdCC1cSH4O3BWdeIYa8Sw5DfyrSV-TKdO5ec,AQACAAE/fms/48/'>FMS freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>
+FMS es un tablón de mensajes resistente al spam para Freenet. Visita el <a class='wiki'  href='http://127.0.0.1:8888/USK@0npnMrqZNKRCRoGojZV93UNHCMN-6UU3rRSAmP6jNLE,~BG-edFtdCC1cSH4O3BWdeIYa8Sw5DfyrSV-TKdO5ec,AQACAAE/fms/48/'>Freesite FMS</a>. <b><span style='color:#FF0000;'>Debes estar corriendo Freenet para que este enlace funcione.</span></b>
 </p>
 
-<br /><h2>Other tools? Want to contribute?
+<br /><h2>Otras herramientas? Quieres contribuir?
 </h2>
-<br />If you want to develop a tool or client for Freenet please publish your idea <a href="/freeapps.html">here</a>. There you can also find a list of projects related to Freenet in their early stages of development.<br />
+<br />Si quieres desarrollar una herramienta o cliente para Freenet por favor publica tu idea <a href="/freeapps.html">aquí</a>. 
+Allí puedes también encontrar una lista de proyectos relativos a Freenet en sus primeros estados de desarrollo.<br />
 <br/>
-<small><b>Note:</b> You can still find the tools page for Freenet 0.5 <a href="/oldtools.html">here</a>, however 0.5 is no longer officially maintained or supported and 0.7 has many radical improvements not least being that it is significantly faster.</small>
+<small><b>Nota:</b> Todavía puedes encontrar la página de herramientas para Freenet 0.5 <a href="/oldtools.html">aquí</a>, 
+sin embargo 0.5 ya no es mantenida oficialmente o soportada y 0.7 tiene muchas mejoras radicales especialmente el ser perceptiblemente más rápida.</small>

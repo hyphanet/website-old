@@ -1,10 +1,10 @@
-      <h1>Documentation</h1>
+      <h1>Documentación</h1>
       <div id="navigation">
-	<p> Go to :
-	  <a href="install.html">Install</a>
-	  <a href="connect.html">Connect</a>
-	  <a href="content.html">Content</a>
-	  <a href="understand.html">Understand</a>
+	<p> Ir :
+	  <a href="install.html">Instalar</a>
+	  <a href="connect.html">Conectar</a>
+	  <a href="content.html">Contenidos</a>
+	  <a href="understand.html">Comprendiendo</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -16,42 +16,41 @@
       <h2>Thaw</h2>
       
       <p>
-	Thaw is a filesharing utility and upload/download 
-	manager. It is used as a graphical interface for
-	Freenet filesharing.
+	Thaw es una utilidad para compartir archivos y un administrador de  
+	subidas/descargas. Se usa como interface gráfica para enviar archivos en  
+	Freenet.
       </p>
       
-      <h3>Starting Thaw</h3>
+      <h3>Iniciando Thaw</h3>
 
       <p>
-	You
-	can <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download
-	Thaw here</a>. To start it, write in a command prompt:
+	Puedes<a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">bajar
+	Thaw aquí</a>. Para iniciarlo, escribe en la línea de comandos:
       </p>
       <pre>
 	java -jar Thaw.jar</pre>
       <p>
-	A progress bar should flicker by and after a short
-	startup, the main window should appear.
+	Una barra de progreso debería oscilar y luego de un breve
+	arranque, la ventana principal debería aparecer
       </p>
       <img src="/image/thaw/main-window.png" />
 
-      <h3>Downloading files</h3>
+      <h3>Descargar archivos</h3>
 
       <p>
-	To download files, press the
-	<span style="font-weight: bold;">Downloads</span>-button
-	mid-page. Then a window like below will appear:
+	Para descargar archivos, presiona el botón
+	<span style="font-weight: bold;">Descargas</span>
+	en el centro. Luego deberá aparecer una ventana como esta:
       </p>
       <img src="/image/thaw/download-keys.png" />
       <p>
-	One then has to paste freenet keys like the one above,
-	into the main pane of the window. It is also necessary
-	to choose a destination directory to save the files in.
+	Luego debes pegar claves Freenet como la de mas arriba,
+	en el panel principal de la ventana. También es necesario
+	eloegir un directorio de destino en donde guardar los archivos.
       </p>
-      <p>After that, press the <span style="font-weight: bold;">
-	  Fetch</span>-button and wait for the files to download.
-	Since Freenet is slow in the beginning, this might take
-	a <span style="font-weight: bold;">very</span> long while.
-	Please do not get discouraged by this.
+      <p>Luego de esto, presiona el botón <span style="font-weight: bold;">
+	  Fetch</span> y aguarda que se deswcarguen los archivos.
+	Ya que Freenet es lenta al comienzo, esto puede tardar
+	un tiempo <span style="font-weight: bold;">muy</span> largo.
+	Por favor, no te desanimes por esto.
       </p>

@@ -1,63 +1,62 @@
-      <h1>What is Freenet?</h1>
+      <h1>Qué esFreenet?</h1>
       <blockquote>
-	<i>"I worry about my child and the Internet all the time, even though
-	  she's too young to have logged on yet. Here's what I worry about. I
-	  worry that 10 or 15 years from now, she will come to me and say 'Daddy,
-	  where were you when they took freedom of the press away from the
+	<i>"Estoy perocupado por mi hija y la Internet todo el tiempo, incluso cuando
+	  ella es demasiado joven para haber ingresado aún. Esto es lo que me preocupa. Me
+	  preocupa que dentro dde 10 ó 15 años, vendrá a mí un día y dirá 'Papi,
+	  dónde estuviste cuando ellos eliminaron la libertad de prensa de 
 	  Internet?'"
 	</i><br/>
 	--Mike Godwin, <a href="http://eff.org/">Electronic Frontier
 	  Foundation</a>
       </blockquote>
       <p> 
-	Freenet is free software which lets you anonymously share files, browse 
-	and publish "freesites" (web sites accessible only through Freenet) and chat 
-	on forums, without fear of censorship. Freenet is decentralised to make it 
-	less vulnerable to attack, and if used in "darknet" mode, where users only 
-	connect to their friends, is very difficult to detect.
+	Freenet es software libre el cual te permite compartir archivos anonimamente, navegar 
+	y publicar "freesites" (sitios web accesible solamente mediante Freenet) y discutir 
+	en foros, sin temos de censura. Freenet es descentralizada para hacerla 
+	menos vulnerable a ataques, y si es usada en modo "darknet", dónde los usuarios 
+	conectan solamente con sus, es muy difícil de detectar.
       </p>
       
       <p>
-	Communications by Freenet nodes are encrypted and are
-	routed through other nodes to make it extremely difficult to determine
-	who is requesting the information and what its content is.
+	Las comunicaciones por los nodos Freenet están encriptadasy son
+	dirigidas a traves de otros nodos para hacer extremadamente difícil de determinar
+	quién está solicitando la información y cual es su contenido.
       </p>
 
       <p>
-	Users contribute to the network by giving bandwidth and a portion of
-	their hard drive (called the "data store") for storing files. 
-	Files are automatically kept or
-	deleted depending on how popular they are, with the least popular being
-	discarded to make way for newer or more popular content. Files
-	are encrypted, so generally the user cannot easily discover what is in
-	his datastore, and hopefully can't be held accountable for it. Chat forums,
-	websites, and search functionality, are all built on top of this distributed 
-	data store.
+	Los usuarios contribuyen a la red proporcionando ancho de banda y una porción de
+	su disco rígido (llamado el  "almacén de datos") para almacenar archivos. 
+	Los archivos son automáticamente mantenidos o 
+	borrados dependiendo de cuán populares son, con los menos populares siendo
+	descartados para hacer lugar  para contenidos nuevos o más populares. Los archivos  
+	están encriptados, así generalmente el usuario no puede descubrir pácilmente qué hay
+	en su almacén de datos, y no puede ser responsable de ellos. Foros,
+	Sitios web y funcionalidades de búsqueda, son todas construídas sobre este
+	almacén de datos.
       </p>
       <p>
-	Freenet has been downloaded over 2 million times since the project
-	started, and used for the distribution of censored information all
-	over the world including countries such as <a
-						      href="http://freenet-china.org">China</a> and the Middle East.  Ideas
-	and concepts pioneered in Freenet have had a significant impact in the
-	academic world.  Our 2000 paper "Freenet: A Distributed Anonymous
-	Information Storage and Retrieval System" was the most cited computer
-	science paper of 2000 according to Citeseer, and
-	Freenet has also inspired papers in the worlds of law and philosophy. 
-	Ian Clarke, Freenet's creator and project coordinator, was selected as
-	one of the top 100 innovators of 2003 by MIT's Technology Review
-	magazine.
-      </p>
-      
-      <p>
-	An important recent development, which very few other networks have, is the
-	"darknet": By only connecting to people they trust, users can greatly reduce 
-	their vulnerability, and yet still connect to a global network through their
-	friends' friends' friends and so on. This enables people to use Freenet even
-	in places where Freenet may be illegal, makes it very difficult for 
-	governments to block it, and does not rely on tunneling to the "free world".
+	Freenet ha sido descargado más de 2 millones de veces desde que el proyecto se
+	inició, y usada para la distribución de información censurada por
+	todo el mundo incluyendo paises como <a href="http://freenet-china.org">China</a> y el Medio Este
+	Ideas y conceptos iniciados en Freenet han tenido significativo impacto en el 
+	mundo académico. Nuestro artículo del año 2000 "Freenet: Un Sistema de Almacenamiento y Recuperación 
+	de Información Anónima Distribuida " el artículo científico de computación
+	mas citado del 2000 de acuerdo a Citeseer, y 
+	Freenet también ha inspirado artículos en los ámbitos de leyes y filosofía. 
+	Ian Clarke, el creador de Freenet y coordinador de proyecto, fué elegido como
+	uno de los 100 más innovadores de2003 por  la revista Technology Review
+	del MIT.
       </p>
       
       <p>
-	Sounds good? <a href="download.html">Try it!</a>
+	Un desarrollo reciente importante, el cual muy pocas otras redes tienen, es la
+	"darknet": Solo conectando personas que ellos conocen, los usuarios pueden reducir grandemente 
+	su vulnerabilidad, y así aún conectar a una red global a traves de sus 
+	amigo ' amigos' amigos y así siguiendo. Esto posibilita a la gente a usar Freenet aún
+	en lugares donde Freenet pueda ser ilegal, haciendo muy difícil para 
+	los gobiernos bloquearla, y no confiar en la tecnología de tunneling hacia el  "mundo libre".
+      </p>
+      
+      <p>
+	Suena bien? <a href="download.html">Pruébala!</a>
       </p>
