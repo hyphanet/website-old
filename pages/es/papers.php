@@ -1,85 +1,84 @@
       <div id="papers">
-	<h1>Papers</h1>
+	<h1>Artículos (1)</h1>
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-0.7.5-paper.pdf">The Dark Freenet</a> (PDF)<br/>
-	  Detailed paper about the Freenet 0.7.5 network, as opposed to its routing algorithm, which is detailed in the
-	  below papers. Includes some new simulations. This has been submitted to PET 2010.
+	  Detallado artículo sobre la red Freenet 0.7.5, en oposición a su algoritmo de encaminamiento, el cual es detallado en los
+	  artículos siguientes. Incluye algunas simulaciones nuevas. Ha sido remitido al PET 2010. 
 	</p>
 
 	  <img style="margin-right: 16px;" src="/image/video.icon.png" />
 	<p>
 
-	  <a href="/22c3vid.html">Video of Small World talk, Berlin, December 2005</a><br/>
-	  This is a video of a talk given by Ian Clarke and Oskar
-	  Sandberg at the Chaos Computer Congress in Berlin, December
-	  2005, describing the (then) new architecture for Freenet
-	  0.7.  You can also download
-	  the <a href="/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a>,
-	  and the source for the Java <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> 
-	  (requires Java 1.5).
+	  <a href="/22c3vid.html">Video de la charla Pequeño Mundo, Berlin, Diciembre 2005</a><br/>
+	  Este es un video de una charla dada por  Ian Clarke y Oskar
+	  Sandberg en el Chaos Computer Congress en Berlin, Diciembre
+	  2005, describiendo la (luego) nueva arquitectura para Freenet
+	  0.7.  También puedes descargar
+	  las <a href="/papers/ccc/ccc-slideshow.pdf.bz2">diapositivas</a>,
+	  y las fuentes para el  <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">demo</a> Java.  
+	  (requiere Java 1.5).
 	</p>
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="/papers/lic.pdf">Searching in a Small World</a> (PDF)<br/>
-	  Oskar Sandberg's licentiate thesis describing a simple decentralized mechanism for constructing small world
-	  networks that is inspired by Freenet's original design.  Part II of the thesis describes the basis for
-	  the new Darknet architecture.
+	  <a href="/papers/lic.pdf">Buscando en un Mundo Pequeño</a> (PDF)<br/>
+	  Tesis de licenciatura de Oskar Sandberg describiendo un simple mecanismo descentralizado para construir redes de 
+	  mundo pequeño que está inspirado en el diseño original de Freenet. La parte II de la tesis describe las bases para la 
+	  nueva arquitectura Darknet.
 	</p>
 	
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="/papers/swroute.pdf">Distributed routing in Small World Networks</a> (PDF)<br/>
-	  A paper by Oskar Sandberg describing the theoretical basis for the new "Darknet" routing mechanism employed
-	  by Freenet 0.7.
+	  <a href="/papers/swroute.pdf">Enrutamiento distribuído en Redes de Mundo Pequeño</a> (PDF)<br/>
+	  Un artículo por Oskar Sandberg describiendo las bases teóricas para el nuevo mecanismo de enrutamiento "Darknet" empleado
+	  por Freenet 0.7.
 	</p>
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Chaos Computer Congress Talk</a> 
-	  (slideshow)<br/>
-	  This is a <a href="/papers/ccc/ccc-slideshow.pdf.bz2">slideshow</a> for a talk given 
-	  at the Chaos Computer Congress on 30th Dec 2005 in Berlin, Germany by Ian 
-	  Clarke and Oskar Sandberg.  It described the new "darknet" approach to be employed in Freenet 0.7.  A Java 
-	  demonstration to accompany the talk is <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">also</a> available.
+	  <a href="http://events.ccc.de/congress/2005/fahrplan/events/492.en.html">Charla en el Chaos Computer Congress</a> 
+	  (diapositivas)<br/>
+	  Estas son unas <a href="/papers/ccc/ccc-slideshow.pdf.bz2">diapositivas</a> para una charla dada 
+	  en el Chaos Computer Congress el 30 de Dic. de 2005 en Berlin, Germany por Ian 
+	  Clarke y Oskar Sandberg.  Describe el nuevo enfoque "darknet" a ser empleado en Freenet 0.7.  Una demostración en  
+	  Java que acompaña la charla <a href="/papers/ccc/ccc-freenet-demo.tar.bz2">también</a> está disponible.
 	</p>
 
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="/papers/vilhelm_thesis.pdf">Switching for a small world</a> (PDF)<br/>
-	  A thesis by Vilhelm Verendel exploring ways to optimise the swapping algorithm.
+	  <a href="/papers/vilhelm_thesis.pdf">Cambiando por un mundo pequeño</a> (PDF)<br/>
+	  Una tesis por Vilhelm Verendel explorando formas de optimizar el algoritmo de intercambio (swapping).
 	</p>
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="http://grothoff.org/christian/pitchblack.pdf">Routing in the Dark: Pitch Black</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.1543">citeseer</a>) (PDF)<br/>
-	  A paper describing some attacks on Freenet 0.7's location swapping algorithm.
+	  <a href="http://grothoff.org/christian/pitchblack.pdf">Encaminando en la Oscuridad: Lanzar en Negro</a> (<a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.1543">citeseer</a>) (PDF)<br/>
+	  Un artículo describiendo algunos ataques al  algoritmo de intercambio  de Freenet 0.7.
 	</p>
 	<p style="margin-left: 39px;">
-	  <a href="/ngrouting.html">Next Generation Routing Algorithm</a><br/>
-	  This article describes Freenet's "Next Generation" routing algorithm.  This was a novel
-	  approach which had nodes making routing decisions based on sophisticated analysis of
-	  the time required to route previous requests.  This algorithm was promising, but
-	  was eventually dropped in favour of a much simpler approach in Freenet 0.7.
+	  <a href="/ngrouting.html">Algoritmo de Enrutamiento Próxima Generación</a><br/>
+	  Este artículo describe el algoritmo de enrutamiento de Freenet "Proxima Generación".  Es un nuevo
+	  enfoque el cual tiene nodos tomando decisiones de enrutamiento basadas en un análisis sofisticado del
+	  tiempo requerido para enrutar solicitudes previas. Este algoritmo eraprometedor, pero 
+	  fué eventualmente descartado en favor de un enfoque mucho más simple en Freenet 0.7.
 	</p>
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
-	  <a href="/papers/freenet-ieee.pdf">Protecting Freedom of Information 
-	    Online with Freenet</a> (PDF)<br/>
-	  An IEEE Internet Computing article describing the Freenet architecture 
-	  circa 2002 - probably the best introduction to the theory behind 
+	  <a href="/papers/freenet-ieee.pdf">Protegiendo la libertad de información 
+	    en línea con Freenet</a> (PDF)<br/>
+	  Un articulo IEEE de Internet describiendo la arquitectura Freenet  
+	  circa 2002 - probablemente la mejor introducción a la teoría detras de  
 	  Freenet.
 	</p>
 	<p>
 	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/ddisrs.pdf">FreeNet White Paper</a> (PDF)<br/>
-	  Original white paper by Ian Clarke, Division of Informatics, University of Edinburgh 1999.
+	  Estudio original por Ian Clarke, División de Informática, Universidad de Edinburgh 1999.
 	</p>
 	<hr/>
 	<p>
-	  See also all the
-	  other <a href="http://wiki.freenetproject.org/FreenetSpecifications">Developer
-	    documentation</a>.
+	  Mira además toda la <a href="http://wiki.freenetproject.org/FreenetSpecifications">Documentación de
+	    Desarrolladores</a>.
 	<p>
 	<!-- It's way out of date
 	<p>

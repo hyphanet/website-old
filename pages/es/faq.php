@@ -1,26 +1,26 @@
-      <h1>Freenet Frequently Asked Questions</h1>
+      <h1>Freenet Preguntas de Uso Frecuente</h1>
 
-      <h3> Philosophical questions</h3>
+      <h3> Cuestiones filosóficas</h3>
 
-      <ol><li><a href="#what">What is Freenet?</a>
-	</li><li><a href="#who">Who is behind Freenet?</a>
-	</li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
-	</li><li><a href="#donate-bw">Do I have to donate disk space and bandwidth?</a>
-	</li><li><a href="#leech">I don't have to donate anything when using filesharing application X and I get to leech more.</a>
+      <ol><li><a href="#what">Que es Freenet?</a>
+	</li><li><a href="#who">Qién está detras de  Freenet?</a>
+	</li><li><a href="#trust">Si los autores son anónomos como puedes confiar en la información?</a>
+	</li><li><a href="#donate-bw">Debo donar espacio en disco y ancho de banda?</a>
+	</li><li><a href="#leech">No tengo nada para donar cuando uso la aplicación de intercambio de archivos X y quiero desangrar más.</a>
 
-	</li><li><a href="#donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</a>
-	</li><li><a href="#donate-lot">If I donate a lot will my experience improve significantly?</a>
-	</li><li><a href="#legal">Is Freenet legal?</a>
-	</li><li><a href="#blocked">Is Freenet blocked by national firewalls?</a>
-	</li><li><a href="#trouble">Can I get trouble if I run a node?</a>
-	</li><li><a href="#copyright">What about copyright?</a>
-	</li><li><a href="#childporn">What about child porn, offensive content or terrorism?</a>
-	</li><li><a href="#offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</a>
-	</li><li><a href="#export">How about encryption export restrictions?</a>
+	</li><li><a href="#donate-more-bw">Todos mis amigos donaron muy poco espacio y ancho de banda. Por qué debería yo donar más?</a>
+	</li><li><a href="#donate-lot">Si dono un montón mejorará significativamente mi experiencia?</a>
+	</li><li><a href="#legal">Es Freenet legal?</a>
+	</li><li><a href="#blocked">Está Freenet bloqueada por los firewalls nacionales?</a>
+	</li><li><a href="#trouble">Puedo meterme en problemas si corro un nodo?</a>
+	</li><li><a href="#copyright">Qué acerca del copyright?</a>
+	</li><li><a href="#childporn">Qué acerca de la pornografía infantil, contenido ofensivo o terrorismo?</a>
+	</li><li><a href="#offensive">No quiero que mi nodo sea usado para almacenar pornografía infantil, ofensivo o terrorismo. Qué puedo hacer?</a>
+	</li><li><a href="#export">Qué acerca de las restricciones de exportación de encriptación?</a>
 
-	</li><li><a href="#whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</a>
+	</li><li><a href="#whatelse">No tengo nada que ocultar y no necesito anonimato. Hay algo mas que Freenet pueda ofrecer?</a>
       </li></ol>
-      <h3> Technical questions</h3>
+      <h3> Cuestiones técnicas</h3>
 
       <ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
 	</li><li><a href="#slow">Why is Freenet so slow?</a>

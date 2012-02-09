@@ -1,10 +1,10 @@
-      <h1>Documentation</h1>
+      <h1>Documentación</h1>
       <div id="navigation">
-	<p> Go to :
-	  <a href="install.html">Install</a>
-	  <a href="connect.html">Connect</a>
-	  <a href="content.html">Content</a>
-	  <a href="understand.html">Understand</a>
+	<p> Ir :
+	  <a href="install.html">Instalar</a>
+	  <a href="connect.html">Conectar</a>
+	  <a href="content.html">Contenidos</a>
+	  <a href="understand.html">Comprendiendo</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -13,203 +13,201 @@
 	</p>
       </div>
 
-      <h2>Understand Freenet</h2>
+      <h2>Comprendiendo Freenet</h2>
       <p>
-	Freenet can be thought of as a large storage device. 
-	When you store a file in it, you receive a key which 
-	can be used to retrieve the file. When you supply 
-	Freenet with a key, it returns the appropriate file 
-	(if it is located). The storage space is distributed 
-	among all connected nodes on Freenet.
+	Freenet puede pensarse como un gran dispositivo de almacenamiento. 
+	Cuando guardas un archivo en éĺ, recibes una clave la cual  
+	puede ser usada para recuperar el archivo. Cuando proporcionas a  
+	Freenet una clave, te devuelve el archivo correspondiente 
+	(si es encontrado). El espacio de almacenamiento está distribuído 
+	entre todos los nodos conectados a Freenet.
       </p>
       
       <p>
-	Freenet is a Peer-to-peer network, which is both
-	decentralized and anonymized. The nodes that you
-	connect to only knows its nearest neighbours and has
-	no idea about how the network as a whole is structured.
+	Freenet es una red Peer-to-peer, la cual está
+	descentralizada y anonimizada. Los nodos a los que 
+	conectas solamente conocen a sus vecinos más cercanos y no
+	tienen idea sobre como está estructurada la red en su totalidad.
       </p>
 
-      <h3>Small world network</h3>
+      <h3>Red de mundo pequeño</h3>
       
       <p>
-	Freenet is built on the principle of small world 
-	networks. By connecting to nodes of people you already
-	know, and the people you know in turn connect to people
-	they know, one should be able to reach all nodes in a
-	Freenet network.
+	Freenet está construída sobre el principio de redes de mundo  
+	pequeño. Conectando a nodos de personas que tú ya conocías
+	previamente, y la gente que conoces está conectada a personas que
+	ellos conocen, uno debería ser capaz de encontrar todos los nodos
+	en una red Freenet.
       </p>
 
-      <h3>The datastore</h3>
+      <h3>El almacén de datos</h3>
 
       <p>
-	All Freenet nodes contribute with a part of their
-	harddrive space to store files. The files are stored
-	encrypted in the <span style="font-weight:
-				      bold;">store</span>-directory in the Freenet installation
-	directory.
+	Todos los nodos Freenet contribuyen con una porción de espacio de su 
+	disco rígido para almacenar archivos. Los archivos son almacenados 
+	encriptados en el directorio <span style="font-weight:bold;">store</span>
+	en la carpeta de instalación de Freenet.
       </p>
 
       <p>
-	Unlike other peer-to-peer networks, you 
-	as a user has little or no control over what is 
-	stored in your datastore. Instead, files are kept or
-	deleted depending on how popular they are.
-	This is to ensure that Freenet is censorship resistant. 
-	The only possible way to remove something from Freenet 
-	is to not search for it, and hope that everybody else 
-	does the same.
+	A diferencia de otras redes peer-to-peer, tú 
+	como usuario tienes poco o ningíun control sobre lo que 
+	está almacenado en tu almacén de datos. En su lugar, los archivos son mantenidos o
+	borrados dependiendo de cúan populares son.
+	Esto es para asegurar que Freenet es resistente a la censura. 
+	La única forma posible de remover algo de Freenet 
+	es no buscarlo, y esperar que nadie mas haga 
+	lo mismo.
       </p>
       
       <p>
-	It is hard, but not impossible, to determine which
-	files that are stored in your local Freenet Datastore. 
-	This is to enable plausible deniability as to what
-	kind of material that lies on your harddrive in the
-	datastore.
+	Es difícil, pero no imposible, determinar cuales
+	archivos están guardados en tu almacén de datos local. 
+	Esto es para permitir plausible deniability sobre que 
+	tipo de material se encuentra en tu disco rígido en el 
+	almacén de datos.
       </p>
 
       <p>
-	The initial diskspace allocated for the datastore is
-	5% of available disk space if it is over 20GB, 10% if it is
-	over 10GB, 512MB if under 10GB, and 256MB if under 5GB.
-	You can change the store size at any time, the more the 
-	better, both for your personal browsing and for Freenet as 
-	a whole.
+	E espacio en disco inicial utilizado para el almacén de datos es
+	el 5% de espacio disponible en disco si es de más de 20GB, 10% si es
+	mayor a 10GB, 512MB si es menor a 10GB, y 256MB si es menor a 5GB.
+	Puedes cambiar el tamaño del almacén en cualquier momento, mientras más es 
+	mejor, para tu navegación personal y para Freenet en su totalidad.
       </p>
 
-      <h3>Freenet Routing</h3>
+      <h3>Encaminando Freenet</h3>
 
       <p>
-	Initially, each node has no information about the 
-	performance of the other nodes it knows about. This 
-	means that routing of requests is essentially random. 
-	But since different nodes have different randomness, 
-	they will disagree about where to send a request, given 
-	a key. So the data in a newly-started Freenet will be 
-	distributed somewhat randomly.
-      </p>
-
-      <p>
-	As more documents are inserted by the same node, they 
-	will begin to cluster with data items whose keys (see below) 
-	are similar, because the same routing rules are used for 
-	all of them. More importantly, as data items and 
-	requests from different nodes "cross paths", they 
-	will begin to share clustering information as well.
+	Inicialmente, cada nodo no tiene información sobre el 
+	funcionamiento de los otros nodos que conoce. Esto 
+	significa que el encaminamiento de peticiones es escencialmente aleatorio. 
+	Pero dado que diferentes nodos tienen diferente aleatoriedad, 
+	estarán en desacuerdo acerca de dónde enviar un requerimiento, dada 
+	una clave. Entonces la información en una instalacion Freenet recien iniciada será 
+	distribuída de alguna manera aleatoriamente.
       </p>
 
       <p>
-	The result is that the network will self-organize 
-	into a distributed, clustered structure where nodes 
-	tend to hold data items that are close together in 
-	key space. There will probably be multiple such 
-	clusters throughout the network, any given document 
-	being replicated numerous times, depending on how 
-	much it is used.
+	Mientras más documentos son insertados por el mismo nodo, 
+	comenzarán a agruparse con datos cuyas claves (ver más abajo) 
+	sean similares, porque las mismas reglas de encaminamiento son usadas para 
+	todos ellos. Más importante, como los datos y los 
+	requerimientos de diferentes nodos "cruzan rutas", ellos  
+	comenzarán a compartir racimos de información también.
       </p>
 
-      <h3>Freenet keys</h3>
+      <p>
+	El resultado es que la red se auto-organizará 
+	en una estructura de racimos distribuídos donde los nodos 
+	tienden a mantener los datos que son cercanos en el espacio 
+	de la clave. Habrá probablemente múltiples racimos de estos 
+	a traves de la red, dado que cualquier documento 
+	comenzará a replicarse muchas veces, dependiendo de cuanto 
+	sea usado.
+      </p>
+
+      <h3>Claves Freenet</h3>
 
       <p>
-	Each file that exists on Freenet has a key associated
-	with it. Freenet 0.7 has various types of keys. Keys 
-	are used for everything on freenet, and are a kind of 
+	Cada archivo que existe en Freenet tiene una clave asociada
+	con él. Freenet 0.7 tiene varios tipos de claves. Las claves  
+	son usadas para todo en Freenet, y son una suerte de 
 	<a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
-	(e.g. freenet:=KSK@sample.txt). 
+	(ej. freenet:=KSK@sample.txt). 
       </p>
 
       <p>
-	Most keys are hashes: there is no notion of semantic 
-	closeness when speaking of key closeness. Therefore 
-	there will be no correlation between key closeness 
-	and similar popularity of data as there might be if 
-	keys did exhibit some semantic meaning, thus avoiding 
-	bottlenecks caused by popular subjects.
+	La mayoría de las claves son hashes: no hay noción de cercanía 
+	semántica cuando hablamos de cercanía de claves. Por lo tanto 
+	no habrá correlación entre cercanía de claves 
+	y similar popularidad de datos como podría haber si las
+	claves exiben algún significado semántico, evitando así
+	cuellos de botella causados por sujetos populares.
       </p>
 
-      <h3>Accessing data</h3>
+      <h3>Accediendo a los datos</h3>
 
       <p>
-	To access a particular piece of data on Freenet,
-	you can use FProxy. You need to know the key to
-	the data, and enter it like this (or click a link
-	containing the key):
+	Para acceder a una particular porción de datos en Freenet,
+	puedes usar FProxy. Necesitas saber la clave para los
+	datos, e ingresarla (o hacer click en un enlace
+	conteniendo la clave):
       </p>
       
       <pre>
-	http://localhost:8888/[Freenet Key]</pre>
+	http://localhost:8888/[Clave Freenet]</pre>
       
       <p>
-	There are four types of keys in Freenet:
+	Hay cuatro tipos de claves en Freenet:
       </p>
       <ul>
-	<li><span style="font-weight: bold;">CHK</span> - Content Hash Keys</li>
-	<li><span style="font-weight: bold;">SSK</span> - Signed Subspace Keys</li>
-	<li><span style="font-weight: bold;">USK</span> - Updateable Subspace Keys</li>
-	<li><span style="font-weight: bold;">KSK</span> - Keyword Signed Keys</li>
+	<li><span style="font-weight: bold;">CHK</span> - Claves de Contenido Hash [Content Hash Keys]</li>
+	<li><span style="font-weight: bold;">SSK</span> - Claves de Subespacio Firmadas [Signed Subspace Keys]</li>
+	<li><span style="font-weight: bold;">USK</span> - Claves de Subespacio Actualizables [Updateable Subspace Keys]</li>
+	<li><span style="font-weight: bold;">KSK</span> - Claves de LLavero Firmadas [Keyword Signed Keys]</li>
       </ul>
           
       <p>
-	CHKs are the most fundamental. All files over 1kB are ultimately divided into 
-	one or more 32kB CHKs. CHKs' filenames are determined only by their contents. 
-	SSKs are the other basic type. These combine a public key with a human-readable 
-	filename and therefore allow for freesites. KSKs are a variant of SSKs where 
-	everything is determined by a simple human readable filename (e.g. =KSK@sample.txt). 
-	These are spammable but convenient in some cases. And USKs are a form of 
-	updatable keys especially useful for freesites and 
-	<span style="font-weight: bold;">Address Resolution Keys</span>.
+	CHKs son las fundamentales. Todos los archivos mayores a  1kB son finalmente divididos en 
+	uno o mas CHKs de  32kB. Los nombres CHK de los archivos son determinados solamente por sus contenidos. 
+	SSKs son otro tipo básico. Estas combinan una clave pública con un nombre de archivo 
+	legible y por lo tanto aptos para freesites. KSKs son una variante de  SSKs donde 
+	todo está determinado por un simple nombre de archivo legible (ej. =KSK@sample.txt). 
+	Estas son spammable pero convenientes en algunos casos. Y las USKs son una forma de 
+	claves actualizables especialmente útiles para freesites y 
+	<span style="font-weight: bold;">Claves de Resolución de Dirección</span>.
       </p>
       <p>
-	An Address Resolution Key (ARK) is an Updateable Subspace Key (USK) inserted 
-	by the node whenever its IP address changes. It contains the reference for 
-	the node - its cryptographic details, and in particular its IP address(es). 
-	ARKs are a way to help people connect to Freenet 
-	if they have problems caused by firewalls, routers or changing IP addresses. 
-	If someone cannot accept incoming traffic it can make it difficult to connect. 
+	Una Clave de Resolución de Dirección (ARK) es una Clave de Subespacio Actualizable (USK) insertada 
+	por el nodo cuando su dirección IP cambia. Contiene la referencia para  
+	el nodo -sus detalles criptográficos, y en particular su(s) dirección(es) IP. 
+	ARKs son la manera de ayudar a la gente a conectar con Freenet 
+	si tienen problemas causados por cortafuegos, enrutadores o direcciones IP cambiantes. 
+	Si alguien no puede aceptar tráfico entrante puede ser difícil de conectar. 
       </p>
       <p>
-	ARKs are an implementation detail and you don't need to know anything about 
-	them to use Freenet.
+	ARKs son una implementación detallada y no necesitas saber nada sobre 
+	ellas para usar Freenet.
       </p>
 
-      <h3>Content Hash Keys</h3>
+      <h3>Claves de Contenido Hash</h3>
 
       <p>
-	Content Hash Keys are for files with static content, like an .mp3 or a PDF-document.
-	These keys are hashes of the content of the
-	file. A hash is a reproducible method of turning a 
-	specific piece of data into a relatively small number
-	that serve as a sort of <span style="font-style:italic;">
-	  fingerprint</span> for the data. If the file content 
-	changes, even ever so little, the hash of the file 
-	changes radically. This makes the data hard to tamper 
-	with without anyone noticing. A CHK uniquely identifies 
-	a file, it should not be possible for two files with 
-	different content to have the same CHK. The CHK 
-	consists of three parts:
+	Las Claves de Contenido Hash son para archivos con contenido estático como un .mp3 o un documento PDF.
+	Estas claves son hashes del contenido del
+	archivo. Un hash es un método reproducible de transformar una 
+	porción específica de datos en un número relativamente pequeño
+	que sirve como una especie de <span style="font-style:italic;">
+	 huella digital</span> para los datos. Si el contenido del archivo 
+	cambia, aún en lo más mínimo, el hash del archivo 
+	cambia radicalmente. Esto hace a los datos difícil de falsificar 
+	sin que nadie se dé cuenta. Una CHK individualiza un  
+	archivo, no debería ser posible para dos archivos con 
+	distinto contenido tener la misma CHK. La CHK 
+	consiste de tres partes:
       </p>
       <ol>
-	<li>the hash for the file</li>
-	<li>the decryption key that unlocks the file, and</li>
-	<li>the cryptographic settings used</li>
+	<li>el hash ṕara el archivo</li>
+	<li>la clave de desencriptación que descubre el archivo, y </li>
+	<li>la configuración criptográfica usada</li>
       </ol>
       <p>
-	A typical CHK key looks like this:
+	Una claveCHK típica luce como esto:
       </p>
       <table>
 	<tr>
 	  <td style="background: #def0ff;">CHK</td>
 	  <td style="background: #ddd;">@</td>
-	  <td style="background: #def0ff;">file hash</td>
+	  <td style="background: #def0ff;">hash del archivo</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">decryption key</td>   
+	  <td style="background: #def0ff;">clave de desencriptación</td>   
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">crypto settings</td>
+	  <td style="background: #def0ff;">crypto configuración</td>
 	</tr>
       </table>
       <p>
-	or for example:
+	por ejemplo:
       </p>
       <table>
 	<tr>
@@ -223,74 +221,74 @@
 	</tr>
       </table>
       <p>
-	The decryption key is stored encrypted within the file, so it is not 
-	possible to decrypt the file without the CHK key.
+	La clave de desencriptación se almacena encriptada con el archivo, así que no es  
+	posible desencriptar el archivo sin la clave CHK.
       </p>
-      <p>To access the file, the whole key must be pasted behind the FProxy
-	address (cut to fit screen):</p>
+      <p>Para acceder al archivo, la clave completa deberá pegarse detrás de la dirección
+	 de FProxy (acortada para caber en pantalla):</p>
       <pre>
 	http://localhost:8888/CHK@SVbD9~[..]X5Brs,bA7qLN[..]Si6bbNQ,AAEA--8</pre>
 
-      <h3>Signed Subspace Keys</h3>
+      <h3>Claves de Subespacio Firmadas</h3>
       <p>
-	Signed Subspace Keys are usually for sites that are going to change over time. 
-	For example, a website that may need news to be updated or information to be 
-	corrected, added or deleted. They work in such a way that someone else can't 
-	put up a newer version of your site and pretend it was you who did it.
+	Las Claves de Subespacio Firmadas son usualmente para sitios que van a cambiar con el tiempo. 
+	Por ejemplo, un sitio web puede necesitar actualizar noticias o corregir, agregar o borrar 
+	información. Trabajan de manera que nadie más pueda superponer  
+	una nueva versión de tu sitio y pretender que has sido tú el que lo hizo.
       </p>
       <p>
-	It works by using public-key cryptography so you can sign your site. Only the 
-	person with the secret key can add updated versions of your site to Freenet.
+	Funciona usando una clave pública criptográfica asi puedes firmar tu sitio. Solamente la 
+	persona con la clave secreta puede agregar versiones actualizadas de tu sitio a Freenet.
       </p>
       <p>
-	Also the SSK consists of five parts:
+	También la SSK consiste de cinco partes:
       </p>
       <ul>
-	<li><span style="font-weight: bold;">public key hash</span> - This part is all 
-	  that is required to uniquely identify the file (but not decrypt it), so nodes 
-	  need only store this bit. The actual public key is stored (unencrypted) with 
-	  the (encrypted) data.</li>
-	<li><span style="font-weight: bold;">document decryption key</span> - This 
-	  is only known to clients and not to the nodes storing the data, so nodes cannot 
-	  decrypt the data they store without the full address.</li>
-	<li><span style="font-weight: bold;">crypto settings</span> - Cryptographic 
-	  algorithm used, etc.</li>
-	<li><span style="font-weight: bold;">user selected name</span> - a word or 
-	  sentence chosen by the site author.</li>
-	<li><span style="font-weight: bold;">version</span> - the current version of
-	  the site.</li>
+	<li><span style="font-weight: bold;">hash de clave pública</span> - Esta parte es todo  
+	  lo que se requiere para individualizar el archivo (pero no para desencriptarlo), asi que los nodos 
+	  solamente necesitan almacenar esta parte. La clave pública actual es almacenada (desencriptada) con 
+	  los datos  (encriptados).</li>
+	<li><span style="font-weight: bold;">clave de desencriptación del documento</span> - Esta 
+	  es solamente conocida por los clientes y no por los nodos que almacenan los datos, asi que los nodos no pueden 
+	  desencriptar los datos que almacenan sin la dirección completa.</li>
+	<li><span style="font-weight: bold;">crypto configuración</span> - Algoritmo 
+	  criptográfico usado, etc.</li>
+	<li><span style="font-weight: bold;">nombre seleccionado por el usuario</span> - una palabra  
+	  o frase elegida por el autor del sitio.</li>
+	<li><span style="font-weight: bold;">versión</span> - la versión actual del
+	  sitio.</li>
       </ul>
       
       <p>
-	The version number is increased each time a new version of the site
-	is created and inserted into Freenet. This approach is used since it is not
-	currently possible to update already inserted data in Freenet. Updateable
-	Subspace Keys makes this more transparent to the user, see below.
+	El número de versión es incrementado cada vez que una nueva versión del sitio
+	es creada e insertada en Freenet. Se usa este enfoque ya que no es
+	actualmente posible actualizar datos ya insertados en Freenet. Las Claves 
+	de Subespacio Actualizables  hacen esto mas transparente al usuario, ver más abajo.
       </p>
       <p>
-	A typical SSK key looks like this:
+	Una clave SSK típica se ve como esto:
       </p>
       <table>
 	<tr>
 	  
 	  <td style="background: #def0ff;">SSK</td>
 	  <td style="background: #ddd;">@</td>
-	  <td style="background: #def0ff;">public key hash</td>
+	  <td style="background: #def0ff;">hash de la clave pública</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">decryption key</td>
+	  <td style="background: #def0ff;">clave de desencriptación</td>
 	  <td style="background: #ddd;">,</td>
 	  
-	  <td style="background: #def0ff;">crypto settings</td>
+	  <td style="background: #def0ff;">cripto configuración</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">user selected name</td>
+	  <td style="background: #def0ff;">nombre elegido por el usuario</td>
 	  <td style="background: #ddd;">-</td>
-	  <td style="background: #def0ff;">version</td>
+	  <td style="background: #def0ff;">versión</td>
 	</tr>
 	  
       </table>
       
       <p>
-	For example (cut for screen purposes):
+	Por ejemplo (recortado para caber en la pantalla):
       </p>
       <table>
 	<tr>
@@ -303,100 +301,99 @@
 	  <td style="background: #ddd;">,</td>
 	  <td style="background: #def0ff;">AQABAAE</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">mysite</td>
+	  <td style="background: #def0ff;">mi_sitio</td>
 	  <td style="background: #ddd;">-</td>
 	  
 	  <td style="background: #def0ff;">4</td>
 	</tr>
       </table>
       
-      <h3>How Signed Subspace Keys work</h3>
+      <h3>Cómo trabajan las Claves de Subespacio Firmadas</h3>
 
       <ul>
-	<li>The author generates a cryptographic keypair: a 
-	  <span style="font-weight: bold;">private key</span> 
-	  for signing files and a <span style="font-weight: bold;">
-	    public key</span> for verifying the signature.</li>
+	<li>El autor genera un par criptográfico: una 
+	  <span style="font-weight: bold;">clave privada</span> 
+	  para firmar archivos y una <span style="font-weight: bold;">
+	    clave pública</span> para verificar la firma.</li>
 	
-	<li>The author also generates a single <span style="font-weight: bold;">symmetric key</span> 
-	  (one that is used for both encrypting and decrypting).</li>
-	<li>When a file is inserted into Freenet, it is encrypted with the 
-	  <span style="font-weight: bold;">symmetric key</span> and signed 
-	  with the <span style="font-weight: bold;">private key</span>. The 
-	  signature is stored with the file. Nodes don't store the 
-	  <span style="font-weight: bold;">symmetric key</span>, only the 
-	  <span style="font-weight: bold;">public key</span> part of the SSK, 
-	  as an index to the data. This is so they can plausibly deny knowledge 
-	  of the data on their node.</li>
+	<li>El autor también genera una simple <span style="font-weight: bold;">clave simétrica</span> 
+	  (una que es usada para encriptar y desencriptar).</li>
+	<li>Cuando un archivo es insertado en Freenet, es encriptado con la 
+	  <span style="font-weight: bold;">clave simétrica</span> y firmado 
+	  con la <span style="font-weight: bold;">clave privada</span>. La 
+	  firma es almacenada con el archivo. Los nodos no guardan la  
+	  <span style="font-weight: bold;">clave simétrica</span>, solamente la parte de la 
+	  <span style="font-weight: bold;">clave pública</span> de la SSK, 
+	  como un índice a los datoas. Esto es porque pueden plausiblemente negar conocimiento 
+	  de los datos en sus nodos.</li>
 	
       </ul>
       
       <p>
-	The SSK is made up of a hash of the public key, and the symmetric key. 
-	The hash of the public key acts as the index to the data for searching 
-	purposes. Also, the actual public key is stored with the data. This is 
-	so that Freenet nodes can verify the signature when the SSK file comes 
-	into their node, and also so that clients can verify the signature when 
-	retrieving the file. The symmetric key is so that clients can decrypt 
-	the file.
+	La SSK consiste de un hash de la clave pública, y la clave simétrica. 
+	El hash de la clave pública actúa comlo el índice a los datos para propósitos de 
+	búsqueda. También, la clave pública actual es almacenada con los datos. Esto es 
+	para que los nodos Freenet puedan verificar la firma cuando los archivos SSK entran 
+	al nodo, y es asi que los clientes pueden verificar la firma cuando 
+	recuperan el archivo. La clave simétrica es para que los clienter puedan desencriptar 
+	el archivo.
       </p>
       <p>
-	Signed Subspace Key sites have largely been superseded by Updatable Subspace 
-	Key (USK) sites, which are based on SSKs but allow for links that try to always 
-	retrieve the most up-to-date version of the site.
+	Las Claves de Subespacio Firmadas han sido largamente reemplazadas por las Claves de 
+	Subespacio Actualizables (USK), las cuales tstán basadas en SSKs pero permiten a los enlaces que intenten siempre 
+	recuperar la versión más actualizadade el sitio.
       </p>
-      <h3>Updateable Subspace Keys</h3>
+      <h3>Claves de Subespacio Actualizables</h3>
       <p>
-	Updateable Subspace Keys are useful for linking to the latest version of a 
-	Signed Subspace Key (SSK) site. Note that USKs are really just a user-friendly 
-	wrapper around SSKs, which hide the process of searching for more recent 
-	versions of a site. 
+	Las Claves de Subespacio Actualizables son útiles para enlazar a la última versión de una 
+	Claves de Subespacio Firmadas (SSK) de un sitio. Nota que las USKs son realmente solo un revestimiento 
+	amigable sobre una SSK, la cual oculta el proceso de búsqueda de versiones más recientes 
+	de un sitio.
       </p>
       <p>
-	A typical USK key looks like this:
+	Una USK típica se vería como sigue.
       </p>
       <table>
 	<tr>
 	  
 	  <td style="background: #def0ff;">USK</td>
 	  <td style="background: #ddd;">@</td>
-	  <td style="background: #def0ff;">public key hash</td>
+	  <td style="background: #def0ff;">hash de la clave pública</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">decryption key</td>
+	  <td style="background: #def0ff;">clave de desencriptación</td>
 	  <td style="background: #ddd;">,</td>
 	  
-	  <td style="background: #def0ff;">crypto settings</td>
+	  <td style="background: #def0ff;">cripto configuración</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">user selected name</td>
+	  <td style="background: #def0ff;">nombre elegido por el usuario</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">number</td>
+	  <td style="background: #def0ff;">número</td>
 	  <td style="background: #ddd;">/</td>	
 	</tr>
 	
       </table>
       <p>
-	It is almost identical to the Signed Subspace Key, with the exception of the 
-	version-number. There are two types of USK addresses:
+	Es casi idéntica a la  Claves de Subespacio Firmadas, con la excepcion del 
+	númerli de versión. Hay dos tipos de direcciones USK:
       </p>
       <ul>
-	<li>an USK with a positive number at the end, or</li>
-	<li>an USK with a negative number at the end.</li>
+	<li>una USK con un número positivo al final , o</li>
+	<li>una USK con un número negativo al final.</li>
       </ul>
       <p>
-	The USK with a <span style="font-weight: bold;">positive</span> number at the 
-	end works like this: the Freenet node on your computer keeps a list of 
-	versions of USKs that it knows about, without necessarily storing the data as 
-	well. This list is built up from previous visits, and also background requests 
-	from previous visits to these kind of links. When you visit an USK like the 
-	one below, it consults this list for versions of the mysite site 
-	of number 5 or greater. If it finds any, it return the latest one. Then, in the 
-	background, it searches for <span style="font-weight: bold;">newer</span> 
-	
-	versions that it doesn't yet know about to add to your USK registry for the 
-	next time you visit the address.
+	Las USK con un número <span style="font-weight: bold;">positivo</span> al final 
+	trabajan de esta manera: el nodo Freenet en tu ordenador mantiene una lista de  
+	versiones de USKs que conoce, sin almacenar necesariamente los datos también 
+	 Esta lista está constituída de visitas previas, y tambien de requerimientos en segundo plano 
+	de las visitas previas a esta clase de enlaces. Cuando visitas una USK como la de más 
+	abajo, consulta su lista de versiones del sitio mi_sitio 
+	de número 5 o mayor. Si encuentra alguna, devuelve la última. Luego, en segundo plano, 
+	busca las versiones más <span style="font-weight: bold;">nuevas</span> 
+	que aún no conoce para agregar su registro USK para la próxima vez 
+	que visites la dirección.
       </p>
       <p>
-	Example (cut for screen purposes):
+	Ejemplo (recortado para caber en la pantalla):
       </p>
       <table>
 	<tr>
@@ -409,7 +406,7 @@
 	  <td style="background: #ddd;">,</td>
 	  <td style="background: #def0ff;">AQABAAE</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">mysite</td>
+	  <td style="background: #def0ff;">mi_sitio</td>
 	  <td style="background: #ddd;">/</td>
 	  
 	  <td style="background: #def0ff;">5</td>
@@ -419,18 +416,18 @@
       </table>
       
       <p>
-	When you visit a link with a <span style="font-weight: bold;">negative</span> 
-	number at the end, Freenet searches for the version you requested 
-	(e.g. <span style="font-weight: bold;">-7</span>) plus four more 
-	(i.e. 7,8,9,10,11) at the node on your computer and on other 
-	nodes. If it finds only version 7, it will return that. If it finds one of the 
-	others, it searches for another batch of five versions: 12,13,14,15,16. It 
-	repeats this until there are four consecutive versions it can't find. Then 
-	it will return the latest version it has found so far.
+	Cuando visitas un enlace con un número <span style="font-weight: bold;">negativo</span> 
+	al final, Freenet busca la versión que has solicitado 
+	(ej. <span style="font-weight: bold;">-7</span>) y cuatro más 
+	(ej. 7,8,9,10,11) en el nodo en tu ordenador y en otros 
+	nodos. Si encuentra solamente la versión 7, devuelve esta. si encuentra alguna de las 
+	otras, busca otro lote de cinco versiones: 12,13,14,15,16. Repite 
+	esto hasta que haya cuatro versiones consecutivas que no pueda encontrar. Luego 
+	devuelve la última versión que ha encontrado.
       </p>
       
       <p>
-	Example (cut for screen purposes):
+	Ejemplo (recortado para caber en la pantalla):
       </p>
       <table>
 	<tr>
@@ -443,7 +440,7 @@
 	  <td style="background: #ddd;">,</td>
 	  <td style="background: #def0ff;">AQABAAE</td>
 	  <td style="background: #ddd;">/</td>
-	  <td style="background: #def0ff;">mysite</td>
+	  <td style="background: #def0ff;">mi_sitio</td>
 	  <td style="background: #ddd;">/</td>
 	  
 	  <td style="background: #def0ff;">-7</td>
@@ -453,59 +450,59 @@
       </table>
       
       <p>
-	The real treat with USKs comes when data is to be inserted into Freenet.
-	But more on that elsewhere.
+	El truco real con las USKs viene cuando la información va a ser insertada en Freenet.
+	Pero más sobre esto en otro lugar.
       </p>
       
-      <h3>Keyword Signed Keys</h3>
+      <h3>Claves de LLavero Firmadas</h3>
       
       <p>
-	Keyword-Signed Keys (KSKs) allow you to save named pages in Freenet. They 
-	are not secure against spamming or name hijacking. Several people could 
-	each insert a different file to Freenet, all with the same address.
-	However, there is a collision detection, which tries to prevent 
-	overwriting of a once-inserted page. A KSK address looks like this:
+	Las Claves de LLavero Firmadas (KSKs) te permite guardar páginas en Freenet. No 
+	son seguras contra spamming o secuestro de nombre. Varias personas podrían 
+	cada una insertar un archivo diferente en Freenet, todos con la misma dirección.
+	Sin embargo, hay una detección de colisión, la cual trata de prevenir 
+	sobreescribir una página una vez insertada. Una dirección KSK luce como esto:
       </p>
       
       <table>
 	<tr>
 	  <td style="background: #def0ff;">KSK</td>
 	  <td style="background: #ddd;">@</td>
-	  <td style="background: #def0ff;">myfile.txt</td>
+	  <td style="background: #def0ff;">mi_archivo.txt</td>
 	</tr>
       </table>
 
       <p>
-	The drawback to KSKs is that anyone can insert a file with the same name
-	as yours and divert traffic from your file to their own. The advantage
-	is human readable links that can be easily remembered.
+	La desventaja de las KSKs es que cualquiera puede insertar un archivo con el mismo nombre
+	como suyo y derivar trafico de tua archivo hacia el propio. La ventaja
+	son enlaces legibles que pueden ser facilmente recordados.
       </p>
       
       <p>
-	The KSK description should not contain slashes, just as with other keys 
-	(slashes are used to denote Manifests or Containers).
+	La descripción de las KSK no deberían contener barras, como las otras claves 
+	(las barras son usadas para denotar Manifiestos o Contenedores).
       </p>
       <p>
-	A KSK address can contain a redirection to a CHK address, or it can 
-	contain the file itself.
+	Una dirección KSK puede contener una redirección a una dirección CHK, o puede 
+	contener el archivo en si mismo.
       </p>
-      <h3>Containers</h3>
+      <h3>Contenedores</h3>
       <p>
-	A container, in general Freenet terms, is a file that contains 
-	several other files. In freenet 0.7, a freesite, or other collection 
-	of files, may be bundled together in a ZIP file, which is limited in 
-	size to 2MB. Containers have the advantage that when you load one page 
-	you load all the files on the freesite, so either it loads in its 
-	entirety or it doesn't load at all, and greatly reduce the number 
-	of keys required to insert a given freesite. Containers are currently 
-	created transparently when inserting a freesite using e.g. jSite.
+	Un contenedor, en términos generales de Freenet, es un archivo que contiene 
+	varios otros archivos. En  Freenet 0.7, un freesite, u otra colección 
+	de archivos, pueden ser empaquetados todos juntos en un archivo ZIP, el cual está limitado en  
+	tamaño a 2MB. Los Contenedores tienen la ventaja que cuando cargas una página 
+	cargas todos los archivos del freesite, entonces o bien los carga enteramente  
+	a todos o no carga nada, y se reduce grandemente el número 
+	claves necesarias para insertar un freesite dado. Los Containers son corrientemente 
+	creados transparentemente cuando se inserta un freesite usando ej. jSite.
       </p>
-      <h3>Manifests</h3>
+      <h3>Manifiestos</h3>
       <p>
-	A manifest contains metadata over the list of blocks a CHK is divided into and 
-	some information about the content-type(MIME), the filenames
-	and other useful information. The main information is whether the 
-	CHK-key is a splitfile or not, and whether the manifest is chained 
-	or not. You don't need to know much about manifests in order to
-	use Freenet, since it is a part that is handled internally.
+	Un Manifiesto contiene metadata sobre la lista de bloquesen que está dividido una CHK  
+	y alguna información sobre el content-type(MIME), los nombres de archivos
+	y otra información útil. La información principal es si la clave 
+	CHK es un archivo dividido o no, y si el manifiesto está encadenado 
+	o no. No necesitas saber mucho sobre Manifiestos en orden de 
+	usar Freenet, ya que es una parte que es manejada internamente.
       </p>

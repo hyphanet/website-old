@@ -1,5 +1,5 @@
-<H2>Freenet's Next Generation Routing Protocol</H2>
-<b>by <a href="mailto:ian@locut.us">Ian Clarke</a>, Freenet Project Coordinator, 20th July 2003</b>
+<H2>Protocolo de Enrutamiento Próxima Generación de Freenet</H2>
+<b>by <a href="mailto:ian@locut.us">Ian Clarke</a>, Coordinador del Proyecto Freenet, 20 de Julio de 2003</b>
 <P>While Freenet has come a long way since my 1999 paper, the 
 fundamental ideas behind how Freenet finds information have changed 
 very little. Now that Freenet is maturing it is time to re-examine 

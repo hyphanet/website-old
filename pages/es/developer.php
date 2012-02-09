@@ -22,7 +22,7 @@
       <pre>
 	git clone git://github.com/freenet/fred-staging.git</pre>
 
-      <p>Una vez que hayas clonado el repositorio, para recuperar los últimos cambios:</p>
+      <p>Una vez que hayas clonado el repositorio, para recuperar los ultimos cambios:</p>
       <pre>
 	git pull origin</pre>
 
@@ -140,11 +140,11 @@
 	repositorio local a una versión previa, recomenzando desde 
 	allí):</p>
       <pre>
-	git reset [ last good revision ]</pre>
+	git reset [ última revisión buena ]</pre>
 
       <p>O si has validado tus cambios, necesitas revertirlos:</p>
       <pre>
-	git revert [ revision to get rid of ]</pre>
+	git revert [ revisión a descartar ]</pre>
       <p>
 	Más documentación sobre git puede encontrarse <a href="http://git-scm.com/documentation">aquí</a>
 	o <a href="http://www.kernel.org/pub/software/scm/git/docs/">aquí</a>.
@@ -161,7 +161,7 @@
     <ul>
     <li>Mantén los cambios cosméticos separados de los cambios funcionales. En 
     particular, mejoras en la indentación y corchetes, si bien son  
-    generalmente aceptables, <b>no deberían</b> mezclarse con cambios  
+    generalmente aceptables,  <b>no deberían</b> mezclarse con cambios  
     funcionales.</li>
     <li>No rompas el código: Cuando publiques tus cambios, fred debería compilar. Idealmente
     cada validación individual deberia compilar.</li>
