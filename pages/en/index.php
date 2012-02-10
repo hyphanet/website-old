@@ -109,6 +109,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+      (15th November 2011) <a href="http://emu.freenetproject.org/pipermail/devl/2011-November/001787.html">Released Freenet 0.7.5 build 1405</a><br />
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
