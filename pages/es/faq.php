@@ -2,273 +2,272 @@
 
       <h3> Cuestiones filosóficas</h3>
 
-      <ol><li><a href="#what">Que es Freenet?</a>
-	</li><li><a href="#who">Qién está detras de  Freenet?</a>
-	</li><li><a href="#trust">Si los autores son anónomos como puedes confiar en la información?</a>
-	</li><li><a href="#donate-bw">Debo donar espacio en disco y ancho de banda?</a>
+      <ol><li><a href="#what">¿Que es Freenet?</a>
+	</li><li><a href="#who">¿Quién está detras de  Freenet?</a>
+	</li><li><a href="#trust">Si los autores son anónimos ¿como puedes confiar en la información?</a>
+	</li><li><a href="#donate-bw">¿Debo donar espacio en disco y ancho de banda?</a>
 	</li><li><a href="#leech">No tengo nada para donar cuando uso la aplicación de intercambio de archivos X y quiero desangrar más.</a>
 
-	</li><li><a href="#donate-more-bw">Todos mis amigos donaron muy poco espacio y ancho de banda. Por qué debería yo donar más?</a>
-	</li><li><a href="#donate-lot">Si dono un montón mejorará significativamente mi experiencia?</a>
-	</li><li><a href="#legal">Es Freenet legal?</a>
-	</li><li><a href="#blocked">Está Freenet bloqueada por los firewalls nacionales?</a>
-	</li><li><a href="#trouble">Puedo meterme en problemas si corro un nodo?</a>
-	</li><li><a href="#copyright">Qué acerca del copyright?</a>
-	</li><li><a href="#childporn">Qué acerca de la pornografía infantil, contenido ofensivo o terrorismo?</a>
-	</li><li><a href="#offensive">No quiero que mi nodo sea usado para almacenar pornografía infantil, ofensivo o terrorismo. Qué puedo hacer?</a>
-	</li><li><a href="#export">Qué acerca de las restricciones de exportación de encriptación?</a>
+	</li><li><a href="#donate-more-bw">Todos mis amigos donaron muy poco espacio y ancho de banda. ¿Por qué debería yo donar más?</a>
+	</li><li><a href="#donate-lot">Si dono un montón ¿mejorará significativamente mi experiencia?</a>
+	</li><li><a href="#legal">¿Es Freenet legal?</a>
+	</li><li><a href="#blocked">¿Está Freenet bloqueada por los cortafuegos nacionales?</a>
+	</li><li><a href="#trouble">¿Puedo meterme en problemas si corro un nodo?</a>
+	</li><li><a href="#copyright">¿Qué acerca del copyright?</a>
+	</li><li><a href="#childporn">¿Qué acerca de la pornografía infantil, contenido ofensivo o terrorismo?</a>
+	</li><li><a href="#offensive">No quiero que mi nodo sea usado para almacenar pornografía infantil, ofensivo o terrorismo. ¿Qué puedo hacer?</a>
+	</li><li><a href="#export">¿Qué acerca de las restricciones de exportación de encriptación?</a>
 
-	</li><li><a href="#whatelse">No tengo nada que ocultar y no necesito anonimato. Hay algo mas que Freenet pueda ofrecer?</a>
+	</li><li><a href="#whatelse">No tengo nada que ocultar y no necesito anonimato. ¿Hay algo mas que Freenet pueda ofrecer?</a>
       </li></ol>
       <h3> Cuestiones técnicas</h3>
 
-      <ol><li><a href="#how">How do I use this software? I downloaded it, but when I run it there's no GUI.</a>
-	</li><li><a href="#slow">Why is Freenet so slow?</a>
-	</li><li><a href="#search">Is Freenet searchable?</a>
-	</li><li><a href="#firewall">How do I get freenet working with a firewall/NAT?</a>
-	</li><li><a href="#connection-perm">Do I need a permanent connection to run a node?</a>
+      <ol><li><a href="#how">¿Cómo uso este software? Lo descargué, pero cuando lo ejecuto no tiene interfaz gráfica.</a>
+	</li><li><a href="#slow">¿Por qué es Freenet tan lenta?</a>
+	</li><li><a href="#search">¿Se puede buscar en Freenet?</a>
+	</li><li><a href="#firewall">¿Cómo consigo hacer trabajar a  Freenet con un  cortafuegos/NAT?</a>
+	</li><li><a href="#connection-perm">¿Necesito una conexión permanente para correr un nodo?</a>
 
-	</li><li><a href="#connections">Why does Freenet only download 1 or 2 files at a time?</a>
-	</li><li><a href="#store-perm">Why can't Freenet store data permanently?</a>
-	</li><li><a href="#why-java">Why is Freenet implemented in Java?</a>
+	</li><li><a href="#connections">¿Por qué Freenet solamente descarga 1 o 2 archivos a la vez?</a>
+	</li><li><a href="#store-perm">¿Por qué Freenet no almacena datos permanentemente?</a>
+	</li><li><a href="#why-java">¿Por qué  Freenet está implementado en Java?</a>
 
-	</li><li><a href="#fproxy-lan">How do I allow connections to FProxy from other computers?</a>
-	</li><li><a href="#openjdk">The installer breaks while downloading files and I'm using Ubuntu 8.04 and/or OpenJDK</a>
+	</li><li><a href="#fproxy-lan">¿Cómo habilito conecciones a FProxy desde otros ordenadores?</a>
+	</li><li><a href="#openjdk">El instalador casca mientras descarga archivos y estoy usando Ubuntu 8.04 y/o OpenJDK</a>
 
-	</li><li><a href="#whatsnew">What's new? Is there a changelog?</a>
-	</li><li><a href="#backtrace">Why are there so many messages in my logfile with a backtrace attached?</a>
-	</li><li><a href="#stabchange">How can I change from stable to unstable?</a>
-	</li><li><a href="#freenetinigone">Freenet doesn't start, says it can't find freenet.ini</a>
-	</li><li><a href="#servicenotrespond">Freenet doesn't start, says "Service did not respond to signal"</a>
-	</li><li><a href="#kaspersky">I have Kaspersky anti-virus and Freenet doesn't install, or consistently shows "Download/upload queue database corrupted!"</a>
-	</li><li><a href="#forgotpass">I set a password and now I forgot it, what can I do?</a>
-	</li><li><a href="#clockskew">Freenet keeps complaining about clock skew</a>
+	</li><li><a href="#whatsnew">¿Que hay de nuevo? ¿Hay una registro de cambios?</a>
+	</li><li><a href="#backtrace">¿Por qué hay tantos mensajes en mi archivo de registro con un trazado inverso adjunto?</a>
+	</li><li><a href="#stabchange">¿Cómo puedo cambiar de estable a inestable?</a>
+	</li><li><a href="#freenetinigone">Freenet no inicia, dice que no puede encontrar freenet.ini</a>
+	</li><li><a href="#servicenotrespond">Freenet no inicia, dice "El servicio no responde a la señal"</a>
+	</li><li><a href="#kaspersky">Tengo un antivirus Kaspersky y Freenet no se instala, o repetidamente muestra "Cola de descarga/subida de la base de datos corrupta!"</a>
+	</li><li><a href="#forgotpass">Configuré una clave y la olvidé, ¿que puedo hacer?</a>
+	</li><li><a href="#clockskew">Freenet se sigue quejando sobre desfasaje de tiempo</a>
       </li></ol>
-      <h3> Publisher questions</h3>
+      <h3> Preguntas de editores</h3>
 
-      <ol><li><a href="#find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</a>
-	</li><li><a href="#chk">How do I publish a Content Hash Key (CHK)?</a>
-	</li><li><a href="#update">Can Freenet documents be updated / deleted?</a>
-
-      </li></ol>
-      <h3> Contribution questions</h3>
-
-      <ol><li><a href="#idea">I have this great idea....</a>
-	</li><li><a href="#contribute">Can I contribute to the Freenet Project?</a>
-	</li><li><a href="#access">How can I access the code and website?</a>
-	</li><li><a href="#devtools">What tools do I need to help develop?</a>
-	</li><li><a href="#freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</a>
-	</li><li><a href="#bugs">Where can I report bugs?</a>
-	</li><li><a href="#theory">I'm a computer scientist/mathematician, how can I help?</a>
+      <ol><li><a href="#find">Si publico algo en Freenet, ¿cómo lo encontrará la gente? ¿No tienen que saber la clave que usé?</a>
+	</li><li><a href="#chk">¿Cómo publico una Clave de Contenido Hash (CHK)?</a>
+	</li><li><a href="#update">¿Los documentos de Freenet pueden ser actualizados / borrados?</a>
 
       </li></ol>
-      <h3> Security questions</h3>
+      <h3> Preguntas de colaboradores</h3>
 
-      <ol><li><a href="#browser">Can I browse Freenet with my regular browser?</a>
-	</li><li><a href="#attack">Won't attack X break Freenet's anonymity?</a>
-	</li><li><a href="#flooding">Is Freenet vulnerable to flooding attacks?</a>
-	</li><li><a href="#hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</a>
-	</li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
-	</li><li><a href="#attackY">What about attack Y?</a>
-	</li><li><a href="#privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</a>
+      <ol><li><a href="#idea">Tengo esta gran idea....</a>
+	</li><li><a href="#contribute">¿Puedo contribuir al Proyecto Freenet?</a>
+	</li><li><a href="#access">¿Cómo puedo acceder al código y sitio web?</a>
+	</li><li><a href="#devtools">¿Que herramientas necesito para ayudar al desarrollo?</a>
+	</li><li><a href="#freenethelp">¿Hay un Sitio de Ayuda que profundice las preguntas que los novatos puedan tener sobre Freenet, y donde la gente también pueda contribuir ?</a>
+	</li><li><a href="#bugs">¿Donde puedo reportar errores?</a>
+	</li><li><a href="#theory">Soy un científico de computadores / matemático, ¿cómo puedo ayudar?</a>
 
       </li></ol>
-      <h3> Misc. questions</h3>
-      <ol><li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a>
-	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
+      <h3> Preguntas de seguridad</h3>
+
+      <ol><li><a href="#browser">¿Puedo navegar Freenet con mi navegador habitual?</a>
+	</li><li><a href="#attack">¿Podría un ataque X romper el anonimato de Freenet?</a>
+	</li><li><a href="#flooding">¿Es Freenet vulnerable a ataques de inundación?</a>
+	</li><li><a href="#hash">¿Por qué las claves hash y datos encriptados cuando el operador de un nodo podría identificarlos (a los datos) de todos modos, si tratase?</a>
+	</li><li><a href="#cancer">¿Qué acerca de los nodos hostiles "cancer" en la red?</a>
+	</li><li><a href="#attackY">¿Qué sobre un ataque Y?</a>
+	</li><li><a href="#privatedata">¿Que datos privados almacena Freenet? ¿Cómo me libro de ellos? ¿Cómo puedo asegurar mi ordenador así estoy protegido cuando ejecuto Freenet?</a>
+
       </li></ol>
-      <h2> Philosophical answers
-      </h2><p><b id="what">What is Freenet?</b><br/>
+      <h3> Preguntas varias</h3>
+      <ol><li><a href="#rabbit">¿Dónde puedo obtener una copia de alta calida del conejo del logo?</a>
+	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">Otras PUF en nuestro servidor wiki</a>
+	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Una página dedicada a la seguridad de Freenet 0.7 en nuestro servidor wiki</a>
+      </li></ol>
+      <h2> Respuestas filosóficas
+      </h2><p><b id="what">¿Qué es Freenet?</b><br/>
 	Freenet
-	is free software designed to ensure true freedom of communication over
-	the Internet. It allows anybody to publish and read information with
-	complete anonymity. Nobody controls Freenet, not even its creators, meaning that the system is not vulnerable to manipulation or shutdown. Freenet
+	es software libre diseñado para asegurar verdadera libertad de comunicación sobre
+	Internet. Permite a a cualquiera publicar y leer información en
+	completo anonimato. Nadie controla Freenet, ni siquiera sus creadores, significa que el sistema no es vulnerable a manipulación or o apagón. Freenet
+	es también muy efeciente en cómo maneja la información, replicación de
+	contenido adaptativa en respuesta a la demanda.  Para más informacion,
+	por favor lee <a href="/whatis.html">Qué es Freenet</a>.</p>
 
-	is also very efficient in how it deals with information, adaptively
-	replicating content in response to demand.  For more information,
-	please read <a href="/whatis.html">What Is Freenet</a>.</p>
+      <p><b id="who">¿Quién está detras de  Freenet?</b><br/>
+	Freenet creció de un diseño para un sistema de publicacióbn anónima creado por Ian
+	Clarke mientras era estudiante en la  Universitdad de Edinburgh, Escocia. Desde entonces
+	muchas otras personas han contribuido en hacer la propuesta de Ian una realidad.
+	</p>
 
-      <p><b id="who">Who is behind Freenet?</b><br/>
-	Freenet grew out of a design for an anonymous publication system created by Ian
-	Clarke while a student at the University of Edinburgh, Scotland. Since
-	then many other people have contributed towards making Ian's proposal a
-	reality.</p>
+      <p><b id="trust">Si los autores son anónomos ¿como puedes confiar en la información?</b><br/>
+	La firma criptográfica de información permite a la gente comprobar su
+	autoría, esta técnica es frecuentemente usada para autenticar
+	autoría de emails. Aún más, puedes actualmente firmar información
+	mientras permaneces anónimo,teniendo así un personaje anónimo. Puedes probar
+	que tú escribiste diferentes piezas de información en Freenet, sin revelar tu identidad. de esta manera puedes construir una reputación anónima de confianza.</p>
 
-      <p><b id="trust">If authors are anonymous how can you trust information?</b><br/>
-	Cryptographic signing of information allows people to prove
-	authorship, this technique is frequently used to authenticate
-	authorship of emails. Moreover, you can actually sign information
-	while remaining anonymous, thus having an anonymous persona. You can
-	prove that you wrote different pieces of information on Freenet, without revealing your identity. In this way you can build up an anonymous reputation for reliability.</p>
+      <p><b id="donate-bw">¿Debo donar espacio en disco y ancho de banda?</b><br/>
+	No estás realmente donando en el sentido que tu pierdes el espacio en
+	disco y el ancho de banda; pero no estás realmente compartiendo esto (al menos
+	no en la misma forma que los programas de intercambio de archivos). Es más como
+	encachado dentro de la piscina común de recursos de Freenet.</p>
 
-      <p><b id="donate-bw">Do I have to donate disk space and bandwidth?</b><br/>
-	You aren't really donating in the sense that you lose the disk
-	space and the bandwidth; but you aren't really sharing either (at least
-	not the same way as with filesharing programs). It is more like
-	pitching in to the common Freenet resource pool.</p>
+      <p><b id="leech">No tengo nada para donar cuando uso la aplicación de intercambio de archivos X y quiero desangrar más.</b><br/>
 
-      <p><b id="leech">I don't have to donate anything when using filesharing application X and I get to leech more.</b><br/>
+	Quieres hacerlo anónimamente? Freenet está diseñada con el anonimato en mente, el rendimiento es secundario.</p>
 
-	Do you get to do that anonymously? Freenet is designed with anonymity in mind, performance comes second.</p>
+      <p><b id="donate-more-bw">Todos mis amigos donaron muy poco espacio y ancho de banda. ¿Por qué debería yo donar más?</b><br/>
+	Si eres feliz con lo que tienes entonces no. Pero si quieres
+	más deberías considerar donar más y ejecutar tu nodo tan cercano a 24x7 como sea posible, y
+	y deberías decirles a tus amigos que hagan lo mismo.</p>
 
-      <p><b id="donate-more-bw">All my friends donate very little space and bandwidth. Why should I donate more?</b><br/>
-	If you are happy with what you are getting then no. But if you want
-	more you should consider donating more and running your node as close to 24x7 as possible, and
-	you should ask your friends to do the same.</p>
+      <p><b id="donate-lot">Si dono un montón ¿mejorará significativamente mi experiencia?</b><br/>
+	Tu experiencia definitivamente mejorará, pero para una mejora realmente importante
+	necesitamos más personas que empiecen a pensar como tú. El ancho de banda
+	cuenta más que el espacio en disco.</p>
 
-      <p><b id="donate-lot">If I donate a lot will my experience improve significantly?</b><br/>
-	Your experience will definitely get better, but for a really great
-	improvement we need more people to start thinking like you. Bandwidth
-	counts more than diskspace.</p>
-
-      <p><b id="legal">Is Freenet legal?</b><br/>
-	We don't currently know of any prosecutions for using merely using Freenet.
-	Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
-	makes Freenet illegal in France; others have told us about the German data retention
-	law which allegedly requires anonymity systems to retain enough data to trace web
-	requests, which may or may not apply to us. ACTA might have
-	wide-ranging effects, including on Freenet, should it pass, and similar laws
-	such as IPRED2 have been tried in the past. There have also been attempts to
-	force peer to peer systems to provide wiretapping capabilities in the USA. As
-	far as we know none of these things - apart from the first two - have passed. 
-	Many of these are arguable either way (depending on how broadly the 
-	legislation is applied) and will have to be decided in caselaw.
-	The law can be an ass sometimes. You can read the EFF's (US-centric) advice to peer to peer developers 
-	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
-	If you need legal advice, talk to a lawyer. Also read the next section especially if you
-	are in China; blocking the protocol may suggest the authorities don't like us!
+      <p><b id="legal">¿Es Freenet legal?</b><br/>
+	No sabemos actualmente de ninguna persecución simplemente por usar  Freenet.
+	Algunas personas claman que la <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
+	convierte a Freenet ilegal en Francia; otros nos han dicho sobre la ley de retención de datos
+	alemana la cual alegan requiere a los sistemas de anonimato retener suficientes datos para rastrear peticiones
+	web, lo cual podría o no podría ser aplicable a nosotros. ACTA puede tener
+	efectos de amplio rango, incluyendo Freenet, debería pasar, y leyes similares
+	como la IPRED2 han sido intentadas en el pasado. Hubieron intentos también para
+	forzar a los sistemas peer to peer proveer capacidades de intercetpación de teléfonos en los EEUU. Hasta
+	donde sabemos ninguna de estas cosas - aparte de las primeras dos  - han sucedido. 
+	Muchas de esas son discutibles de todas maneras (dependiendo de cuan ampliamente sea 
+	aplicada la legislación) y deberán decidirse en un juicio.
+	La ley puede ser un problema a veces. Puedes leer los consejos de la EFF's (referente a los EEUU) a los desarrolladores peer-to-peer 
+	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">aquí</a>. 
+	Si necesitas asesoramiento legal, habla con un abogado. Lee también la segunda sección especialmente si tú
+	estás en China; bloquear el protocolo podría sugerir que las autoridades no nos quieren!
       </p>
 
-      <p><b id="blocked">Is Freenet blocked by national firewalls?</b><br/>
-	The Chinese national firewall (Golden Shield) has blocked our website for many years,
-	and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
-	like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
-	are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-	peer networks (but right now Freenet works fine in France and we have many French users!). 
-	Freenet 0.7 has some minimal defences against blocking; 
-	the protocol is relatively hard to identify (we will make this a lot harder in future),
-	and it supports a <a href="http://new-wiki.freenetproject.org/DarkNet">darknet</a> mode 
-	(i.e. only connecting to your friends) which makes automated harvesting and blocking 
-	of nodes very difficult.
-      </p>
-      
-      <p><b id="trouble">Can I get trouble if I run a node?</b><br/>
-	This is related to <a href="#legal">"Is Freenet legal?"</a>. We have done everything
-	we can to make it extremely difficult for any sane legal system to
-	justify punishing someone for running a Freenet
-	node, and there is little precedent for such action in today's developed
-	countries. Many legal systems recognise the importance of freedom of
-	speech, which is Freenet's
-	core goal. Having said that, there is risk in doing anything that your
-	government might not agree with; you should make an informed decision
-	as to whether to take that risk. Furthermore, your ISP or hosting provider
-	may have a problem with Freenet. At least one French hosting provider
-	has been known to ban Freenet (along with Tor and others) from their
-	servers; please read your terms and conditions to make sure you are 
-	allowed to run Freenet.</p>
-
-      <p><b id="copyright">What about copyright?</b><br/>
-	There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.
-	Specific copyright-related laws may be a problem, please read <a href="#legal">Is Freenet legal?</a>
-	and <a href="#blocked">Is Freenet blocked by national firewalls?</a>.</p>
-
-      <p><b id="childporn">What about child porn, offensive content or terrorism?</b><br/>
-	While most people wish that child pornography and terrorism did not
-	exist, humanity should not be deprived of their freedom to communicate
-	just because of how a very small number of people might use that
-	freedom.</p>
-
-
-      <p><b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
-	The true test of someone who claims to believe in Freedom of Speech
-	is whether they tolerate speech which they disagree with, or even find
-	disgusting. If this is not acceptable to you, you should not run a Freenet node.
-	Also, content in Freenet is available only as long as it is popular, so it
-	will go away if people lose interest. However, it should persist for some
-	time, and if enough people are interested, it will persist forever.</p>
-
-      <p><b id="export">How about encryption export restrictions?</b><br/>
-	The Freenet Project has notified the US authorities (since the files are hosted on SourceForge,
-	which is on US soil) that it will be exporting crypto. As long as your
-	country doesn't prohibit the use of encryption you are fine. Further, there
-	is now an exception in the export laws for software doing exactly what Freenet
-	does!</p>
-
-
-      <p><b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
-	Yes, in fact even without the anonymity feature Freenet
-	is very useful because of its unique way it handles content distribution
-	and information load. In simple terms that means you can publish a
-	website without worrying about how big the site will be and without
-	having to put someone elses ad banners on it. While it is unlikely that
-	freenet sites will ever load faster than regular websites, it does adapt to
-	sudden surges of visitors better (which often happen when relatively unknown sites 
-	get linked to from a big site), and reasonable download speeds for big files
-	are feasible too. Just don't expect very low latency.
+      <p><b id="blocked">¿Está Freenet bloqueada por los cortafuegos nacionales?</b><br/>
+	El cortafuegos nacional Chino (Golden Shield) ha bloqueado nuestro sitio web por muchos años,
+	y se observó en 2005 el bloqueo del protocolo 0.5 también. Esto sugiere que China no nos  
+	quiere, así que sé cuidadoso si corres Freenet en China. Algunos otros países (ej. Francia)
+	son conocidos por ser hostiles al peer to peer, y eventualmente pueden forzar a los ISPs a bloquear redes 
+	peer to peer  (pero justo ahora Freenet funciona bien en Francia y tenemos muchos usuarios Franceces!). 
+	Freenet 0.7 tiene algunas defensas mínimas contra el bloqueo; 
+	el protocolo es relativamente difícil de identificar (lo haremos mucho mas duro en el futuro),
+	y soporta un modo <a href="http://new-wiki.freenetproject.org/DarkNet">darknet</a>  
+	(ej. sólo conectando a tus amigos) el cual hace la detección y bloqueo automatizado de nodos 
+	muy difícil.
       </p>
       
-      <h2> Technical answers</h2>
+      <p><b id="trouble">¿Puedo meterme en problemas si corro un nodo?</b><br/>
+	Está relacionado con <a href="#legal">"¿Es Freenet legal?"</a>. Hemos hecho todo
+	lo que podemos para hacer extemadamente difícil para cualquier sistema legal sano justificar
+	el castigar a alguien por correr un nodo Freenet,
+	y hay pocos precedentes para tal acciónen los países desarrollados de
+	hoy. Muchos sistemas legales reconocen la importancia de la libertad de
+	expresión, lo cual es la meta principal de Freenet.
+	Habiendo dicho esto, hay riesgo en hacer cualquier cosa con la que tu 
+	gobierno pueda no estar de acuerdo; deberías tomasr una decisión informado
+	de cómo tomar ese riesgo. Además, tu ISP o proveedor de alojamiento
+	puede tener un problema con Freenet. Al menos un  proveedor de alojamiento Francés
+	ha sido conocido por prohibir Freenet (junto con Tor y otros) en sus
+	servidores; por favor lee los términos y condiciones para asegurarte que esta 
+	permitido que corras Freenet.</p>
 
-      <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
-	Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it through a Freenet client. One built-in client is fproxy, which lets you talk to Freenet with a web browser. 
-	Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu, or a system tray icon (rabbit) with a Launch Freenet menu item.
-	Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Freesite subscriptions" panel to reach some of the popular Freenet index sites.</p>
+      <p><b id="copyright">¿Qué acerca del copyright?</b><br/>
+	Hay algunas reflexiones excelentes sobre este tema en la página <a href="/philosophy.html">Philosophy</a>.
+	Leyes específicas relativas al  copyright pueden ser un problema, por favor lee <a href="#legal">¿Es Freenet legal??</a>
+	y  <a href="#blocked">¿Está Freenet bloqueada por los cortafuegos nacionales?</a>.</p>
 
-      <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
+      <p><b id="childporn">¿Qué acerca de la pornografía infantil, contenido ofensivo o terrorismo?</b><br/>
+	Mientras que la mayoría de la gente desea que la pornografía infantil y el terrorismo no
+	existan, la humanidad no debería ser privada de su libertad de comunicarse
+	solo a causa de cómo un pequeño número de personas pueda usar esa libertad.
+	</p>
 
-      <p><b id="slow">Why is Freenet so slow?</b><br/>
-	When you first install Freenet, it will be slow, and you may see Data Not Found 
-	or Route Not Found errors for freesites. This is normal, and Freenet will speed
-	up significantly over time. For best performance you should try to run Freenet
-	as close to 24 hours a day as possible. This is why we install Freenet as a
-	service.</p>
 
-      <p>Please bear in mind that Freenet is inherently high latency: it can take a while 
-	to (for example) load a page for the first time, even if it is capable of reasonable
-	speeds (as anonymous systems go!) for large popular files. You can also improve performance
-	for freesite browsing by using a separate browser and <a href="#connections">increasing 
-	its connection limit</a>. You should also set the datastore size and bandwidth limit as
-	high as possible. But protecting your anonymity does cost a certain amount of performance.
-	You can configure how much to a degree by changing the security levels on the page under
-	Configuration. </p>
+      <p><b id="offensive">No quiero que mi nodo sea usado para almacenar pornografía infantil, ofensivo o terrorismo. ¿Qué puedo hacer?</b><br/>
+	La verdadera prueba de algunos que claman creer la Libertad der Expresión
+	es cuando toleran expresion con la que estań en desacuerdo, o encuentran
+	desagradable. Si esto no es aceptable para ti, no deberías correr un nodo Freenet.
+	También, el contenido en Freenet está disponible solamente mientras es popular, entonces
+	desaparecerá si las personas pierden interés. Sin embargo,debería persistir durante un
+	tiempo, y si bastante gente está interesada, persistirá para siempre.</p>
 
-      <p><b id="search">Is Freenet searchable?</b><br/>
-	Yes, there are a few different search mechanisms. To search the freenet web (freesites),
-	you should be able to just use the search box on the homepage, or go to Search 
-	Freenet on the Browse submenu. If it's not there, go to the Plugins page under 
-	Configuration, and load the Library plugin. Alternatively, Frost and Thaw also 
-	provide searching for messages and files. Note that searching on Freenet is a good 
-	deal more difficult than on other networks because of Freenet's different 
-	architecture and design goals.
+      <p><b id="export">¿Qué acerca de las restricciones de exportación de encriptación?</b><br/>
+	El Proyecto Freenetha notificado a las autoridades de  EEUU (ya que los archivos están alojados en SourceForge,
+	el cual está en suelo americano) que estará exportando crypto. Mientras tu 
+	país no prohiba el uso de encriptación estás bien. Es más, ahora
+	hay una excepción en las leyes de exportacion para software que haga exactamente lo que Freenet
+	hace!</p>
+
+
+      <p><b id="whatelse">No tengo nada que ocultar y no necesito anonimato. ¿Hay algo mas que Freenet pueda ofrecer?</b><br/>
+	Si, de hecho aún sin la característica de anonimato Freenet
+	es muy útil a causa de su exclusiva forma en que maneja la distribución de la carga de contenido
+	e información. En términos simples esto significa que puedes publicar un sitio
+	web sin preocuparte sobre cuán grande será el sitio y sin
+	tener que poner avisos de algun otro en él. Mientras que es poco probable
+	que los sitios en Freenet alguna vez vayan a cargar mas rápido que los sitios web corrientes, se adaptan mejor
+	a repentinas llegadas de visitantes (las cuales a menudo suceden cuando sitios relativamente desconocidos 
+	son enlazados a un gransitio), y tambien es factibleuna razonable velocidad de descarga 
+	para archivos grandes. Sólo no esperes una latencia muy baja.
+      </p>
+      
+      <h2> Cuestiones técnicas</h2>
+
+      <p><b id="how">¿Cómo uso este software? Lo descargué, pero cuando lo ejecuto no tiene interfaz gráfica.</b><br/>
+	Fred (el demonio Freenet REference Daemon) corre como un demonio, o servicio, en segundo plano. Normalmente hablas con él mediante un cliente  Freenet. 
+	Un cliente incorporado es fproxy, el cual te permite hablar con Freenet mediante un navegador web. 
+	Freenet debería haber instalado un acceso directo a Navegar Freenet en el escritorio y/o el menú de inicio, o un ícono en la bandeja de sistema (conejo) con un menú Lanzar Freenet.
+	Si falla esto, apunta tu navegador web a <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> para la pagina de inicio. Prueba haciendo click en los varios enlaces 
+	en el panel "Suscripciones Freesite"para encontrar algunos de los índices de sitios Freenet más populares.</p>
+
+      <p>Si estas buscando aplicaciones que corran sobre Freenet y provean una interface o funcionalidad diferente, por favor visita la página <a href="/tools.html">Herramientas</a>.</p>
+
+      <p><b id="slow">¿Por qué es Freenet tan lenta?</b><br/>
+	Cuando instalas por primera vez Freenet, será lenta, y verás muchos errores "Data Not Found" 
+	o "Route Not Found" en los Freesites. Estoes normal, y Freenet se acelerará
+	significativamente con el tiempo. Para mejorar el rendimiento deberías tratar de correr Freenet
+	tan cerca de  24 horas al día como sea posible. >Esto es porqué instalamos Freenet como un servicio.
+	</p>
+
+      <p>Por favor considera que es inherente a Freenet una alta latencia: puede llevar un tiempo 
+	para (por ejemplo) cargar una página por primera vez, aun cuando es capaz de velocidades
+	razonables (como sistema anónimo!) para grandes archivos populares. Tanbién puedes mejorar el desempeño
+	para navegar Freesites usando un navegador por separado e <a href="#connections">incrementando  
+	su límite de conexión</a>. Deberías también configurar el tamaño del almacén de datos y límite de ancho de banda tan
+	alto como sea posible. Pero proteger tu anonimato cuesta una cierta cantidad de rendimiento.
+	Puedes configurar en que grado cambiando los niveles de seguridad en la página de 
+	Configuración. </p>
+
+      <p><b id="search">¿Se puede buscar en Freenet?</b><br/>
+	Si, hay varios mecanismos de búsqueda diferentes. Para buscar en la web Freenet (freesites),
+	deberías simplemente usar la caja de búsqueda en la página principal, o ir a Buscar en  
+	Freenet en el submenú del navegador. Si no está alli, Ve a la página de Complementos en  
+	Configuración, y carga el complemento Librería. Alternativamente, Frost y Thaw también  
+	proveen búsqueda para mensajes y archivos. Nota que buscar en Freenet es un asunto 
+	más dificil que en otras redes a causa de la arquitectura diferente de Freenet y objetivos de diseño.
       </p>
 
-      <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
-	Mostly, Freenet should just work with a NAT. However, you should forward the ports
-	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
-	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
-	and Opennet FNP ports. You may need to look up your router's documentation to figure
-	out how to do this. Freenet should have forwarded them itself through <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
-	but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have one router behind another).</p>
+      <p><b id="firewall">¿Cómo consigo hacer trabajar a  Freenet con un  cortafuegos/NAT?</b><br/>
+	Mayormente, Freenet debería simplemente funcionar con un NAT. Sin embargo, deberías redirigir los puertos
+	manualmente si puedes. Haz click en la página <a href="http://127.0.0.1:8888/friends/">Amigos</a> o <a href="http://127.0.0.1:8888/strangers/">Extraños</a>. Al pié verás
+	una lista de puertos usados por el nodo. Deberías redirigir (para UDP) los puertos Darknet FNP 
+	y Opennet FNP. Necesitarás buscar la documentación de tu  router para averiguar
+	como hacer esto. Freenet debería haberlos redirigido por si misma mediante <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
+	pero esto no siempre funciona (y no funciona nunca si no tienes el complemento UPnP cargado, o tienes un router detrás de otro).</p>
 
-      <p>If you have a dyndns address or other domain name pointing to the computer you run 
-	your Freenet node on, tell the node about it. Go to <a href="http://127.0.0.1:8888/config/node?mode=2">the core settings config page</a> (in advanced mode), 
-	and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
+      <p>Si tienes una dirección dyndns u otro nombre de dominio apuntando al ordenador donde corres tu nodo 
+	Freenet, informa al nodo de esto. Ve a <a href="http://127.0.0.1:8888/config/node?mode=2">la página de configuraciones principal</a> (en modo avanzado), 
+	y encuentra la opción invalidar dirección IP". Pon tu nombre de dominio en esa caja, y aplica los cambio.</p>
 
-      <p><b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
-	No, but it is preferred. You can run the software and test it from
-	a "transient" connection (e.g. dial up/mobile modem), but for the network 
-	as a whole to be most useful, we will need
-	as many permanent nodes as possible (most cable modem or DSL setups are
-	sufficiently "permanent" for this). A later version of Freenet may take better advantage of transient nodes.</p>
+      <p><b id="connection-perm">¿Necesito una conexión permanente para correr un nodo?</b><br/>
+	No, pero es preferible. Puede ejecutar el software y probarlo desde una 
+	conexión "transiente"  (ej. dial up/modem móvil), pero para que la red en su totalidad 
+	sea más efectiva, necesitaremos
+	tantos nodos permanentes como sea posible (la mayoría de las configuraciones de cable modem o DSL son
+	suficientement "permanenest" para esto). Una versión posterior de Freenet podría tomar mayor ventaja de los nodos transientes.</p>
 
-      <p><b id="connections">Why does Freenet only download 1 or 2 files at a time?</b><br/>
-	Many browsers limit the number of simultaneous connections to something far too low for efficiently browsing Freenet (since Freenet
-	pages often have much higher latency than web pages). This can usually
-	be reconfigured. For example, for Mozilla Firefox, type <span style="font-weight: bold;">about:config</span> in the address field
-	of the browser and replace the value of the following settings to the one stated. Filter on <span style="font-weight: bold;">&quot;connections&quot;</span>
-
-	to get only the relevant settings:</p>
+      <p><b id="connections">¿Por qué Freenet solamente descarga 1 o 2 archivos a la vez?</b><br/>
+	Muchos navegadores limitan el número de conexiones simultáneas a algo bastante bajo para navegar eficientemente Freenet (ya quelas paginas de Freenet
+	a menudo tienen más alta latencia que las páginas web). Esto puede usualmente
+	ser reconfigurado. Por ejemplo, para Mozilla Firefox, escribe <span style="font-weight: bold;">about:config</span> en la barra de direcciones 
+	del navegador y reemplaza el valor de las siguientes configuraciones con el indicado. Filtra por <span style="font-weight: bold;">&quot;connections&quot;</span>
+	para tener solamente las configuraciones relevantes:</p>
 
       <code>
 	network.http.max-connections 200<br/>
@@ -276,58 +275,58 @@
 	network.http.max-persistent-connections-per-proxy 200<br/>
 	network.http.max-persistent-connections-per-server 200<br/>
       </code>
-      <p>Note that these settings will cause mozilla to use more
-	connections for all your browsing, which may not be desirable from a
-	network congestion point of view. But you should ideally be using a separate
-	browser for Freenet anyway, for best security.</p>
+      <p>Nota que estos cambios causarán que mozilla use más
+	conexiones para toda tu navegación, lo cual podría no ser deseable desde el
+	punto de vista de congestión de la red. Pero idealmente deberías usar un navegador
+	separado para Freenet de todos modos, para mayoer seguridad.</p>
 
-      <p><b id="store-perm">Why can't Freenet store data permanently?</b><br/>
-	Because we can't find a way to do this without compromising Freenet's
-	other goals. For example, people often suggest that someone's node could
-	just never drop data they want to cache permanently. This, however,
-	won't work because even if the data is still available on their node,
-	there is no way to ensure that requests for that data will be routed to
-	that node. We have considered many other ways that Freenet could store data 
-	permanently, but they either won't work, or compromise Freenet's core goals 
-	of anonymity, and scalability. However, if you simply reinsert your data 
-	regularly, or if it is regularly downloaded (not by the same person as it 
-	would be cached on their node and the path to their node), it should 
-	remain available indefinitely.</p>
+      <p><b id="store-perm">¿Por qué Freenet no almacena datos permanentemente?</b><br/>
+	Porque no podemos encontrar una forma de hacer esto sin comprometer otras metas de
+	Freenet. Por ejemplo, la gente a menudo sugiere que el nodo de alguien podria
+	simplemente no descartar nunca datos que ellos quieren conservar permanentemente. Esto, sin embargo,
+	no funcionará porque aún si la información está disponible todaviía en sus nodos,
+	no hay forma de asegurar que peticiones de estos datos sean encaminadas hacia 
+	ese nodo. Hemos considerado muchas otras formas en que Freenet podría almacenar datos 
+	permanentemente, pero o bien no funcionarán, o comprometen las metas principales de  
+	anonimato de Freenet, y la escalabilidad. Sin embargo, si tu simplemente reinsertas tus datos 
+	regularmente, o si estos son regularmente descargados (no por lamisma persona ya que esto 
+	sería almacenado en su nodo y en la ruta a su nodo), deberían permanecer  
+	disponibles indefinidamente.</p>
 
-      <p><b id="why-java">Why is Freenet implemented in Java?</b><br/>
-	Opinions differ about the choice of java for the reference implementation of
-	freenet (even among the core developers). <a href="/people.html">Ian Clarke</a> and several
-	other developers are java proponents and the choice for java was made. Even if everybody could be convinced
-	to switch to a different language reimplementing the current freenet protocol would be quite a big task, and
-	take up a significant amount of time, while there is only a limited amount of developer-time available. Flame wars
-	on the development list about the language choice aren't welcome, people willing to implement freenet
-	in other languages however are very much encouraged to try. Don't underestimate the amount of work however.
+      <p><b id="why-java">¿Por qué  Freenet está implementado en Java?</b><br/>
+	Las opiniones difieren acerca de la elección de Java para laimplementacion de Freenet
+	(aún entre los desarrolladores principales). <a href="/people.html">Ian Clarke</a> y varios
+	otros desarrolladores son promotores de Java y se tomó la decisión por Java. Aún si alguno pudiera ser convencido
+	de cambiar a un lenguaje diferente reimplementar el actual protocolode Freenet sería un gran trabajo, y
+	y tomar una cantidad de tiempo significativa, mientras hay solamente una limitada cantidad de horas-desarrollador disponibles. Discusiones
+	en la lista de desarrolladores sobre la eleccion del lenguaje no son bienvenidas, la gente que desee implementar Freenet
+	en otros lenguajes sin embargo son animados a hacerlo. No subestimes la cantidad de trabajo sin embargo.
       </p>
       
-      <p><b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
-    If you want everyone to be able to use your node you have the following options:<br></p>
+      <p><b id="fproxy-lan">¿Cómo habilito conecciones a FProxy desde otros ordenadores?</b><br>
+    Si quieres que cualquiera sea capaz de usar tu nodo tienes las siguientes opciones:<br></p>
     <ul>
-    <li>Go to the <a href="http://127.0.0.1:8888/config/fproxy">web interface configuration page</a> and enable advanced mode</li>
-    <li>Stop your node and edit freenet.ini manually</li>
+    <li>Ve a la <a href="http://127.0.0.1:8888/config/fproxy">página de configuración de la interfaz web</a> y habilita el modo avanzado</li>
+    <li>Detén tu nodo y edita freenet.ini manualmente</li>
     </ul>
-    <p>In both cases change the following parameters:</p>
+    <p>En ambos casos cambia los siguientes parámetros:</p>
     </p><code>
     fproxy.bindTo=0.0.0.0<BR>
     fproxy.allowedHosts=*<BR>
     </code><p>
-    Of course, this leaves your node wide open, unless you control
-    access with a firewall of some sort.  If you'd prefer to use access
-    controls within Freenet, then you can use lines like this:</p>
+    Por supuesto esto deja tu nodo completamente abierto, a menos que controles el 
+    acceso con un cortafuegos de algún tipo.  Si prefieres controlar el acceso desde 
+    los controles internos de Freenet, entonces puedes usar líneas como estas:</p>
     <code>
     fproxy.bindTo=0.0.0.0<br>
     fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br
     </code>
-    <p>Or even (find your IP address from ipconfig/ifconfig/winipcfg and substitute it for 192.168.1.1):</p>
+    <p>o aún (encuentra tu dirección IP con ipconfig/ifconfig/winipcfg con ella 192.168.1.1):</p>
 	<code>
 	fproxy.bindTo=127.0.0.1,192.168.1.1<br>
 	fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
 	</code>
-	<p>And if you want to grant full access (i.e. change config settings, restart, etc) to the node (WARNING: Be very careful who you give full fproxy access to!):</p>
+	<p>Y si quieres permitir acceso total (ej. cambiar los valkores de configuración, reiniciar, etc) al nodo (ADVERTENCIA: Se muy cuidadoso a quien le das acceso completo a fproxy!):</p>
 	<code>
 	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 	</code>
