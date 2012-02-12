@@ -2,7 +2,7 @@
 
 $pages = array(
 
-'es' => 'pages/es/jsite.php'),
+'es' => 'pages/es/jsite.php',
 'en' => 'pages/en/jsite.php')
 
 ?>

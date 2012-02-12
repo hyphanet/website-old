@@ -5,6 +5,6 @@
 						'da' => 'Dansk',
 						'de' => 'Deutsch',
 						'es' => 'Spanish',
-						'en' => 'English');
+						'en' => 'English')
 						
 ?>
