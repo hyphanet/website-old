@@ -331,66 +331,66 @@
 	fproxy.allowedHostsFullAccess=127.0.0.1,192.168.1.0/24<br>
 	</code>
 	
-	  <p><b id="openjdk">Problems installing with OpenJDK</b><br>
-	<p>Some versions of OpenJDK, particularly the one included with Ubuntu 8.04,
-	have some problems with SSL which cause the installer to fail. Please install
-	the Sun JRE, at least version 6. On Ubuntu or Debian, open a root terminal and type:</p>
+	  <p><b id="openjdk">Problemas de instalación con OpenJDK</b><br>
+	<p>Algunas versiones de OpenJDK, particularmente la incluída con Ubuntu 8.04,
+	tiene algunos problemas con SSL los cuales causan que el instalador falle. Por favor instala
+	el Sun JRE, en su última versión 6. En Ubuntu o Debian, abre una terminal como root y escribe:</p>
 	<pre>
 	apt-get install sun-java6-bin
 	update-java-alternatives -s java-6-sun
 	</pre>
     
-      <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br/>
-	Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
-	to know exactly what went wrong.
+      <p><b id="backtrace">¿Por qué hay tantos mensajes en mi archivo de registro con un trazado inverso adjunto?</b><br/>
+	Fred (y Freenet en general) están todavía muy en desarrollo, y si algo va mal es muy meritorio
+	saber exactamente qué anduvo mal.
       </p>
       
-      <p><b id="stabchange">How can I change from the main network to the test network?</b><br/>
-	The test network is a separate network which allows the developers to see exactly
-	what is going on. There is no anonymity on the test network. There is a separate installer
-	(<a href="https://checksums.freenetproject.org/latest/testnet_installer_offline.jar">for Linux, OS/X</a>,
-	<a href="https://checksums.freenetproject.org/latest/TestnetInstaller.exe">for Windows</a>).
-	This can break quite often, so you should probably have some idea what you are doing or at least 
-	be prepared to reinstall regularly!
+      <p><b id="stabchange">¿Cómo puedo cambiar de red principal a red de prueba?</b><br/>
+	La red de prueba es una red separada la cual permite a los desarrolladores ver exactamente
+	qué está pasando. No hay anonimato en la red de prueba. Hay un instalador separado
+	(<a href="https://checksums.freenetproject.org/latest/testnet_installer_offline.jar">para GNU/Linux, OS/X</a>,
+	y <a href="https://checksums.freenetproject.org/latest/TestnetInstaller.exe">para Windows</a>).
+	Puede romperse muy seguido, así que probablemente debrías tener alguna idea de lo que estás haciendo o al menos 
+	estar preparado para instalar regularmente!
       </p>
       
-      <p><b id="freenetinigone">Freenet won't start and the launcher says it can't find freenet.ini</b><br/>
-    This is due to an unfortunate bug, fixed in 1249. You can fix it by renaming freenet.ini.tmp to freenet.ini.
+      <p><b id="freenetinigone">Freenet no inicia y el lanzador dice que no puede encontrar freenet.ini</b><br/>
+    Esto es debido a un error desafortunado, reparado en 1249. Puedes repararlo renombrando freenet.ini.tmp como freenet.ini.
       </p>
       
-      <p><b id="servicenotrespond">Freenet won't start, it says "Service did not respond to signal"</b><br/>
-    This should be fixed now, let us know if you see it. If you have a very old install, you might be interested
-    in the steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
+      <p><b id="servicenotrespond">Freenet no inicia, dice "El servicio no responde a la señal"</b><br/>
+    Esto debería estar arreglado ahora, déjanos saber si lo ves. Si tienes una instalación muy vieja, estarás interesado
+    en los pasos <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">aquí</a>.
       </p>
       
-      <p><b id="kaspersky">I have Kaspersky anti-virus, and Freenet doesn't install, or shows "Download/upload queue database corrupted!"</b><br/>
-	Kaspersky can be a problem with Freenet. See <a href="http://new-wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">here</a>.
-	We recommend you turn off Kaspersky during install and during node startup, and exclude the directory you
-	installed Freenet in (most likely C:\Program Files\Freenet or C:\Program Files (x86)\Freenet).</p>
+      <p><b id="kaspersky">Tengo un antivirus Kaspersky y Freenet no se instala, o repetidamente muestra "Cola de descarga/subida de la base de datos corrupta!"</b><br/>
+	Kaspersky puede ser un problema con Freenet. Mira <a href="http://new-wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">aquí</a>.
+	Recomendamos que desactives Kaspersky durante la instalación y durante el arranque del nodo, y excluyas el directorio en
+	que has instalado Freenet (generalmente algo como C:\Program Files\Freenet o C:\Program Files (x86)\Freenet).</p>
       
-      <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
-    On every new build, a brief summary of all the main changes is posted to the support and devl lists 
-    and the eng.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
-    for a much more detailed view, check out the <a href="http://github.com/freenet/">git repositories</a>.
-    Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
-    <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
-    updated and frequently go off on rants on unrelated topics!</p>
+      <p><b id="whatsnew">¿Que hay de nuevo? ¿Hay una registro de cambios?</b><br>
+    En cada nueva versión, un breve resumen de todos los cambio principales es enviado a las listas support y devl  
+    y la eng.freenet board en Freetalk. Esto usualmente es retransmitido a FMS y Frost también. Alternativamente,
+    para una visión mucho más detallada, verifica los <a href="http://github.com/freenet/"> repositorios git</a>.
+    También, deberías verificar los blogs de desarrolladores (desde los marcadores por defecto, o en la web, ej. 
+    <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), pero te aviso que a menudo no son  
+    actualizados y frequentemente desconecten  diatribas en asuntos sin relación!</p>
 
-      <h2>Publisher answers</h2>
+      <h2>Preguntas de editores</h2>
       <p>
-	<b id="find">If I publish something in Freenet, how will people find it? Don't they have to know the key I used?</b><br/>
-	Yes, people will have to know what key you used to publish your
-	information. This means you will have to announce your key in some way.</p>
-      <p>The most common way to do this is to send a message, containing
-	your key and brief description of your information, to the author of
-	one of the existing Freenet sites. Most of the "portal" sites which are linked from the Freenet
-	web interface (fproxy) read the Freetalk or FMS forums, and there are boards
-	specifically for announcing sites (usually the boards are called "sites"!). You could also send your key to people by using
-	the Freenet <a href="/lists.html">mailing lists</a>, in the
-	IRC channel (irc.freenode.net #freenet), by private e-mail, or by advertising your Freenet
-	site on your World Wide Web site. If you're feeling extravagant, you
-	could even try skywriting it. (Graffiti is not recommended, for legal
-	reasons.)</p>
+	<b id="find">Si publico algo en Freenet, ¿cómo lo encontrará la gente? ¿No tienen que saber la clave que usé?</b><br/>
+	Si, la gente debe saber que clave usaste para publicar tu
+	información. Esto significa que tienes que que anunciar tu clave de alguna forma.</p>
+      <p>La vía más común de hacer esto es mandar un mensaje, conteniendo
+	tu clave y una breve descripción de tu información, al autor de
+	uno de los sitios Freenet existentes. La mayoria de los "portales" enlazados en la interface web
+	de  Freenet (fproxy) leen los foros Freetalk o FMS, y hay boards
+	específicos para anunciar sitios (usualmente los boards son llamados "sitios"!). Podrías también enviar tu clave a personas usando
+	las <a href="/lists.html">listas de correo</a> de Freenet , en el 
+	canal IRC (irc.freenode.net #freenet), por e-mail privado, o anunciando tu sitio Freenet
+	en tu sitio World Wide Web. SI eres extravagante, puedes tratar de 
+	escribirlo en el cielo. (Graffiti no se recomienda, por razones legales.)
+	</p>
 
       <p><b id="chk">How do I publish a Content Hash Key (CHK)?</b><br/>
 	A Content Hash Key is based on the actual content contained within
