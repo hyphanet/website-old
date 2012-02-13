@@ -392,115 +392,117 @@
 	escribirlo en el cielo. (Graffiti no se recomienda, por razones legales.)
 	</p>
 
-      <p><b id="chk">How do I publish a Content Hash Key (CHK)?</b><br/>
-	A Content Hash Key is based on the actual content contained within
-	it - and as such, the key will only be known after it has been inserted
-	into Freenet.  To insert a CHK, simply insert it as "CHK@", Freenet will tell you what the actual CHK is once the insertion completes.
+      <p><b id="chk">¿Cómo publico una Clave de Contenido Hash (CHK)?</b><br/>
+	Una Clave de Contenido Hash está basada en el contenido actualmente empaquetado 
+	con ella - y como tal, la clave solamente puede saberse luego de haber sido insertada
+	en Freenet.  Para insertar una CHK, simplemente insertala como "CHK@", Freenet te dirá cual es la actual CHK una vez que se complete la inserción
 
-      </p><p><b id="update">Can Freenet documents be updated / deleted?</b><br/>
+      </p><p><b id="update">¿Los documentos de Freenet pueden ser actualizados / borrados?</b><br/>
 
-	Currently, a document posted to Freenet
-	with the same name as one already present may actually serve to
-	propagate the existing document. There is also currently no means of
-	deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-      <p>However, you can use an <a href="http://new-wiki.freenetproject.org/USK">Updatable Subspace Key (USK)</a>
-	to provide a form of updatable freesite: your node will automatically look for later editions of
-	the site (after you visit it, or always if you bookmark it), and show you the latest version.
-	You can force it to search for the latest version by changing the number at the end of the key to negative.</p>
+	Corrientemente, un documento publicado en Freenet
+	con el mismo nombre que uno ya presente puede en realidad servir para
+	propagar el documento existente. En realidad no tiene sentido
+	borrar un documento de Freenet. Los documentos no requeridos son eventualmente removidos por falta de uso.</p>
+      <p>Sin embargo, puedes usar una <a href="http://new-wiki.freenetproject.org/USK">Clave de Subespacio Actualizable (USK)</a>
+	para proveer una especie de freesite actualizable: tu nodo automáticamente buscará las últimas ediciones
+	del sitio (luego que lo visites, o siempre si lo pones en marcadores), y te mostrará la última versión.
+	Puedes forzarlo a buscar la última versión cambiando el número al final de la clave a negativo.</p>
 
-      <h2> Contribution answers
+      <h2> Preguntas de colaboradores
 
-      </h2><p><b id="idea">I have this great idea....</b><br/>
-	Good! First step: read the <a href="/lists.html">mailing list archives</a>.
-	Odds are good that someone else had the same idea and discussed it with
-	the group. Either a flaw was found in the idea, or perhaps it was
-	decided to postpone implementing the idea until later. Some examples of
-	ideas already discussed are storing information by content hash, key
-	redirection, signed keys/data, use of UDP, server discovery, URLs,
-	document versioning, and others. If you don't see the idea discussed in
-	the archives, by all means bring it up in the appropriate <a href="/lists.html">mailing list</a>.</p>
+      </h2><p><b id="idea">Tengo esta gran idea....</b><br/>
+	Bien! primer paso: lee el <a href="/lists.html">archivo de listas de email</a>.
+	Hay buenas probabilidades que alguien mas haya tenido la misma idea y discutido con 
+	el grupo. Podrian haber encontrado un defecto en la idea, o quizas fue
+	decidido posponer su implementación mas tarde. Algunos ejemplos de
+	ideas ya discutidas son almacenamiento de información por hash de contenidos, redirección de
+	claves, datos/claves firmadas, uso de UDP, descubrimiento de servidores, URLs,
+	versionado de documentos, y otras. Si no ves la idea discutida en 
+	los archivos, por supuesto enviala a la <a href="/lists.html">lista de correos</a> apropiada.</p>
 
-      <p><b id="contribute">Can I contribute to the Freenet Project?</b><br/>
-	Absolutely. Even if you don't have the time or skills to become a co-developer of the project, you can contribute in other ways:</p>
+      <p><b id="contribute">¿Puedo contribuir al Proyecto Freenet?</b><br/>
+	Absolutamente. Aún si no tienes el tiempo o las habilidades para ser un co-desarrollador del proyecto, puedes contribuir en otras formas:</p>
 
-      <ul><li> Help test Freenet by installing and configuring the server software on your machine.
-	</li><li> Install the client software on your machine to test retrieving information and publishing your own.
+      <ul><li> Ayuda a probar Freenet instalando  y configurando un servidor en tu máquina.
+	</li><li> Instala el software cliente en tu máquina para probar recuperar información y publicar la propia
 
-	</li><li> Work on the Freenet web site (including the FAQ).
-	</li><li> Contribute your ideas to the discussion lists.
-	</li><li> Translate the user interface into your local language.
-      </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet. Or maybe even mention us on your website and promote us just like this <a href="http://www.webhostingsearch.com/">web hosting guide</a> did.</p>
+	</li><li> Trabaja en el sitio web Freenet (incluyendo las FAQ).
+	</li><li> Contribuye con tus ideas a las listas de discusión.
+	</li><li> Traduce la interfaz de usuario a tu idioma local.
+      </li></ul><p>Si eres un desarrollador, puedes también ayudar diseñando y desarrollando otras aplicaciones para correr sobre Freenet. 
+      Quizás también mencionarnos en tu sitio web y promocionarnos como esta <a href="http://www.webhostingsearch.com/">guía de alojamiento web</a> hizo.</p>
       
-      <p> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
+      <p> Personas que quieran contribuir con Freenet en <a href="/openjobs.html">alguna forma</a>, con trabajo de arte, nuevas ideas, o aún corrigiendo errores de escritura/gramática 
+      o ideas para agregar nuevas páginas/párrafos en este sitio, también son bienvenidas por <a href="mailto:ian@locut.us">email</a>. </p>
       
-      <p><b id="access">How can I access the code and website?</b><br/>
+      <p><b id="access">¿Cómo puedo acceder al código y sitio web?</b><br/>
 
-	See the <a href="/developer.html">developer page</a> for details of our git repositories etc.
+	Mira la  <a href="/developer.html">página de desarrolladores</a> para los detalles de nuestros repositorios git etc.
       </p>
-      <p><b id="devtools">What tools do I need to help develop?</b><br/>
-	To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.6 or later. You can download the source tarballs
-	on the download page for a specific build, or use git to get an up to date copy of the source, see <a href="/developer.html">here</a> for details.
-	Further instructions for building and deploying the server are included with the code itself.
-	Generally speaking, joining our IRC channel is a good idea: <a href="irc://irc.freenode.net/freenet">#freenet on irc.freenode.net</a></p>
+      <p><b id="devtools">¿Que herramientas necesito para ayudar al desarrollo?</b><br/>
+	Para compilar y desarrollar el servidor Freenet, necesitarás herramientas Java compatibles con Sun's JDK 1.6 o posterior. Puedes descargar los fuentes
+	en la página de descargas por una versión específica, o usar git para obtener una copia actualizada del código fuente, mira <a href="/developer.html">aquí</a> los detalles.
+	Otras instrucciones para compilar y desarrollar el servidor están incluídas en el código en sí.
+	Generalmente hablando, ingresar en nuestro canal IRC es una buena idea: <a href="irc://irc.freenode.net/freenet">#freenet en irc.freenode.net</a></p>
 
-      <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br/>
+      <p><b id="freenethelp">¿Hay un Sitio de Ayuda que profundice las preguntas que los novatos puedan tener sobre Freenet, y donde la gente también pueda contribuir ?</b><br/>
 
-	Have a look at <a href="http://new-wiki.freenetproject.org/">our wiki</a>.
-	An older wiki, which is now read-only, but has a fair amount of content so is
-	sometimes helpful is <a href="http://wiki.freenetproject.org/">here</a>. 
-	There are also several implementations of wiki's over Freenet. The most recent
-	one is called Jfniki. There is a link in the default bookmarks on the Browse 
-	Freenet page after you install Freenet.
+	Echa una mirada en <a href="http://new-wiki.freenetproject.org/">nuestra wiki</a>.
+	Una antigua wiki, la cual es ahora de solo lectura, pero tiene una gran cantidad de contenido tal que
+	a veces es útil está <a href="http://wiki.freenetproject.org/">aquí</a>. 
+	Hay también varias implementaciones de wikis sobre Freenet. La más reciente
+	es una llamada Jfniki. Hay un enlace en los marcadores por defecto en la página 
+	Navegar Freenet luego que instalas Freenet.
       </p>
       
-      <p><b id="bugs">Where can I report bugs?</b><br/>
-	You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">support mailing list</a>.</p>
+      <p><b id="bugs">¿Donde puedo reportar errores?</b><br/>
+	Puedes usar nuestro <a href="https://bugs.freenetproject.org/">sistema de seguimiento de errores</a> o enviar un email a nuestra <a href="/lists.html">lista de correos de soporte</a>.</p>
 	
-	  <p><b id="theory">I'm a theoretical computer scientist/mathematician, how can I help? (research challenges)</b><br/>
-	See <a href="http://new-wiki.freenetproject.org/Research_challenges">here</a>.</p>
+	  <p><b id="theory">Soy un científico de computadores / matemático, ¿cómo puedo ayudar? (desafíos de investigacion)</b><br/>
+	Mira <a href="http://new-wiki.freenetproject.org/Research_challenges">aquí</a>.</p>
 
-      <h2> Security answers</h2>
-      <p><b id="browser">Can I use my regular browser to browse Freenet?</b><br/>
-	Freenet has a web interface: much of the content on Freenet is in the form of
-	"freesites", and downloads, configuration and friend connections can be managed from 
-	the web interface. However, because of weaknesses in current browsers, we 
-	<b>strongly</b> recommend that you use a separate browser for Freenet. Specifically,
-	browser history stealing, in all its forms, is a major threat if you share a 
-	browser between Freenet and the WWW at large: malicious web pages will be able to
-	probe which freesites you have visited, and report this information to their owners.
+      <h2> Preguntas de seguridad</h2>
+      <p><b id="browser">¿Puedo navegar Freenet con mi navegador habitual?</b><br/>
+	Freenet tiene una interfaz web: mucho del contenido en Freenet está en la forma de
+	"freesites", y descargas, configuración y conexiones de amigos pueden manejarse desde 
+	la interfaz web. Sin embargo, a causa de vulnerabilidades en los navegadores actuales, nosotros 
+	<b>encarecidamente</b> recomendamos que uses un navegador separado para Freenet. Específicamente,
+	el robo del histórico del navegador, en todas sus formas, es una amenaza importante si compartes un 
+	navegador entre Freenet y la  WWW en grande: páginas web maliciosas serán capaces de
+	probar cuales freesites has visitado, y reportar esta información a sus propietarios.
       </p>
-      <p>With recent browsers, privacy/incognito mode may be sufficient, and the rabbit
-    applet on the system tray on Windows will try to start a browser running in this 
-    mode. However, this is not 100% reliable in our experience, so be careful.</p>
+      <p>Con navegadores recientes, el modo privacidad/incognito puede ser suficiente, y el ícono del conejo
+    en la bandeja de sistema  en Windows tratará de iniciar un navegador corriendo en este 
+    modo. Sin embargo, esto no es 100% confiable en nuestra experiencia, así que sé cuidadoso.</p>
     
-      <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
-      <p><b>Short answer:</b> Yes, on opennet. Maybe, on darknet.</p>
-      <p><b>Long answer:</b></p>
-      <p>Freenet has a different threat model to Tor and the Mixmaster remailers. 
-	Freenet is designed to resist
-	censorship: The network must therefore be robust, and content must be distributed
-	without requiring a central server, whether anonymous or not. Anonymity is important
-	for requesters and especially for those who upload content in the first place. The
-	typical example is a corporate or government whistleblower. Generally to find the
-	originator of some content, the attacker must be able to predict the data in advance,
-	must be able to move across the network relatively quickly, and must be able to 
-	perform the attack while the data is being inserted; after that, it is distributed 
-	across the network and is much harder to trace, and the originator may have left the 
-	network. However, if by chance or by overwhelming force the attacker is connected
-	to the whistleblower (or e.g. seizes the computers of everyone on the network), he 
-	may be able to identify this much more quickly. All of this is vastly more difficult 
-	on a darknet, where everyone connects only to their friends, where it is very hard for
-	an attacker to find nodes, and where to connect to a given node he must social engineer
-	its operator! Freenet does support opennet mode (plug and play), but darknet is far more 
-	secure, and far more difficult to block on a national firewall.</p>
-      <p>Tor on the other hand is designed to anonymise real-time data streams, on the 
-	assumption that the list of nodes can be public, that there is a free world where
-	nodes can be operated safely, that the authors of controversial content will be able
-	to either host (hidden) web servers themselves or upload it to other (hidden, but usually centralised) storage systems,
-	and so on. And Tor has a concept of a "client", which is somebody who uses the 
-	service without providing any value to it; on Freenet, every node relays data for
-	its neighbours. Hence the attacks on Freenet are completely different to the attacks
-	on Tor. Both compromise to some degree to enable more or less real-time performance.</p>
+      <p><b id="attack">¿Podría un ataque X romper el anonimato de Freenet?</b></p>
+      <p><b>Respuesta corta:</b> Si, en red abierta. Quizás, en darknet.</p>
+      <p><b>Respuesta larga:</b></p>
+      <p>Freenet tiene un modelo de amenaza diferente para Tor y los Mixmaster remailers. 
+      Freenet está diseñada para resistir a la censura:
+	La red debe por lo tanto ser robusta, y el contenido debera estar distribuído
+	si requerir de un servidor central, sea anónimo o no. El anonimato es importante
+	para los solicitantes y especialmente para aquellos quienes suben contenido en primer lugar. El
+	ejemplo típico es una denuncia a una corporación o gobierno. Generalmente para encontrar al 
+	originador de algún contenido, el atacante debe ser capaz de predecir los datospor adelantado,
+	debe ser capaz de moverse por la red relativamente rápido, y debe ser capaz de 
+	ejecutar el ataque mientras los datos están siendo insertados; luego de esto, son distribuídos 
+	por la red y es mucho más difícil de rastrear, y el originador puede haber dejado la 
+	red. Sin embargo, si por azar o por fuerza bruta el atacante está conectado con 
+	el denunciante (o ej. toma los ordenadores de cada uno en la red), será 
+	capaz de identificar estos mucho más rapidamente.Todo esto es ampliamente más dificil  
+	en darknet, donde cada uno conecta solamente con sus amigos, donde en muy difícil
+	para n atacante encontrar nodos, y donde para conectar a un nodo dado deberá practicar ingeniería social
+	con su operador! Freenet soporta el modo red abierta  (plug and play), pero darknet es por lejos 
+	mucho más seguro, y por lejos mucho más difícil de bloquear en un cortafuegos nacional.</p>
+      <p>Tor por otra parte está diseñado para anonimizar flujos de datos en tiempo real, asumiendo   
+	 que la lista de nodos pueda ser pública, que hay un mundo libre donde
+	los nodos pueden ser operados en libertad, que los autores de contenido controversial serán capaces
+	de mantener servidore web (ocultos) por si mismos o subir a otros (ocultos, pero generalmente centralizados) sistemas de almacenamiento,
+	y así siguiendo. Y Tor tiene un concepto de "cliente", quien es alguien que usa el  
+	servicio sin proveer algún valor por él; en Freenet, todos los nodos confían los datos de sus
+	vecinos. He aquí que los ataques en Freenet son completamente diferentes a los ataques 
+	en Tor. Ambos comprometen en algún grado la capacidad de más o menos funcionamiento en tiempo real.</p>
 
       <p>If you can use the darknet, trust your friends, don't reinsert files, always 
     use the "Insert a random, safe key" option, and change your anonymous identity after 
