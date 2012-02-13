@@ -504,40 +504,41 @@
 	vecinos. He aquí que los ataques en Freenet son completamente diferentes a los ataques 
 	en Tor. Ambos comprometen en algún grado la capacidad de más o menos funcionamiento en tiempo real.</p>
 
-      <p>If you can use the darknet, trust your friends, don't reinsert files, always 
-    use the "Insert a random, safe key" option, and change your anonymous identity after 
-    some volume of inserts, you should be relatively safe using Freenet. However this has
-    not yet been quantified. If 
-	you can connect, build up some trust in your anonymous persona, insert your controversial 
-	content, and then disappear, again, you are better off with Freenet, especially if the 
-	content is a website (but if you are connecting on opennet, beware of seednode compromises). 
-	In some other cases, Tor is better.</p>
-	  <p>We are still working on Freenet's security and there are major security enhancements
-	which have not yet been implemented, most of which will go in before 1.0. Cryptographic
-	tunnels similar to Tor's onion routing are one possibility, which would greatly reduce
-	the impact of many of the below attacks, but there are several other enhancements 
-	planned, both to anonymity and to network robustness/undetectability.</p>
-	<b>Major known attacks:</b><br/>
+      <p>Si puedes usar la darknet, confiar en tus amigos, no reinsertes archivos, siempre 
+    usa la opción "insertar una clave aleatoria, segura", y cambia tu identidad anónima despues de  
+    alguna cantidad de inserciones , deberías estar relativamente seguro usando Freenet. Sin embargo esto aún no ha
+    sido cuantificado. Si 
+	puedes conectar, acumular alguna confianza en tu persona anónima,insertar tu contenido  
+	controversial, y luego desaparecer, nuevamente, estás mejor apagando Freenet, especialmente si el  
+	el contenido es un sitio web (pero si estás conectando en red abierta, cuídate de comṕrometer el seednode). 
+	En algunos casos, Tor es mejor.</p>
+	  <p>Aún estamos trabajando en la seguridad de Freenet y hay importantes mejoras en la seguridad
+	las cuales aún no han sido implementadas, la mayoría de ellas lo serán antes de 1.0. Túneles 
+	criptográficos similares al encaminamiento en anillo de Torson una posibilidad, lo cual reducirá grandemente
+	el impacto de muchos de los ataques abajo detallados, pero hay varias otras mejoras 
+	planeadas, tanto al anonimato como a la robustez/indetectabilidad de la red.</p>
+	
+	<b>Ataques conocidos:</b><br/>
 	In the interests of giving would-be users as much information as possible, and on
 	the assumption that any serious attacker would do their homework, here are the major 
 	classes of attack on Freenet we are presently aware of:</p>
 
-      <ul><li><b>Harvesting</b>: Simply by running some powerful Freenet nodes, an 
-	  attacker can identify most of the opennet (Strangers network) relatively easily.
-	  These nodes can then be attacked one by one (subject to resources), their traffic
-	  analysed, or simply be blocked on a national firewall. Connecting only to friends (darknet)
-	  largely solves this problem. ISPs may be able to identify Freenet nodes with some
-	  effort, although we make this fairly difficult: Freenet's current protocol is designed
-	  to be hard to detect, and steganography will be introduced at some point. However, traffic flow 
-	  analysis, or brute-force blocking of all peer to peer traffic (e.g. traffic between 
-	  IP addresses marked as "consumer" rather than "business"), both of which would hit a lot
-	  of things other than Freenet, would likely be effective for quite some time.</li>
+      <ul><li><b>Cosecha</b>: Simplemente ejecutando algunos poderosos nodos Freenet, un 
+	  atacante puede identificar la mayoria de las redes abiertas (redes Strangers) relativamente fácil.
+	  Esos nodos pueden ser atacados uno por uno (segun los recursos), su tráfico 
+	  analizado, o simplemente bloqueados en un cortafuegos nacional. Conectando sólo con amigos (darknet)
+	  se resuelve este problema en gran parte. Los ISP pueden ser capaces de identificar nodos Freenetcon con algún 
+	  esfuerzo, aunque hacemos esto bastante difícil: el actual protocolo deFreenetestá diseñado
+	  para ser difícil de detectar, y la estenografía será introducida en algún punto. Sin embargo, el análisis del flujo 
+	  de tráfico, o bloqueo por fuerza bruta de todo el tráfico peer to peer (ej. tráfico entre 
+	  direcciones IP marcadas como  "consumidor" antes que "negocios"), ambas las cuales podrían contener un montón
+	  de otras cosas que Freenet, parece que será efectivo por algún tiempo.</li>
 	  
-	  <li><b>Bootstrapping attacks</b>: Unless a node only connects to friends, it will
-	  have to connect to the opennet "seednodes" to announce itself and get initial peers
-	  to connect to. At the moment there are relatively few seednodes and the list is 
-	  maintained manually. The seednodes could be blocked easily by a national firewall etc,
-	  but also, there is little to prevent attackers from setting up their own seednodes and
+	  <li><b>Ataques de Bootstrapping</b>: A menos que un nodo conecte sólo con amigos, tendrá
+	  que conectar con los  "seednodes" de la red abierta para anunciarse a si mismo y tener pares iniciales
+	  para conectarse. Al momento hay relativamente pocos seednodes y la lista es 
+	  mantenida manualmente. Los seednodes podrían ser bloqueados facilmente por un cortafuegos nacional etc,
+	  pero también, hay poco a prevenir en que los atacantes configuren sus propios seednodes y 
 	  submitting them, and then "capturing" any new Freenet users who connect to their 
 	  nodes, in order to observe their traffic etc. Freenet will try to announce to multiple
 	  seednodes, but see the below section on "correlation attacks", which generally are 
@@ -554,7 +555,7 @@
 	  relatively safe in terms of many of the other attacks, but you are taking the risk 
 	  that the opennet seednode you connect to may be malicious.</li>
 
-	<li><b>Datastore attacks</b>: This is largely solved as of build 1224, we don't
+	<li><b>Ataque al almacén de datos</b>: This is largely solved as of build 1224, we don't
 	  cache our local requests or inserts, and neither do the nodes immediately connected
 	  to us, to a depth of at least 2 hops (3 on inserts). However, if your node is older
 	  than that, seizing the store might give a bad guy some interesting information.
@@ -566,7 +567,7 @@
 	  plaintext; we're working on it, but did I mention you should 
 	  <a href="http://www.truecrypt.org">encrypt your whole system</a>?</li>
 	  
-	<li><b>Correlation attacks</b>: If you are connected to a node, and can recognise
+	<li><b>Ataque de correlación</b>: If you are connected to a node, and can recognise
 	  the keys being requested (probably because it was posted publicly), you can show 
 	  statistically that the node in question probably requested it, based on the 
 	  proportion of the keys requested from that node, the locations of nearby nodes, the 
