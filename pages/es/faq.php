@@ -68,7 +68,7 @@
 	</li><li><a href="#attack">¿Podría un ataque X romper el anonimato de Freenet?</a>
 	</li><li><a href="#flooding">¿Es Freenet vulnerable a ataques de inundación?</a>
 	</li><li><a href="#hash">¿Por qué las claves hash y datos encriptados cuando el operador de un nodo podría identificarlos (a los datos) de todos modos, si tratase?</a>
-	</li><li><a href="#cancer">¿Qué acerca de los nodos hostiles "cancer" en la red?</a>
+	</li><li><a href="#cancer"></a>
 	</li><li><a href="#attackY">¿Qué sobre un ataque Y?</a>
 	</li><li><a href="#privatedata">¿Que datos privados almacena Freenet? ¿Cómo me libro de ellos? ¿Cómo puedo asegurar mi ordenador así estoy protegido cuando ejecuto Freenet?</a>
 
@@ -519,192 +519,192 @@
 	planeadas, tanto al anonimato como a la robustez/indetectabilidad de la red.</p>
 	
 	<b>Ataques conocidos:</b><br/>
-	In the interests of giving would-be users as much information as possible, and on
-	the assumption that any serious attacker would do their homework, here are the major 
-	classes of attack on Freenet we are presently aware of:</p>
+	En el interés de proporcionar a los posibles usuarios tanta información como sea posible, y
+	asumiendo que cualquier atacante serio podría hacer su propio trabajo, aquí están las principales 
+	clases de ataque a Freenet que tenemos en conocimiento al presente:</p>
 
       <ul><li><b>Cosecha</b>: Simplemente ejecutando algunos poderosos nodos Freenet, un 
 	  atacante puede identificar la mayoria de las redes abiertas (redes Strangers) relativamente fácil.
 	  Esos nodos pueden ser atacados uno por uno (segun los recursos), su tráfico 
 	  analizado, o simplemente bloqueados en un cortafuegos nacional. Conectando sólo con amigos (darknet)
 	  se resuelve este problema en gran parte. Los ISP pueden ser capaces de identificar nodos Freenetcon con algún 
-	  esfuerzo, aunque hacemos esto bastante difícil: el actual protocolo deFreenetestá diseñado
+	  esfuerzo, aunque hacemos esto bastante difícil: el actual protocolo de Freenet está diseñado
 	  para ser difícil de detectar, y la estenografía será introducida en algún punto. Sin embargo, el análisis del flujo 
 	  de tráfico, o bloqueo por fuerza bruta de todo el tráfico peer to peer (ej. tráfico entre 
 	  direcciones IP marcadas como  "consumidor" antes que "negocios"), ambas las cuales podrían contener un montón
 	  de otras cosas que Freenet, parece que será efectivo por algún tiempo.</li>
 	  
-	  <li><b>Ataques de Bootstrapping</b>: A menos que un nodo conecte sólo con amigos, tendrá
+	  <li><b>Ataques de inicio [bootstrapping]</b>: A menos que un nodo conecte sólo con amigos, tendrá
 	  que conectar con los  "seednodes" de la red abierta para anunciarse a si mismo y tener pares iniciales
 	  para conectarse. Al momento hay relativamente pocos seednodes y la lista es 
 	  mantenida manualmente. Los seednodes podrían ser bloqueados facilmente por un cortafuegos nacional etc,
 	  pero también, hay poco a prevenir en que los atacantes configuren sus propios seednodes y 
-	  submitting them, and then "capturing" any new Freenet users who connect to their 
-	  nodes, in order to observe their traffic etc. Freenet will try to announce to multiple
-	  seednodes, but see the below section on "correlation attacks", which generally are 
-	  feasible with only a single connection to the target. So this is a question of 
-	  resources - if the attacker has the resources to surveil all new Freenet nodes, he has
-	  a good chance of pulling it off. In future we may have more seednodes, and only
-	  reveal a small proportion of them to each node, as Tor does with its hidden bridges,
-	  but that will not prevent attackers from creating lots of malicious seednodes and 
-	  getting them into the official lists, and it will likely still be possible to block
-	  all the seednodes with some effort (something similar has already happened to Tor hidden
-	  bridges in China). Combined with harvesting and adaptive search attacks, this attack explains why opennet is 
-	  regarded by many core developers as hopelessly insecure. If you want good security
-	  you need to connect only to friends. Hit and run inserts are possible, and can be
-	  relatively safe in terms of many of the other attacks, but you are taking the risk 
-	  that the opennet seednode you connect to may be malicious.</li>
+	  los anuncien, y luego "capturen" cualquier nuevo usuario de Freenet que conecte a esos 
+	  nodos, en orden de observar su tráfico etc. Freenet tratará de anunciar múltiples
+	  seednodes, pero mira en la sección de abajo en "correlación de ataques", cuales son generalmente  
+	  factibles sólo con una simple conexión al objetivo. Así que es una cuestión de  
+	  recursos - si el atacante tiene recursos  para vigilar todos los nodos Freenet nuevos, tiene
+	  una buena oportunidad de capturarlos. En el futuro podríamos tener más seednodes, y solamente
+	  revelar una pequeña proporción de ellos a cada nodo, como hace Tor con sus puentes ocultos,
+	  pero esto no prevendrá que los atacantes creen montones de seednodes maliciosos y  
+	  ponerlos en las listas ofociales, y esto es como si fuera posible bloquear
+	  todos los seednodes con diferente esfuerzo (algo similar ya ha ocurrido a los puentes ocultos de Tor 
+	  en  China). Combinado con los ataques de cosecha y búsqueda adaptativa, este ataque explica porqué la red abierta es 
+	  referida por muchos desarrolladores centrales como insegura sin esperanza. Si quieres buena seguridad
+	  necesitas conectarte solamente con amigos. Es posible insertar estilo "toco y me voy", y puede ser
+	  relativamente seguro en término de muchos otros ataques, pero estás tomando el riesgo 
+	  de que los seednode que conectas en la red abierta sean maliciosos.</li>
 
-	<li><b>Ataque al almacén de datos</b>: This is largely solved as of build 1224, we don't
-	  cache our local requests or inserts, and neither do the nodes immediately connected
-	  to us, to a depth of at least 2 hops (3 on inserts). However, if your node is older
-	  than that, seizing the store might give a bad guy some interesting information.
-	  Also note that the client-cache caches local requests (but not inserts), so it should
-	  be encrypted and passworded by setting the physical security level to HIGH, or turned 
-	  off. You should also encrypt the swapfile in particular and the whole system if 
-	  possible to prevent information leaks from the web browser, media players etc. Note
-	  that some incriminating data (e.g. the list of bookmarks) is still stored in 
-	  plaintext; we're working on it, but did I mention you should 
-	  <a href="http://www.truecrypt.org">encrypt your whole system</a>?</li>
+	<li><b>Ataque al almacén de datos</b>: Esto fué ampliamente resuelto en la versión 1224, no cacheamos
+	  nuestros requerimientos locales o inserciones, y ni los nodos inmediatamente conectados
+	  a nosotros, hasta una profundidad de al menos 2 saltos (3 en las inserciones). Sin embargo, si tu nodo es más antiguo
+	  que eso, apoderarse del almacén le dará al chico malo alguna información interesante.
+	  Nota también que la caché del cliente captura peticiones locales (pero no inserciones), así que debería
+	  estar encriptado y protegido por contraseña configurando el nivel de seguridad física como ALTO, o bien 
+	  apagarlo. Deberías también encritpar el archivo de intercambio en particular y el sistema completo de 
+	  ser posible para prevenir el filtrado de información desde el navegador web, media players etc. Nota
+	  que algunos datos incriminatorios (ej. la lista de marcadores) aún está almacenada en 
+	  texto plano; estamos trabajando en ello, pero ¿debo mencionar que deberías 
+	  <a href="http://www.truecrypt.org">encriptar tu sistema por completo</a>?</li>
 	  
-	<li><b>Ataque de correlación</b>: If you are connected to a node, and can recognise
-	  the keys being requested (probably because it was posted publicly), you can show 
-	  statistically that the node in question probably requested it, based on the 
-	  proportion of the keys requested from that node, the locations of nearby nodes, the 
-	  HTL on the requests and so on. This will be largely eliminated by tunnels (but these
-	  will be quite expensive so may need to be turned off by default except for 
-	  predictable blocks), but in any case it requires a rather powerful attacker compared 
-	  to the next attack... Note also that if you only connect to your friends, a remote
-	  attacker will have to either co-opt your friends or social engineer you into giving
-	  them a connection; either way, connecting to the entire network this way is rather 
-	  expensive: If they already suspect you personally they'll probably bug your keyboard
-	  rather than trying to connect to your Freenet node!</li>
+	<li><b>Ataque de correlación</b>: Si estás conectado a un nodo, y puedes reconocer qué
+	  claves están siendo solicitadas (probablemente porque fueron enviadas públicamente), puedes mostrar 
+	  estadísticamente que el nodo en cuestión probablemente las haya solicitado, basado en la  
+	  proporción de claves requeridas por ese nodo, las ubucaciones de los nodos cercanos, la 
+	  HTL en los requerimientos y así siguiendo. Estó será en gran parte eliminado por túneles (pero estos
+	  serían caros entonces necesitarás tenerlos apagados por defecto excepto para 
+	  bloqueos predecibles), pero en cualquier caso requiere un ataque más poderoso comparado 
+	  con el siguiente ataque... Nota también que si solamente conectas con tus amigos, un atacante
+	  remoto deberá o bien cooptar a tus amigos o hacer ingeniería social contigo para que lo
+	  conectes; en cualquier caso, conectar a la red entera de esta manera es mucho más 
+	  caro: si ellos sospechan de ti personalmente probablemente interfieran tu teclado
+	  antes que tratar de conectar con tu nodo Freenet !</li>
 
-	<li><b>Adaptive search</b>: If you want to find the author of some content, and you can
-	  predict the exact keys which will be inserted, and you are able to connect to new 
-	  nodes at will, you may be able to listen out for the keys, guess where they must have
-	  come from, connect to nodes near there, and if your guess is correct, get more keys
-	  which gives you a more accurate fix on the originator, so the attack gets faster and
-	  faster and eventually converges on the originator. This attack is most powerful with
-	  inserts of big, predictable files, but the "Insert a random, safe key" option will
-	  make the keys unpredictable even if the content is guessable, by using random 
-	  encryption keys. The downside is it produces a different key each time for the same
-	  file, and you can never safely reinsert the same file to the same key. Given that
-	  Freenet's data persistence is currently relatively poor, this is a problem. Anyway,
-	  if you <i>can</i> use the random keys option, the attacker is unable to move towards
-	  you until after you announce the file: Most of his samples will come not from the 
-	  actual content inserts but from chat posts. There are far fewer of these, and 
-	  changing your pseudonymous identity periodically will help, provided the attacker 
-	  cannot easily connect the new identity to the old one. Using a dedicated identity for
-	  posting sensitive content, which doesn't chat too much, again will help. Another 
-	  thing which makes a huge difference is connecting only to your friends (i.e. using
-	  darknet): This makes it extremely difficult for an attacker to get new connections 
-	  closer to where he thinks you must be, just as it helps with correlation attacks.
-	  So the biggest problems with this attack are 1) Files which are not very popular fall
-	  off Freenet relatively quickly, so need to be reinserted, but it is not safe to 
-	  reinsert to the same key (this is why we have the "Insert a canonical key" option,
-	  for those who don't care about attacks), and 2) Chat can still be attacked. Tunnels
-	  will help to deal with both problems, and by default will only be used for 
-	  predictable keys so can be relatively slow without this causing problems in practice.
-	  Also there is work going on on various techniques to allow users to do reinserts 
-	  safely via for example preventing the attacker from seeing requests started before he
-	  connected. Another important point is this only works if the source is uploading new
-	  content, or chatting, regularly; creating and bootstrapping a new pseudonymous 
-	  identity over a short period, doing a single insert (of any size) with the safe 
-	  random key option, and announcing it, should be relatively safe from this attack, 
-	  even on opennet - but see the section above on bootstrapping attacks.</li>
+	<li><b>Búsqueda adaptativa</b>: Si quieres encontrar al autor de algún contenido, y puedes 
+	  predecir las claves exactas que serán insertadas, y eres capaz de conectar a nuevos  
+	  nodos a voluntad, quizas tengas la posibilidad de esperar por las claves, adivinar de dónde 
+	  provienen, conectar a los nodos cercanos, y si tus suposiciones son correctas, obtener más claves
+	  las cuales te darán un perfil mas exacto del  originador, entonces el ataque se vuelve más y más 
+	  rápido y eventualmente converge en el originador. Este ataque es más poderoso  con
+	  inserciones de grandes, predecibles archivos, pero la opción "inserta una clave segura y aleatoria" 
+	  hará a las claves impredecibles aún si el contenido lo es, usando claves de encriptación  
+	  aleatorias. La contraparte de esto es que produce una clave diferente cada vez para el mismo 
+	  archivo, y nunca puedes reinsertar con seguridad el mismo archivo con la misma clave. Dado que la
+	  persistencia de datos de Freenet es en la actualidad relativamente pobre, esto es un problema. de cualquier modo,
+	  si tu <i>puedes</i> usar la opción de claves aleatorias,el atacante es incapaz de acercarse
+	  a ti después de que anuncias el archivo: La mayoría de sus muestras no vendrán con 
+	  las inserciones actuales del contenido sino de los envíos por chat. Hay muchas menos de estas, y 
+	  cambiar tu seudónimo periódicamente ayudara, previendo que el atacante 
+	  no pueda relacionar facilmente la nueva identidad con la antigua. Usar una identidad dedicada
+	  para enviar contenido sensible, del cual no se habla mucho, nuevamente ayudará también. Otra 
+	  cosa que hace una gran diferencia es conectar solamente con tus amigos (ej. usando
+	  darknet): Esto hace extremadamente difícil para un atacante obtener nuevas conexiones 
+	  cercanas al lugar en que él piensa que tu estás, tal como ayuda con los ataques de correlación.
+	  ASí, los problemas mas grandes con este ataque son 1) Archivos que no son muy populares desaparecen 
+	  de Freenet relativamente rápido, necesitan ser reinsertados, pero no es seguro 
+	  reinsertar con la misma clave (esto es porqué tenemos la opción "insertar una clave canónica",
+	  para aquellos a quienes no les importan los ataques), y 2) El chat aún puede ser atacado. Los túneles
+	  ayudarán a lidiar con ambos problemas, y por defecto deberían ser utilizados solamente para 
+	  claves predecibles porque pueden ser relativamente lentos sin que esto cause problemas en la práctica.
+	  También hay trabajo avanzando en varias técnicas que permitan a los usuarios hacer reinserciones 
+	  seguramente, mediante por ejemplo prevenir que el atacante vea requerimientos iniciados antes que él
+	  se conecte. Otro punto importante es que esto solamente funciona si la fuente está subiendo nuevo
+	  contenido, o chateando, regularmente; creando e iniciando con un nuevo seudonimo 
+	  por un corto período, haciendo una sola inserción (de cualquier tamaño) con la opción 
+	  de clave segura aleatoria, y anunciandola, debería ser relativamente seguro para este ataque, 
+	  aún en red abierta - pero mira la sección de arriba sobre ataques de inicio.</li>
 	  
-	<li><b>Traffic analysis</b>: Freenet provides minimal protection against global
-	  traffic analysis (basic message padding etc); if the attacker also has nodes on the 
-	  network, the extra data will likely be helpful. We certainly do not guarantee that it
-	  is impossible to trace data transfers from one node to the next with detailed traffic
-	  data, however it is hoped that this will fall down on the busier nodes. One day we 
-	  will implement steganographic transports and/or constant bitrate links as an option
-	  for more paranoid users. Note that on Tor-style networks, global traffic analysis 
-	  will defeat the network completely: all that is needed is to observe both the entry 
-	  and exit points.</li>
+	<li><b>Análisis de tráfico</b>: Freenet una protección mínima contra el análisis 
+	  de tráfico global (rellenado de mensajes básico etc); si el atacante tambien tiene nodos en la 
+	  red, los datos extra probablemente serán de ayuda. Nosotros ciertamente no garantizamos que sea
+	  imposible rastrear transferencias de datos de un nodo al siguiente con tráfico de datos
+	  detallado, sin embargo es de esperarse que estos falle en los nodos más ocupados. Algún día 
+	  implementaremos transportes estenográficos y/o enlacess de bitrate constante como una opción
+	  para los usuarios más paranoicos. Nota que en las redes estiolo Tor, el análisis de tráfico global 
+	  derrotará a la red completamente: es necesario observar todo esto en los puntos de entrado  
+	  y salida.</li>
 	
-	<li><b>Swapping attacks</b>: It is possible to attack the location swapping algorithm, and
-	  thereby disrupt routing on friend-to-friend networks. This has been demonstrated by 
-	  the authors of the Pitch Black paper. We are working on a solution, but sadly at the
-	  moment most users use opennet.</li>
+	<li><b>Ataqes de intercambio</b>: Es posible atacar el algoritmo de intercambio de localización, y
+	  de tal modo interrumpir el encaminamiento a redes de amigo-a-amigo. Esto ha sido demostrado por 
+	  los autores del artículo Lanzando en Negro. Estamos trabajando en una solución, pero tristemente al momento
+	  la mayoría de los usuarios emplean la red abierta.</li>
 	</ul>
       
-      <p>More information on the current practical state of Freenet security is available
-	<a href="http://new-wiki.freenetproject.org/Security_summary">here</a>.
+      <p>Más información sobre el actual estado prácticode la seguridad de Freenet está disponible
+	<a href="http://new-wiki.freenetproject.org/Security_summary">aquí</a>.
       </p>
       
-      <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br/>
+      <p><b id="flooding">¿Es Freenet vulnerable a ataques de inundación?</b><br/>
 
-	Short answer: no.</p>
+	Respuesta corta: no.</p>
 
-      <p>Long answer:<br/>
-	We don't think so. Aside from protecting freedom of speech, Freenet
-	is also designed to be an efficient dynamic caching system. If
-	information is requested a lot from a limited number of nodes, the
-	nodes that the requests pass through will cache the information,
-	lowering the load on the network. If information is inserted on a
-	limited set of nodes and then subsequently requested a lot from a
-	separate set of nodes, with repetition, the sets will close in on one
-	another in the network topology until they are "neighbors" and only the
-	originally targeted nodes are suffering from the attack.</p>
-      <p>In other words, in order to harm Freenet
-	with a flood you need to consistently change your point of entry into
-	the network and continually insert and request new data, and you will
-	still only increase the workload for the network that is linear to your
-	own. Given an immense will and capacity greater than the total of the
-	entire network, it is possible to cripple any public network (including
-	the Internet itself) with floods, but it is our intention to always
-	keep Freenet as resistant to this as theoretically possible.</p>
-      <p>Curiously enough, the above analysis only applies to <a href="http://wiki.freenetproject.org/Opennet">Opennet</a>.
-	On Darknet, you might have a little more success, although it would be much harder to change your entry point in any significant way.
-	Nonetheless, you have a reasonably low bandwidth multiplier (the total number of nodes visited, around 20 on average), and you are severely limited by the number of nodes you can connect to, which will be low on a darknet.</p>
+      <p>Respuesta larga:<br/>
+	Pensamos que no. Además de proteger la libertad de explersión, Freenet
+	también está diseñada para ser un sistema de cacheo dinámico eficiente. Si
+	si la información es muy requerida por un número limitado de nodos, el
+	nodo a traves del cual pasa la información va a cachear esa información,
+	disminuyendo la carga de la red. Si la información es insertada en un conjunto 
+	limitado de nodos y luego subsecuentemente muy requerida por un 
+	conjunto separado de nodos, con repetición, estos conjuntos se cerrarán formando 
+	otro en la topología de la red hasta que sean "vecinos" y solamente los nodos de 
+	destino originales estén sufriendo el ataque.</p>
+      <p>En otras palabras, en orden de atascar Freenet
+	con inundación necesitas consistentemente cambiar tu punto de entrada en
+	la red y continuamente insertar y requerir datos nuevos, y aún solamente
+	incrementarás la carga de trabajo para la red que sea contigua a la tuya 
+	propia. Dada una inmenas voluntad y mayor capacidad que el total de la
+	red entera,es posible lisiar cualquier red pública (incluyendo 
+	internet en si misma) con inundaciones,pero es nuestra intención siemper
+	mantener Freenet tan resistente a esto como sea teóricamente posible.</p>
+      <p>Bastante curiosamente, el análisis anterior solo se aplica a la  <a href="http://wiki.freenetproject.org/Opennet">Red Abierta</a>.
+	En Darknet, tendrías un poco menos de éxito, aunque sería mucho más difícil cambiar tu punto de entrada de forma significativa.
+	No obstante, tienes un multiplicador de ancho de banda razonablemente bajo el total de nodos visitados, (alrededor de 20 en promedio), 
+	y estás severamente limitado por el número de nodos a los que conectar, lo cual puede ser lento en darknet.</p>
       
-      <p><b id="hash">Why hash keys and encrypt data when a node operator could identify them (the data) anyway if he tried?</b><br/>
+      <p><b id="hash">¿Por qué las claves hash y datos encriptados cuando el operador de un nodo podría identificarlos (a los datos) de todos modos, si tratase?</b><br/>
 
-	Hashing the key and encrypting the data is not meant a method to keep Freenet
-	Node operators from being able to figure out what type of information is
-	in their nodes if they really want to (after all, they can just find
-	the key in the same way as someone who requests the information would)
-	but rather to keep operators from having to know what information is in
-	their nodes if they don't want to. This distinction is more a legal one
-	than a technical one. It is not realistic to expect a node operator to
-	try to continually collect and/ or guess possible keys and then check
-	them against the information in his node (even if such an attack is
-	viable from a security perspective), so a sane society is less likely
-	to hold an operator liable for such information on the network.</p>
+	Las claves hash y los datos encriptados no constituyen un método para impedir a los operadores 
+	de Nodos Freenet de ser capaces de determinar que tipo de información hay 
+	en sus nodos si realmente quieren (después de todo, ellos pueden encontrar 
+	la clave en la misma manera que cualquiera que requiera la información)
+	pero es preferible que tener operadores sabiendo qué información hay en 
+	su nodos si realmente no quieren. Esta distinción es más un asunto legal
+	que técnico. No es realista esperar que un operador de nodo trate
+	continuamente de rcolectar y /o adivinar posibles claves y luego verificarlas
+	contra la información en su nodo (aún si tal ataque es viable
+	desde una perspectiva de seguridad), asi en una sociedad sana es menos probable
+	sostener un operador obligado por dicha información en la red.</p>
 
-      <p><b id="cancer">What about hostile "cancer" nodes within the network?</b><br/>
-	The existence of malicious nodes within the network is the most
-	difficult problem that a distributed network must face, and has been
-	the bane of many previous ideas. Many systems (such as multiplayer
-	gaming networks) try to avoid malicious nodes by keeping the protocol
-	and code closed, but we have yet to see an example of that working in
-	the long run. And anyway it is opposed to Freenet's philosophy.</p>
-      <p>Freenet
-	is based on a balance of positive and negative feedback loops that bring
-	requests for information to a node when it is functioning well, and
-	keep requests away from it when it is not. The key to avoiding
-	"cancers" is (as in the body) to make sure these loops can correctly
-	identify even the most carefully designed malicious node and not keep
-	sending requests to it. This issue is not fully dealt with by the
-	current test code, but you can rest assured that a number of possible
-	solutions have been on the table and discussed for some time now.
-	Several have been implemented (enforcing hashes or signatures on content, 
-	per node failure tables, backing off from a node that causes timeouts ...)</p>
+      <p><b id="cancer">¿Qué acerca de los nodos hostiles "cancer" en la red?</b><br/>
+	La existencia de nodos maliciosos dentro de la red es el problema 
+	más dificil que una red distribuída debe enfrentar, y ha sido
+	la perdición de muchas ideas previas. Muchos sistemas (such como las redes de
+	juegos multi jugadores) tratan de impedir nodos maliciosos manteniendo el protocolo y
+	el código cerrados, pero aún tenemos que ver un ejemplo de esto funcionando
+	a la larga. Y de cualquier manera, es opuesto a la filosofía de Freenet.</p>
+      <p>
+	Freenet está basada en un equilibrio de realimentación positiva y negativa que lleva
+	requerimientos de información a un nodo cuando está funcionando bien, y 
+	mantiene requerimientos alejados de éste cuando no. La clave para evitar
+	"cancers" es (como en el cuerpo) asegurarse que esa realimentación pueda identificarse
+	correctamente aún en el nodo malicioso diseñado más cuidadosamente y no seguir
+	enviándole requerimientos. Este problema no está completamente tratado en el 
+	actual código de prueba, pero puedes descansar seguro que un número de posibles
+	soluciones han estado en la mesa y discutido de un tiempo a esta parte.
+	Varias han sido implementadas (reforzar hashes o firmas de contenido, 
+	tablas de falla por nodo, desconexión de un nodo que causa demoras ...)</p>
 
-      <p><b id="attackY">What about attack Y?</b><br/>
-	Freenet
-	is still in testing and there are bound to be attacks found that we have
-	not dealt with yet. So if you do manage to figure out a truly new kind
-	of attack, we are interested in hearing about it. Please keep in mind
-	what Freenet
-	is and what it is not, however. No single network can offer everybody
-	everything, and there are security issues that Freenet,
-	by it's nature, may not deal with to extent you might wish. If this
-	upsets you, all of our code is freely available, so you are free to
-	take as much of it as you like and write your own distributed network
-	that suits your desires. </p>
+      <p><b id="attackY">¿Qué sobre un ataque Y?</b><br/>
+	Freenet está todavía en prueba y hay límites a los ataques encontrados que aún
+	no hemos tratado. Entonces si te imaginas un tipo de ataque verdaderamente 
+	nuevo, estamos interesados en escuchar acerca de él. Por favor ten en mente
+	que és Freenet
+	y que no és, sin embargo. Ninguna simple red puede ofrecerle todo a 
+	todos, y hay problemas de seguridad que Freenet,
+	por su naturaleza, no puede manejar tanto como tú quisieras. Si esto
+	te molesta, todo nuestro código está disponible libremente, así que eres libre
+	de tomar cuanto tú quieras y escribir tu propia red distribuída
+	que se ajuste a tus deseos. </p>
 	
 	  <p><b id="privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</b><br/>
 	First of all, we <b>strongly</b> suggest that you install Freenet inside an encrypted 
