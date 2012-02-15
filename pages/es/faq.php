@@ -706,76 +706,76 @@
 	de tomar cuanto tú quieras y escribir tu propia red distribuída
 	que se ajuste a tus deseos. </p>
 	
-	  <p><b id="privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</b><br/>
-	First of all, we <b>strongly</b> suggest that you install Freenet inside an encrypted 
-	drive using, for example, <a href="http://www.truecrypt.org/">Truecrypt</a>. It is not
-	possible for Freenet to prevent all leaks of private data, especially if you download
-	media files etc. Even if you only browse freesites and use the chat plugins, there will
-	still be potentially incriminating data in your swapfile, which needs to be encrypted
-	(on recent versions of Windows you could try the command "fsutil behavior set 
-	encryptpagingfile 1", but really the solution is to encrypt your whole system including swap). It is also 
-	essential that you use your web browser in privacy mode, or with cache and history 
-	turned off; we try to do this if you launch Freenet via the rabbit icon, but there are 
-	no guarantees as unfortunately this functionality seems buggy in current web browsers.
-	Browser plugins could also be a problem, and you should use a separate browser for 
-	Freenet if in any doubt.
-	Be careful with the files you download from Freenet - not only
-	could anyone seizing your computer see you have them (media files are likely to be 
-	written to disk even if you open them directly in your web browser and never save them), 
-	but also they could contain threats to anonymity themselves, such as calling back to
-	a malicious website etc; this is possible in for instance PDFs and some video formats.
-	Freenet tries to warn you about this when it can't filter out such malicious content:
-	Currently it can only filter HTML pages, GIF/PNG/JPEG images and CSS, and MP3s, but we will
-	add support for Ogg soon and other formats later. And of course there are many other threats - you
-	should take standard security precautions, such as not running operating systems that
-	are no longer updated, not running software not from a trustworthy source, using 
-	appropriate security software etc (if you have a firewall make sure it allows the two 
-	UDP ports Freenet needs through).</p>
+	  <p><b id="privatedata">¿Que datos privados almacena Freenet? ¿Cómo me libro de ellos? ¿Cómo puedo asegurar mi ordenador así estoy protegido cuando ejecuto Freenet?</b><br/>
+	Primero que todo, nosotros <b>encarecidamente</b> sugerimos que instales Freenet dentro de un disco 
+	encriptado usando, por ejemplo, <a href="http://www.truecrypt.org/">Truecrypt</a>. No es 
+	posible para Freenet prevenir todas las filtraciones de datos privados, especialmente si descargas
+	archivos multimedia, etc. Aún si solamente navegas freesites and use the chat plugins, aún habrá
+	datos potencialmente incriminatorios en tu archivo de intercambio, el cual necesita ser encriptado
+	(en versiones recientes de Windows podrías intentar el comando "fsutil behavior set 
+	encryptpagingfile 1", pero realmente la solución es encriptar tu sistema completo incluyendo el archivo de intercambio). Es tambien 
+	esencial que uses tu navegador web en modo privacidad, o con cache e histórico 
+	desactivados; intentamos hacer esto si lanzas Freenet mediante el ícono del conejo, pero no hay 
+	garantías ya que desafortunadamente esta funcionalidad parece fallar en los navegadores actuales.
+	Los complementos de los navegadores pueden también ser un problema, y deberías usar un navegador separado para 
+	Freenet si tienes alguna duda.
+	Se cuidadoso con los archivos que descargas de  Freenet - no solamente
+	cualquiera podria capturar tu ordenador para ver que tienes en él (los archivos multimedia probablemente 
+	sean escritos a disco aún si los abres directamente en tu navegador web y nunca los guardas), 
+	sino que también podrían amenazar el anonimato en si mismos, tal como conectarse a 
+	un sitio web malicioso etc; esto es posible por ejemplo en PDFs y algunos formatos de video.
+	Freenet tratará de advertirte sobre esto cuando no pueda filtrar tal contenido malicioso:
+	Actualmente puede filtrar solamente páginas HTML, imágenes GIF/PNG/JPEG y CSS, y MP3s, pero agregaremos
+	soporte para Ogg pronto y otros formatos mas tarde. Y por supuesto hay muchas otras amenazas - tu
+	deberías tomar precauciones de seguridad comunes, como no correr sistemas operativos
+	desactualizados, no ejecutar software de una fuente que no sea totalmente confiable, usar 
+	software apropiado de seguridad etc (si tienes un cortafuegos asegúrate que permite pasar a los dos puertos 
+	UDP que necesita Freenet).</p>
 	
-	<p>Because not all users will have installed encrypted drives at the time when they 
-	first install Freenet, Freenet itself attempts to encrypt all the potentially incriminating
-	data that it stores on disk. Details are below but as explained, leaks are inevitable:
-	you really should <a href="http://www.truecrypt.org/">encrypt your disks!</a></p>
+	<p>A causa de que no todos los usuarios tienen instalados discos encriptados al momento de  
+	instalar por primera vez Freenet, Freenet en si misma intenta encriptar todos los datos potencialmente
+	ioncriminatorios que almacena en disco. Los detalles están abajo pero como se explicaba, las filtraciones son inevitables:
+	realmente deberías <a href="http://www.truecrypt.org/">encriptar tus discos!</a></p>
 	
-	<p>The main datastore does not store data you request or insert (or
-	that is requested or inserted by nearby nodes), because it can be probed by other nodes:
-	This was introduced to fix <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">this attack</a> publicised by The Register.
-	Freenet has a separate client-cache, which stores data which you have recently requested
-	to avoid having to go back to the network every time (which would not only reduce speed
-	but also security, by giving attackers more opportunities to see your requests). Also, Freenet stores the list of your downloads
-	and uploads (which you can see on the Filesharing menu), their current progress, and 
-	various other data, in the file node.db4o (or node.db4o.crypt). The actual data is kept
-	in the persistent-temp-* directory. Unless you set the physical security level to LOW,
-	this data is encrypted. At MAXIMUM, the encryption keys are never written to disk, so
-	the data is effectively wiped on restarting the node; otherwise the encryption keys are
-	stored in a file called master.keys (on HIGH this is passworded). You can wipe the data
-	by either using the panic button on the downloads/uploads page or by securely deleting
-	master.keys. Freenet also creates temporary files for other requests, which are also
-	encrypted unless physical seclevel is LOW, which are in temp-*. Also, some plugins may
-	create their own data files, which may contain for instance messages you have posted or
-	downloaded from chat forums, and currently bookmarks and recently completed files are
-	stored in plain text. It is our intention to move these into node.db4o or store them
-	in separate encrypted databases, as soon as we have automatic backups for node.db4o.
-	See <a href="http://new-wiki.freenetproject.org/Program_files">here</a> for details 
-	on some of the files.</p>
+	<p>El almacén principal no almacena datos que requieres o insertas (o
+	que son requeridos o insertados por nodos cercanos), porque esto puede ser probado por otros nodos:
+	Esto nos llevó a reparar <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">este ataque</a> publicado por The Register.
+	Freenet tiene un clienet-cache separado, el cual almacena datos que has requerido recientemente
+	para evitar tener que volver a la red cada vez (lo cual no solamente reduce la velocidad
+	sino también la seguridad, dando a los atacantes más oportunidades de ver tus peticiones). También, Freenet almacena tu lista de descargas
+	y subidas (la cual puedes ver en el meú Compartir Archivos), su actual progreso, y 
+	varios otros datos, en el archivo node.db4o (o node.db4o.crypt). Los datos actuales se mantienen en
+	en el directorio persistent-temp-* . A menos que configures el nivel de la seguridad física en BAJO
+	estos datos son encriptados. En MAXIMO, las claves de encriptación nunca son escritas a disco, asi
+	los datos son efectivamente tachados al reiniciar el nodo; de otra forma las claves son 
+	almacenadas en un archivo llamado master.keys (en ALTO está protegido por contraseña). Puedes tachar los datos
+	o bien usando el botón de pánico en la página descargas/subidas o borrando seguramente el 
+	master.keys. Freenet también crea archivos temporarios para otras peticiones, que también son
+	encriptados a menos que el nivel de seguridad física sea BAJO, los cuales están en  temp-*. También, algunos complementos pueden
+	crear sus propios archivos de datos, que pueden contener por ejemplo mensajes que has enviado o
+	bajado de los foros de chat, y archivos agregados a marcadores o recientemente completados son
+	almacenados en texto plano. Es nuestra intención moverlos a node.db4o o almacenarlos
+	separadamente en bases de datos encriptadas, tan pronto como tengamos resplados automáticos de node.db4o.
+	Mira <a href="http://new-wiki.freenetproject.org/Program_files">aquí</a> por detalles 
+	de algunos de esos archivos.</p>
 
-	  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
-	The password protects your downloads and uploads and the client-cache (cache of 
-	what you've recently browsed on Freenet). It is stored in the file master.keys. There 
-	is no way to recover the password, but if you forget it you can wipe your downloads and 
-	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
-	question on private data and local security</a> for more information.</p>
+	  <p><b id="forgotpass">Configuré una clave y la olvidé, ¿que puedo hacer?</b><br/>
+	La clave protege tus descargas y subidas y el  cliente-cache (cache de lo
+	has navegado recientemente en Freenet). Es almacenado en el archivo master.keys. No hay 
+	forma de recuperar la clave, pero si la olvidas puedes borrar seguramente tus descargas 
+	y subidas y la cache del cliente tachando el archivo master.keys. mira <a href="#privatedata">la 
+	pregunta sobre datos privados y seguridad local</a> para mas información.</p>
 	
-	  <p><b id="clockskew">Freenet keeps complaining about clock skew</b><br/>
-	Freenet will have problems if your clock is constantly being rewound. Usually this 
-	happens when something is resetting your clock regularly in big jumps. On linux, you 
-	should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
-	helpful), but if you see clock skew errors, try adding the -x option to it to avoid 
-	big backwards jumps. Also, running ntpdate on startup so there is one big jump before
-	freenet starts is a good idea. This can also happen on Windows sometimes, let us know
-	how you managed to fix it ... generally it's not all that serious though, especially if
-	big jumps in the clock are only once a day.</p>
+	  <p><b id="clockskew">Freenet se sigue quejando sobre desfasaje de tiempo</b><br/>
+	Freenet tendrá problemas si tu reloj es rebobinado constantemente. Usualmente esto 
+	sucede cuando algo esta reajustando tu reloj regularmente a grandes saltos. En GNU/Linux, tu 
+	deberías correr ntpd para asegurartte que tu reloj no esté demasiado desfasado (no es vital pero es de  
+	ayuda), pero si ves errores de desfasaje de tiempo, prueba agregar la opción -x a este para evitar 
+	grandes saltos de reloj. También ejecutar ntpdate al inicio, así hay solo un gran salto antes
+	de iniciar Freenet, es una buena idea. Esto puede ocurrir también en Windows a veces, déjanos saber
+	como hiciste para arreglarlo ... aunque generalmente esto no es tan serio, especialmente si
+	los grandes saltos en el reloj ocurren solamente una vez al día.</p>
 
-      <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
+      <p><b id="rabbit">¿Dónde puedo obtener una copia de alta calida del conejo del logo?</b><br/>
 
-	<a href="/image/rabbit/freenet-bunny.svg">Here</a>.</p>
+	<a href="/image/rabbit/freenet-bunny.svg">Aquí</a>.</p>

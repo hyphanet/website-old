@@ -1,92 +1,96 @@
-      <h1>News</h1>
+      <h1>Noticias</h1>
     
-    <a name="broken-update-1382"><h3>14th July 2011 - Problems with 1382 and auto-update</h3></a>
-    <p>Due to insufficient testing, a serious bug slipped out in builds around 1382.
-    Freenet may not be able to update itself, and will complain about it, with an error like:</p>
+    <a name="broken-update-1382"><h3>14 de Julio 2011 - Problemas con 1382 y actualización automática</h3></a>
+    <p>Debido a pruebas insuficientes, un error serio se ha deslizado en la versión 1382.
+    Freenet no podrá actualizarse a si misma, y se quejará sobre esto, con un error como:</p>
     <blockquote>
-    The auto-updater has been disabled. This might be because of a local problem, such as running out of disk space, or the auto-updating system may have been compromised. The reason is: Checking for revocation key is failing with an internal error: FetchException:Temporary files error:null:-1:null:false:null:Already finalized..
+    El actualizador automático ha sido deshabilitado. Esto puede ser a causa de un problema local, como falta de espacio en disco, o el sistema de actualización puede estar comprometido. 
+    La razón es: Verificar la revocación de clave falla con un error interno: FetchException:Temporary files error:null:-1:null:false:null:Already finalized..
     </blockquote>
-    <p>Restart Freenet, usually it will be able to update within an hour or two.
-    If that doesn't work (if the error message above comes back), use the update.cmd or update.sh scripts to do a manual
-    update (this will download the update from freenetproject.org). You should not
-    need to reinstall, please contact us if you have more problems. Thanks, and sorry!<br>
+    <p>Reinicia Freenet, usualmente será capaz de actualizarse en una hora o dos.
+    Si esto no funciona (si el mensaje de error de arriba vuelve), usa los scripts update.cmd o update.sh para hacer una actualización
+    manual (esto descargará la actualización de freenetproject.org). No tendrías 
+    necesidad de reinstalar, por favor contáctanos si tienes mas problemas. Gracias y disculpas!<br>
     - Toad</p>
     
-    <a name="freedom-house-april-2011"><h3>13th April 2011 - Freenet top anti-censorship tool in survey of Chinese users!</h3></a>
-    <p>A <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">report</a> by 
-    <a href="http://freedomhouse.org/">Freedom House</a> surveyed users in 
+    <a name="freedom-house-april-2011"><h3>13 de Abril 2011 - Freenet máxima herramienta anticensura en encuesta a usuarios Chinos!</h3></a>
+    <p>Un <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">reporte</a> de 
+    <a href="http://freedomhouse.org/">Freedom House</a> usuarios encuestados en 
     Azerbaijan, Burma, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Summary of results in China">China</a>
-    and Iran for their perceptions of and preferred tools for bypassing local government censorship. 
-    In China, Freenet was the only anti-censorship tool to achieve 5 stars, and 
-    the third most widely used overall.
+    e Irán sober sus opiniones y herramientas preferidas para evitar la censura del gobierno local. 
+    En China, Freenet fué la única herramienta anticensural en alcanzar 5 estrellas, y 
+    la tercera más ampliamente usada en general.
     
-	<a name="wikileaks-freenet-december-2010"><h3>7th December 2010 - Wikileaks and Freenet</h3></a>
+	<a name="wikileaks-freenet-december-2010"><h3>7 de Deciembre 2010 - Wikileaks y Freenet</h3></a>
 	
-	<p>There is a <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">Reddit post</a> about Freenet as a possible solution to censorship proof hosting. Since <a href="http://www.wikileaks.info/">Wikileaks</a> has had problems with hosting lately as a result of government intervention, people have been talking about <a href="http://dot-p2p.org/index.php?title=Ideas">distributed DNS</a>. Others have suggested that Freenet is a better solution.</p>
+	<p>Hay un <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">mensaje en Reddit</a> 
+	sobre Freenet como posible solución a prueba de censura. Desde que <a href="http://www.wikileaks.info/">Wikileaks</a> ha tenido problemas con su último alojamiento 
+	como resultado de la intervención del gobierno, la gente ha estado hablando acerca de <a href="http://dot-p2p.org/index.php?title=Ideas">DNS distribuídos</a>. 
+	Otros han sugerido que Freenet es una mejor solución.</p>
 
-	<a name="big-donation-september-2010"><h3>24th September 2010 - Another large donation, and brief status update</h3></a>
-	<p>Once again Google's Open Source team has donated US$18,000 to the Freenet Project to support the 
-	ongoing development of the Freenet software.</p>
+	<a name="big-donation-september-2010"><h3>24 de Septiembre 2010 - Otra gran donación, y breve actualización de estado</h3></a>
+	<p>Una vez más el equipo Open Source de Google ha donado US$18,000 al Proyecto Freenet para apoyar  
+	el desarrollo en curso del software de Freenet.</p>
 	
-	<p>In particular, we will use these funds to complete Freenet 0.8, which will be 
-	released later this year, and will include additional performance improvements, 
-	usability work, and security improvements.  It will also include new ways to 
-	communicate over Freenet, including "Freetalk", a forums discussion system employing 
-	a novel "web of trust" approach to prevent spam in an entirely decentralized way.</p>
+	<p>En particular, usaremos esos fondos para completar Freenet 0.8, lacual será liberada 
+	más tarde este año, e incluirá mejoras adicionales en el funcionamiento, 
+	usabilidad, y mejoras en la seguridad.  También incluirá nuevas formas de  
+	comunicarse sobre Freenet, incluyendo "Freetalk",un sistema de foros de discución empleando 
+	una nueva aproximacion a la  "web de confianza" para prevenis el spam en una forma enteramente descentralizada.</p>
 
-	<p>In other news, the Summer of Code was a qualified success, with two of our students 
-	performing very well. Support for ogg vorbis/theora will be merged soon, and the new 
-	more efficient transport layer will be merged a bit later.</p>
+	<p>En otras noticias, el Summer of Code fué un éxito calificado, con dos de nuestros estudiantes 
+	desempeñandose muy bien. El soporte para ogg vorbis/theora será incorporado pronto, y la nueva 
+	capa de transporte mas eficienteserá incorporada un poco más tarde.</p>
 	
-	<p>Freenet's user base has been growing fairly steadily, and we have over 20,000 
-	regular users.  Our current work is focused largely on Freetalk and rewriting the 
-	load management code for higher and more consistent performance.</p>
+	<p>Los usuarios básicos de Freenethan estado creciendo bastante constantemente, y tenemos más de 20,000 
+	usuarios regulares.  Nuestro trabajo actual está enfocado grandemente en Freetalk y reescribiendo el  
+	código de administracion de carga para un mejor y mas eficaz funcionamiento.</p>
 	
-	<a name="sorry-again-1253"><h3>14th June, 2010 - Serious bug, please upgrade immediately</h3></a>
-	<p>Freenet build 1253 fixes a very serious bug, and all users should upgrade immediately, especially those
-	running 32-bit x86 systems. This build is "mandatory", meaning it will not connect to anything before 1252.
-	The bug was in the native FEC acceleration - this is a native (C, not Java) library used to speed up 
-	splitfile decoding (a stage in downloads related to improving the chances that a big file will be 
-	retrievable by adding some "check blocks" or redundant data in case some of the original data blocks can't 
-	be found). It causes segfaults on 32-bit Windows systems and probably 32-bit Linux systems too. It has been
-	exploited "in the wild" (on Frost) to segfault nodes when they access a specific Frost message. We do not 
-	know whether this could be turned into something more serious, so we have turned off all native FEC 
-	acceleration for now; Freenet will be slightly slower when decoding downloaded files, but will not 
-	segfault. We would welcome help with auditing the library code involved, if any C/JNI gurus can spare the
-	time; it is most likely a problem with the JNI interface to the Onion FEC code.</p>
-	<p>Other changes in 1251/1252/1253 are somewhat more hopeful:</p>
-	<ul><li><b>Even splitfile splitting</b> Large files on Freenet are divided into 32KB blocks, which are 
-	then grouped into "segments" of up to around 4MB. Until 1251, all but the last segment would be exactly
-	4MB, so the last segment could be much smaller than this - in some cases having just one block, or just
-	a few blocks. This could cause some downloads to get stuck with just a few blocks remaining. Now all the 
-	segments are the same size, and there are other tweaks. Unfortunately this triggered the above bug.</li>
-	<li><b>New content filter infrastructure</b> Freenet filters various types of data, for example HTML, to 
-	ensure that they cannot give away your IP address. One of our Summer of Code students (Spencer) has been
-	working on improving this, and the first part of his work has been merged. Filtering now happens at a 
-	lower level, and can therefore be used by FCP clients and for persistent downloads. This also paves the 
-	way for efficient handling of large files when Spencer implements filters for multimedia formats later
-	this year.</li>
+	<a name="sorry-again-1253"><h3>14 de Junio, 2010 - Fallas serias, por favor actualiza inmediatamente</h3></a>
+	<p>La versión 1253 de Freenet erpara una falla muy seria, y todos los usuarios deberían actualizarse inmediatamente, especialmente aquellos 
+	corriendo sistemas de 32-bit x86. Esta versión es "obligatoria", significa que no conectará a nada anterior a  1252.
+	El error estaba en la aceleración nativa FEC - esta es una librería nativa (C, not Java) usada para acelerar 
+	la decodificación de archivos (un estadio en las descargas relativo a mejorar las oportunidades de que un archivo grande sea 
+	recuperable agregando algunos "bloques de prueba" o datos redundantes en caso que algunos de los bloques de datos originales no puedan 
+	ser hallados). Esto causa fallas de segmentación en sistemas de 32-bit Windows y probablemente en sistemas de 32-bit GNU/Linux también. Han sido 
+	explotados "en el terreno" (en Frost) para cascar nodos cuando acceden a mensajes específicos en Frost. Nosotros no 
+	sabemos si esto puede tornarse en algo mas serio, asi que hemos deshabilitado la aceleración FEC 
+	nativa por ahora; Freenet será levemente más lenta cuando decodofica archivos descargados, pero no  
+	cascará. La ayuda con la auditoría del código de la librería involucrada será bienvenida, si algún gurú C/JNI puede hacerse 
+	tiempo; es más como un problema con la interfaz JNI en el código del anillo FEC.</p>
+	<p>Otros cambios en 1251/1252/1253 son un poco más esperanzadores:</p>
+	<ul><li><b>División de archivos en partes iguales</b> Los archivos grandes en Freenet son divididos en bloques de 32KB, los cuales son 
+	luego agrupados en "segmentos" de hasta alrededor de 4MB. Hasta 1251, todo excepto los últmos segmento podian ser exactamente
+	de 4MB, entonces el último segmento podía ser mucho mas pequeño que esto - en algunos casos teniendo sólo un block, o sólo
+	unos pocos bloques. Esto podía causar que alguna descarga se atascase con sólo unjos pocos blocks faltantes. Ahora todos 
+	los segmentos son del mismo tamaño, y hay otros refinamientos.Desafortunadamente esto causaba el error de arriba.</li>
+	<li><b>Nueva infraestructura de filtro de contenido</b> Freenet filtra varios tipos de datos, por ejemplo HTML, para 
+	asegurar que no pueden revelar tu dirección IP. Uno de nuestrs estudiantes en el  Summer of Code (Spencer) ha estado
+	trabajando en mejorar esto, y la primer parte de su trabajo ha sido incorporada. El filtrado ahora se realiza a 
+	bajo nivel, y puede luego ser usado por clientes FCP y para descargas persistentes. Esto también facilitará la 
+	forma de manejar con eficiencia grandes archivos cuando Spencer implemente filtros para formatos multimedia posteriormente
+	este año.</li>
 	</ul>
-	<p>Sorry about this folks. The network will be somewhat chaotic for a few days and may be slower than 
-	usual because of the mandatory build, but most of it seems to have upgraded now. Thanks for your patience.
-	You can see a fuller account on <a href="http://amphibian.dyndns.org/flogmirror/">Toad's Blog</a>.</p>
+	<p>Disculpas por esto chicos. La red estará algo caótica por unos pocos días y quizás más lenta que lo 
+	usual a causa de esta edición obligatoria, pero la mayoría parece haber actualizado ahora. Gracias por su paciencia.
+	Pueden ver un reporte mas completo en  <a href="http://amphibian.dyndns.org/flogmirror/">el Blog de Todd</a>.</p>
 
-	<a name="sorry-folks-1248"><h3>8th June, 2010 - Sorry, "freenet.ini is missing", and 1249</h3></a>
-	<p>Many Windows Freenet installs were broken yesterday due to a bug, with an error message that the launcher
-	was unable to find the file freenet.ini. This was actually due to a long-standing bug fixed in build 1249,
-	but the update to 1248 seems to have triggered it. Sorry folks. All you have to do to fix it is rename 
-	freenet.ini.tmp to freenet.ini (in the directory you installed Freenet to, usually C:\Program Files\Freenet).</p>
-	<p>The main change recently, apart from many bug fixes:</p>
-	<p>There is a new way of indexing freesites (for the built-in search function), using the new Spider 
-	plugin and a new version of the existing Library plugin. This is based on infinity0's Summer of Code work 
-	last year. Hopefully some anonymous person will start running a freesite index using this new tool soon.
-	This should be faster and easier both for the index owner (person who runs Spider) and the users searching
-	for content.</p>
+	<a name="sorry-folks-1248"><h3>8 de Junio, 2010 - Disculpas, "freenet.ini está perdido", y 1249</h3></a>
+	<p>Algunas instalaciones en Windows de Freenet estaban rotas ayer debido a un error, con un mensaje de que el lanzador
+	era incapaz de encontrar el archivo freenet.ini. Esto fué en realidad debido a un un error de larga data reparado en la edición 1249,
+	pero la actualización a 1248 parece haberlo traído de nuevo. Disculpas chicos. Todo lo que tienen que hacer para repararlo es renombrar 
+	freenet.ini.tmp como freenet.ini (en el directorio de instalación de Freenet, usualmente C:\Program Files\Freenet).</p>
+	<p>El principal cambio reciente, aparte de la reparación de varios errores:</p>
+	<p>Hay una nueva forma de indexar freesites (en la función de búsqueda incorporada), usando el nuevo complemento Spider 
+	y una nueva versión del complemento existente Library. Está basado en el trabajo de infinity0	 en el Summer of Code 
+	el último año. Esperamos que pronto algunas personas anónimas empiecen a corre índices freesite indizados usando esta nueva herramienta.
+	Debería ser más rapido y más fácil para el propietario del índice (la persona que corre Spider) y para los usuarios el buscar
+	contenidos.</p>
 
-	<a name="gsoc-2010-accepted"><h3>26th April, 2010 - Summer of Code students announced!</h3></a>
-	<p>The Freenet Project has 3 students accepted in Google's <a href="http://feedproxy.google.com/~r/GoogleOpenSourceBlog/~3/FnmsrUS2TBU/this-years-google-summer-of-code.html">Summer of Code</a>. 
-	Google will pay these students to work for us over the summer. They will be working on:</p>
-	<ul><li><b>Low level networking improvements</b> - Martin Nyhus will be working on making Freenet's 
+	<a name="gsoc-2010-accepted"><h3>26 de Avril, 2010 - Estudiantes en el Summer of Code!</h3>
+	<p>El Proyecto Freenet tiene 3 estudiantes aceptados en  <a href="http://feedproxy.google.com/~r/GoogleOpenSourceBlog/~3/FnmsrUS2TBU/this-years-google-summer-of-code.html">Summer of Code</a>. 
+	de Google. Google pagará a esos estudiantes por trabajar para nosotros en el verano. Estarán trabajando en:</p>
+	<ul><li><b>Mejoras de red de bajo nivel</b> - Martin Nyhus estará trabajando on making Freenet's 
 	low level networking work more efficiently and flexibly. This will improve performance and pave the
 	way for transport plugins in the long term.</li>
 	<li><b>New content filters</b> - Spencer Jackson will be working on filters for Ogg audio and video formats,
