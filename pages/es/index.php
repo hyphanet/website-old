@@ -38,9 +38,9 @@ $(document).ready(function() {
       </div>
       <div class="whatis">
 	<p>
-	  Comparte archivos, conversa en foros, navega y publica, anonomamente y sin temor de bloqueo o censura! Luego conecta a tus amigos para mejorar la seguridad!
+	  ¡Comparte archivos, conversa en foros, navega y publica, anonomamente y sin temor de bloqueo o censura! ¡Luego conecta a tus amigos para mejorar la seguridad!
 	  <br/>
-	  <a href="whatis.html">Aprender más!</a>
+	  <a href="whatis.html">¡Aprender más!</a>
 	</p>
       </div>
 
@@ -109,7 +109,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Ultimas noticias</h4>
 	<p>
-	  (13 de Abril 2011) <a href="news.html#freedom-house-april-2011">Freenet máxima herramienta anticensuraen encuesta a usuarios Chinos!</a><br/>
+	  (13 de Abril 2011) <a href="news.html#freedom-house-april-2011">¡Freenet máxima herramienta anticensura en encuesta a usuarios Chinos!</a><br/>
 	  <a href="news.html">Noticias anteriores</a>
 	</p>
       </div>
