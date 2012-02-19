@@ -254,208 +254,206 @@ tenga o cualquier comentario que haga sobre cómo podria ser mejor.</p>
 	complemento de búsqueda con muchas mejoras y un nuevo formato de índice escalable, y mucho mayor (perio aún  
 	opcional) uso de javascript en la interfaz web para hacerla más receptiva.</p>
 
-	<a name="xml-vuln"><h3>8 de Agosto, 2009 - Actualiza tu Java Virtual Machine <b>now</b>: severe XML vulnerability affecting Freenet</h3></a>
-	<p>If you are running Freenet on Java prior to 1.6 build 15 or 1.5 build 20, please upgrade as soon as possible.
-	Until you update Java, Freenet will disable the search function and various other plugins to
-	minimise risk. However, if you have untrusted people on your LAN (local network),
-	we recommend you <b>shut down Freenet immediately</b> until you are able to upgrade
-	your Java. Also, do not run Thaw, which is known to be vulnerable, until you have
-	upgraded, and do not accept jSite config files from anyone. Build 1228 of 
-	Freenet will tell you if your Java is vulnerable. Windows users generally will be 
-	notified by Java when updates are available; the situation may be more tricky for 
-	Linux and Mac OS/X users as they will have to wait for an update from their linux distributions
-	or from Apple respectively.</p>
+	<a name="xml-vuln"><h3>8 de Agosto, 2009 - Actualiza tu Java Virtual Machine <b>ahora</b>: severa vulnerabilidad XML afecta Freenet</h3></a>
+	<p>Si estás corriendo Freenet sobre Java anterior a 1.6 versión 15 o 1.5 versión 20, por favor actualiza tan pronto como sea posible.
+	Hasta que actualices Java, Freenet deshabilitará la función de búsqueda y varios otros complementos para 
+	minimizar el riesgo. Sin embargo, si tienes personas no confiables en tu  LAN (red local),
+	te recomendamos que <b>apagues Freenet inmediatamente</b> hasta que seas capaz de actualizar
+	tu Java. Además, no corras Thaw, el cual es sabido que es vulnerable, hasta que hayas 
+	actualizado, y no aceptes archivos de configuración jSite de cualquiera. La versión 1228 de 
+	Freenet te dirá si tu Java es vulnerable. Usuarios de Windows generalmente serán 
+	notified por Java cuando haya actualizaciones disponibles; la situación puede ser un poco más complicada para usuarios de  
+	GNU/Linux y Mac OS/X ya que deberán esperar por una actualización para sus distribuciones GNU/Linux 
+	o de Apple respectivamente.</p>
 	
-	<p>For more details, see <a href="http://www.cert.fi/en/reports/2009/vulnerability2009085.html">here</a>.
-	The problem is a remote code execution vulnerability affecting Java and also some
-	other programs using certain XML parsing libraries. It was <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625">initially thought</a> to
-	be purely a denial of service attack, but there is exploit code circulating.</p>
+	<p>Para más detalles, mira <a href="http://www.cert.fi/en/reports/2009/vulnerability2009085.html">aquí</a>.
+	El problemae es una vulnerabilidad de ejecución remota de código que afecta a Java y también algunos
+	otros programas que usan ciertas librerías de análisis (parsing) XML . Fué <a href="http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625">inicialmente pensada</a> para
+	ser puramente un ataque de denegación de servicio, pero hay circulando código para aprovecharla (exploit code).</p>
 
-	<a name="build1226"><h3>30th July, 2009 - Various security improvements and preparation for Bloom filter sharing in new stable build</h3></a>
+	<a name="build1226"><h3>30 de Julio, 2009 - Varias mejoras de seguridad y preparación para compartir el filtro Bloom en la nueva versión estable</h3></a>
 	
 	<p>
-	Build 1226 is now available, including many changes. Existing Freenet nodes will
-	update automatically. Some of the more interesting new features include:</p>
+	La versión 1226 está ahora disponible, incluytendo muchos cambios. Los nodos Freenet existentes la  
+	actualizarán automáticamente. Algunas de las nuevas características más interesantes incluyen:</p>
 	<ul>
-	<li><b>Finally fixing <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">The Register's attack</a>!</b><br>
-	In 2005, The Register discovered what many of us had known for some time - that
-	Freenet caches everything you visit in your datastore, and therefore that if
-	your computer is seized or stolen, the bad guys may be able to determine what
-	you have been browsing. Or they could even do it remotely by probing your
-	datastore. This is now fixed. Freenet does not store anything that you download,
-	visit, or upload, in your datastore. However, to maximise performance, we do
-	have a private cache of freesites you have visited, called the "client cache",
-	and we have a "slashdot cache" which caches everything else but only for 30
-	minutes, to help with <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
-	and flash floods. We had planned to fix this with encrypted tunnels (formerly
-	known as premix routing), but that is a difficult project which may cost a lot
-	of performance. The changes in this build may reduce performance slightly, but 
-	they will enable new things which should greatly improve performance, as well as
-	improving Freenet's usefulness in hostile regimes. No security system is 
-	perfect, but nonetheless Freenet may be better for a specific application than 
-	the alternatives, <b>especially if you can use darknet</b>, and darknet Freenet 
-	can function where very little else will.</li>
-	<li><b>Encryption for sensitive local data</b><br>
-	Both the new client cache and the downloads/uploads database can now be encrypted.
-	This is controlled by the "physical security level" setting. If you set this to
-	LOW, nothing is encrypted, not even temporary files, and Freenet will use less
-	CPU and work slightly faster. If you set it to NORMAL or higher, Freenet 
-	now encrypts your client cache and downloads database. At NORMAL, the keys are
-	kept in a file master.keys, so if you securely delete this file (or click the
-	panic button on the downloads page), both are gone. At HIGH, the keys are still
-	in master.keys, but it is password-protected. At MAXIMUM, the keys are not 
-	stored at all, they are different every time you start Freenet; this means
-	that your download queue will only last until the next restart, but at least
-	you can be sure that if you restart the node, nobody can tell what you were
-	doing with it. So you have detailed control over the tradeoff between security,
-	convenience and performance. This allows those with slow computers to use LOW,
-	and those who live in hostile regimes where their computer is likely to be
-	seized to use HIGH or MAXIMUM.</li>
-	<li><b>Preparation for Bloom filter sharing</b><br>
-	There were two reasons for all this. The first is to improve security for those
-	living in hostile regimes where their computer may be seized and they may get
-	into trouble for what they have been doing on Freenet. The second is to prepare
-	for the big performance feature for 0.8, Bloom filter sharing. Essentially, the
-	idea is that we tell our peers what keys we have in our datastore using a highly 
-	compressed data structure called a Bloom filter. We can then tell immediately
-	when one of our peers has the block we are looking for, potentially avoiding
-	searching and transferring the data through many other nodes. This should 
-	improve performance considerably, reducing latency, increasing download speeds,
-	and making it easier to find rare content. Watch this space!</li>
+	<li><b>Finalmente reparación del <a href="http://www.theregister.co.uk/2005/05/13/freener_not_so_anonymous/">ataque de The Register'</a>!</b><br>
+	En 2005, The Register descubrió lo que muchos de nosotros sabíamos desde hace un tiempo - que
+	Freenet almacena todo lo que visitas en su almacén de datos, y por lo tanto que si 
+	tu ordenador es capturado o robado, los chicos malos podrían ser capaces de determinar qué
+	has estado navegando. O podrían inclusive hacerlo remotamente sondeando tu
+	almacén de datos. Esto está reparado ahora. Freenet no almacenanada que hayas descargado,
+	visitado, o subido, en tu almacén de datos. Sin embargo, para maximizar el desempeño, tenemos
+	un cache privado de los freesites que has visitado, llamado el  "cache del cliente",
+	y tenemos un  "cache slashdot" el cual almacena todo pero solo por 30
+	minutos, para ayudar con la  <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagación de envíos Frost/FMS</a>
+	e inundación flash (flash floods). Hemos planeado reparar esto con túneles encriptados (anteriormente
+	conocidos como enrutamiento de pre mezcla (premix routing), pero es unproyecto difícil el cual puede costar mucho
+	desempeño. Los cambios en esta edición reducirán el desempeño levemente, pero 
+	habilitarán nuevas cosas las cuales debeŕian mejorar el desempeño grandemente, también como
+	mejorar la usabilidad de Freenet en regímenes hostiles. Ningún sistema de seguridad es  
+	perfecto, no obstante Freenet podría ser mejor para una aplicación específica que  
+	las alternativas, <b>especialmente si usas darknet</b>,y darknet Freenet 
+	puede funcionar donde muy pocos otras podrían.</li>
+	<li><b>Encriptación para datos locales sensibles</b><br>
+	El nuevo cache de cliente y la base de datos de descargas/subidas pueden ahora ser encriptadas.
+	ESto es controlado por la configuración del "nivel de seguridad física". Si lo estableces en
+	BAJO, nada es encriptado, ni siquiera los archivos temporales, y Freenet usará menos
+	CPU y trabajará levemente más rapido. Si lo estableces en NORMAL o más alto, Freenet 
+	ahora encriptará tu cache de cliente y base de datos de descargas. En NORMAL, las claves son 
+	guardadas en u narchivo master.keys, así si birras este archivo seguramente (o haces click en el
+	botón de pánico en la página de descargas), ambos desaparecerán. En ALTO, las claves están aún 
+	en master.keys, pero está protegido por contraseña. En MAXIMO, las claves no 
+	se guardan para nada, son diferentes cada vez que inicias Freenet; esto significa
+	que tu lista de descargas durará solamente hasta el próximo reinicio, pero al menos
+	puedes estar seguro que si reinicias el nodo, nadie puede decir lo que has estado
+	haciendo conél. Así tienes un control detallado sobre el balance enter seguridad,
+	conveniencia y desempeño. Esto permite a aquellos con ordenadores lentos usar BAJO,
+	y a aquellos quienes viven en regímenes hostiles donde es probable que sus ordenadores 
+	sean secuestrados usar ALTO o MAXIMO.</li>
+	<li><b>Preparación para el filtro Bloom</b><br>
+	Hubieron dos razones para todo esto. La primera es mejorar la seguridad para aquellos
+	viviendo en regímenes hostiles donde sus ordenadores pueden ser secuestrados y ellos pueden meterse
+	en problemas por lo que han estado haciendo en Freenet. Lo segundo es prepararse
+	para la característica de gran desempeño para 0.8, el filtro Bloom. Esencialmente,  
+	la idea es que les decimos a nuestros pares (peers)  que claves tenemos en nuestro almacén de datos usando 
+	una estructura de datos altamente comprimidos llamada filtro Bloom. Podemos luego decir inmediatamente
+	cuando uno de nuestros pares tiene el bloque que estamos buscando, evitando potencialmente
+	la búsqueda y transferencia de datos a travez de muchos otros nodos. Esto debería 
+	mejorar el desempeño considerablemente, reduciendo la latencia, incrementando la velocidad de las descargas,
+	encontrar contenidos poco populares. Mantente informado!</li>
 	</ul>
 
-      <a name="big-donation-german-finance"><h3>8th July, 2009 - Big
-      donation from <a href="http://www.finanzvergleich.de">German
-      finance site</a></h3></a>
+      <a name="big-donation-german-finance"><h3>8 de Julio, 2009 - Gran
+      donación de  un <a href="http://www.finanzvergleich.de">Sitio de finanzas
+      Alemán</a></h3></a>
 
       <p>
-	The German financial services comparison site, <a href="http://www.finanzvergleich.de">Finanz Vergleich</a>
-	has given us $1,500 to fund ongoing development. This will go
-	mainly towards ongoing work on Freenet's stability and
-	usability. Thanks!
+	El sitio de servicios de comparaciones financieras Alemán, <a href="http://www.finanzvergleich.de">Finanz Vergleich</a>
+	nos ha dado $1,500 para financiar desarrollos venideros. Esto hará
+	principalmente avanzar el trabajo en la estabilidad y usabilidad de Freenet.
+	Gracias!
       </p>
 
-      <a name="freenet-0-7-5-released"><h3>12th June, 2009 - Freenet 0.7.5 released!</h3></a>
+      <a name="freenet-0-7-5-released"><h3>12 de Junio, 2009 - Freenet 0.7.5 liberada!</h3></a>
       <p>
-	The Freenet Project is very pleased to announce the release of
+	The Proyecto Freenet está muy complacido en anunciar la liberación de
 	Freenet 0.7.5.
       </p>
       <p>
-	Freenet is free software designed to allow the free exchange
-	of information over the Internet without fear of censorship,
-	or reprisal. To achieve this Freenet makes it very difficult
-	for adversaries to reveal the identity, either of the person
-	publishing, or downloading content. The Freenet project
-	started in 1999, released Freenet 0.1 in March 2000, and has
-	been under active development ever since.
+	Freenet es software libre diseñado para permitir el libre intercambio
+	de información sobre Internet sin temor de censura,
+	o represalias. Para conseguir esto Freenet hace muy difícil
+	para los adversarios revelar la identidad, bien del 
+	editor, o del que descarga contenidos. The Proyecto Freenet 
+	comienza en 1999, liberando Freenet 0.1 en Marzo de 2000, y ha
+	estado bajo activo desarrollo desde entonces.
       </p>
       <p>
-	Freenet is somewhat unusual in that you can publish content to
-	Freenet, and then disconnect from the network.  This content
-	will remain available to other Freenet users, although it may
-	eventually be deleted if nobody is interested in it.  Freenet
-	will copy and move the content around the network according to
-	demand, making it very difficult for an adversary to remove
-	content.  Freenet will automatically create more copies of
-	popular content to ensure that it will always be available.
+	Freenet es algo inusual en el sentido en que puedes publicar contenido en
+	Freenet, y luego desconectarte de la red.  Este contenido
+	permanecerá disponible para otros usuarios de Freenet, aún cuando pueda
+	eventualmente ser borrado si nadie está interesado en él.  Freenet
+	copiará y moverá el contenido alrededor de la red de acuerdo a 
+	demanda, haciendop muy difícil para un adversario remover
+	contenidos.  Freenet automáticamente creará más copias del
+	contenido popular para asegurar que siempre stará disponible.
       </p>
       <p>
-	Freenet 0.7 introduced the "darknet" concept, allowing users
-	to only connect to their trusted friends (and through them to
-	their friends' friends, and the entire network), greatly
-	reducing their vulnerability to attack. You can use Freenet
-	even if you don't know any other Freenet users, it just won't
-	be as secure.
+	Freenet 0.7 introduce el concepto "darknet", permitiendo a los usuarios
+	conectar solamente con sus amigos confiables (y a traves de ellos
+	los amigos de sus amigos, y la red entera), reduciendo
+	grandemente su vulnerabilidad a un ataque. Puedes usar Freenet
+	aún si no conoces algún otro usuario Freenet, solo que esto
+	no será tan seguro.
       </p>
       <p>
-	Freenet 0.7.5 features major improvements to performance and
-	usability, as well as improvements to security and
-	robustness. In particular:
+	Freenet 0.7.5 implementa grandes mejoras al desempeño y
+	usabilidad, también como mejoras a la seguridad y
+	robustez. En particular:
       </p>
       <ul>
 	<li>
 	  Freenet
-	  now <a href="http://google-opensource.blogspot.com/2009/05/improving-freenets-performance.html">uses
-	  a database</a> to store longer-term data that must survive a
-	  restart.  This increases Freenet's speed and reduces its
-	  memory usage.  In particular, you can now have almost any
-	  number of downloads and uploads in progress without worrying
-	  about memory usage.
+	  ahora <a href="http://google-opensource.blogspot.com/2009/05/improving-freenets-performance.html">usa
+	  una base de datos</a> para almacenar datos a largo plazo que puede sobrevivir al
+	  reinicio. Esto incrementa la velocidad de Freenety reduce su
+	  uso de memoria.  En particular, ahora puedes tener casi cualquier
+	  número de descargas y subidas en progreso sin preocuparte
+	  sobre el uso de memoria.
 	</li>
 	<li>
-	  Improvements to the web interface make it clearer what you
-	  can do with Freenet, show progress when loading a page or
-	  file will take more than a few seconds, integrate search
-	  into the browse page, and generally improve usability in
-	  many areas.
+	  Mejoras a la interfaz web hacen más claro lo que
+	  puedes hacer con Freenet, mostrar el progreso de carga de una página o
+	  archivo topmará sólo unos pocos segundos, integra la búsqueda en la
+	  página de avegación, y generalmente mejora la usabilidad en 
+	  muchas áreas.
 	</li>
 	<li>
-	  Significantly improved performance for inserting and
-	  retrieving files and especially pages, and also for
-	  Freenet's initial connection to the network.
+	  Desempeño significativamente mejorado para insertar y
+	  recuperar archivos y especialmente páginas, y también para
+	  la conexión inicial de Freeneta la red.
 	</li>
 	<li>
-	  A new installer for Windows which works with Vista as well
-	  as Windows XP/2000 (Freenet also works on Mac and Linux
-	  systems).
+	  Un nuevo instalador para Windows el cual trabaja co Vista tan bien
+	  como con Windows XP/2000 (Freenet tambien funciona en sistemasMac y GNU/Linux).
 	</li>
 	<li>
-	  Many other optimizations.
+	  Muchas otras optimizaciones.
 	</li>
 	<li>
-	  Lots and lots of bug fixes!
+	  Montones y montones de errores reparados!
 	</li>
       </ul>
 
       <p>
-	There are versions of Freenet 0.7.5 for Windows, Mac, and
-	Linux.  They can be downloaded from:
+	Hay versiones de Freenet 0.7.5 para Windows, Mac, y
+	GNU/Linux.  Pueden descargarse de:
       </p>
       <p><a class="maybeSwitchProtocol" href="download.html">https://freenetproject.org/download.html</a></p>
       <p>
-	If you have any difficulty getting Freenet to work, or any
-	questions not answered in the <a href="/faq.html">faq</a>, please
-	join us
-	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
-	in the #freenet channel at irc.freenode.net, or email
-	the <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
-	  mailing list</a>. If you have any suggestions for how to
-	improve Freenet, please
-	visit <a href="http://freenet.uservoice.com/">our uservoice
-	  page</a>.
+	Si tienes alguna dificultad poniendo a funcionar Freenet, o alguna
+	pregunta no está respondida en las  <a href="/faq.html">PUF</a>, por favor
+	únete a nosotros
+	en <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	en el  #freenet channel en irc.freenode.net, o email
+	la <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">lista de correos
+	de soporte</a>. Si tienes alguna sugerencia de cómo mejorar
+	Freenet, por favor
+	visita <a href="http://freenet.uservoice.com/">nuestra página de uservoice</a>.
       </p>
       <p>
-	There is a lot of work still to do on Freenet, particularly
-	when it comes to ease of use.  If you have Java programming or
-	web design skills, or would like to help translate Freenet
-	into your own language, and would like to help us improve
-	Freenet, please join
-	our <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
-	mailing list</a> and introduce yourself.
+	Hay mucho trabajo para hacer aún en Freenet, particularmente
+	hacerla fácil de usar.  Si tienes habilidades programando Java o 
+	diseñando webs, i te gustaría ayudar a traducir Freenet
+	a tu propio idioma, y te gustaría ayudarnos a mejorar
+	Freenet, por favor súmate
+	a nuiestra <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">lista de correo de
+	desarrolladores</a> y preséntate.
       </p>
 
-      <a name="another-big-donation-google"><h3>7th May, 2009 -
-      Another big donation funds ongoing development</h3></a>
+      <a name="another-big-donation-google"><h3>7 de Mayo, 2009 -
+      Otra gran donación financia el desarrollo en curso</h3></a>
 
       <p>
-	<a href="http://www.google.com/">Google</a>'s <a href="http://code.google.com/opensource/">Open Source team</a> has donated US$18,000 to the Freenet Project to 
-	support the ongoing development of the Freenet software (thanks again 
+	El equipo de <a href="http://www.google.com/">Google</a> <a href="http://code.google.com/opensource/">Open Source </a> ha donado US$18,000 al Proyecto Freenet 
+	para apoyar el desarrollo en curso del software Freenet (gracias nuevamente  
 	Google!).
       </p>
 
       <p>
-	Their last donation funded the db4o project, which has now been merged into 
-	Freenet, greatly improving performance for large download queues while 
-	reducing memory usage, amongst other benefits.
+	Su última donación financió el proyecto db4o, el cual ahora ha sido incorporado en 
+	Freenet, mejorando grandemente el desempeño para grandes colas de descargas mientras 
+	reduce el uso de memoria, entre otros beneficios.
       </p>
       <p>
-	We are currently working on Freenet 0.8, which will be released later this 
-	year, and will include additional performance improvements, usability work, 
-	and security improvements, as well as the usual debugging. Features are not 
-	yet finalized but we expect it to include Freetalk (a new anonymous web 
-	forums tool), a new Vista-compatible installer for Windows (that part will be 
-	out in a few days), and hopefully Bloom filter sharing, a new feature 
-	enabling nodes to know what is in their peers' datastores, greatly improving 
-	performance, combined with some related security improvements.
+	Actualmente estamos trabajando en Freenet 0.8, la cual será liberada más tarde este 
+	año, e incluirá mejoras adicionales en el desempeño, usabilidad, funcionamiento, 
+	y mejoras a la seguridad, también como la depuración usual. Características que no están aún finalizadas 
+	pero esperamos incluir Freetalk (una nueva herramienta de foros web), 
+	un nuevo instyalador Vista-compatible para Windows (parte estará listo en 
+	unos pocos días), y esperamos el filtro Bloom, una nueva característica 
+	que posibilita a los nodos saber que hay en los almacenes de datos de sus pares (peers), mejorando 
+	grandemente el desempeño, combinado con algunas mejoras relativas a la seguridad.
       </p>
 
