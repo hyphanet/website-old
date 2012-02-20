@@ -180,83 +180,85 @@ en la red.  Ahora - tal nodo (asumimos) podría no existir, sin embargo
 podemos aproximarnos a él buscando la proporción de DNEs para el nodo
 con la proporción más baja de DNEs en nuestra tabla de enrutamiento.
 <p>
-So now, we can determine the time cost of DNFs, and we can also approximate
-what proportion of a node's DNFs are legitimate - and therefore should not
-incur a time cost.  We can therefore add an estimated routing time cost for
-each node to account for DNFs.
+Entonces ahora, podemos determinar el costo de tiempo de los DNEs, y podemos tambien aproximar
+que proporción de los DNEs de un nodo son legítimos - y así no adeudaríamos
+un costo de tiempo.  Podemos por lo tanto agregar un costo estimado de tiempo de enrutamiento para
+cad anodo en su cuenta de DNEs.
 
-<h3>Handing failed connections</h3>
-With nodes which are heavily overloaded - it is also possible that when
-we attempt to establish a connection to them - we will be unable to do-so,
-we can account for this possibility by recalling the average proportion
-of failed connections for each node, and how long each took - and adding
-this on to our estimated routing time for that node.
+<h3>Manejando fallas de conexión</h3>
+Con nodos los cuales están duramente sobrecargados - también es posible que cuando
+intentemos establecer una conexión con ellos - seamos incapaces de hacerlo,
+podemos tener en cuenta esta posibilidad consultando la proporción promedio
+de conexiones fallidas para cada nodo, y cuánto le toma a cada uno - y agregar
+esto a nuestro tiempo estimado de enrutamiento para ese nodo.
 
-<h3>Inherited Knowledge</h3>
-One of the problems observed in the current Freenet is the time required
-for a Freenet node to establish sufficient knowledge about the Freenet
-network to route efficiently.  This is particularly damaging to Freenet's
-usability as people's first impressions of software is critical, and the
-first impressions of Freenet are generally the worst impressions of Freenet
-as they are formed before the Freenet node can route requests effectively.
+<h3>Conocimiento heredado</h3>
+Uno de los problemas observados en la actual Freenet es el tiempo requerido
+para un nodo Freenet establecer suficiente conocimiento sobre la red Freenet
+para enruta eficientemente.  Esto es particularmente dañiño para la usabilidad de Freenet
+ya que las primeras impresiones de las personas sobre el software son críticas, y la
+primer impresión de Freenet son generalmente las peores impresiones de Freenet
+ya que se formn antes que el nodo Freenet pueda encaminar las peticiones eficazmente.
 <p>
-The solution is to employ some qualified trust between Freenet nodes, allowing
-them to share the information the have collected about each other, albeit in
-a rather untrusting way.  There are two ways that a Freenet node finds out
-about new Freenet nodes.  The first is when they first start up - they load
-a "seednodes.ref" file which contains the routing expertise of another
-experienced node.  With N.G routing this information will be enriched with
-actual statistical data so that even with a node first starts up, it will
-already have the knowledge of an experienced node.  It will then go on to
-refine this knowledge according to its own experience.
+La solución es emplear alguna confianza calificda entre los nodos Freenet,  permitiendoles
+compartir la información que han recabado sobre cada nodo, no obstante
+en un modo no confiable.  Hay dos formas de que un nodo Freenet encuentre
+nuevos nodos Freenet.  La primera es cuando arrancan por primera vez - cargan
+un archivo "seednodes.ref" el cual contiene la experiencia de encaminamiento de otro
+nodo mas experto. Con el encaminamiento P.G encaminar esta información será enriquecido con
+los datos estadísticos actuales de tal manera que aún un nodo que arranca por primera vez, ya
+tendrá el conocimiento de un nodo experto.  Luego irá refinando
+este conocimiento de acuerdo a su propia experiencia.
 <p>
-The other way nodes learn about new nodes is in the "DataSource" field
-of successful replies to requests for data.  The DataSource field will
-contain one of the upstream nodes in the request chain.  The simple approach
-would be to allow this DataSource node to attach statistical information
-concerning its own performance to the reply - but clearly this would be
-open to abuse.  A refinement would be to say that any node passing back
-a reply which has collected its own statistical information about the
-node in the DataSource will replace the statistical data in the reply with
-its own.  This will mean that even if a node does put misleading
-statistical information in the reply - it will probably be replaced as it
-is passed back to the requester.
-<h3>Benefits of Next-Generation Routing</h3>
+La otra forma en que los nodos aprenden sobre nuevos nodos es en el  campo "Fuente de Datos" 
+de réplicas exitosas a requerimientos de datos.  El campo Fuente de Datos contendrá
+uno de los nodos cercanos en la cadena de respuesta.  Este simple enfoque
+permitirá a la Fuente de Datos del nodoadjuntar información estadística
+concerniente a su propio desempeño a la réplica - pero esto claramente sería
+abierto a abusos.  Un refinamiento podría ser decir que cualquier nodo devolviendo una
+petición la cual ha recolectado su propia información estadística sobre el
+sobre el nodo en la Fuente de Datos reempazará los datos estadísticos en la respuesta
+con las suyas propias. Esto significará que aún cuando si un nodo pone información estadística
+erronea en la respuesta - esta probablemente será reemplazada cuando
+sea devuelta al solicitante
+.
+<h3>Beneficios del Enrutamiento Próxima Generación</h3>
 <ul>
-<li><b>Adapts to network topology</b><br>
-In the old Freenet routing algorithm, a Freenet node running on a slow
-modem in the middle of the Australian outback is viewed pretty much the
-same way as a fast node running on a T3 in downtown San Jose.  In essence,
-the underlying Internet topology is ignored by Freenet, all nodes are treated
-equally.  In contrast, N.G routing bases its decisions on actual routing
-times, this means that a node will tend to prefer routing messages to
-faster nodes, on better Internet connections that are geographically
-closer - unless those nodes become overloaded, which will decrease the
-incentive to use them and have a load balancing effect.
-<li><b>Performance can be evaluated locally</b><br>
-With the old approach to Freenet's routing, the only concrete way to
-evaluate its performance was by trying it.  With N.G Routing we have
-a simple metric of how effectively it is performing - namely the difference
-between estimated routing times, and actual routing times.  If a modification
-to the algorithm results in closer estimates, then we know it is better.  If not,
-we know that it isn't.  This will dramatically accelerate the development cycle
-of future improvements.
-<li><b>Approaching optimality</b><br>
-If one accepts that in an environment where only one's own node may be trusted,
-it is reasonable to say that all decisions should be based upon one's own 
-observations.  Given this, it could be said that if we make optimal use of
-prior observations while making routing decisions, then our routing algorithm
-is optimal.  Now clearly there will always be room for refinement
-in the manner in which the new algorithm estimates routing times
-</ul>
-<h3>Current Status</h3>
-Next Generation routing was deployed in Freenet from 2003-2005, however in 
-Freenet 0.7, started in 2005, we reverted back to a much simpler approach.  
-A 2007 paper by Oskar Sandberg <a href="http://arxiv.org/abs/0804.0577">
-Decentralized Search with Random Costs</a> determined that the concepts 
-underlying this paper "were fundamentally sound".
+<li><b>Se adapta a la topología de red</b><br>
+En el viejo algoritmo de enrutamiento de Freenet, un nodo corriendo con un modem
+lento en el medio del desierto Australiano es visto en la misma manera
+que un nodo rápido corriendo con un enlace T3 en el centro de San Jose.  En escencia,
+la topología subyacente de Internetes ignorada por Freenet, todos los nodos son tratados 
+por igual.  En contraste, el encaminamiento P.G. basa sus decisiones en tiempos reales de
+encaminamiento, esto significa que un nodo tenderá a preferir mensajes de encaminamiento para
+nodos más rápidos, o mejores conexiones a Internet que estén geográficamente más
+cercanas - a menos que esos nodos se vuelvan sobrecargados, lo cual disminuirá la 
+incentiva a usarlos y tendrá un efecto de balance de carga.
 
-<h3>Interested in helping?</h3>
-In addition to joining our development effort, you can really help us to make
-this all a reality by donating whatever you can spare to the project on our
-<a href="/donate.html">Donations</a> page.
+<li><b>El desempeño puede ser evaluado localmente</b><br>
+Con el viejo enfoque de enrutamiento de Freenet, la única vía concreta
+para evaluar su desempeño era probando.  Con el Enrutamiento P.G. tenemos una
+métrica simple de cuan efectivamente es ejecutada - nominalmente la diferencia
+ente tiempos estimados de encaminamiento, y los tiempos reales.  Si una modificación
+al algoritmo resulta en una estimación más cercana, entonces sabemos que es mejor.  Si no,
+sabemos que no lo es.  Esto acelera dramáticamente el ciclo de desarrollo
+de futuras mejoras.
+<li><b>Enfocando óptimamente</b><br>
+Si uno acepta que un entorno donde solamente el nodo propietario puede ser confiable,
+es razonable decir que todas las decisiones deberían basarse en sus propias  
+observaciones.  Dado esto, se podría decir que si hacemos uso óptimo de
+observaciones anteriores mientras tomamos decisiones de enrutamiento,  luego nuestro algoritmo
+es óptimo.  Ahora claramente siempre habrá espacio para refinamientos
+en la manera en la que el nuevo algoritmo estima los tiempos de enrutamiento.
+</ul>
+<h3>Estado Actual</h3>
+Enrutamiento de Próxima Generación fué desarrollado en Freenet ente 2003-2005, sin embargo en 
+Freenet 0.7, iniciado en 2005, volvimos a un enfoque mucho más simple.  
+Un artículo del 2007 por Oskar Sandberg <a href="http://arxiv.org/abs/0804.0577">
+Búsqueda Descentralizada con Costos Aleatorios</a> determina que los conceptos 
+subyacentes a este artículo "eran fundamentalmente esonido".
+
+<h3>Interesado en ayudar?</h3>
+Además de unirte a nuestros esfuerzos de desarrollo,realmente puedes ayudarnos a hacer
+esto una realidad donando lo que puedas al proyecto en nuestra página de
+<a href="/donate.html">Donaciones</a> .
