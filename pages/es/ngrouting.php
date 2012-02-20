@@ -91,91 +91,94 @@ conexión en primer lugar. Cuando un nuevo requerimiento es recibido, esta
 información es usada para estimar cual nodo es probablemente capaz de
 recuperar los datos en la menor cantidad de tiempo, y ese es el nodo
 al cual el requerimiento es reenviado.
-<H3>Estimación de Respuesta de Datos</H3>
+<H3>Estimación de Respuesta de Datos (DataReply)</H3>
 <P>La medición más importante es encontrar una forma de estimar, dada una
 clave requerida por un nodo dado, cuanto tiempo tomará
 obtener los datos. Para lograr esto un algoritmo es mandatorio que pueda
 cumplir con los siguientes criterios:
 <UL>
-	<LI><P>Must be able to make reasonable guesses about keys that it
-	has not seen before
-	<LI><P>Must be progressive &ndash; if a node's performance changes
-	over time, this should be represented, but should not be
-	oversensitive to recent fluctuations which may vary significantly
-	from the average.
-	<LI><P>Must be &ldquo;scale free&rdquo;<BR>Consider a naive
-	implementation of this that works by splitting the keyspace into a
-	number of sections and maintaining an average for each. Now consider
-	a node where most of its incoming requests lie within a very small
-	section of the keyspace. Our na&iuml;ve implementation would be
-	unable to represent variations in response time within that small
-	area and would therefore limit that node's ability to accurately
-	estimate routing times.
-	<LI><P>Must be efficiently serializable
+	<LI><P>Debe ser capaz de hacer suposiciones razonables sobre las claves que
+	no ha visto antes
+	<LI><P>Debe ser progresivo &ndash; si el desempeño de un nodo cambia
+	con el tiempo, eso debería ser representado, pero no debería ser muy
+	susceptible a fluctuaciones recientes las cuales podrían variar significativamente
+	del promedio.
+	<LI><P>Debería ser de &ldquo;libre escala&rdquo;<BR>Considera una implementación
+	ingenua de esto que trabaja dividiendo el keyspace en un
+	númbero de secciones y manteniendo un promedio para cada una. Ahora considera
+	un nodo donde la mayoría de sus requerimientos entrantes caen dentro de una muy pequeña
+	sección del keyspace. Nuestra implementación ingenua será
+	incapaz de representar variaciones en tiempo de respuesta en una pequeña
+	área y por lo tanto limitará las habilidades del nodo para estimar
+	correctamente los tiempos de enrutamiento.
+	<LI><P>Debe ser eficientemente serializable.
 </UL>
-<P>We developed a simple algorithm which meets these criteria. It
-works by maintaining N &ldquo;reference&rdquo; points (where N is
-configurable &ndash; 10 being a typical value) which are initially
-evenly distributed across the keyspace.  When we have a new routing
-time sample for a particular key &ndash; we move the two points
-closest to our new sample toward it.  The amount they are moved can
-be adjusted to change how &ldquo;forgetful&rdquo; the estimator is.
-<P><center><IMG SRC="/image/rte_diag.gif" NAME="Graphic1" WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
+<P>Desarrollamos un algoritmo simple el cual satisface esos criterios. Trabaja
+manteniendo N puntos de &ldquo;referencia&rdquo;  (donde N es
+configurable &ndash; siendo 10 un valor típico) los cuales son inicialmente 
+homogeneamente distribuídos en el keyspace.  Cuando tenemos una nueva 
+muestra de tiempo de enrutamiento para una clave en particular &ndash; movemos los dos puntos
+más cercanos hacia nuestra nueva muestra.  La cantidad que son movidos puede 
+ser ajustada para cambiar cuan &ldquo;olvidadizo&rdquo; es el estimador.
+<P><center><IMG SRC="/image/rte_diag.gif" NAME="Gráfico1" WIDTH=335 HEIGHT=256 BORDER=0><BR CLEAR=LEFT><BR><BR>
 </center>
-<P>In this diagram it can be seen that two of the reference points
-(blue) are being moved toward our new data sample (red).
-<P>When we wish to create an estimate for a new key, we see where the
-line between the reference points at either side of that key
-intersects (green) and this gives us our estimated response time.
-<H3>Handling different data lengths</H3>
+
+<P>En este diagrama se puede ver que dos de los puntos de referencia
+(azul) están siendo movidos hacia nuestra nueva muestra de datos (rojo).
+<P>Cuando queremos crear un estimado para una nueva clave, vemos adonde intersecta la
+línea entre los puntos de referencia a ambos lados de la clave
+(verde) y esto nos da nuestra respuesta de tiempo estimada.
+
+<H3>Manejando diferentes longitudes de datos</H3>
 <P>
-Also consider the fact that there isn't just one timing measurement
-that must be taken into account when we receive a DataReply, there
-are two.  The first is the time required to get the beginning
-of the response, the second is the time required to transfer the data.
-This raises the question of how we can combine these two timings
-into a single value which can be reported to the estimator algorithm
-described above.
+Considera también el hecho que no hay solo una medida de tiempo
+que deba ser tomada en cuenta cuando recibimos una Respuesta de Datos, hay
+dos.  La primera es el tiempo requerido para obtener el comienzo de la 
+respuesta, la segunda es el tiempo requerido para transferir los datos.
+Esto lleva a lacuestión de cómo podemos combinar estas dos mediciones
+en un solo valor el cual pueda ser reportado al algoritmo estimador
+descrito arriba.
 <p>
-The answer we have settled upon is to use these two numbers to
-estimate what the total time between the request being sent and
-the transfer being <i>completed</i> would have been had the data
-been the average length of data in Freenet (which we in turn estimate
-by taking the average length of data in the local datastore).  This
-is a single value which can be compared directly with other timing
-measurements even when they were made with requests where the data
-was differing sizes.
-<h3>Handling DataNotFound messages</h3>
-When a request has visited the number of nodes specified in its
-"hops to live" field (similar to "time to live" in other protocols), 
-a "DataNotFound" or DNF message is returned to the requester.  This indicates
-that the data could not be found within the time limit specified by
-the requester.  There are two reasons that a DNF can be returned for some
-data, either the data exists but wasn't found, or the data didn't exist
-at all.  In the former case, a DNF would indicate a shortcoming in the
-routing ability of whichever node the request was routed to.  In the latter
-case, it would not - but the difficulty is that for a given DNF - there
-is no easy way to tell what type of DNF it is, whether it is "legitimate"
-or not.
+La respuesta que hemos establecido al respecto es usar esos dos números para 
+estimar que el tiempo total entre la petición siendo enviada y
+y la transferencia  <i>completada</i> pueda haber sido el
+promedio de la longitud del dato en Freenet (la cual en cambio estimamos
+tomando la longitud de datos promedio en el almacén de datos local).  Este 
+es un único valor el cual puede ser comparado directamente con otras medidas
+de tiempo aún cuando fueron hechas con requerimientos donde los datos
+eran de diferentes tamaños.
+
+<h3>Manejando mensajes Dato no Encontrado</h3>
+Cuando una petición ha visitado el núnero de nodos especificado  en su
+campo "saltos de vida"  (similar al "tiempo de vida" en otros protocolos), 
+un mensaje "Dato no Encontrado" o mensaje DNE es devuelto al solicitante.  Esto indica
+que el dato no pudo ser hallado dentro del límite de tiempo especificado por el
+solicitante.  Hay dos reazones por las que un DNE pueda ser devuelto para algunos
+datos, o bien el dato existe pero no fué encontrado, o el dato no existe
+para nada.  En el caso primero, un DNE incrementaría un defecto en la 
+habilidad de encaminamiento de cualquier nodo al cual fué encaminado el requerimiento.  En el último 
+caso, no - pero la dificultad es para un DNE dado - hay
+una forma fácil de decir que tipo de DNE es este, si es "legítimo" o no.
 <p>
-Let, us, for a moment, assume that there was a way to identify illegitimate
-DNFs.  In this case, the cost in terms of the time required for such a DNF
-would be the time required to receive the DNF plus the time required to
-request the same data from somewhere else.  We can estimate the former
-by looking at how long previous DNFs took for requests sent to this node
-(taking into account that this time will be proportional to the HTL of
-the request <sup>ie.</sup> a request with a HTL of 10 will visit twice
-as many nodes as a request with HTL 5 and will therefore take about twice
-as long to return a DNF).  We can estimate the latter by looking at the
-average amount of time it takes to successfully retrieve some data.
+
+Permítenos, por un momento, asumir que había una forma de identificar DNE
+ilegítimos DNEs.  En este caso, el costo en tyérminos de tiempo requerido para tal DNE
+sería el tiempo requerido para recibir el  DNE mas el tiempo requerido para
+solicitar el mismo dato de algún otro lugar.  Podemos estimar lo anterior
+mirando cuanto los DNEs previos tomaron para peticiones enviadas a este nodo
+(tomando en cuenta que este tiempo será proporcional al SDV de
+la petición <sup>p.ej.</sup> una petición con un SDV de 10 visitará dos veces
+tantos nodos como peticiones con SDV 5 y por lo tanto tomará cerca del doble
+regresar un DNE). Podemos estimar lo último mirando el 
+promedio de tiempo que toma recuperar algún dato exitosamente.
 <p>
-Now, imagine a Freenet node with perfect routing, the only DNFs it returns
-would be "legitimate" - since if the data was in the network, it would
-find it.  The proportion of DNFs this perfect node returned would be the
-same as the proportion of DNFs for which the data simply didn't exist
-in the network.  Now - such a node (we assume) could not exist, however
-we can approximate it by looking at the proportion of DNFs for the node
-with the lowest proportion of DNFs in our routing table.
+Ahora, imagina un nodo Freenet con enrutamiento perfecto, los únicos DNEs que devuelve
+serían "legítimos" - ya que los datos estaban en la red, podría 
+encontralos.  La proporción de DNEs que este nodo perfecto devuelve sería la
+misma proporción de DNEs para los cuales el dato simplemente no existe 
+en la red.  Ahora - tal nodo (asumimos) podría no existir, sin embargo
+podemos aproximarnos a él buscando la proporción de DNEs para el nodo
+con la proporción más baja de DNEs en nuestra tabla de enrutamiento.
 <p>
 So now, we can determine the time cost of DNFs, and we can also approximate
 what proportion of a node's DNFs are legitimate - and therefore should not

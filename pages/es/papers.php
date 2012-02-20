@@ -59,7 +59,7 @@
 	  <a href="/ngrouting.html">Algoritmo de Enrutamiento Próxima Generación</a><br/>
 	  Este artículo describe el algoritmo de enrutamiento de Freenet "Proxima Generación".  Es un nuevo
 	  enfoque el cual tiene nodos tomando decisiones de enrutamiento basadas en un análisis sofisticado del
-	  tiempo requerido para enrutar solicitudes previas. Este algoritmo eraprometedor, pero 
+	  tiempo requerido para enrutar solicitudes previas. Este algoritmo era prometedor, pero 
 	  fué eventualmente descartado en favor de un enfoque mucho más simple en Freenet 0.7.
 	</p>
 	<p>
