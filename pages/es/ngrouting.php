@@ -1,101 +1,101 @@
 <H2>Protocolo de Enrutamiento Próxima Generación de Freenet</H2>
 <b>by <a href="mailto:ian@locut.us">Ian Clarke</a>, Coordinador del Proyecto Freenet, 20 de Julio de 2003</b>
-<P>While Freenet has come a long way since my 1999 paper, the 
-fundamental ideas behind how Freenet finds information have changed 
-very little. Now that Freenet is maturing it is time to re-examine 
-the core Freenet architecture to see where it can be improved. This new 
-design is known as &quot;Next Generation Routing&quot;. 
+<P>Mientras Freenet ha recorrido un largo camino desde mi artículo en 1999, las 
+ideas fundamentales tras cómo Freenet encuentra la información han cambiado 
+muy poco. Ahora que Freenet está madurando es el momento de re-examinar 
+la arquitectura central de Freenet para ver dónde puede ser mejorada. Este nuevo 
+diseño es conocido como &quot;Enrutamiento Próxima Generación&quot;. 
 
-<H3>Freenet's current routing mechanism</H3>
-<P>Firstly, let me recap on how Freenet works right now. Every node
-in the Freenet network is required to provide a simple service to
-other nodes in the system. When a node receives a request for a
-particular key, it should do its best to retrieve the data
-corresponding to that key as quickly as possible and send it back to
-the node that requested it.  Provided that every node in the Freenet
-network performs this service reasonably well - Freenet will work.
+<H3>El actual mecanismo de enrutamiento de Freenet</H3>
+<P>Primeramente, permitanme recapitular sobre cómo funciona Freenet hoy. Cada nodo
+en la red Freenet es necesario para para prestar un servicio simple a
+los otros nodos en el sistema. Cuando un nodo recibe una petición de una 
+clave en particular, debería hacer lo mejor que pueda para recuperar los datos
+correspondientes a esa clave tan rápido como sea posible y enviarlos de regreso
+al nodo que los requirió. Dado que todos los nodos en la red Freenet
+ejecutan este servicio razonablemente bien - Freenet funcionará.
 
-<P>In the simplest case, the recipients of the request will already
-have the data cached locally, and can immediately send it to the
-requester. In most cases, however, the node will need to request the
-data from another node in the network which it thinks will be better
-able to retrieve the data. The way Freenet makes this decision forms
-the core of the Freenet algorithm. 
+<P>En el caso mas simple, los eceptores de la petición ya tendrán
+los datos almacenados localmente, y pueden enviarlos inmediatamente al 
+solicitante. En la mayoría de los casos, sin embargo, el nodo necesitará requerir los
+datos a otro nodo en la red el cual piensa que será el más
+capaz de recuperar los datos. La forma en que Freenet toma esta decisión integra
+el núcleo del algoritmo Freenet. 
 
-<P>At present, the algorithm used to select which node should be
-consulted for a given key is relatively simple. In short, when a node
-forwards a request for a particular key to another node in the
-network, and that node is successful in retrieving the data, the
-address of an upstream node (possibly the one where the data
-originated) is included in the reply, this is called the "DataSource". 
-The requester makes a note of
-the requested key, and the DataSource node passed back with that reply.
-It is assumed that the upstream node is a good place to route future
-requests for keys closest to the previously requested key. It is
-analogous to deciding that since your friend George successfully
-answered a question about France, he might also be a good person to
-answer a question about Belgium. 
+<P>Al presente, el algoritmo usado para seleccioner cual nodo debería ser
+consultado para una clave dada es relativamente simple.En breve, cuando un nodo
+envía una petición para una clave particular a otro nodo en la
+red, y ese nodo tiene éxito recuperando los datos, la
+direccion de un nodo de carga (posiblemente aquel donde los datos
+se originan) es incluída en la réplica, este es llamado  "Fuente de Datos". 
+El peticionante toma nota de
+la clave requerida, y el nodo fuente hace la entrega.
+Se asume que el nodo de carga es un buen lugar para enrutar futuros
+requerimientos para claves cercanas a la clave previamente requerida. Esto es
+análogo a decidir que ya que tu amigo George exitosamente
+respondió una pregunta sobre Francia, el debería tambien ser un buen candidato para
+contestar sobre Bélgica. 
 
-<P>Despite its simplicity, this approach has proved surprisingly
-effective, both in simulation and in practice. One of the expected
-side effects of this approach was that nodes would tend to specialize
-in the retrieval of some keys to the exclusion of others. This can be
-seen is somewhat analogous to the way that people specialize in
-particular areas of expertise. This effect has been observed in
-actual Freenet nodes deployed in the Freenet network, the following
-image represents the keys stored by an actual Freenet node.  The X
-axis represents the "keyspace", at the left is key 0, across to the
-right which is key 2<sup>160</sup>.  Dark areas indicate where the
-node has better knowledge.  The dark strips indicate areas in which
-the node has detailed knowledge about where requests for those keys
-should be routed:
+<P>No obstante su simplicidad, este enfoque ha probado ser sorprendentemente 
+efectivo, tanto en simulación como en práctica. Uno de los efectos
+laterales esperados de este enfoque fué que los nodos tenderían a especializarse
+en recuperar algunas claves en detrimento de otras. Etsto puede ser visto
+como algo análogo a la forma en que las personas se especializan
+en áreas particulares de experiencia. Este efecto ha sido observado en
+los nodos actuales diseminados en la red Freenet, la siguiente
+imagen representa las claves almacenadas por un nodo Freenet actual.  El eje  X
+representa el "keyspace", a la izquierda esta el 0,hacia la derecha
+la clave  2<sup>160</sup>.  Las áreas oscuras indican donde los
+nodos tienen mejor conocimiento.  Las tiras oscuras indican áreas en las que
+el nodo tiene conocimiento detallado sobre adonde deberían ser enrutados
+los requerimientos para esas claves:
 <p>
 <center><img src="/image/rthist.png" width="480" height="100"></center>
 <p>
-Note that when the node was first initialized keys would have been evenly
-distributed across the keyspace.  This is a good
-indication that Freenet's current routing algorithm is performing 
-correctly.  Nodes specialize like this due to an emergent feedback effect,
-when a node successfully responds to a request for a given key - it increases
-the likelihood that other nodes will route requests for similar keys in the
-future.  Over time this effect causes the specialization that can be seen
-very clearly in the diagram above.  You can see an animation of a node's datastore specializing over time
-<a href="/image/histanim.mpeg">here</a>.
+Nota que cuando el nodo fué inicializado por primera vez las claves deberían haber sido uniformemente
+distribuidas en el keyspace.  Ese es un buen 
+indicador de que el actual algoritmo de enrutamiento de Freenet se está ejecutando 
+correctamente.  Los nodos se especializan de esta manera debido a un efecto de realimentación emergente,
+cuando un nodo responde exitosamente a un requerimiento de una clave dada - incrementa
+la probabilidad de que otros nodos encaminen requerimientos para claves similares en el 
+futuro.  Con el tiempo este efecto causa la especializacion que puede ser vista
+muy claramente en el diagrama debajo.  Puedes ver una animación del almacén de datos de un nodo especiálizandose con el tiempo 
+<a href="/image/histanim.mpeg">aquí</a>.
 
-<H3>Next generation routing mechanism</H3>
-<P>The fact that it works, of course, does not mean that it cannot be
-improved upon.   At the simplest level, note that
-the current algorithm does not distinguish between a slow Freenet node
-sitting at the end of a slow modem line in the remote Australian outback,
-and a powerful node connected to a T3 in downtown Los Angeles. Also note
-that while the current algorithm works, the only real way to test
-improvements to the algorithm is to see how they affect a large scale
-network, either in simulation, or in the real world - this leads to
-a slow and cumbersome development cycle.
-By making more effective use of the
-information available to a Freenet node, we can dramatically improve
-a node's ability to route requests in a manner likely to result in
-the fastest response for that request. By avoiding guesswork, and
-striving for a firm basis in statistical reality - we can even accelerate
-our development effort by allowing ourselves to determine the effectiveness
-of a modification based on its effect on a single node, before we deploy it.
-These goals are achieved by Next Generation Routing. 
+<H3>Mecanismo de enrutamiento Próxima Generación</H3>
+<P>El hecho de que funcione, por supuesto, no significa que no pueda ser
+mejorado.   En el nivel más simple, nota que
+al algoritmo actual no distingue entre un nodo Freenet lento
+conectado mediante una línea con un modem lento en el remoto desierto Australiano,
+y un poderosdo nodo conectado a un enlace T3 en el centro de Los Angeles. Nota también
+que mientras el actual algoritmo trabaja, la única forma real de probar
+mejoras al algoritmo es ver como afecta en gran escala a la 
+red, o bien en simulación, o en el mundo real - esto nos lleva a 
+un lento y engorroso ciclo de desarrollo.
+Haciendo mas efectivo el uso de la 
+información disponible para un nodo Freenet, podemos mejorar dramáticamente
+la habilidad de un nodo para enrutar peticiones en una manera similar que resulte en
+la respuesta más rapida para esa petición. Evitando las adivinanzas, y
+haciendo lo posible por afirmar una base de realidad estadística - podemos aún acelerar 
+nuestro esfuerzo de desarrollo permitiendonos nosotros mismos determinar la efectividad
+de una modificación basada en su efecto sobre un nodo individual, antes de deasrrollarlo.
+Estas metas son alcanzadas por el Enrutamiento Próxima Generación. 
 
-<P>The core idea behind the Next Generation Routing design is to make
-Freenet nodes much smarter about deciding where to route information.
-For each node reference in its routing table, a node will collect
-extensive statistical information including response times for
-requesting particular keys, the proportion of requests which succeed
-in finding information, and the time required to establish a
-connection in the first place. When a new request is received, this
-information is used to estimate which node is likely to be able to
-retrieve the data in the least amount of time, and that is the node
-to which the request is forwarded.
-<H3>DataReply estimation</H3>
-<P>The most important metric is finding a way to estimate, given a
-given key being requested from a given node, how long it will take to
-get the data. To achieve this an algorithm was required that would
-meet the following criteria:
+<P>La idea central detras del diseño de Enrutamiento Próxima Generación es hacer
+a los nodos de Freenet mucho más inteligentes acerca de decidir donde encaminar la información.
+Para cada referencia en tu tabla de enrutamiento, un nodo recopilará
+extensiva información estadística incluyendo tiempos de respuesta para
+peticiones de claves en particular, la proporcion de peticiones de búsqueda de 
+informacón exitosas, y el tiempo requerido para establecer una
+conexión en primer lugar. Cuando un nuevo requerimiento es recibido, esta 
+información es usada para estimar cual nodo es probablemente capaz de
+recuperar los datos en la menor cantidad de tiempo, y ese es el nodo
+al cual el requerimiento es reenviado.
+<H3>Estimación de Respuesta de Datos</H3>
+<P>La medición más importante es encontrar una forma de estimar, dada una
+clave requerida por un nodo dado, cuanto tiempo tomará
+obtener los datos. Para lograr esto un algoritmo es mandatorio que pueda
+cumplir con los siguientes criterios:
 <UL>
 	<LI><P>Must be able to make reasonable guesses about keys that it
 	has not seen before
