@@ -83,8 +83,8 @@ include 'includes/common.inc.php';
 <!--
 	<div id="lang">
 	  <p> 
-	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="fr/index.html">fr</a> 
-	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="/index.html">en</a>
+	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="/es/index.html">fr</a> 
+	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="/en/index.html">en</a>
 
 	  <?php if($lang == "en") 
 	  {
@@ -92,7 +92,7 @@ include 'includes/common.inc.php';
 	  }
 	  else 
 	  {
-		echo "Selectionner la langue :";
+        echo "Seleccione su idioma:";
 	  }
 	  ?>
 	  </p>
