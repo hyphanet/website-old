@@ -4,6 +4,7 @@
 						'no' => 'Norsk',
 						'da' => 'Dansk',
 						'de' => 'Deutsch',
-												'en' => 'English');
+						'es' => 'Spanish',
+						'en' => 'English')
 						
 ?>
