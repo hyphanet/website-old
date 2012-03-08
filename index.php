@@ -156,7 +156,7 @@ include 'includes/common.inc.php';
 <!-- Woopra Code End -->
 <!-- Uservoice feedback tab -->
 <script type="text/javascript">
-  var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+  var uservoiceJsHost = document.location.protocol + "//cdn.uservoice.com";
   document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
 </script>
 <script type="text/javascript">
