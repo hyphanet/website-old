@@ -60,9 +60,9 @@
 	  <li>
 	    <a href="http://www.google.com/">Google</a><br/>
 	    Google <a href="http://code.google.com/">open source</a> have three times donated $18,000,
-	    as well as paying for students to work with us over summer for four years 
-	    through the <a href="http://code.google.com/soc/">Summer of Code</a> 
-	    programme.
+	    as well as paying for students to work with us over summer since 2006 
+	    through the <a href="http://code.google.com/soc/">Google Summer of Code</a> 
+	    program.
 	  </li>
 	  
 	  <li>
