@@ -19,10 +19,10 @@
       <ul>
 	<li>Puedes habilitar el modo inseguro (el instalador
 	te preguntará) y Freenet automáticamente encontrará nodos para conectar
-	 - Extraños.</li>
+	 - Desconocidos.</li>
 	<li>Puedes conectar a nodos hosteados por personas que conozcas -
-	Amigos. Nota que deberán ser personas que conozcas actualmente en 
-	algun nivel, en orden de mantener buena topología de red y 
+	Amigos. Observa que deberán ser personas que conozcas actualmente en 
+	algún nivel, en orden de mantener buena topología de red y 
 	máxima seguridad.</li>
       </ul>
       
@@ -38,7 +38,7 @@
       </p>
 
       <p>
-	<span style="font-style:italic;">Cuando tienes un nodo recién conectado, no hay data cacheada en tu almacén de datos,
+	<span style="font-style:italic;">Cuando tienes un nodo recién conectado, no hay datos previos en tu almacén de datos,
 	  y muy pocas conexiones aún si el modo inseguro está habilitado. Las solicitudes son enviadas de modo aleatorio. 
 	  <span style="font-weight:bold;">Esto hace que algunas (sino
 	  todas) las peticiones expiren antes de recibir nada.</span> Lleva
@@ -50,7 +50,7 @@
 	Deberías tener al menos tres nodos conectados
 	todo el tiempo, idealmente entre cinco y siete. Dado que algunos nodos
 	pueden estar inaccesibles a veces, necesitas conectar algunos más
-	para obtener el numero deseado. Los nodos que están conectados
+	para obtener el número deseado. Los nodos que están conectados
 	directamente a ti son los únicos nodos de Freenet que pueden ver
 	que tipo de tráfico circula a través de tu nodo.
 	Pero si el modo inseguro está habilitado, cualquier nodo podrá encontrar el tuyo; 
@@ -61,7 +61,7 @@
 	una vez que tenga al menos diez Amigos.
       </p>
       
-      <img src="/image/Freenet-architecture-small.png"/>
+      <img src="image/Freenet-architecture-small.png"/>
 
       <p><span style="font-size:75%;font-style:italic;">Figura 1: Conexiones
       Freenet visibles</span></p>
@@ -69,14 +69,14 @@
       <p>
 	<span style="font-weight:bold;">El nodo A</span> en la figura
 	también tiene un número de nodos conectados a él, pero son todos
-	(excepto tu proopio nodo) invisibles para ti. El algoritmo de
-	ruteo de tráfico es por lo tanto capaz solamente de dirigir tráfico hacia
-	uno de los pocos nodos que conoces segun evalúe sea mas 
+	(excepto tu propio nodo) invisibles para ti. El algoritmo de
+	enrutamiento de tráfico es por lo tanto capaz solamente de dirigir tráfico hacia
+	uno de los pocos nodos que conoces según evalúe sea mas 
 	probable encontrar lo que estás buscando.
       </p>
 
       <p>
-	El tráfico está encriptado, así que es muy difícil para los
+	El tráfico está cifrado, así que es muy difícil para los
 	nodos conectados ver en qué consiste tu tráfico en
 	Freenet, pero no es imposible. Es por lo tanto
 	importante que conectes solamente gente que conoces. Si esto no 
@@ -96,19 +96,19 @@
 	Debajo muestra lo que sucede:
       </p>
       
-      <img src="/image/add_peers.png"/>
+      <img src="image/add_peers.png"/>
       
       <p>Como puedes ver, hay tres formas de obtener la referencia de nodos de alguien mas:</p>
       
       <ul>
-	<li>Pegandolo &quot;tal cual&quot;, en el campo superior,</li>
+	<li>Pegándolo &quot;tal cual&quot;, en el campo superior,</li>
 	<li>una URL apuntando a la referencia, o</li>
 	<li>un archivo, conteniendo la referencia.</li>
       </ul>
       
       <p>
 	<a href="http://dark-code.bulix.org/">http://dark-code.bulix.org/</a>
-	es un asi llamado <span style="font-weight:bold;">paste-bin</span>, donde
+	es un así llamado <span style="font-weight:bold;">paste-bin</span>, donde
 	puedes agregar tu referencia de nodo, asegúrate que la opción 
 	<span style="font-weight:bold;">privado</span> está marcada y presiona
 	<span style="font-weight:bold;">Pegar</span>.
@@ -161,7 +161,7 @@
 	página de Darknet. Debería ser algo parecido a esto:
       </p>
 
-      <img src="/image/Freenet-darknet_peers.png"/>
+      <img src="image/Freenet-darknet_peers.png"/>
 
       <p>Hay un número de mensajes de estado que se pueden ver aquí:</p>
 

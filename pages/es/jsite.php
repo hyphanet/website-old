@@ -17,7 +17,7 @@
       <p>
 	jSite es una aplicación gráfica que puedes usar 
 	para crear, insertar y administrar tus propios 
-	sitios Freenet. Fué escrita en Java por Bombe. 
+	sitios Freenet. Fue escrita en Java por Bombe. 
       </p>
       <p>
 	Puedes <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">descargar jSite aquí</a>
@@ -31,7 +31,7 @@
       <p>
 	La primer ventana que ves es esta:
       </p>
-      <img src="/image/jsite/select-project.png" width="100%"/>
+      <img src="image/jsite/select-project.png" width="100%"/>
       <p>
 	En el panel de la izquierda, algunos proyectos creados pueden
 	ser seleccionados para actualización, borrado o duplicado. Ya que
@@ -55,7 +55,7 @@
 	  - el directorio donde almacenarás 
 	  todas las páginas del Freesite que estás creando. 
 	  Ingresa la ruta completa. Puedes hacer click en el botón Browse 
-	  para seleccionar un directorio graficamente o simplemente escríbelo.</li>
+	  para seleccionar un directorio gráficamente o simplemente escríbelo.</li>
       </ul>
       <p>
 	Bajo la sección Dirección, hay algunas entradas generadas 
@@ -77,7 +77,7 @@
       <p>
 	Debajo hay un ejemplo de cómo se vería:
       </p>
-      <img src="/image/jsite/project-details.png" width="100%"/>
+      <img src="image/jsite/project-details.png" width="100%"/>
       <p>Cuando todo se haya completado correctamente, debes
 	presionar <span style="font-weight: bold;">Siguiente</span>.
       </p>
@@ -87,29 +87,29 @@
 	<span style="font-weight: bold;">Archivos de Proyecto</span>. 
 	Ya que no tenemos archivos en el directorio actual, aún,
 	el diálogo esta vacío.</p>
-      <img src="/image/jsite/project-files.png" />
+      <img src="image/jsite/project-files.png" />
       <p>
 	Para agregar archivos, pongamos algunos archivos en el directorio local
 	que especificamos antes, <span style="font-weight: bold;">
 	  /home/test</span>, y presionamos <span style="font-weight: bold;">
 	  Re-scan</span>. luego, presto, aparecen los archivos.
       </p>
-      <img src="/image/jsite/default-file.png" />
+      <img src="image/jsite/default-file.png" />
       <p>
 	Luego resaltamos uno de estos archivos que será 
 	la página por defecto (ej. index.html sería una buena 
 	elección) y marcamos el checkbox <span style="font-weight: bold;">
 	  Default file</span>. Debería reconocer el  
 	MIME type como text/html, así que deja todo como está 
-	y haz click en elbotón <span style="font-weight: bold;">
+	y haz click en el botón <span style="font-weight: bold;">
 	  Insert now</span>.
       </p>
       <p>
-	Si todo fué bien, una ventana como la siguiente debería
+	Si todo fue bien, una ventana como la siguiente debería
 	aparecer.Puede tardar un buen rato insertar el Freesite,
 	varios minutos de hecho.
       </p>
-      <img src="/image/jsite/project-insert.png" width="100%"/>
+      <img src="image/jsite/project-insert.png" width="100%"/>
       <p>
 	Cuando todo esté terminado, verás un mensaje emergente que
 	te dice que el sitio ha sido insertado exitosamente.

@@ -19,7 +19,7 @@
 	Cuando guardas un archivo en éĺ, recibes una clave la cual  
 	puede ser usada para recuperar el archivo. Cuando proporcionas a  
 	Freenet una clave, te devuelve el archivo correspondiente 
-	(si es encontrado). El espacio de almacenamiento está distribuído 
+	(si es encontrado). El espacio de almacenamiento está distribuido 
 	entre todos los nodos conectados a Freenet.
       </p>
       
@@ -33,7 +33,7 @@
       <h3>Red de mundo pequeño</h3>
       
       <p>
-	Freenet está construída sobre el principio de redes de mundo  
+	Freenet está construida sobre el principio de redes de mundo  
 	pequeño. Conectando a nodos de personas que tú ya conocías
 	previamente, y la gente que conoces está conectada a personas que
 	ellos conocen, uno debería ser capaz de encontrar todos los nodos
@@ -45,15 +45,15 @@
       <p>
 	Todos los nodos Freenet contribuyen con una porción de espacio de su 
 	disco rígido para almacenar archivos. Los archivos son almacenados 
-	encriptados en el directorio <span style="font-weight:bold;">store</span>
+	cifrados en el directorio <span style="font-weight:bold;">store</span>
 	en la carpeta de instalación de Freenet.
       </p>
 
       <p>
 	A diferencia de otras redes peer-to-peer, tú 
-	como usuario tienes poco o ningíun control sobre lo que 
+	como usuario tienes poco o ningún control sobre lo que 
 	está almacenado en tu almacén de datos. En su lugar, los archivos son mantenidos o
-	borrados dependiendo de cúan populares son.
+	borrados dependiendo de cuan populares son.
 	Esto es para asegurar que Freenet es resistente a la censura. 
 	La única forma posible de remover algo de Freenet 
 	es no buscarlo, y esperar que nadie mas haga 
@@ -81,11 +81,11 @@
       <p>
 	Inicialmente, cada nodo no tiene información sobre el 
 	funcionamiento de los otros nodos que conoce. Esto 
-	significa que el encaminamiento de peticiones es escencialmente aleatorio. 
+	significa que el encaminamiento de peticiones es esencialmente aleatorio. 
 	Pero dado que diferentes nodos tienen diferente aleatoriedad, 
 	estarán en desacuerdo acerca de dónde enviar un requerimiento, dada 
-	una clave. Entonces la información en una instalacion Freenet recien iniciada será 
-	distribuída de alguna manera aleatoriamente.
+	una clave. Entonces la información en una instalación Freenet recién iniciada será 
+	distribuida de alguna manera aleatoriamente.
       </p>
 
       <p>
@@ -99,10 +99,10 @@
 
       <p>
 	El resultado es que la red se auto-organizará 
-	en una estructura de racimos distribuídos donde los nodos 
+	en una estructura de racimos distribuidos donde los nodos 
 	tienden a mantener los datos que son cercanos en el espacio 
 	de la clave. Habrá probablemente múltiples racimos de estos 
-	a traves de la red, dado que cualquier documento 
+	a través de la red, dado que cualquier documento 
 	comenzará a replicarse muchas veces, dependiendo de cuanto 
 	sea usado.
       </p>
@@ -122,7 +122,7 @@
 	semántica cuando hablamos de cercanía de claves. Por lo tanto 
 	no habrá correlación entre cercanía de claves 
 	y similar popularidad de datos como podría haber si las
-	claves exiben algún significado semántico, evitando así
+	claves exhiben algún significado semántico, evitando así
 	cuellos de botella causados por sujetos populares.
       </p>
 
@@ -145,7 +145,7 @@
 	<li><span style="font-weight: bold;">CHK</span> - Claves de Contenido Hash [Content Hash Keys]</li>
 	<li><span style="font-weight: bold;">SSK</span> - Claves de Subespacio Firmadas [Signed Subspace Keys]</li>
 	<li><span style="font-weight: bold;">USK</span> - Claves de Subespacio Actualizables [Updateable Subspace Keys]</li>
-	<li><span style="font-weight: bold;">KSK</span> - Claves de LLavero Firmadas [Keyword Signed Keys]</li>
+	<li><span style="font-weight: bold;">KSK</span> - Claves de Llavero Firmadas [Keyword Signed Keys]</li>
       </ul>
           
       <p>
@@ -188,12 +188,12 @@
 	consiste de tres partes:
       </p>
       <ol>
-	<li>el hash ṕara el archivo</li>
-	<li>la clave de desencriptación que descubre el archivo, y </li>
+	<li>el hash para el archivo</li>
+	<li>la clave para descifrar que descubre el archivo, y </li>
 	<li>la configuración criptográfica usada</li>
       </ol>
       <p>
-	Una claveCHK típica luce como esto:
+	Una clave CHK típica luce como esto:
       </p>
       <table>
 	<tr>
@@ -201,7 +201,7 @@
 	  <td style="background: #ddd;">@</td>
 	  <td style="background: #def0ff;">hash del archivo</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">clave de desencriptación</td>   
+	  <td style="background: #def0ff;">clave para descifrar</td>   
 	  <td style="background: #ddd;">,</td>
 	  <td style="background: #def0ff;">crypto configuración</td>
 	</tr>
@@ -221,8 +221,8 @@
 	</tr>
       </table>
       <p>
-	La clave de desencriptación se almacena encriptada con el archivo, así que no es  
-	posible desencriptar el archivo sin la clave CHK.
+	La clave para descifrar se almacena cifrada con el archivo, así que no es  
+	posible descifrará el archivo sin la clave CHK.
       </p>
       <p>Para acceder al archivo, la clave completa deberá pegarse detrás de la dirección
 	 de FProxy (acortada para caber en pantalla):</p>
@@ -237,7 +237,7 @@
 	una nueva versión de tu sitio y pretender que has sido tú el que lo hizo.
       </p>
       <p>
-	Funciona usando una clave pública criptográfica asi puedes firmar tu sitio. Solamente la 
+	Funciona usando una clave pública criptográfica así puedes firmar tu sitio. Solamente la 
 	persona con la clave secreta puede agregar versiones actualizadas de tu sitio a Freenet.
       </p>
       <p>
@@ -245,12 +245,12 @@
       </p>
       <ul>
 	<li><span style="font-weight: bold;">hash de clave pública</span> - Esta parte es todo  
-	  lo que se requiere para individualizar el archivo (pero no para desencriptarlo), asi que los nodos 
-	  solamente necesitan almacenar esta parte. La clave pública actual es almacenada (desencriptada) con 
-	  los datos  (encriptados).</li>
-	<li><span style="font-weight: bold;">clave de desencriptación del documento</span> - Esta 
+	  lo que se requiere para individualizar el archivo (pero no para descifrarlo), asi que los nodos 
+	  solamente necesitan almacenar esta parte. La clave pública actual es almacenada (descifrada) con 
+	  los datos  (cifrados).</li>
+	<li><span style="font-weight: bold;">clave para descifrar el documento</span> - Esta 
 	  es solamente conocida por los clientes y no por los nodos que almacenan los datos, asi que los nodos no pueden 
-	  desencriptar los datos que almacenan sin la dirección completa.</li>
+	  descifrar los datos que almacenan sin la dirección completa.</li>
 	<li><span style="font-weight: bold;">crypto configuración</span> - Algoritmo 
 	  criptográfico usado, etc.</li>
 	<li><span style="font-weight: bold;">nombre seleccionado por el usuario</span> - una palabra  
@@ -275,7 +275,7 @@
 	  <td style="background: #ddd;">@</td>
 	  <td style="background: #def0ff;">hash de la clave pública</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">clave de desencriptación</td>
+	  <td style="background: #def0ff;">clave para descifrar</td>
 	  <td style="background: #ddd;">,</td>
 	  
 	  <td style="background: #def0ff;">cripto configuración</td>
@@ -317,36 +317,36 @@
 	    clave pública</span> para verificar la firma.</li>
 	
 	<li>El autor también genera una simple <span style="font-weight: bold;">clave simétrica</span> 
-	  (una que es usada para encriptar y desencriptar).</li>
-	<li>Cuando un archivo es insertado en Freenet, es encriptado con la 
+	  (una que es usada para cifrar y descifrar).</li>
+	<li>Cuando un archivo es insertado en Freenet, es cifrado con la 
 	  <span style="font-weight: bold;">clave simétrica</span> y firmado 
 	  con la <span style="font-weight: bold;">clave privada</span>. La 
 	  firma es almacenada con el archivo. Los nodos no guardan la  
 	  <span style="font-weight: bold;">clave simétrica</span>, solamente la parte de la 
 	  <span style="font-weight: bold;">clave pública</span> de la SSK, 
-	  como un índice a los datoas. Esto es porque pueden plausiblemente negar conocimiento 
+	  como un índice a los datos. Esto es porque pueden plausiblemente negar conocimiento 
 	  de los datos en sus nodos.</li>
 	
       </ul>
       
       <p>
 	La SSK consiste de un hash de la clave pública, y la clave simétrica. 
-	El hash de la clave pública actúa comlo el índice a los datos para propósitos de 
+	El hash de la clave pública actúa como el índice a los datos para propósitos de 
 	búsqueda. También, la clave pública actual es almacenada con los datos. Esto es 
 	para que los nodos Freenet puedan verificar la firma cuando los archivos SSK entran 
 	al nodo, y es asi que los clientes pueden verificar la firma cuando 
-	recuperan el archivo. La clave simétrica es para que los clienter puedan desencriptar 
+	recuperan el archivo. La clave simétrica es para que los clientes puedan descifrar 
 	el archivo.
       </p>
       <p>
 	Las Claves de Subespacio Firmadas han sido largamente reemplazadas por las Claves de 
 	Subespacio Actualizables (USK), las cuales tstán basadas en SSKs pero permiten a los enlaces que intenten siempre 
-	recuperar la versión más actualizadade el sitio.
+	recuperar la versión más actualizada de el sitio.
       </p>
       <h3>Claves de Subespacio Actualizables</h3>
       <p>
 	Las Claves de Subespacio Actualizables son útiles para enlazar a la última versión de una 
-	Claves de Subespacio Firmadas (SSK) de un sitio. Nota que las USKs son realmente solo un revestimiento 
+	Claves de Subespacio Firmadas (SSK) de un sitio. Observa que las USKs son realmente solo un revestimiento 
 	amigable sobre una SSK, la cual oculta el proceso de búsqueda de versiones más recientes 
 	de un sitio.
       </p>
@@ -360,7 +360,7 @@
 	  <td style="background: #ddd;">@</td>
 	  <td style="background: #def0ff;">hash de la clave pública</td>
 	  <td style="background: #ddd;">,</td>
-	  <td style="background: #def0ff;">clave de desencriptación</td>
+	  <td style="background: #def0ff;">clave para descifrar</td>
 	  <td style="background: #ddd;">,</td>
 	  
 	  <td style="background: #def0ff;">cripto configuración</td>
@@ -373,8 +373,8 @@
 	
       </table>
       <p>
-	Es casi idéntica a la  Claves de Subespacio Firmadas, con la excepcion del 
-	númerli de versión. Hay dos tipos de direcciones USK:
+	Es casi idéntica a la  Claves de Subespacio Firmadas, con la excepción del 
+	número de versión. Hay dos tipos de direcciones USK:
       </p>
       <ul>
 	<li>una USK con un número positivo al final , o</li>
@@ -384,7 +384,7 @@
 	Las USK con un número <span style="font-weight: bold;">positivo</span> al final 
 	trabajan de esta manera: el nodo Freenet en tu ordenador mantiene una lista de  
 	versiones de USKs que conoce, sin almacenar necesariamente los datos también 
-	 Esta lista está constituída de visitas previas, y tambien de requerimientos en segundo plano 
+	 Esta lista está constituida de visitas previas, y también de requerimientos en segundo plano 
 	de las visitas previas a esta clase de enlaces. Cuando visitas una USK como la de más 
 	abajo, consulta su lista de versiones del sitio mi_sitio 
 	de número 5 o mayor. Si encuentra alguna, devuelve la última. Luego, en segundo plano, 
@@ -454,10 +454,10 @@
 	Pero más sobre esto en otro lugar.
       </p>
       
-      <h3>Claves de LLavero Firmadas</h3>
+      <h3>Claves de Llavero Firmadas</h3>
       
       <p>
-	Las Claves de LLavero Firmadas (KSKs) te permite guardar páginas en Freenet. No 
+	Las Claves de Llavero Firmadas (KSKs) te permite guardar páginas en Freenet. No 
 	son seguras contra spamming o secuestro de nombre. Varias personas podrían 
 	cada una insertar un archivo diferente en Freenet, todos con la misma dirección.
 	Sin embargo, hay una detección de colisión, la cual trata de prevenir 
@@ -474,8 +474,8 @@
 
       <p>
 	La desventaja de las KSKs es que cualquiera puede insertar un archivo con el mismo nombre
-	como suyo y derivar trafico de tua archivo hacia el propio. La ventaja
-	son enlaces legibles que pueden ser facilmente recordados.
+	como suyo y derivar trafico de tu archivo hacia el propio. La ventaja
+	son enlaces legibles que pueden ser fácilmente recordados.
       </p>
       
       <p>
@@ -499,7 +499,7 @@
       </p>
       <h3>Manifiestos</h3>
       <p>
-	Un Manifiesto contiene metadata sobre la lista de bloquesen que está dividido una CHK  
+	Un Manifiesto contiene metadata sobre la lista de bloques en que está dividido una CHK  
 	y alguna información sobre el content-type(MIME), los nombres de archivos
 	y otra información útil. La información principal es si la clave 
 	CHK es un archivo dividido o no, y si el manifiesto está encadenado 

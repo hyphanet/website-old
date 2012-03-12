@@ -26,18 +26,18 @@
 	  <li>
 	    <b>Totalmente descentralizada</b><br/>
 	    La información puede ser ingresada en Freenet para descargarla
-	    sin confiar en ningun servidor centralizado.  Todo lo que
+	    sin confiar en ningún servidor centralizado.  Todo lo que
 	    hay que hacer es proporcionar la "clave" del contenido a
 	    alguien mas y sera capaz de descargarlo.
 	  </li>
 	  <li>
-	    <b>Cacheo adaptativo</b><br/>
+	    <b>Almacenamiento en caché adaptativo</b><br/>
 	    Muchas arquitecturas CDN solamente permiten pares que ya hayan 
 	    descargado un archivo para compartirlo con otros pares.  Freenet
-	    depositará adaptativamente la informacion sobre pares 
+	    depositará adaptativamente la información sobre pares 
 	    cuanto sea necesario para cubrir la demanda independientemente de lo que hayan 
 	    descargado los pares.
-	    Esto permite a Freenet to "escalar" mucho mas rapidamente que 
+	    Esto permite a Freenet "escalar" mucho mas rápidamente que 
 	    que la mayoría de las soluciones, y mejora el balance de carga.
 	  </li>
 		
@@ -45,15 +45,15 @@
 	    <b>Seguridad fuerte</b><br/>
 	    Freenet siempre ha apoyado el concepto de "Content Hash
 	    Keys" el cual garantiza la integridad de la data recibida.
-	    Este concepto tambien ha sido adoptado por otras
-	    arquitecturas.  Freenet tambien apoya "Signed Subspace
+	    Este concepto también ha sido adoptado por otras
+	    arquitecturas.  Freenet también apoya "Signed Subspace
 	    Keys" lo cual permite firmar un contenido digitalmente.  Esto
-	    tambien permite garantiazar la integridad del contenido,pero es
+	    también permite garantizar la integridad del contenido,pero es
 	    mas flexible que CHKs.
 	  </li>
 	  
 	  <li>
-	    <b>Correccion de propagación de errores</b><br/>
+	    <b>Corrección de propagación de errores</b><br/>
 	    En común con otras arquitecturas CDN, Freenet
 	    emplea "Forward Error Correction", lo cual permite reconstruir a 
 	    los archivos aun cuando algunas de las partes del archivo
@@ -63,7 +63,7 @@
 	  </li>
 	</ul>
 	Esta página contiene enlaces a contenido accesible libremente en 
-	Freenet.  Si quieres agregar un nuevo enlace por favor envialo por email
+	Freenet.  Si quieres agregar un nuevo enlace por favor envíalo por email
 	a <a href="mailto:ian@locut.us">us</a> - recuerda que nosotros
 	solamente enlazaremos contenidos que puedan ser distribuidos legalmente
 	en los Estados Unidos de America.

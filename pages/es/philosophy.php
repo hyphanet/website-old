@@ -20,7 +20,7 @@
       <p>
 	Hay muchas razones por qué la gente se involucra con el Proyecto 
 	Freenet. Algunas comparten los puntos de vista delineados en este documento; algunas
-	comparten variantes de estos puntos de vista, los cuales tambien se sirven
+	comparten variantes de estos puntos de vista, los cuales también se sirven
 	de lo que queremos alcanzar; y algunas simplemente disfrutan del reto
 	tecnológico. Estas son las ideas que me motivaron a diseñar
 	el sistema en primer lugar, pero no necesariamente la visión
@@ -32,7 +32,7 @@
       <p>
 	Para que este documento tenga sentido, probablemente deberías saber qué
 	es Freenet. Puedes tener una buena descripción en 
-	la página <a href="/whatis.html">Qué es Freenet?</a>.
+	la página <a href="whatis.html">Qué es Freenet?</a>.
       </p>
       
       <a name="free_flow_info"><h3> 3. La importancia del Libre flujo de información  </h3></a>
@@ -72,7 +72,7 @@
 	no, probablemente quieran. Democracia es una respuesta a la pregunta de como
 	crear líderes, mientras los prevenimos de abusar de ese poder. Esto
 	se consigue dando a la población el poder de regular a sus
-	gobiernos a traves del voto, con todo, la habilidad de votar no necesariamente
+	gobiernos a través del voto, con todo, la habilidad de votar no necesariamente
 	significa que vivas en un país democrático. Para que una población pueda
 	regular a su gobierno efectivamente debe saber lo que sus
 	gobernantes están haciendo, deben estar bien informados. Es un ciclo de realimentación,
@@ -85,10 +85,10 @@
       <p>
 	Todos aprecian su libertad, de hecho, muchos la consideran tan importante
 	que morirían por ella. A la gente le gusta pensar que son libres de
-	forjar y mantener cualquier opinion que les guste, particularmente en los paises
+	forjar y mantener cualquier opinión que les guste, particularmente en los paises
 	occidentales. Considera ahora que algunos tuvieran la habilidad de controlar la
 	información a la que tienes acceso. Esto les daría la habilidad de
-	manipular tus opiniones ocultandote algunos hechos, presentándote
+	manipular tus opiniones ocultándote algunos hechos, presentándote
 	mentiras y censurando cualquier cosa que contradiga esas mentiras. Esto
 	no es una ficción Orwelliana, es una práctica corriente para la mayoría de los gobiernos
 	occidentales mentirle a sus pueblos, tanto así, que la gente ahora
@@ -103,7 +103,7 @@
 	La única manera de asegurar que una democracia permanezca efectiva
 	es asegurar que el gobierno no pueda controlar la capacidad de la población
 	de compartir información,de comunicarse. Absolutamente todo
-	lo que vemos y oimos está filtrado, no somos verdaderamente libres.
+	lo que vemos y oímos está filtrado, no somos verdaderamente libres.
 	La meta de Freenet es permitir a dos o más personas que
 	desean compartir información, hacerlo.
       </p>
@@ -112,15 +112,15 @@
       <p>
 	Por supuesto, el asunto no es en blanco y negro, y hay muchos quienes sienten que
 	la censura es una cosa buena en algunas circunstancias. Por ejemplo, en algunos 
-	países Europeos difundir informacion juzgada como racista es ilegal
+	países Europeos difundir información juzgada como racista es ilegal
 	Los gobernantes buscan prevenir a la gente de sostener ideas que
 	son consideradas dañinas para la sociedad. Hay dos respuestas a esto, sin embargo.
 	La primera es que no puedes permitir a aquellos en el poder imponer "buena"
 	censura, sin habilitarlos también a imponer "mala" censura. Para
 	imponer cualquier forma de censura un gobierno debe tener la capacidad de
 	monitorear y luego restringir la comunicación. Ya hay críticas de que 
-	la censura anti-rcista en varios países Europeos está obstaculizando
-	el legítimo análisis histórico de evntos tales como la segunda
+	la censura anti-racista en varios países Europeos está obstaculizando
+	el legítimo análisis histórico de eventos tales como la segunda
 	guerra mundial. 
       </p>
 
@@ -128,7 +128,7 @@
 	El segundo argumento es que la "buena" censura es
 	contra-producente aún cuando no caiga en otras áreas. Por
 	ejemplo, es generalmente más efectiva cuando trata de persuadir a alguien
-	de algo presentandolo con argumentos en contra, y luego
+	de algo presentándolo con argumentos en contra, y luego
 	responder a esos argumentos. Desafortunadamente, advertir a la gente de 
 	ser conciente de estos a menudo sofisticados argumentos usados por los racistas, los hace
 	vulnerables a esos argumentos cuando eventualmente
@@ -137,7 +137,7 @@
 
       <p> 
 	Por supuesto el primer argumento es el más sólido, y debería 
-	mantener su validez  aún si no aceptas el segundo Basicamente, o bien
+	mantener su validez  aún si no aceptas el segundo Básicamente, o bien
 	estás censurado, o no lo estás. No hay intermedios.
       </p>
 
@@ -146,7 +146,7 @@
       <p>
 	No puedes tener libertad de expresión sin la opción de mantenerte
 	anónimo. La mayoría de la censura es retrospectiva, es generalmente más 
-	fácil acortar el discurso libre castigando a a quellos que lo ejercen
+	fácil acortar el discurso libre castigando a aquellos que lo ejercen
 	a posteriori, antes que advertirlos de hacerlo en primer lugar.
 	La única forma de prevenir esto es mantenerse anónimo. Es un 
 	error de concepto común que no puedes confiar en la información anónima. Esto
@@ -170,7 +170,7 @@
       </p>
       <p>
 	Es por esta razón que Freenet, un sistema diseñado para
-	proteger la Libertad de Expresión, debe prevenir la aplicacioón del
+	proteger la Libertad de Expresión, debe prevenir la aplicación del
 	copyright.
       </p>
 
@@ -198,7 +198,7 @@
       <p>
 	Hay muchas vías alternativas para
 	recompensar a los artistas. La más simple es el pago voluntario. Esto es una extensión
-	del sistema de patrocinio el cual fué frecuentemente usado para recompensar artistas
+	del sistema de patrocinio el cual fue frecuentemente usado para recompensar artistas
 	previo al copyright, dónde una persona rica podía financiar a un artista para
 	permitirle crear full-time. Internet permite una interesante 
 	extensión de esta idea, donde preferible que tener sólo un patrón
