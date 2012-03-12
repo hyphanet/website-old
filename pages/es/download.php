@@ -1,7 +1,7 @@
       <h1>Descargar Freenet</h1>
       <h3>Nota importante para usuarios por primera vez.</h3>
       <p>
-    Para una mejor performance, Freenet debería ejecutarse sin interrupción. No debería
+    Para un mejor desempeño, Freenet debería ejecutarse sin interrupción. No debería
     interferir con el normal uso de tu ordenador, ya que requiere alrededor de 
     200MB de RAM y 10% de un núcleo CPU, más algunos accesos a disco.  
     Recomendamos que detengas Freenet mientras corres juegos en el  
@@ -10,12 +10,12 @@
       </p>
       <p>
     Normalmente Freenet conectará automáticamente y "simplemente funcionará",
-    conectando automáticamente con otros Nodos (Extraños). Sin embargo,
+    conectando automáticamente con otros Nodos (Desconocidos). Sin embargo,
     si conoces algunas personas que ya estén usando Freenet, puedes
     habilitar el modo alta_seguridad y 
     <a href="http://127.0.0.1:8888/addfriend/">agregarlos como Amigos</a>, 
 	entonces Freenet solamente conectará con ellos, haciendo tu uso de Freenet 
-	practicamente indetectable, y aún serás capaz de acceder al resto de lss
+	prácticamente indetectable, y aún serás capaz de acceder al resto de las
 	redes mediante amigos de amigos etc. Esto será lento a menos 
 	que agregues 10+ amigos que estén en línea mientras tú lo estas..
       </p>
@@ -82,7 +82,7 @@
 	<p>
 	  Necesitas Java versión 1.6. Deberías mantenerla actualizada para
 	  evitar problemas y mejor desempeño. Además, necesitas
-	  wget para que los comandos siguients funcionen (en Ubuntu, haz
+	  wget para que los comandos siguientes funcionen (en Ubuntu, haz
 	  "apt-get install wget" en una consola).
 	</p>
 
@@ -106,12 +106,12 @@
 	  líneas de comando más arriba.
 	</p>
 	
-	<p><b>Servidores sin monitor:</b> El instalador estandar requiere GUI (ej. Gnome, KDE, X windows etc). Nosotros recomendamos que uses el instalador estandar. 
-	En un servidor con sólo consola (por ejemplo un servidor virtual linux), deberás instalar las librerías del cliente X y usar ssh -X para ejecutar el instalador GUI remotamente. 
-	Tambien es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
+	<p><b>Servidores sin monitor:</b> El instalador estándar requiere GUI (ej. Gnome, KDE, X windows etc). Nosotros recomendamos que uses el instalador estándar. 
+	En un servidor con sólo consola (por ejemplo un servidor virtual GNU/Linux), deberás instalar las librerías del cliente X y usar ssh -X para ejecutar el instalador GUI remotamente. 
+	También es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
 	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
 	<a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
-	Luego abrir <a href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aqui</a> 
+	Luego abrir <a href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
 	cómo abrir tu nodo a otras computadores en tu misma red.</p>
 
 	<div id="mirrored">
@@ -120,7 +120,7 @@
 	  
 	  <p>
 	    Si tienes un directorio de instalación de Freenet funcionando que hayas duplicado 
-	    de una máquina Unix a otra (ej. via rsync o
+	    de una máquina Unix a otra (ej. vía rsync o
 	    unison), habilitar la instalación duplicada no es
 	    difícil.  Nada en una instalación Freenet tiene cuidado de
 	    la dirección IP de su host; no puede, o Freenet fallaría
@@ -132,7 +132,7 @@
 	    duplicado que debe iniciar el demonio proxy de Freenet
 	    cuando arranque.  Haz <tt>crontab -l</tt> en la
 	    máquina de origen, encuentra la línea etiquetada "FREENET
-	    AUTOSTART" y agregala al crontab en la máquina
+	    AUTOSTART" y agrégala al crontab en la máquina
 	    duplicada.
 	  </p>
 	  
@@ -190,7 +190,7 @@
       <h3>Está funcionando, qué hago?</h3>
       
       <p>
-	Cuando se cierra el instalador, deberia abrirse una ventana de navegador apuntando al
+	Cuando se cierra el instalador, debería abrirse una ventana de navegador apuntando al
 	asistente de primera vez. Allí puedes configurar cosas básicas, y luego
 	comenzar a usar Freenet. Puedes acceder a Freenet más tarde via la bandeja de sistema
 	(abajo a la derecha en la pantalla), o usar el atajo Abrir Freenet en el escritorio 
@@ -200,7 +200,7 @@
       <p>
 	Para más seguridad deberías usar un navegador aparte para Freenet, 
 	preferiblemente en modo privacidad. En Windows, la bandeja de sistema tratará
-	de usar Chrome en modo incognito si es posible. Internet Explorer no
+	de usar Chrome en modo incógnito si es posible. Internet Explorer no
 	funciona bien con Freenet, Firefox y Opera son ampliamente usados.
       </p>
       
@@ -213,7 +213,7 @@
 	de la página.Cuando ambos estén agregados, el nodo de tu amigo debería mostrarse en la página 
 	Amigos, probablemente como "CONECTADO" u "OCUPADO". Puedes proporcionar un nombre a tu nodo
 	en la página de configuración para hacer más fácil ver de quien es. Sólo agrega nodos de gente
-	<b>que actualmente conozcas</b>, estén online u offline, porque agregar puros extraños
+	<b>que actualmente conozcas</b>, estén online u offline, porque agregar puros desconocidos
 	altera el desempeño y no mejora la seguridad  (ellos podrían ser los malos!).
       </p>
       

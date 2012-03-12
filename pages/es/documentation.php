@@ -18,7 +18,7 @@
 	que es un proyecto en desarrollo. Sin embargo, aquí bajo  
 	el menú Documentación, encontrarás documentos útiles sobre
 	como configurar Freenet y como usar las herramientas Freenet más 
-	populares como tambien la Wiki de los usuarios y una sección de
+	populares como también la Wiki de los usuarios y una sección de
 	Preguntas de Uso Frecuente extensa.
       </p>
       
@@ -47,7 +47,7 @@
 
 	<li>
 	  <a href="freemail.html"><strong>Freemail</strong></a><br/>
-	  Cómo configurar tu propio servicio anonimo de email Freenet.
+	  Cómo configurar tu propio servicio anónimo de email Freenet.
 	</li>
 
 	<li>
@@ -65,13 +65,13 @@
 
 	<li>
 	  <a href="thaw.html"><strong>Thaw</strong></a><br/>
-	  Thaw es una utilidad de intercambio de archivos y un manager de subidas y descargas. 
+	  Thaw es una utilidad de intercambio de archivos y un administrador de subidas y descargas. 
 	  Es usado como interfaz gráfica para compartir archivos en Freenet.
 	</li>
 
 	<li>
 	  <a href="http://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
-	  La Freenet Wiki es un espacio dedicadio a los usuarios donde se describen
+	  La Freenet Wiki es un espacio dedicado a los usuarios donde se describen
 	  nuevas características antes de encontrarlas en el sitio web.
 	  Es una buena fuente de información sobre toda clase de
 	  asuntos relacionados con Freenet.

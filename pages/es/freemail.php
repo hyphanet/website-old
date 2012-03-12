@@ -18,25 +18,25 @@
       <p>
 	Freemail es un sistema de email para Freenet. Te permite enviar
 	emails anónimos a otros usuarios de Freenet mediante tu cliente de email
-	estandar. Comunmente no viene junto con el instalador de Freenet, y tiene
+	estándar. Comúnmente no viene junto con el instalador de Freenet, y tiene
 	que descargarse por separado. También puedes probar el complemento de  Freemail 
-	seleccionandolo de la lista en la página de los complementos en tu nodo 
+	seleccionándolo de la lista en la página de los complementos en tu nodo 
 	Freenet. Aunque cuidado, el complemento todavía está en una fase temprana de
 	desarrollo, y los usuarios deberán ser proactivos mirando archivos de logs
-	y reportando problamas si los encontraran.
+	y reportando problemas si los encontraran.
       </p>
 
       <p>
 	Puedes descargar la última versión pre-compilada
 	de <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/plugins/Freemail/">https://downloads.freenetproject.org/alpha/plugins/Freemail/</a>
-      </p>
+      </p>complemento
       
       <h3>Configuración de la cuenta sencilla</h3>
       
       <p>
-	La forma fácil de configurar una cuenta Freemail es visitar el plugin 
+	La forma fácil de configurar una cuenta Freemail es visitar el complemento 
 	Freemail, luego de haberlo descargado, mediante la página de <b>Complementos</b>.
-	La interface web te preguntará por un nombre IMAP, una clave IMAP,
+	La interfaz web te preguntará por un nombre IMAP, una clave IMAP,
 	y un dirección breve Freemail para asociarlo con la cuenta.
 	Cuando la cuenta esté creada, te enviará por email el nombre seguro que ha 
 	generado para ti.
@@ -52,7 +52,7 @@
       </ul>
       
       <p>
-	El &lt;un-nombre&gt; antes de la @ será ignorado.  Está ahi
+	El &lt;un-nombre&gt; antes de la @ será ignorado.  Está ahí
 	solamente porque los usuarios de email  y los agentes de transporte quieren ver una @ en
 	la dirección. Si, nosotros <em>sabemos</em> que es un truco horrible.
       </p>
@@ -64,8 +64,8 @@
       </p>
 
       <p>
-	Si por alguna razón no puedes hacer funcionar la interfece web, hemos
-	incluído instrucciones para configuración manual mas abajo en esta página.
+	Si por alguna razón no puedes hacer funcionar la interfaz web, hemos
+	incluido instrucciones para configuración manual mas abajo en esta página.
       </p>
 
       <h3>Configuración del cliente de email</h3>
@@ -83,16 +83,16 @@
       </ul>
       
       <p>
-	Tu complemento Freemail plugin debe estar ejecutandose mientras lees y
-	envias freemails. Deja tu nodo corriendo, con el plugin Freemail 
-	habilitado, asi te aseguras de ello. Para propósitos de depuración, es posible
+	Tu complemento Freemail debe estar ejecutándose mientras lees y
+	envías freemails. Deja tu nodo corriendo, con el complemento Freemail 
+	habilitado, así te aseguras de ello. Para propósitos de depuración, es posible
 	enviar y recibir Freemail con solamente el jar Freenet corriendo.
       </p>
       
       <h3>Recuperando emails de Freemail con fetchmail</h3>
       
       <p>
-	Puedes hacer facilmente que  <a href="http://fetchmail.berlios.de/">fetchmail</a> recupere tus email
+	Puedes hacer fácilmente que  <a href="http://fetchmail.berlios.de/">fetchmail</a> recupere tus email
 	de  freenet con una entrada como ésta:
       </p>
 
@@ -102,9 +102,9 @@
 
       <p>
 	Esto hará que los emails de Freemail sean capturados automáticamente y combinados con
-	con tu casilla de email normal, entonces cualquiera de tus clientes de email los podra ver.
+	con tu casilla de email normal, entonces cualquiera de tus clientes de email los podrá ver.
 	Por supuesto, Necesitas cambiar IMAPNAME y PASSWORD para que coincidan 
-	con el par de autenticacion proporcionado cuando creaste la cuenta Freemail, y LOCALNAME
+	con el par de autenticación proporcionado cuando creaste la cuenta Freemail, y LOCALNAME
 	al login local donde quieres recibir los emails.
       </p>
       
@@ -119,14 +119,14 @@
       <p>Si usas Thunderbird como cliente de email:</p>
 
       <ol>
-	<li> En el menu Herramientas, selecciona Configuración de las cuentas.</li>
+	<li> En el menú Herramientas, selecciona Configuración de las cuentas.</li>
 	<li> Click en el botón Agregar nueva cuenta.</li>
 	<li>Selecciona Cuenta de Email y click Siguiente.</li>
 	<li>
-	  Escribe el nombre y la direccion larga Freemail address 
+	  Escribe el nombre y la direccion larga Freemail  
 	  proporcionada, o la dirección corta, si has creado una. Verifica
 	  esto cuidadosamente ya que una dirección incorrecta significa que no solamente
-	  la gente no será capaz de responderte sino que tus mensages
+	  la gente no será capaz de responderte sino que tus mensajes
 	  aparecerán como 'Spoofed'. Una vez concluído, click Siguiente.
 	</li>
 	<li>
@@ -142,7 +142,7 @@
 	<li>
 	Ahora debemos cambiar el número de puerto IMAP por defecto:
 	  En el panel de la izquierda click en Configuración del Servidor de la
-	  nueva cuenta. Cambia el puerto generico 143 a 3143. 
+	  nueva cuenta. Cambia el puerto genérico 143 a 3143. 
 	</li>
       </ol>
       
@@ -154,7 +154,7 @@
 	</li>
 	<li>
 	  En el panel de la izquierda, desliza hacia abajo y haz click en la
-	opcion Servidor de salida (SMTP).
+	opción Servidor de salida (SMTP).
 	</li>
 	
 	<li>
@@ -168,7 +168,7 @@
 	a 3025. Asegúrate que 'Usar nombre y clave' esta marcado y pon
 	tu nombre de cuenta original como Nombre de Usuario ('john' en nuestro
 	ejemplo). Usar conexión segura' debería configurarse en No (no te
-	preocupes, es sólo la conexión local la que no está encriptada). 
+	preocupes, es sólo la conexión local la que no está cifrada). 
 	Click OK.
 	</li>
 	<li>
@@ -178,7 +178,7 @@
 	de email entrante que acabas de agregar. En nuestro ejemplo debería ser algo
 	como me@jsmith.freemail. Debería haber un selector combo
 	llamado Servidor Saliente (SMTP). Ajusta esto a la nueva configuración que
-	agregamos: algop como Freemail - localhost. Luego click OK.
+	agregamos: algo como Freemail - localhost. Luego click OK.
 	</li>
       </ol>
 
@@ -217,7 +217,7 @@
       <h3>Configuración de la cuenta</h3>
       
       <p>
-	Cambia al directorio dónd ese encuentra el archivo Freemail.jar. En la
+	Cambia al directorio donde se encuentra el archivo Freemail.jar. En la
 	línea de comandos, escribe:
       </p>
 
@@ -287,7 +287,7 @@
       <pre>
 	java -jar Freemail.jar</pre>
 
-      <p>y el software te preguntará si quieres crear una direccion Freemail corta:</p>
+      <p>y el software te preguntará si quieres crear una dirección Freemail corta:</p>
       
       <pre>
 	Secure Freemail address: anything@DS3FG3R...SF6FHJ8YUK.freemail
