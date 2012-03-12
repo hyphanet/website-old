@@ -110,7 +110,7 @@
 	wish to share information, to do so.
       </p>
 
-      <a name="is_censorship_necessary"<h3> 6. Isn't censorship sometimes necessary? </h3></a>
+      <a name="is_censorship_necessary"><h3> 6. Isn't censorship sometimes necessary? </h3></a>
       <p>
 	Of course no issue is black and white, and there are many who feel that
 	censorship is a good thing in some circumstances. For example, in some
