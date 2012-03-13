@@ -1,23 +1,23 @@
 <!--
   jQuery library
 -->
-<script type="text/javascript" src="/js/jquery-1.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.3.min.js"></script>
 
 <!--
   jCarousel library
 -->
-<script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
 <!--
   jCarousel core stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="/js/jcarousel/lib/jquery.jcarousel.css" />
+<link rel="stylesheet" type="text/css" href="js/jcarousel/lib/jquery.jcarousel.css" />
 <!--
   jCarousel skin stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="/js/jcarousel/skins/tango/skin.css" />
+<link rel="stylesheet" type="text/css" href="js/jcarousel/skins/tango/skin.css" />
 
-<script type="text/javascript" src="/js/jcarousel/lib/thickbox/thickbox.js"></script>
-<link rel="stylesheet" href="/js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jcarousel/lib/thickbox/thickbox.js"></script>
+<link rel="stylesheet" href="js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
 
 <script type="text/javascript">
 <!--
@@ -34,11 +34,11 @@ $(document).ready(function() {
 <!-- Contents -->
 
       <div id="whatistitle" style="margin-bottom: 10px";>
-	<h1>Compartir, Convesar, Navegar. Anonimamente. En la Red&nbsp;Libre.</h1>
+	<h1>Compartir, Conversar, Navegar. Anónimamente. En la Red&nbsp;Libre.</h1>
       </div>
       <div class="whatis">
 	<p>
-	  ¡Comparte archivos, conversa en foros, navega y publica, anonomamente y sin temor de bloqueo o censura! ¡Luego conecta a tus amigos para mejorar la seguridad!
+	  ¡Comparte archivos, conversa en foros, navega y publica, anónimamente y sin temor de bloqueo o censura! ¡Luego conecta a tus amigos para mejorar la seguridad!
 	  <br/>
 	  <a href="whatis.html">¡Aprender más!</a>
 	</p>
@@ -46,17 +46,17 @@ $(document).ready(function() {
 
       <div id="screenshots_container">
 	<div id="screenshot_nojs">
-	     <a href="/image/fN_screenshot.png"><img src="/image/fN_screenshot_small.png"
+	     <a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
 	     alt="freenet screenshot" width="383" height="309" /></a>
 	     <p style="text-align: center;"><a href="screenshots.html">Más capturas de Freenet</a></p>
 	</div>
 	<div id="screenshot_js" style="display: none;">
            <ul id="mycarousel" class="jcarousel-skin-tango">
-             <li><a href="/image/fN_screenshot.png" class="thickbox"><img src="/image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
-             <li><a href="/image/fN_screenshot_minimalist.png" class="thickbox"><img src="/image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
-             <li><a href="/image/fN_screenshot_downloads.png" class="thickbox"><img src="/image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
-             <li><a href="/image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="/image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
-             <li><a href="/image/fN_screenshot_searched.png" class="thickbox"><img src="/image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
+             <li><a href="image/fN_screenshot.png" class="thickbox"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
+             <li><a href="image/fN_screenshot_minimalist.png" class="thickbox"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
+             <li><a href="image/fN_screenshot_downloads.png" class="thickbox"><img src="image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
+             <li><a href="image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
+             <li><a href="image/fN_screenshot_searched.png" class="thickbox"><img src="image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
            </ul>
 	</div>
       </div>

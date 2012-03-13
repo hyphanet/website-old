@@ -3,7 +3,7 @@
 <p>
 	<center>
 		<iframe src="http://player.vimeo.com/video/22488244?title=0&amp;byline=0&amp;portrait=0" width="400" height="300" frameborder="0"></iframe>
-		<p><a href="http://vimeo.com/22488244">ruteando en la oscuridad: El nuevo diseño de Freenet</a> por <a href="http://vimeo.com/user5754494">Ian Clarke</a> 
+		<p><a href="http://vimeo.com/22488244">Encaminando en la oscuridad: El nuevo diseño de Freenet</a> por <a href="http://vimeo.com/user5754494">Ian Clarke</a> 
 		en <a href="http://vimeo.com">Vimeo</a>.</p>
 	</center>
 </p>
