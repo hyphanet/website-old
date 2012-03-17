@@ -1,8 +1,5 @@
 #!/bin/bash
-echo "running sanity checks..."
-rgrep -E '="(js|image|papers|ss)\/' pages/
-if [ $? -ne 1 ]; then echo "All the links above should be relative to / (otherwise there will be problems with l10n"; fi
-
+set -o errexit
 echo -e "\ngenerating the website..."
 rm -Rf output
 mkdir output
