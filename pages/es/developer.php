@@ -7,7 +7,7 @@
 	nuestro sistema administrador de código fuente, ubicado 
 	en <a href="http://www.github.com/">github</a>. Tenemos varios
 	repositorios git diferentes para el sitio, freenet en si misma (fred),
-	plugins officiales , los dos instaladores, librerias y asi siguiendo; 
+	complementos oficiales , los dos instaladores, librerías y así siguiendo; 
 	puedes ver la lista en  <a href="http://github.com/freenet/">nuestra página en github</a>.
 	
       </p>
@@ -15,14 +15,14 @@
       <p>
 	Recomendamos muy especialmente que uses el cliente de linea de comandos git oficial,
 	o el port para Windows. Si quieres usar la integración git con Eclipse git puedes ver 
-	el tutorial <a href="http://github.com/guides/using-the-egit-eclipse-plugin-with-github">aqui</a>.
+	el tutorial <a href="http://github.com/guides/using-the-egit-eclipse-plugin-with-github">aquí</a>.
       </p>
       
       <p>Puedes obtener el último código fuente de git usando la siguiente línea de comandos:</p>
       <pre>
 	git clone git://github.com/freenet/fred-staging.git</pre>
 
-      <p>Una vez que hayas clonado el repositorio, para recuperar los ultimos cambios:</p>
+      <p>Una vez que hayas clonado el repositorio, para recuperar los últimos cambios:</p>
       <pre>
 	git pull origin</pre>
 
@@ -44,14 +44,14 @@
       </ul>
       
     <p>Inicialmente usamos git de manera similar a SVN: Cada desarrollador tiene permisos
-    de publicar en el repositorio, y nosotros otorgabamos permisos de escritura bastante liberalmente. Sin embargo,
+    de publicar en el repositorio, y nosotros otorgábamos permisos de escritura bastante liberalmente. Sin embargo,
     probablemente este no es el mejor modelo: Muchos otros proyectos que usan Git emplean un
     modelo mas (o menos, dependiendo de como lo veas) centralizado donde tu 
     divides el repositorio (esto es realmente fácil en github), haces tus cambios, los escribes
     en tu repositorio, y luego nos preguntas para validarlos; luego un desarrollador central revisa los
     cambios y o bien los escribe en el repositorio central o solicita algunos cambios.
     La ventaja es que hay menos revisiones en el historial, mejor código en general, las cosas
-    pueden retirarse mas facilmente  cuando tratamos de liberar un lanzamiento, y el modelo de
+    pueden retirarse mas fácilmente  cuando tratamos de liberar un lanzamiento, y el modelo de
     seguridad es más simple. Tratamos de moderar este modelo actualmente. Encontrarás
     que es más fácil de dividir [Fork] -staging y luego solicitar una validación [Pull Request] (github hace ambas cosas 
     muy fácil), antes que solicitar permisos de escritura en -staging.</p>
@@ -62,15 +62,15 @@
     y solamente desarrolladores centrales pueden publicar en el - ellos deben revisar el código que están publicando antes 
     de validar, y usualmente firmaran un tag para el  build o pre-build luego de ello. El repositorio 
     -staging casi cualquiera puede escribirlo. Nuevos desarrolladores deberán dividir [Fork] en github
-    y luego solicitar validacion [Pull Request].</p>
+    y luego solicitar validación [Pull Request].</p>
       
       <p>
     De cualquier forma, por favor mantennos informados de los que estas haciendo con Freenet! Crea una 
-    cuenta github, y luego contactanos mediante
+    cuenta github, y luego contáctanos mediante
 	la <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">lista de 
 	desarrolladores</a> o en <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	en el canal <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
-	en irc.freenode.net. Nota que deberias usar una direccion 
+	en irc.freenode.net. Observa que deberías usar una direccion 
 	(funcionando) real de email cuando valides; proveeremos
 	colaboradores con redirect @freenetproject.org si es necesario.**
       </p>
@@ -85,12 +85,12 @@
 	Compilar Fred (el demonio de referencia Freenet) con ant requerirá en 
 	freenet-ext.jar dependencias de terceras partes del website. Para compilar
 	freenet-ext.jar por ti mismo necesitas obtener el módulo contribuciones, compilarlo, y ponerlo en
-	lib/freenet-ext.jar antes de compilar el proyecto principal. Nota también que el 
-	módulo contribuciones contiene un número de librerías nativas usadas para mejorar la  
-	performance; quizás quieras tambien recompilar estas.
+	lib/freenet-ext.jar antes de compilar el proyecto principal. Observa también que el 
+	módulo contribuciones contiene un número de librerías nativas usadas para mejorar el  
+	desempeño; quizás quieras también recompilar estas.
       </p>
       <p>
-	Plugins, instaladores etc generalmente pueden compilarse con ant, pero algunas 
+	Complementos, instaladores, etc generalmente pueden compilarse con ant, pero algunas 
 	librerías podrían estar escritas en otros lenguajes y tener sus propios procedimientos 
 	de compilación.
       </p>
@@ -120,7 +120,7 @@
       <p>O Combina los cambios remotos en tu repositorio local:</p>
       <pre>
 	git merge origin/master</pre>
-      <p>Esto último tendrá como resultado una historia no-lineal, asi que deberías usar rebase
+      <p>Esto último tendrá como resultado una historia no-lineal, así que deberías usar rebase
 	a menos que tus cambios locales sean muy grandes.</p>
       <p>Para validar tus cambios locales en tu repositorio local:</p>
 
@@ -129,7 +129,7 @@
       <p>O:</p>
       <pre>
 	git commit [ nombres-de-archivos que deseas validar ]</pre>
-      <p>Para publicar tus cambios (asumiendo que has clonado el arbol -staging ):</p>
+      <p>Para publicar tus cambios (asumiendo que has clonado el árbol -staging ):</p>
       <pre>
 	git push origin</pre>
       <p>Para ver cambios recientes:</p>
@@ -151,12 +151,12 @@
       </p>
       <p>
 	Si no te gusta una validación, o piensas que podría mejorarse, generalmente deberás escribir a  
-	<a href="lists.html">la lista de correo</a> de desarrolladores. Debrías copiar al autor de 
+	<a href="lists.html">la lista de correo</a> de desarrolladores. Deberías copiar al autor de 
 	la validación, pero a menos que sea un tema trivial deberías escribir a devl
 	siempre.
       </p>
     <p>Por favor evita validaciones gigantescas. Todas las validaciones son revisadas manualmente
-    para verificar la seguridad y evitar bugs, y es mucho más fácil si
+    para verificar la seguridad y evitar errores, y es mucho más fácil si
     sigues algunas reglas básicas:</p>
     <ul>
     <li>Mantén los cambios cosméticos separados de los cambios funcionales. En 
@@ -178,7 +178,7 @@
     <p>Para editar el sitio web, verifica el repositorio website-staging, edita los archivos (en pages/en/),
     valida y publica como arriba. Luego recuerdale a Toad publicarlo si no lo ha hecho en un tiempo razonable.
     Alternativamente, divide [fork] el módulo website en github, y luego solicita una publicacion [pull request]. Esto en realidad
-    da resultado mas rapidamente!</p>
+    da resultado mas rápidamente!</p>
     <p>El sitio web está basado en php pero es compilado y desarrollado en HTML estático. Puedes simular esto
     para ver exactamente como se verán tus cambios ejecutando el script make-pages.sh (necesitarás 
     php5-cgi). Esto genera los HTML estáticos en output/.</p>

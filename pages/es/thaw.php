@@ -33,7 +33,7 @@
 	Una barra de progreso debería oscilar y luego de un breve
 	arranque, la ventana principal debería aparecer
       </p>
-      <img src="/image/thaw/main-window.png" />
+      <img src="image/thaw/main-window.png" />
 
       <h3>Descargar archivos</h3>
 
@@ -42,11 +42,11 @@
 	<span style="font-weight: bold;">Descargas</span>
 	en el centro. Luego deberá aparecer una ventana como esta:
       </p>
-      <img src="/image/thaw/download-keys.png" />
+      <img src="image/thaw/download-keys.png" />
       <p>
 	Luego debes pegar claves Freenet como la de mas arriba,
 	en el panel principal de la ventana. También es necesario
-	eloegir un directorio de destino en donde guardar los archivos.
+	elegir un directorio de destino en donde guardar los archivos.
       </p>
       <p>Luego de esto, presiona el botón <span style="font-weight: bold;">
 	  Fetch</span> y aguarda que se deswcarguen los archivos.

@@ -19,7 +19,7 @@
       <h3>Desuscribir</h3>
 
       <p>
-	Para desuscribir a una de las listas a las que estás suscripto, haz click en el nombre de la lista
+	Para desuscribir a una de las listas a las que estás suscrito, haz click en el nombre de la lista
 	y escribe tu dirección de correo bajo el título <span style="font-weight: bold;">
 	  &lt;lista-de-email&gt; Suscriptores</span> y presiona el botón <span style="font-weight: bold;">
 	  Desuscribir o editar opciones</span>.
@@ -66,7 +66,7 @@
 	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Desarrollo</a> 
 	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/devl/">archivo</a>, 
 	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/devl/">mensajes antiguos</a>)<br/>
-	  Esta lista es de desarrolladores activos para discutir fallas, y la implementacion 
+	  Esta lista es de desarrolladores activos para discutir fallas, y la implementación 
 	  de nuevas características a corto plazo.  Por favor escribe a esta lista solamente si sabes de lo 
 	  que estás hablando, de otro modo usa la lista Técnica (ver arriba).
 	</li>
@@ -85,11 +85,11 @@
 	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> 
 	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/chat/">archivo</a>, 
 	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/chat/">mensajes antiguos</a>)<br/>
-	  Es una lista para discusiones generalesw de Freenet, temas que no son ubicables 
+	  Es una lista para discusiones generales de Freenet, temas que no son ubicables 
 	  en otras listas. Discusiones de políticas, legales, filosofía, juicios, 
-	  lenguajes de programación, tecnología relacionada que no deberia ser parte de 
+	  lenguajes de programación, tecnología relacionada que no debería ser parte de 
 	  Freenet, y cualquier hilo que los desarrolladores y usuarios no juzguen apropiado 
-	  para las listas principales deberan discutirse aquí. Preguntas tales como "Cómo puedo prevenir  
+	  para las listas principales deberán discutirse aquí. Preguntas tales como "Cómo puedo prevenir  
 	  mi nodo de ser usado por terroristas?", o "Por que no reescriben Freenet en C++?"
 	  deberían dirigirse a esta lista.
 	</li>

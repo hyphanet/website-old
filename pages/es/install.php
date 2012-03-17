@@ -15,7 +15,7 @@
 
       <h2>Instalar Freenet</h2> 
       <p>
-	Instalar Freenet no debería ser tan dificil como podrias haber
+	Instalar Freenet no debería ser tan difícil como podrías haber
 	escuchado. Hay dos formas de instalar Freenet:
       </p>
 
@@ -25,7 +25,7 @@
 	<li>Habilitar un duplicado de una instalación Freenet</li>
       </ul>
 
-      <p>Sii quieres instalar software Freenet en un ordenador
+      <p>Si quieres instalar software Freenet en un ordenador
       carente de una GUI, mira
       las instrucciones <a href="download.html#unix">Instalación sin monitor</a>.
       Si has duplicado una instalación Freenet funcionando
@@ -37,8 +37,8 @@
       <h4>Instalador gráfico</h4>
       
       <p><b>Lo siguiente está desactualizado para sistemas Windows</b>, para Windows deberías
-      usar <a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el instalador Windows</a> como se describe en <a href="/download.html">la página de descargas</a>.
-      Tambien puedes obtener el instalador Windows installer de <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/FreenetInstaller.exe">aquí</a> o 
+      usar <a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el instalador Windows</a> como se describe en <a href="download.html">la página de descargas</a>.
+      También puedes obtener el instalador Windows  de <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/FreenetInstaller.exe">aquí</a> o 
       <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/installer/FreenetInstaller-FREENETVERSION.exe">aquí</a>.</p>
       
       <p>Para la instalación gráfica deberás tener:</p>
@@ -46,20 +46,20 @@
 	<li>Una Java Runtime Environment funcionando</li>
 	<li>Una copia descargada del <a class="maybeSwitchProtocol" href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">new_installer_offline.jar</a>
 	(si no funciona prueba <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/new_installer_offline.jar">aquí</a>)</li>
-	<li>Una interfece gráfica de usuario funcionando (GUI)</li>
+	<li>Una interfaz gráfica de usuario funcionando (GUI)</li>
       </ul>
       
       <p>
 	Deberías guardar el archivo new_installer.jar en algun lugar donde
 	puedas hallarlo nuevamente. Tu directorio-home sería un
 	buen lugar. El próximo paso requiere que sepas dónde has almacenado el 
-	archivo (la ruta al mismo), asi que es importante que hagas 
+	archivo (la ruta al mismo), así que es importante que hagas 
 	este paso cuidadosamente.
       </p>
 
       <p>
 	Para iniciar la instalación, abre una ventana de línea de comandos/
-	interface/terminal/shell. Cambia
+	interfaz/terminal/shell. Cambia
 	la <span style="font-weight:bold;">/ruta/hacia</span> por la
 	ruta real (por ejemplo:
 	/home/username/download/new_installer.jar) al
@@ -75,7 +75,7 @@
 	instalación.
       </p>
 
-      <img src="/image/install/1-langselect.png"/>
+      <img src="image/install/1-langselect.png"/>
 
       <p>
 	Lo siguiente se muestra en una caja de diálogo, alguna información sobre la versión
@@ -83,7 +83,7 @@
 	haz click en <span style="font-weight:bold;"> Siguiente</span> para seguir.
       </p>
 
-      <img src="/image/install/2-about.png"/>
+      <img src="image/install/2-about.png"/>
       
       <p>
 	El paso siguiente es elegir el directorio en el cual instalar 
@@ -95,7 +95,7 @@
 	cuando termines.
       </p>
 
-      <img src="/image/install/4-Install_directory.png"/>
+      <img src="image/install/4-Install_directory.png"/>
 
       <p>
 	Selecciona los paquetes que quieres instalar con tu software 
@@ -104,7 +104,7 @@
 	presiones <span style="font-weight:bold;">Siguiente</span>.
       </p>
 
-      <img src="/image/install/5-select_packages.png"/>
+      <img src="image/install/5-select_packages.png"/>
 
       <p>
 	En la pantalla siguiente, los paquetes son instalados, y una barra de 
@@ -113,7 +113,7 @@
 	al próximo paso.
       </p>
 
-      <img src="/image/install/6-Install_packages.png"/>
+      <img src="image/install/6-Install_packages.png"/>
 
       <p>
 	Luego de esto, el software Freenet está instalado y/o
@@ -122,7 +122,7 @@
 	presiona <span style="font-weight:bold;">Siguiente</span> para avanzar.
       </p>
 
-      <img src="/image/install/7-install_progress.png"/>
+      <img src="image/install/7-install_progress.png"/>
 
       <p>
 	Para algunos entornos gráficos, se pueden crear atajos en el menú.
@@ -133,7 +133,7 @@
 	presiona <span style="font-weight:bold;">Siguiente</span> cuando termines.
       </p>
 
-      <img src="/image/install/8-create_shortcuts.png"/>
+      <img src="image/install/8-create_shortcuts.png"/>
 
       <p>
 	Luego de esto, la instalación está
@@ -141,7 +141,7 @@
 	la ventana.
       </p>
 
-      <img src="/image/install/9-Install_finished.png"/>
+      <img src="image/install/9-Install_finished.png"/>
 
       <p>
 	Si todo ha ido bien, una ventana de navegador debería haberse abierto en 
@@ -150,7 +150,7 @@
 	  </p>
 	
 	  <p>
-	Te preguntará por el nivel de seguridad de la red - "proteccion contra desconocidos atacándote
+	Te preguntará por el nivel de seguridad de la red - "protección contra desconocidos atacándote
 	por internet". Si eliges BAJO o NORMAL, Freenet debería "simplemente funcionar",
 	conectando en unos pocos minutos. Si eliges ALTO o MAXIMO, Freenet necesitará que
 	agregues Amigos antes que puedas usarla. Estas deben ser personas que conozcas personalmente.

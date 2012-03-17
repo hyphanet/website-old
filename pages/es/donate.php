@@ -24,7 +24,7 @@
 	  le da al 
 	  proyecto una entrada mas estable lo cual hace mas fácil
 	 las comisiones a largo plazo para potenciales desarrolladores - ahora mismo
-	  es a menudo dificil de decir si seremos capaces de pagar a un desarrollador
+	  es a menudo difícil de decir si seremos capaces de pagar a un desarrollador
 	  el mes siguiente aunque hasta el momento hemos sido afortunados.  Puedes
 	  convertirte en miembro haciendo click en este botón (necesitas una cuenta
 	  
@@ -126,7 +126,7 @@
 		      </select>
 		    </td>
 		    <td>
-		      <input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
+		      <input type="image" src="image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
@@ -145,7 +145,7 @@
 		      <input type="text" name="amount"/>
 		    </td>
 		    <td>
-		      <input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
+		      <input type="image" src="image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
@@ -154,7 +154,7 @@
 	    <p>
 	      <hr width="90%"/>
 	    </p>
-	    <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
+	    <li><img src="image/BC_nBG_48px.png" width="126" height="48">
 	    Ahora puedes donar al Proyecto Freenet mediante <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
 	    <div id="bitcoin-account">Envía tus donaciones a la cuenta: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 	    <div id="bitcoin-warning"><a href="https://freenetproject.org/donate.html">Cambia a SSL</a> para ver nuestra direccion en  bitcoin.</div></li>

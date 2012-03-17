@@ -56,7 +56,7 @@
 	  
 	  <li>
 	    <a href="http://www.google.com/">Google</a><br/>
-	    Google <a href="http://code.google.com/">open source</a> ha donado ters veces $18,000,
+	    Google <a href="http://code.google.com/">open source</a> ha donado tres veces $18,000,
 	    además ha becado estudiantes para trabajar con nosotros en el verano por cuatro años 
 	    mediante el programa  <a href="http://code.google.com/soc/">Summer of Code</a>.
 	  </li>
