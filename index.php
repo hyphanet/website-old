@@ -72,7 +72,7 @@ include 'includes/common.inc.php';
 		function switchLanguage(lang)
 		{
 			document.cookie="language="+lang+"; expires=Mon, 1 Jan 2099 00:00:00 UTC; path=/; secure";
-			window.location.href=window.location.href;
+			location.reload(true);
 		}
 	</script>
 	<script type="text/javascript" src="/PluginDetect.js"></script>
