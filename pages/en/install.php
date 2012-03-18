@@ -43,7 +43,7 @@
       <p>For a graphical installation you have to have:</p>
       <ul>
 	<li>A working Java Runtime Environment,</li>
-	<li>a downloaded copy of <a class="maybeSwitchProtocol" href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">new_installer_offline.jar</a>
+	<li>a downloaded copy of <a class="maybeSwitchProtocol" href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">new_installer_offline.jar</a>
 	(if this does not work try <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/new_installer_offline.jar">here</a>)</li>
 	<li>a working graphical user interface (GUI)</li>
       </ul>

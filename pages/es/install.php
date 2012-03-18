@@ -44,7 +44,7 @@
       <p>Para la instalación gráfica deberás tener:</p>
       <ul>
 	<li>Una Java Runtime Environment funcionando</li>
-	<li>Una copia descargada del <a class="maybeSwitchProtocol" href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">new_installer_offline.jar</a>
+	<li>Una copia descargada del <a class="maybeSwitchProtocol" href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">new_installer_offline.jar</a>
 	(si no funciona prueba <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/new_installer_offline.jar">aquí</a>)</li>
 	<li>Una interfaz gráfica de usuario funcionando (GUI)</li>
       </ul>

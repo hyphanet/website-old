@@ -124,14 +124,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativement,
-	  télécharger <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">le
+	  télécharger <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">le
 	    programme d'installation</a>
-	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">signature 
+	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">signature 
 	    gpg</a>) et cliquer ensuite sur le fichier peut fonctionner
 	    sur certains systèmes, mais s'il y a un quelconque problème,
 	    nous vous recommandons d'exécuter les lignes de commandes ci-dessus. 

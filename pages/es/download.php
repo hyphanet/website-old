@@ -94,14 +94,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativamente,
-	  descarga <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar">el 
+	  descarga <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">el 
 	    instalador</a>
-	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETJARVERSION.jar.sig">firma gpg
+	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">firma gpg
 	    </a>) y luego haciendo click en el archivo funcionará en la mayoría de los sistemas, pero si hay problemas recomendamos las
 	  líneas de comando más arriba.
 	</p>
