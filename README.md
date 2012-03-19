@@ -31,11 +31,11 @@ Then clone the `scripts` repo, which contains the `deploy-website` script.
 
 ## Deploying
 
-First push to the master branch of the website-official repository:
+From a machine other than Osprey push to the master branch of the website-official repository:
 
     git push git@github.com:freenet/website-official.git master
 
-Finally, to fetch and deploy the updated version of the website:
+On Osprey pull and deploy the updated version of the website:
 
     scripts/deploy-website -u
 
