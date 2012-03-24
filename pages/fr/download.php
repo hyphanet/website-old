@@ -304,8 +304,8 @@
 	(<a href="lists.html">inscription ici</a>), ou de nous joindre sur IRC sur les
 	canaux #freenet (anglophone) ou #freenet-fr (francophone) sur le serveur irc.freeode.net.
 	<br/>
-	(Essayez <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">ici</a> pour le canal anglophone,
-	<a href="http://webchat.freenode.net/?randomnick=1&channels=freenet-fr">là</a> pour le canal francophone).
+	(Essayez <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">ici</a> pour le canal anglophone,
+	<a href="https://webchat.freenode.net/?randomnick=1&channels=freenet-fr">là</a> pour le canal francophone).
       </p>
       
       <h3>Matériel requis</h3>

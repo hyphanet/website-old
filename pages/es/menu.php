@@ -33,7 +33,7 @@
 	    <ul>
 	      <li><a href="developer.html">Código fuente</a></li>
 	      <li><a href="http://new-wiki.freenetproject.org/Translation">Traducción</a></li>
-	      <li class="last"><a href="http://bugs.freenetproject.org/">Errores</a></li>
+	      <li class="last"><a href="https://bugs.freenetproject.org/">Errores</a></li>
 	    </ul>
 	  </li>
 	</ul>

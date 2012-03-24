@@ -124,7 +124,7 @@
 
       <p><b id="legal">Is Freenet legal?</b><br/>
 	We don't currently know of any prosecutions for using merely using Freenet.
-	Some people claim that the <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
+	Some people claim that the <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	makes Freenet illegal in France; others have told us about the German data retention
 	law which allegedly requires anonymity systems to retain enough data to trace web
 	requests, which may or may not apply to us. ACTA might have
@@ -248,7 +248,7 @@
 	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
 	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
 	and Opennet FNP ports. You may need to look up your router's documentation to figure
-	out how to do this. Freenet should have forwarded them itself through <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
+	out how to do this. Freenet should have forwarded them itself through <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
 	but this doesn't always work (and it never works if you don't have the UPnP plugin loaded, or have one router behind another).</p>
 
       <p>If you have a dyndns address or other domain name pointing to the computer you run 
@@ -372,7 +372,7 @@
       <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
     On every new build, a brief summary of all the main changes is posted to the support and devl lists 
     and the eng.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
-    for a much more detailed view, check out the <a href="http://github.com/freenet/">git repositories</a>.
+    for a much more detailed view, check out the <a href="https://github.com/freenet/">git repositories</a>.
     Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
     <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
     updated and frequently go off on rants on unrelated topics!</p>

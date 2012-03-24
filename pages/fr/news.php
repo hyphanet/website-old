@@ -177,7 +177,7 @@
 	If you have any difficulty getting Freenet to work, or any
 	questions not answered in the <a href="/faq.html">faq</a>, please
 	join us
-	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in the #freenet channel at irc.freenode.net, or email
 	the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to

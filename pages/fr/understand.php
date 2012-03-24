@@ -115,7 +115,7 @@
 	Each file that exists on Freenet has a key associated
 	with it. Freenet 0.7 has various types of keys. Keys 
 	are used for everything on freenet, and are a kind of 
-	<a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
+	<a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
 	(e.g. freenet:=KSK@sample.txt). 
       </p>
 

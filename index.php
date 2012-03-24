@@ -84,7 +84,7 @@ include 'includes/common.inc.php';
 	  <b>Contact</b> : Press enquiries should be directed
 	  to <a href="mailto:ian@freenetproject.org">Ian Clarke</a><br/>
 	  If you've found a problem with this site (broken link, wrong displaying, ...), please <a href="mailto:support@freenetproject.org">let us know</a><br/>
-	  This website is licensed under the <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
+	  This website is licensed under the <a href="https://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
 	</p>
       </div>
     </div>

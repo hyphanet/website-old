@@ -113,7 +113,7 @@
 	Cada archivo que existe en Freenet tiene una clave asociada
 	con él. Freenet 0.7 tiene varios tipos de claves. Las claves  
 	son usadas para todo en Freenet, y son una suerte de 
-	<a href="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
+	<a href="https://en.wikipedia.org/wiki/Uniform_Resource_Identifier">URI</a> 
 	(ej. freenet:=KSK@sample.txt). 
       </p>
 

@@ -5,17 +5,17 @@
       <p>
 	Estamos usando <a href="http://git-scm.com/">git</a> como 
 	nuestro sistema administrador de código fuente, ubicado 
-	en <a href="http://www.github.com/">github</a>. Tenemos varios
+	en <a href="https://github.com/">github</a>. Tenemos varios
 	repositorios git diferentes para el sitio, freenet en si misma (fred),
 	complementos oficiales , los dos instaladores, librerías y así siguiendo; 
-	puedes ver la lista en  <a href="http://github.com/freenet/">nuestra página en github</a>.
+	puedes ver la lista en  <a href="https://github.com/freenet/">nuestra página en github</a>.
 	
       </p>
 
       <p>
 	Recomendamos muy especialmente que uses el cliente de linea de comandos git oficial,
 	o el port para Windows. Si quieres usar la integración git con Eclipse git puedes ver 
-	el tutorial <a href="http://github.com/guides/using-the-egit-eclipse-plugin-with-github">aquí</a>.
+	el tutorial <a href="https://github.com/guides/using-the-egit-eclipse-plugin-with-github">aquí</a>.
       </p>
       
       <p>Puedes obtener el último código fuente de git usando la siguiente línea de comandos:</p>
@@ -68,7 +68,7 @@
     De cualquier forma, por favor mantennos informados de los que estas haciendo con Freenet! Crea una 
     cuenta github, y luego contáctanos mediante
 	la <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">lista de 
-	desarrolladores</a> o en <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	desarrolladores</a> o en <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	en el canal <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
 	en irc.freenode.net. Observa que deberías usar una direccion 
 	(funcionando) real de email cuando valides; proveeremos

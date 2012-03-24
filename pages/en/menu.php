@@ -33,7 +33,7 @@
 	    <ul>
 	      <li><a href="developer.html">Source code</a></li>
 	      <li><a href="http://new-wiki.freenetproject.org/Translation">Translation</a></li>
-	      <li class="last"><a href="http://bugs.freenetproject.org/">Bug tracker</a></li>
+	      <li class="last"><a href="https://bugs.freenetproject.org/">Bug tracker</a></li>
 	    </ul>
 	  </li>
 	</ul>

@@ -123,7 +123,7 @@
 
       <p><b id="legal">¿Es Freenet legal?</b><br/>
 	No sabemos actualmente de ninguna persecución simplemente por usar  Freenet.
-	Algunas personas claman que la <a href="http://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
+	Algunas personas claman que la <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	convierte a Freenet ilegal en Francia; otros nos han dicho sobre la ley de retención de datos
 	alemana la cual alegan requiere a los sistemas de anonimato retener suficientes datos para rastrear peticiones
 	web, lo cual podría o no podría ser aplicable a nosotros. ACTA puede tener
@@ -248,7 +248,7 @@
 	manualmente si puedes. Haz click en la página <a href="http://127.0.0.1:8888/friends/">Amigos</a> o <a href="http://127.0.0.1:8888/strangers/">Desconocidos</a>. Al pié verás
 	una lista de puertos usados por el nodo. Deberías redirigir (para UDP) los puertos Darknet FNP 
 	y Opennet FNP. Necesitarás buscar la documentación de tu  enrutador para averiguar
-	como hacer esto. Freenet debería haberlos redirigido por si misma mediante <a href="http://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
+	como hacer esto. Freenet debería haberlos redirigido por si misma mediante <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
 	pero esto no siempre funciona (y no funciona nunca si no tienes el complemento UPnP cargado, o tienes un enrutador detrás de otro).</p>
 
       <p>Si tienes una dirección dyndns u otro nombre de dominio apuntando al ordenador donde corres tu nodo 
@@ -371,7 +371,7 @@
       <p><b id="whatsnew">¿Que hay de nuevo? ¿Hay una registro de cambios?</b><br>
     En cada nueva versión, un breve resumen de todos los cambio principales es enviado a las listas support y devl  
     y la eng.freenet board en Freetalk. Esto usualmente es retransmitido a FMS y Frost también. Alternativamente,
-    para una visión mucho más detallada, verifica los <a href="http://github.com/freenet/"> repositorios git</a>.
+    para una visión mucho más detallada, verifica los <a href="https://github.com/freenet/"> repositorios git</a>.
     También, deberías verificar los bitácoras de desarrolladores (desde los marcadores por defecto, o en la web, ej. 
     <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), pero te aviso que a menudo no son  
     actualizados y frecuentemente desconecten  diatribas en asuntos sin relación!</p>

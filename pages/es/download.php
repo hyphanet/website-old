@@ -76,7 +76,7 @@
 	  Necesitas tener un <b>Java Runtime Environment</b>
 	  (JRE) actualizado. Hemos obtenido mejores resultados con el Java
 	  Runtime Environment de Sun el cual puedes obtener mediante 
-	  tu <a href="http://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
+	  tu <a href="https://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
 	  de <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
@@ -231,7 +231,7 @@
 	Si tienes problemas instalando o corriendo Freenet, por favor contacta con nosotros en
 	<a href="mailto:support@freenetproject.org">la lista de soporte</a> 
 	(<a href="lists.html">subscribe aquí</a>), o únete al IRC en el 
-	canal #freenet en irc.freenode.net (intenta <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">aquí</a>).
+	canal #freenet en irc.freenode.net (intenta <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">aquí</a>).
       </p>
       
       <h3>Requerimientos de Hardware</h3>

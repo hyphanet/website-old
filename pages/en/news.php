@@ -108,7 +108,7 @@
 	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
 	<p>We will help you to fill in technical details, understand exactly what we need. We also welcome
 	new ideas and approaches, please contact us, on our devl <a href="lists.html">mailing list</a>,
-	or <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
+	or <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
 	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
 	a source of project ideas. <a href="http://new-wiki.freenetproject.org/">The new wiki</a>, and 
@@ -126,7 +126,7 @@
 	
 	<p>PS we have taken uservoice offline due to not being able to efficiently deal with spam. We are still interested in
 	suggestions on how to improve Freenet, please post them on the <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> or the 
-	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
+	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
 	<a href="lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
 	if you know of any.</p>
 
@@ -370,7 +370,7 @@
 	If you have any difficulty getting Freenet to work, or any
 	questions not answered in the <a href="/faq.html">faq</a>, please
 	join us
-	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in the #freenet channel at irc.freenode.net, or email
 	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to

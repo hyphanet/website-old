@@ -112,7 +112,7 @@
 	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">aquí</a>. Inscríbete <a href="http://socghop.appspot.com/">aquí</a>.</p>
 	<p>Te ayudaremos a completar los detalles técnicos, comprende exactamente lo que precisamos. También le damos la bienvenida
 	a nuevas ideas y enfoques, por favor contáctanos, a nuestra lista de email de  <a href="lists.html">desarrolladores</a>,
-	o <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. Necesitarás  
+	o <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. Necesitarás  
 	demostrar habilidades básicas de programación reparando una falla pequeña o implementando alguna característica menor; debrías 
 	echar una mirada en <a href="https://bugs.freenetproject.org/">el rastreador de fallas</a>, el cual también podría ser
 	una fuente de ideas de proyecto. <a href="http://new-wiki.freenetproject.org/">La nueva wiki</a>, y 
@@ -130,7 +130,7 @@
 	
 	<p>PD hemos puesto uservoice fuera de línea debido a incapacidad de no manejar eficientemente el spam. Aún estamos interesados en 
 	sugerencias de como mejorar Freenet, por favor envíalas a la <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> o al 
-	<a href="https://bugs.freenetproject.org/">rastreador de errores</a>, o conversa con nosotros por <a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>  o las  
+	<a href="https://bugs.freenetproject.org/">rastreador de errores</a>, o conversa con nosotros por <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>  o las  
 	<a href="lists.html">listas de correo</a>. Estamos interesados en una alternativa a uservoice 
 	si sabes de alguna.</p>
 
@@ -415,7 +415,7 @@ tenga o cualquier comentario que haga sobre cómo podria ser mejor.</p>
 	Si tienes alguna dificultad poniendo a funcionar Freenet, o alguna
 	pregunta no está respondida en las  <a href="faq.html">PUF</a>, por favor
 	únete a nosotros
-	en <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	en <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	en el  #freenet channel en irc.freenode.net, o email
 	la <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">lista de correos
 	de soporte</a>. Si tienes alguna sugerencia de cómo mejorar

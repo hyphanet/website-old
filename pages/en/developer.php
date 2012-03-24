@@ -5,10 +5,10 @@
       <p>
 	We are using <a href="http://git-scm.com/">git</a> as our
 	source code management system, hosted
-	on <a href="http://www.github.com/">github</a>. We have many
+	on <a href="https://github.com/">github</a>. We have many
 	different git repositories for the website, freenet itself (fred),
 	official plugins, the two installers, libraries and so on; 
-	for the list, see <a href="http://github.com/freenet/">our page on github</a>.
+	for the list, see <a href="https://github.com/freenet/">our page on github</a>.
 	
       </p>
 
@@ -16,7 +16,7 @@
 	We strongly recommend that you use the official command-line git client,
 	or the Windows port. If you want to use the Eclipse git integration, see
 	the
-	tutorial <a href="http://github.com/guides/using-the-egit-eclipse-plugin-with-github">here</a>.
+	tutorial <a href="https://github.com/guides/using-the-egit-eclipse-plugin-with-github">here</a>.
       </p>
       
       <p>You can obtain the latest source code from git using the following command line:</p>
@@ -70,7 +70,7 @@
     account, and then contact us either through
 	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
 	mailing list</a> or
-	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
+	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in
 	the <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
 	channel at irc.freenode.net.Note that you must use a real
