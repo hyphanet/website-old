@@ -38,7 +38,7 @@
 	
 	<p>
 	  - Descargar y 
-	  ejecutar <big><a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el 
+	  ejecutar <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el 
 	      instalador</a> (8MB)</big><br/> 
 	  <br/>
 	  Instalará automáticamente Freenet y otros componentes
@@ -94,14 +94,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativamente,
-	  descarga <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">el 
+	  descarga <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">el 
 	    instalador</a>
-	  (<a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">firma gpg
+	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">firma gpg
 	    </a>) y luego haciendo click en el archivo funcionará en la mayoría de los sistemas, pero si hay problemas recomendamos las
 	  líneas de comando más arriba.
 	</p>
@@ -110,7 +110,7 @@
 	En un servidor con sólo consola (por ejemplo un servidor virtual GNU/Linux), deberás instalar las librerías del cliente X y usar ssh -X para ejecutar el instalador GUI remotamente. 
 	También es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
 	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
-	<a class='maybeSwitchProtocol' href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
+	<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
 	Luego abrir <a href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
 	cómo abrir tu nodo a otras computadores en tu misma red.</p>
 
@@ -280,7 +280,7 @@
 	  <b>Código fuente:</b>
 	  Visita <a href="developer.html">la página de desarrolladores</a> 
 	  para acceder a git o descargar la última versión estable
-	  <a class='maybeSwitchProtocol' href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">aquí</a> 
+	  <a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">aquí</a> 
 	  (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">firma</a>).
 	</small>
       </p>
