@@ -146,7 +146,7 @@
 </ul>
 <h2>EMU IS DEAD, LONG LIVE OSPREY</h2>
 <p>We have finally gotten rid of emu! Our faithful and powerful dedicated server supplied at a discount by Bytemark is no more. We now have a virtual machine called Osprey, which does most of the same job, for a much lower cost, and has a much simplified setup so should be easier to maintain. We have tried to outsource services, for example we use Google Code for our downloads, but some things will have to stay under our direct control for some time to come e.g. mailing lists and the bug tracker.</p>
-<p>You may have some difficulty with the update scripts, if you use update.sh / update.cmd. If it doesn't work, try updating the script manually from <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/update.cmd">https://checksums.freenetproject.org/latest/update.cmd</a> (or <a class="maybeSwitchProtocol" href="https://checksums.freenetproject.org/latest/update.sh">update.sh</a>)</p>
+<p>You may have some difficulty with the update scripts, if you use update.sh / update.cmd. If it doesn't work, try updating the script manually from <a href="https://checksums.freenetproject.org/latest/update.cmd">https://checksums.freenetproject.org/latest/update.cmd</a> (or <a href="https://checksums.freenetproject.org/latest/update.sh">update.sh</a>)</p>
 <h2>WOT, FREETALK, RELATED THINGS AND OTHER PLUGINS</h2>
 <p>Xor (also known as p0s) continues to work on the Web of Trust and Freetalk plugins. These are approaching the point where we can make them loadable from the plugins page, and then bundle them, enabled by default.</p>
 <p>WoT is the backend system which implements a pseudonymous web of trust, which functions in a similar way to that in FMS. You can create identities, assign trust to other identities, announce your identity via CAPTCHAs and so on. This is the Community menu, from which you can see your identities and other people's, and the trust relationships between them. WoT is used by Freetalk, FlogHelper, and probably soon by distributed searching, real time chat and other things.</p>
@@ -365,14 +365,14 @@
 	There are versions of Freenet 0.7.5 for Windows, Mac, and
 	Linux.  They can be downloaded from:
       </p>
-      <p><a class="maybeSwitchProtocol" href="download.html">https://freenetproject.org/download.html</a></p>
+      <p><a href="download.html">https://freenetproject.org/download.html</a></p>
       <p>
 	If you have any difficulty getting Freenet to work, or any
 	questions not answered in the <a href="/faq.html">faq</a>, please
 	join us
 	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in the #freenet channel at irc.freenode.net, or email
-	the <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
+	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to
 	improve Freenet, please
 	visit <a href="http://freenet.uservoice.com/">our uservoice
@@ -384,7 +384,7 @@
 	web design skills, or would like to help translate Freenet
 	into your own language, and would like to help us improve
 	Freenet, please join
-	our <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
+	our <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
 	mailing list</a> and introduce yourself.
       </p>
 

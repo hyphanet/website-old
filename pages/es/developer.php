@@ -67,7 +67,7 @@
       <p>
     De cualquier forma, por favor mantennos informados de los que estas haciendo con Freenet! Crea una 
     cuenta github, y luego contáctanos mediante
-	la <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">lista de 
+	la <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">lista de 
 	desarrolladores</a> o en <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	en el canal <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
 	en irc.freenode.net. Observa que deberías usar una direccion 

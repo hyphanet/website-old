@@ -20,7 +20,7 @@
 	sitios Freenet. Fue escrita en Java por Bombe. 
       </p>
       <p>
-	Puedes <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">descargar jSite aquí</a>
+	Puedes <a href="https://downloads.freenetproject.org/alpha/jSite/jSite.jar">descargar jSite aquí</a>
       </p>
       <h3>Iniciando jSite</h3>
       <p>

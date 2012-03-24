@@ -1,7 +1,7 @@
 <h2>Herramientas</h2>
 <h3>Aplicaciones Freenet 0.7</h3>
 <br />
-<p><a class="maybeSwitchProtocol" href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
+<p><a href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
 Thaw es una aplicación para compartir archivos, para agregar cosas, y bajar cosas de Freenet. Las nuevas versiones implementan soporte "index", para aprender más sobre este, 
 sugiero que visites la <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>página wiki de Thaw</a>.

@@ -68,7 +68,7 @@
       <p>
     Either way, please keep us informed of what you are doing with Freenet! Create a github
     account, and then contact us either through
-	the <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
+	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
 	mailing list</a> or
 	on <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in

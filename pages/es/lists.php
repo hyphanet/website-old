@@ -35,46 +35,46 @@
       
       <ul>
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/announce/">Anuncios</a>
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/announce/">archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/announce/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/announce/">Anuncios</a>
+	  (<a href="https://emu.freenetproject.org/pipermail/announce/">archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/announce/">mensajes antiguos</a>)<br/>
 	  Por favor regístrate aquí para ser notificado de importantes desarrollos en Freenet, tal como anuncios de nuevas ediciones o corrección de errores. Esta lista es moderada y de tráfico muy bajo (menos de un mensaje por mes).
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">Soporte</a>
-	  (<a class="maybeSwitchProtocol" href='https://emu.freenetproject.org/pipermail/support/'>archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/support/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">Soporte</a>
+	  (<a href='https://emu.freenetproject.org/pipermail/support/'>archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/support/">mensajes antiguos</a>)<br/>
 	  Solicitar o brindar asesoramiento relativo a tener Freenet funcionando, 
 	  reporte de errores, y sugerencias sobre mejorar la experiencia de usuario. Las solicitudes  
 	  de ayuda tienen más chance de ser escuchadas aquí que en las otras listas de  
 	  correo.  <b>Nota: </b> Emails enviados a esta lista por aquellos no  
 	  suscritos a la misma deberán ser aprobados manualmente, y esto puede imponer 
 	  una demora de varios días. Para evitar esta demora,
-	  por favor <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscribe</a>.
+	  por favor <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">subscribe</a>.
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/tech/">Técnica</a>
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/tech/">archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/tech/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/tech/">Técnica</a>
+	  (<a href="https://emu.freenetproject.org/pipermail/tech/">archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/tech/">mensajes antiguos</a>)<br/>
 	  Esta es para una discusión técnica general de Freenet.  Si quieres discutir
 	  ideas técnicas a largo plazo sobre Freenet, por favor usa esta lista.
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Desarrollo</a> 
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/devl/">archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/devl/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">Desarrollo</a> 
+	  (<a href="https://emu.freenetproject.org/pipermail/devl/">archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/devl/">mensajes antiguos</a>)<br/>
 	  Esta lista es de desarrolladores activos para discutir fallas, y la implementación 
 	  de nuevas características a corto plazo.  Por favor escribe a esta lista solamente si sabes de lo 
 	  que estás hablando, de otro modo usa la lista Técnica (ver arriba).
 	</li>
 	
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/">Herramientas-Darknet</a> 
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/darknet-tools/">archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/darknet-tools/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/darknet-tools/">Herramientas-Darknet</a> 
+	  (<a href="https://emu.freenetproject.org/pipermail/darknet-tools/">archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/darknet-tools/">mensajes antiguos</a>)<br/>
 	  Una lista de correos para discutir y desarrollar formas de extender darknet mientras siga siendo darknet: 
 	  Complementos de mensajería instantánea, complementos IRC, invitaciones de email, funcionalidades en el nodo necesarias para 
 	  soportar esto, y otras maneras de extender la darknet mientras sea darknet tanto como 
@@ -82,9 +82,9 @@
 	</li>
 
 	<li>
-	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> 
-	  (<a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail/chat/">archivo</a>, 
-	  	  <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/pipermail-old/chat/">mensajes antiguos</a>)<br/>
+	  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/chat/">Chat</a> 
+	  (<a href="https://emu.freenetproject.org/pipermail/chat/">archivo</a>, 
+	  	  <a href="https://emu.freenetproject.org/pipermail-old/chat/">mensajes antiguos</a>)<br/>
 	  Es una lista para discusiones generales de Freenet, temas que no son ubicables 
 	  en otras listas. Discusiones de políticas, legales, filosofía, juicios, 
 	  lenguajes de programación, tecnología relacionada que no debería ser parte de 
@@ -95,5 +95,5 @@
 	</li>
       </ul>
       <p>
-	<i><b>Herramientas de terceras partes</b>: Alojamos algunas otras listas de correo en nuestro servidor, aquí está la <a class="maybeSwitchProtocol" href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/">lista completa</a>.</i>
+	<i><b>Herramientas de terceras partes</b>: Alojamos algunas otras listas de correo en nuestro servidor, aquí está la <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/">lista completa</a>.</i>
       </p>

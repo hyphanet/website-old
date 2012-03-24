@@ -24,7 +24,7 @@
       <h3>Iniciando Thaw</h3>
 
       <p>
-	Puedes<a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">bajar
+	Puedes<a href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">bajar
 	Thaw aquí</a>. Para iniciarlo, escribe en la línea de comandos:
       </p>
       <pre>

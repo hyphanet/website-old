@@ -1,7 +1,7 @@
 <h2>Tools</h2>
 <h3>Freenet 0.7 applications</h3>
 <br />
-<p><a class="maybeSwitchProtocol" href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
+<p><a href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
 Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
 </p>

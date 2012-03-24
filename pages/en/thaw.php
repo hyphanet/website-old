@@ -25,7 +25,7 @@
 
       <p>
 	You
-	can <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download
+	can <a href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download
 	Thaw here</a>. To start it, write in a command prompt:
       </p>
       <pre>

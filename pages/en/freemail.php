@@ -28,7 +28,7 @@
 
       <p>
 	You can download the latest pre-compiled version
-	from <a class="maybeSwitchProtocol" href="https://downloads.freenetproject.org/alpha/plugins/Freemail/">https://downloads.freenetproject.org/alpha/plugins/Freemail/</a>
+	from <a href="https://downloads.freenetproject.org/alpha/plugins/Freemail/">https://downloads.freenetproject.org/alpha/plugins/Freemail/</a>
       </p>
       
       <h3>Easy account setup</h3>
