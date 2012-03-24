@@ -98,7 +98,7 @@ include 'includes/common.inc.php';
 
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    ga.src = 'https://ssl.google-analytics.com/ga.js';
 	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 	  })();
 
@@ -108,7 +108,7 @@ include 'includes/common.inc.php';
 	<script type="text/javascript">
 	(function(){
 	 var wsc=document.createElement('script');
-	 wsc.src=document.location.protocol+'//static.woopra.com/js/woopra.js';
+	 wsc.src='https://static.woopra.com/js/woopra.js';
 	 wsc.async=true;
 	 var ssc = document.getElementsByTagName('script')[0];
 	 ssc.parentNode.insertBefore(wsc, ssc);
@@ -117,7 +117,7 @@ include 'includes/common.inc.php';
 <!-- Woopra Code End -->
 <!-- Uservoice feedback tab -->
 <script type="text/javascript">
-  var uservoiceJsHost = document.location.protocol + "//cdn.uservoice.com";
+  var uservoiceJsHost = "https://cdn.uservoice.com";
   document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
 </script>
 <script type="text/javascript">
