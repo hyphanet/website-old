@@ -110,7 +110,7 @@ $(document).ready(function() {
 	<h4>Latest news</h4>
 	<p>
           (16th March 2012) <a href="https://www.google-melange.com/gsoc/org/google/gsoc2012/freenet">Freenet has been accepted as a mentoring organization for Google Summer of Code 2012!</a><br />
-          (15th November 2011) <a href="https://emu.freenetproject.org/pipermail/devl/2011-November/001787.html">Released Freenet 0.7.5 build 1405</a><br />
+          (15th November 2011) <a href="https://emu.freenetproject.org/pipermail/devl/2011-November/035824.html">Released Freenet 0.7.5 build 1405</a><br />
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
