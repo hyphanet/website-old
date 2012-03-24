@@ -68,12 +68,6 @@ include 'includes/common.inc.php';
 		}
 
 		addEvent(window, 'load', switchToHTTP);
-
-		function switchLanguage(lang)
-		{
-			document.cookie="language="+lang+"; expires=Mon, 1 Jan 2099 00:00:00 UTC; path=/; secure";
-			location.reload(true);
-		}
 	</script>
 	<script type="text/javascript" src="/PluginDetect.js"></script>
 	<!--[if lt IE 7]><script defer type="text/javascript" src="/js/fixpng.js"></script><![endif]-->
@@ -88,8 +82,8 @@ include 'includes/common.inc.php';
 	</div>
 	<div id="lang">
 	  <p> 
-	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="javascript:switchLanguage('es')">es</a> 
-	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="javascript:switchLanguage('en')">en</a>
+	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="?language=es">es</a> 
+	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="?language=en">en</a>
 
 	  <?php if($lang == "en") 
 		echo "Select your language:";
