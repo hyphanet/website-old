@@ -109,6 +109,7 @@ $(document).ready(function() {
       <div id="news">
 	<h4>Latest news</h4>
 	<p>
+          (26th March 2012) <a href="https://twitter.com/#!/nextgens1/status/184713742448201728">If you are a student and you fancy flipping bits rather than burgers, you should consider applying for Google Summer of Code 2012! Registration is now open: send us your proposals!</a><br />
           (16th March 2012) <a href="https://www.google-melange.com/gsoc/org/google/gsoc2012/freenet">Freenet has been accepted as a mentoring organization for Google Summer of Code 2012!</a><br />
           (15th November 2011) <a href="https://emu.freenetproject.org/pipermail/devl/2011-November/035824.html">Released Freenet 0.7.5 build 1405</a><br />
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
