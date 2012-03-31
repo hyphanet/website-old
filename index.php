@@ -110,11 +110,16 @@ include 'includes/common.inc.php';
 	<script type="text/javascript">
 	(function(){
 	 var wsc=document.createElement('script');
-	 wsc.src='https://static.woopra.com/js/woopra.js';
+	 wsc.src='https://static.woopra.com/js/woopra.v2.js';
 	 wsc.async=true;
 	 var ssc = document.getElementsByTagName('script')[0];
 	 ssc.parentNode.insertBefore(wsc, ssc);
 	 })();
+	</script>
+	<script type="text/javascript">
+	woopraTracker.addVisitorProperty("lang", "<?php echo $lang?>");
+	woopraTracker.setDomain("freenetproject.org");
+	woopraTracker.track();
 	</script>
 <!-- Woopra Code End -->
 <!-- Uservoice feedback tab -->
