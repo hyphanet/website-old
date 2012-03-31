@@ -14,12 +14,18 @@
 	    John a donnée 10 000$ au projet Freenet pour financer
 	    le développement du logiciel Freenet.
 	  </li>
+
+          <li>
+            <a href="http://www.webhostingsearch.com/">Web Hosting Search</a><br/>
+            WebHostingSearch est un annuaire recensant les hébergeurs internet.
+            Mr Chris Reynolds et son équipe sont devenus un de nos promoteurs.
+          </li>
 	  
 	  <li>
 	    <a href="http://www.toad.com/gnu/">John Gilmore</a><br/>
 	    John Gilmore est l'un des fondateurs de l'Electronic
 	    Frontier Foundation, de la liste de diffusion Cypherpunks,
-	    et de Cygnus Solutions. Il a crééé la hiérarchie alt.*
+	    et de Cygnus Solutions. Il a crée la hiérarchie alt.*
 	    de Usenet, et est un contributeur clé au projet GNU.
 	    Il a donné 10 000$.
 	  </li>
@@ -69,12 +75,39 @@
 	    des informations à propos de sujets et sites web intéressants,
 	    le tout en allemand.
 	  </li>
-	  
-	</ul>
+         <li>
+            <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> and
+            <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
+            est un autre généreux sponsor.
+          </li>
+
+          <li>
+            <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - est un autre généreux sponsor.
+          </li>
+
+          <li>
+            <a href="http://www.gartenheinz.de" title="A German Site for Gardening and Plants">A German Site for Gardening and Plants</a> - est un autre généreux sponsor.
+          </li>
+
+          <li>
+            <a href="http://www.easy-carhire.com/">Easy Car Hire</a><br>
+            Easy Car Hire has generously supported Freenet by helping us with some of our administrative expenses over the years.
+          </li>
+
+          <li>
+            <a href="http://www.sportsden.ie/">The Sports Den</a><br/>
+            The Sports Den has a wide variety of outdoor sports equipment, they are
+            based in Ireland but can ship to the UK, Europe, and the United States.
+          </li>
+
+        </ul>
+
+        <p>
+          Freenet Project Inc n'approuve pas forcement l'activité ni les produits des sponsors listés sur cette page.
+        </p>
 
 	<p>
-	Si vous souhaitez vous aussi parrainer Freenet, merci de contacter <a href="mailto:ian@locut.us">Ian
-	    Clarke</a>
+	Si vous souhaitez vous aussi parrainer Freenet, merci de contacter <a href="mailto:ian@locut.us">Ian Clarke</a>
 	</p>
 	
       </div>
