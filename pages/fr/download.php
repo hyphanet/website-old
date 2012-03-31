@@ -30,8 +30,8 @@
 	<h2>Instructions pour l'installation</h2>
 	<p>
 	Afficher les instructions pour :
-	<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows</a>,<br/>
-	<a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX</a>,<br/>
+	<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows</a>,
+	<a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX</a>,
 	<a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux et autres Unix</a>.
 	</p>
       </div>
