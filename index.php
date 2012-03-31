@@ -88,7 +88,6 @@ include 'includes/common.inc.php';
 	</p>
       </div>
     </div>
-	<div class="hideit">Send spam to <a href="mailto:catchme@freenetproject.org">catchme@freenetproject.org</a> ! :)</div>
 <!-- Google Analytics Code Start -->
 	<script type="text/javascript">
 
