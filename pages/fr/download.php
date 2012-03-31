@@ -3,11 +3,11 @@
       <p>
       Afin d'obtenir les meilleures performances possibles, Freenet
       tourne en permanence. Cela ne devrait pas avoir d'incidence
-      sur les performances de votre ordinateur, puisque cela nécéssite 
-      environ 200Mo de mémoire vive (RAM) et 10% de la puissance d'un 
-      processeur monocoeur, ainsi que quelques accès au disque. Nous
+      sur les performances de votre ordinateur, puisque cela ne nécéssite 
+      que 200Mo de mémoire vive (RAM) et 10% de la puissance d'un 
+      cœur processeur, ainsi que quelques accès au disque. Nous
       vous recommandons fortement d'éteindre Freenet lorsque vous jouez
-      à des jeux, etc... Sur Windows, vous pouvez couper Freenet via
+      à des jeux, etc... Sous Windows, vous pouvez couper Freenet via
       l'icone situé dans la zone de notification&nbsp;; pour les autres
       systèmes, des liens sont fournis soit sur le bureau, soit dans
       le menu.
@@ -25,22 +25,6 @@
       en même temps que vous.
       </p>
 
-      <!--      
-      <div id="jws">
-	<h2>Instructions pour l'installation</h2>
-	<p>
-	Cliquer sur le lien d'
-	<big><big><a href="http://checksums.freenetproject.org/latest/freenet.jnlp">installation
-	de Freenet</a></big></big> devrait démarrer l'installateur si vous avez <a href="http://www.java.com/getjava/">Java</a>
-	d'installé. Si cela ne fonctionne pas pour une raison ou pour une autre, vous pouvez
-	essayer les instructions spécifiques à chaque système d'exploitation :
-	<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">instructions pour Windows</a>,<br/>
-	<a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">instructions pour Mac OSX</a>,<br/>
-	<a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">instructions pour Linux et les différents Unix-like</a>.
-	</p>
-      </div>
-      -->  
-      
       <div id="nojws">
 	
 	<h2>Instructions pour l'installation</h2>
@@ -57,19 +41,16 @@
 	<h3>Windows</h3>
 	
 	<p>
-	Téléchargez et éxécutez <big><a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">le programme d'installation</a> (8MB)</big><br/> 
+	Téléchargez et éxécutez <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">le programme d'installation</a> (8MB)</big><br/> 
 	<br/>
 	Celui-ci installera automatiquement Freenet ainsi que les
 	autres composants requis pour vous. Une fois l'installation
 	achevée, votre navigateur internet s'ouvrira automatiquement
 	et affichera l'interface utilisateur de Freenet.<br/>
 	Remarque : Freenet ne contient <b style="text-decoration: underline;">AUCUN logiciel espion</b>&nbsp;; 
-	c'est un Logiciel Libre ! Le code source est librement consultable
+	c'est un Logiciel Libre dont le code source est librement consultable
 	en ligne.<br/> 
 	<br/>
-	Freenet fonctionne mieux avec Windows XP Professionel ou Vista.
-	Quelques problèmes ont été rapportés avec le programme
-	d'installation sur Windows 7, ils seront corrigés bientôt.
 	Freenet ne s'exécutera pas sur les systèmes plus vieux que
 	Windows 2000 Professionel (càd Windows 95/98/ME), et en aucun
 	cas vous ne devriez utiliser un système d'exploitation dont
@@ -84,7 +65,7 @@
 	
 	<p>
 	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Installez Freenet 0.7.5</a> en utilisant JavaWebStart.<br/>
-	  Si cela ne fonctionne pas, essayez les instructions relatives à Linux.
+	  Si cela ne fonctionne pas, essayez <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">les instructions relatives à Linux</a>.
 	</p>
 	
       </div>
@@ -106,13 +87,11 @@
 	le site <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	Les versions de Java 1.5 et suivantes fonctionneront. Toutefois,
-	soyez conscient que des vulnérabilités concernant les applets
-	touchent toutes les versions précédant Java 1.5 update 4.
-	Généralement, nous vous recommandons d'utiliser les dernières
-	versions disponibles.<br/>
+	Les versions de Java 1.6 et suivantes fonctionneront.
+	Généralement, nous vous recommandons d'utiliser la dernière
+	version disponible.<br/>
 	Vous aurez également besoin de 'wget' pour que les commandes
-	ci-dessous fonctionnent (sur Ubuntu, tapez 'apt-get install wget'
+	ci-dessous fonctionnent (sur Ubuntu, tapez 'sudo apt-get install wget'
 	dans un terminal).
 	</p>
 
@@ -124,14 +103,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativement,
-	  télécharger <a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">le
+	  télécharger <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">le
 	    programme d'installation</a>
-	  (<a href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">signature 
+	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">signature 
 	    gpg</a>) et cliquer ensuite sur le fichier peut fonctionner
 	    sur certains systèmes, mais s'il y a un quelconque problème,
 	    nous vous recommandons d'exécuter les lignes de commandes ci-dessus. 
@@ -144,7 +123,7 @@
 	</p>
 	
 	<pre>
-	  wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
+	  wget <a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 	  tar xvzf freenet07.tar.gz
 	  cd freenet
 	  ./run.sh start</pre>
@@ -369,6 +348,6 @@
 	  <b>Code source:</b>
 	  Voir la <a href="developer.html">page des développeurs</a> 
 	  pour obtenir un accès git, ou téléchargez la dernière archive
-	  stable <a href="http://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">ici</a>.
+	  stable <a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">ici</a>(<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">signature</a>).
 	</small>
       </p>

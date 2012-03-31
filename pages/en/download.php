@@ -85,7 +85,7 @@
 	  You need Java version 1.6. You should keep it up to date to
 	  avoid problems and for best performance. Also, you might need
 	  wget for the commands below to work (on Ubuntu, do
-	  "apt-get install wget" on a console).
+	  "sudo apt-get install wget" on a console).
 	</p>
 
 	<p>

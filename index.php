@@ -51,11 +51,14 @@ include 'includes/common.inc.php';
 	  <p> 
 	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="?language=es">es</a> 
 	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="?language=en">en</a>
+	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="?language=fr">fr</a>
 
 	  <?php if($lang == "en") 
 		echo "Select your language:";
-	  else 
+	  else if($lang == "es")
 		echo "Seleccione su idioma:";
+	  else if($lang == "fr")
+		echo "Sélectionnez votre langue:";
 	  ?>
 	  </p>
 	</div>
