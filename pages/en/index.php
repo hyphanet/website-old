@@ -63,7 +63,7 @@ $(document).ready(function() {
 
 
       <div id="default" class="whatis" style="clear:left; margin-top: 10px; color: red;">
-      	   <p>We were unable to find your OS. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
+      	   <p>We were unable to detect your Operating System. Please turn on javascript, or go to the <a href="download.html">download page</a> to install Freenet.</p>
       </div>
 
       <div id="windows" class="sprites download">
