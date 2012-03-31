@@ -1,5 +1,7 @@
       <h1>Dons</h1>
       
+      <h4>État des finances du projet</h4>
+      <p>Le projet a <b>$MONEYBALANCE</b> sur son compte (le total est mis à jour deux fois par jour).</p>
       
       <h4>Pour le projet Freenet a-t-il besoin de dons ?</h4>
       <p>
@@ -29,7 +31,7 @@
 	difficile de dire si nous pourrons payer un developpeur le mois suivant
 	bien que jusqu'à maintenant nous avons eu de la chance.<br/>
 	Vous pouvez devenir membre en cliquant sur ce bouton (vous aurez
-	besoin d'un <a href="http://paypal.com">compte PayPal</a>) :
+	besoin d'un <a href="https://paypal.com">compte PayPal</a>) :
 	  <center>
 	    <table>
 	      <tr>
@@ -38,8 +40,8 @@
 		    <input type="hidden" name="cmd" value="_xclick-subscriptions"/>
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Project Membership"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
 		    <input type="hidden" name="no_note" value="1"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
@@ -57,7 +59,25 @@
 	      </tr>
 	    </table>
 	  </center>
-	  </li>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+          <p>Ou définissez le montant du dont:
+                    <input type="hidden" name="cmd" value="_xclick-subscriptions"/>
+                    <input type="hidden" name="business" value="ian@freenetproject.org"/>
+                    <input type="hidden" name="item_name" value="Freenet Project Membership"/>
+                    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+                    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
+                    <input type="hidden" name="no_shipping" value="1"/>
+                    <input type="hidden" name="no_note" value="1"/>
+                    <input type="hidden" name="currency_code" value="USD"/>
+                    <!-- We need javascript to disable the submission button until a value is set. For now just set a default. -->
+                    <input type="text" name="a3" value="10.00"/>
+                    <input type="image" src="https://www.paypal.com/images/x-click-but20.gif" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!"/>
+                    <input type="hidden" name="p3" value="1"/>
+                    <input type="hidden" name="t3" value="M"/>
+                    <input type="hidden" name="src" value="1"/>
+                    <input type="hidden" name="sra" value="1"/>
+                    </p>
+                  </form>
 	  <hr width="90%"/>
 	
 	<li>
@@ -99,8 +119,8 @@
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Donation"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
 		    <td>
 		      <select name="amount">
@@ -127,22 +147,26 @@
 		    <input type="hidden" name="business" value="ian@freenetproject.org"/>
 		    <input type="hidden" name="item_name" value="Freenet Donation"/>
 		    <input type="hidden" name="no_shipping" value="1"/>
-		    <input type="hidden" name="return" value="http://freenetproject.org/donatethanks.html"/>
-		    <input type="hidden" name="cancel_return" value="http://freenetproject.org/donate.html"/>
+		    <input type="hidden" name="return" value="https://freenetproject.org/donatethanks.html"/>
+		    <input type="hidden" name="cancel_return" value="https://freenetproject.org/donate.html"/>
 		    <input type="hidden" name="currency_code" value="USD"/>
 		    <td>
 		      <input type="text" name="amount"/>
 		    </td>
 		    <td>
-		      <input type="image" 
-			     src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-			     name="submit"/>
+			<input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
 	      </table>
 	    </center>
-	    
+	    <p>
+              <hr width="90%"/>
+            </p>
+            <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
+            Vous pouvez aussi faire votre dont en utilisant <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
+            <div>Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
+ 
 	    <hr width="90%"/>
 	    </li>
 	    <li>

@@ -157,17 +157,7 @@
 	    </p>
 	    <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
 	    You can now donate to the Freenet Project using <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
-	    <div id="bitcoin-account">Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
-	    <div id="bitcoin-warning"><a href="https://freenetproject.org/donate.html">Switch to SSL</a> to safely see our bitcoin address.</div></li>
-	<script type="text/javascript">
-	if(window.location.protocol=="https:") {
-		showDiv("bitcoin-account");
-		hideDiv("bitcoin-warning");
-	} else {
-		showDiv("bitcoin-warning");
-		hideDiv("bitcoin-account");
-	}
-	</script>
+	    <div>Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 	    
 	    <hr width="90%">
 	    <li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
