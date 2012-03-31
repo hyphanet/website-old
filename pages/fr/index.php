@@ -38,12 +38,7 @@ $(document).ready(function() {
       </div>
       <div class="whatis">
 	<p>
-	  Freenet est un logiciel libre qui vous permet de partager des fichiers, de naviguer
-	  sur des freesites (sites web accessibles uniquement via Freenet) et d'en publier, ainsi
-	  que de discuter sur des forums, le tout anonymement, et sans crainte de censure. Freenet
-	  est décentralisé (il n'y a pas de serveur central) et donc moins vulnérable aux attaques ;
-	  s'il est utilisé en mode "darknet", où vous vous connectez uniquement à vos amis, il est
-	  très difficile à détecter.
+	  Partagez des fichiers, discutez sur les forums, naviguez ou publiez anonymement, sans crainte de censure! Connectez vous a vos amis pour améliorer votre securité! 
 	  <br/>
 	  <a href="whatis.html">En savoir plus !</a>
 	</p>
@@ -68,7 +63,7 @@ $(document).ready(function() {
 
 
       <div id="default" class="whatis" style="clear:left; margin-top: 10px; color: red;">
-      	   <p>Nous n'avons pas pu détecter votre système d'exploitation. Veuillez activer le javascript, ou bien rendez vous sur <a href="download.html">la page de téléchargement</a> pour télécharger et installer Freenet.</p>
+      	   <p>Nous n'avons pas pu détecter votre système d'exploitation. Veuillez activer le javascript, ou vous rendre sur <a href="download.html">la page de téléchargement</a> pour télécharger et installer Freenet.</p>
       </div>
 
       <div id="windows" class="sprites download">
@@ -100,26 +95,21 @@ $(document).ready(function() {
 	     </p>
 	</div>
 	
-	<p style="clear:left; font-size: 12px;"><a href="download.html">Instructions et programmes d'installation pour les autres systèmes.</a></p>
+	<p style="clear:left; font-size: 12px;"><a href="download.html">Instructions et programmes d'installation pour les autres systèmes d'exploitation.</a></p>
 
 	<div id="donate_button">
 	     <h4>Faire un don</h4>
-	     <p>Freenet est un logiciel gratuit (et libre), et nous sommes une organisation à but non lucratif. Nous avons donc besoin de vos dons pour survivre.</p>
-	     <p><a href="donate.html">Donner !</a></p>
+	     <p>Freenet est un logiciel gratuit (et libre); nous sommes une organisation à but non lucratif qui a besoin de de vos dons pour survivre.</p>
+	     <p><a href="donate.html">Donner!</a></p>
 	</div>
 
       <div id="news">
 	<h4>Dernières nouvelles (en anglais pour l'instant)</h4>
-	<p>
-	  (21 August 2009) <a href="news.html#more-peers">More and less connections for more speed (by popular demand!)</a><br/>
-	  (08 August 2009) <a href="news.html#xml-vuln">Severe vulnerability in Java affecting Freenet:
-	    Upgrade your Java Virtual Machine <b>now</b>!</a><br/>
-	  (30 July 2009) <a href="news.html#build1226">Improvements to security and
-	    preparation for big new performance feature in new stable build</a><br/>
-	  (08 July 2009) <a href="news.html#big-donation-german-finance">Big
-	    donation from</a> <a href="http://www.finanzvergleich.de/">German finance site</a><br/>
-	  (12 June 2009) <a href="news.html#freenet-0-7-5-released">Freenet
-	    0.7.5 released!</a><br/>
+	<p> 
+          (26th March 2012) <a href="https://twitter.com/#!/nextgens1/status/184713742448201728">If you are a student and you fancy flipping bits rather than burgers, you should consider applying for Google Summer of Code 2012! Registration is now open: send us your proposals!</a><br />
+          (16th March 2012) <a href="https://www.google-melange.com/gsoc/org/google/gsoc2012/freenet">Freenet has been accepted as a mentoring organization for Google Summer of Code 2012!</a><br />
+          (15th November 2011) <a href="https://emu.freenetproject.org/pipermail/devl/2011-November/035824.html">Released Freenet 0.7.5 build 1405</a><br />
+          (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
