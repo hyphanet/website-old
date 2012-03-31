@@ -150,8 +150,8 @@
       </div>
       
       <script type="text/javascript">
-					 // Try to detect if Sun Java 1.5.0 or higher is installed
-					 //var Java = PluginDetect.isMinVersion('Java', '1,5,0');
+					 // Try to detect if Sun Java 1.6.0 or higher is installed
+					 //var Java = PluginDetect.isMinVersion('Java', '1,6,0');
 					 
 					 // Os detection
 					 var OSName="";

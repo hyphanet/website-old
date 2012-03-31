@@ -106,11 +106,9 @@
 	le site <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	Les versions de Java 1.5 et suivantes fonctionneront. Toutefois,
-	soyez conscient que des vulnérabilités concernant les applets
-	touchent toutes les versions précédant Java 1.5 update 4.
-	Généralement, nous vous recommandons d'utiliser les dernières
-	versions disponibles.<br/>
+	Les versions de Java 1.6 et suivantes fonctionneront.
+	Généralement, nous vous recommandons d'utiliser la dernière
+	version disponible.<br/>
 	Vous aurez également besoin de 'wget' pour que les commandes
 	ci-dessous fonctionnent (sur Ubuntu, tapez 'apt-get install wget'
 	dans un terminal).
@@ -208,8 +206,8 @@
       </div>
       
       <script type="text/javascript">
-					 // Try to detect if Sun Java 1.5.0 or higher is installed
-					 //var Java = PluginDetect.isMinVersion('Java', '1,5,0');
+					 // Try to detect if Sun Java 1.6.0 or higher is installed
+					 //var Java = PluginDetect.isMinVersion('Java', '1,6,0');
 					 
 					 // Os detection
 					 var OSName="";
