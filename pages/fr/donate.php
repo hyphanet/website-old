@@ -133,9 +133,7 @@
 		      </select>
 		    </td>
 		    <td>
-		      <input type="image" 
-			     src="http://images.paypal.com/images/x-click-but04.gif" border="0" 
-			     name="submit"/>
+		<input type="image" src="/image/paypal-submit.gif" border="0" name="submit"/>
 		    </td>
 		  </form>
 		</tr>
