@@ -348,8 +348,8 @@
       <p><b id="stabchange">¿Cómo puedo cambiar de red principal a red de prueba?</b><br/>
 	La red de prueba es una red separada la cual permite a los desarrolladores ver exactamente
 	qué está pasando. No hay anonimato en la red de prueba. Hay un instalador separado
-	(<a href="https://checksums.freenetproject.org/latest/testnet_installer_offline.jar">para GNU/Linux, OS/X</a>,
-	y <a href="https://checksums.freenetproject.org/latest/TestnetInstaller.exe">para Windows</a>).
+	(<a href="https://downloads.freenetproject.org/latest/testnet_installer_offline.jar">para GNU/Linux, OS/X</a>,
+	y <a href="https://downloads.freenetproject.org/latest/TestnetInstaller.exe">para Windows</a>).
 	Puede romperse muy seguido, así que probablemente deberías tener alguna idea de lo que estás haciendo o al menos 
 	estar preparado para instalar regularmente!
       </p>

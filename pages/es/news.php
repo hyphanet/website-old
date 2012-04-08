@@ -159,8 +159,8 @@ Esto puede deberse a los problemas con seednodes y no haber tenido una  versión
 <p>Finalmente nos hemos desecho de emu! Nuestro fiel y poderoso servidor dedicado proporcionado con descuento por Bytemark no está mas. Ahora tenemos una máquina virtual llamada Osprey, la cual hace la mayoría 
 del mismo trabajo, por mucho menos costo, y tiene una configuración más simplificada así que debería ser más fácil de mantener. Hemos tratado de tercerizar servicios, por ejemplo usamos Google Code para nuestras descargas, 
 pero algunas cosas deberán mantenerse bajo nuestro control directo por algún tiempo ej. listas de correo y seguimiento de errores.</p>
-<p>Podrías tener problemas con los scripts de actualización, si usas update.sh / update.cmd. Si no funcionan, intenta actualizar el script manualmente desde <a href="https://checksums.freenetproject.org/latest/update.cmd">https://checksums.freenetproject.org/latest/update.cmd</a> 
-(o <a href="https://checksums.freenetproject.org/latest/update.sh">update.sh</a>)</p>
+<p>Podrías tener problemas con los scripts de actualización, si usas update.sh / update.cmd. Si no funcionan, intenta actualizar el script manualmente desde <a href="https://downloads.freenetproject.org/latest/update.cmd">https://downloads.freenetproject.org/latest/update.cmd</a> 
+(o <a href="https://downloads.freenetproject.org/latest/update.sh">update.sh</a>)</p>
 <h2>WOT, FREETALK, COSAS RELACIONADAS Y OTROS COMPLEMENTOS</h2>
 <p>Xor (también conocido como p0s) continúa trabajando en los complementos Red de Confianza y Freetalk. Se están acercando al punto en que podemos hacerlos cargar desde la página de complementos, y luego 
 empaquetarlos, habilitados por defecto.</p>

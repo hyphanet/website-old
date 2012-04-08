@@ -38,14 +38,14 @@
       
       <p><b>Lo siguiente está desactualizado para sistemas Windows</b>, para Windows deberías
       usar <a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">el instalador Windows</a> como se describe en <a href="download.html">la página de descargas</a>.
-      También puedes obtener el instalador Windows  de <a href="https://checksums.freenetproject.org/latest/FreenetInstaller.exe">aquí</a> o 
+      También puedes obtener el instalador Windows  de <a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">aquí</a> o 
       <a href="https://downloads.freenetproject.org/alpha/installer/FreenetInstaller-FREENETVERSION.exe">aquí</a>.</p>
       
       <p>Para la instalación gráfica deberás tener:</p>
       <ul>
 	<li>Una Java Runtime Environment funcionando</li>
 	<li>Una copia descargada del <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">new_installer_offline.jar</a>
-	(si no funciona prueba <a href="https://checksums.freenetproject.org/latest/new_installer_offline.jar">aquí</a>)</li>
+	(si no funciona prueba <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">aquí</a>)</li>
 	<li>Una interfaz gráfica de usuario funcionando (GUI)</li>
       </ul>
       
