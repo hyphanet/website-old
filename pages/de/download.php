@@ -19,7 +19,7 @@ bekommen.</i></p>
 <div id="jws">
 <h2>Installations-Anweisungen</h2>
 Wenn Sie auf <big><big><a
-href="http://checksums.freenetproject.org/latest/freenet.jnlp"
+href="/jnlp/freenet.jnlp"
 >Freenet 0.7 installieren</a></big></big> klicken, sollte das
 Installations-Programm starten. Wenn das aus irgend einem Grund nicht
 funktioniert, können Sie es mit der plattformspezifischen Anleitung versuchen
@@ -68,7 +68,7 @@ Anleitung für Linux.
 
 <div id="macos">
 <h3>Mac OSX</h3>
-<a href="checksums.freenetproject.org/latest/freenet.jnlp"
+<a href="/jnlp/freenet.jnlp"
 >Installieren Sie Freenet 0.7</a> indem Sie JavaWebStart benutzen.<br>
 Wenn dies nicht funktioniert, versuchen Sie es mit der Anleitung für Linux.
 </div>

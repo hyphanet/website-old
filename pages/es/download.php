@@ -58,7 +58,7 @@
 	<h3>Mac OSX</h3>
 	
 	<p>
-	  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">Instalar Freenet 0.7</a> usando JavaWebStart.<br/>
+	  <a href="/jnlp/freenet.jnlp">Instalar Freenet 0.7</a> usando JavaWebStart.<br/>
 	  Si esto no funciona, prueba <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">las instrucciones para GNU/Linux</a>.
 	</p>
 	
@@ -69,7 +69,7 @@
 	<h3>GNU/Linux y otros sistemas tipo-Unix</h3>
 
 	<p>
-	  Prueba el  <a href="http://checksums.freenetproject.org/latest/freenet.jnlp">instalador JavaWebStart</a>.<br/>
+	  Prueba el  <a href="/jnlp/freenet.jnlp">instalador JavaWebStart</a>.<br/>
 	  Si no funciona, por favor intenta con las instrucciones siguientes.
 	</p>	
 	<p>
