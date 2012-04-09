@@ -147,7 +147,7 @@
 	peer to peer  (pero justo ahora Freenet funciona bien en Francia y tenemos muchos usuarios Franceses!). 
 	Freenet 0.7 tiene algunas defensas mínimas contra el bloqueo; 
 	el protocolo es relativamente difícil de identificar (lo haremos mucho mas duro en el futuro),
-	y soporta un modo <a href="http://new-wiki.freenetproject.org/DarkNet">darknet</a>  
+	y soporta un modo <a href="https://wiki.freenetproject.org/DarkNet">darknet</a>  
 	(ej. sólo conectando a tus amigos) el cual hace la detección y bloqueo automatizado de nodos 
 	muy difícil.
       </p>
@@ -360,11 +360,11 @@
       
       <p><b id="servicenotrespond">Freenet no inicia, dice "El servicio no responde a la señal"</b><br/>
     Esto debería estar arreglado ahora, déjanos saber si lo ves. Si tienes una instalación muy vieja, estarás interesado
-    en los pasos <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">aquí</a>.
+    en los pasos <a href="https://wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">aquí</a>.
       </p>
       
       <p><b id="kaspersky">Tengo un antivirus Kaspersky y Freenet no se instala, o repetidamente muestra "Cola de descarga/subida de la base de datos corrupta!"</b><br/>
-	Kaspersky puede ser un problema con Freenet. Mira <a href="http://new-wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">aquí</a>.
+	Kaspersky puede ser un problema con Freenet. Mira <a href="https://wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">aquí</a>.
 	Recomendamos que desactives Kaspersky durante la instalación y durante el arranque del nodo, y excluyas el directorio en
 	que has instalado Freenet (generalmente algo como C:\Program Files\Freenet o C:\Program Files (x86)\Freenet).</p>
       
@@ -403,7 +403,7 @@
 	con el mismo nombre que uno ya presente puede en realidad servir para
 	propagar el documento existente. En realidad no tiene sentido
 	borrar un documento de Freenet. Los documentos no requeridos son eventualmente removidos por falta de uso.</p>
-      <p>Sin embargo, puedes usar una <a href="http://new-wiki.freenetproject.org/USK">Clave de Subespacio Actualizable (USK)</a>
+      <p>Sin embargo, puedes usar una <a href="https://wiki.freenetproject.org/USK">Clave de Subespacio Actualizable (USK)</a>
 	para proveer una especie de freesite actualizable: tu nodo automáticamente buscará las últimas ediciones
 	del sitio (luego que lo visites, o siempre si lo pones en marcadores), y te mostrará la última versión.
 	Puedes forzarlo a buscar la última versión cambiando el número al final de la clave a negativo.</p>
@@ -447,7 +447,7 @@
 
       <p><b id="freenethelp">¿Hay un Sitio de Ayuda que profundice las preguntas que los novatos puedan tener sobre Freenet, y donde la gente también pueda contribuir ?</b><br/>
 
-	Echa una mirada en <a href="http://new-wiki.freenetproject.org/">nuestra wiki</a>.
+	Echa una mirada en <a href="https://wiki.freenetproject.org/">nuestra wiki</a>.
 	Una antigua wiki, la cual es ahora de solo lectura, pero tiene una gran cantidad de contenido tal que
 	a veces es útil está <a href="http://wiki.freenetproject.org/">aquí</a>. 
 	Hay también varias implementaciones de wikis sobre Freenet. La más reciente
@@ -459,7 +459,7 @@
 	Puedes usar nuestro <a href="https://bugs.freenetproject.org/">sistema de seguimiento de errores</a> o enviar un email a nuestra <a href="lists.html">lista de correos de soporte</a>.</p>
 	
 	  <p><b id="theory">Soy un científico de computadores / matemático, ¿cómo puedo ayudar? (desafíos de investigacion)</b><br/>
-	Mira <a href="http://new-wiki.freenetproject.org/Research_challenges">aquí</a>.</p>
+	Mira <a href="https://wiki.freenetproject.org/Research_challenges">aquí</a>.</p>
 
       <h2> Preguntas de seguridad</h2>
       <p><b id="browser">¿Puedo navegar Freenet con mi navegador habitual?</b><br/>
@@ -631,7 +631,7 @@
 	</ul>
       
       <p>Más información sobre el actual estado práctico de la seguridad de Freenet está disponible
-	<a href="http://new-wiki.freenetproject.org/Security_summary">aquí</a>.
+	<a href="https://wiki.freenetproject.org/Security_summary">aquí</a>.
       </p>
       
       <p><b id="flooding">¿Es Freenet vulnerable a ataques de inundación?</b><br/>
@@ -756,7 +756,7 @@
 	bajado de los foros de chat, y archivos agregados a marcadores o recientemente completados son
 	almacenados en texto plano. Es nuestra intención moverlos a node.db4o o almacenarlos
 	separadamente en bases de datos cifradas, tan pronto como tengamos resplados automáticos de node.db4o.
-	Mira <a href="http://new-wiki.freenetproject.org/Program_files">aquí</a> por detalles 
+	Mira <a href="https://wiki.freenetproject.org/Program_files">aquí</a> por detalles 
 	de algunos de esos archivos.</p>
 
 	  <p><b id="forgotpass">Configuré una clave y la olvidé, ¿que puedo hacer?</b><br/>

@@ -109,13 +109,13 @@
 	en el verano, antes que salir de cacería al escaso mercado laboral! Voltea bits, no hamburguesas!</p>
 	<p>Deberías remitir al menos dos propuestas de proyectos con  Freenet ya que a menudo ofrecemos a varios 
 	estudiantes perseguir las mismas tareas. Puedes ver algunas ideas de proyectos 
-	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">aquí</a>. Inscríbete <a href="http://socghop.appspot.com/">aquí</a>.</p>
+	<a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2010">aquí</a>. Inscríbete <a href="http://socghop.appspot.com/">aquí</a>.</p>
 	<p>Te ayudaremos a completar los detalles técnicos, comprende exactamente lo que precisamos. También le damos la bienvenida
 	a nuevas ideas y enfoques, por favor contáctanos, a nuestra lista de email de  <a href="lists.html">desarrolladores</a>,
 	o <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. Necesitarás  
 	demostrar habilidades básicas de programación reparando una falla pequeña o implementando alguna característica menor; debrías 
 	echar una mirada en <a href="https://bugs.freenetproject.org/">el rastreador de fallas</a>, el cual también podría ser
-	una fuente de ideas de proyecto. <a href="http://new-wiki.freenetproject.org/">La nueva wiki</a>, y 
+	una fuente de ideas de proyecto. <a href="https://wiki.freenetproject.org/">La nueva wiki</a>, y 
 	<a href="http://wiki.freenetproject.org/">la vieja wiki</a> también son buenas fuentes de ideas y
 	documentación. Si quieres trabajar para nosotros en el verano, por favor <a href="http://socghop.appspot.com/">inscríbete</a>!</p>
 	<p>PD: hemos reinstalado uservoice, luego de que su soporte nos contactó mediante nuestro rastreador de fallas y parece haber solucionado ampliamente el problema del spam
@@ -129,7 +129,7 @@
 	<a href="https://bugs.freenetproject.org/">reportes de errores</a>.</p>
 	
 	<p>PD hemos puesto uservoice fuera de línea debido a incapacidad de no manejar eficientemente el spam. Aún estamos interesados en 
-	sugerencias de como mejorar Freenet, por favor envíalas a la <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> o al 
+	sugerencias de como mejorar Freenet, por favor envíalas a la <a href="https://wiki.freenetproject.org/Suggestions">Wiki</a> o al 
 	<a href="https://bugs.freenetproject.org/">rastreador de errores</a>, o conversa con nosotros por <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>  o las  
 	<a href="lists.html">listas de correo</a>. Estamos interesados en una alternativa a uservoice 
 	si sabes de alguna.</p>

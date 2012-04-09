@@ -105,13 +105,13 @@
 	over the summer, rather than chasing the increasingly scarce menial labour market! Flip bits not burgers!</p>
 	<p>You should submit at least two proposals for projects within Freenet as we often get several 
 	students chasing the same tasks. You can see some ideas for projects 
-	<a href="http://new-wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
+	<a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
 	<p>We will help you to fill in technical details, understand exactly what we need. We also welcome
 	new ideas and approaches, please contact us, on our devl <a href="lists.html">mailing list</a>,
 	or <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
 	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
-	a source of project ideas. <a href="http://new-wiki.freenetproject.org/">The new wiki</a>, and 
+	a source of project ideas. <a href="https://wiki.freenetproject.org/">The new wiki</a>, and 
 	<a href="http://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
 	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
 	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
@@ -125,7 +125,7 @@
 	<a href="https://bugs.freenetproject.org/">bug reports</a>.</p>
 	
 	<p>PS we have taken uservoice offline due to not being able to efficiently deal with spam. We are still interested in
-	suggestions on how to improve Freenet, please post them on the <a href="http://new-wiki.freenetproject.org/Suggestions">Wiki</a> or the 
+	suggestions on how to improve Freenet, please post them on the <a href="https://wiki.freenetproject.org/Suggestions">Wiki</a> or the 
 	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
 	<a href="lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
 	if you know of any.</p>

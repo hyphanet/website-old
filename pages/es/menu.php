@@ -15,7 +15,7 @@
 	  <li class="dir"><a href="documentation.html">Ayuda</a>
 	    <ul>
 	      <li><a href="documentation.html">Documentación</a></li>
-	      <li><a href="http://new-wiki.freenetproject.org/">Wiki</a></li>
+	      <li><a href="https://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">PUF</a></li>
 	      <li><a href="lists.html">Listas de Email</a></li>
 	      <li><a href="http://freenet.uservoice.com/">Sugerencias</a></li>
@@ -32,7 +32,7 @@
 	  <li class="dir"><a href="developer.html">Participa</a>
 	    <ul>
 	      <li><a href="developer.html">Código fuente</a></li>
-	      <li><a href="http://new-wiki.freenetproject.org/Translation">Traducción</a></li>
+	      <li><a href="https://wiki.freenetproject.org/Translation">Traducción</a></li>
 	      <li class="last"><a href="https://bugs.freenetproject.org/">Errores</a></li>
 	    </ul>
 	  </li>

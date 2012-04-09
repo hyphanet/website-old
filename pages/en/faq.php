@@ -148,7 +148,7 @@
 	peer networks (but right now Freenet works fine in France and we have many French users!). 
 	Freenet 0.7 has some minimal defences against blocking; 
 	the protocol is relatively hard to identify (we will make this a lot harder in future),
-	and it supports a <a href="http://new-wiki.freenetproject.org/DarkNet">darknet</a> mode 
+	and it supports a <a href="https://wiki.freenetproject.org/DarkNet">darknet</a> mode 
 	(i.e. only connecting to your friends) which makes automated harvesting and blocking 
 	of nodes very difficult.
       </p>
@@ -361,11 +361,11 @@
       
       <p><b id="servicenotrespond">Freenet won't start, it says "Service did not respond to signal"</b><br/>
     This should be fixed now, let us know if you see it. If you have a very old install, you might be interested
-    in the steps <a href="http://new-wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
+    in the steps <a href="https://wiki.freenetproject.org/Installing/Windows#Service_did_not_respond_to_signal">here</a>.
       </p>
       
       <p><b id="kaspersky">I have Kaspersky anti-virus, and Freenet doesn't install, or shows "Download/upload queue database corrupted!"</b><br/>
-	Kaspersky can be a problem with Freenet. See <a href="http://new-wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">here</a>.
+	Kaspersky can be a problem with Freenet. See <a href="https://wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">here</a>.
 	We recommend you turn off Kaspersky during install and during node startup, and exclude the directory you
 	installed Freenet in (most likely C:\Program Files\Freenet or C:\Program Files (x86)\Freenet).</p>
       
@@ -404,7 +404,7 @@
 	with the same name as one already present may actually serve to
 	propagate the existing document. There is also currently no means of
 	deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-      <p>However, you can use an <a href="http://new-wiki.freenetproject.org/USK">Updatable Subspace Key (USK)</a>
+      <p>However, you can use an <a href="https://wiki.freenetproject.org/USK">Updatable Subspace Key (USK)</a>
 	to provide a form of updatable freesite: your node will automatically look for later editions of
 	the site (after you visit it, or always if you bookmark it), and show you the latest version.
 	You can force it to search for the latest version by changing the number at the end of the key to negative.</p>
@@ -446,7 +446,7 @@
 
       <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br/>
 
-	Have a look at <a href="http://new-wiki.freenetproject.org/">our wiki</a>.
+	Have a look at <a href="https://wiki.freenetproject.org/">our wiki</a>.
 	An older wiki, which is now read-only, but has a fair amount of content so is
 	sometimes helpful is <a href="http://wiki.freenetproject.org/">here</a>. 
 	There are also several implementations of wiki's over Freenet. The most recent
@@ -458,7 +458,7 @@
 	You can use our <a href="https://bugs.freenetproject.org/">bug tracking system</a> or send a mail to our <a href="/lists.html">support mailing list</a>.</p>
 	
 	  <p><b id="theory">I'm a theoretical computer scientist/mathematician, how can I help? (research challenges)</b><br/>
-	See <a href="http://new-wiki.freenetproject.org/Research_challenges">here</a>.</p>
+	See <a href="https://wiki.freenetproject.org/Research_challenges">here</a>.</p>
 
       <h2> Security answers</h2>
       <p><b id="browser">Can I use my regular browser to browse Freenet?</b><br/>
@@ -629,7 +629,7 @@
 	</ul>
       
       <p>More information on the current practical state of Freenet security is available
-	<a href="http://new-wiki.freenetproject.org/Security_summary">here</a>.
+	<a href="https://wiki.freenetproject.org/Security_summary">here</a>.
       </p>
       
       <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br/>
@@ -754,7 +754,7 @@
 	downloaded from chat forums, and currently bookmarks and recently completed files are
 	stored in plain text. It is our intention to move these into node.db4o or store them
 	in separate encrypted databases, as soon as we have automatic backups for node.db4o.
-	See <a href="http://new-wiki.freenetproject.org/Program_files">here</a> for details 
+	See <a href="https://wiki.freenetproject.org/Program_files">here</a> for details 
 	on some of the files.</p>
 
 	  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
