@@ -67,7 +67,7 @@
       <p>
 	To get write access to the repository you should create a
 	github account and then contact us either through
-	the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
+	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
 	mailing list</a> or
 	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in

@@ -3,7 +3,7 @@
 <br />
 <p><a href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
-Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
+Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='https://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
 </p>
 
 <p><b>Freemail</b><br />
@@ -16,7 +16,7 @@ Freemail provides anonymous e-mail over Freenet. Visit the <a class='wiki'  href
 pyFreenet is an API and a set of tools to access freenet from the python programing language. Tools are currently command-line only.
 </p>
 
-<p><a class='wiki'  href='http://wiki.freenetproject.org/FreenetJsite'><b>jSite</b></a><br />
+<p><a class='wiki'  href='https://wiki.freenetproject.org/FreenetJsite'><b>jSite</b></a><br />
 <br />
 jSite is a graphical application that you can use to create, insert and manage your own Freenet sites.
 </p>

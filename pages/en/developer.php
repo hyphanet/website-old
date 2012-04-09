@@ -185,6 +185,6 @@
     <p>The website is php-based but is compiled at deploy time into static HTML. You can simulate this
     to see exactly what your changes will look like by running the make-pages.sh script (you will need
     php5-cgi). This outputs static HTML to output/.</p>
-    <p>We are trying to move most of the documentation to <a href="http://wiki.freenetproject.org">the 
+    <p>We are trying to move most of the documentation to <a href="https://wiki.freenetproject.org">the 
     wiki</a>, which should be easier to edit.</p>
     

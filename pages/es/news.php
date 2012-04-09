@@ -116,7 +116,7 @@
 	demostrar habilidades básicas de programación reparando una falla pequeña o implementando alguna característica menor; debrías 
 	echar una mirada en <a href="https://bugs.freenetproject.org/">el rastreador de fallas</a>, el cual también podría ser
 	una fuente de ideas de proyecto. <a href="https://wiki.freenetproject.org/">La nueva wiki</a>, y 
-	<a href="http://wiki.freenetproject.org/">la vieja wiki</a> también son buenas fuentes de ideas y
+	<a href="https://wiki.freenetproject.org/">la vieja wiki</a> también son buenas fuentes de ideas y
 	documentación. Si quieres trabajar para nosotros en el verano, por favor <a href="http://socghop.appspot.com/">inscríbete</a>!</p>
 	<p>PD: hemos reinstalado uservoice, luego de que su soporte nos contactó mediante nuestro rastreador de fallas y parece haber solucionado ampliamente el problema del spam
 	<a href="http://freenet.uservoice.com/">Haz click</a> para hacer sugerencias de como mejorar Freenet!</a></p>
@@ -286,7 +286,7 @@ tenga o cualquier comentario que haga sobre cómo podria ser mejor.</p>
 	visitado, o subido, en tu almacén de datos. Sin embargo, para maximizar el desempeño, tenemos
 	un caché privado de los freesites que has visitado, llamado el  "cache del cliente",
 	y tenemos un  "caché slashdot" el cual almacena todo pero solo por 30
-	minutos, para ayudar con la  <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagación de envíos Frost/FMS</a>
+	minutos, para ayudar con la  <a href="https://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagación de envíos Frost/FMS</a>
 	e inundación flash (flash floods). Hemos planeado reparar esto con túneles cifrados (anteriormente
 	conocidos como enrutamiento de pre mezcla (premix routing), pero es un proyecto difícil el cual puede costar mucho
 	desempeño. Los cambios en esta edición reducirán el desempeño levemente, pero 

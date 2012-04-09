@@ -75,8 +75,8 @@
       
       <ol>
 	<li><a href="#rabbit">Où puis-je récupérer une copie haute qualité de l'icône en forme de lapin ?</a></li>
-	<li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">Une autre FAQ sur le wiki (en anglais)</a></li>
-	<li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Une page dédiée à la sécurité de Freenet 0.7 sur notre wiki (en anglais)</a></li>
+	<li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">Une autre FAQ sur le wiki (en anglais)</a></li>
+	<li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Une page dédiée à la sécurité de Freenet 0.7 sur notre wiki (en anglais)</a></li>
      </ol>
 
       <h2>Réponses philosophiques</h2>
@@ -165,7 +165,7 @@
 	parfaitement bien en France, et ce n'est pas nos nombreux utilisateurs Français qui diront
 	le contraire !). Freenet 0.7 possède certaines défenses minimales contre le blocage&nbsp;;
 	le protocole est relativement difficile à identifier (nous le rendrons encore plus difficile
-	dans le future), et le mode <a href="http://wiki.freenetproject.org/DarkNet">darknet</a>
+	dans le future), et le mode <a href="https://wiki.freenetproject.org/DarkNet">darknet</a>
 	(dans lequel vous ne vous connectez qu'à vos amis) rend le harvesting (collecte d'IPs) automatique
 	et le blocage des nœuds Freenet très difficile.
       </p>
@@ -456,7 +456,7 @@
 	with the same name as one already present may actually serve to
 	propagate the existing document. There is also currently no means of
 	deleting a document from Freenet. Documents that are never requested are eventually removed through disuse.</p>
-      <p>However, you can use an <a href="http://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)</a>
+      <p>However, you can use an <a href="https://wiki.freenetproject.org/FreenetUSKPages">Updatable Subspace Key (USK)</a>
 	to provide a form of updatable freesite: your node will automatically look for later editions of
 	the site (after you visit it, or always if you bookmark it), and show you the latest version.</p>
 
@@ -497,7 +497,7 @@
 
       <p><b id="freenethelp">Is there a Help Site that goes deeper into the questions newbies may have about Freenet, and where people can contribute too?</b><br/>
 
-	You could have a look at <a href="http://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
+	You could have a look at <a href="https://wiki.freenetproject.org/">our wiki</a>. There is also an older, largely unmaintained <a href="http://www.freenethelp.org">Freenet Help Site</a> wiki. You can contribute to both, since they are wiki's so most pages are editable.
       </p>
       
       <p><b id="bugs">Where can I report bugs?</b><br/>
@@ -609,7 +609,7 @@
       </ul>
       
       <p>More information on the current practical state of Freenet security is available
-	<a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
+	<a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">here</a>.
       </p>
       
       <p><b id="flooding">Is Freenet vulnerable to flooding attacks?</b><br/>
@@ -634,7 +634,7 @@
 	entire network, it is possible to cripple any public network (including
 	the Internet itself) with floods, but it is our intention to always
 	keep Freenet as resistant to this as theoretically possible.</p>
-      <p>Curiously enough, the above analysis only applies to <a href="http://wiki.freenetproject.org/Opennet">Opennet</a>.
+      <p>Curiously enough, the above analysis only applies to <a href="https://wiki.freenetproject.org/Opennet">Opennet</a>.
 	On Darknet, you might have a little more success, although it would be much harder to change your entry point in any significant way.
 	Nonetheless, you have a reasonably low bandwidth multiplier (the total number of nodes visited, around 20 on average), and you are severely limited by the number of nodes you can connect to, which will be low on a darknet.</p>
       

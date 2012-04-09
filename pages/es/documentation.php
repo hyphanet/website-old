@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
       
@@ -70,7 +70,7 @@
 	</li>
 
 	<li>
-	  <a href="http://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
+	  <a href="https://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
 	  La Freenet Wiki es un espacio dedicado a los usuarios donde se describen
 	  nuevas características antes de encontrarlas en el sitio web.
 	  Es una buena fuente de información sobre toda clase de

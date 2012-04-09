@@ -182,6 +182,6 @@
     <p>El sitio web está basado en php pero es compilado y desarrollado en HTML estático. Puedes simular esto
     para ver exactamente como se verán tus cambios ejecutando el script make-pages.sh (necesitarás 
     php5-cgi). Esto genera los HTML estáticos en output/.</p>
-    <p>Estamos tratando de mover la mayoría de la documentación a <a href="http://wiki.freenetproject.org">la 
+    <p>Estamos tratando de mover la mayoría de la documentación a <a href="https://wiki.freenetproject.org">la 
     wiki</a>, la cual debería ser mucho más fácil de editar.</p>
     

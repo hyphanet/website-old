@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
 
@@ -25,7 +25,7 @@
 
       <p>
 	You
-	can <a href="http://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download
+	can <a href="https://downloads.freenetproject.org/alpha/Thaw/Thaw.jar">download
 	Thaw here</a>. To start it, write in a command prompt:
       </p>
       <pre>

@@ -15,7 +15,7 @@
 	  <li class="dir"><a href="documentation.html">Aide</a>
 	    <ul>
 	      <li><a href="documentation.html">Documentation</a></li>
-	      <li><a href="http://wiki.freenetproject.org/">Wiki</a></li>
+	      <li><a href="https://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Listes de diffusion</a></li>
 	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
@@ -32,8 +32,8 @@
 	  <li class="dir"><a href="developer.html">Contribuer</a>
 	    <ul>
 	      <li><a href="developer.html">Code source</a></li>
-	      <li><a href="http://wiki.freenetproject.org/TranslatingFreenet">Traduction</a></li>
-	      <li><a href="http://wiki.freenetproject.org/FreenetSpecifications">Spécifications</a></li>
+	      <li><a href="https://wiki.freenetproject.org/TranslatingFreenet">Traduction</a></li>
+	      <li><a href="https://wiki.freenetproject.org/FreenetSpecifications">Spécifications</a></li>
 	      <li><a href="https://bugs.freenetproject.org/">Bug tracker</a></li>
 	    </ul>
 	  </li>

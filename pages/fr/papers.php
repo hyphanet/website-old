@@ -74,7 +74,7 @@
 	</p>
 	<hr/>
 	<p>
-	  Voir aussi la <a href="http://wiki.freenetproject.org/FreenetSpecifications">documentation
+	  Voir aussi la <a href="https://wiki.freenetproject.org/FreenetSpecifications">documentation
 	    de développement</a>.
 	<p>
 	</div>

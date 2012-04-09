@@ -4,7 +4,7 @@
 <p><a href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
 <br />
 Thaw es una aplicación para compartir archivos, para agregar cosas, y bajar cosas de Freenet. Las nuevas versiones implementan soporte "index", para aprender más sobre este, 
-sugiero que visites la <a class='wiki'  href='http://wiki.freenetproject.org/Thaw'>página wiki de Thaw</a>.
+sugiero que visites la <a class='wiki'  href='https://wiki.freenetproject.org/Thaw'>página wiki de Thaw</a>.
 </p>
 
 <p><b>Freemail</b><br />
@@ -18,7 +18,7 @@ Freemail provee email anónimo sobre Freenet. Visita el  <a class='wiki'  href='
 pyFreenet es una API y un conjunto de herramientas para acceder a Freenet mediante el lenguaje de programación python. Las herramientas son comunmente mediante la línea de comandos.
 </p>
 
-<p><a class='wiki'  href='http://wiki.freenetproject.org/FreenetJsite'><b>jSite</b></a><br />
+<p><a class='wiki'  href='https://wiki.freenetproject.org/FreenetJsite'><b>jSite</b></a><br />
 <br />
 jSite es una aplicación gráfica que puedes usar para crear, insertar y administrar tus propios sitios Freenet.
 </p>

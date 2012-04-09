@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
 
@@ -39,8 +39,8 @@
       <p>For a graphical installation you have to have:</p>
       <ul>
 	<li>A working Java Runtime Environment,</li>
-	<li>a downloaded copy of <a href="http://downloads.freenetproject.org/alpha/installer/new_installer.jar">
-	    http://downloads.freenetproject.org/alpha/installer/new_installer.jar</a> and</li>
+	<li>a downloaded copy of <a href="https://downloads.freenetproject.org/alpha/installer/new_installer.jar">
+	    https://downloads.freenetproject.org/alpha/installer/new_installer.jar</a> and</li>
 	<li>a working graphical user interface (GUI)</li>
       </ul>
       

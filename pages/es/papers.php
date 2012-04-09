@@ -77,7 +77,7 @@
 	</p>
 	<hr/>
 	<p>
-	  Mira además toda la <a href="http://wiki.freenetproject.org/FreenetSpecifications">Documentación de
+	  Mira además toda la <a href="https://wiki.freenetproject.org/FreenetSpecifications">Documentación de
 	    Desarrolladores</a>.
 	<p>
 	<!-- It's way out of date

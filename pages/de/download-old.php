@@ -23,12 +23,12 @@ erhalten.</i>
 <h3>Windows</h3>
 <ul>
 <li>Laden Sie die <big><a
-href="http://downloads.freenetproject.org/freenet-java-webinstall.exe"
+href="https://downloads.freenetproject.org/freenet-java-webinstall.exe"
 >freenet-java-webinstall.exe</a></big> herunter, welche Java enthält, und
 starten Sie sie <b>oder</b></li>
 <li>wenn Sie bereits Java 5 Update 4 oder höher (aus Sicherheitsgründen
 <b>dringend</b> empfohlen, obwohl Version 1.4.1 oder höher auch funktioniert)
-haben, <big><a href="http://downloads.freenetproject.org/freenet-webinstall.exe"
+haben, <big><a href="https://downloads.freenetproject.org/freenet-webinstall.exe"
 >freenet-webinstall.exe</a></big></li>
 </ul>
 <p>Sie wird Freenet und andere benötigte Komponenten automatisch für Sie
@@ -60,7 +60,7 @@ Freenet läuft zurzeit, aufgrund von Fehlern in Classpath, nicht auf Kaffe oder
 GCJ. Wir arbeiten daran.
 </p>
 <p>Wenn Sie Java installiert haben laden Sie <a 
-href="http://downloads.freenetproject.org/freenet-stable-latest.tgz"
+href="https://downloads.freenetproject.org/freenet-stable-latest.tgz"
 >freenet-stable-latest.tgz</a> herunter. Starten Sie indem Sie Folgendes
 eingeben:
 <pre>
@@ -107,13 +107,13 @@ href="http://freenet.googlecode.com/svn/branches/legacy/stable/"
 >http://freenet.googlecode.com/svn/branches/legacy/stable/</a> beziehen oder Sie
 können einen täglichen Schnappschuss herunterladen:
 <ul>
-<li><a href="http://downloads.freenetproject.org/freenet-stable-latest.src.tbz"
+<li><a href="https://downloads.freenetproject.org/freenet-stable-latest.src.tbz"
 >Stable</a> - aktueller Quellcode der stabilen Version</li>
 <li><a
-href="http://downloads.freenetproject.org/freenet-unstable-latest.src.tbz"
+href="https://downloads.freenetproject.org/freenet-unstable-latest.src.tbz"
 >Unstable</a> - aktueller Quellcode der instabilen Version</li>
 <li><a
-href="http://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2"
+href="https://downloads.freenetproject.org/freenet-contrib-latest.src.tar.bz2"
 >Contrib</a> - separates Modul, das gebraucht wird um die freenet-ext.jar zu
 kompilieren; entpacken Sie dies und eines der oberen in ein gemeinsames
 Überverzeichnis und führen Sie dann &bdquo;ant distclean dist&ldquo; aus um

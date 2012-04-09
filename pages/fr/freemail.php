@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
 
@@ -28,7 +28,7 @@
 
       <p>
 	You can download the latest pre-compiled version
-	from <a href="http://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a>
+	from <a href="https://downloads.freenetproject.org/alpha/plugins/Freemail/">http://downloads.freenetproject.org/alpha/plugins/Freemail/</a>
       </p>
       
       <h3>Easy account setup</h3>

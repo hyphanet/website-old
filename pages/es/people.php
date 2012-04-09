@@ -48,7 +48,7 @@
 	<p>
 	  Michael ha contribuído mayormente con detalladas simulaciones como parte del Google 
 	  Summer of Code. Ha sido de mucha ayuda en el diseño de la 
-	  <a href="http://wiki.freenetproject.org/NewTransportLayer">nueva
+	  <a href="https://wiki.freenetproject.org/NewTransportLayer">nueva
 	    capa de transporte</a>.
 	</p>
 

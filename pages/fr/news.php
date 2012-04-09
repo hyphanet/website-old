@@ -47,7 +47,7 @@
 	visit, or upload, in your datastore. However, to maximise performance, we do
 	have a private cache of freesites you have visited, called the "client cache",
 	and we have a "slashdot cache" which caches everything else but only for 30
-	minutes, to help with <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
+	minutes, to help with <a href="https://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
 	and flash floods. We had planned to fix this with encrypted tunnels (formerly
 	known as premix routing), but that is a difficult project which may cost a lot
 	of performance. The changes in this build may reduce performance slightly, but 
@@ -179,7 +179,7 @@
 	join us
 	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in the #freenet channel at irc.freenode.net, or email
-	the <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
+	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to
 	improve Freenet, please
 	visit <a href="http://freenet.uservoice.com/">our uservoice
@@ -191,7 +191,7 @@
 	web design skills, or would like to help translate Freenet
 	into your own language, and would like to help us improve
 	Freenet, please join
-	our <a href="http://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
+	our <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
 	mailing list</a> and introduce yourself.
       </p>
 

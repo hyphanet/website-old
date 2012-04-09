@@ -219,7 +219,7 @@
       
       <p>
     Freenet itself includes anonymous websites ("freesites"), filesharing, searching, and 
-    more, but you can also use <a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
+    more, but you can also use <a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
 	applications</a> for chat, filesharing, to help you upload freesites, etc.
       </p>
       

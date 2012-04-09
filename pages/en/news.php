@@ -112,7 +112,7 @@
 	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
 	a source of project ideas. <a href="https://wiki.freenetproject.org/">The new wiki</a>, and 
-	<a href="http://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
+	<a href="https://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
 	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
 	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
 	<a href="http://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
@@ -240,7 +240,7 @@
 	visit, or upload, in your datastore. However, to maximise performance, we do
 	have a private cache of freesites you have visited, called the "client cache",
 	and we have a "slashdot cache" which caches everything else but only for 30
-	minutes, to help with <a href="http://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
+	minutes, to help with <a href="https://wiki.freenetproject.org/UltraLightweightPassiveRequests">propagating Frost/FMS posts</a>
 	and flash floods. We had planned to fix this with encrypted tunnels (formerly
 	known as premix routing), but that is a difficult project which may cost a lot
 	of performance. The changes in this build may reduce performance slightly, but 

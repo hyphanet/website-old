@@ -75,8 +75,8 @@
       </li></ol>
       <h3> Preguntas varias</h3>
       <ol><li><a href="#rabbit">¿Dónde puedo obtener una copia de alta cálida del conejo del logo?</a>
-	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">Otras PUF en nuestro servidor wiki</a>
-	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Una página dedicada a la seguridad de Freenet 0.7 en nuestro servidor wiki</a>
+	</li><li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">Otras PUF en nuestro servidor wiki</a>
+	</li><li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Una página dedicada a la seguridad de Freenet 0.7 en nuestro servidor wiki</a>
       </li></ol>
       <h2> Respuestas filosóficas
       </h2><p><b id="what">¿Qué es Freenet?</b><br/>
@@ -449,7 +449,7 @@
 
 	Echa una mirada en <a href="https://wiki.freenetproject.org/">nuestra wiki</a>.
 	Una antigua wiki, la cual es ahora de solo lectura, pero tiene una gran cantidad de contenido tal que
-	a veces es útil está <a href="http://wiki.freenetproject.org/">aquí</a>. 
+	a veces es útil está <a href="https://wiki.freenetproject.org/">aquí</a>. 
 	Hay también varias implementaciones de wikis sobre Freenet. La más reciente
 	es una llamada Jfniki. Hay un enlace en los marcadores por defecto en la página 
 	Navegar Freenet luego que instalas Freenet.
@@ -656,7 +656,7 @@
 	red entera,es posible lisiar cualquier red pública (incluyendo 
 	internet en si misma) con inundaciones,pero es nuestra intención siemper
 	mantener Freenet tan resistente a esto como sea teóricamente posible.</p>
-      <p>Bastante curiosamente, el análisis anterior solo se aplica a la  <a href="http://wiki.freenetproject.org/Opennet">Red Abierta</a>.
+      <p>Bastante curiosamente, el análisis anterior solo se aplica a la  <a href="https://wiki.freenetproject.org/Opennet">Red Abierta</a>.
 	En Darknet, tendrías un poco menos de éxito, aunque sería mucho más difícil cambiar tu punto de entrada de forma significativa.
 	No obstante, tienes un multiplicador de ancho de banda razonablemente bajo el total de nodos visitados, (alrededor de 20 en promedio), 
 	y estás severamente limitado por el número de nodos a los que conectar, lo cual puede ser lento en darknet.</p>

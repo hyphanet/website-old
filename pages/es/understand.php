@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
 

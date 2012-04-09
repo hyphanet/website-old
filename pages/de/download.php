@@ -99,8 +99,8 @@ Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 <p>Oder folgendes, wenn es sich um ein System ohne grafische Oberfläche handelt:
 </p>
 <pre>
-wget <a href="http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz"
->http://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
+wget <a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz"
+>https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
 tar xvzf freenet07.tar.gz
 cd freenet
 ./run.sh start
@@ -200,7 +200,7 @@ Freenet wird von selbst funktionieren.
 sich hier befindet:</p>
 <pre>http://127.0.0.1:8888/</pre>
 <p>Es gibt Links zu ein paar
-<a href="http://wiki.freenetproject.org/FreenetZeroPointSevenApps">Programmen
+<a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">Programmen
 von Drittanbietern für Freenet</a>.</p>
 
 <h3>Es funktioniert nicht, was nun?</h3>

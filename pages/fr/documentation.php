@@ -9,7 +9,7 @@
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
 	  <a href="thaw.html">Thaw</a>
-	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	  <a href="https://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
       <p>
@@ -69,7 +69,7 @@
 	</li>
 
 	<li>
-	  <a href="http://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
+	  <a href="https://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
 	  The Freenet Wiki is a user driven space where new features
 	  may be described before finding its way into the website.
 	  It is a good source of information about all sorts of

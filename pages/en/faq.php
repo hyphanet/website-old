@@ -75,8 +75,8 @@
       </li></ol>
       <h3> Misc. questions</h3>
       <ol><li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a>
-	</li><li><a href="http://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-	</li><li><a href="http://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
+	</li><li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
+	</li><li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
       </li></ol>
       <h2> Philosophical answers
       </h2><p><b id="what">What is Freenet?</b><br/>
@@ -448,7 +448,7 @@
 
 	Have a look at <a href="https://wiki.freenetproject.org/">our wiki</a>.
 	An older wiki, which is now read-only, but has a fair amount of content so is
-	sometimes helpful is <a href="http://wiki.freenetproject.org/">here</a>. 
+	sometimes helpful is <a href="https://wiki.freenetproject.org/">here</a>. 
 	There are also several implementations of wiki's over Freenet. The most recent
 	one is called Jfniki. There is a link in the default bookmarks on the Browse 
 	Freenet page after you install Freenet.
@@ -654,7 +654,7 @@
 	entire network, it is possible to cripple any public network (including
 	the Internet itself) with floods, but it is our intention to always
 	keep Freenet as resistant to this as theoretically possible.</p>
-      <p>Curiously enough, the above analysis only applies to <a href="http://wiki.freenetproject.org/Opennet">Opennet</a>.
+      <p>Curiously enough, the above analysis only applies to <a href="https://wiki.freenetproject.org/Opennet">Opennet</a>.
 	On Darknet, you might have a little more success, although it would be much harder to change your entry point in any significant way.
 	Nonetheless, you have a reasonably low bandwidth multiplier (the total number of nodes visited, around 20 on average), and you are severely limited by the number of nodes you can connect to, which will be low on a darknet.</p>
       

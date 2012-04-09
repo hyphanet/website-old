@@ -78,7 +78,7 @@
 	<hr/>
 	<p>
 	  See also all the
-	  other <a href="http://wiki.freenetproject.org/FreenetSpecifications">Developer
+	  other <a href="https://wiki.freenetproject.org/FreenetSpecifications">Developer
 	    documentation</a>.
 	<p>
 	<!-- It's way out of date
