@@ -115,7 +115,7 @@
 	<a href="https://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
 	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
 	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
-	<a href="http://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
+	<a href="https://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
 
 	<a name="build-1243-opennet-changes"><h3>17th March, 2010 - Opennet performance improvements and build 1243</h3></a>
 	<p>Build 1243 is now out. This contains many changes aimed at making new nodes get up to speed faster by getting 
@@ -195,7 +195,7 @@
 <p>More broadly on usability, usability testing is always welcome: Persuade a friend to install Freenet, watch them do it, don't help them unless they get really stuck, report any problems they have or any comments they make about how it could be better.</p>
 
 	<a name="more-peers"><h3>21st August, 2009 - Freenet increases peers limit (#1 on uservoice)</h3></a>
-	<p>Freenet 0.7 build 1231 solves what was <a href="http://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
+	<p>Freenet 0.7 build 1231 solves what was <a href="https://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
 	the number one uservoice request</a>. Until now, most Freenet nodes have had exactly 20 connections. Now,
 	the number of connections (opennet peers, or "Connections to Strangers") will vary according to how much
 	upstream bandwidth you have, between 10 and 40. So slow nodes will have fewer peers (trading slightly less
@@ -375,7 +375,7 @@
 	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to
 	improve Freenet, please
-	visit <a href="http://freenet.uservoice.com/">our uservoice
+	visit <a href="https://freenet.uservoice.com/">our uservoice
 	  page</a>.
       </p>
       <p>

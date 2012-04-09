@@ -18,7 +18,7 @@
 	      <li><a href="https://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">PUF</a></li>
 	      <li><a href="lists.html">Listas de Email</a></li>
-	      <li><a href="http://freenet.uservoice.com/">Sugerencias</a></li>
+	      <li><a href="https://freenet.uservoice.com/">Sugerencias</a></li>
 	      <li class="last"><a href="irc.html">Chat</a></li>
 	    </ul>
 	  </li>

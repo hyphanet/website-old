@@ -2,7 +2,7 @@
 
 
 	<a name="more-peers"><h3>21st August, 2009 - Freenet increases peers limit (#1 on uservoice)</h3></a>
-	<p>Freenet 0.7 build 1231 solves what was <a href="http://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
+	<p>Freenet 0.7 build 1231 solves what was <a href="https://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
 	the number one uservoice request</a>. Until now, most Freenet nodes have had exactly 20 connections. Now,
 	the number of connections (opennet peers, or "Connections to Strangers") will vary according to how much
 	upstream bandwidth you have, between 10 and 40. So slow nodes will have fewer peers (trading slightly less
@@ -182,7 +182,7 @@
 	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">support
 	  mailing list</a>. If you have any suggestions for how to
 	improve Freenet, please
-	visit <a href="http://freenet.uservoice.com/">our uservoice
+	visit <a href="https://freenet.uservoice.com/">our uservoice
 	  page</a>.
       </p>
       <p>

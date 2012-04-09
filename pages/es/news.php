@@ -119,7 +119,7 @@
 	<a href="https://wiki.freenetproject.org/">la vieja wiki</a> también son buenas fuentes de ideas y
 	documentación. Si quieres trabajar para nosotros en el verano, por favor <a href="http://socghop.appspot.com/">inscríbete</a>!</p>
 	<p>PD: hemos reinstalado uservoice, luego de que su soporte nos contactó mediante nuestro rastreador de fallas y parece haber solucionado ampliamente el problema del spam
-	<a href="http://freenet.uservoice.com/">Haz click</a> para hacer sugerencias de como mejorar Freenet!</a></p>
+	<a href="https://freenet.uservoice.com/">Haz click</a> para hacer sugerencias de como mejorar Freenet!</a></p>
 
 	<a name="build-1243-opennet-changes"><h3>17 de Marzo, 2010 - Mejoras en el desempeño de la red abierta y versión 1243</h3></a>
 	<p>La versión 1243 está liberada. Tiene muchos cambios focalizados en hacer que los nuevos nodos tomen velocidad más rápido haciendo que  
@@ -241,7 +241,7 @@ para cada imagen sin consumir demasiado del limitado número de conexiones de tu
 tenga o cualquier comentario que haga sobre cómo podria ser mejor.</p>
 
 	<a name="more-peers"><h3>21de Agosto, 2009 - Freenet incrementa el número de pares (#1 on uservoice)</h3></a>
-	<p>Freenet 0.7 versión 1231 resuelve lo que fué <a href="http://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
+	<p>Freenet 0.7 versión 1231 resuelve lo que fué <a href="https://freenet.uservoice.com/pages/8861-general/suggestions/93039-release-the-20-nodes-barrier?ref=title">
 	el número uno de peticiones uservoice</a>. Hasta ahora, la mayoría de los nodos Freenet tenían exactamente 20 conexiones. Ahora,
 	el número de conexiones (pares de red abierta, o "Conexiones con Desconocidos") variará de acuerdo a cuanto
 	ancho de banda de subida tengas, entre 10 y 40. Así los nodos lentos tendrán menos pares (negociando un enrutamiento
@@ -420,7 +420,7 @@ tenga o cualquier comentario que haga sobre cómo podria ser mejor.</p>
 	la <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support/">lista de correos
 	de soporte</a>. Si tienes alguna sugerencia de cómo mejorar
 	Freenet, por favor
-	visita <a href="http://freenet.uservoice.com/">nuestra página de uservoice</a>.
+	visita <a href="https://freenet.uservoice.com/">nuestra página de uservoice</a>.
       </p>
       <p>
 	Hay mucho trabajo para hacer aún en Freenet, particularmente

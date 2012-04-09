@@ -18,7 +18,7 @@
 	      <li><a href="https://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Listes de diffusion</a></li>
-	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
+	      <li><a href="https://freenet.uservoice.com/">Suggestions</a></li>
 	      <li><a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">Chattez avec nous</a></li>
 	    </ul>
 	  </li>
