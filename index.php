@@ -52,6 +52,7 @@ include 'includes/common.inc.php';
 	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="?language=es">es</a> 
 	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="?language=en">en</a>
 	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="?language=fr">fr</a>
+	    <a <?php if ($lang == "cn") echo "id=\"selected-lang\""?> class="drapeau" href="?language=cn">zh_CN</a>
 
 	  <?php if($lang == "en") 
 		echo "Select your language:";
@@ -59,6 +60,8 @@ include 'includes/common.inc.php';
 		echo "Seleccione su idioma:";
 	  else if($lang == "fr")
 		echo "Sélectionnez votre langue:";
+	  else if($lang == "cn")
+		echo "选择你的语言：";
 	  ?>
 	  </p>
 	</div>
