@@ -8,6 +8,8 @@ $pages = array(
 'no' => 'pages/no/menu.php',
 'da' => 'pages/da/menu.php',
 'es' => 'pages/es/menu.php',
-'fr' => 'pages/fr/menu.php')
+'fr' => 'pages/fr/menu.php',
+'cn' => 'pages/cn/menu.php'
+)
 
 ?>
