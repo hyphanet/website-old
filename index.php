@@ -49,13 +49,16 @@ include 'includes/common.inc.php';
 	</div>
 	<div id="lang">
 	  <p> 
-	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="?language=es">es</a> 
 	    <a <?php if ($lang == "en") echo "id=\"selected-lang\""?> class="drapeau" href="?language=en">en</a>
+	    <a <?php if ($lang == "de") echo "id=\"selected-lang\""?> class="drapeau" href="?language=de">de</a>
+	    <a <?php if ($lang == "es") echo "id=\"selected-lang\""?> class="drapeau" href="?language=es">es</a> 
 	    <a <?php if ($lang == "fr") echo "id=\"selected-lang\""?> class="drapeau" href="?language=fr">fr</a>
 	    <a <?php if ($lang == "zh-cn") echo "id=\"selected-lang\""?> class="drapeau" href="?language=zh-cn">zh-cn</a>
 
 	  <?php if($lang == "en") 
 		echo "Select your language:";
+	  else if($lang == "de")
+		echo "Wählen Sie Ihre Sprache:";
 	  else if($lang == "es")
 		echo "Seleccione su idioma:";
 	  else if($lang == "fr")
