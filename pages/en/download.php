@@ -82,10 +82,8 @@
 	  from <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	  You need Java version 1.6. You should keep it up to date to
-	  avoid problems and for best performance. Also, you might need
-	  wget for the commands below to work (on Ubuntu, do
-	  "sudo apt-get install wget" on a console).
+	  Java version 1.6 or higher is required. You should keep Java up to date to
+	  avoid problems and for better performance.
 	</p>
 
 	<p>
@@ -106,10 +104,11 @@
 	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg
 	    signature</a>) and then clicking on the file may work on
 	  some systems, but if there are problems we recommend the
-	  above command lines.
+	  above command lines. If wget is not installed, it can be installed with a package manager, such as
+	  sudo apt-get install wget on Debian or Ubuntu.
 	</p>
 	
-	<p><b>Headless servers:</b> The standard installer above requires a GUI (i.e. Gnome, KDE, X windows etc). We strongly recommend you use the standard installer. On a console-only server (for instance a linux virtual server), you should install the X client libraries and use ssh -X to run the GUI installer remotely. It is also possible to use the headless installer. This is deprecated and not recommended. You must install the latest Sun Java, and make sure it is on the path and is the default JVM (try update-java-alternatives on ubuntu), and then install wget or curl, then download <a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">this file</a>, unpack it and run "./run.sh start". Then open <a href="http://127.0.0.1:8888/">a browser</a>. You might also want to change the memory limit in wrapper.conf. See <a href="faq.html#fproxy-lan">here</a> for how to open your node to other computers on the same network.</p>
+	<p><b>Headless servers:</b> The above installer will work in headless environments. This console mode can be manually enabled with the --console switch. The Debian and Ubuntu default-jre-headless package may prove useful.</p>
 
 	<div id="mirrored">
 	  
