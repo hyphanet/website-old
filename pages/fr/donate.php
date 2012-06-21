@@ -31,7 +31,7 @@
 	difficile de dire si nous pourrons payer un developpeur le mois suivant
 	bien que jusqu'à maintenant nous avons eu de la chance.<br/>
 	Vous pouvez devenir membre en cliquant sur ce bouton (vous aurez
-	besoin d'un <a href="https://paypal.com">compte PayPal</a>) :
+	besoin d'un <a rel="nofollow" href="https://www.paypal.com">compte PayPal</a>) :
 	  <center>
 	    <table>
 	      <tr>
@@ -162,7 +162,7 @@
               <hr width="90%"/>
             </p>
             <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
-            Vous pouvez aussi faire votre dont en utilisant <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
+            Vous pouvez aussi faire votre dont en utilisant <a rel="nofollow" href="http://www.bitcoin.org/">bitcoin</a>.<br>
             <div>Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
  
 	    <hr width="90%"/>
@@ -173,7 +173,7 @@
 	    </li>
 	    <li>
 	    Vous pouvez aussi donner au projet en achetant des articles de la
-	    <a href="http://cafepress.com/freenetproject/">boutique Freenet</a>.
+	    <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">boutique Freenet</a>.
 	    </li>
 	  </ul>
 	  </p>

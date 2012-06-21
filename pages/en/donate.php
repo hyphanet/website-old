@@ -29,7 +29,7 @@
 	  the following month although so-far we have been fortunate.  You
 	  can become a member by clicking on this button (you will need a
 	  
-	  <a href="https://www.paypal.com/">PayPal</a> account):
+	  <a rel="nofollow" href="https://www.paypal.com/">PayPal</a> account):
 	  <center>
 	    <table>
 	      <tr>
@@ -156,14 +156,14 @@
 	      <hr width="90%"/>
 	    </p>
 	    <li><img src="/image/BC_nBG_48px.png" width="126" height="48">
-	    You can now donate to the Freenet Project using <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
+	    You can now donate to the Freenet Project using <a rel="nofollow" href="http://www.bitcoin.org/">bitcoin</a>.<br>
 	    <div>Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 	    
 	    <hr width="90%">
 	    <li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
 	      if you cannot use any of these payment methods.</li>
 	    <li>You can also donate to the project by purchasing items from the 
-	      Freenet <a href="http://cafepress.com/freenetproject/">store</a>.</li>
+	      Freenet <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">store</a>.</li>
 	  </ul>
 	  <h4>How can I be sure that my donation will be used appropriately?</h4>
 	  <p>

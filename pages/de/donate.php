@@ -25,7 +25,7 @@ erleichtert potenzielle Entwickler langfristig zu engagieren - zurzeit ist es
 schwierig vorherzusagen ob wir einen Entwickler im nächsten Monat noch bezahlen
 können, obwohl wir bis jetzt Glück hatten. Sie können ein Mitglied werden indem
 Sie diesen Knopf anklicken (Sie brauchen ein
-<a href="http://www.paypal.de/">PayPal</a>-Konto):
+<a rel="nofollow" href="https://www.paypal.de/">PayPal</a>-Konto):
 
 <center>
 <table><tr><td bgcolor="#DDDDFF" style="{padding:4px; border:1px solid silver}">

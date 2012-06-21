@@ -28,7 +28,7 @@
 	  el mes siguiente aunque hasta el momento hemos sido afortunados.  Puedes
 	  convertirte en miembro haciendo click en este botón (necesitas una cuenta
 	  
-	  <a href="https://www.paypal.com/">PayPal</a>):
+	  <a rel="nofollow" href="https://www.paypal.com/">PayPal</a>):
 	  <center>
 	    <table>
 	      <tr>
@@ -155,24 +155,14 @@
 	      <hr width="90%"/>
 	    </p>
 	    <li><img src="image/BC_nBG_48px.png" width="126" height="48">
-	    Ahora puedes donar al Proyecto Freenet mediante <a href="http://www.bitcoin.org/">bitcoin</a>.<br>
+	    Ahora puedes donar al Proyecto Freenet mediante <a rel="nofollow" href="http://www.bitcoin.org/">bitcoin</a>.<br>
 	    <div id="bitcoin-account">Envía tus donaciones a la cuenta: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
-	    <div id="bitcoin-warning"><a href="https://freenetproject.org/donate.html">Cambia a SSL</a> para ver nuestra direccion en  bitcoin.</div></li>
-	<script type="text/javascript">
-	if(window.location.protocol=="https:") {
-		showDiv("bitcoin-account");
-		hideDiv("bitcoin-warning");
-	} else {
-		showDiv("bitcoin-warning");
-		hideDiv("bitcoin-account");
-	}
-	</script>
 	    
 	    <hr width="90%">
 	    <li>Alternativamente, por favor <a href="mailto:ian@freenetproject.org">contáctanos</a> 
 	      si no puedes usar ninguno de esos métodos de pago.</li>
 	    <li>También puedes contribuir al proyecto comprando un souvenir de la  
-	       <a href="http://cafepress.com/freenetproject/">tienda</a>Freenet.</li>
+	       <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">tienda</a>Freenet.</li>
 	  </ul>
 	  <h4>Cómo puedo estar seguro que mi donación será usada con propiedad?</h4>
 	  <p>
