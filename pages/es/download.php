@@ -13,7 +13,7 @@
     conectando automáticamente con otros Nodos (Desconocidos). Sin embargo,
     si conoces algunas personas que ya estén usando Freenet, puedes
     habilitar el modo alta_seguridad y 
-    <a href="http://127.0.0.1:8888/addfriend/">agregarlos como Amigos</a>, 
+    <a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">agregarlos como Amigos</a>, 
 	entonces Freenet solamente conectará con ellos, haciendo tu uso de Freenet 
 	prácticamente indetectable, y aún serás capaz de acceder al resto de las
 	redes mediante amigos de amigos etc. Esto será lento a menos 
@@ -76,8 +76,8 @@
 	  Necesitas tener un <b>Java Runtime Environment</b>
 	  (JRE) actualizado. Hemos obtenido mejores resultados con el Java
 	  Runtime Environment de Sun el cual puedes obtener mediante 
-	  tu <a href="https://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
-	  de <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
+	  tu <a rel="nofollow" href="https://en.wikipedia.org/wiki/Package_manager">Administrador de paquetes</a> o
+	  de <a rel="nofollow" href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
 	  Necesitas Java versión 1.6. Deberías mantenerla actualizada para
@@ -111,7 +111,7 @@
 	También es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
 	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
 	<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
-	Luego abrir <a href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
+	Luego abrir <a rel="nofollow" href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
 	cómo abrir tu nodo a otras computadores en tu misma red.</p>
 
 	<div id="mirrored">
@@ -195,7 +195,7 @@
 	comenzar a usar Freenet. Puedes acceder a Freenet más tarde via la bandeja de sistema
 	(abajo a la derecha en la pantalla), o usar el atajo Abrir Freenet en el escritorio 
 	y/o menú de inicio. Si no funciona, abre 
-	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> en tu navegador web.
+	<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> en tu navegador web.
       
       <p>
 	Para más seguridad deberías usar un navegador aparte para Freenet, 
@@ -207,7 +207,7 @@
       <p>
 	Si conoces a algunas personas corriendo Freenet, puedes mejorar tu seguiridad y  
 	ayudar a construir una red robusta conectándote a sus nodos. Primero, abre la  
-	<a href="http://127.0.0.1:8888/addfriend/">página Agregar un amigo</a>. Tú y tu 
+	<a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">página Agregar un amigo</a>. Tú y tu 
 	amigo deberán cada uno descargar sus "referencias de nodo". Envía el archivo
 	a la otra persona, y agrega su referencia de nodo usando el formulario al pie 
 	de la página.Cuando ambos estén agregados, el nodo de tu amigo debería mostrarse en la página 
@@ -231,7 +231,7 @@
 	Si tienes problemas instalando o corriendo Freenet, por favor contacta con nosotros en
 	<a href="mailto:support@freenetproject.org">la lista de soporte</a> 
 	(<a href="lists.html">subscribe aquí</a>), o únete al IRC en el 
-	canal #freenet en irc.freenode.net (intenta <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">aquí</a>).
+	canal #freenet en irc.freenode.net (intenta <a rel="nofollow" href="https://webchat.freenode.net/?randomnick=1&channels=freenet">aquí</a>).
       </p>
       
       <h3>Requerimientos de Hardware</h3>
@@ -252,8 +252,8 @@
       
       <p>
       En Windows 64-bit , instalaremos una Java Virtual Machine de 32-bit  a causa 
-      de limitaciones en el <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
-      Este no se auto actualizará a si mismo necesariamente, quizas necesites <a href="http://www.java.com/en/download/manual.jsp">actualizarlo ocacionalmente</a>.
+      de limitaciones en el <a rel="nofollow" href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
+      Este no se auto actualizará a si mismo necesariamente, quizas necesites <a rel="nofollow" href="http://www.java.com/en/download/manual.jsp">actualizarlo ocacionalmente</a>.
       </p>
       
       <h3>Actualizando</h3>

@@ -5,7 +5,7 @@
       </p>
       <p>
     通常 Freenet 安装好后将自动连接并立即 "开始工作", 自动连接其他节点 (陌生人). 但是, 如果你知道有其他人运行 Freenet, 你可以高安全模式并
-    <a href="http://127.0.0.1:8888/addfriend/">添加他们为好友</a>, 
+    <a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">添加他们为好友</a>, 
 	Freenet 将会连接他们, 让你的 Freenet 在仍然可以被他们好友的好友访问时几乎完全无法探测. 此模式下的连接速度将非常慢, 除非你有 10 个以上的在线活跃好友.
       </p>
 
@@ -58,7 +58,7 @@
 	</p>	
 	<p>
 	  你需要有最近的 <b>Java 运行时环境</b>
-	  (JRE). 我们发现最好的获取 Java 运行时环境的方式是通过你的<a href="https://en.wikipedia.org/wiki/Package_manager">包管理器</a>或官方网站<a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
+	  (JRE). 我们发现最好的获取 Java 运行时环境的方式是通过你的<a rel="nofollow" href="https://en.wikipedia.org/wiki/Package_manager">包管理器</a>或官方网站<a rel="nofollow" href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
 	  你需要 Java 版本 1.6. 你应保持更新以避免问题和保持最佳性能. 同时, 你可能需要 wget 以便执行以下指令 (在 Ubuntu, 在终端执行
@@ -83,7 +83,7 @@
 	    签名</a>) 并执行可能成功, 如果不成功, 我们推荐使用上述的命令行.
 	</p>
 	
-	<p><b>无头服务器:</b> 上面的标准安装包需要 GUI (即, Gnome, KDE, X window 等). 我们强烈建议使用标准安装包. 在无图形介面的服务器上 (如 Linux 虚拟服务器), 你应安装 X client libraries 库并使用 ssh -X 远程运行安装包. 使用无头安装包也是可能的. 此方法已陈废并不被推荐. 你仍需要安装最新的 Sun Java, 并确保其在 path 中为缺省的 JVM (在 ubuntu 中使用 update-java-alternatives), 接着安装 wget 或 curl, 再下载<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">这个文件</a>, 解压并执行 "./run.sh start". 再打开<a href="http://127.0.0.1:8888/">浏览器</a>. 你可能还需要更改 wrapper.conf 中的内存限制. 参见<a href="faq.html#fproxy-lan">这里</a>了解如何在同一网中向其他电脑开放节点.</p>
+	<p><b>无头服务器:</b> 上面的标准安装包需要 GUI (即, Gnome, KDE, X window 等). 我们强烈建议使用标准安装包. 在无图形介面的服务器上 (如 Linux 虚拟服务器), 你应安装 X client libraries 库并使用 ssh -X 远程运行安装包. 使用无头安装包也是可能的. 此方法已陈废并不被推荐. 你仍需要安装最新的 Sun Java, 并确保其在 path 中为缺省的 JVM (在 ubuntu 中使用 update-java-alternatives), 接着安装 wget 或 curl, 再下载<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">这个文件</a>, 解压并执行 "./run.sh start". 再打开<a rel="nofollow" href="http://127.0.0.1:8888/">浏览器</a>. 你可能还需要更改 wrapper.conf 中的内存限制. 参见<a href="faq.html#fproxy-lan">这里</a>了解如何在同一网中向其他电脑开放节点.</p>
 
 	<div id="mirrored">
 	  
@@ -147,14 +147,14 @@
       <h3>已经运行了, 我该做什么?</h3>
       
       <p>
-	安装完成后, 浏览器应该打开一个指向首次运行向导的窗口. 你应在此先配置基本设定, 然后再使用 Freenet. 你可以通过 (屏幕右下角) 系统通知栏菜单再次访问 Freenet, 或通过桌面/开始菜单中的 Freenet 快捷方式. 如果不成功, 试着在浏览器中打开<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>.
+	安装完成后, 浏览器应该打开一个指向首次运行向导的窗口. 你应在此先配置基本设定, 然后再使用 Freenet. 你可以通过 (屏幕右下角) 系统通知栏菜单再次访问 Freenet, 或通过桌面/开始菜单中的 Freenet 快捷方式. 如果不成功, 试着在浏览器中打开<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>.
       
       <p>
 	为了最佳安全性, 你应使用单独的浏览器窗口打开 Freenet, 最好使用隐身模式. Windows 上, 如果可能系统通知栏将优先使用 Chrome 隐身模式. Internet Explorer 不能与 Freenet 很好配合工作, Firefox 和 Opera 可以使用.
       </p>
       
       <p>
-	如果你有认识任何人运行 Freenet, 你可以连接他们的节点以增强你的安全性和网络性能. 首先打开<a href="http://127.0.0.1:8888/addfriend/">添加好友页面</a>. 你和好友都 应下载下 "节点参考值文件". 发送文件给对方, 使用页面底部的表单添加参考值. 当双方完成后, 你好友的节点会在好友页显示, 状态可能是 "已连接" 或 "繁忙". 你可以在配置页为你的节点设置一个方便识别的名字. 无论是在网上还是线下, 请只添加<b>你真正认识的人</b>, 添加陌生人会损害性能和安全性 (他们可能是坏蛋!).
+	如果你有认识任何人运行 Freenet, 你可以连接他们的节点以增强你的安全性和网络性能. 首先打开<a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">添加好友页面</a>. 你和好友都 应下载下 "节点参考值文件". 发送文件给对方, 使用页面底部的表单添加参考值. 当双方完成后, 你好友的节点会在好友页显示, 状态可能是 "已连接" 或 "繁忙". 你可以在配置页为你的节点设置一个方便识别的名字. 无论是在网上还是线下, 请只添加<b>你真正认识的人</b>, 添加陌生人会损害性能和安全性 (他们可能是坏蛋!).
       </p>
       
       <h3>已经连接了, 我该做什么?</h3>
@@ -167,7 +167,7 @@
       
       <p>
 	如果是安装和运行 Freenet 的问题, 请从<a href="mailto:support@freenetproject.org">帮助邮件列表</a>与我们联系 
-	(<a href="lists.html">点此订阅</a>), 或加入 irc.freenode.net 上的 IRC 频道 #freenet (网页版在<a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">这里</a>).
+	(<a href="lists.html">点此订阅</a>), 或加入 irc.freenode.net 上的 IRC 频道 #freenet (网页版在<a rel="nofollow" href="https://webchat.freenode.net/?randomnick=1&channels=freenet">这里</a>).
       </p>
       
       <h3>硬件需求</h3>
@@ -180,8 +180,8 @@
       </p>
       
       <p>
-      在 64 位 Windows 上, 需要安装 32 位 Java 虚拟机才能安装, 这是因为 <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a> 限制.
-      它不会自动更新, 你可能需要<a href="http://www.java.com/en/download/manual.jsp">周期性手动更新</a>.
+      在 64 位 Windows 上, 需要安装 32 位 Java 虚拟机才能安装, 这是因为 <a rel="nofollow" href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a> 限制.
+      它不会自动更新, 你可能需要<a rel="nofollow" href="http://www.java.com/en/download/manual.jsp">周期性手动更新</a>.
       </p>
       
       <h3>升级</h3>
@@ -191,8 +191,8 @@
 	它可与其他 Freenet 节点软件保持同步, 此机制甚至在其他节点过新而不能路由时仍正常工作. 此功能是匿名且安全的, 我们推荐使用它. 然而, 如果更新失败, 你仍可手动从其他节点更新:</p>
       
       <ul>
-	<li>Windows 可在 Freenet 安装目录下找到运行 "update.cmd" 进行更新. 你还可以从 <a href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
-	<li>Mac 和 Linux 用户可在 Freenet 安装目录下找到运行 update.sh 脚本进行更新. 你还可以从 <a href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
+	<li>Windows 可在 Freenet 安装目录下找到运行 "update.cmd" 进行更新. 你还可以从 <a rel="nofollow" href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
+	<li>Mac 和 Linux 用户可在 Freenet 安装目录下找到运行 update.sh 脚本进行更新. 你还可以从 <a rel="nofollow" href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
       </ul>
       
       <p>

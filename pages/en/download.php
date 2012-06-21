@@ -13,7 +13,7 @@
     automatically connecting to other nodes (Strangers). However,
     if you know several people who are already using Freenet, you can
     enable high security mode and 
-    <a href="http://127.0.0.1:8888/addfriend/">add them as Friends</a>, 
+    <a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">add them as Friends</a>, 
 	so Freenet will only connect to them, making your usage of Freenet 
 	almost undetectable, while still being able to access the rest of the
 	network through their friends' friends etc. This will be slower unless 
@@ -77,9 +77,9 @@
 	  You need to have a recent <b>Java Runtime Environment</b>
 	  (JRE). We have experienced best results with Sun's Java
 	  Runtime Environment which can be obtained via
-	  your <a href="https://en.wikipedia.org/wiki/Package_manager">package
+	  your <a rel="nofollow" href="https://en.wikipedia.org/wiki/Package_manager">package
 	    manager</a> or
-	  from <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
+	  from <a rel="nofollow" href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
 	  Java version 1.6 or higher is required. You should keep Java up to date to
@@ -191,7 +191,7 @@
 	start using Freenet. You can access Freenet later on via the system tray
 	menu (bottom right on the screen), or use the Browse Freenet shortcut on the 
 	desktop and/or start menu. If it doesn't work, open 
-	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser.
+	<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> in your web browser.
       
       <p>
 	For best security you should use a separate browser for Freenet, 
@@ -204,7 +204,7 @@
       <p>
 	If you know anyone running Freenet, you can improve your security and 
 	help to build a robust network by connecting to their node. First, open the 
-	<a href="http://127.0.0.1:8888/addfriend/">Add a friend page</a>. You and your
+	<a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">Add a friend page</a>. You and your
 	friend should each download their "node reference". Send the file to
 	the other person, and add his node reference using the form at the bottom
 	of the page. When both are added, your friend's node should show up on the Friends 
@@ -228,7 +228,7 @@
 	If you have problems installing or running Freenet, please contact us on
 	<a href="mailto:support@freenetproject.org">the support list</a> 
 	(<a href="lists.html">subscribe here</a>), or join us on IRC on the
-	#freenet channel on irc.freenode.net (try <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">here</a>).
+	#freenet channel on irc.freenode.net (try <a rel="nofollow" href="https://webchat.freenode.net/?randomnick=1&channels=freenet">here</a>).
       </p>
       
       <h3>Hardware requirements</h3>
@@ -249,8 +249,8 @@
       
       <p>
       On 64-bit Windows, we will install a 32-bit Java Virtual Machine because 
-      of limitations of the <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
-      This will not necessarily auto-update itself, so you may need to <a href="http://www.java.com/en/download/manual.jsp">update it occasionally</a>.
+      of limitations of the <a rel="nofollow" href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
+      This will not necessarily auto-update itself, so you may need to <a rel="nofollow" href="http://www.java.com/en/download/manual.jsp">update it occasionally</a>.
       </p>
       
       <h3>Upgrading</h3>

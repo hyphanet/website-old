@@ -79,7 +79,7 @@ Sie brauchen ein aktuelles <b>Java Runtime Environment</b> (JRE - Java
 Ausführungs-Umgebung). Die besten Ergebnisse haben wir mit Suns Java Runtime
 Environment erzielt, welches Sie mit Ihrer <a
 href="http://de.wikipedia.org/wiki/Paketverwaltung">Paketverwaltung</a>
-installieren oder von <a href="http://java.com/de/" >http://java.com/de/</a>
+installieren oder von <a rel="nofollow" href="http://java.com/de/" >http://java.com/de/</a>
 herunterladen können.<br>
 Java Version 1.5.0 und höher wird funktionieren. Seien Sie sich jedoch bewusst,
 dass in den Versionen vor Java 1.5 Update 4 Sicherheitslücken im Applet sind.
@@ -209,11 +209,11 @@ Wenn Sie Probleme dabei haben Freenet zu installieren oder zu benutzen,
 kontaktieren Sie uns bitte auf der <a href="mailto:support@freenetproject.org"
 >Support-Mailing-Liste (Englisch)</a> (<a href="/lists.html">hier
 abonnieren</a>) oder kommen Sie in unseren
-<a href="http://de.wikipedia.org/wiki/IRC" title="Internet Relay Chat ist ein
+<a rel="nofollow" href="http://de.wikipedia.org/wiki/IRC" title="Internet Relay Chat ist ein
 nicht-anonymes Chat-System welches von vielen Entwicklern und Benutzern von
 Freenet benutzt wird">IRC</a>-Kanal <a href="irc://irc.freenode.net/freenet"
 >#freenet</a> (Englisch) auf irc.freenode.net. Deutschsprachige Unterstützung
-finden Sie im deutschen Kanal <a href="irc://irc.freenode.net/freenet-de"
+finden Sie im deutschen Kanal <a rel="nofollow" href="irc://irc.freenode.net/freenet-de"
 >#freenet-de</a> auf dem selben Netzwerk.
 </p>
 	

@@ -17,7 +17,7 @@
       tout seul, en se connectant de façon automatique aux autres nœuds (Inconnus). 
       Cependant, si vous connaissez plusieurs personnes qui utilisent déjà Freenet,
       vous pouvez activer le mode "haute sécurité" et 
-      <a href="http://127.0.0.1:8888/addfriend/">les ajouter en tant qu'amis</a>&nbsp;;
+      <a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">les ajouter en tant qu'amis</a>&nbsp;;
       Freenet ne se connectera alors qu'à eux, et le fait que vous utilisez Freenet sera
       quasiment indétectable. Vous pourrez bien sûr toujours accéder au reste du réseau
       via les amis des amis etc... de vos amis. Néanmoins, les performances seront
@@ -82,9 +82,9 @@
 	Vous aurez besoin d'un <b>environnement d'exécution Java</b> (JRE)
 	récent. Il semblerait que Freenet fonctionne mieux avec
 	l'environnement Java de Sun, que vous pouvez obtenir via
-	votre <a href="http://fr.wikipedia.org/wiki/Gestionnaire_de_paquets">
+	votre <a rel="nofollow" href="http://fr.wikipedia.org/wiki/Gestionnaire_de_paquets">
 	gestionnaire de paquets</a> (recommandé) ou bien directement depuis
-	le site <a href="http://www.java.com/">http://www.java.com/</a>.<br/> 
+	le site <a rel="nofollow" href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
 	Les versions de Java 1.6 et suivantes fonctionneront.
@@ -138,7 +138,7 @@
 	Pour ouvrir Freenet, ouvrez l'adresse suivante dans votre navigateur internet :</p>
       
       <pre>
-	<a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
+	<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
 	
 	<p>
 	Veuillez aussi noter que la majorité des gens utilisent l'interface graphique
@@ -230,7 +230,7 @@
       Freenet. Après cela, vous pourrez accéder à Freenet via le menu de
       la zone de notification (en bas à droite de l'écran), ou utiliser le
       raccourci "Browse Freenet" situé sur le bureau ou dans le menu démarrer.
-      Si rien de tout cela ne fonctionne, ouvrez l'adresse <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>
+      Si rien de tout cela ne fonctionne, ouvrez l'adresse <a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>
       dans votre navigateur.
       
       <p>
@@ -246,7 +246,7 @@
       <p>
       Si vous connaissez quelqu'un qui utilise Freenet, vous pouvez améliorer
       votre sécurité et aider à construire un réseau robuste en vous connectant
-      à son nœud. Premièrement, ouvrez la page <a href="http://127.0.0.1:8888/addfriend/">Ajouter un ami</a>. 
+      à son nœud. Premièrement, ouvrez la page <a rel="nofollow" href="http://127.0.0.1:8888/addfriend/">Ajouter un ami</a>. 
       Vous et votre ami devez télécharger votre "référence". Envoyez alors le fichier
       à votre ami, et récupérez sa référence. Ajoutez sa référence en utilisant
       le formulaire en bas de la page "ajouter un ami". Votre ami doit procéder
@@ -283,8 +283,8 @@
 	(<a href="lists.html">inscription ici</a>), ou de nous joindre sur IRC sur les
 	canaux #freenet (anglophone) ou #freenet-fr (francophone) sur le serveur irc.freeode.net.
 	<br/>
-	(Essayez <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">ici</a> pour le canal anglophone,
-	<a href="https://webchat.freenode.net/?randomnick=1&channels=freenet-fr">là</a> pour le canal francophone).
+	(Essayez <a rel="nofollow" href="https://webchat.freenode.net/?randomnick=1&channels=freenet">ici</a> pour le canal anglophone,
+	<a rel="nofollow" href="https://webchat.freenode.net/?randomnick=1&channels=freenet-fr">là</a> pour le canal francophone).
       </p>
       
       <h3>Matériel requis</h3>
@@ -310,9 +310,9 @@
       
       <p>
       Enfin, sur les systèmes Windows 64 bits, nous installons une machine virtuelle Java
-      (JVM) 32 bits, à cause des limitations du <a href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a> (lien anglais).
+      (JVM) 32 bits, à cause des limitations du <a rel="nofollow" href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a> (lien anglais).
       Elle ne sera pas forcément mise à jour automatiquement, donc vous devrez peut-être la
-      <a href="http://www.java.com/en/download/manual.jsp">mettre à jour occasionnellement</a>.
+      <a rel="nofollow" href="http://www.java.com/en/download/manual.jsp">mettre à jour occasionnellement</a>.
       </p>
       
       <h3>Mise à jour</h3>
