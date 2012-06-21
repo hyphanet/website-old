@@ -6,7 +6,7 @@
 	  where were you when they took freedom of the press away from the
 	  Internet?'"
 	</i><br/>
-	--Mike Godwin, <a href="http://eff.org/">Electronic Frontier
+	--Mike Godwin, <a href="https://www.eff.org/">Electronic Frontier
 	  Foundation</a>
       </blockquote>
       <p> 

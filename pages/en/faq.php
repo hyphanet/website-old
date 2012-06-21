@@ -135,7 +135,7 @@
 	Many of these are arguable either way (depending on how broadly the 
 	legislation is applied) and will have to be decided in caselaw.
 	The law can be an ass sometimes. You can read the EFF's (US-centric) advice to peer to peer developers 
-	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
+	<a href="https://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
 	If you need legal advice, talk to a lawyer. Also read the next section especially if you
 	are in China; blocking the protocol may suggest the authorities don't like us!
       </p>

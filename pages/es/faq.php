@@ -134,7 +134,7 @@
 	Muchas de esas son discutibles de todas maneras (dependiendo de cuan ampliamente sea 
 	aplicada la legislación) y deberán decidirse en un juicio.
 	La ley puede ser un problema a veces. Puedes leer los consejos de la EFF's (referente a los EEUU) a los desarrolladores peer-to-peer 
-	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">aquí</a>. 
+	<a href="https://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">aquí</a>. 
 	Si necesitas asesoramiento legal, habla con un abogado. Lee también la segunda sección especialmente si tú
 	estás en China; bloquear el protocolo podría sugerir que las autoridades no nos quieren!
       </p>

@@ -148,7 +148,7 @@
 	Toutes ces choses peuvent avoir différents effets (suivant comment la législation est 
 	appliquée) et devront faire l'objet d'une jurisprudence. Vous pouvez lire les conseils
 	pour les développeurs d'application pair à pair de l'EFF (centrés sur les États-Unis)
-	<a href="http://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">ici</a>
+	<a href="https://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">ici</a>
 	(lien en anglais). Si vous avez besoin de conseils juridiques, parlez à un avocat.
 	Vous pouvez également lire la prochaine section, spécialement si vous êtes en Chine&nbsp;
 	peut-être que les autorités bloquent notre protocole parce qu'elles ne nous aiment pas !

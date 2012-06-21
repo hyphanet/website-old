@@ -6,7 +6,7 @@
 	  dónde estuviste cuando ellos eliminaron la libertad de prensa de 
 	  Internet?'"
 	</i><br/>
-	--Mike Godwin, <a href="http://eff.org/">Electronic Frontier
+	--Mike Godwin, <a href="https://www.eff.org/">Electronic Frontier
 	  Foundation</a>
       </blockquote>
       <p> 
