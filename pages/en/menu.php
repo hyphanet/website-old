@@ -18,7 +18,7 @@
 	      <li><a href="https://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Mailing lists</a></li>
-	      <li><a href="https://freenet.uservoice.com/">Suggestions</a></li>
+	      <li><a rel="nofollow" href="https://freenet.uservoice.com/">Suggestions</a></li>
 	      <li class="last"><a href="irc.html">Chat with us</a></li>
 	    </ul>
 	  </li>
@@ -26,7 +26,7 @@
 	    <ul>
 	      <li><a href="donate.html">Donate</a></li>
 	      <li><a href="sponsors.html">Sponsors</a></li>
-	      <li class="last"><a href="http://www.zazzle.com/freenetproject*">Store</a></li>
+	      <li class="last"><a rel="nofollow" href="http://www.zazzle.com/freenetproject">Store</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="developer.html">Get involved</a>

@@ -162,7 +162,7 @@
 	    <li>Alternativamente, por favor <a href="mailto:ian@freenetproject.org">contáctanos</a> 
 	      si no puedes usar ninguno de esos métodos de pago.</li>
 	    <li>También puedes contribuir al proyecto comprando un souvenir de la  
-	       <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">tienda</a>Freenet.</li>
+	       <a rel="nofollow" href="http://www.zazzle.com/freenetproject">tienda</a>Freenet.</li>
 	  </ul>
 	  <h4>Cómo puedo estar seguro que mi donación será usada con propiedad?</h4>
 	  <p>

@@ -163,7 +163,7 @@
 	    <li>Alternatively, please <a href="mailto:ian@freenetproject.org">contact us</a> 
 	      if you cannot use any of these payment methods.</li>
 	    <li>You can also donate to the project by purchasing items from the 
-	      Freenet <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">store</a>.</li>
+	      Freenet <a rel="nofollow" href="http://www.zazzle.com/freenetproject">store</a>.</li>
 	  </ul>
 	  <h4>How can I be sure that my donation will be used appropriately?</h4>
 	  <p>

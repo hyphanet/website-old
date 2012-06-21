@@ -18,15 +18,15 @@
 	      <li><a href="http://wiki.freenetproject.org/">Wiki</a></li>
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Mailing lists</a></li>
-	      <li><a href="http://freenet.uservoice.com/">Suggestions</a></li>
-	      <li><a href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a></li>
+	      <li><a rel="nofollow" href="http://freenet.uservoice.com/">Suggestions</a></li>
+	      <li><a rel="nofollow" href="http://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="donate.html">Donate</a>
 	    <ul>
 	      <li><a href="donate.html">Donate</a></li>
 	      <li><a href="sponsors.html">Sponsors</a></li>
-	      <li><a href="http://www.cafepress.com/freenetproject">Store</a></li>
+	      <li><a rel="nofollow" href="http://www.zazzle.com/freenetproject">Store</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="developer.html">Contribute</a>

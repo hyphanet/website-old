@@ -173,7 +173,7 @@
 	    </li>
 	    <li>
 	    Vous pouvez aussi donner au projet en achetant des articles de la
-	    <a rel="nofollow" href="http://www.cafepress.com/freenetproject/">boutique Freenet</a>.
+	    <a rel="nofollow" href="http://www.zazzle.com/freenetproject">boutique Freenet</a>.
 	    </li>
 	  </ul>
 	  </p>

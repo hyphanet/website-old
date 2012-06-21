@@ -135,7 +135,7 @@ value="http://freenetproject.org/">
 <br>
 </li>
 <li>Sie können auch spenden indem Sie Dinge aus dem
-<a href="http://cafepress.com/freenetproject/">Freenet-Store</a> kaufen.
+<a rel="nofollow" href="http://www.zazzle.com/freenetproject">Freenet-Store</a> kaufen.
 </li>
 </ul>
 <h4>Wie kann ich mir sicher sein, dass meine Spende nicht missbraucht wird?</h4>
