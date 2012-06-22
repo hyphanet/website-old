@@ -83,7 +83,7 @@
 	    签名</a>) 并执行可能成功, 如果不成功, 我们推荐使用上述的命令行.
 	</p>
 	
-	<p><b>无头服务器:</b> 上面的标准安装包需要 GUI (即, Gnome, KDE, X window 等). 我们强烈建议使用标准安装包. 在无图形介面的服务器上 (如 Linux 虚拟服务器), 你应安装 X client libraries 库并使用 ssh -X 远程运行安装包. 使用无头安装包也是可能的. 此方法已陈废并不被推荐. 你仍需要安装最新的 Sun Java, 并确保其在 path 中为缺省的 JVM (在 ubuntu 中使用 update-java-alternatives), 接着安装 wget 或 curl, 再下载<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">这个文件</a>, 解压并执行 "./run.sh start". 再打开<a rel="nofollow" href="http://127.0.0.1:8888/">浏览器</a>. 你可能还需要更改 wrapper.conf 中的内存限制. 参见<a href="faq.html#fproxy-lan">这里</a>了解如何在同一网中向其他电脑开放节点.</p>
+	<p><b>无头服务器:</b> 上面的标准安装包需要 GUI (即, Gnome, KDE, X window 等). 我们强烈建议使用标准安装包. 在无图形介面的服务器上 (如 Linux 虚拟服务器), 你应安装 X client libraries 库并使用 ssh -X 远程运行安装包. 使用无头安装包也是可能的. 此方法已陈废并不被推荐. 你仍需要安装最新的 Sun Java, 并确保其在 path 中为缺省的 JVM (在 ubuntu 中使用 update-java-alternatives), 接着安装 wget 或 curl, 再下载<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">这个文件</a>, 解压并执行 "./run.sh start". 再打开<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">浏览器</a>. 你可能还需要更改 wrapper.conf 中的内存限制. 参见<a href="faq.html#fproxy-lan">这里</a>了解如何在同一网中向其他电脑开放节点.</p>
 
 	<div id="mirrored">
 	  
@@ -147,7 +147,7 @@
       <h3>已经运行了, 我该做什么?</h3>
       
       <p>
-	安装完成后, 浏览器应该打开一个指向首次运行向导的窗口. 你应在此先配置基本设定, 然后再使用 Freenet. 你可以通过 (屏幕右下角) 系统通知栏菜单再次访问 Freenet, 或通过桌面/开始菜单中的 Freenet 快捷方式. 如果不成功, 试着在浏览器中打开<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>.
+	安装完成后, 浏览器应该打开一个指向首次运行向导的窗口. 你应在此先配置基本设定, 然后再使用 Freenet. 你可以通过 (屏幕右下角) 系统通知栏菜单再次访问 Freenet, 或通过桌面/开始菜单中的 Freenet 快捷方式. 如果不成功, 试着在浏览器中打开<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a>.
       
       <p>
 	为了最佳安全性, 你应使用单独的浏览器窗口打开 Freenet, 最好使用隐身模式. Windows 上, 如果可能系统通知栏将优先使用 Chrome 隐身模式. Internet Explorer 不能与 Freenet 很好配合工作, Firefox 和 Opera 可以使用.

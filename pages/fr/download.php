@@ -138,7 +138,7 @@
 	Pour ouvrir Freenet, ouvrez l'adresse suivante dans votre navigateur internet :</p>
       
       <pre>
-	<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a></pre>
+	<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a></pre>
 	
 	<p>
 	Veuillez aussi noter que la majorité des gens utilisent l'interface graphique
@@ -230,7 +230,7 @@
       Freenet. Après cela, vous pourrez accéder à Freenet via le menu de
       la zone de notification (en bas à droite de l'écran), ou utiliser le
       raccourci "Browse Freenet" situé sur le bureau ou dans le menu démarrer.
-      Si rien de tout cela ne fonctionne, ouvrez l'adresse <a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a>
+      Si rien de tout cela ne fonctionne, ouvrez l'adresse <a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a>
       dans votre navigateur.
       
       <p>

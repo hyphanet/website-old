@@ -111,7 +111,7 @@
 	También es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
 	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
 	<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
-	Luego abrir <a rel="nofollow" href="http://127.0.0.1:8888/">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
+	Luego abrir <a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
 	cómo abrir tu nodo a otras computadores en tu misma red.</p>
 
 	<div id="mirrored">
@@ -195,7 +195,7 @@
 	comenzar a usar Freenet. Puedes acceder a Freenet más tarde via la bandeja de sistema
 	(abajo a la derecha en la pantalla), o usar el atajo Abrir Freenet en el escritorio 
 	y/o menú de inicio. Si no funciona, abre 
-	<a rel="nofollow" href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> en tu navegador web.
+	<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> en tu navegador web.
       
       <p>
 	Para más seguridad deberías usar un navegador aparte para Freenet, 

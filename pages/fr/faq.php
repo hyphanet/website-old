@@ -252,7 +252,7 @@
 	<b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
 	Fred (the Freenet REference Daemon - démon Freenet de référence) est éxécuté en tant que démon, ou service, en tâche de fond. Vous pouvez communiquer avec via un client Freenet. FProxy, par exemple, est un client intégré qui vous permet de communiquer avec Freenet à travers un navigateur internet.
 	Lors de l'installation de Freenet, un raccourci "Browse Freenet" devrait avoir été créé sur le bureau et/ou dans le menu démarrer, ainsi qu'un icône dans la zone de notification (lapin Freenet) avec un item "Launch Freenet".
-	Si rien de tout cela ne fonctionne, visitez la page <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> avec votre navigateur. Cliquez sur quelques liens situés dans le paneau "Freesite subscriptions" pour visiter quelques freesites d'indexation populaires.
+	Si rien de tout cela ne fonctionne, visitez la page <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> avec votre navigateur. Cliquez sur quelques liens situés dans le paneau "Freesite subscriptions" pour visiter quelques freesites d'indexation populaires.
       </p>
 
       <p>
@@ -295,7 +295,7 @@
 
       <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
 	Mostly, Freenet should just work with a NAT. However, you should forward the ports
-	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
+	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
 	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
 	and Opennet FNP ports. You may need to look up your router's documentation to figure
 	out how to do this. Freenet should have forwarded them itself through <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,

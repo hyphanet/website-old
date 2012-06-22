@@ -94,7 +94,7 @@
 	ways. Common for all these are that they are all done under
 	the <span style="font-weight:bold;">Darknet</span> menu item
 	or using
-	the <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
+	the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
 	link. Below is the thing that makes it all happen:
       </p>
       
@@ -129,7 +129,7 @@
       
       <p>
 	Your own Freenet reference can be found on
-	the <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
+	the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
 	page, under the caption <span style="font-weight:bold;">My
 	reference</span>. It might look something like this (cut for
 	screen purposes):

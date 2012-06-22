@@ -59,7 +59,7 @@
 
       <h3>Fproxy</h3>
       <p>
-	使用 FProxy 添加节点参考值有几种方法. 他们都在<span style="font-weight:bold;">暗网</span>菜单下或请访问 <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>. 见下图:
+	使用 FProxy 添加节点参考值有几种方法. 他们都在<span style="font-weight:bold;">暗网</span>菜单下或请访问 <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>. 见下图:
       </p>
       
       <img src="/image/add_peers.png"/>
@@ -81,7 +81,7 @@
       </p>
       
       <p>
-	你自己的节点参考值可在 <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
+	你自己的节点参考值可在 <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
 	找到, 在 <span style="font-weight:bold;">我的参考值</span> 下. 看起来像这样 (为网页展现而截断了部分):
       </p>
 

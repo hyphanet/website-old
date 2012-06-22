@@ -213,7 +213,7 @@
       <p><b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
 	Fred (the Freenet REference Daemon) runs as a daemon, or service, in the background. You normally talk to it through a Freenet client. One built-in client is fproxy, which lets you talk to Freenet with a web browser. 
 	Freenet should have installed a Browse Freenet shortcut on the desktop and/or the start menu, or a system tray icon (rabbit) with a Launch Freenet menu item.
-	Failing that, point your web browser to <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Freesite subscriptions" panel to reach some of the popular Freenet index sites.</p>
+	Failing that, point your web browser to <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> for the gateway page. Try clicking the various links in the "Freesite subscriptions" panel to reach some of the popular Freenet index sites.</p>
 
       <p>If you're looking for applications that run on top of Freenet and provide a different interface or functionality, please see the <a href="/tools.html">Tools</a> page.</p>
 
@@ -245,7 +245,7 @@
 
       <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
 	Mostly, Freenet should just work with a NAT. However, you should forward the ports
-	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
+	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
 	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
 	and Opennet FNP ports. You may need to look up your router's documentation to figure
 	out how to do this. Freenet should have forwarded them itself through <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,

@@ -213,7 +213,7 @@
 	Fred (el demonio Freenet REference Daemon) corre como un demonio, o servicio, en segundo plano. Normalmente hablas con él mediante un cliente  Freenet. 
 	Un cliente incorporado es fproxy, el cual te permite hablar con Freenet mediante un navegador web. 
 	Freenet debería haber instalado un acceso directo a Navegar Freenet en el escritorio y/o el menú de inicio, o un icono en la bandeja de sistema (conejo) con un menú Lanzar Freenet.
-	Si falla esto, apunta tu navegador web a <a href="http://127.0.0.1:8888/">http://127.0.0.1:8888/</a> para la pagina de inicio. Prueba haciendo click en los varios enlaces 
+	Si falla esto, apunta tu navegador web a <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> para la pagina de inicio. Prueba haciendo click en los varios enlaces 
 	en el panel "Suscripciones Freesite"para encontrar algunos de los índices de sitios Freenet más populares.</p>
 
       <p>Si estas buscando aplicaciones que corran sobre Freenet y provean una interface o funcionalidad diferente, por favor visita la página <a href="tools.html">Herramientas</a>.</p>
@@ -245,7 +245,7 @@
 
       <p><b id="firewall">¿Cómo consigo hacer trabajar a  Freenet con un  cortafuegos/NAT?</b><br/>
 	Mayormente, Freenet debería simplemente funcionar con un NAT. Sin embargo, deberías redirigir los puertos
-	manualmente si puedes. Haz click en la página <a href="http://127.0.0.1:8888/friends/">Amigos</a> o <a href="http://127.0.0.1:8888/strangers/">Desconocidos</a>. Al pié verás
+	manualmente si puedes. Haz click en la página <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Amigos</a> o <a href="http://127.0.0.1:8888/strangers/">Desconocidos</a>. Al pié verás
 	una lista de puertos usados por el nodo. Deberías redirigir (para UDP) los puertos Darknet FNP 
 	y Opennet FNP. Necesitarás buscar la documentación de tu  enrutador para averiguar
 	como hacer esto. Freenet debería haberlos redirigido por si misma mediante <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,

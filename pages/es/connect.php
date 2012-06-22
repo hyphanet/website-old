@@ -92,7 +92,7 @@
 	Conectar nodos pares con FProxy puede hacerse de varias
 	maneras. Es común a todos que esto se hace bajo
 	el menú <span style="font-weight:bold;">Darknet</span> o usando
-	el  link <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
+	el  link <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
 	Debajo muestra lo que sucede:
       </p>
       
@@ -125,7 +125,7 @@
       
       <p>
 	Tu propia referencia Freenet puede ser encontrada en 
-	la página <a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a>
+	la página <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
 	 bajo la sección <span style="font-weight:bold;">Mi
 	referencia</span>. Debería verse similar a esto (adaptado a las dimensiones de la pantalla):
       </p>

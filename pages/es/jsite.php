@@ -122,7 +122,7 @@
       </p>
 
       <p>
-	<a href="http://localhost:8888/">http://localhost:8888/</a>
+	<a href="http://localhost:8888/" rel="nofollow">http://localhost:8888/</a>
       </p>
       <p>
 	en la barra de direcciones del navegador,como esto (recortado para

@@ -73,7 +73,7 @@ Es gibt mehrere Möglichkeiten um Knoten-Referenzen von Partnern hinzuzufügen.
 Partner-Knoten mit FProxy zu verbinden kann auf verschiedene Weise geschehen.
 Ihnen ist allen gemeinsam, dass sie im Menüpunkt
 <span style="font-weight:bold;">Freunde</span> oder unter dem Link
-<a href="http://127.0.0.1:8888/friends/">http://127.0.0.1:8888/friends/</a> zu
+<a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a> zu
 finden sind. Dies ist die Sache, die das alles geschehen lässt:
 </p>
 <img src="/image/add_peers.png">
@@ -101,7 +101,7 @@ verweist.
 </p>
 <p>
 Ihre eigene Knoten-Referenz finden Sie auf der
-<a href="http://127.0.0.1:8888/friends/">Freunde-Seite</a>, unter der Überschrift
+<a href="http://127.0.0.1:8888/friends/" rel="nofollow">Freunde-Seite</a>, unter der Überschrift
 <span style="font-weight:bold;">Meine Knoten-Referenz</span>. Sie sieht etwa
 so aus (aus Platzgründen gekürzt):
 </p>
