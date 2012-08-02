@@ -39,7 +39,7 @@
 	<p>
 	  - Download and
 	  run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
-	      installer</a> (8MB)</big><br/> 
+	      installer</a></big><br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
 	  components for you. When done, your default browser will
