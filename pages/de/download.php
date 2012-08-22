@@ -1,4 +1,4 @@
-<h2>Freenet 0.7 herunterladen</h2>
+<h1>Freenet herunterladen</h1>
 <h3>Wichtiger Hinweis für Erstbenutzer</h3>
 <p>
 In einer idealen Welt würden sich Freenet-Benutzer nur mit Leuten verbinden

@@ -1,6 +1,6 @@
 <h1>Spenden</h1>
 
-      <h4>Finanzieller Stand</h4>
+      <h4>Finanzielle Situation</h4>
       <p>Die aktuelle Stand der Finanzen ist <b>$MONEYBALANCE</b> (zweimal am Tag aktualisiert). 
 Damit können der bezahlte Hauptentwickler des Projektes und der Server für weitere <b>MONEYDAYS Tage</b> finanziert werden. Nicht eingeschlossen ist Arbeit, die bereits bezahlt wurde - im allgemeinen bis zu 2 Monate.</p>
 
