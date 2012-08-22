@@ -1,4 +1,17 @@
-<h2>Dokumentation</h2>
+<h1>Dokumentation</h1>
+      <div id="navigation">
+	<p> Go to :
+	  <a href="install.html">Install</a>
+	  <a href="connect.html">Connect</a>
+	  <a href="content.html">Content</a>
+	  <a href="understand.html">Understand</a>
+	  <a href="freemail.html">Freemail</a>
+	  <a href="frost.html">Frost</a>
+	  <a href="jsite.html">jSite</a>
+	  <a href="thaw.html">Thaw</a>
+	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	</p>
+      </div>
 <p>
 Da Freenet ein Projekt ist, dass sich in der Entwicklung befindet, ist die
 Dokumentation im ständigen Wandel. Hier im Dokumentations-Menü können Sie jedoch

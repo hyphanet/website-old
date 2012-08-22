@@ -1,4 +1,19 @@
-<h2>Verbinden mit dem Freenet</h2>
+      <h1>Documentation</h1>
+      <div id="navigation">
+	<p> Go to :
+	  <a href="install.html">Install</a>
+	  <a href="connect.html">Connect</a>
+	  <a href="content.html">Content</a>
+	  <a href="understand.html">Understand</a>
+	  <a href="freemail.html">Freemail</a>
+	  <a href="frost.html">Frost</a>
+	  <a href="jsite.html">jSite</a>
+	  <a href="thaw.html">Thaw</a>
+	  <a href="http://wiki.freenetproject.org">Wiki</a>
+	</p>
+      </div>
+
+<h2>Mit Freenet verbinden</h2>
 <p>Es gibt zwei Möglichkeiten sich mit dem Freenet zu verbinden:</p>
 <ul><li>Sie können den unsicheren Modus aktivieren (der Installations-Assistent
 wird Sie danach fragen), dann wird Freenet automatisch nach Knoten suchen mit
