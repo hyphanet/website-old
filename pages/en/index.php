@@ -117,6 +117,11 @@ $(document).ready(function() {
 	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
 	  <a href="news.html">Older news</a>
 	</p>
+	<h4>Updates</h4>
+	<p>
+	  (15 November 2011) <a href="updates.html#1405">Freenet 1405 released.</a><br/>
+	  <a href="updates.html">All updates since 1405</a>
+	</p>      
       </div>
 
 

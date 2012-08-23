@@ -1,87 +1,41 @@
-<?
-//Last translated Friday, March 28, 2008
-$pos = 1;
-$menus = array(
-		'Was ist Freenet?' 	=> '/whatis',
-		'Philosophie' 		=> '/philosophy',
-		'Neuigkeiten' 		=> '/news', 
-		'Herunterladen'		=> '/download',
-		'Dokumentation' 	=> '/documentation',
-		'sub1' 				=> array(
-			'Installieren' 		=>'/install',
-			'Verbinden' 		=> '/connect',
-			'Inhalte'			=> '/content',
-			'Verstehen'			=> '/understand',
-			'Freemail' 			=> '/freemail',
-			'Frost' 			=> '/frost',
-			'jSite'				=> '/jsite',
-			'Thaw'				=> '/thaw',
-			'FAQ' 				=> '/faq',
-			'Wiki'				=> 'https://wiki.freenetproject.org/'),  
-		'Spenden'			=> '/donate',
-		'Sponsoren'			=> '/sponsors',
-		'Entwickler'		=> '/developer',
-		'sub2' 				=> array(				
-			'Was ist Neu?' 			=> 'http://cia.navi.cx/stats/Project/freenet/',
-			'Spezifikationen'		=> 'https://wiki.freenetproject.org/FreenetSpecifications',
-			'Im SVN st&ouml;bern'	=> 'https://emu.freenetproject.org/cgi-bin/viewcvs.cgi/trunk/',
-			'SVN Repository'		=> 'http://freenet.googlecode.com/svn/trunk/',
-			'Bug Tracker' 			=> 'https://bugs.freenetproject.org/'),
-		'Mailing-Listen' 	=> '/lists',
-		'Tools' 			=> '/tools',
-		'Aufsätze' 			=> '/papers',
-		'Leute' 			=> '/people' 
-);
-
-function lnk($text, $link) {
-	echo '<li><a href="'.$link.'">'.$text.'</a></li>';
-}
-
-function showMenu($category) {
-	echo '<ul class="submenu">';	
-	foreach ($category as $subtitle => $sublink) {
-		if (strcmp(substr($sublink, 0, 4), 'http')) {
-			page($subtitle, $sublink);
-		} else {
-			lnk($subtitle, $sublink);
-		}
-		/*	echo '<li><a href="'.$sublink.'">'.$subtitle.'</a></li>'; */
-	}
-	echo '</ul>';
-}
-
-function page($text, $link) {
-	global $page;
-	//far away from perfect but better than nothing!
-	//  if(!ereg("^A-Za-z0-9_-]+$",$link)){ echo "Nice try !"; exit();}
-	if ($link == $page) {
-		echo '<li><span class="selected-menu">'.$text.'</span></li>';
-	} else {
-		lnk($text, $link.".html");
-	}
-}
-
-echo '<ul class="menu">';
-foreach($menus as $title => $link) {
-	if (!stristr(substr($title, 0, 3), 'sub'))
-	{	
-		if (strcmp(substr($link, 0, 4), 'http')) {
-			page($title, $link);
-		} else {
-			lnk($title, $link);
-		}	
-	}
-	else
-	{
-		if ("$page" == '/documentation' || in_array("$page", $menus["sub1"])) {
-			showMenu($menus["$title"]);
-		}
-		
-		if ("$page" == '/developer' || in_array("$page", $menus["sub2"])) {
-			showMenu($menus["$title"]);
-		}
-	}
-}
-echo '</ul>';
-?>
-
+    <div id="backmenu">
+      <div id="menu">
+	<ul id="nav" class="dropdown dropdown-horizontal">
+	  <li class="simple"><a href="index.html">Startseite</a></li>
+	  <li class="simple"><a href="download.html">Herunterladen</a></li>
+	  <li class="dir"><a href="whatis.html">Über</a>
+	    <ul>
+	      <li><a href="whatis.html">Was ist Freenet?</a></li>
+	      <li><a href="news.html">Neuigkeiten</a></li>
+	      <li><a href="philosophy.html">Philosophie</a></li>
+	      <li><a href="people.html">Leute</a></li>
+	      <li class="last"><a href="papers.html">Artikel</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="documentation.html">Hilfe</a>
+	    <ul>
+	      <li><a href="documentation.html">Dokumentation</a></li>
+	      <li><a href="http://new-wiki.freenetproject.org/">Wiki</a></li>
+	      <li><a href="faq.html">Fragen und Antworten</a></li>
+	      <li><a href="lists.html">E-Mail-Listen</a></li>
+	      <li><a href="http://freenet.uservoice.com/">Vorschläge geben</a></li>
+	      <li class="last"><a href="irc.html">Mit uns Chatten</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="donate.html">Spenden</a>
+	    <ul>
+	      <li><a href="donate.html">Spenden</a></li>
+	      <li><a href="sponsors.html">Sponsoren</a></li>
+	      <li class="last"><a href="http://www.zazzle.com/freenetproject*">Shop</a></li>
+	    </ul>
+	  </li>
+	  <li class="dir"><a href="developer.html">Mitmachen</a>
+	    <ul>
+	      <li><a href="developer.html">Quellcode</a></li>
+	      <li><a href="http://new-wiki.freenetproject.org/Translation">Übersetzung</a></li>
+	      <li class="last"><a href="http://bugs.freenetproject.org/">Bug tracker</a></li>
+	    </ul>
+	  </li>
+	</ul>
+      </div>
+    </div>
