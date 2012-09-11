@@ -475,7 +475,7 @@
     mode. However, this is not 100% reliable in our experience, so be careful.</p>
     
       <p><b id="attack">Won't attack X break Freenet's anonymity?</b></p>
-      <p><b>Short answer:</b> Yes, on opennet. Maybe, on darknet.</p>
+      <p><b>Short answer:</b> Probably, on opennet. Maybe, on darknet.</p>
       <p><b>Long answer:</b></p>
       <p>Freenet has a different threat model to Tor and the Mixmaster remailers. 
 	Freenet is designed to resist
