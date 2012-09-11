@@ -1,5 +1,24 @@
       <h1>News</h1>
+      
+    <a name="2012-traceback-attack"><h3>11th September 2012 - Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</h3>
+    <p>Some academics <a href="http://www.ee.hawaii.edu/~dong/traceback/index.htm">have published</a> 
+    a couple of attacks against Freenet, and they appear to be working on more as part of a project to 
+    unmask anonymous Freenet users. Build 1411, which was released on the 3rd of September, makes their 
+    main attack largely impractical.  Nonetheless, we are working on improvements to both make this 
+    attack harder and to solve some of the <a href="https://freenetproject.org/faq.html#attack">other 
+    known attacks</a>. You can learn more about the attacks and our solution to them on our chief 
+    developer's <a href="http://amphibian.dyndns.org/flogmirror/#20120911-security">personal blog</a>.</p>
     
+    <p>We welcome all work to understand Freenet's security and expose any problems with it, although we
+    would suggest that next time they might let us know before they make the paper public, as is common 
+    practice in the security community.</p>
+    
+    <p>Finally, the long term solution is to build a darknet, a Freenet network where people only 
+    connect directly to people they trust. That means, get your friends using Freenet, and then add 
+    them as Friends on your node. When enough people use Freenet and form darknet connections, we 
+    won't need opennet, and this makes all attacks dramatically harder. We will work on making this 
+    easier and faster in the near future, as well as fixing the Pitch Black attack.</p>
+        
     <a name="broken-update-1382"><h3>14th July 2011 - Problems with 1382 and auto-update</h3></a>
     <p>Due to insufficient testing, a serious bug slipped out in builds around 1382.
     Freenet may not be able to update itself, and will complain about it, with an error like:</p>
