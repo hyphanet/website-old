@@ -64,19 +64,38 @@
     doing so, and will usually sign a tag for the build or pre-build after doing so. The 
     -staging repository almost anyone can write to. New developers should fork on github
     and then post pull requests.</p>
-      
+    
+    <p><b>Branches</b>: The "master" branch tracks the latest release. The "next" branch
+    includes code that should be in the next release, but may or may not be at the discretion
+    of the release manager. Any significant feature should have its own branch. Release 
+    branches e.g. "stable-1411" are used by the release manager from time to time.</p>
+    
       <p>
-    Either way, please keep us informed of what you are doing with Freenet! Create a github
+    Please keep us informed of what you are doing with Freenet! Create a github
     account, and then contact us either through
 	the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">development
 	mailing list</a> or
 	on <a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>
 	in
 	the <a href="irc://irc.freenode.net/%23freenet">#freenet</a>
-	channel at irc.freenode.net.Note that you must use a real
+	channel at irc.freenode.net. Note that you must use a real
 	(working) email address when committing; we will provide
 	contributors with @freenetproject.org redirects if needed.
       </p>
+    
+    <p><b>Development over Freenet</b>: We accept patches submitted over Freenet via FMS.
+    However, we will still need some sort of identity, e.g. a nick and a Freemail (v2) 
+    address. There are implementations of both Git and Mercurial (which can be bridged 
+    to git) over Freenet, although we don't currently maintain an official in-freenet
+    tree.</p>
+    
+    <p>We strongly discourage "dropping a bomb", that is, sending in a huge patch with
+    no history. This can be both harder to understand and risky legally (think SCO vs IBM).
+    For large projects, you should post a git branch, on github or on Freenet, so we can merge
+    and keep the history. Of course you can clean up the history before posting a pull 
+    request if you want, but ideally each commit should do one thing, and preferably the
+    code should compile before and after the commit. What is more important is to let us know
+    about any such development early on so we can help you to get it right.</p>
 
       <h3>Build Instructions</h3>
       
