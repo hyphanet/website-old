@@ -19,8 +19,8 @@
 	      <li><a href="faq.html">FAQ</a></li>
 	      <li><a href="lists.html">Mailing lists</a></li>
 	      <li><a rel="nofollow" href="https://freenet.uservoice.com/">Suggestions</a></li>
-	      <li class="last"><a href="irc.html">Chat with us</a></li>
-	      <li><a href="http://freesocial.draketo.de/">Setup guide</a></li>
+	      <li><a href="irc.html">Chat with us</a></li>
+	      <li class="last"><a href="http://freesocial.draketo.de/">Setup guide</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="donate.html">Donate</a>
