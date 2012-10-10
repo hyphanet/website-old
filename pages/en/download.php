@@ -1,4 +1,5 @@
       <h1>Download Freenet</h1>
+      
       <h3>Important note for first time users</h3>
       <p>
     For best performance, Freenet will run continually. It should
@@ -221,6 +222,9 @@
     more, but you can also use <a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
 	applications</a> for chat, filesharing, to help you upload freesites, etc.
       </p>
+    
+    <p>The <a href="http://freesocial.draketo.de/">Freenet Social Networking Guide</a> explains how to set up
+    the main third party tools, including email, forums and micro-blogging (Sone, a bit like twitter).</p>
       
       <h3>It doesn't work, now what?</h3>
       

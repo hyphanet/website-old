@@ -20,6 +20,7 @@
 	      <li><a href="lists.html">Mailing lists</a></li>
 	      <li><a rel="nofollow" href="https://freenet.uservoice.com/">Suggestions</a></li>
 	      <li class="last"><a href="irc.html">Chat with us</a></li>
+	      <li><a href="http://freesocial.draketo.de/">Freenet Social Networking Guide</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="donate.html">Donate</a>

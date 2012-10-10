@@ -92,7 +92,7 @@ $(document).ready(function() {
 	     </div>
 	     <p style="float: left; clear: left;">
 		If it doesn't work, please refer to the 
-	     	<a href="download.html#unix">installation instructions</a>
+	     	<a href="download.html#unix">installation instructions</a>. You may want to try <a href="http://freesocial.draketo.de/">this guide</a> to setting up Freenet and related software for chat etc.
 	     </p>
 	</div>
 	
