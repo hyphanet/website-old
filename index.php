@@ -118,18 +118,23 @@ include 'includes/common.inc.php';
 <!-- Google Analytics Code End -->
 <!-- Woopra Code Start -->
 	<script type="text/javascript">
+	function woopraReady(tracker){
+	  tracker.addVisitorProperty("lang", "<?php echo $lang?>");
+	  tracker.setDomain("freenetproject.org");
+	  tracker.setDomain('yourdomain.com');
+	  tracker.setIdleTimeout(300000);
+	  tracker.track();
+	  return false;
+	}
+
 	(function(){
 	 var wsc=document.createElement('script');
-	 wsc.src='https://static.woopra.com/js/woopra.v2.js';
-	 wsc.async=true;
-	 var ssc = document.getElementsByTagName('script')[0];
-	 ssc.parentNode.insertBefore(wsc, ssc);
+	   wsc.type='text/javascript';
+	   wsc.src=document.location.protocol+'//static.woopra.com/js/woopra.js';
+	   wsc.async=true;
+	   var ssc = document.getElementsByTagName('script')[0];
+	   ssc.parentNode.insertBefore(wsc, ssc);
 	 })();
-	</script>
-	<script type="text/javascript">
-	woopraTracker.addVisitorProperty("lang", "<?php echo $lang?>");
-	woopraTracker.setDomain("freenetproject.org");
-	woopraTracker.track();
 	</script>
 <!-- Woopra Code End -->
 <!-- Uservoice feedback tab -->
