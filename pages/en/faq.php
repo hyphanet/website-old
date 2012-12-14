@@ -125,10 +125,10 @@
       <p><b id="legal">Is Freenet legal?</b><br/>
 	We don't currently know of any prosecutions for using merely using Freenet.
 	Some people claim that the <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
-	makes Freenet illegal in France; others have told us about the German data retention
-	law which allegedly requires anonymity systems to retain enough data to trace web
-	requests, which may or may not apply to us. Also, the German supreme court has found 
-	that <a href="http://merlin.obs.coe.int/iris/2010/7/article13.en.html">not securing 
+	makes Freenet illegal in France; the German data retention law might have required
+	logging, but <a href="http://en.wikipedia.org/wiki/Telecommunications_data_retention#Germany">was struck down</a>.
+	Also, the German supreme court has found that 
+	<a href="http://merlin.obs.coe.int/iris/2010/7/article13.en.html">not securing 
 	your wifi properly</a> makes you responsible for other people's downloads over it.
 	<a href="http://en.wikipedia.org/wiki/ACTA">ACTA</a> might have
 	wide-ranging effects, including on Freenet, should it pass, and similar laws
