@@ -129,7 +129,8 @@
 	logging, but <a href="http://en.wikipedia.org/wiki/Telecommunications_data_retention#Germany">was struck down</a>.
 	Also, the German supreme court has found that 
 	<a href="http://merlin.obs.coe.int/iris/2010/7/article13.en.html">not securing 
-	your wifi properly</a> makes you responsible for other people's downloads over it.
+	your wifi properly</a> makes you responsible for other people's downloads over it; this 
+	might or might not be extended to prohibiting peer to peer filesharing such as Freenet.
 	<a href="http://en.wikipedia.org/wiki/ACTA">ACTA</a> might have
 	wide-ranging effects, including on Freenet, should it pass, and similar laws
 	such as IPRED2 have been tried in the past. There have also been attempts to
