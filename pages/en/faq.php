@@ -127,12 +127,17 @@
 	Some people claim that the <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	makes Freenet illegal in France; others have told us about the German data retention
 	law which allegedly requires anonymity systems to retain enough data to trace web
-	requests, which may or may not apply to us. ACTA might have
+	requests, which may or may not apply to us. Also, the German supreme court has found 
+	that <a href="http://merlin.obs.coe.int/iris/2010/7/article13.en.html">not securing 
+	your wifi properly</a> makes you responsible for other people's downloads over it.
+	<a href="http://en.wikipedia.org/wiki/ACTA">ACTA</a> might have
 	wide-ranging effects, including on Freenet, should it pass, and similar laws
 	such as IPRED2 have been tried in the past. There have also been attempts to
-	force peer to peer systems to provide wiretapping capabilities in the USA. As
-	far as we know none of these things - apart from the first two - have passed. 
-	Many of these are arguable either way (depending on how broadly the 
+	force peer to peer systems to provide wiretapping capabilities in the USA, and
+	there are <a href="http://www.bbc.co.uk/news/uk-politics-19968068">worrying 
+	developments</a> in the UK that might result in it being blocked, but not being made
+	illegal per se. As far as we know none of these things - apart from the first two - 
+	have passed. Many of these are arguable either way (depending on how broadly the 
 	legislation is applied) and will have to be decided in caselaw.
 	The law can be an ass sometimes. You can read the EFF's (US-centric) advice to peer to peer developers 
 	<a href="https://www.eff.org/wp/iaal-what-peer-peer-developers-need-know-about-copyright-law">here</a>. 
@@ -145,10 +150,13 @@
 	and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
 	like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
 	are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-	peer networks (but right now Freenet works fine in France and we have many French users!). 
-	Freenet 0.7 has some minimal defences against blocking; 
-	the protocol is relatively hard to identify (we will make this a lot harder in future),
-	and it supports a <a href="https://wiki.freenetproject.org/DarkNet">darknet</a> mode 
+	peer networks (but right now Freenet works fine in France and we have many French users!).
+	The UK <a href="http://www.bbc.co.uk/news/uk-politics-19968068">may force its major
+	ISPs</a> to block anything they can't surveil. Freenet 0.7 has some minimal defences 
+	against blocking; the protocol is relatively hard to identify (we are working on 
+	<a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
+	which would <a href="http://en.wikipedia.org/wiki/Steganography">make it much harder
+	to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/DarkNet">darknet</a> mode 
 	(i.e. only connecting to your friends) which makes automated harvesting and blocking 
 	of nodes very difficult.
       </p>
