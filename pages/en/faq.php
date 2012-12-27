@@ -202,7 +202,10 @@
 	which is on US soil) that it will be exporting crypto. As long as your
 	country doesn't prohibit the use of encryption you are fine. Further, there
 	is now an exception in the export laws for software doing exactly what Freenet
-	does!</p>
+	does! However, Sun limits the encryption strength available on the JVM that runs
+	Freenet; you should install the Unlimited Strength Policy Files for Java if possible
+	to improve performance. Freenet will however work even without this, by using its built-in
+	encryption code.</p>
 
 
       <p><b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
