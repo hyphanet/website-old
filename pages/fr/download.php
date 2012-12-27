@@ -116,38 +116,6 @@
 	    nous vous recommandons d'exécuter les lignes de commandes ci-dessus. 
 	</p>
 	
-	<h3>Installation sans écran</h3>
-	
-	<p>
-	Sur un système sans écran, exécutez ces commandes :
-	</p>
-	
-	<pre>
-	  wget <a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
-	  tar xvzf freenet07.tar.gz
-	  cd freenet
-	  ./run.sh start</pre>
-	
-	<p>
-	Lisez la <a href="faq.html#fproxy-lan">FAQ</a> pour savoir comment
-	activer l'accès web depuis un ordinateur distant.
-	</p>
-	
-	<p>Veuillez noter que cela n'installera pas d'icone dans la zone de notification, 
-	ni de raccourcis dans les menus ou sur votre bureau. 
-	Pour ouvrir Freenet, ouvrez l'adresse suivante dans votre navigateur internet :</p>
-      
-      <pre>
-	<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a></pre>
-	
-	<p>
-	Veuillez aussi noter que la majorité des gens utilisent l'interface graphique
-	d'installation - utilisez la si vous pouvez. Les scripts du programme d'installation
-	sans écran peuvent être un peu instables, donc essayez encore si cela n'a pas
-	fonctionné du premier coup. Et <b>vous devez avoir Java Sun installé et définit par
-	défaut</b> (man update-java-alternatives sur debian/ubuntu) avant l'installation.
-	</p>
-
 	<div id="mirrored">
 	  
 	  <h3>Mirrored installation</h3>

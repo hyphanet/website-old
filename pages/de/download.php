@@ -96,23 +96,6 @@ href="http://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.j
 >das Installationsprogramm</a> herunterladen und es anklicken, wenn jedoch
 Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 
-<p>Oder folgendes, wenn es sich um ein System ohne grafische Oberfläche handelt:
-</p>
-<pre>
-wget <a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz"
->https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz</a>
-tar xvzf freenet07.tar.gz
-cd freenet
-./run.sh start
-</pre>
-<p>Lesen Sie die <a href="faq.html#fproxy-lan">Häufig gestellten Fragen (FAQ)</a>
-um herauszufinden wie man den Web-Zugriff von einem entfernten Computer
-aktiviert.</p>
-<!-- Deleted until it can be updated (#freenet-refs is no more; opennet)
-<p>You might find the <a
-href="http://www.minihowto.org/freenet_howto/Freenet%2520-%2520a%2520very%2520short%2520howto_3077.html"
->mini-howto</a> useful (it might be of interest to Windows users too).</p>
--->
 </div>
 
 <script type="text/javascript"><!--

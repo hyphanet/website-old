@@ -83,8 +83,6 @@
 	    签名</a>) 并执行可能成功, 如果不成功, 我们推荐使用上述的命令行.
 	</p>
 	
-	<p><b>无头服务器:</b> 上面的标准安装包需要 GUI (即, Gnome, KDE, X window 等). 我们强烈建议使用标准安装包. 在无图形介面的服务器上 (如 Linux 虚拟服务器), 你应安装 X client libraries 库并使用 ssh -X 远程运行安装包. 使用无头安装包也是可能的. 此方法已陈废并不被推荐. 你仍需要安装最新的 Sun Java, 并确保其在 path 中为缺省的 JVM (在 ubuntu 中使用 update-java-alternatives), 接着安装 wget 或 curl, 再下载<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">这个文件</a>, 解压并执行 "./run.sh start". 再打开<a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">浏览器</a>. 你可能还需要更改 wrapper.conf 中的内存限制. 参见<a href="faq.html#fproxy-lan">这里</a>了解如何在同一网中向其他电脑开放节点.</p>
-
 	<div id="mirrored">
 	  
 	  <h3>镜像安装</h3>

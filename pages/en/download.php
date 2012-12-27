@@ -109,8 +109,6 @@
 	  sudo apt-get install wget on Debian or Ubuntu.
 	</p>
 	
-	<p><b>Headless servers:</b> The above installer will work in headless environments. This console mode can be manually enabled with the --console switch. The Debian and Ubuntu default-jre-headless package may prove useful.</p>
-
 	<div id="mirrored">
 	  
 	  <h3>Mirrored installation</h3>

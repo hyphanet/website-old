@@ -106,14 +106,6 @@
 	  líneas de comando más arriba.
 	</p>
 	
-	<p><b>Servidores sin monitor:</b> El instalador estándar requiere GUI (ej. Gnome, KDE, X windows etc). Nosotros recomendamos que uses el instalador estándar. 
-	En un servidor con sólo consola (por ejemplo un servidor virtual GNU/Linux), deberás instalar las librerías del cliente X y usar ssh -X para ejecutar el instalador GUI remotamente. 
-	También es posible usar el instalador sin monitor. Está desactualizado y no lo recomendamos. Deberás instalar el último Java de Sun, y asegurarte que este en la ruta
-	y sea el JVM por defecto (prueba update-java-alternatives en ubuntu), y luego instalar wget  o curl, luego descargar
-	<a href="https://downloads.freenetproject.org/alpha/installer/freenet07.tar.gz">este archivo</a>, descomprimirlo y ejecutar "./run.sh start". 
-	Luego abrir <a rel="nofollow" href="http://127.0.0.1:8888/" rel="nofollow">un navegador</a>. También querrás cambiar el límite de memoria en wrapper.conf. Ver <a href="faq.html#fproxy-lan">aquí</a> 
-	cómo abrir tu nodo a otras computadores en tu misma red.</p>
-
 	<div id="mirrored">
 	  
 	  <h3>Instalación duplicada</h3>
