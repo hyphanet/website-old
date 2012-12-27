@@ -140,7 +140,7 @@
 	
     <h3>Cómo</h3>  
 	      
-      	     <p>Encontrarás el <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-cómo</a> muy útil (debería ser de interés para los usuarios de Windowstambién).</p>
+      	     <p>Encontrarás el <a href="http://freesocial.draketo.de/index.html">Freenet Social Networking Guide</a> muy útil.</p>
 
       </div>
       

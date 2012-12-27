@@ -105,7 +105,7 @@
 	
     <h3>HOWTO</h3>  
 	      
-      	     <p>你可能发现这篇 <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-howto</a> 很有用 (Windows 用户也可能会感兴趣).</p>
+      	     <p>你可能发现这篇 <a href="http://freesocial.draketo.de/index.html">Freenet Social Networking Guide</a> 很有用.</p>
 
       </div>
       

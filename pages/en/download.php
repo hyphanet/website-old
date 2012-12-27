@@ -143,7 +143,7 @@
 	
     <h3>HOWTO</h3>  
 	      
-      	     <p>You might find the <a href="http://www.minihowto.org/freenet_howto/freenet a very short minihowto.html">mini-howto</a> useful (it might be of interest to Windows users too).</p>
+      	     <p>You might find the <a href="http://freesocial.draketo.de/index.html">Freenet Social Networking Guide</a> useful.</p>
 
       </div>
       
