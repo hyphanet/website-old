@@ -103,8 +103,8 @@ href="/whatsnew.html">Changelog</a></b>.
 <h3>Quellcode</h3>
 Unsere 0.5-Änderungsliste kann <a href="/whatsnew.html">hier</a> gefunden werden.
 Den neusten Quellcode können Sie aus dem SVN <a
-href="http://freenet.googlecode.com/svn/branches/legacy/stable/"
->http://freenet.googlecode.com/svn/branches/legacy/stable/</a> beziehen oder Sie
+href="https://freenet.googlecode.com/svn/branches/legacy/stable/"
+>https://freenet.googlecode.com/svn/branches/legacy/stable/</a> beziehen oder Sie
 können einen täglichen Schnappschuss herunterladen:
 <ul>
 <li><a href="https://downloads.freenetproject.org/freenet-stable-latest.src.tbz"

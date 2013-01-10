@@ -487,10 +487,10 @@
       
       <p><b id="access">How can I access the code and website?</b><br/>
 
-	We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="http://freenet.googlecode.com/svn/trunk/">Freenet's subversion repository</a>.
+	We are using a <a href="http://subversion.tigris.org/">subversion</a> server : <a href="https://freenet.googlecode.com/svn/trunk/">Freenet's subversion repository</a>.
       </p>
       <p><b id="devtools">What tools do I need to help develop?</b><br/>
-	To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.5 or later. To retrieve and update the code at <a href="http://freenet.googlecode.com/svn/trunk/freenet/">http://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
+	To build and deploy the Freenet server, you will need Java tools compatible with Sun's JDK 1.5 or later. To retrieve and update the code at <a href="https://freenet.googlecode.com/svn/trunk/freenet/">https://freenet.googlecode.com/svn/trunk/freenet/</a>using <a href="http://subversion.tigris.org/">subversion</a>,
 	(This is not necessary if you only want to download, compile, and run
 	the server without contributing to its code). Further instructions for building and deploying the server are included with the code itself.
 	Generally speaking, joining our IRC channel is a good idea: <a href="irc://irc.freenode.net/freenet">#freenet on irc.freenode.net</a></p>

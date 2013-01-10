@@ -37,7 +37,7 @@
       <h4>Graphical install</h4>
       
       <p><b>The below is outdated for Windows systems</b>, for Windows you should
-      use <a href="http://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the Windows installer</a> as described on <a href="/download.html">the download page</a>.
+      use <a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the Windows installer</a> as described on <a href="/download.html">the download page</a>.
       You can also get the Windows installer from <a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">here</a> or <a href="https://downloads.freenetproject.org/alpha/installer/FreenetInstaller-FREENETVERSION.exe">here</a>.</p>
       
       <p>For a graphical installation you have to have:</p>
