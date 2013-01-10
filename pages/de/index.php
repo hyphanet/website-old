@@ -34,12 +34,12 @@ $(document).ready(function() {
 <!-- Contents -->
 
       <div id="whatistitle" style="margin-bottom: 10px";>
-	<h1>Teilen, Sprechen, Surfen. Anonym.In dem Freien&nbsp;Netz.</h1>
+	<h1>Teilen, Unterhalten, Surfen. Anonym.In dem Freien&nbsp;Netz.</h1>
       </div>
       <div class="whatis">
 	<p>
 	  Freenet ist freie Software, die es Ihnen ermöglicht, <strong>anonym</strong> zu surfen, 
-	  und <abbr title="Webseiten, die nur über Freenet zugänglich sind">Freeseiten</abbr> und Dateien zu <strong>veröffentlichen</strong> und sich zu <strong>Unterhalten</strong>, ohne Zensur fürchten zu müssen. Freenet ist <strong>dezentral</strong>, um es resistenter gegen Angriffe zu machen, und im "<strong>Darknet</strong>"-Modus sehr schwer zu entdecken, da sich Nutzer dann nur mit ihren Freunden verbinden.
+	  und <abbr title="Webseiten, die nur über Freenet zugänglich sind">Freeseiten</abbr> und Dateien zu <strong>veröffentlichen</strong> und sich zu <strong>unterhalten</strong>, ohne Zensur fürchten zu müssen. Es ist <strong>dezentral</strong> organisiert, um es resistenter gegen Angriffe zu machen, und im "<strong>Darknet</strong>"-Modus sehr schwer zu entdecken, da sich Nutzer dann nur mit ihren Freunden verbinden.
 	  <br/>
 	  <a href="whatis.html">Mehr erfahren!</a>
 	</p>
@@ -78,7 +78,7 @@ $(document).ready(function() {
       <div id="macos" class="sprites download">
         <a href="/jnlp/freenet.jnlp">
    	   <span id="software">Freenet</span>
-   	   <span id="action">Install</span>
+   	   <span id="action">Installieren</span>
    	   <span id="version">0.7.5 für Mac OS</span>
    	</a>
       </div>
@@ -87,7 +87,7 @@ $(document).ready(function() {
 	     <div class="download sprites">
 	     	  <a href="/jnlp/freenet.jnlp">
 	     	     <span id="software">Freenet</span>
-	     	     <span id="action">Install</span>
+	     	     <span id="action">Installieren</span>
 	     	     <span id="version">0.7.5 für Linux/Unix</span>
 	     	  </a>
 	     </div>
@@ -103,7 +103,7 @@ $(document).ready(function() {
 	     <h4>Spenden</h4>
 	     <p>Wir verlangen von niemandem Geld für Download und Nutzung von Freenet. Wir sind eine gemeinnützige Organisation, die zum Überleben auf Ihre Spenden angewiesen ist.</p>
 	     <p>Unser aktueller Kontostand ist von <b>$MONEYBALANCE</b> wird unseren einen bezahlten Entwickler und den Server für weitere <b>MONEYDAYS Tage</b> finanzieren.</p>
-	     <p><a href="donate.html">Spenden Sie!</a></p>
+	     <p><a href="donate.html">Spenden</a></p>
 	</div>
 
       <div id="news">
