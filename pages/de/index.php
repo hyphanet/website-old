@@ -76,7 +76,7 @@ $(document).ready(function() {
       </div>
 
       <div id="macos" class="sprites download">
-        <a href="https://freenetproject.org/jnlp/freenet.jnlp">
+        <a href="/jnlp/freenet.jnlp">
    	   <span id="software">Freenet</span>
    	   <span id="action">Install</span>
    	   <span id="version">0.7.5 für Mac OS</span>
@@ -85,7 +85,7 @@ $(document).ready(function() {
 	
 	<div id="unix">
 	     <div class="download sprites">
-	     	  <a href="https://freenetproject.org/jnlp/freenet.jnlp">
+	     	  <a href="/jnlp/freenet.jnlp">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Install</span>
 	     	     <span id="version">0.7.5 für Linux/Unix</span>
