@@ -301,10 +301,16 @@
 	there is no way to ensure that requests for that data will be routed to
 	that node. We have considered many other ways that Freenet could store data 
 	permanently, but they either won't work, or compromise Freenet's core goals 
-	of anonymity, and scalability. However, if you simply reinsert your data 
-	regularly, or if it is regularly downloaded (not by the same person as it 
-	would be cached on their node and the path to their node), it should 
-	remain available indefinitely.</p>
+	of anonymity, and scalability.</p>
+	
+	  <p>Content which is popular should persist indefinitely, for example most
+	freesites linked from the main indexes are still retrievable years later (at
+	least their front pages are). If the content isn't very popular the best way
+	to keep it available is to regularly re-insert (re-upload) it. An interesting
+	option is the "Keepalive" plugin, which will do this for you - even if you 
+	didn't upload the file/site in the first place. Improvements are planned, 
+	such as a special kind of request that allows us to probe whether a file is
+	available from a random point on the network.</p>
 
       <p><b id="why-java">Why is Freenet implemented in Java?</b><br/>
 	Opinions differ about the choice of java for the reference implementation of
