@@ -1,6 +1,20 @@
       <h1>News</h1>
       
-    <a name="2012-traceback-attack"><h3>11th September 2012 - Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</h3>
+    <a name="2013-sadly-not-an-april-fool"><h3>Build 1439 and 1440</h3></a>
+    <p>Please do not upgrade to build 1439. Wait for build 1440. If your node is unable to start up after
+    upgrading automatically to 1439, you may need to use the last-resort update scripts ("update.cmd" or
+    "update.sh"). Please come to the IRC channel if you have any difficulty with this. This will only happen
+    on nodes that upgraded to 1439 over a short period before 1440 was deployed, and only if they have 
+    friends (darknet peers). For various reasons the build wasn't adequately tested. I (Toad) am very sorry 
+    about this and have put in place a permanent fix (this was ultimately due to a 
+    don't-call-methods-in-constructor style/concurrency issue). Sorry folks...</p>
+    
+    <p>Apart from this embarassing mistake, 1439/1440 includes an important fix to the warnings shown when
+    a file can't be parsed by the content filter (apparently this caught out at least one Freenet user),
+    and a new type of probe request which will allow us to determine whether a theory about load management
+    is correct (that almost all nodes are only using half their capacity). Thanks!</p>
+      
+    <a name="2012-traceback-attack"><h3>11th September 2012 - Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</h3></a>
     <p>Some academics <a href="http://www.ee.hawaii.edu/~dong/traceback/index.htm">have published</a> 
     a couple of attacks against Freenet, and they appear to be working on more as part of a project to 
     unmask anonymous Freenet users. Build 1411, which was released on the 3rd of September, makes their 
