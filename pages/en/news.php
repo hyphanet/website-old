@@ -1,6 +1,8 @@
       <h1>News</h1>
       
     <a name="2013-sadly-not-an-april-fool"><h3>Build 1439 and 1440</h3></a>
+    <p><b>Update: Instructions for fixing nodes that fail to start after updating to 1439: 
+    <a href="https://emu.freenetproject.org/pipermail/devl/2013-April/036892.html">here</a>.</p>
     <p>Please do not upgrade to build 1439. Wait for build 1440. If your node is unable to start up after
     upgrading automatically to 1439, you may need to use the last-resort update scripts ("update.cmd" or
     "update.sh"). Please come to the IRC channel if you have any difficulty with this. This will only happen
