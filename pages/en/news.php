@@ -7,7 +7,7 @@
     on nodes that upgraded to 1439 over a short period before 1440 was deployed, and only if they have 
     friends (darknet peers). For various reasons the build wasn't adequately tested. I (Toad) am very sorry 
     about this and have put in place a permanent fix (this was ultimately due to a 
-    don't-call-methods-in-constructor style/concurrency issue). Sorry folks...</p>
+    don't-call-methods-until-constructor-is-finished issue). Sorry folks...</p>
     
     <p>Apart from this embarrassing mistake, 1439/1440 includes an important fix to the warnings shown when
     a file can't be parsed by the content filter (apparently this caught out at least one Freenet user),
