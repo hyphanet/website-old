@@ -13,6 +13,8 @@
     a file can't be parsed by the content filter (apparently this caught out at least one Freenet user),
     and a new type of probe request which will allow us to determine whether a theory about load management
     is correct (that almost all nodes are only using half their capacity). Thanks!</p>
+    
+    <p>Sorry about this. And no, sadly, this is not an April Fool's joke.</p>
       
     <a name="2012-traceback-attack"><h3>11th September 2012 - Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</h3></a>
     <p>Some academics <a href="http://www.ee.hawaii.edu/~dong/traceback/index.htm">have published</a> 
