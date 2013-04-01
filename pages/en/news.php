@@ -9,7 +9,7 @@
     about this and have put in place a permanent fix (this was ultimately due to a 
     don't-call-methods-in-constructor style/concurrency issue). Sorry folks...</p>
     
-    <p>Apart from this embarassing mistake, 1439/1440 includes an important fix to the warnings shown when
+    <p>Apart from this embarrassing mistake, 1439/1440 includes an important fix to the warnings shown when
     a file can't be parsed by the content filter (apparently this caught out at least one Freenet user),
     and a new type of probe request which will allow us to determine whether a theory about load management
     is correct (that almost all nodes are only using half their capacity). Thanks!</p>
