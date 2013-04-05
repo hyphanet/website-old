@@ -27,8 +27,10 @@
 
 	<h5>Florent Daigni&egrave;re</h5>
 	<p>
-	  Florent has been our system administrator since around the time 0.7 was started,
-	  and has helped on other matters like the current installer.
+	  Since 2003, Florent has improved various aspects of the software and performed
+	  the project's system administration. In his day job, he is the Technical
+	  Director of <a href="https://www.trustmatta.com">Matta Consulting</a>, a
+	  boutique security consultancy firm.
 	</p>
 
 	<h5>Scott Miller</h5>
