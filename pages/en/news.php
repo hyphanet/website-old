@@ -1,5 +1,15 @@
       <h1>News</h1>
-      
+    
+    <a name="2013-summer-of-code-accepted"><h3>8th April 2013 - Freenet accepted by Google Summer of Code!</h3>
+    <p>Freenet has once again been accepted into Google Summer of Code 2013. This pays students to work
+    for us, as paid developers, over the summer. See <a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2013">here</a>
+    for more details and ideas for projects. You should contact us and demonstrate your coding ability by
+    solving a small bug or implementing a small feature before we will consider you; but we will be very
+    happy to help you, so please contact us via the mailing list or IRC!</p>
+    
+    <p>Students can sign up from April the 22nd to May 3rd. See <a href="https://google-melange.appspot.com/gsoc/homepage/google/gsoc2013">the 
+    official google site</a>.</p>
+    
     <a name="2013-sadly-not-an-april-fool"><h3>Build 1439 and 1440</h3></a>
     <p><b>Update: Instructions for fixing nodes that fail to start after updating to 1439: 
     <a href="https://emu.freenetproject.org/pipermail/devl/2013-April/036892.html">here</a>.</b></p>
@@ -17,6 +27,9 @@
     is correct (that almost all nodes are only using half their capacity). Thanks!</p>
     
     <p>Sorry about this. And no, sadly, this is not an April Fool's joke.</p>
+    
+    <p><i>Update</i>: This seems to have not had much of an impact on the network. Looks like it didn't
+    affect most people and the mess has been cleaned up. Thanks for your patience, it won't happen again!</p>
       
     <a name="2012-traceback-attack"><h3>11th September 2012 - Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</h3></a>
     <p>Some academics <a href="http://www.ee.hawaii.edu/~dong/traceback/index.htm">have published</a> 
