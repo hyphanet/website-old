@@ -12,7 +12,7 @@
     <li><a href="#why_anonymity">Но для чего нужна анонимность?</a></li>
     <li><a href="#copyright">А что с авторским правом?</a></li>
     <li><a href="#rewarded">Но как творец будет вознагражден без авторского права?</a></li>
-    <li><a href="alternative">Альтернативы авторскому праву</a></li>
+    <li><a href="#alternative">Альтернативы авторскому праву</a></li>
   </ol>
       </p>
 
