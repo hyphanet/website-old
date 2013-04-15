@@ -13,8 +13,7 @@
 	  <li><a href="#why_anonymity">But why is anonymity necessary?</a></li>
 	  <li><a href="#copyright">And what of copyright?</a></li>
 	  <li><a href="#rewarded">But how will artists be rewarded for their work without copyright?</a></li>
-	  <li><a href="alternative">Alternatives to Copyright</a></li>
-	      Fairshare</a></li>
+	  <li><a href="#alternative">Alternatives to Copyright</a></li>
 	</ol>
       </p>
 
