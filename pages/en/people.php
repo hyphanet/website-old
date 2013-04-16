@@ -22,7 +22,8 @@
 	<h5>Oskar Sandberg</h5>
 	<p>
 	  Oskar was also one of the earliest contributors to the Freenet project, and
-	  continues to play a core role in ongoing development.
+	  has made some important theoretical breakthroughs that lead to the beginning of 
+	  Freenet 0.7, see the papers page.
 	</p>
 
 	<h5>Florent Daigni&egrave;re</h5>
