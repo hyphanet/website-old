@@ -50,7 +50,7 @@
 	<p>
 	  Michael has mostly contributed detailed simulations as part of the Google 
 	  Summer of Code. He has been helpful in designing the 
-	  <a href="https://wiki.freenetproject.org/NewTransportLayer">new
+	  <a href="https://old-wiki.freenetproject.org/NewTransportLayer">new
 	    transport layer</a>.
 	</p>
 
