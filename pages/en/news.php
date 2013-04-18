@@ -49,18 +49,6 @@
     them as Friends on your node. When enough people use Freenet and form darknet connections, we 
     won't need opennet, and this makes all attacks dramatically harder. We will work on making this 
     easier and faster in the near future, as well as fixing the Pitch Black attack.</p>
-        
-    <a name="broken-update-1382"><h3>14th July 2011 - Problems with 1382 and auto-update</h3></a>
-    <p>Due to insufficient testing, a serious bug slipped out in builds around 1382.
-    Freenet may not be able to update itself, and will complain about it, with an error like:</p>
-    <blockquote>
-    The auto-updater has been disabled. This might be because of a local problem, such as running out of disk space, or the auto-updating system may have been compromised. The reason is: Checking for revocation key is failing with an internal error: FetchException:Temporary files error:null:-1:null:false:null:Already finalized..
-    </blockquote>
-    <p>Restart Freenet, usually it will be able to update within an hour or two.
-    If that doesn't work (if the error message above comes back), use the update.cmd or update.sh scripts to do a manual
-    update (this will download the update from freenetproject.org). You should not
-    need to reinstall, please contact us if you have more problems. Thanks, and sorry!<br>
-    - Toad</p>
     
     <a name="freedom-house-april-2011"><h3>13th April 2011 - Freenet top anti-censorship tool in survey of Chinese users!</h3></a>
     <p>A <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">report</a> by 
@@ -173,12 +161,6 @@
 	happens if you have opennet enabled (i.e. your network security level is LOW or NORMAL) also happens when your
 	node has been offline for an extended period (hours). Let us know how it goes! We always welcome feedback, particularly
 	<a href="https://bugs.freenetproject.org/">bug reports</a>.</p>
-	
-	<p>PS we have taken uservoice offline due to not being able to efficiently deal with spam. We are still interested in
-	suggestions on how to improve Freenet, please post them on the <a href="https://wiki.freenetproject.org/Suggestions">Wiki</a> or the 
-	<a href="https://bugs.freenetproject.org/">bug tracker</a>, or chat with us on <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a> or the 
-	<a href="lists.html">mailing lists</a>. We are interested in any alternatives to uservoice 
-	if you know of any.</p>
 
 	<a name="new-paper-march-2010"><h3>9th March, 2010 - New paper added</h3></a>
 	<p>A new paper has been added, <a href="/papers/freenet-0.7.5-paper.pdf">Private Communication Through a Network of Trusted Connections: The Dark Freenet</a>, written by Oskar and Vive (two of our theoreticians) with some help from Toad (chief coder). This focuses on the architecture of the network, rather than on the routing and swapping algorithms, which <a href="/papers.html">other papers</a> have described in detail. It has a slight focus on darknet, but should be of interest to anyone interested in how the network works. It also has some new simulations...</p>
@@ -437,29 +419,3 @@
 	our <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">development
 	mailing list</a> and introduce yourself.
       </p>
-
-      <a name="another-big-donation-google"><h3>7th May, 2009 -
-      Another big donation funds ongoing development</h3></a>
-
-      <p>
-	<a href="http://www.google.com/">Google</a>'s <a href="http://code.google.com/opensource/">Open Source team</a> has donated US$18,000 to the Freenet Project to 
-	support the ongoing development of the Freenet software (thanks again 
-	Google!).
-      </p>
-
-      <p>
-	Their last donation funded the db4o project, which has now been merged into 
-	Freenet, greatly improving performance for large download queues while 
-	reducing memory usage, amongst other benefits.
-      </p>
-      <p>
-	We are currently working on Freenet 0.8, which will be released later this 
-	year, and will include additional performance improvements, usability work, 
-	and security improvements, as well as the usual debugging. Features are not 
-	yet finalized but we expect it to include Freetalk (a new anonymous web 
-	forums tool), a new Vista-compatible installer for Windows (that part will be 
-	out in a few days), and hopefully Bloom filter sharing, a new feature 
-	enabling nodes to know what is in their peers' datastores, greatly improving 
-	performance, combined with some related security improvements.
-      </p>
-
