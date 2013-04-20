@@ -143,7 +143,7 @@
 	over the summer, rather than chasing the increasingly scarce menial labour market! Flip bits not burgers!</p>
 	<p>You should submit at least two proposals for projects within Freenet as we often get several 
 	students chasing the same tasks. You can see some ideas for projects 
-	<a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://socghop.appspot.com/">here</a>.</p>
+	<a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2010">here</a>. Apply <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013">here</a>.</p>
 	<p>We will help you to fill in technical details, understand exactly what we need. We also welcome
 	new ideas and approaches, please contact us, on our devl <a href="lists.html">mailing list</a>,
 	or <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">IRC</a>. You will need to 
@@ -151,7 +151,7 @@
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
 	a source of project ideas. <a href="https://wiki.freenetproject.org/">The new wiki</a>, and 
 	<a href="https://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
-	documentation. If you want to work for us over summer, please <a href="http://socghop.appspot.com/">apply</a>!</p>
+	documentation. If you want to work for us over summer, please <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013">apply</a>!</p>
 	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
 	<a href="https://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
 
