@@ -56,7 +56,7 @@
     Azerbaijan, Burma, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Summary of results in China">China</a>
     and Iran for their perceptions of and preferred tools for bypassing local government censorship. 
     In China, Freenet was the only anti-censorship tool to achieve 5 stars, and 
-    the third most widely used overall.
+    the third most widely used overall.</p>
     
 	<a name="wikileaks-freenet-december-2010"><h3>7th December 2010 - Wikileaks and Freenet</h3></a>
 	
