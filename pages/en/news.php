@@ -150,7 +150,7 @@
 	demonstrate basic coding ability by fixing a minor bug or implementing a minor feature; you should
 	have a look at <a href="https://bugs.freenetproject.org/">the bug tracker</a>, which may also be
 	a source of project ideas. <a href="https://wiki.freenetproject.org/">The new wiki</a>, and 
-	<a href="https://wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
+	<a href="https://old-wiki.freenetproject.org/">the old wiki</a> are also good sources of ideas and
 	documentation. If you want to work for us over summer, please <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013">apply</a>!</p>
 	<p>PS we have reinstated uservoice, after their support contacted us via our bug tracker and seem to have largely cleared up the spam problem.
 	<a href="https://freenet.uservoice.com/">Click here</a> to make suggestions for how to improve Freenet!</a></p>
