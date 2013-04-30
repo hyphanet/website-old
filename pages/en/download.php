@@ -40,7 +40,7 @@
 	<p>
 	  - Download and
 	  run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
-	      installer</a></big><br/> 
+	      installer</a></big> (<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">try this if the first link is blocked</a>)<br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
 	  components for you. When done, your default browser will
@@ -108,6 +108,9 @@
 	  above command lines. If wget is not installed, it can be installed with a package manager, such as
 	  sudo apt-get install wget on Debian or Ubuntu.
 	</p>
+	
+	<p>If the link above is blocked, you could download it from our server <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">here</a>.
+	But please use the Google link if you can.</p>
 	
 	<div id="mirrored">
 	  
