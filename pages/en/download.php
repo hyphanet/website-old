@@ -249,7 +249,7 @@
 	you can configure this to any size from 100MB upwards, but
 	we recommend at least 1GB. Freenet also uses disk space for
 	your downloads. Freenet's memory usage is approximately
-	192MB plus 1MB for every 2GB of datastore.
+	256MB plus 400kB for every 2GB of datastore.
       </p>
       
       <p>
