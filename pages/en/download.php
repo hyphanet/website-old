@@ -255,7 +255,6 @@
       <p>
       On 64-bit Windows, we will install a 32-bit Java Virtual Machine because 
       of limitations of the <a rel="nofollow" href="http://wrapper.tanukisoftware.org/doc/english/download.jsp">Java Service Wrapper</a>.
-      This will not necessarily auto-update itself, so you may need to <a rel="nofollow" href="http://www.java.com/en/download/manual.jsp">update it occasionally</a>.
       </p>
       
       <h3>Upgrading</h3>
