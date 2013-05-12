@@ -358,6 +358,14 @@
 	apt-get install sun-java6-bin
 	update-java-alternatives -s java-6-sun
 	</pre>
+	
+	  <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
+    On every new build, a brief summary of all the main changes is posted to the support and devl lists 
+    and the eng.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
+    for a much more detailed view, check out the <a href="https://github.com/freenet/">git repositories</a>.
+    Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
+    <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
+    updated and frequently go off on rants on unrelated topics!</p>
     
       <p><b id="backtrace">Why are there so many messages in my logfile with a backtrace attached?</b><br/>
 	Fred (and freenet in general) are still very much in development, and if something goes wrong it's worthwhile
@@ -386,14 +394,23 @@
 	Kaspersky can be a problem with Freenet. See <a href="https://wiki.freenetproject.org/Installing/Windows#.27Download.2Fupload_queue_database_corrupted.21.27_.28When_using_Kaspersky_on_Windows_7.29">here</a>.
 	We recommend you turn off Kaspersky during install and during node startup, and exclude the directory you
 	installed Freenet in (most likely C:\Program Files\Freenet or C:\Program Files (x86)\Freenet).</p>
-      
-      <p><b id="whatsnew">What's new? Is there a changelog?</b><br>
-    On every new build, a brief summary of all the main changes is posted to the support and devl lists 
-    and the eng.freenet board on Freetalk. This is usually relayed to FMS and Frost too. Alternatively,
-    for a much more detailed view, check out the <a href="https://github.com/freenet/">git repositories</a>.
-    Also, you should check the developer blogs (from the default bookmarks, or over the web, e.g. 
-    <a href="http://amphibian.dyndns.org/flogmirror/">toad</a>), but be warned they are often not regularly 
-    updated and frequently go off on rants on unrelated topics!</p>
+	
+		  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
+	The password protects your downloads and uploads and the client-cache (cache of 
+	what you've recently browsed on Freenet). It is stored in the file master.keys. There 
+	is no way to recover the password, but if you forget it you can wipe your downloads and 
+	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
+	question on private data and local security</a> for more information.</p>
+	
+	  <p><b id="clockskew">Freenet keeps complaining about clock skew</b><br/>
+	Freenet will have problems if your clock is constantly being rewound. Usually this 
+	happens when something is resetting your clock regularly in big jumps. On linux, you 
+	should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
+	helpful), but if you see clock skew errors, try adding the -x option to it to avoid 
+	big backwards jumps. Also, running ntpdate on startup so there is one big jump before
+	freenet starts is a good idea. This can also happen on Windows sometimes, let us know
+	how you managed to fix it ... generally it's not all that serious though, especially if
+	big jumps in the clock are only once a day.</p>
 
       <h2>Publisher answers</h2>
       <p>
@@ -774,23 +791,6 @@
 	in separate encrypted databases, as soon as we have automatic backups for node.db4o.
 	See <a href="https://wiki.freenetproject.org/Program_files">here</a> for details 
 	on some of the files.</p>
-
-	  <p><b id="forgotpass">I set a password and now I forgot it, what can I do?</b><br/>
-	The password protects your downloads and uploads and the client-cache (cache of 
-	what you've recently browsed on Freenet). It is stored in the file master.keys. There 
-	is no way to recover the password, but if you forget it you can wipe your downloads and 
-	uploads and the client cache by securely deleting the file master.keys. See <a href="#privatedata">the
-	question on private data and local security</a> for more information.</p>
-	
-	  <p><b id="clockskew">Freenet keeps complaining about clock skew</b><br/>
-	Freenet will have problems if your clock is constantly being rewound. Usually this 
-	happens when something is resetting your clock regularly in big jumps. On linux, you 
-	should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
-	helpful), but if you see clock skew errors, try adding the -x option to it to avoid 
-	big backwards jumps. Also, running ntpdate on startup so there is one big jump before
-	freenet starts is a good idea. This can also happen on Windows sometimes, let us know
-	how you managed to fix it ... generally it's not all that serious though, especially if
-	big jumps in the clock are only once a day.</p>
 
       <p><b id="rabbit">Where can I get a high quality copy of the rabbit icon?</b><br/>
 
