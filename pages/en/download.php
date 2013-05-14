@@ -39,8 +39,8 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
-	      installer</a></big> (<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">try this if the first link is blocked</a>)<br/> 
+	  run <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">the
+	      installer</a></big> 
 	  <br/>
 	  It will automatically install Freenet and other required
 	  components for you. When done, your default browser will
@@ -95,22 +95,19 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">https://downloads.freenetproject.org/latest/new_installer_offline.jar</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternatively,
-	  downloading <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the
+	  downloading <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">the
 	    installer</a>
-	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg
+	  (<a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar.sig">gpg
 	    signature</a>) and then clicking on the file may work on
 	  some systems, but if there are problems we recommend the
 	  above command lines. If wget is not installed, it can be installed with a package manager, such as
 	  sudo apt-get install wget on Debian or Ubuntu.
 	</p>
-	
-	<p>If the link above is blocked, you could download it from our server <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">here</a>.
-	But please use the Google link if you can.</p>
 	
 	<div id="mirrored">
 	  
