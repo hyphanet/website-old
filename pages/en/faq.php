@@ -75,8 +75,8 @@
       </li></ol>
       <h3> Misc. questions</h3>
       <ol><li><a href="#rabbit">Where can I get a high quality copy of the rabbit icon?</a>
-	</li><li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">An other FAQ on our wiki server</a>
-	</li><li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">A page dedicated to the security of freenet 0.7 on our wiki server</a>
+	</li><li><a href="https://wiki.freenetproject.org/FAQ">An other FAQ on our wiki server</a>
+	</li><li><a href="https://wiki.freenetproject.org/Security_summary">A page dedicated to the security of freenet 0.7 on our wiki server</a>
       </li></ol>
       <h2> Philosophical answers
       </h2><p><b id="what">What is Freenet?</b><br/>
