@@ -75,8 +75,8 @@
       </li></ol>
       <h3> Preguntas varias</h3>
       <ol><li><a href="#rabbit">¿Dónde puedo obtener una copia de alta cálida del conejo del logo?</a>
-	</li><li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">Otras PUF en nuestro servidor wiki</a>
-	</li><li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Una página dedicada a la seguridad de Freenet 0.7 en nuestro servidor wiki</a>
+	</li><li><a href="https://wiki.freenetproject.org/FAQ">Otras PUF en nuestro servidor wiki</a>
+	</li><li><a href="https://wiki.freenetproject.org/Security_summary">Una página dedicada a la seguridad de Freenet 0.7 en nuestro servidor wiki</a>
       </li></ol>
       <h2> Respuestas filosóficas
       </h2><p><b id="what">¿Qué es Freenet?</b><br/>

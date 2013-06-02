@@ -75,8 +75,8 @@
       
       <ol>
 	<li><a href="#rabbit">Où puis-je récupérer une copie haute qualité de l'icône en forme de lapin ?</a></li>
-	<li><a href="https://wiki.freenetproject.org/FrequentlyAskedQuestions">Une autre FAQ sur le wiki (en anglais)</a></li>
-	<li><a href="https://wiki.freenetproject.org/FreenetZeroPointSevenSecurity">Une page dédiée à la sécurité de Freenet 0.7 sur notre wiki (en anglais)</a></li>
+	<li><a href="https://wiki.freenetproject.org/FAQ">Une autre FAQ sur le wiki (en anglais)</a></li>
+	<li><a href="https://wiki.freenetproject.org/Security_summary">Une page dédiée à la sécurité de Freenet 0.7 sur notre wiki (en anglais)</a></li>
      </ol>
 
       <h2>Réponses philosophiques</h2>
