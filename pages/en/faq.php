@@ -158,7 +158,7 @@
   against blocking; the protocol is relatively hard to identify (we are working on 
   <a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
   which would <a href="http://en.wikipedia.org/wiki/Steganography">make it much harder
-  to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/DarkNet">darknet</a> mode 
+  to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/Darknet">darknet</a> mode 
   (i.e. only connecting to your friends) which makes automated harvesting and blocking 
   of nodes very difficult.
       </p>
