@@ -160,8 +160,8 @@
   to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/Darknet">darknet</a> mode 
   (i.e. only connecting to your friends) which makes automated harvesting and blocking 
   of nodes very difficult. Note that many mobile internet providers block all peer to peer networks
-  along with other content, and many corporate or academic networks may block Freenet (but you really
-  shouldn't run Freenet at work anyway, at least not unless it's for work purposes!).</p>
+  along with other content, and many corporate or academic networks may block Freenet (but even
+  if they don't, see <a href="#trouble">you shouldn't run Freenet at work</a> for non-work purposes!).</p>
   
   <p>There has been discussion in the US and UK of legislation to require backdoors and presumably 
   blocking of anything that can't be backdoored. This is unlikely to pass, especially in the 
@@ -191,7 +191,10 @@
   may have a problem with Freenet. At least one French hosting provider
   has been known to ban Freenet (along with Tor and others) from their
   servers; please read your terms and conditions to make sure you are 
-  allowed to run Freenet.</p>
+  allowed to run Freenet. Note also that Freenet can use rather a lot of bandwidth,
+  at least 20GB/month, and this may be a problem on a cheap or shared connection.
+  And of course running it at work could get you into trouble too, unless it's for
+  work purposes!</p>
 
       <p><b id="copyright">What about copyright?</b><br/>
   There are some excellent thoughts on this subject on the <a href="/philosophy.html">Philosophy</a> page.
