@@ -465,10 +465,27 @@
 
   </li><li> Work on the Freenet web site (including the FAQ).
   </li><li> Contribute your ideas to the discussion lists.
-  </li><li> Translate the user interface into your local language.
-      </li></ul><p>If you are a developer, you can also help by designing and developing other applications to run on Freenet. Or maybe even mention us on your website and promote us just like this <a href="http://www.webhostingsearch.com/">web hosting guide</a> did.</p>
+  </li><li> <a href="https://wiki.freenetproject.org/Translation">Translate the user interface</a> into your local language (the website and the installers also need translation, ask us about this).
+      </li></ul>
       
-      <p> People that want to contribute to Freenet in <a href="/openjobs.html">any way</a>, by contributing artwork, new ideas, or even correcting spelling/grammar mistakes or ideas for adding new pages/paragraphs on this site, are also welcome to <a href="mailto:ian@locut.us">email</a>. </p>
+      <p>If you are a developer, you can help by working on Freenet itself, or by creating other applications
+  to run on Freenet. External applications (such as FMS, the main forums system used on Freenet) use 
+  <a href="https://wiki.freenetproject.org/FCPv2">the Freenet Client Protocol</a> to talk to Fred. Another 
+  possibility is writing plugins - these are written in Java and run in Freenet's JVM, and can be bundled
+  with Freenet when they are ready. A popular plugin is Sone, which is a microblogging/social app over 
+  Freenet. You can see how to install FMS and Sone on e.g. the Freenet Social Networking Guide freesite.</p>
+  
+  <p>If you want to work on Freenet itself, see <a href="https://freenetproject.org/developer.html">here</a>
+  to get the source code.</p>
+  
+  <p>Links to us are welcome, for example this <a href="http://www.webhostingsearch.com/">web hosting guide</a>.
+  Improvements to this website, fixes for spelling/grammar mistakes, new ideas (see <a href="#idea">the previous answer</a>),
+  are all welcome. You may find <a href="https://wiki.freenetproject.org/Main_Page">the wiki</a> helpful.</p>
+  
+  <p>If you want to contribute to Freenet in any way, please contact us, via 
+  <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">the developers mailing list</a>,
+  <a href="/irc.html">the chat channel</a>, anonymously via the freenet board on FMS, or email 
+  <a href="mailto:ian@locut.us">Ian</a> or <a href="toad@amphibian.dyndns.org">Toad</a>.</p>
       
       <p><b id="access">How can I access the code and website?</b><br/>
 
