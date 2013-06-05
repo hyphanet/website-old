@@ -152,16 +152,25 @@
   and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
   like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
   are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-  peer networks (but right now Freenet works fine in France and we have many French users!).
-  The UK <a href="http://www.bbc.co.uk/news/uk-politics-19968068">may force its major
-  ISPs</a> to block anything they can't surveil. Freenet 0.7 has some minimal defences 
-  against blocking; the protocol is relatively hard to identify (we are working on 
-  <a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
+  peer networks (but right now Freenet works fine in France and we have many French users!).</p>
+  
+  <p>Technically, Freenet 0.7 has some minimal defences against blocking; the protocol is relatively hard 
+  to identify (we are working on <a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
   which would <a href="http://en.wikipedia.org/wiki/Steganography">make it much harder
   to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/Darknet">darknet</a> mode 
   (i.e. only connecting to your friends) which makes automated harvesting and blocking 
-  of nodes very difficult.
-      </p>
+  of nodes very difficult.</p>
+  
+  <p>There has been discussion in the US and UK of legislation to require backdoors and presumably 
+  blocking of anything that can't be backdoored. This is unlikely to pass, especially in the 
+  US, where similar laws have been proposed periodically and are probably unconstitutional. However, 
+  even if the government came to us and demanded a back door, we would be legally unable to secretly
+  distribute a trojan'ed build, because Freenet is open source, numerous people have contributed 
+  code to it, so legally we have to give you the source code, including that for any government 
+  mandated back doors - which wouldn't be secret for long! If this happened it is likely that
+  <a href="/donate.html">Freenet Project Incorporated</a>, the non-profit organisation that runs 
+  this website and handles donations, would shut down, but the Freenet network itself would live 
+  on just fine, the only difference being not being able to pay full time developers as easily.</p>
       
       <p><b id="trouble">Can I get trouble if I run a node?</b><br/>
   This is related to <a href="#legal">"Is Freenet legal?"</a>. We have done everything
