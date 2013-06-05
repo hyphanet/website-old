@@ -504,7 +504,7 @@
 
   Have a look at <a href="https://wiki.freenetproject.org/">our wiki</a>.
   An older wiki, which is now read-only, but has a fair amount of content so is
-  sometimes helpful is <a href="https://wiki.freenetproject.org/">here</a>. 
+  sometimes helpful is <a href="https://old-wiki.freenetproject.org/">here</a>. 
   There are also several implementations of wiki's over Freenet. The most recent
   one is called Jfniki. There is a link in the default bookmarks on the Browse 
   Freenet page after you install Freenet.
