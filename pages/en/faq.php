@@ -152,16 +152,16 @@
   and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
   like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
   are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-  peer networks (but right now Freenet works fine in France and we have many French users!).
-  Also note that most mobile internet services block all peer to peer (as well as lots of other
-  legal content and protocols).</p>
+  peer networks (but right now Freenet works fine in France and we have many French users!).</p>
   
   <p>Technically, Freenet 0.7 has some minimal defences against blocking; the protocol is relatively hard 
   to identify (we are working on <a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
   which would <a href="http://en.wikipedia.org/wiki/Steganography">make it much harder
   to detect Freenet</a>. Freenet supports a <a href="https://wiki.freenetproject.org/Darknet">darknet</a> mode 
   (i.e. only connecting to your friends) which makes automated harvesting and blocking 
-  of nodes very difficult.</p>
+  of nodes very difficult. Note that many mobile internet providers block all peer to peer networks
+  along with other content, and many corporate or academic networks may block Freenet (but you really
+  shouldn't run Freenet at work anyway, at least not unless it's for work purposes!).</p>
   
   <p>There has been discussion in the US and UK of legislation to require backdoors and presumably 
   blocking of anything that can't be backdoored. This is unlikely to pass, especially in the 
