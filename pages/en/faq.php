@@ -152,7 +152,9 @@
   and was observed in 2005 to block the 0.5 protocol as well. This suggests China doesn't 
   like us, so be careful if you run Freenet in China. Some other countries (e.g. France)
   are known to be hostile to peer to peer, and may eventually force ISPs to block peer to 
-  peer networks (but right now Freenet works fine in France and we have many French users!).</p>
+  peer networks (but right now Freenet works fine in France and we have many French users!).
+  Also note that most mobile internet services block all peer to peer (as well as lots of other
+  legal content and protocols).</p>
   
   <p>Technically, Freenet 0.7 has some minimal defences against blocking; the protocol is relatively hard 
   to identify (we are working on <a href="https://wiki.freenetproject.org/Transport_plugins">"transport plugins"</a>, 
@@ -171,6 +173,10 @@
   <a href="/donate.html">Freenet Project Incorporated</a>, the non-profit organisation that runs 
   this website and handles donations, would shut down, but the Freenet network itself would live 
   on just fine, the only difference being not being able to pay full time developers as easily.</p>
+  
+  <p>See <a href="http://en.wikipedia.org/wiki/Network_neutrality">net neutrality</a> and <a href="https://www.eff.org/">the EFF</a>
+  or equivalent organisations in your country for the politics of all this and how you can stop such
+  laws.</p>
       
       <p><b id="trouble">Can I get trouble if I run a node?</b><br/>
   This is related to <a href="#legal">"Is Freenet legal?"</a>. We have done everything
