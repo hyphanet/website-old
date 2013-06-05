@@ -465,7 +465,7 @@
 
   </li><li> Work on the Freenet web site (including the FAQ).
   </li><li> Contribute your ideas to the discussion lists.
-  </li><li> <a href="https://wiki.freenetproject.org/Translation">Translate the user interface</a> into your local language (the website and the installers also need translation, ask us about this).
+  </li><li> <a href="https://wiki.freenetproject.org/Translation">Translate the user interface</a> into your local language (the website and the installers also need translation, you can ask us about this).
       </li></ul>
       
       <p>If you are a developer, you can help by working on Freenet itself, or by creating other applications
@@ -485,7 +485,10 @@
   <p>If you want to contribute to Freenet in any way, please contact us, via 
   <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">the developers mailing list</a>,
   <a href="/irc.html">the chat channel</a>, anonymously via the freenet board on FMS, or email 
-  <a href="mailto:ian@locut.us">Ian</a> or <a href="toad@amphibian.dyndns.org">Toad</a>.</p>
+  <a href="mailto:ian@locut.us">Ian</a>.</p>
+  
+  <p>Last but not least you can <a href="/donate.html">donate</a> to support our paid developer(s) and cover
+  server costs.</p>
       
       <p><b id="access">How can I access the code and website?</b><br/>
 
