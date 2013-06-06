@@ -449,7 +449,7 @@
 
 	Echa una mirada en <a href="https://wiki.freenetproject.org/">nuestra wiki</a>.
 	Una antigua wiki, la cual es ahora de solo lectura, pero tiene una gran cantidad de contenido tal que
-	a veces es útil está <a href="https://wiki.freenetproject.org/">aquí</a>. 
+	a veces es útil está <a href="https://old-wiki.freenetproject.org/">aquí</a>. 
 	Hay también varias implementaciones de wikis sobre Freenet. La más reciente
 	es una llamada Jfniki. Hay un enlace en los marcadores por defecto en la página 
 	Navegar Freenet luego que instalas Freenet.
