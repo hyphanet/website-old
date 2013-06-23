@@ -108,12 +108,17 @@ $(document).ready(function() {
 
       <div id="news">
 	<h4>Latest news</h4>
+
+    <p>
+      Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
+    </p>
 	<p>
 	      (8th April 2013) <a href="news.html#2013-summer-of-code-accepted">Freenet accepted into Summer of Code 2013!</a><br/>
-	      (12th September 2012) <a href="https://emu.freenetproject.org/pipermail/devl/2012-September/036546.html">Released Freenet 0.7.5 build 1413</a><br/>
 	      (11th September 2012) <a href="news.html#2012-traceback-attack">Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</a><br />
           (14th April 2012) <a href="https://emu.freenetproject.org/pipermail/devl/2012-April/036354.html">Released Freenet 0.7.5 build 1407</a><br />
-	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
+	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a>
+          </p>
+    <p>
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
