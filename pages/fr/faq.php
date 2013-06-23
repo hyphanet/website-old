@@ -1,4 +1,4 @@
-      <h1>La foire au questions de Freenet</h1>
+      <h1>La foire aux questions de Freenet</h1>
 
       <h3>Questions philosophiques</h3>
 
