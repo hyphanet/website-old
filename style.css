@@ -136,7 +136,7 @@ div#donate_button a:hover{
     text-shadow: 0 0 5px #ddd;
 }
 
-.whatis, .download, #donate_button {
+.whatis, .download, #donate_button, div#donate_button {
     position: relative;
     width: 50%;
     float:left;
