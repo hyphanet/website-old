@@ -138,7 +138,7 @@ div#donate_button a:hover{
 
 .whatis, .download, #donate_button, div#donate_button {
     position: relative;
-    width: 50%;
+    width: 49%;
     float:left;
 }
 
@@ -194,6 +194,7 @@ p {
 
 div#news{
     padding-top: 20px;
+    padding-left: 2%;
 }
 
 #people h5 {
