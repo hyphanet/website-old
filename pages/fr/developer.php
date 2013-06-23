@@ -1,6 +1,6 @@
-      <h1>Developer</h1>
+      <h1>Développeur</h1>
       
-      <h3>Source Code</h3>
+      <h3>Code source</h3>
       
       <p>
 	We are using <a href="http://git-scm.com/">git</a> as our
