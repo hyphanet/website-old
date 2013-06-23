@@ -98,6 +98,8 @@ $(document).ready(function() {
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
+    <div style="clear: both"></div>
+
 	<div id="donate_button">
 	     <h4>Make a donation</h4>
 	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>

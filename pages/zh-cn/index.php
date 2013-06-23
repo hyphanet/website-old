@@ -98,6 +98,8 @@ $(document).ready(function() {
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">安装指南和其他操作系统安装包.</a></p>
 
+    <div style="clear: both"></div>
+
 	<div id="donate_button">
 	     <h4>做出捐助</h4>
 	     <p>我们不为任何人下载和使用 Freenet 收费, 我们是依赖用户捐助而存在的非营利组织.</p>
