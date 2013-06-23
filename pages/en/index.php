@@ -118,8 +118,6 @@ $(document).ready(function() {
 	</p>
       </div>
 
-	<div style="clear:both;"></div>
-
       <script type="text/javascript">
   			 hideDiv("windows");
 			 hideDiv("macos");
