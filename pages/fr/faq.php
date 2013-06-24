@@ -249,7 +249,7 @@
       <h2>Réponses techniques</h2>
 
       <p>
-	<b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
+	<b id="how">Comment utiliser ce logiciel ? Je l'ai téléchargé, mais quand il s'exécute, il n'y a pas d'interface graphique.</b><br/>
 	Fred (the Freenet REference Daemon - démon Freenet de référence) est éxécuté en tant que démon, ou service, en tâche de fond. Vous pouvez communiquer avec via un client Freenet. FProxy, par exemple, est un client intégré qui vous permet de communiquer avec Freenet à travers un navigateur internet.
 	Lors de l'installation de Freenet, un raccourci "Browse Freenet" devrait avoir été créé sur le bureau et/ou dans le menu démarrer, ainsi qu'un icône dans la zone de notification (lapin Freenet) avec un item "Launch Freenet".
 	Si rien de tout cela ne fonctionne, visitez la page <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> avec votre navigateur. Cliquez sur quelques liens situés dans le paneau "Freesite subscriptions" pour visiter quelques freesites d'indexation populaires.
