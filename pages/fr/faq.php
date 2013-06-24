@@ -260,7 +260,7 @@
       </p>
 
       <p>
-	<b id="slow">Why is Freenet so slow?</b><br/>
+	<b id="slow">Pourquoi Freenet est-il aussi lent ?</b><br/>
 	Quand vous installez Freenet pour la première, il sera lent, et vous pourrez
 	rencontrer les erreurs "Data Not Found" (Donnée introuvable) ou "Route Not Found"
 	(Route introuvable). C'est normal, et Freenet deviendra sensiblement plus rapide 
@@ -281,7 +281,7 @@
       </p>
 
       <p>
-	<b id="search">Is Freenet searchable?</b><br/>
+	<b id="search">Peut-on effectuer des recherches sur Freenet ?</b><br/>
 	Oui, il y a quelques mécanismes de recherche différents. Pour chercher dans
 	les freesites, vous pouvez simplement utiliser le champ de recherche de la
 	page d'accueil, ou bien vous rendre sur la page "Chercher sur Freenet" dans le menu
@@ -293,7 +293,7 @@
 	qui ont des objectifs différents.
       </p>
 
-      <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
+      <p><b id="firewall">Comment puis-je faire fonctionner Freenet avec un pare-feu/NAT ?</b><br/>
 	Mostly, Freenet should just work with a NAT. However, you should forward the ports
 	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
 	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
@@ -306,7 +306,7 @@
 	and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
 
       <p>
-	<b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
+	<b id="connection-perm">Ai-je besoin d'une connexion permanente pour faire tourner un nœud ?</b><br/>
 	Non, mais c'est préférable. Vous pouvez exécuter le logiciel et le 
 	tester sur une connexion "éphémère" (telle que fournie par les configurations
 	habituelles des FAI/modem), mais pour que l'ensemble du réseau soit plus
@@ -341,7 +341,7 @@
       </p>
 
       <p>
-	<b id="store-perm">Why can't Freenet store data permanently?</b><br/>
+	<b id="store-perm">Pourquoi Freenet ne peut-il pas stocker les données de façon permanente ?</b><br/>
       	Parce que nous ne trouvons aucune façon de réaliser cela sans compromettre
 	les autres objectifs de Freenet. Par exemple, on nous suggère souvent
 	que les nœuds ne devraient pas pouvoir effacer les données que le possesseur
@@ -358,7 +358,7 @@
       </p>
 
       <p>
-	<b id="why-java">Why is Freenet implemented in Java?</b><br/>
+	<b id="why-java">Pourquoi avoir implémenté Freenet en java ?</b><br/>
 	Les opinions diffèrent à propos du choix de Java pour l'implémentation
 	de référence de Freenet (même entre les développeurs principaux). <a href="/people.html">Ian Clarke</a> 
 	et plusieurs autres développeurs sont en faveur de Java, et un choix en faveur de Java a été fait. Même
@@ -370,7 +370,7 @@
       </p>
       
       <p>
-	<b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
+	<b id="fproxy-lan">Comment autoriser les connexions à FProxy depuis d'autres ordinateurs ?</b><br>
       	Si vous voulez que tout le monde puisse utiliser votre nœud, différentes options s'offrent à vous :<br>
 	
     	<ul>
@@ -403,7 +403,7 @@
       </p>
 	
       <p>
-	<b id="openjdk">Problems installing with OpenJDK</b><br>
+	<b id="openjdk">Le programme d'installation s'arrête lorsqu'il télécharge des fichiers, et j'utilise Ubuntu 8.04 et/ou OpenJDK</b><br>
 	Certaines version d'OpenJDK, en particulier celle inclue dans Ubuntu 8.04,
 	ont quelques problèmes avec SSL ce qui engendre des erreurs lors de l'exécution
 	du programme d'installation. Veuillez installer le JRE de Sun, au moins dans sa
