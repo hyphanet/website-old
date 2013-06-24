@@ -136,7 +136,7 @@
       </p>
 
       <p>
-	<b id="legal">Is Freenet legal?</b><br/>
+	<b id="legal">Freenet est-il légal ?</b><br/>
         Nous ne sommes au courant d'aucune poursuite judiciaire suite à l'utilisation de Freenet.
 	Certaines personnes affirment que la loi <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	(lien en anglais) rend Freenet illégal en France&nbsp;; d'autres nous ont parlé de la
@@ -155,7 +155,7 @@
       </p>
 
       <p>
-	<b id="blocked">Is Freenet blocked by national firewalls?</b><br/>
+	<b id="blocked">Freenet est-il bloqué par des pares-feu nationaux ?</b><br/>
 	Le pare-feu national Chinois (le Bouclier Doré) a bloqué notre site web pendant
 	de nombreuses année, ainsi que la version 0.5 du protocole selon des observations
 	datant de 2005. Cela suggère que la Chine ne nous aime pas, donc soyez prudent si
@@ -171,7 +171,7 @@
       </p>
       
       <p>
-	<b id="trouble">Can I get trouble if I run a node?</b><br/>
+	<b id="trouble">Puis-je être inquiété si je fais tourner un nœud ?</b><br/>
 	Ce sujet est lié à <a href="#legal">"Freenet est-il légal ?"</a>.
 	Nous avons fait tout ce que nous pouvions pour rendre extrêmement
 	difficile à n'importe quel système judiciaire sensé de justifier de punir
@@ -189,14 +189,14 @@
       </p>
 
       <p>
-	<b id="copyright">What about copyright?</b><br/>
+	<b id="copyright">Qu'en est-il du droit d'auteur ?</b><br/>
 	Il y a d'excellentes opinions à ce sujet sur la page <a href="/philosophy.html">Philosophy</a>.
 	Les lois spécifiques aux droits d'auteurs pourraient être un problème, merci de lire
 	<a href="#legal">Freenet est-il légal?</a> et <a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a>.
       </p>
 
       <p>
-	<b id="childporn">What about child porn, offensive content or terrorism?</b><br/>
+	<b id="childporn">Qu'en est-il de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme ?</b><br/>
 	Bien que la plupart des gens aimeraient que la pornographie infantile
 	et le terrorisme n'existe pas, l'humanité ne devrait pas être privée
 	de la liberté de communiqué simplement parce qu'un très petit nombre
@@ -205,7 +205,7 @@
 
 
       <p>
-	<b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
+	<b id="offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</b><br/>
 	Le véritable test pour ceux qui affirment croire en la liberté
 	d'expression est de savoir s'ils tolèrent un discours avec lequel ils
 	sont en désaccord, ou qu'ils trouvent répugnant. Si vous n'êtes pas
@@ -231,7 +231,7 @@
      </p>
 
       <p>
-	<b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
+	<b id="whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</b><br/>
 	Oui, en fait même sans garantir l'anonymat, Freenet est déjà
 	très utile, grâce à sa façon unique de gérer la distribution
 	de contenus et la charge d'information. Plus simplement,
@@ -249,7 +249,7 @@
       <h2>Réponses techniques</h2>
 
       <p>
-	<b id="how">How do I use this software? I downloaded it, but when I run it there's no GUI.</b><br/>
+	<b id="how">Comment utiliser ce logiciel ? Je l'ai téléchargé, mais quand il s'exécute, il n'y a pas d'interface graphique.</b><br/>
 	Fred (the Freenet REference Daemon - démon Freenet de référence) est éxécuté en tant que démon, ou service, en tâche de fond. Vous pouvez communiquer avec via un client Freenet. FProxy, par exemple, est un client intégré qui vous permet de communiquer avec Freenet à travers un navigateur internet.
 	Lors de l'installation de Freenet, un raccourci "Browse Freenet" devrait avoir été créé sur le bureau et/ou dans le menu démarrer, ainsi qu'un icône dans la zone de notification (lapin Freenet) avec un item "Launch Freenet".
 	Si rien de tout cela ne fonctionne, visitez la page <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a> avec votre navigateur. Cliquez sur quelques liens situés dans le paneau "Freesite subscriptions" pour visiter quelques freesites d'indexation populaires.
@@ -260,7 +260,7 @@
       </p>
 
       <p>
-	<b id="slow">Why is Freenet so slow?</b><br/>
+	<b id="slow">Pourquoi Freenet est-il aussi lent ?</b><br/>
 	Quand vous installez Freenet pour la première, il sera lent, et vous pourrez
 	rencontrer les erreurs "Data Not Found" (Donnée introuvable) ou "Route Not Found"
 	(Route introuvable). C'est normal, et Freenet deviendra sensiblement plus rapide 
@@ -281,7 +281,7 @@
       </p>
 
       <p>
-	<b id="search">Is Freenet searchable?</b><br/>
+	<b id="search">Peut-on effectuer des recherches sur Freenet ?</b><br/>
 	Oui, il y a quelques mécanismes de recherche différents. Pour chercher dans
 	les freesites, vous pouvez simplement utiliser le champ de recherche de la
 	page d'accueil, ou bien vous rendre sur la page "Chercher sur Freenet" dans le menu
@@ -293,7 +293,7 @@
 	qui ont des objectifs différents.
       </p>
 
-      <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
+      <p><b id="firewall">Comment puis-je faire fonctionner Freenet avec un pare-feu/NAT ?</b><br/>
 	Mostly, Freenet should just work with a NAT. However, you should forward the ports
 	manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
 	see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
@@ -306,7 +306,7 @@
 	and find the option "IP address override". Put your domain name in that box, and apply the settings.</p>
 
       <p>
-	<b id="connection-perm">Do I need a permanent connection to run a node?</b><br/>
+	<b id="connection-perm">Ai-je besoin d'une connexion permanente pour faire tourner un nœud ?</b><br/>
 	Non, mais c'est préférable. Vous pouvez exécuter le logiciel et le 
 	tester sur une connexion "éphémère" (telle que fournie par les configurations
 	habituelles des FAI/modem), mais pour que l'ensemble du réseau soit plus
@@ -341,7 +341,7 @@
       </p>
 
       <p>
-	<b id="store-perm">Why can't Freenet store data permanently?</b><br/>
+	<b id="store-perm">Pourquoi Freenet ne peut-il pas stocker les données de façon permanente ?</b><br/>
       	Parce que nous ne trouvons aucune façon de réaliser cela sans compromettre
 	les autres objectifs de Freenet. Par exemple, on nous suggère souvent
 	que les nœuds ne devraient pas pouvoir effacer les données que le possesseur
@@ -358,7 +358,7 @@
       </p>
 
       <p>
-	<b id="why-java">Why is Freenet implemented in Java?</b><br/>
+	<b id="why-java">Pourquoi avoir implémenté Freenet en java ?</b><br/>
 	Les opinions diffèrent à propos du choix de Java pour l'implémentation
 	de référence de Freenet (même entre les développeurs principaux). <a href="/people.html">Ian Clarke</a> 
 	et plusieurs autres développeurs sont en faveur de Java, et un choix en faveur de Java a été fait. Même
@@ -370,7 +370,7 @@
       </p>
       
       <p>
-	<b id="fproxy-lan">How do I allow connections to FProxy from other computers?</b><br>
+	<b id="fproxy-lan">Comment autoriser les connexions à FProxy depuis d'autres ordinateurs ?</b><br>
       	Si vous voulez que tout le monde puisse utiliser votre nœud, différentes options s'offrent à vous :<br>
 	
     	<ul>
@@ -403,7 +403,7 @@
       </p>
 	
       <p>
-	<b id="openjdk">Problems installing with OpenJDK</b><br>
+	<b id="openjdk">Le programme d'installation s'arrête lorsqu'il télécharge des fichiers, et j'utilise Ubuntu 8.04 et/ou OpenJDK</b><br>
 	Certaines version d'OpenJDK, en particulier celle inclue dans Ubuntu 8.04,
 	ont quelques problèmes avec SSL ce qui engendre des erreurs lors de l'exécution
 	du programme d'installation. Veuillez installer le JRE de Sun, au moins dans sa
