@@ -1,4 +1,4 @@
-      <h1>La foire au questions de Freenet</h1>
+      <h1>La foire aux questions de Freenet</h1>
 
       <h3>Questions philosophiques</h3>
 
@@ -136,7 +136,7 @@
       </p>
 
       <p>
-	<b id="legal">Is Freenet legal?</b><br/>
+	<b id="legal">Freenet est-il légal ?</b><br/>
         Nous ne sommes au courant d'aucune poursuite judiciaire suite à l'utilisation de Freenet.
 	Certaines personnes affirment que la loi <a href="https://en.wikipedia.org/wiki/DADVSI">DADVSI</a>
 	(lien en anglais) rend Freenet illégal en France&nbsp;; d'autres nous ont parlé de la
@@ -155,7 +155,7 @@
       </p>
 
       <p>
-	<b id="blocked">Is Freenet blocked by national firewalls?</b><br/>
+	<b id="blocked">Freenet est-il bloqué par des pares-feu nationaux ?</b><br/>
 	Le pare-feu national Chinois (le Bouclier Doré) a bloqué notre site web pendant
 	de nombreuses année, ainsi que la version 0.5 du protocole selon des observations
 	datant de 2005. Cela suggère que la Chine ne nous aime pas, donc soyez prudent si
@@ -171,7 +171,7 @@
       </p>
       
       <p>
-	<b id="trouble">Can I get trouble if I run a node?</b><br/>
+	<b id="trouble">Puis-je être inquiété si je fais tourner un nœud ?</b><br/>
 	Ce sujet est lié à <a href="#legal">"Freenet est-il légal ?"</a>.
 	Nous avons fait tout ce que nous pouvions pour rendre extrêmement
 	difficile à n'importe quel système judiciaire sensé de justifier de punir
@@ -189,14 +189,14 @@
       </p>
 
       <p>
-	<b id="copyright">What about copyright?</b><br/>
+	<b id="copyright">Qu'en est-il du droit d'auteur ?</b><br/>
 	Il y a d'excellentes opinions à ce sujet sur la page <a href="/philosophy.html">Philosophy</a>.
 	Les lois spécifiques aux droits d'auteurs pourraient être un problème, merci de lire
 	<a href="#legal">Freenet est-il légal?</a> et <a href="#blocked">Freenet est-il bloqué par des pares-feu nationaux ?</a>.
       </p>
 
       <p>
-	<b id="childporn">What about child porn, offensive content or terrorism?</b><br/>
+	<b id="childporn">Qu'en est-il de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme ?</b><br/>
 	Bien que la plupart des gens aimeraient que la pornographie infantile
 	et le terrorisme n'existe pas, l'humanité ne devrait pas être privée
 	de la liberté de communiqué simplement parce qu'un très petit nombre
@@ -205,7 +205,7 @@
 
 
       <p>
-	<b id="offensive">I don't want my node to be used to harbor child porn, offensive content or terrorism. What can I do?</b><br/>
+	<b id="offensive">Je ne veux pas que mon nœud soit utilisé pour héberger de la pornographie infantile, des contenus choquants ou offensants, ou du terrorisme. Que dois-je faire ?</b><br/>
 	Le véritable test pour ceux qui affirment croire en la liberté
 	d'expression est de savoir s'ils tolèrent un discours avec lequel ils
 	sont en désaccord, ou qu'ils trouvent répugnant. Si vous n'êtes pas
@@ -231,7 +231,7 @@
      </p>
 
       <p>
-	<b id="whatelse">I have nothing to hide and don't need anonymity. Is there anything else Freenet can offer?</b><br/>
+	<b id="whatelse">Je n'ai rien à cacher et je n'ai pas besoin d'anonymat. Y a-t-il autre chose que Freenet puisse offrir ?</b><br/>
 	Oui, en fait même sans garantir l'anonymat, Freenet est déjà
 	très utile, grâce à sa façon unique de gérer la distribution
 	de contenus et la charge d'information. Plus simplement,
