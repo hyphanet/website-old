@@ -4,7 +4,8 @@
       <p>El balance actual del proyecto es <b>$MONEYBALANCE</b> (actualizado dos veces al día). 
 <!--      This will pay for the project's one paid developer (we have many volunteers) and the server for 
       another <b>MONEYDAYS days</b>. This does not include work already paid for, which 
-      is generally up to 2 months.</p> -->
+      is generally up to 2 months. -->
+      </p>
       
       <h4>Por qué necesita donaciones el Proyecto Freenet?</h4>
       <p>
