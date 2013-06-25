@@ -15,7 +15,7 @@
       <p>
 	Recomendamos muy especialmente que uses el cliente de linea de comandos git oficial,
 	o el port para Windows. Si quieres usar la integración git con Eclipse git puedes ver 
-	el tutorial <a href="https://github.com/guides/using-the-egit-eclipse-plugin-with-github">aquí</a>.
+	el tutorial <a href="http://wiki.eclipse.org/EGit/User_Guide">aquí</a>.
       </p>
       
       <p>Puedes obtener el último código fuente de git usando la siguiente línea de comandos:</p>
