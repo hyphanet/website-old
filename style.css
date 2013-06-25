@@ -64,6 +64,7 @@ div.hideit {
     padding-bottom: 10px;
     background-image: url('image/header_back.png');
     margin-bottom: -20px;
+    clear: both;
 }
 
 #logo{
@@ -136,9 +137,16 @@ div#donate_button a:hover{
     text-shadow: 0 0 5px #ddd;
 }
 
-.whatis, .download, #donate_button {
+.whatis, .download {
     position: relative;
     width: 50%;
+    float:left;
+}
+
+#donate_button, div#donate_button {
+    position: relative;
+    width: 47.5%;
+    padding-right: 5%;
     float:left;
 }
 
@@ -193,7 +201,7 @@ p {
 }
 
 div#news{
-    clear:both;
+    padding-top: 20px;
 }
 
 #people h5 {

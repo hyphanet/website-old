@@ -88,6 +88,7 @@ include 'includes/common.inc.php';
 
 <div id="content"><?php 	include (escapeshellcmd($file));  ?>
 </div>
+
 <div id="backfooter">
      <div id="footer">
 	<p>

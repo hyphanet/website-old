@@ -97,6 +97,8 @@ $(document).ready(function() {
 	
 	<p style="clear:left; font-size: 12px;"><a href="download.html">Instructions et programmes d'installation pour les autres systèmes d'exploitation.</a></p>
 
+    <div style="clear: both"></div>
+
 	<div id="donate_button">
 	     <h4>Faire un don</h4>
 	     <p>Freenet est un logiciel gratuit (et libre); nous sommes une organisation à but non lucratif qui a besoin de de vos dons pour survivre.</p>

@@ -98,6 +98,8 @@ $(document).ready(function() {
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Instrucciones de instalación e instaladores para otros sistemas.</a></p>
 
+    <div style="clear: both"></div>
+
 	<div id="donate_button">
 	     <h4>Haz una donación</h4>
 	     <p>No cobramos a nadie por descargar y usar Freenet, somos una organización sin fines de lucro quienes confiamos en tus donaciones para sobrevivir.</p>
