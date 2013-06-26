@@ -1,5 +1,22 @@
       <h1>News</h1>
     
+    <a name="2013-second-developer-xor"><h3>26th June 2013 - Freenet gets a second paid developer to fix the Web of Trust!</h3>
+    <p>Long time coder xor (also known as p0s) has agreed to work, in a paid role, for us on fixing the Web of Trust plugin. This is a crucial component of many Freenet plugins:</p>
+    
+    <ul><li><b>Sone</b>, an anonymous social network / microblogging tool.</li>
+    <li><b>Freemail</b>, a private and untraceable email over Freenet system.</li>
+    <li>A filesharing system as yet unnamed which a student is working on.</li>
+    <li>Extensions to Infocalypse, being worked on by another student, a tool for managing source code which is vital to developing software over Freenet.</li>
+    </ul>
+    
+    <p>See the Freenet Social Networking Guide for how to load the first 2 plugins.</p>
+    
+    <p>xor is well qualified for the role as he wrote most of the current code in the Web of Trust. The immediate priority will be to improve stability and performance by implementing a new more efficient FCP API. After that further optimisations are planned.</p>
+    
+    <p>Freenet relies on unpaid volunteer developers as well as a few key paid developers. Toad (Matthew Toseland) is returning to full time work for Freenet after a study break, although he is off to university in October, and xor is just starting working for Freenet.</p>
+    
+    <p>Improving the Web of Trust should substantially improve the performance of the key tools mentioned above and may be used by more in the future. Thanks to all our developers and donors!</p>
+    
     <a name="2013-summer-of-code-accepted"><h3>8th April 2013 - Freenet accepted by Google Summer of Code!</h3>
     <p>Freenet has once again been accepted into Google Summer of Code 2013. This pays students to work
     for us, as paid developers, over the summer. See <a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2013">here</a>
