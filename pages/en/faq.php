@@ -99,7 +99,7 @@
   in-Freenet chat forums (FMS, Sone, etc), files shared within Freenet, in-Freenet email. Freenet is a 
   distributed datastore, meaning <i>there are no central servers at all</i> (when used correctly), which 
   stores content. This makes censorship and denial of service attacks much harder. In fact, the more popular 
-  a file or page, the more widely it will be cached, the faster it will download. This means that some 
+  a file or page, the more widely it will be cached, the faster it will download. The downside is that some 
   things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
   for example dynamic content (there is no javascript on Freenet). Tools such as forums have to be written 
   specially for Freenet in a way that preserves privacy and doesn't rely on central servers, but once
