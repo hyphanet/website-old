@@ -103,7 +103,7 @@
   things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
   for example dynamic content. Tools such as forums have to be written specially for Freenet in a way that
   preserves privacy and doesn't rely on central servers, but once written, they are anonymous and robust
-  against censorship; we try to provide the main tools as plugins, see the Freenet Social Networking Guide 
+  against censorship. We try to provide the main tools as plugins, see the Freenet Social Networking Guide 
   for how to set up some of the things referred to above.</p>
   
   <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
@@ -114,12 +114,12 @@
   <p>Strictly speaking, there are central servers: Most people who run Freenet have downloaded it from this
   web site, and most people use Freenet in "opennet" mode, that is, connecting automatically, rather than in 
   the recommended "darknet" mode, that is, connecting only to your friends; in opennet mode, Freenet uses
-  volunteers' servers called "seed nodes" to get connected. But this is not necessary.</p> 
+  volunteers' servers called "seed nodes" to get connected. But this is not really necessary.</p> 
   
   <p>In summary, Freenet is more concerned about censorship resistance than privacy and anonymity; privacy
   and anonymity are vital for preventing censorship, but they are not enough without a robust network that
-  can preserve popular content even if the author of the content disappears; Freenet is designed to be hard
-  to block; Freenet is completely separate from the mainstream web, and is decentralised.</p>
+  can preserve popular content even if the author of the content disappears. Hence Freenet is designed to be
+  hard to block, is completely separate from the mainstream web, and is decentralised.</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian
