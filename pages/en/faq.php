@@ -116,8 +116,8 @@
   
   <p>In summary, Freenet is more concerned about censorship resistance than privacy and anonymity; privacy
   and anonymity are vital for preventing censorship, but they are not enough without a robust network that
-  can preserve popular content even if the author of the content disappears, and that is hard to block; and
-  Freenet is completely separate from the mainstream web, and decentralised.</p>
+  can preserve popular content even if the author of the content disappears; Freenet is designed to be hard
+  to block; Freenet is completely separate from the mainstream web, and is decentralised.</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian
