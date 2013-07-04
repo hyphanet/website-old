@@ -96,13 +96,15 @@
   Tor is a proxy network that lets you access the web anonymously, or use "hidden services", which are web
   servers (or other services) hidden behind the Tor tunnel network. Freenet is a separate network that runs
   over the internet. You can only access Freenet content through Freenet: Freesites (websites on Freenet),
-  in-Freenet chat forums (FMS, Sone, etc), files shared within Freenet. Freenet is a distributed datastore,
-  meaning <i>there are no central servers at all</i> (when used correctly), which stores content. This makes
-  censorship and denial of service attacks much harder. In fact, the more popular a file or page, the more 
-  widely it will be cached, the faster it will download. But this does mean that some things that are easy
-  on a centralised system like the web or Tor hidden services are hard on Freenet, for example dynamic 
-  content. However, there are tools that use Freenet that can provide many of the most important web
-  services, such as chat and search.</p>
+  in-Freenet chat forums (FMS, Sone, etc), files shared within Freenet, in-Freenet email. Freenet is a 
+  distributed datastore, meaning <i>there are no central servers at all</i> (when used correctly), which 
+  stores content. This makes censorship and denial of service attacks much harder. In fact, the more popular 
+  a file or page, the more widely it will be cached, the faster it will download. This means that some 
+  things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
+  for example dynamic content (there is no javascript on Freenet). Tools such as forums have to be written 
+  specially for Freenet in a way that preserves privacy and doesn't rely on central servers, but once
+  written, they are anonymous and robust against censorship; we try to provide the main tools as plugins,
+  see the Freenet Social Networking Guide for how to set up some of the things referred to above.</p>
   
   <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
   node (software on your computer) only connects to the Freenet nodes run by your friends, whom you have
