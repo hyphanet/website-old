@@ -101,10 +101,10 @@
   stores content. This makes censorship and denial of service attacks much harder. In fact, the more popular 
   a file or page, the more widely it will be cached, the faster it will download. The downside is that some 
   things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
-  for example dynamic content (there is no javascript on Freenet). Tools such as forums have to be written 
-  specially for Freenet in a way that preserves privacy and doesn't rely on central servers, but once
-  written, they are anonymous and robust against censorship; we try to provide the main tools as plugins,
-  see the Freenet Social Networking Guide for how to set up some of the things referred to above.</p>
+  for example dynamic content. Tools such as forums have to be written specially for Freenet in a way that
+  preserves privacy and doesn't rely on central servers, but once written, they are anonymous and robust
+  against censorship; we try to provide the main tools as plugins, see the Freenet Social Networking Guide 
+  for how to set up some of the things referred to above.</p>
   
   <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
   node (software on your computer) only connects to the Freenet nodes run by your friends, whom you have
