@@ -202,6 +202,7 @@ p {
 div#news{
     float: right;
     width: 380px;
+    min-height: 15em;
 }
 
 div#commits {
