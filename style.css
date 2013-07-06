@@ -202,6 +202,7 @@ p {
 
 div#news{
     padding-top: 20px;
+    min-height: 15em;
 }
 
 #people h5 {
