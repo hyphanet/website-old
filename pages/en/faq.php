@@ -1,13 +1,15 @@
 <h1>Freenet Frequently Asked Questions</h1>
   
   <h3> Additional information sources</h3>
-  <ul><li><a href="https://wiki.freenetproject.org/FAQ">An other FAQ on our wiki server</a>
+  <ul><li><a href="/whatis.html">Read this first: What is Freenet?</a>
+  </li><li><a href="https://wiki.freenetproject.org/FAQ">An other FAQ on our wiki server</a>
   </li><li><a href="https://wiki.freenetproject.org/Security_summary">A page dedicated to the security of freenet 0.7 on our wiki server</a>
   </li><li><a href="/image/rabbit/freenet-bunny.svg">High quality copy of the rabbit icon</a>
   </li></ul>
   
-  <h3> Philosophical questions</h3>
+  <h3> General / Philosophical questions</h3>
   <ol><li><a href="#what">What is Freenet?</a>
+  </li><li><a href="#tor">How is Freenet different to Tor? Can I access Google/Facebook/etc through Freenet?</a>
   </li><li><a href="#who">Who is behind Freenet?</a>
   </li><li><a href="#trust">If authors are anonymous how can you trust information?</a>
   </li><li><a href="#donate-bw">Do I have to donate disk space and bandwidth?</a>
@@ -89,6 +91,35 @@
   is also very efficient in how it deals with information, adaptively
   replicating content in response to demand.  For more information,
   please read <a href="/whatis.html">What Is Freenet</a>.</p>
+  
+      <p><b id="tor">How is Freenet different to Tor? Can I access Google/Facebook/etc through Freenet?</b><br/>
+  Tor is a proxy network that lets you access the web anonymously, or use "hidden services", which are web
+  servers (or other services) hidden behind the Tor tunnel network. Freenet is a separate network that runs
+  over the internet. You can only access Freenet content through Freenet: Freesites (websites on Freenet),
+  in-Freenet chat forums (FMS, Sone, etc), files shared within Freenet, in-Freenet email. Freenet is a 
+  distributed datastore, meaning <i>there are no central servers at all</i> (when used correctly), which 
+  stores content. This makes censorship and denial of service attacks much harder. In fact, the more popular 
+  a file or page, the more widely it will be cached, the faster it will download. The downside is that some 
+  things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
+  for example dynamic content. Tools such as forums have to be written specially for Freenet in a way that
+  preserves privacy and doesn't rely on central servers, but once written, they are anonymous and robust
+  against censorship. We try to provide the main tools as plugins, see the Freenet Social Networking Guide 
+  for how to set up some of the things referred to above.</p>
+  
+  <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
+  node (software on your computer) only connects to the Freenet nodes run by your friends, whom you have
+  added manually (and maybe to their friends, to speed things up). This makes blocking Freenet, e.g. on a
+  national firewall, extremely difficult.</p>
+  
+  <p>Strictly speaking, there are central servers: Most people who run Freenet have downloaded it from this
+  web site, and most people use Freenet in "opennet" mode, that is, connecting automatically, rather than in 
+  the recommended "darknet" mode, that is, connecting only to your friends; in opennet mode, Freenet uses
+  volunteers' servers called "seed nodes" to get connected. But this is not really necessary.</p> 
+  
+  <p>In summary, Freenet is more concerned about censorship resistance than privacy and anonymity; privacy
+  and anonymity are vital for preventing censorship, but they are not enough without a robust network that
+  can preserve popular content even if the author of the content disappears. Hence Freenet is designed to be
+  hard to block, is completely separate from the mainstream web, and is decentralised.</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian

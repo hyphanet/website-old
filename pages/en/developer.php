@@ -16,7 +16,7 @@
 	We strongly recommend that you use the official command-line git client,
 	or the Windows port. If you want to use the Eclipse git integration, see
 	the
-	tutorial <a href="https://github.com/guides/using-the-egit-eclipse-plugin-with-github">here</a>.
+	tutorial <a href="http://wiki.eclipse.org/EGit/User_Guide">here</a>.
       </p>
       
       <p>You can obtain the latest source code from git using the following command line:</p>

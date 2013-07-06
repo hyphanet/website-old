@@ -115,6 +115,7 @@ $(document).ready(function() {
       Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
     </p>
 	<p>
+		  (26th June 2013) <a href="news.html#2013-second-developer-xor">Freenet hires second developer!</a><br/>
 	      (8th April 2013) <a href="news.html#2013-summer-of-code-accepted">Freenet accepted into Summer of Code 2013!</a><br/>
 	      (11th September 2012) <a href="news.html#2012-traceback-attack">Response to the University of Hawaii's "Experimental Study of Accountability in Existing Anonymous Networks"</a><br />
     	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a>
