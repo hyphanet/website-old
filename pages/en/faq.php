@@ -389,7 +389,7 @@
     controls within Freenet, then you can use lines like this:</p>
     <code>
     fproxy.bindTo=0.0.0.0<br>
-    fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br
+    fproxy.allowedHosts=127.0.0.1,192.168.1.0/24<br>
     </code>
     <p>Or even (find your IP address from ipconfig/ifconfig/winipcfg and substitute it for 192.168.1.1):</p>
   <code>
