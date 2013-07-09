@@ -78,6 +78,7 @@
   </li><li><a href="#cancer">What about hostile "cancer" nodes within the network?</a>
   </li><li><a href="#attackY">What about attack Y?</a>
   </li><li><a href="#privatedata">What private data does Freenet store? How do I get rid of it? How can I secure my computer so I am safe when running Freenet?</a>
+  </li><li><a href="#smartscreen">Windows SmartScreen filter warns the Freenet installer might put my PC at risk. What's going on?</a>
   </li></ol>
       
   
@@ -861,3 +862,10 @@
   in separate encrypted databases, as soon as we have automatic backups for node.db4o.
   See <a href="https://wiki.freenetproject.org/Program_files">here</a> for details 
   on some of the files.</p>
+
+<p><b id="smartscreen">Windows SmartScreen filter warns the Freenet installer might put my PC at risk. What's going on?</b><br/>
+<a href="http://windows.microsoft.com/en-us/windows7/smartscreen-filter-frequently-asked-questions-ie9">SmartScreen</a>
+is sometimes incorrect in classifying a file as dangerous. We believe
+our installer is not infected with malicious software, and if you are a developer
+you can check the installer source code <a href="https://github.com/freenet/wininstaller-staging">here</a>.
+</p>
