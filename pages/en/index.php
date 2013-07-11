@@ -142,7 +142,7 @@ $(document).ready(function() {
     <script type="text/javascript">
         $(function() {
             $('#recent-changes').githubInfoWidget(
-                { user: 'freenet', repo: 'fred-staging'. branch: 'next', last: 5, limitMessageTo: 50 });
+                { user: 'freenet', repo: 'fred-staging', branch: 'next', last: 5, limitMessageTo: 50 });
         });
     </script>
 
