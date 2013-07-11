@@ -206,6 +206,10 @@ div#news{
 div#commits {
     margin-left: auto;
     margin-right: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
 }
 
 #people h5 {
