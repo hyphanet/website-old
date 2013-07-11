@@ -7,6 +7,12 @@
   jCarousel library
 -->
 <script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+
+<!--
+  GitHub commits widget
+-->
+<script type="text/javascript" src="/js/github-commits-widget/js/github.commits.widget.js"></script>
+
 <!--
   jCarousel core stylesheet
 -->
@@ -100,13 +106,10 @@ $(document).ready(function() {
 
     <div style="clear: both"></div>
 
-	<div id="donate_button">
-	     <h4>Make a donation</h4>
-	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
-	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
-<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">Donate!</a></p>
-	</div>
+    <div id="commits">
+        <h4>Recent Changes</h4>
+        <div id="recent-changes"></div>
+    </div>
 
       <div id="news">
 	<h4>Latest news</h4>
@@ -125,6 +128,23 @@ $(document).ready(function() {
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
+
+    <div style="clear: both"></div>
+
+	<div id="donate_button">
+	     <h4>Make a donation</h4>
+	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
+	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
+<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
+	     <p><a href="donate.html">Donate!</a></p>
+	</div>
+
+    <script type="text/javascript">
+        $(function() {
+            $('#recent-changes').githubInfoWidget(
+                { user: 'freenet', repo: 'fred-staging'. branch: 'next', last: 5, limitMessageTo: 50 });
+        });
+    </script>
 
       <script type="text/javascript">
   			 hideDiv("windows");
