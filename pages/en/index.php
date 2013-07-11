@@ -123,13 +123,6 @@ $(document).ready(function() {
 	</p>
       </div>
 
-    <div id="commits">
-        <h4>Latest Commits</h4>
-        <div id="latest-commits"></div>
-    </div>
-    </div>
-    <div style="clear: both"></div>
-
 	<div id="donate_button">
 	     <h4>Make a donation</h4>
 	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
@@ -138,6 +131,13 @@ $(document).ready(function() {
 	     <p><a href="donate.html">Donate!</a></p>
 	</div>
 
+    </div>
+    <div style="clear: both"></div>
+
+    <div id="commits">
+        <h4>Latest Commits</h4>
+        <div id="latest-commits"></div>
+    </div>
     <script type="text/javascript">
         $(function() {
             $('#latest-commits').githubInfoWidget(

@@ -144,9 +144,7 @@ div#donate_button a:hover{
 }
 
 #donate_button, div#donate_button {
-    margin-left: auto;
-    margin-right: auto;
-    width: 47.5%;
+    width: 380px;
 }
 
 div.download {
@@ -206,7 +204,8 @@ div#news{
 }
 
 div#commits {
-    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #people h5 {
