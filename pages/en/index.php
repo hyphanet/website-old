@@ -90,7 +90,7 @@ $(document).ready(function() {
 	     	     <span id="version">0.7.5 for Linux/Unix</span>
 	     	  </a>
 	     </div>
-	     <p style="float: left; clear: left;">
+	     <p style="clear: left;">
 		If it doesn't work, please refer to the 
 	     	<a href="download.html#unix">installation instructions</a>. You may want to try <a href="http://freesocial.draketo.de/">this guide</a> to setting up Freenet and related software for chat etc.
 	     </p>
