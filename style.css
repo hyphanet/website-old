@@ -205,6 +205,10 @@ div#news{
     padding-top: 20px;
 }
 
+div#commits {
+    float: left;
+}
+
 #people h5 {
     margin-bottom:-1em;
 }

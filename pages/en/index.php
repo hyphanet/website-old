@@ -105,12 +105,6 @@ $(document).ready(function() {
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
     <div style="clear: both"></div>
-
-    <div id="commits">
-        <h4>Latest Commits</h4>
-        <div id="latest-commits"></div>
-    </div>
-
       <div id="news">
 	<h4>Latest news</h4>
 
@@ -128,6 +122,11 @@ $(document).ready(function() {
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
+
+    <div id="commits">
+        <h4>Latest Commits</h4>
+        <div id="latest-commits"></div>
+    </div>
 
     <div style="clear: both"></div>
 
