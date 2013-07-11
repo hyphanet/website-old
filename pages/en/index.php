@@ -107,8 +107,8 @@ $(document).ready(function() {
     <div style="clear: both"></div>
 
     <div id="commits">
-        <h4>Recent Changes</h4>
-        <div id="recent-changes"></div>
+        <h4>Latest Commits</h4>
+        <div id="latest-commits"></div>
     </div>
 
       <div id="news">
@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     <script type="text/javascript">
         $(function() {
-            $('#recent-changes').githubInfoWidget(
+            $('#latest-commits').githubInfoWidget(
                 { user: 'freenet', repo: 'fred-staging', branch: 'next', last: 5, limitMessageTo: 50 });
         });
     </script>
