@@ -104,7 +104,7 @@ $(document).ready(function() {
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
-    <div style="clear: both">
+    <div style="clear: both; padding-top: 20px;">
       <div id="news">
 	<h4>Latest news</h4>
 
