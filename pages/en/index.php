@@ -135,7 +135,7 @@ $(document).ready(function() {
     <div style="clear: both"></div>
 
     <div id="commits">
-        <h4>Latest Commits</h4>
+        <h4>Latest Developer Activity</h4>
         <div id="latest-commits"></div>
     </div>
     <script type="text/javascript">
