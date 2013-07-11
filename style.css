@@ -202,11 +202,12 @@ p {
 }
 
 div#news{
-    padding-top: 20px;
+    float: right;
+    width: 380px;
 }
 
 div#commits {
-    float: left;
+    width: 380px;
 }
 
 #people h5 {
