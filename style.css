@@ -144,10 +144,9 @@ div#donate_button a:hover{
 }
 
 #donate_button, div#donate_button {
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
     width: 47.5%;
-    padding-right: 5%;
-    float:left;
 }
 
 div.download {
