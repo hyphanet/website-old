@@ -1,12 +1,18 @@
 <!--
   jQuery library
 -->
-<script type="text/javascript" src="/js/jquery-1.3.min.js"></script>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
 
 <!--
   jCarousel library
 -->
 <script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+
+<!--
+  GitHub commits widget
+-->
+<script type="text/javascript" src="/js/github-commits-widget/js/github.commits.widget.js"></script>
+
 <!--
   jCarousel core stylesheet
 -->
@@ -90,7 +96,7 @@ $(document).ready(function() {
 	     	     <span id="version">0.7.5 for Linux/Unix</span>
 	     	  </a>
 	     </div>
-	     <p style="float: left; clear: left;">
+	     <p style="clear: left;">
 		If it doesn't work, please refer to the 
 	     	<a href="download.html#unix">installation instructions</a>. You may want to try <a href="http://freesocial.draketo.de/">this guide</a> to setting up Freenet and related software for chat etc.
 	     </p>
@@ -98,16 +104,7 @@ $(document).ready(function() {
 	
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
-    <div style="clear: both"></div>
-
-	<div id="donate_button">
-	     <h4>Make a donation</h4>
-	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
-	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
-<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">Donate!</a></p>
-	</div>
-
+    <div style="clear: both; padding-top: 20px;">
       <div id="news">
 	<h4>Latest news</h4>
 
@@ -125,6 +122,28 @@ $(document).ready(function() {
 	  <a href="news.html">Older news</a>
 	</p>
       </div>
+
+	<div id="donate_button">
+	     <h4>Make a donation</h4>
+	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
+	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
+<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
+	     <p><a href="donate.html">Donate!</a></p>
+	</div>
+
+    </div>
+    <div style="clear: both"></div>
+
+    <div id="commits">
+        <h4>Latest developer activity</h4>
+        <div id="latest-commits"></div>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $('#latest-commits').githubInfoWidget(
+                { user: 'freenet', repo: 'fred-staging', branch: 'next', last: 5, limitMessageTo: 50 });
+        });
+    </script>
 
       <script type="text/javascript">
   			 hideDiv("windows");

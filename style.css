@@ -144,10 +144,7 @@ div#donate_button a:hover{
 }
 
 #donate_button, div#donate_button {
-    position: relative;
-    width: 47.5%;
-    padding-right: 5%;
-    float:left;
+    width: 380px;
 }
 
 div.download {
@@ -155,6 +152,7 @@ div.download {
     height: 110px;
     background-position: 0px -90px;
     margin-top: 20px;
+    margin-bottom: 20px;
     clear: left;
 }
 
@@ -201,7 +199,23 @@ p {
 }
 
 div#news{
-    padding-top: 20px;
+    float: right;
+    width: 380px;
+}
+
+div#commits {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#commits div {
+    font-size: 0.9em;
+}
+
+div#commits ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 #people h5 {
