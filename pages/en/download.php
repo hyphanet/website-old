@@ -112,6 +112,9 @@
 	<p>If the link above is blocked, you could download it from our server <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">here</a>.
 	But please use the Google link if you can.</p>
 	
+	<small>If this doesn't work on a headless server, try "java -jar new_installer_offline.jar -console", and 
+	follow the prompts to tell it where to install Freenet etc.</small>
+	
 	<div id="mirrored">
 	  
 	  <h3>Mirrored installation</h3>
