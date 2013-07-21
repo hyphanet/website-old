@@ -14,6 +14,12 @@
 <script type="text/javascript" src="js/github-commits-widget/github.commits.widget.js"></script>
 
 <!--
+  Github commits widget stylesheet
+-->
+
+<link rel="stylesheet" type="text/css" href="js/github-commits-widget/style.css" />
+
+<!--
   jCarousel core stylesheet
 -->
 <link rel="stylesheet" type="text/css" href="js/jcarousel/lib/jquery.jcarousel.css" />
@@ -132,9 +138,8 @@ $(document).ready(function() {
 	</div>
 
     </div>
-    <div style="clear: both"></div>
 
-    <div id="commits">
+    <div id="commits" style="clear: left;">
         <h4>Latest developer activity</h4>
         <div id="latest-commits"></div>
     </div>
