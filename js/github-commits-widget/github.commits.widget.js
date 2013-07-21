@@ -67,18 +67,18 @@ THE SOFTWARE.
                     var cur = commits[c];
                     var li = $("<li>");
                     
-                    var user = $('<span class="github-user">');
+                    var e_user = $('<span class="github-user">');
                     //add avatar & github link if possible
                     if (cur.author !== null) {
-                    	user.append(avatar(cur.author.gravatar_id, avatarSize));
-                     	user.append(author(cur.author.login));
+                    	e_user.append(avatar(cur.author.gravatar_id, avatarSize));
+                     	e_user.append(author(cur.author.login));
                     }
                     else //otherwise just list the name
                     {
-                    	user.append(cur.commit.committer.name);
+                    	e_user.append(cur.commit.committer.name);
                     }
                     
-                    li.append(user);
+                    li.append(e_user);
                     
                     //add commit message
                     li.append(message(cur.commit.message, cur.sha));
