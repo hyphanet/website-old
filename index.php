@@ -13,7 +13,7 @@ include 'includes/common.inc.php';
 	<meta name="language"    content="<?php echo $lang?>">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="/style.css" rel="stylesheet" type="text/css">
+	<link href="style.css" rel="stylesheet" type="text/css">
 	<link rel="canonical" href="https://freenetproject.org/<?php echo $page ?>.html"/>
 	<script type="text/javascript">
 		function getStyleByElementByID(whichDivId)
@@ -37,8 +37,8 @@ include 'includes/common.inc.php';
 			getStyleByElementByID(whichDivId).display = 'inline';
 		}
 	</script>
-	<script type="text/javascript" src="/PluginDetect.js"></script>
-	<!--[if lt IE 7]><script defer type="text/javascript" src="/js/fixpng.js"></script><![endif]-->
+	<script type="text/javascript" src="PluginDetect.js"></script>
+	<!--[if lt IE 7]><script defer type="text/javascript" src="js/fixpng.js"></script><![endif]-->
 </head>
 
 <body>
@@ -141,7 +141,7 @@ include 'includes/common.inc.php';
 <!-- Uservoice feedback tab -->
 <script type="text/javascript">
   var uservoiceJsHost = "https://cdn.uservoice.com";
-  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
 </script>
 <script type="text/javascript">
 UserVoice.Tab.show({ 
