@@ -91,7 +91,9 @@ THE SOFTWARE.
                 callback(element);
 
                 function avatar(hash, size) {
-                    return $('<img class="github-avatar" src="http://www.gravatar.com/avatar/' + hash + '?s=' + size + '"/>');
+                    return $('<img>')
+                            .attr('class', 'github-avatar')
+                            .attr('src', 'http://www.gravatar.com/avatar/' + hash + '?s=' + size);
                 }
 
                 function author(login) {
