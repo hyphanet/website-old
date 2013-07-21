@@ -145,6 +145,7 @@ div#donate_button a:hover{
 
 #donate_button, div#donate_button {
     width: 380px;
+    float: left;
 }
 
 div.download {
