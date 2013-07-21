@@ -140,7 +140,7 @@ include 'includes/common.inc.php';
 <!-- Uservoice feedback tab -->
 <script type="text/javascript">
   var uservoiceJsHost = "https://cdn.uservoice.com";
-  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+  document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
 </script>
 <script type="text/javascript">
 UserVoice.Tab.show({ 
