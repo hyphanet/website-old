@@ -1,0 +1,13 @@
+.github-user {
+  display: inline-block;
+  width: 10em;
+  padding-right: 0.5em;
+}
+
+.github-user img {
+  padding-right: 0.5em;
+}
+
+.github-commit {
+  padding-right: 0.5em;
+}
