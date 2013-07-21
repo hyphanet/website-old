@@ -11,7 +11,7 @@
 <!--
   GitHub commits widget
 -->
-<script type="text/javascript" src="js/github-commits-widget/github.commits.widget.js"></script>
+<script type="text/javascript" src="js/github-commits-widget/github.commits.widget-1.js"></script>
 
 <!--
   Github commits widget stylesheet
