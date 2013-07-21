@@ -94,7 +94,7 @@ THE SOFTWARE.
                 function avatar(hash, size) {
                     return $('<img>')
                             .attr('class', 'github-avatar')
-                            .attr('src', 'http://www.gravatar.com/avatar/' + hash + '?s=' + size);
+                            .attr('src', 'https://www.gravatar.com/avatar/' + hash + '?s=' + size);
                 }
 
                 function author(login) {
