@@ -90,7 +90,7 @@ $(document).ready(function() {
 	     	     <span id="version">Linux/Unix 版 0.7.5</span>
 	     	  </a>
 	     </div>
-	     <p style="float: left; clear: left;">
+	     <p style="clear: left;">
 		如果不启动, 请参考
 	     	<a href="download.html#unix">安装指南</a>
 	     </p>

@@ -91,7 +91,7 @@ $(document).ready(function() {
 	     	     <span id="version">0.7.5 für Linux/Unix</span>
 	     	  </a>
 	     </div>
-	     <p style="float: left; clear: left;">
+	     <p style="clear: left;">
 		Wenn das nicht funktionieren sollte, lesen Sie bitte die
 	     	<a href="download.html#unix">Installations-Anleitang</a>
 	     </p>

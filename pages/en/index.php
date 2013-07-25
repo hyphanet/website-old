@@ -1,29 +1,35 @@
 <!--
   jQuery library
 -->
-<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 
 <!--
   jCarousel library
 -->
-<script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+<script type="text/javascript" src="js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
 
 <!--
   GitHub commits widget
 -->
-<script type="text/javascript" src="/js/github-commits-widget/js/github.commits.widget.js"></script>
+<script type="text/javascript" src="js/github-commits-widget/github.commits.widget-1.js"></script>
+
+<!--
+  Github commits widget stylesheet
+-->
+
+<link rel="stylesheet" type="text/css" href="js/github-commits-widget/style.css" />
 
 <!--
   jCarousel core stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="/js/jcarousel/lib/jquery.jcarousel.css" />
+<link rel="stylesheet" type="text/css" href="js/jcarousel/lib/jquery.jcarousel.css" />
 <!--
   jCarousel skin stylesheet
 -->
-<link rel="stylesheet" type="text/css" href="/js/jcarousel/skins/tango/skin.css" />
+<link rel="stylesheet" type="text/css" href="js/jcarousel/skins/tango/skin.css" />
 
-<script type="text/javascript" src="/js/jcarousel/lib/thickbox/thickbox.js"></script>
-<link rel="stylesheet" href="/js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jcarousel/lib/thickbox/thickbox.js"></script>
+<link rel="stylesheet" href="js/jcarousel/lib/thickbox/thickbox.css" type="text/css" media="screen" />
 
 <script type="text/javascript">
 <!--
@@ -52,17 +58,17 @@ $(document).ready(function() {
 
       <div id="screenshots_container">
 	<div id="screenshot_nojs">
-	     <a href="/image/fN_screenshot.png"><img src="/image/fN_screenshot_small.png"
+	     <a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
 	     alt="freenet screenshot" width="383" height="309" /></a>
 	     <p style="text-align: center;"><a href="screenshots.html">More Freenet screenshots</a></p>
 	</div>
 	<div id="screenshot_js" style="display: none;">
            <ul id="mycarousel" class="jcarousel-skin-tango">
-             <li><a href="/image/fN_screenshot.png" class="thickbox"><img src="/image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
-             <li><a href="/image/fN_screenshot_minimalist.png" class="thickbox"><img src="/image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
-             <li><a href="/image/fN_screenshot_downloads.png" class="thickbox"><img src="/image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
-             <li><a href="/image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="/image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
-             <li><a href="/image/fN_screenshot_searched.png" class="thickbox"><img src="/image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
+             <li><a href="image/fN_screenshot.png" class="thickbox"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
+             <li><a href="image/fN_screenshot_minimalist.png" class="thickbox"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
+             <li><a href="image/fN_screenshot_downloads.png" class="thickbox"><img src="image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
+             <li><a href="image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
+             <li><a href="image/fN_screenshot_searched.png" class="thickbox"><img src="image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
            </ul>
 	</div>
       </div>
@@ -105,7 +111,14 @@ $(document).ready(function() {
 	<p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Installation instructions and other systems installers.</a></p>
 
     <div style="clear: both; padding-top: 20px;">
-      <div id="news">
+    	<div id="donate_button">
+	     <h4>Make a donation</h4>
+	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
+	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
+<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
+	     <p><a href="donate.html">Donate!</a></p>
+	</div>
+  <div id="news">
 	<h4>Latest news</h4>
 
     <p>
@@ -123,18 +136,10 @@ $(document).ready(function() {
 	</p>
       </div>
 
-	<div id="donate_button">
-	     <h4>Make a donation</h4>
-	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
-	     <p>Our current balance is <b>$MONEYBALANCE</b>.</p>
-<!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">Donate!</a></p>
-	</div>
 
     </div>
-    <div style="clear: both"></div>
 
-    <div id="commits">
+    <div id="commits" style="clear: left;">
         <h4>Latest developer activity</h4>
         <div id="latest-commits"></div>
     </div>
