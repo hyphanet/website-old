@@ -90,15 +90,13 @@ $(document).ready(function() {
               <span id="version">0.7.5 для Linux/Unix</span>
            </a>
        </div>
-       <p style="clear: left;">
+       <p style="float: left; clear: left;">
     Если что-то не работает, пожалуйста, обратитесь к  
          <a href="download.html#unix">руководству по установке</a>. Возможно, вам так же пригодится <a href="http://freesocial.draketo.de/">другое руководство</a> для настройки Фринет и связанного программнного обеспечения для общения и т.д.
        </p>
   </div>
   
   <p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Инструкции и дистрибутивы для других операционных систем.</a></p>
-
-  <div style="clear: both"></div>
 
   <div id="donate_button">
        <h4>Сделать дарение</h4>
@@ -111,6 +109,7 @@ $(document).ready(function() {
       <div id="news">
   <h4>Последние новости</h4>
   <p>
+        (26 июня 2013) <a href="news.html#2013-second-developer-xor">Фринет нанимает второго разработчика!</a><br/>
         (8 апреля 2013) <a href="news.html#2013-summer-of-code-accepted">Фринет принят на Google Summer of Code 2013!</a><br/>
         (12 сентября 2012) <a href="https://emu.freenetproject.org/pipermail/devl/2012-September/036546.html">Релиз Фринет 0.7.5 билд 1413</a><br/>
         (11 сентября 2012) <a href="news.html#2012-traceback-attack">Ответ Университету Гаваев на «Экспериментальное изучение ответственности в существующих анонимных сетях»</a><br/>
