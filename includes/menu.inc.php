@@ -9,7 +9,8 @@ $pages = array(
 'da' => 'pages/da/menu.php',
 'es' => 'pages/es/menu.php',
 'fr' => 'pages/fr/menu.php',
-'zh-cn' => 'pages/zh-cn/menu.php'
+'zh-cn' => 'pages/zh-cn/menu.php',
+'ru' => 'pages/ru/menu.php',
 )
 
 ?>

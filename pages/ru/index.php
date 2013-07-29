@@ -90,13 +90,15 @@ $(document).ready(function() {
               <span id="version">0.7.5 для Linux/Unix</span>
            </a>
        </div>
-       <p style="float: left; clear: left;">
+       <p style="clear: left;">
     Если что-то не работает, пожалуйста, обратитесь к  
          <a href="download.html#unix">руководству по установке</a>. Возможно, вам так же пригодится <a href="http://freesocial.draketo.de/">другое руководство</a> для настройки Фринет и связанного программнного обеспечения для общения и т.д.
        </p>
   </div>
   
   <p style="clear:left; padding-left: 20px; font-size: 12px;"><a href="download.html">Инструкции и дистрибутивы для других операционных систем.</a></p>
+
+  <div style="clear: both"></div>
 
   <div id="donate_button">
        <h4>Сделать дарение</h4>

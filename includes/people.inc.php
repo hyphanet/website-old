@@ -4,7 +4,8 @@ $pages = array(
 
 'en' => 'pages/en/people.php',
 'es' => 'pages/es/people.php',
-'fr' => 'pages/fr/people.php'
+'fr' => 'pages/fr/people.php',
+'ru' => 'pages/ru/people.php',
 )
 
 ?>

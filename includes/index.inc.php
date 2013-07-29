@@ -6,8 +6,8 @@ $pages = array(
 'de' => 'pages/de/index.php',
 'fr' => 'pages/fr/index.php',
 'es' => 'pages/es/index.php',
-'zh-cn' => 'pages/zh-cn/index.php'
-
+'zh-cn' => 'pages/zh-cn/index.php',
+'ru' => 'pages/ru/index.php',
 )
 
 ?>
