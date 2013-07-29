@@ -48,7 +48,7 @@
   <p>
     Майкл больше всех участвовал в подробном моделировании в рамках Google Summer of 
     Code. Он был полезен в проектировании 
-    <a href="https://wiki.freenetproject.org/NewTransportLayer">нового 
+    <a href="https://old-wiki.freenetproject.org/NewTransportLayer">нового 
       транспортного уровня</a>.
   </p>
 
