@@ -14,9 +14,9 @@
     - Toad</p>
     
     <a name="freedom-house-april-2011"><h3>13 de Abril 2011 - Freenet máxima herramienta anticensura en encuesta a usuarios Chinos!</h3></a>
-    <p>Un <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="reporte completo">reporte</a> de 
+    <p>Un <a href="http://www.freedomhouse.org/sites/default/files/inline_images/Censorship.pdf" alt="reporte completo">reporte</a> de 
     <a href="http://freedomhouse.org/">Freedom House</a> usuarios encuestados en 
-    Azerbaijan, Burma, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Resumen de Resultados en China">China</a>
+    Azerbaijan, Burma, <a href="http://www.freedomhouse.org/sites/default/files/LOtF_China.pdf" alt="Resumen de Resultados en China">China</a>
     e Irán sobre sus opiniones y herramientas preferidas para evitar la censura del gobierno local. 
     En China, Freenet fue la única herramienta anticensura en alcanzar 5 estrellas, y 
     la tercera más ampliamente usada en general.

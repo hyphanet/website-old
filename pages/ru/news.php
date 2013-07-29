@@ -64,9 +64,9 @@
   известной под именем Pitch Black.</p>
   
   <a name="freedom-house-april-2011"><h3>13 апреля 2011 – Фринет был отмечен китайскими пользователями, как один из лучших инструментов противодействия цензуре.</h3></a>
-  <p>В <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">отчете</a> подготовленном 
+  <p>В <a href="http://www.freedomhouse.org/sites/default/files/inline_images/Censorship.pdf" alt="full report">отчете</a> подготовленном 
   <a href="http://freedomhouse.org/">Freedom House</a> использованы результаты опросов пользователей из 
-  Азербайджана, Бирмы, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Summary of results in China">Китая</a>
+  Азербайджана, Бирмы, <a href="http://www.freedomhouse.org/sites/default/files/LOtF_China.pdf" alt="Summary of results in China">Китая</a>
   и Ирана. Целью опроса было выявить их понимание вопроса, отношение и предпочтительные инструменты для обхода цензуры местного правительства. 
   В Китае Фринет оказался единственным инструментом для обхода цензуры, получивший оценку в пять звезд. 
   В целом Фринет третий по распространенности анти-цензурный инструмент используемый опрошенной аудиторией.</p>

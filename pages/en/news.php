@@ -68,9 +68,9 @@
     easier and faster in the near future, as well as fixing the Pitch Black attack.</p>
     
     <a name="freedom-house-april-2011"><h3>13th April 2011 - Freenet top anti-censorship tool in survey of Chinese users!</h3></a>
-    <p>A <a href="http://freedomhouse.org/template.cfm?page=383&report=97" alt="full report">report</a> by 
+    <p>A <a href="http://www.freedomhouse.org/sites/default/files/inline_images/Censorship.pdf" alt="full report">report</a> by 
     <a href="http://freedomhouse.org/">Freedom House</a> surveyed users in 
-    Azerbaijan, Burma, <a href="http://freedomhouse.org/images/File/special_reports/LOtF_China.pdf" alt="Summary of results in China">China</a>
+    Azerbaijan, Burma, <a href="http://www.freedomhouse.org/sites/default/files/LOtF_China.pdf" alt="Summary of results in China">China</a>
     and Iran for their perceptions of and preferred tools for bypassing local government censorship. 
     In China, Freenet was the only anti-censorship tool to achieve 5 stars, and 
     the third most widely used overall.</p>
