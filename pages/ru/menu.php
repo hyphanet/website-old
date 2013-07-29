@@ -5,7 +5,7 @@
     <li class="simple"><a href="download.html">Загрузка</a></li>
     <li class="dir"><a href="whatis.html">О Фринет</a>
       <ul>
-        <li><a href="whatis.html">Что такое Фринет?</a></li>
+        <li><a href="whatis.html">Что такое?</a></li>
         <li><a href="news.html">Новости</a></li>
         <li><a href="philosophy.html">Философия</a></li>
         <li><a href="people.html">Люди</a></li>
@@ -34,7 +34,7 @@
       <ul>
         <li><a href="developer.html">Исходный код</a></li>
         <li><a href="https://wiki.freenetproject.org/Translation">Перевод</a></li>
-        <li class="last"><a href="https://bugs.freenetproject.org/">Журнал регистрации ошибок</a></li>
+        <li class="last"><a href="https://bugs.freenetproject.org/">Багтрекер</a></li>
       </ul>
     </li>
   </ul>
