@@ -21,13 +21,6 @@
     En China, Freenet fue la única herramienta anticensura en alcanzar 5 estrellas, y 
     la tercera más ampliamente usada en general.
     
-	<a name="wikileaks-freenet-december-2010"><h3>7 de Diciembre 2010 - Wikileaks y Freenet</h3></a>
-	
-	<p>Hay un <a href="http://www.reddit.com/r/technology/comments/ehep2/why_do_wikileaks_supporters_propose_designing/">mensaje en Reddit</a> 
-	sobre Freenet como posible solución a prueba de censura. Desde que <a href="http://www.wikileaks.info/">Wikileaks</a> ha tenido problemas con su último alojamiento 
-	como resultado de la intervención del gobierno, la gente ha estado hablando acerca de <a href="http://dot-p2p.org/index.php?title=Ideas">DNS distribuidos</a>. 
-	Otros han sugerido que Freenet es una mejor solución.</p>
-
 	<a name="big-donation-september-2010"><h3>24 de Septiembre 2010 - Otra gran donación, y breve actualización de estado</h3></a>
 	<p>Una vez más el equipo Open Source de Google ha donado US$18,000 al Proyecto Freenet para apoyar  
 	el desarrollo en curso del software de Freenet.</p>
