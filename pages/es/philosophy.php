@@ -11,7 +11,7 @@
 	  <li><a href="#is_censorship_necessary">No es la censura necesaria a veces?</a></li>
 	  <li><a href="#why_anonymity">Pero por qué es necesario el anonimato?</a></li>
 	  <li><a href="#copyright">Y qué del copyright?</a></li>
-	  <li><a href="#rewarded">Pero cómo serán los artistas recompensados por su trabajo sin copyright?</a></li>
+	  <li><a href="#reward">Pero cómo serán los artistas recompensados por su trabajo sin copyright?</a></li>
 	  <li><a href="alternative">Alternativas al Copyright</a></li>
 	</ol>
       </p>

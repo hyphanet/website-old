@@ -12,7 +12,7 @@
 	  <li><a href="#is_censorship_necessary">Isn't censorship sometimes necessary?</a></li>
 	  <li><a href="#why_anonymity">But why is anonymity necessary?</a></li>
 	  <li><a href="#copyright">And what of copyright?</a></li>
-	  <li><a href="#rewarded">But how will artists be rewarded for their work without copyright?</a></li>
+	  <li><a href="#reward">But how will artists be rewarded for their work without copyright?</a></li>
 	  <li><a href="alternative">Alternatives to Copyright</a></li>
 	  <li><a href="#fairshare">More sophisticated approaches:
 	      Fairshare</a></li>
