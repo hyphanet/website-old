@@ -158,7 +158,7 @@
       <h3>已经连接了, 我该做什么?</h3>
       
       <p>
-    Freenet 自身就包含了匿名网站 ("freesites"), 文件共享, 搜索和更多, 你还可使用<a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">第三方应用</a>进行聊天, 文件共享, 上传 freesites 等.
+    Freenet 自身就包含了匿名网站 ("freesites"), 文件共享, 搜索和更多, 你还可使用 第三方应用 进行聊天, 文件共享, 上传 freesites 等.
       </p>
       
       <h3>它不工作, 现在怎么办?</h3>

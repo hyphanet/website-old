@@ -236,8 +236,7 @@
       <p>
       Freenet inclus des sites web anonymes ("freesites"), le partage de fichier,
       la recherche, et plus, mais vous pouvez utiliser des 
-      <a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">applications 
-	tierces</a> (lien en anglais) pour discuter sur des forums, partager des
+      applications tierces pour discuter sur des forums, partager des
 	fichiers, insérer votre freesite dans le réseau, etc...
       </p>
       

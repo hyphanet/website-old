@@ -213,8 +213,8 @@
       
       <p>
     Freenet en si mismo incluye sitios web anonimos ("freesites"), intercambio de archivos, búsqueda, y 
-    más, pero también puedes usar <a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">aplicaciones 
-	 de terceras partes</a> para chatear, compartir archivos, ayudarte a subir "freesites", etc.
+    más, pero también puedes usar aplicaciones 
+	 de terceras partes para chatear, compartir archivos, ayudarte a subir "freesites", etc.
       </p>
       
       <h3>No funciona, ahora qué?</h3>

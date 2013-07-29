@@ -223,8 +223,8 @@
       
       <p>
     Freenet itself includes anonymous websites ("freesites"), filesharing, searching, and 
-    more, but you can also use <a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">third party 
-	applications</a> for chat, filesharing, to help you upload freesites, etc.
+    more, but you can also use third party 
+	applications for chat, filesharing, to help you upload freesites, etc.
       </p>
     
     <p>The <a href="http://freesocial.draketo.de/">Freenet Social Networking Guide</a> explains how to set up

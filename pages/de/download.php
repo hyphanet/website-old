@@ -183,8 +183,8 @@ Freenet wird von selbst funktionieren.
 sich hier befindet:</p>
 <pre>http://127.0.0.1:8888/</pre>
 <p>Es gibt Links zu ein paar
-<a href="https://wiki.freenetproject.org/FreenetZeroPointSevenApps">Programmen
-von Drittanbietern für Freenet</a>.</p>
+Programmen
+von Drittanbietern für Freenet.</p>
 
 <h3>Es funktioniert nicht, was nun?</h3>
 <p>
