@@ -74,12 +74,6 @@
 	  </li>
 
 	  <li>
-	    <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> y
-	    <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
-	    Otro generoso donante.
-	  </li>
-
-	  <li>
 	    <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - otro patrocinante generoso.
 	  </li>
 

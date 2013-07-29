@@ -77,12 +77,6 @@
     </li>
 
     <li>
-      <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> и
-      <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
-      Щедрый спонсор.
-    </li>
-
-    <li>
       <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - другой щедрый спонсор.
     </li>
 

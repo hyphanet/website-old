@@ -75,11 +75,6 @@
 	    des informations à propos de sujets et sites web intéressants,
 	    le tout en allemand.
 	  </li>
-         <li>
-            <a href="http://www.torrentrage.com/" title="Torrent Download Search" hreflang="en">Torrent Search</a> and
-            <a href="http://www.torrentrage.com/torrentdirectory.php" title="Torrent Download Directory" hreflang="en">Torrent Download Directory</a><br/>
-            est un autre généreux sponsor.
-          </li>
 
           <li>
             <a href="http://www.allfilters.com/" title="All Filters">All Filters</a> - est un autre généreux sponsor.
