@@ -80,8 +80,10 @@
   <hr/>
   
   <p>
-    Смотрите также остальную <a href="https://wiki.freenetproject.org/FreenetSpecifications">документацию для 
-    разработчиков</a>.
+    Самая актуальная документация - <a href="/developer.html">исходный код</a>, конечно, но также есть некоторая 
+    полезная документация в <a href="https://wiki.freenetproject.org/">wiki</a> (возможно, вам потребуется 
+    немножко поискать ее). Большинство реализованных идей в какой-то момент детально обсуждались в <a href="/lists.html">почтовых 
+    рассылках</a> или в <a href="https://bugs.freenetproject.org/">баг-трекере</a>.
   <p>
   
   <!-- It's way out of date
