@@ -77,10 +77,12 @@
 	</p>
 	<hr/>
 	<p>
-	  See also all the
-	  other <a href="https://wiki.freenetproject.org/FreenetSpecifications">Developer
-	    documentation</a>.
-	<p>
+	  The most up to date reference is of course <a href="/developer.html">the source code</a>, but
+	  there is also some useful documentation on <a href="https://wiki.freenetproject.org/">the wiki</a>
+	  (you may have to search a bit), and most implemented ideas have been discussed in detail on
+	  <a href="/lists.html">the mailing lists</a> at some point, or 
+	  <a href="https://bugs.freenetproject.org/">the bug tracker</a>.
+	</p>
 	<!-- It's way out of date
 	<p>
 	  And an unofficial, more
