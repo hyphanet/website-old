@@ -94,18 +94,14 @@
   please read <a href="/whatis.html">What Is Freenet</a>.</p>
   
       <p><b id="tor">How is Freenet different to Tor? Can I access Google/Facebook/etc through Freenet?</b><br/>
-  Tor is a proxy network that lets you access the web anonymously, or use "hidden services", which are web
-  servers (or other services) hidden behind the Tor tunnel network. Freenet is a separate network that runs
-  over the internet. You can only access Freenet content through Freenet: Freesites (websites on Freenet),
-  in-Freenet chat forums (FMS, Sone, etc), files shared within Freenet, in-Freenet email. Freenet is a 
-  distributed datastore, meaning <i>there are no central servers at all</i> (when used correctly), which 
-  stores content. This makes censorship and denial of service attacks much harder. In fact, the more popular 
-  a file or page, the more widely it will be cached, the faster it will download. The downside is that some 
-  things that are easy on a centralised system like the web or Tor hidden services are hard on Freenet,
-  for example dynamic content. Tools such as forums have to be written specially for Freenet in a way that
-  preserves privacy and doesn't rely on central servers, but once written, they are anonymous and robust
-  against censorship. We try to provide the main tools as plugins, see the Freenet Social Networking Guide 
-  for how to set up some of the things referred to above.</p>
+  <p>Freenet is a self-contained network, while Tor allows accessing the web anonymously, as well as using
+  "hidden services" (anonymous web servers). Freenet is not a proxy: You cannot connect to services like 
+  Google or Facebook using Freenet. However, Freenet has websites, filesharing, forums, chat, microblogging,
+  email etc, all anonymous and hosted within Freenet.</p>
+  
+  <p>Freenet is a distributed datastore, so once content is uploaded to Freenet, it will remain on Freenet
+  forever, as long as it remains popular, without fear of censorship or denial of service attacks, and without
+  needing to run your own web server and keep it online constantly.</p>
   
   <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
   node (software on your computer) only connects to the Freenet nodes run by your friends, whom you have
