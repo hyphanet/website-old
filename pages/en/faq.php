@@ -112,15 +112,57 @@
   added manually (and maybe to their friends, to speed things up). This makes blocking Freenet, e.g. on a
   national firewall, extremely difficult.</p>
   
-  <p>Strictly speaking, there are central servers: Most people who run Freenet have downloaded it from this
-  web site, and most people use Freenet in "opennet" mode, that is, connecting automatically, rather than in 
-  the recommended "darknet" mode, that is, connecting only to your friends; in opennet mode, Freenet uses
-  volunteers' servers called "seed nodes" to get connected. But this is not really necessary.</p> 
+  <p>However, most people currently use Freenet in "opennet" mode (that is, connecting automatically to
+  whoever the network assigns, rather than connecting only to their friends). This is much less secure than
+  using Freenet in "darknet" mode, and is relatively easy to block, as it does have some central servers ("seed nodes").</p>
   
-  <p>In summary, Freenet is more concerned about censorship resistance than privacy and anonymity; privacy
-  and anonymity are vital for preventing censorship, but they are not enough without a robust network that
-  can preserve popular content even if the author of the content disappears. Hence Freenet is designed to be
-  hard to block, is completely separate from the mainstream web, and is decentralised.</p>
+  <p>Freenet has many unsolved problems, and is still experimental. Our objective for Freenet is to build a
+  global friend-to-friend darknet, which would be extremely difficult to block, and would provide very strong
+  anonymity and censorship resistance. This will require further work on Freenet, on usability, speed and 
+  security, but above all it is a techno-social experiment: Will people know enough friends who are willing 
+  to use Freenet to make such an anonymous friend-to-friend network possible? This is why Freenet supports 
+  "opennet" mode: to let people try it out before they ask their friends to connect.</p>
+  
+  <p>Tor is a little less experimental, and arguably is an easier problem; it may provide better anonymity
+  today, provided that it isn't blocked, and of course, Tor lets you access the internet as a whole, whereas
+  on Freenet you can only access Freenet content. However if you can use a large enough darknet, Freenet 
+  already provides an interesting level of censorship resistance, DoS resistance and anonymity.</p>
+  
+  <p>Note that for both Tor and Freenet, there are many ways to lose your anonymity, for example by posting 
+  your phone number to an anonymous forum. Arguably it is easier (and safer) to host "websites" on Freenet 
+  than on Tor already, since you don't have to configure your server or keep it online constantly.</p>
+  
+  <h3>Summary:</h3>
+  <p>Tor:</p>
+  <ul><li>Lets you access the Internet (but e.g. Javascript may be risky).</li>
+  <li>Lets you access anonymous web servers and other services.</li>
+  <li>Lets you host anonymous web servers.</li>
+  <li>Provides reasonable anonymity</li>
+  <li>Has been blocked by several countries, with varying success. Even its hidden bridges can be harvested and blocked with moderate effort.</li>
+  <li>Is somewhat centralised</li>
+  <li>Is more mature and has more users and developers</li>
+  </ul>
+  <p>Freenet in general:</p>
+  <ul><li>Only lets you access content uploaded to Freenet, including anonymous websites, email, 
+  filesharing, forums, microblogging, etc.</li>
+  <li>Hosts content in a distributed way, you don't need to run a server, there are no servers, and you don't
+  know what your node is storing, any given content is distributed across many nodes.</li>
+  <li>Ensures that popular content will be available forever.</li>
+  <li>Is older than Tor, but more experimental; arguably it's a harder task.</li>
+  </ul>
+  <p>Freenet in darknet mode: (friend to friend: connects only to your friends' nodes)</p>
+  <ul><li>Is very hard to block, and this can be improved further with transport plugins.</li>
+  <li>Provides good anonymity, and with a bit more work it could provide very strong anonymity (PISCES tunnels).</li>
+  <li>Is fully decentralised: No central servers at all.</li>
+  </ul>
+  <p>Freenet in opennet mode: (connect automatically even if you don't know anyone on Freenet)</p>
+  <ul><li>Is relatively easy to block.</li>
+  <li>Provides limited anonymity</li>
+  <li>Is somewhat centralised</li>
+  </ul>
+  
+  <p>Unfortunately most people use Freenet in opennet mode currently. The big question is can we 
+  build a global friend-to-friend darknet? Join us and find out!</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian
