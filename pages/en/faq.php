@@ -124,9 +124,13 @@
   on Freenet you can only access Freenet content. However if you can use a large enough darknet, Freenet 
   already provides an interesting level of censorship resistance, DoS resistance and anonymity.</p>
   
-  <p>Note that for both Tor and Freenet, there are many ways to lose your anonymity, for example by posting 
-  your phone number to an anonymous forum. Arguably it is easier (and safer) to host "websites" on Freenet 
-  than on Tor already, since you don't have to configure your server or keep it online constantly.</p>
+  <p>Note that whether you use Tor or Freenet, remaining anonymous online may not be easy: You cannot simply
+  connect to Facebook through Tor and expect total privacy; Facebook still knows who you are, even if your
+  ISP doesn't! Posting your home town on an anonymous forum might breach your anonymity. Downloading a PDF
+  or Word document, or some video formats, might bust you; hence both Freenet and Tor will warn you when you
+  download a file that they can't make safe. Similarly, all the tools mentioned above (e.g. filesharing) have
+  been rewritten specifically for Freenet; the tools that work on a centralised system don't work on a 
+  decentralised one.</p>
   
   <h3>Summary:</h3>
   <p>Tor:</p>
