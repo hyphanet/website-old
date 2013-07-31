@@ -104,9 +104,9 @@
   needing to run your own web server and keep it online constantly.</p>
   
   <p>The other big difference is that Freenet has the "darknet" or Friend to Friend mode, where your Freenet
-  node (software on your computer) only connects to the Freenet nodes run by your friends, whom you have
-  added manually (and maybe to their friends, to speed things up). This makes blocking Freenet, e.g. on a
-  national firewall, extremely difficult.</p>
+  node (software on your computer) only connects to the Freenet nodes run by your friends, i.e. people you know
+  (and maybe to their friends, to speed things up). This makes blocking Freenet, e.g. on a national firewall, 
+  extremely difficult.</p>
   
   <p>However, most people currently use Freenet in "opennet" mode (that is, connecting automatically to
   whoever the network assigns, rather than connecting only to their friends). This is much less secure than
