@@ -361,11 +361,15 @@ ul.dropdown {
 ul.dropdown li.dir, ul.dropdown li.simple, ul.dropdown a{
     text-align: center;
     display: block;
-    height: 30px;
     width: 18ex;
     max-width: 133px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
+}
+
+/* Menu headers cannot expand to cover menu items. */
+ul.dropdown li.dir, ul.dropdown li.simple {
+    height: 30px;
 }
 
 ul.dropdown a{
@@ -387,9 +391,9 @@ ul.dropdown li.dir ul li a:hover{
     -webkit-border-top-right-radius: 0;
 }
 
+/* Menu list item. */
 ul.dropdown li.dir ul li{
     background-color: #adafa2;
-    height: 30px;
     width: 18ex;
     max-width: 133px;
     font-size: 1em;
@@ -404,11 +408,11 @@ ul.dropdown li.last a{
     -webkit-border-bottom-right-radius: 5px;
 }
 
+/* Menu list item link. */
 ul.dropdown li.dir ul li a{
     text-align: center;
     width: 18ex;
     max-width: 133px;
-    height: 30px;
     line-height:30px;
 }
 
