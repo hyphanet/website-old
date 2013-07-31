@@ -134,8 +134,8 @@
   work on a distributed network. But the advantage is there is no single server to take out or to log at.</p>
   
   <p>There are still risks, for example, talking about your home town or internet provider on an anonymous
-  forum, or downloading files which Freenet can't make safe such as PDFs or word processor documents; Freenet 
-  will warn you about this. Also, for web content in particular, it may be easier to upload it to Freenet than 
+  forum, or downloading files which Freenet can't make safe such as PDFs or word processor documents (Freenet 
+  will warn you about this). Also, for web content in particular, it may be easier to upload it to Freenet than 
   set up a hidden server on Tor; you don't need to keep your node online for your content to be available,
   you don't need to figure out how to configure it safely, and most important, if you go away your site will
   still be available.</p>
