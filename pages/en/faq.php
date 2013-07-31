@@ -124,17 +124,20 @@
   on Freenet you can only access Freenet content. However if you can use a large enough darknet, Freenet 
   already provides an interesting level of censorship resistance, DoS resistance and anonymity.</p>
   
-  <p>Note that whether you use Tor or Freenet, remaining anonymous online may not be easy: You cannot simply
-  connect to Facebook through Tor and expect total privacy; Facebook still knows who you are, even if your
-  ISP doesn't! Posting your home town on an anonymous forum might breach your anonymity. Downloading a PDF
-  or Word document, or some video formats, might bust you; hence both Freenet and Tor will warn you when you
-  download a file that they can't make safe. Similarly, all the tools mentioned above (e.g. filesharing) have
-  been rewritten specifically for Freenet; the tools that work on a centralised system don't work on a 
-  decentralised one.</p>
+  <p>Using the internet "anonymously" is not necessarily easy: Connecting to Facebook through Tor doesn't
+  prevent Facebook from knowing pretty much everything about you, and connecting to your (non-HTTPS)
+  webmail account through Tor may mean the person running the proxy can steal your webmail account password!
+  Freenet is a separate network, which does things differently, because there are no central servers. There 
+  are still risks, for example, talking about your home town or internet provider on an anonymous forum, 
+  or downloading files which Freenet can't make safe such as PDFs or word processor documents; Freenet will 
+  warn you about this. Also, for web content in particular, it may be easier to upload it to Freenet than 
+  set up a hidden server on Tor; you don't need to keep your node online for your content to be available,
+  you don't need to figure out how to configure it safely, and most important, if you go away your site will
+  still be available.</p>
   
   <h3>Summary:</h3>
   <p>Tor:</p>
-  <ul><li>Lets you access the Internet (but e.g. Javascript may be risky).</li>
+  <ul><li>Lets you access the Internet (but be careful!).</li>
   <li>Lets you access anonymous web servers and other services.</li>
   <li>Lets you host anonymous web servers.</li>
   <li>Provides reasonable anonymity</li>
