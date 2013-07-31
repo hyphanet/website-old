@@ -127,11 +127,12 @@
   <p>Using the internet "anonymously" is not necessarily easy: Connecting to Facebook through Tor doesn't
   prevent Facebook from knowing pretty much everything about you, and connecting to your (non-HTTPS)
   webmail account through Tor may mean the person running the proxy ("exit node") can steal your webmail 
-  account password!</p>
+  account password.</p>
   
   <p>Freenet is a separate network, which does things differently, because there are no central servers. This
   is why we don't support Javascript, server-side scripting etc on freesites: Everything must be rewritten to 
-  work on a distributed network. But the advantage is there is no single server to take out or to log at.</p>
+  work on a distributed network. But the advantage is there is no single server which can be compelled to hand
+  over your private communications or which can be shut down.</p>
   
   <p>There are still risks, for example, talking about your home town or internet provider on an anonymous
   forum, or downloading files which Freenet can't make safe such as PDFs or word processor documents (Freenet 
