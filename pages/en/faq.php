@@ -136,7 +136,7 @@
   still be available.</p>
   
   <h3>Summary:</h3>
-  <p>Tor:</p>
+  <p>Tor (or I2P):</p>
   <ul><li>Lets you access the Internet (but be careful!).</li>
   <li>Lets you access anonymous web servers and other services.</li>
   <li>Lets you host anonymous web servers.</li>
