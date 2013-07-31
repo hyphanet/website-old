@@ -139,23 +139,27 @@
   <p>Tor (or I2P):</p>
   <ul><li>Lets you access the Internet (but be careful!).</li>
   <li>Lets you access anonymous web servers and other services.</li>
-  <li>Lets you host anonymous web servers.</li>
+  <li>Lets you host anonymous web servers, which need to be kept online, and can be DoS'ed, but can run any
+  dynamic or server-side content you want.</li>
   <li>Provides reasonable anonymity</li>
-  <li>Has been blocked by several countries, with varying success. Even its hidden bridges can be harvested and blocked with moderate effort.</li>
+  <li>Has been blocked by several countries, with varying success. Even its hidden bridges can be harvested 
+  and blocked with moderate effort.</li>
   <li>Is somewhat centralised</li>
   <li>Is more mature and has more users and developers</li>
   </ul>
   <p>Freenet in general:</p>
-  <ul><li>Only lets you access content uploaded to Freenet, including anonymous websites, email, 
-  filesharing, forums, microblogging, etc.</li>
-  <li>Hosts content in a distributed way, you don't need to run a server, there are no servers, and you don't
-  know what your node is storing, any given content is distributed across many nodes.</li>
+  <ul><li>Only lets you access content uploaded to Freenet, including (static) websites, email, filesharing, 
+  forums, microblogging, etc. All of which are anonymous (or pseudonymous i.e. you create an untraceable 
+  identity).</li>
+  <li>Hosts content in a distributed way: You don't know what your node is storing, any given content is 
+  distributed across many nodes.</li>
   <li>Ensures that popular content will be available forever.</li>
-  <li>Is older than Tor, but more experimental; arguably it's a harder task.</li>
+  <li>Is older than Tor, but more experimental (arguably it's a harder task).</li>
   </ul>
   <p>Freenet in darknet mode: (friend to friend: connects only to your friends' nodes)</p>
   <ul><li>Is very hard to block, and this can be improved further with transport plugins.</li>
-  <li>Provides good anonymity, and with a bit more work it could provide very strong anonymity (PISCES tunnels).</li>
+  <li>Provides good anonymity, and with a bit more work it could provide very strong anonymity (PISCES 
+  tunnels).</li>
   <li>Is fully decentralised: No central servers at all.</li>
   </ul>
   <p>Freenet in opennet mode: (connect automatically even if you don't know anyone on Freenet)</p>
