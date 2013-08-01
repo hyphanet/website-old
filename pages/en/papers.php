@@ -83,12 +83,4 @@
 	  <a href="/lists.html">the mailing lists</a> at some point, more recently ofen in-Freenet forums 
 	  such as FMS, or <a href="https://bugs.freenetproject.org/">the bug tracker</a>.
 	</p>
-	<!-- It's way out of date
-	<p>
-	  And an unofficial, more
-	  elaborate <a href="http://www.freenethelp.org">Freenet Help
-	    Site</a> was created, to go deeper into the questions
-	  newbies may have about the usage and  inner-workings of
-	  Freenet.
-	</p>-->
 	</div>
