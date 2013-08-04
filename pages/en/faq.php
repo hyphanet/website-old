@@ -181,7 +181,7 @@
   <a href="http://www.twitlonger.com/show/n_1rlo0uu">this bust</a>. Half the hidden services on Tor were 
   using a single hosting service, whose owner has now been arrested. While we don't approve of these 
   sites, it does illustrate the point: A centralised network is a vulnerable network. Unfortunately, 
-  decentralised networks are hard.</p>
+  decentralised networks are hard, but in the long run they are more secure.</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian
