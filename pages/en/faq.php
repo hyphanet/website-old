@@ -176,6 +176,12 @@
   
   <p>Unfortunately most people use Freenet in opennet mode currently. The big question is can we 
   build a global friend-to-friend darknet? Join us and find out!</p>
+  
+  <p>PS for an example of how dependant Tor is on centralised hidden services, see 
+  <a href="http://www.twitlonger.com/show/n_1rlo0uu">this bust</a>. Half the hidden services on Tor were 
+  using a single hosting service, whose owner has now been arrested. While we don't approve of these 
+  sites, it does illustrate the point: A centralised network is a vulnerable network. Unfortunately, 
+  decentralised networks are hard.</p>
 
       <p><b id="who">Who is behind Freenet?</b><br/>
   Freenet grew out of a design for an anonymous publication system created by Ian
