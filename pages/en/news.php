@@ -10,7 +10,8 @@
     <p>This has had no effect on Freenet and could not happen on Freenet. Tor hidden services are centralised: 
     A hidden service on Tor is run by a single server somewhere, and if this server is found, the whole site 
     can be shut down, or compromised. In this case half the hidden sites on Tor were run on the same group of 
-    servers!</p>
+    servers! See <a href="https://blog.torproject.org/blog/hidden-services-current-events-and-freedom-hosting">Tor's</a>
+    <a href="https://lists.torproject.org/pipermail/tor-announce/2013-August/000089.html">explanation</a>.</p>
     
     <p>On Freenet, anything you upload is distributed across the network across thousands of separate nodes 
     all over the world, and will remain available for as long as it remains sufficiently popular: Freenet is 
