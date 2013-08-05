@@ -1,4 +1,50 @@
       <h1>News</h1>
+      
+    <a name="2013-tor-bust"><h3>5th August 2013 - Statement on the recent Freedom Hosting (Tor) bust</h3>
+    <p>According to <a href="http://arstechnica.com/tech-policy/2013/08/alleged-tor-hidden-service-operator-busted-for-child-porn-distribution/">the press</a>,
+    half of the hidden sites on Tor are now down, apparently connected to the arrest of a man allegedly 
+    behind Freedom Hosting, a hosting service for Tor hidden services. Some of these sites were said to offer 
+    illegal content and were apparently run by the FBI for two weeks, using a Javascript-based browser 
+    exploit to try to find their users.</p>
+    
+    <p>This has had no effect on Freenet and could not happen on Freenet. Tor hidden services are centralised: 
+    A hidden service on Tor is run by a single server somewhere, and if this server is found, the whole site 
+    can be shut down, or compromised. In this case half the hidden sites on Tor were run on the same group of 
+    servers!</p>
+    
+    <p>On Freenet, anything you upload is distributed across the network across thousands of separate nodes 
+    all over the world, and will remain available for as long as it remains sufficiently popular: Freenet is 
+    a distributed data storage network designed to prevent censorship, provide anonymity and be hard to block. 
+    To see more information on the difference between Freenet and Tor, see 
+    <a href="https://freenetproject.org/faq.html#tor">our explanation in the FAQ</a>.</p>
+    
+    <p>Also, the Javascript exploit mentioned would not have worked on Freenet because Freenet removes 
+    Javascript by default. The Tor Browser Bundle has an option to block Javascript. We recommend that you 
+    enable this if you use Tor.</p>
+    
+    <p>Furthermore, there was no attack against Tor itself: As far as we know, no users of the major 
+    "darknets" (Freenet, Tor and I2P) has been traced by attacking the networks, by law enforcement or anyone 
+    else. In this case, it appears to have been user error, not a problem with Tor itself. Similarly on 
+    Freenet, users need to be careful, and Freenet will often tell you when you are about to do something risky.</p>
+    
+    <p>Having said that, Freenet's security is not perfect, and there are some known (but theoretical) 
+    weaknesses, so it might be possible for an attacker with relatively limited resources to trace individual Freenet 
+    contributors. Most of Freenet's weaknesses can be addressed by making long-lived connections with people 
+    that you trust, i.e. building a friend-to-friend "darknet". This functionality is already a part of the 
+    regular Freenet software, but we need more users who use freenet in friend-to-friend mode to improve anonymity.</p>
+    
+    <p>We have planned further improvements, which should greatly improve security (censorship resistance, 
+    anonymity and resistance to blocking), speed and usability. The expanding online surveillance from both 
+    governments (e.g. PRISM) and private corporations clearly show that tools such as Freenet, TOR and I2P are 
+    essential for a healthy democracy.</p>
+    
+    <p>Please help us secure freedom of access to information by contributing to the Freenet-project with 
+    code, donations, translations, or just by running a node or creating content (anonymously)!</p>
+    
+    <p>Volunteers - especially developers - are always very welcome. Feel free to contact us, through <a href="/irc.html">IRC 
+    online chat</a>, <a href="/lists.html">the mailing lists</a>, or on Freenet itself in the "freenet" board on FMS.</p>
+    
+    <p>For press enquiries please contact <a href="mailto:ian@freenetproject.org">Ian Clarke</a>.</p>
     
     <a name="2013-second-developer-xor"><h3>26th June 2013 - Freenet gets a second paid developer to fix the Web of Trust!</h3>
     <p>Long time coder xor (also known as p0s) has agreed to work, in a paid role, for us on fixing the Web of Trust plugin. This is a crucial component of many Freenet plugins:</p>
