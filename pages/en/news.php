@@ -31,7 +31,7 @@
     weaknesses, so it might be possible for an attacker with relatively limited resources to trace individual Freenet 
     contributors. Most of Freenet's weaknesses can be addressed by making long-lived connections with people 
     that you trust, i.e. building a friend-to-friend "darknet". This functionality is already a part of the 
-    regular Freenet software, but we need more users who use freenet in friend-to-friend mode to improve anonymity.</p>
+    regular Freenet software, but we need more users who use Freenet in friend-to-friend mode to improve anonymity.</p>
     
     <p>We have planned further improvements, which should greatly improve security (censorship resistance, 
     anonymity and resistance to blocking), speed and usability. The expanding online surveillance from both 
