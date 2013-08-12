@@ -45,7 +45,7 @@
       d'informations censurées, y compris dans les pays comme la Chine et
       le Moyen Orient.
       Les idées et concepts précurseurs de Freenet ont eu un impact significatif
-      dans le milieu académique. Notre papier de 2000 intitutléé "Freenet: A Distributed
+      dans le milieu académique. Notre papier de 2000 intitulé "Freenet: A Distributed
       Anonymous Information Storage and Retrieval System" (Freenet : un système de stockage
       et de récupération d'information anonyme et distribué) a été le papier
       de science informatique le plus cité de 2000 d'après <a href="http://citeseer.nj.nec.com/articles2000.html">Citeseer</a>, 
