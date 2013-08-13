@@ -24,6 +24,12 @@
       <div id="nojws">
 	
 	<h2>Installation Instructions</h2>
+	
+	<p><a href="http://freesocial.draketo.de/">Step by step guide</a> to setting up Freenet and 
+	various Freenet apps. Please try this, especially if installing on Mac. We are not responsible for
+	unofficial third party apps it recommends (including FMS), but many Freenet users and developers use
+	them.</p> 
+	
 	<p>
 	  Show instructions for:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
