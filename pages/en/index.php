@@ -140,7 +140,7 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="commits" style="clear: left;">
+    <div id="commits" style="clear: both;">
         <h4>Latest developer activity</h4>
         <div id="latest-commits"></div>
     </div>
