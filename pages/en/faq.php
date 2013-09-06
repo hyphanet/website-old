@@ -310,10 +310,10 @@
   Also, content in Freenet is available only as long as it is popular, so it
   will go away if people lose interest. However, it should persist for some
   time, and if enough people are interested, it will persist forever.
-  Note that other people's file are encrypted and are not stored on your machine
+  Note that other people's file are encrypted and split into pieces. They are not stored on your machine
   in their entirety. Your instance of Freenet will likely have a very small number
-  of encrypted pieces from a given file. The file can only be assembled when this
-  piece is combined with the decryption key and often more pieces.
+  of encrypted pieces from a given file. A file can only be assembled when all
+  its pieces are combined with the decryption key.
   </p>
 
       <p><b id="export">How about encryption export restrictions?</b><br/>
