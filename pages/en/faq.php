@@ -371,7 +371,7 @@
 
       <p><b id="firewall">How do I get freenet working with a Firewall/NAT?</b><br/>
   Mostly, Freenet should just work with a NAT. However, you should forward the ports
-  manually if you can. Click on the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">Friends</a> or <a href="http://127.0.0.1:8888/strangers/">Strangers</a> page. At the bottom you will
+  manually if you can. Click on the <a href="http://127.0.0.1:8888/connectivity/" rel="nofollow">Connectivity</a> page. At the top you will
   see a list of ports used by the node. You should forward (for UDP) the Darknet FNP 
   and Opennet FNP ports. You may need to look up your router's documentation to figure
   out how to do this. Freenet should have forwarded them itself through <a href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">Universal Plug and Play</a>,
