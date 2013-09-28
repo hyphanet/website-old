@@ -118,39 +118,41 @@
 	
 	<div id="mirrored">
 	  
-	  <h3>Mirrored installation</h3>
+	  <h3>Installation en mirroir</h3>
 	  
 	  <p>
-	    If you have a working Freenet installation directory that you have mirrored 
-	    from one Unix machine to another (e.g. via rsync or
-	    unison), enabling the mirrored installation is not
-	    difficult.  Nothing in a Freenet installation cares
-	    about its host's IP address; it can't, or Freenet would
-	    fail on machines that get IP addressss from a DHCP pool
+	    Si vous avez repertoire d'installation de Freenet qui 
+	    fonctionne, vous pouvez alors le mirrorer vers une 
+	    autre machine (i.e. via rsynch ou unison), mettre en 
+	    place une installation mirrorée n'est pas difficile.
+	    L'installation de Freenet ne nécessite aucune 
+	    information issue de votre adresse IP; Freenet ne 
+	    peut pas, sinon il ne pourrait s'installer en 
+	    obtenant une adresse IP issue d'un serveur DHCP.
 	  </p>
 
 	  <p>
-	    All you actually need to do is tell the system you've
-	    mirrored to that it should start the Freenet proxy
-	    daemon for you on boot.  Do <tt>crontab -l</tt> on the
-	    source machine, find the line that is tagged "FREENET
-	    AUTOSTART" and add that to your crontab on the mirrored
-	    machine.
+	    Tout ce dont vous avez besoin est de dire au système que
+	    vous avez mirroré de lancer le proxy Freenet  au 
+	    démarrage.
+	    Lancez <tt>crontab -l</tt> sur la machine initiale. 
+	    Trouvez la ligne notée "FREENET AUTOSTART"  et ajouté là
+	    au crontab de la machine mirroir.
 	  </p>
 	  
 	  <p>
-	    However: each installation has a unique identity key
-	    generated at installation time. If you try to run two
-	    instances with the same identity <em>at the same
-	      time</em>, both proxy demons will become confused and
-	    upset. Don't do this!
+	    Toutefois: chaque installation dispose d'une clé 
+	    d'identification unique généré lors de l'installation. 
+	    Si vous essayez d'exécuter deux instances avec la même 
+	    identité dans le même temps, les deux démons proxy 
+	    deviendront confus et instables. Ne faites pas cela !
 	  </p>
 	  
 	</div>
 	
     <h3>HOWTO</h3>  
 	      
-      	     <p>You might find the <a href="http://freesocial.draketo.de/index.html">Freenet Social Networking Guide</a> useful.</p>
+      	     <p>Vous trouverez peut-être ce guide <a href="http://freesocial.draketo.de/index.html">Freenet Social Networking Guide</a> très utile (en anglais).</p>
 
       </div>
       
