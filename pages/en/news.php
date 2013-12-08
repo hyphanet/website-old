@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-	<a name="2013-gsoc-results"><h3>Results of Google Summer of Code 2013</h3>
+	<a name="2013-gsoc-results"><h3>7th December 2013 - Results of Google Summer of Code 2013</h3>
 	<p>Google Summer of Code 2013 resulted in many interesting projects. Before the next release we intend to review all project code for inclusion into the official version. Time permitting, we will also review previous years' projects, like the SVG and OGG filters.</p>
 	<ul>
 	<li><b>Android Node Reference Exchange:</b>This <a href="https://github.com/NiteshBharadwaj/Freenet">Android application</a>, <a href="https://github.com/NiteshBharadwaj/plugin-MDNSDiscovery-official">changes to the MDNSDiscovery plugin</a>, and <a href="https://github.com/NiteshBharadwaj/fred-staging/tree/Android-App-Merge">changes to Freenet</a> make it easier to connect directly to friends. The application can send references to the home node and exchange references with friends' phones in proximity. (<a href="https://emu.freenetproject.org/pipermail/devl/2013-September/037358.html">more information</a>)</li>
