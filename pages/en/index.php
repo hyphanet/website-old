@@ -146,7 +146,7 @@ $(document).ready(function() {
     <script type="text/javascript">
         $(function() {
             $('#latest-commits').githubInfoWidget(
-                { user: 'freenet', repo: 'plugin-WoT-staging', branch: 'master', last: 5, limitMessageTo: 50 });
+                { user: 'freenet', repo: 'fred-staging', branch: 'next', last: 5, limitMessageTo: 50 });
         });
     </script>
 
