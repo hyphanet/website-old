@@ -59,7 +59,7 @@ THE SOFTWARE.
 
             getCommits(user, repo, branch, function (data) {
                 var commits = data.data;
-                var totalCommits = (last < commits.length ? last : commits.length);
+                var totalCommits = Math.min(last, commits.length);
 
                 element.empty();
 
