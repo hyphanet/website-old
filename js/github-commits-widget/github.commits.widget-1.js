@@ -75,7 +75,7 @@ THE SOFTWARE.
                     //add avatar & github link if possible
                     if (cur.author !== null) {
                     	e_user.append(avatar(cur.author.gravatar_id, avatarSize));
-                     	e_user.append(author(cur.author.login));
+                        e_user.append(author(cur.author.login, cur.author.html_url));
                     }
                     else //otherwise just list the name
                     {
@@ -85,7 +85,7 @@ THE SOFTWARE.
                     li.append(e_user);
                     
                     //add commit message
-                    li.append(message(cur.commit.message, cur.sha));
+                    li.append(message(cur.commit.message, cur.html_url));
                     li.append(when(cur.commit.committer.date));
 
                     list.append(li);
@@ -100,13 +100,13 @@ THE SOFTWARE.
                             .attr('src', 'https://www.gravatar.com/avatar/' + hash + '?s=' + size);
                 }
 
-                function author(login) {
+                function author(login, url) {
                     return  $('<a>')
-                            .attr("href", 'https://github.com/' + login)
+                            .attr("href", url)
                             .text(login);
                 }
 
-                function message(commitMessage, sha) {
+                function message(commitMessage, url) {
                     var originalCommitMessage = commitMessage;
                     if (limitMessage > 0 && commitMessage.length > limitMessage)
                     {
@@ -115,7 +115,7 @@ THE SOFTWARE.
                     
                     var link = $('<a class="github-commit"></a>')
                       .attr("title", originalCommitMessage)
-                      .attr("href", 'https://github.com/' + user + '/' + repo + '/commit/' + sha)
+                      .attr("href", url)
                       .text(commitMessage);
                     
                     return link;
