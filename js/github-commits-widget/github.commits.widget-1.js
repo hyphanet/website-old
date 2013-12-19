@@ -66,7 +66,7 @@ THE SOFTWARE.
             options.avatarSize = widget.options.avatarSize || 20;
             // Default to not showing any commits. TODO: Huh?
             options.showLast = widget.options.last === undefined ? 0 : widget.options.last;
-            // Default to empty commit messages. TODO: Huh?
+            // Limit displayed commit message length. Default no limit.
             options.limitMessageTo = widget.options.limitMessageTo === undefined ? 0 : widget.options.limitMessageTo;
 
             var users = widget.options.users;
@@ -87,14 +87,10 @@ THE SOFTWARE.
                     return aTime < bTime;
                 });
                 var totalCommits = Math.min(options.showLast, commits.length);
-                var element = options.renderElement;
-                var callback = options.renderCallback;
-                var avatarSize = options.avatarSize;
-                var limitMessage = options.limitMessageTo;
 
-                element.empty();
+                options.renderElement.empty();
 
-                var list = $('<ul class="github-commits-list">').appendTo(element);
+                var list = $('<ul class="github-commits-list">').appendTo(options.renderElement);
                 for (var c = 0; c < totalCommits; c++) {
                     var cur = commits[c];
                     var li = $("<li>");
@@ -102,7 +98,7 @@ THE SOFTWARE.
                     var e_user = $('<span class="github-user">');
                     //add avatar & github link if possible
                     if (cur.author !== null) {
-                    	e_user.append(avatar(cur.author.gravatar_id, avatarSize));
+                    	e_user.append(avatar(cur.author.gravatar_id, options.avatarSize));
                         e_user.append(author(cur.author.login, cur.author.html_url));
                     }
                     else //otherwise just list the name
@@ -119,7 +115,7 @@ THE SOFTWARE.
                     list.append(li);
                 }
 
-                callback(element);
+                options.renderCallback(options.renderElement);
 
                 function avatar(hash, size) {
                     return $('<img>')
@@ -135,9 +131,9 @@ THE SOFTWARE.
 
                 function message(commitMessage, url) {
                     var originalCommitMessage = commitMessage;
-                    if (limitMessage > 0 && commitMessage.length > limitMessage)
+                    if (options.limitMessageTo > 0 && commitMessage.length > options.limitMessageTo)
                     {
-                        commitMessage = commitMessage.substr(0, limitMessage) + '...';
+                        commitMessage = commitMessage.substr(0, options.limitMessageTo) + '...';
                     }
                     
                     var link = $('<a class="github-commit"></a>')
