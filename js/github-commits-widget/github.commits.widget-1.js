@@ -4,7 +4,7 @@ https://github.com/alexanderbeletsky/github-commits-widget
 
 # Legal Info (MIT License)
 
-Copyright (c) 2012 Alexander Beletsky 
+Copyright (c) 2012 Alexander Beletsky
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -79,110 +79,110 @@ THE SOFTWARE.
             }
         }
 
-            function renderResults(options) {
-                // Sort from most to least recent.
-                var commits = commitList.sort(function(a, b) {
-                    var aTime = new Date(a.commit.committer.date).getTime();
-                    var bTime = new Date(b.commit.committer.date).getTime();
-                    return aTime < bTime;
-                });
-                var totalCommits = Math.min(options.showLast, commits.length);
+        function renderResults(options) {
+            // Sort from most to least recent.
+            var commits = commitList.sort(function(a, b) {
+                var aTime = new Date(a.commit.committer.date).getTime();
+                var bTime = new Date(b.commit.committer.date).getTime();
+                return aTime < bTime;
+            });
+            var totalCommits = Math.min(options.showLast, commits.length);
 
-                options.renderElement.empty();
+            options.renderElement.empty();
 
-                var list = $('<ul class="github-commits-list">').appendTo(options.renderElement);
-                for (var c = 0; c < totalCommits; c++) {
-                    var cur = commits[c];
-                    var li = $("<li>");
-                    
-                    var e_user = $('<span class="github-user">');
-                    //add avatar & github link if possible
-                    if (cur.author !== null) {
-                    	e_user.append(avatar(cur.author.gravatar_id, options.avatarSize));
-                        e_user.append(author(cur.author.login, cur.author.html_url));
-                    }
-                    else //otherwise just list the name
-                    {
-                    	e_user.append(cur.commit.committer.name);
-                    }
-                    
-                    li.append(e_user);
-                    
-                    //add commit message
-                    li.append(message(cur.commit.message, cur.html_url));
-                    li.append(when(cur.commit.committer.date));
+            var list = $('<ul class="github-commits-list">').appendTo(options.renderElement);
+            for (var c = 0; c < totalCommits; c++) {
+                var cur = commits[c];
+                var li = $("<li>");
 
-                    list.append(li);
+                var e_user = $('<span class="github-user">');
+                //add avatar & github link if possible
+                if (cur.author !== null) {
+                    e_user.append(avatar(cur.author.gravatar_id, options.avatarSize));
+                    e_user.append(author(cur.author.login, cur.author.html_url));
+                }
+                else //otherwise just list the name
+                {
+                    e_user.append(cur.commit.committer.name);
                 }
 
-                options.renderCallback(options.renderElement);
+                li.append(e_user);
 
-                function avatar(hash, size) {
-                    return $('<img>')
-                            .attr('class', 'github-avatar')
-                            .attr('src', 'https://www.gravatar.com/avatar/' + hash + '?s=' + size);
+                //add commit message
+                li.append(message(cur.commit.message, cur.html_url));
+                li.append(when(cur.commit.committer.date));
+
+                list.append(li);
+            }
+
+            options.renderCallback(options.renderElement);
+
+            function avatar(hash, size) {
+                return $('<img>')
+                        .attr('class', 'github-avatar')
+                        .attr('src', 'https://www.gravatar.com/avatar/' + hash + '?s=' + size);
+            }
+
+            function author(login, url) {
+                return  $('<a>')
+                        .attr("href", url)
+                        .text(login);
+            }
+
+            function message(commitMessage, url) {
+                var originalCommitMessage = commitMessage;
+                if (options.limitMessageTo > 0 && commitMessage.length > options.limitMessageTo)
+                {
+                    commitMessage = commitMessage.substr(0, options.limitMessageTo) + '...';
                 }
 
-                function author(login, url) {
-                    return  $('<a>')
-                            .attr("href", url)
-                            .text(login);
-                }
+                var link = $('<a class="github-commit"></a>')
+                  .attr("title", originalCommitMessage)
+                  .attr("href", url)
+                  .text(commitMessage);
 
-                function message(commitMessage, url) {
-                    var originalCommitMessage = commitMessage;
-                    if (options.limitMessageTo > 0 && commitMessage.length > options.limitMessageTo)
-                    {
-                        commitMessage = commitMessage.substr(0, options.limitMessageTo) + '...';
-                    }
-                    
-                    var link = $('<a class="github-commit"></a>')
-                      .attr("title", originalCommitMessage)
-                      .attr("href", url)
-                      .text(commitMessage);
-                    
-                    return link;
-                }
+                return link;
+            }
 
-                function when(commitDate) {
-                    var commitTime = new Date(commitDate).getTime();
-                    var todayTime = new Date().getTime();
+            function when(commitDate) {
+                var commitTime = new Date(commitDate).getTime();
+                var todayTime = new Date().getTime();
 
-                    var differenceInDays = Math.floor(((todayTime - commitTime)/(24*3600*1000)));
-                    if (differenceInDays === 0) {
-                        var differenceInHours = Math.floor(((todayTime - commitTime)/(3600*1000)));
-                        if (differenceInHours === 0) {
-                            var differenceInMinutes = Math.floor(((todayTime - commitTime)/(600*1000)));
-                            if (differenceInMinutes === 0) {
+                var differenceInDays = Math.floor(((todayTime - commitTime)/(24*3600*1000)));
+                if (differenceInDays === 0) {
+                    var differenceInHours = Math.floor(((todayTime - commitTime)/(3600*1000)));
+                    if (differenceInHours === 0) {
+                        var differenceInMinutes = Math.floor(((todayTime - commitTime)/(600*1000)));
+                        if (differenceInMinutes === 0) {
 
-                                return 'just now';
-                            }
-
-                            return 'about ' + differenceInMinutes + ' minutes ago';
+                            return 'just now';
                         }
 
-                        return 'about ' + differenceInHours + ' hours ago';
-                    } else if (differenceInDays == 1) {
-                        return 'yesterday';
+                        return 'about ' + differenceInMinutes + ' minutes ago';
                     }
-                    return differenceInDays + ' days ago';
-                }
-            }
 
-            // Add to commitLists
-            function parseCommits(data) {
-                // Given as callback context.
-                var options = this;
-                var commits = data;
-                // Cap contribution at showLast commits.
-                var totalCommits = Math.min(options.showLast, commits.length);
-                commitList = commitList.concat(commits.slice(0, totalCommits - 1));
-                returnedCommitLists += 1;
-
-                if (returnedCommitLists === options.numRepos) {
-                    renderResults(options);
+                    return 'about ' + differenceInHours + ' hours ago';
+                } else if (differenceInDays == 1) {
+                    return 'yesterday';
                 }
+                return differenceInDays + ' days ago';
             }
+        }
+
+        // Add to commitLists
+        function parseCommits(data) {
+            // Given as callback context.
+            var options = this;
+            var commits = data;
+            // Cap contribution at showLast commits.
+            var totalCommits = Math.min(options.showLast, commits.length);
+            commitList = commitList.concat(commits.slice(0, totalCommits - 1));
+            returnedCommitLists += 1;
+
+            if (returnedCommitLists === options.numRepos) {
+                renderResults(options);
+            }
+        }
 
         return {
             run: function () {
