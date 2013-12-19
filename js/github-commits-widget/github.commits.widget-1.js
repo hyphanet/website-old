@@ -37,8 +37,11 @@ THE SOFTWARE.
 
         function getCommits(user, repo, branch, callback) {
             $.ajax({
+                headers: {
+                    "Accept": "application/vnd.github.v3"
+                },
                 url: "https://api.github.com/repos/" + user + "/" + repo + "/commits?sha=" + branch,
-                dataType: 'jsonp',
+                dataType: 'json',
                 success: callback
             });
         }
@@ -58,7 +61,7 @@ THE SOFTWARE.
             var limitMessage = widget.options.limitMessageTo === undefined ? 0 : widget.options.limitMessageTo;
 
             getCommits(user, repo, branch, function (data) {
-                var commits = data.data;
+                var commits = data;
                 var totalCommits = Math.min(last, commits.length);
 
                 element.empty();
