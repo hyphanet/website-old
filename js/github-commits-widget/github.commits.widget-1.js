@@ -35,14 +35,19 @@ THE SOFTWARE.
 
     widget.prototype = (function() {
 
-        function getCommits(user, repo, branch, callback) {
+        // Callbacks modify these with results.
+        var returnedCommitLists = 0;
+        var commitList = [];
+
+        function getCommits(user, repo, branch, options, callback) {
             $.ajax({
                 headers: {
                     "Accept": "application/vnd.github.v3"
                 },
                 url: "https://api.github.com/repos/" + user + "/" + repo + "/commits?sha=" + branch,
                 dataType: 'json',
-                success: callback
+                success: callback,
+                context: options
             });
         }
 
@@ -51,18 +56,41 @@ THE SOFTWARE.
                 widget.element.append('<span class="error">Options for widget are not set.</span>');
                 return;
             }
-            var callback = widget.callback;
-            var element = widget.element;
-            var user = widget.options.user;
-            var repo = widget.options.repo;
-            var branch = widget.options.branch;
-            var avatarSize = widget.options.avatarSize || 20;
-            var last = widget.options.last === undefined ? 0 : widget.options.last;
-            var limitMessage = widget.options.limitMessageTo === undefined ? 0 : widget.options.limitMessageTo;
 
-            getCommits(user, repo, branch, function (data) {
-                var commits = data;
-                var totalCommits = Math.min(last, commits.length);
+            var options = {};
+            // Called with the element containing the constructed list.
+            options.renderCallback = widget.callback;
+            // Element into which the list is added.
+            options.renderElement = widget.element;
+            // Default avatar size to 20 pixels square.
+            options.avatarSize = widget.options.avatarSize || 20;
+            // Default to not showing any commits. TODO: Huh?
+            options.showLast = widget.options.last === undefined ? 0 : widget.options.last;
+            // Default to empty commit messages. TODO: Huh?
+            options.limitMessageTo = widget.options.limitMessageTo === undefined ? 0 : widget.options.limitMessageTo;
+
+            var users = widget.options.users;
+            var repos = widget.options.repos;
+            options.numRepos = repos.length;
+            var branches = widget.options.branches;
+
+            for (var i = 0; i < options.numRepos; i++) {
+                getCommits(users[i], repos[i], branches[i], options, parseCommits);
+            }
+        }
+
+            function renderResults(options) {
+                // Sort from most to least recent.
+                var commits = commitList.sort(function(a, b) {
+                    var aTime = new Date(a.commit.committer.date).getTime();
+                    var bTime = new Date(b.commit.committer.date).getTime();
+                    return aTime < bTime;
+                });
+                var totalCommits = Math.min(options.showLast, commits.length);
+                var element = options.renderElement;
+                var callback = options.renderCallback;
+                var avatarSize = options.avatarSize;
+                var limitMessage = options.limitMessageTo;
 
                 element.empty();
 
@@ -90,7 +118,6 @@ THE SOFTWARE.
 
                     list.append(li);
                 }
-
 
                 callback(element);
 
@@ -144,8 +171,22 @@ THE SOFTWARE.
                     }
                     return differenceInDays + ' days ago';
                 }
-            });
-        }
+            }
+
+            // Add to commitLists
+            function parseCommits(data) {
+                // Given as callback context.
+                var options = this;
+                var commits = data;
+                // Cap contribution at showLast commits.
+                var totalCommits = Math.min(options.showLast, commits.length);
+                commitList = commitList.concat(commits.slice(0, totalCommits - 1));
+                returnedCommitLists += 1;
+
+                if (returnedCommitLists === options.numRepos) {
+                    renderResults(options);
+                }
+            }
 
         return {
             run: function () {
