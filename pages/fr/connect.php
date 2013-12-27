@@ -4,7 +4,7 @@
 	  <a href="install.html">Installer</a>
 	  <a href="connect.html">Connexion</a>
 	  <a href="content.html">Contenu</a>
-	  <a href="understand.html">Comprendre les motivations derrière Freenet</a>
+	  <a href="understand.html">Comprendre</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -23,112 +23,104 @@
       </ul>
       
       <p>
-	In practice, you should probably use both of these options, unless you are really paranoid, in which
-	case you should of course only connect to people you trust. Insecure mode should work automatically
-	once enabled, so the rest of this page is about connecting to Friends.
+      	En pratique, vous devriez utiliser ces deux approches. A moins que vous soyez vraiment paranoïaque,
+      	dans ce cas vous devriez vous connecter uniquement à des personnes de confiance. Le mode non-sécurisé deverais fonctionner automatiquement dès son activation.
+      	Le reste de cette page traite de la connexion entre amis.
       </p>
 
       <p>
-	To connect to your friends' nodes, you have to exchange Node references with them. The references
-	must be added on <span style="font-weight:bold;">both sides</span> to be established. That is, you need to add his/hers, and he/she needs to add yours.
+      	Pour se connecter aux noeuds d'amis, vous devez echanger les référence de noeuds avec eux. Les référence
+      	doivent être ajoutés <span style="font-weight:bold;">des deux cotés</span> pour que la connexion d'etablisse.
+      	C'est-à-dire que vous devez ajouter sa référence et lui doit de son coté rajouter la vôtre.
       </p>
 
       <p>
-	<span style="font-style:italic;">When you have a freshly connected node, you have no data cached in your datastore,
-	  and very few connections even if insecure mode is enabled. Requests are sent
-	  out in a random
-	  fashion. <span style="font-weight:bold;">This makes some (or
-	  all) requests time out before retrieving anything.</span> It
-	  takes a couple of days for your Freenet-node to get up to
-	  speed, so please don't get discouraged by this.</span>
+	<span style="font-style:italic;">
+		Lors de la connexion d'un nouveau noeud Freenet, vous n'avez aucune donnée dans votre cache
+		et peu de connexions même si le mode non-sécurisé est activé. Les requêtes sont envoyées
+		 aléatoirement.
+		 <span style="font-weight:bold;">
+		 	Ce processus à pour conséquence de provoquer une interruption des requêtes prenant trop de temps avant même de recevoir des données.
+		</span>
+		Le noeud Freenet peut prendre plusieurs jours pour atteindre une vitesse de croisière raisonnable, ne vous découragez donc pas pour cela.
+		</span>
       </p>
 
       <p>
-	You should have at least three nodes that are connected to you
-	at all times, ideally at least five to seven. Since some nodes
-	may be unreachable at times, you need to connect to some more
-	nodes to get the expected number. The nodes that are connected
-	directly to you are the only nodes on freenet that might see
-	what kind of traffic that passes through to your Freenet
-	node. But if insecure mode is enabled, any node can find
-	yours; this is the big advantage of <b>not</b> enabling
-	insecure mode: you are effectively invisible except to your
-	Friends. In practice most people start off with insecure mode
-	and gradually add Friends, and hopefully turn off insecure
-	mode once they have at least 10 Friends.
-      </p>
+    Vous devriez avoir au moins trois noeuds connectés a vous
+    en tout temps, idéalement de cinq à sept. Sachant que des noeuds
+    peuvent devenir injoignables de temps en temps, vous devez vous connecter
+    à plus de noeuds de manière à garder un nombre de noeuds raisonnable.
+    Les noeuds qui sont connectés directement à vous sont les seuls noeuds
+    qui pourraient voir quelle sorte de traffic transite par votre noeud Freenet.
+	Mais si le mode non-sécurisé est activé, nimporte quel noeud peut vous contacter.
+	Il existe donc un grand bénéfice à ne <b>pas</b> activer le mode non-sécurisé.
+	Vous serez en effet uniquement visible par vos amis. En pratique, la plupart des
+	utilisateurs démarrent avec le mode non-sécurisé, ajoutent des amis
+	et ensuite seulement désactivent le mode non-sécurisé une fois atteint au moins 10 amis.
+    </p>
       
       <img src="/image/Freenet-architecture-small.png"/>
 
-      <p><span style="font-size:75%;font-style:italic;">Figure 1: Visible
-      Freenet connections</span></p>
+      <p><span style="font-size:75%;font-style:italic;">Schéma 1: Connexions Freenet visibles</span></p>
       
       <p>
-	<span style="font-weight:bold;">Node A</span> in the figure
-	also has a number of nodes connected to it, but they are all
-	(except from your own node) invisible to you. The traffic
-	routing algorithm is therefore only able to direct traffic to
-	one of the few nodes that you know of that it thinks is most
-	able to find what you are looking for.
+	Le <span style="font-weight:bold;">Noeud A</span> sur le schéma posséde
+	un certain nombre de noeuds connectés à lui mais ils sont tous invisible pour vous (à part votre propre noeud).
+	L'algorithme s'occupant de router le traffic est alors seulement
+	capable de diriger le traffic sur un des noeuds que vous connaissez dont il pense
+	qu'il est le plus apte à trouver se que vous recherchez. 
       </p>
 
       <p>
-	The traffic is encrypted, so it is quite difficult for the
-	nodes that you connect to to see what your Freenet-traffic
-	consists of, but it is far from impossible. It is therefore
-	important that you connect only to people you know. If that is
-	not possible, then at least people you've talked to.
+    Le traffic est chiffré, il est donc plutôt difficile pour les noeuds
+    auquels vous vous connectez de voir en quoi consiste votre traffic émanant de Freenet.
+    Cela reste néamoins du domaine du possible. Il est donc important de vous connecter uniquement
+    aux personnes que vous connaissez. Si ce n'est pas possible, connectez vous au moins au personnes
+    avec qui vous avez parlé.
       </p>
 
       <p>
-	There are a number of ways to add peer node references.
+    Il y a plusieurs manières d'ajouter des références de noeuds.
       </p>
 
       <h3>Fproxy</h3>
       <p>
-	Connecting peer nodes with FProxy can be done in several
-	ways. Common for all these are that they are all done under
-	the <span style="font-weight:bold;">Darknet</span> menu item
-	or using
-	the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
-	link. Below is the thing that makes it all happen:
+     Connecter des noeuds avec FProxy (le site web local de Freenet) peut être fait
+     de plusieurs manières. Les plus communes étant regroupées dans le menu <span style="font-weight:bold;">Darknet</span>
+     ou en utilisant ce lien:
+	<a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
       </p>
       
       <img src="/image/add_peers.png"/>
       
-      <p>As you can see, there are three ways of getting a node reference from someone else:</p>
+      <p>Comme vous voyez, il y a trois manières d'entrer la référence de noeud de quelqu'un d'autre:</p>
       
       <ul>
-	<li>Pasting it &quot;as is&quot;, in the top field,</li>
-	<li>a URL pointing at the reference, or</li>
-	<li>a file, containing the reference.</li>
+	<li>En le copiant-collant &quot;tel-que&quot;, dans le champ du haut,</li>
+	<li>d'entrer un lien pointant sur la référence ou </li>
+	<li>d'envoyer un fichier contenant la référence.</li>
       </ul>
       
       <p>
 	<a href="http://dark-code.bulix.org/">http://dark-code.bulix.org/</a>
-	is a so
-	called <span style="font-weight:bold;">paste-bin</span>, where
-	you can add your node reference, make sure that
-	the <span style="font-weight:bold;">private</span> box is
-	checked, and
-	press <span style="font-weight:bold;">Paste</span>.
+	est un <span style="font-weight:bold;">presse-papier</span>,
+	où vous pouvez envoyer des références de noeuds, assurez-vous que la case
+	<span style="font-weight:bold;">privée (&quot;private&quot; en anglais)</span> est cochée
+	et appuyez sur le bouton <span style="font-weight:bold;">Coller (&quot;Paste en anglais&quot;)</span>.
       </p>
 
       <p>
-	The paste-bin then returns an URL
-	(e.g. http://dark-code.bulix.org/yuf01h-34676?raw), which can
-	be shared with others. Make sure that you
-	add <span style="font-weight:bold;">?raw</span> to the
-	link. This makes the link point only to the actual pasted
-	data, with no extra design elements.
+    Le presse-papier deverais vous retourner un lien
+	(par exemple http://dark-code.bulix.org/yuf01h-34676?raw), que vous pouvez partager.
+	Assurez-vous d'avoir ajouté<span style="font-weight:bold;">?raw</span> à la fin du lien (comme sur l'exemple).
+	Cela revoie uniquement les données envoyées sans aucun elemement de design supplémentaire.
       </p>
       
       <p>
-	Your own Freenet reference can be found on
-	the <a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
-	page, under the caption <span style="font-weight:bold;">My
-	reference</span>. It might look something like this (cut for
-	screen purposes):
+    Votre propre référence de noeud Freenet est disponible sur la page:
+	<a href="http://127.0.0.1:8888/friends/" rel="nofollow">http://127.0.0.1:8888/friends/</a>
+	, sous le sous-titre <span style="font-weight:bold;">Ma référence</span>. Cela doit resembler plus ou moins à ceci (tronqué pour l'exemple):
       </p>
 
       <pre>
@@ -149,38 +141,36 @@
 	End</pre>
 
       <p>
-	Remember that both you and the node you are connecting to
-      must add references to make the connection work. This means that
-      if you add a persons node reference on your side, but that
-      person does not add your reference on his/her side, the
-      connection <span style="font-weight:bold;">does not work</span>.
+      	Rappelez vous que vous devez ajouter chaqun de votre coté les références
+      	pour que la connection fonctionne. Ceci veux dire que si vous ajoutez quelqu'un
+      	mais que la personne ne vous rajoute pas en retour, la connexion ne
+      	<span style="font-weight:bold;">marchera pas</span>.
       </p>
 
-      <h3>Darknet peers</h3>
+      <h3>Noeuds cachés (Darknet)</h3>
       <p>
-	When you have a number of connections, you can visit the
-	Darknet-page. It should look something like this:
+      	Quand vous avez atteint un certain nombre de connexions,
+      	vous pouvez visiter la page Darknet. Elle deverais resembler a ceci:
       </p>
 
       <img src="/image/Freenet-darknet_peers.png"/>
 
-      <p>There are a number of status messages that can be seen here:</p>
+      <p>Des status sont disponibles:</p>
 
       <ul>
-	<li>CONNECTED - the node is connected and ready to take your request</li>
-	<li>BACKED OFF - the node is choked with traffic and unable to respond</li>
-	<li>DISCONNECTED - the node is not connected to your node, and probably turned off</li>
-	<li>NEVER CONNECTED - the connection between the nodes has not
-	been established. This can be because of firewall
-	problems/restrictions, one side not adding the other sides
-	node reference or that the nodes has not been online at the
-	same time yet in order to confirm the connection. If the
-	problem persists over a long time and both sides have added
-	each other, try to redo the connection.
+	<li>CONNECTE - Le noeud est connecté et prêt à recevoir vos requêtes.</li>
+	<li>EN ATTENTE - Le noeud est submergé de traffic et ne peut pas répondre.</li>
+	<li>DECONNECTE - Le noeud n'est pas connecté à votre noeud et probablement éteint.</li>
+	<li>JAMAIS CONNECTT - La connexion entre les neuds n'a pas été établie.
+		Ceci peut être dû à des problèmes/restriction de la part d'un pare-feu,
+		un des deux noeuds d'ajoutant pas les références
+		ou les noeuds n'ont jamais été les deux en ligne au même moment pour confirmer la connexion.
+		Si le problème persiste pendant longtemps et que les noeuds se sont ajoutés entre eux,
+		essayez de réinitialiser la connextion.
 	</li>
       </ul>
       
       <p>
-	In the Idle-column, you can see how much time has passed
-	since the last status message.
+    Dans la collonne Inactif, vous pouvez voir combien de temps
+    s'est ecoulé depuis le dernier message de status.
       </p>
