@@ -1,10 +1,10 @@
       <h1>Documentation</h1>
       <div id="navigation">
-	<p> Go to :
-	  <a href="install.html">Install</a>
-	  <a href="connect.html">Connect</a>
-	  <a href="content.html">Content</a>
-	  <a href="understand.html">Understand</a>
+	<p> Aller à :
+	  <a href="install.html">Installer</a>
+	  <a href="connect.html">Connexion</a>
+	  <a href="content.html">Contenu</a>
+	  <a href="understand.html">Comprendre les motivations derrière Freenet</a>
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
@@ -13,17 +13,13 @@
 	</p>
       </div>
 
-      <h2>Connecting to Freenet</h2>
-      <p>There are two ways to connect to Freenet:</p>
+      <h2>Se connecter à Freenet</h2>
+      <p>Il y a deux manières de se connecter à Freenet:</p>
 
       <ul>
-	<li>You can enable insecure mode (the installation wizard will
-	ask you) and Freenet will automatically find nodes to connect
-	to - Strangers.</li>
-	<li>You can connect to nodes run by people you know -
-	Friends. Note that these should be people you actually know on
-	some level, in order to maintain good network topology and
-	maximum security.</li>
+	<li>Vous pouvez activer le mode non-sécurisé (l'installateur vous le demandera) et Freenet se connectera automatiquement aux inconnus (Inconnus).</li>
+	<li>Vous pouvez vous connecter aux noeuds tenus par des personnes que vous connaissez (Amis).
+		Veuillez noter que ces neuds doivent vraiment être des personnes que vous connaissez réellement dans une certaine mesure pour maintenir une bonne topologie dans le réseau et un maximum de sécurité.</li>
       </ul>
       
       <p>
