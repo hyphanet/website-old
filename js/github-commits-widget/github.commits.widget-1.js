@@ -40,6 +40,13 @@ THE SOFTWARE.
         var commitList = [];
 
         function getCommits(user, repo, branch, options, callback) {
+            /*
+             * Add to context to use in rendering. Shallow copy specific to this
+             * callback.
+             */
+            var context = $.extend({}, options);
+            context.user = user;
+            context.repo = repo;
             $.ajax({
                 headers: {
                     "Accept": "application/vnd.github.v3"
@@ -47,7 +54,7 @@ THE SOFTWARE.
                 url: "https://api.github.com/repos/" + user + "/" + repo + "/commits?sha=" + branch,
                 dataType: 'json',
                 success: callback,
-                context: options
+                context: context
             });
         }
 
@@ -99,7 +106,7 @@ THE SOFTWARE.
                 //add avatar & github link if possible
                 if (cur.author !== null) {
                     e_user.append(avatar(cur.author.gravatar_id, options.avatarSize));
-                    e_user.append(author(cur.author.login, cur.author.html_url));
+                    e_user.append(author(cur.author.login));
                 }
                 else //otherwise just list the name
                 {
@@ -123,9 +130,9 @@ THE SOFTWARE.
                         .attr('src', 'https://www.gravatar.com/avatar/' + hash + '?s=' + size);
             }
 
-            function author(login, url) {
+            function author(login) {
                 return  $('<a>')
-                        .attr("href", url)
+                        .attr("href", 'https://github.com/' + login)
                         .text(login);
             }
 
@@ -176,7 +183,18 @@ THE SOFTWARE.
             var commits = data;
             // Cap contribution at showLast commits.
             var totalCommits = Math.min(options.showLast, commits.length);
-            commitList = commitList.concat(commits.slice(0, totalCommits - 1));
+            var addedCommits = commits.slice(0, totalCommits - 1);
+            /*
+             * Compute html_url attributes to prevent the JSON from causing the
+             * widget to link to an arbitrary domain.
+             */
+            for (var i = 0; i < addedCommits.length; i++) {
+                var commit = addedCommits[i];
+                var commit_url = 'https://github.com/' + options.user + '/' +
+                                 options.repo + '/commit/' + commit.sha;
+                addedCommits[i].html_url = commit_url;
+            }
+            commitList = commitList.concat(addedCommits);
             returnedCommitLists += 1;
 
             if (returnedCommitLists === options.numRepos) {
