@@ -13,67 +13,72 @@
 	</p>
       </div>
       <p>
-	The documentation on Freenet is forever changing, since
-	this is a project in development. However, here under 
-	the Documentation menu, you may find usage documents on
-	how to setup Freenet and use the most popular Freenet 
-	tools as well as a user driven Wiki and an extensive
-	Frequently Asked Questions department.
+	La documentation sur Freenet change fréquement, Freenet 
+	étant un projet en cours de développement. Cependant, 
+	vous pourrez trouver dans le menu ci-dessous, des 
+	documents d'utilisation sur la manière de configurer
+	et dutiliser Freenet ainsi que les outils les plus 
+	populaires liés à Freenet. Vous trouverez aussi un wiki
+	axé utilisateur ainsi qu'une vaste Foire Aux Questions.
       </p>
       
       <ul>
 	<li>
-	  <a href="install.html"><strong>Install</strong></a><br/>
-	  Contains detailed instructions on how to
-	  install Freenet using the new installer.
+	  <a href="install.html"><strong>Installation</strong></a><br/>
+	  Contient les instructions détaillées concernant 
+	  l'installation de Freenet avec utilisant le nouvel 
+	  installeur.
 	</li>
 
 	<li>
-	  <a href="connect.html"><strong>Connect</strong></a><br/>
-	  How to connect to Freenet.
+	  <a href="connect.html"><strong>Connection</strong></a><br/>
+	  Comment se connecter à Freenet.
 	</li>
 
 	<li>
-	  <a href="content.html"><strong>Content</strong></a><br/>
-	  Freenet as a Content Distribution System.
+	  <a href="content.html"><strong>Contenu</strong></a><br/>
+	  Freenet comme système de distribution de contenu..
 	</li>
 
 	<li>
-	  <a href="understand.html"><strong>Understand</strong></a><br/>
-	  Explains the workings of Freenet, and a 
-	  glossary with the most frequently used terms.
+	  <a href="understand.html"><strong>Comprendre</strong></a><br/>
+	  Explique le fonctionnement de Freenet, et contient 
+	  un glossaire des termes les plus fréquemment utilisés.
 	</li>
 
 	<li>
 	  <a href="freemail.html"><strong>Freemail</strong></a><br/>
-	  How to setup Freenets own anonymous email service.
+	  Comment installer le service d'email anonyme propre à Freenet.
 	</li>
 
 	<li>
 	  <a href="frost.html"><strong>Frost</strong></a><br/>
-	  Frost is the oldest and most used messaging and file 
-	  sharing tool in the Freenet suite. This describes how
-	  to set it up and use it for the first time.
+	  Frost est le plus ancien et le plus utilisé des forums 
+	  et système d'échange de fichiers de la suite Freenet.
+	  Vous trouverez ici comment l'installer et le 
+	  paramétrer pour votre première utilisation.
 	</li>
 
 	<li>
 	  <a href="jsite.html"><strong>jSite</strong></a><br/>
-	  jSite is a Freenet website (a.k.a. Freesite) insertion 
-	  tool.
+	  jSite est un outil d'insertion de site web accessible 
+	  via Freenet (e.g. Freesite).
 	</li>
 
 	<li>
 	  <a href="thaw.html"><strong>Thaw</strong></a><br/>
-	  Thaw is a filesharing utility and upload/download manager. 
-	  It is used as a graphical interface for Freenet filesharing.
+	  Thaw est un outil d'upload/download de fichiers.
+	  Il est utilisé comme interface graphique pour le partage
+	  de fichiers.
 	</li>
 
 	<li>
 	  <a href="https://wiki.freenetproject.org/"><strong>Wiki</strong></a><br/>
-	  The Freenet Wiki is a user driven space where new features
-	  may be described before finding its way into the website.
-	  It is a good source of information about all sorts of
-	  Freenet related issues.
+	  Le Wiki Freenet est un espace utilisateur où les nouvelles 
+	  fonctionnalités peuvent être décrites avant d'être publiées
+	  sur le site. C'est une bonne source d'information sur toutes 
+	  sortes de questions liées à Freenet.
 	</li>
 
       </ul>
+      
