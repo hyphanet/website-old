@@ -37,7 +37,7 @@
 
 	<li>
 	  <a href="content.html"><strong>Contenu</strong></a><br/>
-	  Freenet comme système de distribution de contenu..
+	  Freenet comme système de distribution de contenu.
 	</li>
 
 	<li>
