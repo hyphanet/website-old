@@ -41,7 +41,7 @@
 	<h3>Windows</h3>
 	
 	<p>
-	Téléchargez et éxécutez <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">le programme d'installation</a> (8MB)</big><br/> 
+	Téléchargez et éxécutez <big><a href="FREENET_WINDOWS_INSTALLER_URL">le programme d'installation</a> (8MB)</big><br/> 
 	<br/>
 	Celui-ci installera automatiquement Freenet ainsi que les
 	autres composants requis pour vous. Une fois l'installation
@@ -103,14 +103,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativement,
-	  télécharger <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">le
+	  télécharger <a href="FREENET_INSTALLER_URL">le
 	    programme d'installation</a>
-	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">signature 
+	  (<a href="FREENET_INSTALLER_SIG_URL">signature 
 	    gpg</a>) et cliquer ensuite sur le fichier peut fonctionner
 	    sur certains systèmes, mais s'il y a un quelconque problème,
 	    nous vous recommandons d'exécuter les lignes de commandes ci-dessus. 
@@ -317,6 +317,6 @@
 	  <b>Code source:</b>
 	  Voir la <a href="developer.html">page des développeurs</a> 
 	  pour obtenir un accès git, ou téléchargez la dernière archive
-	  stable <a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">ici</a>(<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">signature</a>).
+	  stable <a href="FREENET_SOURCE_URL">ici</a>(<a href="FREENET_SOURCE_SIG_URL">signature</a>).
 	</small>
       </p>

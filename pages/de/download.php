@@ -43,7 +43,7 @@ showDiv('unix');">Anleitung für Linux und Unix-ähnliche Systeme</a><br>
 <div id="windows">
 <h3>Windows</h3>
 - Laden Sie das <big><a
-href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe"
+href="FREENET_WINDOWS_INSTALLER_URL"
 >Freenet-Webinstallationsprogramm</a> (3MB)</big> herunter und führen Sie es aus
 <br><br>
 Es wird automatisch Freenet und andere benötigte Komponenten für Sie
@@ -87,12 +87,12 @@ Generell empfehlen wir die neuste Version zu benutzen.
 
 <p>Öffnen Sie eine Kommandozeile (Terminal) und geben Sie folgendes ein:</p>
 <pre>
-wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer.jar
+wget <a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a> -O new_installer.jar
 java -jar new_installer.jar
 </pre>
 
 <p>Alternativ können Sie auf manchen Systemen auch <a
-href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar"
+href="FREENET_INSTALLER_URL"
 >das Installationsprogramm</a> herunterladen und es anklicken, wenn jedoch
 Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 

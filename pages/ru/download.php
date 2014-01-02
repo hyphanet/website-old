@@ -43,7 +43,7 @@
   
   <p>
     - Загрузите 
-    <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">установщик</a></big> и запустите его.<br/> 
+    <big><a href="FREENET_WINDOWS_INSTALLER_URL">установщик</a></big> и запустите его.<br/> 
     <br/>
     Он автоматически установит ПО Фринет и другие требуемые компоненты. 
     Когда установка будет завершена, ваш браузер откроет вам страницу 
@@ -96,14 +96,14 @@
   openning pre, and no newline before the ending pre) -->
 
   <pre>
-    wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+    wget <a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a> -O new_installer_offline.jar
     java -jar new_installer_offline.jar</pre>
 
   <p>
     Другой способ,
-    загрузите <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">установщик
+    загрузите <a href="FREENET_INSTALLER_URL">установщик
     </a>
-    (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg-подпись</a>)
+    (<a href="FREENET_INSTALLER_SIG_URL">gpg-подпись</a>)
     и запустите его. Такое работает в некоторых операционных системах. Но если это не ваш случай, мы рекомендуем
     использовать способ с командной строкой, который был описан выше. Если у вас не установлен wget, он может быть установлен с помощью системы управления пакетами.
     Например, sudo apt-get install wget для Debian или Ubuntu.
@@ -282,6 +282,6 @@
     <b>Исходный код:</b>
     Смотрите <a href="developer.html">страницу разработчика</a> 
     для доступа к git, или загрузите
-    <a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">последнюю стабильную версию</a> (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">подпись</a>).
+    <a href="FREENET_SOURCE_URL">последнюю стабильную версию</a> (<a href="FREENET_SOURCE_SIG_URL">подпись</a>).
   </small>
       </p>

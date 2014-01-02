@@ -67,7 +67,7 @@ $(document).ready(function() {
       </div>
 
       <div id="windows" class="sprites download">
-     <a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">
+     <a href="FREENET_WINDOWS_INSTALLER_URL">
         <span id="software">Фринет</span>
         <span id="action">Загрузить</span>
         <span id="version">0.7.5 для Windows</span>

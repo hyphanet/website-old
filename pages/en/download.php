@@ -45,7 +45,7 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="https://freenet.googlecode.com/files/FreenetInstaller-FREENETVERSION.exe">the
+	  run <big><a href="FREENET_WINDOWS_INSTALLER_URL">the
 	      installer</a></big> (<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">try this if the first link is blocked</a>)<br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
@@ -101,14 +101,14 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar</a> -O new_installer_offline.jar
+	  wget <a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a> -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternatively,
-	  downloading <a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar">the
+	  downloading <a href="FREENET_INSTALLER_URL">the
 	    installer</a>
-	  (<a href="https://freenet.googlecode.com/files/new_installer_offline_FREENETVERSION.jar.sig">gpg
+	  (<a href="FREENET_INSTALLER_SIG_URL">gpg
 	    signature</a>) and then clicking on the file may work on
 	  some systems, but if there are problems we recommend the
 	  above command lines. If wget is not installed, it can be installed with a package manager, such as
@@ -290,6 +290,6 @@
 	  <b>Source Code:</b>
 	  See <a href="developer.html">the developer page</a> 
 	  for git access, or download the lastest stable
-	  tarball <a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2">here</a> (<a href="https://freenet.googlecode.com/files/freenet-FREENETTAG-source.tar.bz2.sig">signature</a>).
+	  tarball <a href="FREENET_SOURCE_URL">here</a> (<a href="FREENET_SOURCE_SIG_URL">signature</a>).
 	</small>
       </p>
