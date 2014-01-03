@@ -16,7 +16,7 @@
 		<all-permissions/>
 	</security>
 	<resources>
-		<jar href="FREENET_MAIN_JAR_URL" />
+		<jar href="FREENET_INSTALLER_URL" />
 		<j2se version="1.6.0+" />
 	</resources>
 	<application-desc/>
