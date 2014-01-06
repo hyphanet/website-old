@@ -183,7 +183,7 @@ THE SOFTWARE.
             var commits = data;
             // Cap contribution at showLast commits.
             var totalCommits = Math.min(options.showLast, commits.length);
-            var addedCommits = commits.slice(0, totalCommits - 1);
+            var addedCommits = commits.slice(0, totalCommits);
             /*
              * Compute html_url attributes to prevent the JSON from causing the
              * widget to link to an arbitrary domain.
