@@ -1,5 +1,48 @@
       <h1>News</h1>
 
+    <a name="build01458"><h3>6th January 2013 - Freenet 0.7.5 build 1458 released</h3>
+    <p>Freenet 0.7.5 build 1458 is now available. Google <a href="http://google-opensource.blogspot.se/2013/05/a-change-to-google-code-download-service.html">phased out Google
+Code downloads</a>, so the main downloads on the website are now hosted
+on Google Drive.</p>
+
+<p>In this release:</p>
+
+<ul>
+<li>The update notification and statistics pages link to the release
+    announcement and developer details.</li>
+<li>More French and Italian translation thanks to <a href="https://www.transifex.com/projects/p/freenet/">volunteers on
+    Transifex</a>. The French translation has complete coverage!</li>
+<li>Network-level changes thanks to Quadrocube.</li>
+<li>New Freenet installations are portable: they can run without changes
+    after being moved between directories. To make an existing
+    installation portable shut down Freenet and edit freenet.ini to make
+    these paths relative:
+   <ul>
+   <li>fproxy.CSSOverride (if one is specified)</li>
+   <li>node.masterKeyFile</li>
+   <li>node.downloadsDir</li>
+   <li>node.install.userDir</li>
+   <li>node.install.tempDir</li>
+   <li>node.install.pluginDir</li>
+   <li>node.install.persistentTempDir</li>
+   <li>node.install.cfgDir</li>
+   <li>node.install.runDir</li>
+   <li>node.install.nodeDir</li>
+   <li>node.install.storeDir</li>
+   <li>node.install.pluginStoresDir</li>
+   </ul>
+</li>
+<li>On January 14th Oracle will deploy a new version of Java which
+    <a href="https://blogs.oracle.com/java-platform-group/entry/new_security_requirements_for_rias">requires code signatures from a trusted certificate authority</a> to
+    use JNLP. Freenet uses JNLP to launch the Linux and Mac
+    installers. We currently use self-signed certificates, which will
+    stop working. We are in the process of getting a trusted certificate.</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
 	<a name="2013-gsoc-results"><h3>7th December 2013 - Results of Google Summer of Code 2013</h3>
 	<p>Google Summer of Code 2013 resulted in many interesting projects. Before the next release we intend to review all project code for inclusion into the official version. Time permitting, we will also review previous years' projects, like the SVG and OGG filters.</p>
 	<ul>
