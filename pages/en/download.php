@@ -94,7 +94,7 @@
 	</p>
 
 	<p>
-	  Open a terminal and type:
+	  Open a terminal and run:
 	</p>
 	
 	<!-- please use "pre" as following (ie a newline after the
