@@ -94,7 +94,7 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget <a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a> -O new_installer_offline.jar
+	  wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
