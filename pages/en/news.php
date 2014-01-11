@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-    <a name="build01458"><h3>6th January 2013 - Freenet 0.7.5 build 1458 released</h3>
+    <a name="build01458"><h3>6th January 2014 - Freenet 0.7.5 build 1458 released</h3>
     <p>Freenet 0.7.5 build 1458 is now available. Google <a href="http://google-opensource.blogspot.se/2013/05/a-change-to-google-code-download-service.html">phased out Google
 Code downloads</a>, so the main downloads on the website are now hosted
 on Google Drive.</p>
