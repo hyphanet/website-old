@@ -15,46 +15,48 @@
 
       <h2>Install Freenet</h2> 
       <p>
-	To install Freenet might not be as difficult as you might have
-	heard. There are two ways to install Freenet:
+	Installer Freenet pourrait être moins difficile a installer
+	que ce que vous auriez pu entendre.
+	Il y a deux façons d'installer Freenet.
       </p>
 
       <ul>
-	<li>Graphical install</li>
-	<li>Headless install</li>
-	<li>Enabling a mirror copy of a Freenet installation</li>
+	<li>Installation graphique</li>
+	<li>Installation en ligne de commande</li>
+	<li>Mettre en place une copie-mirroir d'une installation Freenet</li>
       </ul>
 
-      <p>If you want to install the Freenet software on a computer
-      which lacks a GUI, see
-      the <a href="download.html#unix">Headless install</a>
-      instructions. If you have mirrored a working Freenet
-      installation to a machine without explicitly installing it,
-      see <a href="download.html#mirrored">Mirrored
-      install</a>. Otherwise, continue reading.
+      <p>
+	Si vous souhaitez installer le logiciel Freenet sur un ordinateur
+	qui n'a pas d'interface graphique, voir
+	<a href="download.html#unix"> Installation en ligne de commande </ a>
+	instructions. Si vous avez une copie-miroir d'une installation 
+	déjà éxistante sans installer Freenet explicitement,
+	voir <a href="download.html#mirrored"> Mettre en place une 
+	copie-mirroir d'une installation Freenet </ a>. Sinon, continuez à lire.
       </p>
 
-      <h4>Graphical install</h4>
+      <h4>Installation Graphique</h4>
       
-      <p>For a graphical installation you have to have:</p>
+      <p>Pour une installation graphique, vous devez avoir:</p>
       <ul>
-	<li>A working Java Runtime Environment,</li>
-	<li>a downloaded copy of <a href="https://downloads.freenetproject.org/alpha/installer/new_installer.jar">
-	    https://downloads.freenetproject.org/alpha/installer/new_installer.jar</a> and</li>
-	<li>a working graphical user interface (GUI)</li>
+	<li>Un environement Java opérationnel,</li>
+	<li>une copie téléchargée de <a href="https://downloads.freenetproject.org/alpha/installer/new_installer.jar">
+	    https://downloads.freenetproject.org/alpha/installer/new_installer.jar</a> et</li>
+	<li>une interface utilisateur graphique fonctionnelle (GUI)</li>
       </ul>
       
       <p>
-	You should save the new_installer.jar file somewhere were you
-	can find it again. Your home-directory should be a good
-	place. The next step requires you to know where you stored the
-	file (the path to it), so it is quite important that you do
-	that step thouroghly.
+	Vous devez enregistrer le fichier new_installer.jar à un endroit où vous 
+	pouvez le retrouver. Votre répertoire courant peut être le bon endroit.
+	L'étape suivante vous demande de vous rappeler où vous avez enregistré le
+	fichier (le chemin d'accès), il est donc très important de bien maîtriser
+	cette étape.
       </p>
 
       <p>
-	To start the installation, open a command line
-	interface/terminal/shell window. Exchange
+	Pour démarrer l'installation, ouvrir une fenêtre avec une 
+	fenêtre en ligne de commande/console/terminal/shell'. Exchange
 	the <span style="font-weight:bold;">/path/to</span> to the
 	real path (for example:
 	/home/username/download/new_installer.jar) to the
