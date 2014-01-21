@@ -1,5 +1,27 @@
       <h1>News</h1>
 
+    <a name="build01459"><h3>21st January 2014 - Freenet 0.7.5 build 1459 released</h3>
+    <p>Freenet 0.7.5 build 1459 is now available. Freenet will require Java 7 or
+       higher in a future update. Java 6 has been at End of Life since February
+       2013, which means it <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">does not receieve security updates</a>.
+       There will be an alert warning people to upgrade before this happens.</p>
+
+    <p>We now have a code signing certificate, so the Java-based installer for
+       Mac OS X and Linux is signed, which will make it easier to run. In future
+       releases more things will be signed.</p>
+
+<p>In this release:</p>
+
+<ul>
+ <li>Fix configuration page partially allowing unsupported large bandwidth limits. (1 GBps or higher)</li>
+ <li>Translation updates from Transifex.</li>
+ <li>Network-level changes.</li>
+ <li>Links to release notes and developer details are now to a specific version instead of just the latest.</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+<p>- Steve Dougherty</p>
+
     <a name="build01458"><h3>6th January 2014 - Freenet 0.7.5 build 1458 released</h3>
     <p>Freenet 0.7.5 build 1458 is now available. Google <a href="http://google-opensource.blogspot.se/2013/05/a-change-to-google-code-download-service.html">phased out Google
 Code downloads</a>, so the main downloads on the website are now hosted
