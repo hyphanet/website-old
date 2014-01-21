@@ -3,7 +3,7 @@
     <a name="build01459"><h3>21st January 2014 - Freenet 0.7.5 build 1459 released</h3>
     <p>Freenet 0.7.5 build 1459 is now available. Freenet will require Java 7 or
        higher in a future update. Java 6 has been at End of Life since February
-       2013, which means it <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">does not receieve security updates</a>.
+       2013, which means it <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">does not receive security updates</a>.
        There will be an alert warning people to upgrade before this happens.</p>
 
     <p>We now have a code signing certificate, so the Java-based installer for
