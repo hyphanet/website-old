@@ -3,11 +3,11 @@
     <a name="gsoc-2014"><h3>1st March 2014 - Freenet accepted into Google Summer of Code!</h3>
     <p>Freenet has once again been accepted into Google Summer of Code. This pays students to work
     on projects to improve Freenet over the summer. See <a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2014">the wiki</a>
-    for more details and ideas for projects. Pleast contact us and demonstrate coding ability by
+    for projects ideas. Pleast contact us and demonstrate coding ability by
     solving a small bug or implementing a small feature before submitting a project proposal.
     We will be very happy to help you do this, so please contact us via the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">mailing list</a> or <a href="irc://chat.freenode.net/freenet">IRC</a>!</p>
 
-    <p>Students can sign up from April the 22nd to May 3rd. For details see <a href="https://www.google-melange.com/gsoc/homepage/google/gsoc2014">the Google Summer of Code site</a>.</p>
+    <p>Students can sign up from March 10th to March 21st. For details see <a href="https://www.google-melange.com/gsoc/homepage/google/gsoc2014">the Google Summer of Code site</a>.</p>
 
     <a name="build01459"><h3>21st January 2014 - Freenet 0.7.5 build 1459 released</h3>
     <p>Freenet 0.7.5 build 1459 is now available. Freenet will require Java 7 or
