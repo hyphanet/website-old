@@ -3,9 +3,9 @@
     <a name="gsoc-2014"><h3>1st March 2014 - Freenet accepted into Google Summer of Code!</h3>
     <p>Freenet has once again been accepted into Google Summer of Code. This pays students to work
     on projects to improve Freenet over the summer. See <a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2014">the wiki</a>
-    for projects ideas. Pleast contact us and demonstrate coding ability by
+    for project ideas. Please contact us and demonstrate coding ability by
     solving a small bug or implementing a small feature before submitting a project proposal.
-    We will be very happy to help you do this, so please contact us via the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">mailing list</a> or <a href="irc://chat.freenode.net/freenet">IRC</a>!</p>
+    We will be very happy to help with this, so feel free to get in touch on the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl/">mailing list</a> or <a href="irc://chat.freenode.net/freenet">IRC</a>!</p>
 
     <p>Students can sign up from March 10th to March 21st. For details see <a href="https://www.google-melange.com/gsoc/homepage/google/gsoc2014">the Google Summer of Code site</a>.</p>
 
