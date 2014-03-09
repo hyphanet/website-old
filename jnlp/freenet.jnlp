@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- JNLP File for Freenet -->
-<jnlp spec="1.0+" href="https://freenetproject.org/jnlp/freenet.jnlp">
+<jnlp spec="1.0+" href="https://freenetproject.org/jnlp/freenet.jnlp" codebase="https://freenetproject.org/jnlp/">
 	<information>
 		<title>Freenet 0.7.5 installer</title>
 		<vendor>Freenet Project Inc.</vendor>
@@ -16,8 +16,8 @@
 		<all-permissions/>
 	</security>
 	<resources>
-		<jar href="FREENET_INSTALLER_URL" />
-		<j2se version="1.6.0+" />
+		<jar href="freenet_installer.jar" />
+		<j2se version="1.7.0+" />
 	</resources>
 	<application-desc/>
 </jnlp>
