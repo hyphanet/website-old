@@ -44,7 +44,7 @@
       <p>Para la instalación gráfica deberás tener:</p>
       <ul>
 	<li>Una Java Runtime Environment funcionando</li>
-	<li>Una copia descargada del <a href="FREENET_INSTALLER_URL">new_installer_offline.jar</a>
+	<li>Una copia descargada del <a href="FREENET_INSTALLER_REDIRECT_URL">new_installer_offline.jar</a>
 	(si no funciona prueba <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">aquí</a>)</li>
 	<li>Una interfaz gráfica de usuario funcionando (GUI)</li>
       </ul>

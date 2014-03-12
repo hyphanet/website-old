@@ -43,7 +43,7 @@
       <p>For a graphical installation you have to have:</p>
       <ul>
 	<li>A working Java Runtime Environment,</li>
-	<li>a downloaded copy of <a href="FREENET_INSTALLER_URL">new_installer_offline.jar</a>
+	<li>a downloaded copy of <a href="FREENET_INSTALLER_REDIRECT_URL">new_installer_offline.jar</a>
 	(if this does not work try <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">here</a>)</li>
 	<li>a working graphical user interface (GUI)</li>
       </ul>

@@ -96,12 +96,12 @@
   openning pre, and no newline before the ending pre) -->
 
   <pre>
-    wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer_offline.jar
+    wget '<a href="FREENET_INSTALLER_REDIRECT_URL">FREENET_INSTALLER_REDIRECT_URL</a>' -O new_installer_offline.jar
     java -jar new_installer_offline.jar</pre>
 
   <p>
     Другой способ,
-    загрузите <a href="FREENET_INSTALLER_URL">установщик
+    загрузите <a href="FREENET_INSTALLER_REDIRECT_URL">установщик
     </a>
     (<a href="FREENET_INSTALLER_SIG_URL">gpg-подпись</a>)
     и запустите его. Такое работает в некоторых операционных системах. Но если это не ваш случай, мы рекомендуем

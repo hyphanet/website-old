@@ -101,12 +101,12 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer_offline.jar
+	  wget '<a href="FREENET_INSTALLER_REDIRECT_URL">FREENET_INSTALLER_REDIRECT_URL</a>' -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternatively,
-	  downloading <a href="FREENET_INSTALLER_URL">the
+	  downloading <a href="FREENET_INSTALLER_REDIRECT_URL">the
 	    installer</a>
 	  (<a href="FREENET_INSTALLER_SIG_URL">gpg
 	    signature</a>) and then clicking on the file may work on

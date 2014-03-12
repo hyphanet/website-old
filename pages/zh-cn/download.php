@@ -73,12 +73,12 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer_offline.jar
+	  wget '<a href="FREENET_INSTALLER_REDIRECT_URL">FREENET_INSTALLER_REDIRECT_URL</a>' -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  或者,
-	  某些系统中下载<a href="FREENET_INSTALLER_URL">安装包</a>
+	  某些系统中下载<a href="FREENET_INSTALLER_REDIRECT_URL">安装包</a>
 	  (<a href="FREENET_INSTALLER_SIG_URL">gpg
 	    签名</a>) 并执行可能成功, 如果不成功, 我们推荐使用上述的命令行.
 	</p>

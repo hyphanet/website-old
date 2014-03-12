@@ -87,12 +87,12 @@ Generell empfehlen wir die neuste Version zu benutzen.
 
 <p>Öffnen Sie eine Kommandozeile (Terminal) und geben Sie folgendes ein:</p>
 <pre>
-wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer.jar
+wget '<a href="FREENET_INSTALLER_REDIRECT_URL">FREENET_INSTALLER_REDIRECT_URL</a>' -O new_installer.jar
 java -jar new_installer.jar
 </pre>
 
 <p>Alternativ können Sie auf manchen Systemen auch <a
-href="FREENET_INSTALLER_URL"
+href="FREENET_INSTALLER_REDIRECT_URL"
 >das Installationsprogramm</a> herunterladen und es anklicken, wenn jedoch
 Probleme auftreten, empfehlen wir die obigen Kommandos.</p>
 

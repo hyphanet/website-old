@@ -94,12 +94,12 @@
 	openning pre, and no newline before the ending pre) -->
 
 	<pre>
-	  wget '<a href="FREENET_INSTALLER_URL">FREENET_INSTALLER_URL</a>' -O new_installer_offline.jar
+	  wget '<a href="FREENET_INSTALLER_REDIRECT_URL">FREENET_INSTALLER_REDIRECT_URL</a>' -O new_installer_offline.jar
 	  java -jar new_installer_offline.jar</pre>
 	
 	<p>
 	  Alternativamente,
-	  descarga <a href="FREENET_INSTALLER_URL">el 
+	  descarga <a href="FREENET_INSTALLER_REDIRECT_URL">el 
 	    instalador</a>
 	  (<a href="FREENET_INSTALLER_SIG_URL">firma gpg
 	    </a>) y luego haciendo click en el archivo funcionará en la mayoría de los sistemas, pero si hay problemas recomendamos las
