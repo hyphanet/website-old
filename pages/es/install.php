@@ -38,8 +38,7 @@
       
       <p><b>Lo siguiente está desactualizado para sistemas Windows</b>, para Windows deberías
       usar <a href="https://freenetproject.org/jnlp/FreenetInstaller.exe">el instalador Windows</a> como se describe en <a href="download.html">la página de descargas</a>.
-      También puedes obtener el instalador Windows  de <a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">aquí</a> o 
-      <a href="https://downloads.freenetproject.org/alpha/installer/FreenetInstaller-FREENETVERSION.exe">aquí</a>.</p>
+      También puedes obtener el instalador Windows  de <a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">aquí</a>.</p>
       
       <p>Para la instalación gráfica deberás tener:</p>
       <ul>
