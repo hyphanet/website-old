@@ -1,5 +1,67 @@
       <h1>News</h1>
 
+    <a name="build01461"><h3>30th March 2014 - Freenet 0.7.5 build 1461 released</h3>
+<p>Freenet 0.7.5 build 1461 is now available.</p>
+
+<p>
+The Mac and Linux web installers are now properly signed. The Windows installer
+is now signed too. Translation updates for Fred, Freemail, FlogHelper, and
+KeyUtils are included - largely thanks to volunteers on Transifex. There are
+also translation updates for Web of Trust, but Web of Trust staging is not
+stable enough to be deployed.
+</p>
+
+<p>
+Build 1460 contained all these things but it was signed, which prevented some
+types of coexistance with unsigned libraries. Signing is postponed until a
+future release.
+</p>
+
+<p><h4>In this release</h4></p>
+
+<ul>
+  <li>Add Brazilian Portuguese translation.</li>
+  <li>Update Swedish, Simplified Chinese, and Traditional Chinese translations.</li>
+  <li>Add CSS filter support for "nth" psuedoclasses. Thanks paul@jCa8...!</li>
+  <li>Limit length of log displayed on startup page. Thanks vwoodzell!</li>
+  <li>Fix store location stats checking the wrong store. Thanks Matthias Treydte!</li>
+  <li>Update default jSite bookmark.</li>
+  <li>Fix JPEG filter omitting extension code.</li>
+  <li>Fix a bug that prevented Sone from inserting updates when physical security was set high enough.</li>
+</ul>
+
+<p><h4>Changes in Freemail</h4></p>
+
+<ul>
+  <li>Add German, Italian, Brazilian Portuguese, Portuguese, and Simplified Chinese translations.</li>
+  <li>Update French and Norwegian translations.</li>
+  <li>Fix a bug that prevented working with LCWoT.</li>
+  <li>Fix labelling SMTP bind address configuration option as IMAP.</li>
+</ul>
+
+<p><h4>Changes in FlogHelper</h4></p>
+
+<ul>
+  <li>Add Italian and Traditional Chinese translations.</li>
+  <li>Update French and German translations.</li>
+</ul>
+
+<p><h4>Changes in KeyUtils</h4></p>
+
+<ul>
+  <li>Add French, Italian, Brazilian Portuguese, and Simplified Chinese translations.</li>
+</ul>
+
+<p><h4>Changes in JSTUN</h4></p>
+
+<ul>
+  <li>Update STUN server list.</ul>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="gsoc-2014"><h3>1st March 2014 - Freenet accepted into Google Summer of Code!</h3>
     <p>Freenet has once again been accepted into Google Summer of Code. This pays students to work
     on projects to improve Freenet over the summer. See <a href="https://wiki.freenetproject.org/Google_Summer_of_Code/2014">the wiki</a>
