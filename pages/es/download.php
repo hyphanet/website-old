@@ -38,7 +38,7 @@
 	
 	<p>
 	  - Descargar y 
-	  ejecutar <big><a href="FREENET_WINDOWS_INSTALLER_URL">el 
+	  ejecutar <big><a href="https://freenetproject.org/jnlp/FreenetInstaller.exe">el 
 	      instalador</a> (8MB)</big><br/> 
 	  <br/>
 	  Instalará automáticamente Freenet y otros componentes
