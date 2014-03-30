@@ -46,7 +46,7 @@
 	<p>
 	  - Download and
 	  run <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">the
-	      installer</a></big> (<a href="https://downloads.freenetproject.org/alpha/installer/FreenetInstaller-FREENETVERSION.exe">try this if the first link is blocked</a>)<br/> 
+	      installer</a></big> (<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">try this if the first link is blocked</a>)<br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
 	  components for you. When done, your default browser will
