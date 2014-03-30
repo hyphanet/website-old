@@ -41,7 +41,7 @@
 	<h3>Windows</h3>
 	
 	<p>
-	Téléchargez et éxécutez <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">le programme d'installation</a> (8MB)</big><br/> 
+	Téléchargez et éxécutez <big><a href="FREENET_WINDOWS_INSTALLER_URL">le programme d'installation</a> (8MB)</big><br/> 
 	<br/>
 	Celui-ci installera automatiquement Freenet ainsi que les
 	autres composants requis pour vous. Une fois l'installation

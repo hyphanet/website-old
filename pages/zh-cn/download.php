@@ -26,7 +26,7 @@
 	<h3>Windows</h3>
 	
 	<p>
-	  - 下载和运行 <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">安装包</a> (8MB)</big><br/> 
+	  - 下载和运行 <big><a href="FREENET_WINDOWS_INSTALLER_URL">安装包</a> (8MB)</big><br/> 
 	  <br/>
 	  自动安装 Freenet 和所需组件. 完成后, 你的默认浏览器将自动打开 Freenet 的 web 用户介面. <br/>
 	  (Freenet <b style="text-decoration: underline;">绝不包含</b> 间谍软件或广告软件,

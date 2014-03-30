@@ -43,7 +43,7 @@ showDiv('unix');">Anleitung für Linux und Unix-ähnliche Systeme</a><br>
 <div id="windows">
 <h3>Windows</h3>
 - Laden Sie das <big><a
-href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe"
+href="FREENET_WINDOWS_INSTALLER_URL"
 >Freenet-Webinstallationsprogramm</a> (3MB)</big> herunter und führen Sie es aus
 <br><br>
 Es wird automatisch Freenet und andere benötigte Komponenten für Sie

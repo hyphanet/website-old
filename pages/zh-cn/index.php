@@ -67,7 +67,7 @@ $(document).ready(function() {
       </div>
 
       <div id="windows" class="sprites download">
-   	<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">
+   	<a href="FREENET_WINDOWS_INSTALLER_URL">
    	   <span id="software">Freenet</span>
    	   <span id="action">下载</span>
    	   <span id="version">Windows 版 0.7.5</span>

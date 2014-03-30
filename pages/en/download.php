@@ -45,7 +45,7 @@
 	
 	<p>
 	  - Download and
-	  run <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">the
+	  run <big><a href="FREENET_WINDOWS_INSTALLER_URL">the
 	      installer</a></big> (<a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">try this if the first link is blocked</a>)<br/> 
 	  <br/>
 	  It will automatically install Freenet and other required
