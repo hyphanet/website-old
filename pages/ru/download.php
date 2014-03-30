@@ -43,7 +43,7 @@
   
   <p>
     - Загрузите 
-    <big><a href="FREENET_WINDOWS_INSTALLER_URL">установщик</a></big> и запустите его.<br/> 
+    <big><a href="https://downloads.freenetproject.org/latest/FreenetInstaller.exe">установщик</a></big> и запустите его.<br/> 
     <br/>
     Он автоматически установит ПО Фринет и другие требуемые компоненты. 
     Когда установка будет завершена, ваш браузер откроет вам страницу 
