@@ -11,6 +11,13 @@ also translation updates for Web of Trust, but Web of Trust staging is not
 stable enough to be deployed.
 </p>
 
+<p><i>
+Update: Signing the Windows installer caused an internal integrity check to fail,
+which prevented the installer from working. The Windows installer being offered
+for download now is still that for build 1459. Once installed and connected
+Freenet can update itself to build 1461.
+</i></p>
+
 <p>
 Build 1460 contained all these things but it was signed, which prevented some
 types of coexistance with unsigned libraries. Signing is postponed until a
