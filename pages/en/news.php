@@ -1,5 +1,62 @@
       <h1>News</h1>
 
+    <a name="build01462"><h3>26th May 2014 - Freenet 0.7.5 build 1462 released</h3>
+<p>
+There is a new Windows installer; it is signed. (Without breaking internal
+integrity checks like the last release.) It can run from and install to paths
+with non-English characters. Thanks romnGit! There are currently translations
+for English, French, and Spanish. If you'd like to contribute a translation for
+your <a href="https://github.com/Thynix/Freenet_wininstaller_innosetup/tree/master/translations">language</a> please send it to us. Options for contacting us include Sone,
+GitHub, IRC, FMS, and the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">mailing list</a>.
+<p>
+
+<p>
+There are performance problems with some types of file downloads - specifically
+bulk downloads for CHKs. We think this might be due to unofficial performance
+patches negatively impacting performance for everyone not using them. If you
+are running these patches we ask that you not run them so that bulk CHK
+performance can be restored network-wide. In August 2011 build 1397 enabled New
+Load Management, which was intended to avoid these types of weaknesses, but it
+introduced performance problems at scale and was disabled. In the long term we
+hope to fix these problems and redeploy NLM, but for right now we ask that
+people not use these patches.
+</p>
+
+<p>
+In this release:
+</p>
+
+<ul>
+  <li>Add an opennet seed node. Thanks Juiceman!</li>
+  <li>Add Korean Windows tray application translation. Thanks ilbe123!</li>
+  <li>Fix potential security problems with malicious UPnP devices. Thanks to waldheinz for the report.</li>
+  <li>Select options by default on the "Add a Friend" page.</li>
+  <li>Omit empty plugin groups on the plugin page.</li>
+  <li>Avoid leaking node location in link length probe.</li>
+  <li>Base stats page average distance on actual location instead of 0.0.</li>
+</ul>
+
+<p>
+There is a new Windows tray application in development. It is planned to
+replace the current tray and launcher for new installations. Its features:
+</p>
+
+<ul>
+  <li>Hide the tray icon while Freenet continues running.</li>
+  <li>Change startup preferences.</li>
+  <li>Change which browser it launches.</li>
+  <li>Hopefully will be false-positived less by antiviruses that are overly suspicious of scripting languages.</li>
+  <li>Be signed.</li>
+</ul>
+
+<p>
+If you want to give feedback on the tray application it is <a href="https://downloads.freenetproject.org/FreenetTray-testing-00c0832.exe">here</a>.
+</p>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="build01461"><h3>30th March 2014 - Freenet 0.7.5 build 1461 released</h3>
 <p>Freenet 0.7.5 build 1461 is now available.</p>
 
