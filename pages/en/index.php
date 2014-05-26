@@ -125,7 +125,7 @@ $(document).ready(function() {
       Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
     </p>
 	<p>
-		  (26th May 2014) <a href="news.html#buils01452">Freenet 0.7.5 build 1462 released</a><br/>
+		  (26th May 2014) <a href="news.html#build01462">Freenet 0.7.5 build 1462 released</a><br/>
 		  (30th March 2014) <a href="news.html#build01461">Freenet 0.7.5 build 1461 released</a><br/>
 		  (1st March 2014) <a href="news.html#gsoc-2014">Freenet accepted into Google Summer of Code!</a><br/>
 		  (21st January 2014) <a href="news.html#build01459">Freenet 0.7.5 build 1459 released</a><br/>
