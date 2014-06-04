@@ -52,7 +52,7 @@
 
       <p>
 	Unlike other peer-to-peer networks, you 
-	as a user has little or no control over what is 
+	as a user have little or no control over what is 
 	stored in your datastore. Instead, files are kept or
 	deleted depending on how popular they are.
 	This is to ensure that Freenet is censorship resistant. 
