@@ -10,14 +10,6 @@ your <a href="https://github.com/Thynix/Freenet_wininstaller_innosetup/tree/mast
 GitHub, IRC, FMS, and the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">mailing list</a>.
 <p>
 
-<p><i>
-Edit 2014-06-08: Please note that <b>this ends installer support for Windows XP.</b>
-Windows XP's support lifetime ended in April 2014, and it is no longer supported
-by Microsoft or receiving security patches. The installer requires Windows Vista
-or higher. Trying to run the installer on Windows XP will result in a "Floating
-point division by zero" error. The next release will make this error clearer.
-</i></p>
-
 <p>
 There are performance problems with some types of file downloads - specifically
 bulk downloads for CHKs. We think this might be due to unofficial performance
