@@ -82,7 +82,7 @@ $(document).ready(function() {
    	<a href="https://freenetproject.org/jnlp/FreenetInstaller.exe">
    	   <span id="software">Freenet</span>
    	   <span id="action">Download</span>
-        <span id="version">0.7.5 for Windows Vista and later</span>
+        <span id="version">0.7.5 for Windows Visa or higher</span>
    	</a>
       </div>
 
