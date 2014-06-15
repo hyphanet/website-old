@@ -1,5 +1,31 @@
       <h1>News</h1>
 
+    <a name="build01463"><h3>14th June 2014 - Freenet 0.7.5 build 1463 released</h3>
+
+<p>
+The Windows installer runs on Windows XP again. In 1462 it failed on XP with
+the error message "Floating point division by zero." If you are still running
+XP, please upgrade! It is
+<a href="http://windows.microsoft.com/en-us/windows/end-support-help">
+no longer supported by Microsoft and is not secure</a>. We intend to drop
+support for installing on XP in a future release.
+</p>
+
+<p>In this release:</p>
+
+<ul>
+<li>Translation updates for Freenet, Freemail, FlogHelper, and KeyUtils thanks
+to volunteers on Transifex. To upgrade a plugin, reload it from the Plugins
+page and check "Remove the plugin from the cache."</li>
+<li>Update default bookmarks.</li>
+<li>Code cleanup.</li>
+<li>Fix seed node problems.</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="build01462"><h3>26th May 2014 - Freenet 0.7.5 build 1462 released</h3>
 <p>
 There is a new Windows installer; it is signed. (Without breaking internal
@@ -261,6 +287,7 @@ on Google Drive.</p>
     
     <ul><li><b>Sone</b>, an anonymous social network / microblogging tool.</li>
     <li><b>Freemail</b>, a private and untraceable email over Freenet system.</li>
+
     <li>A filesharing system as yet unnamed which a student is working on.</li>
     <li>Extensions to Infocalypse, being worked on by another student, a tool for managing source code which is vital to developing software over Freenet.</li>
     </ul>
