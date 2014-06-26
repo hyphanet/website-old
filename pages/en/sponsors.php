@@ -95,6 +95,14 @@
 	    The Sports Den has a wide variety of outdoor sports equipment, they are
 	    based in Ireland but can ship to the UK, Europe, and the United States.
 	  </li>
+
+	  <li>
+	    <a href="http://www.jetbrains.com/">JetBrains</a><br/>
+	    JetBrains is kindly supporting Freenet by providing us a free
+	    of charge license of its full-featured IntelliJ IDEA IDE.
+            You can learn more about <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA
+	    </a> following the link.
+	  </li>
 	  
 	</ul>
 
