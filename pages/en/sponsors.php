@@ -97,11 +97,9 @@
 	  </li>
 
 	  <li>
-	    <a href="http://www.jetbrains.com/">JetBrains</a><br/>
-	    JetBrains is kindly supporting Freenet by providing us a free
-	    of charge license of its full-featured IntelliJ IDEA IDE.
-            You can learn more about <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA
-	    </a> following the link.
+        <img src="/image/logo_intellij_idea.png"><br>
+        <a href="https://www.jetbrains.com">JetBrains</a> has kindly provided a license for the Ultimate edition of
+        <a href="https://www.jetbrains.com/idea">IntelliJ IDEA</a>.
 	  </li>
 	  
 	</ul>
