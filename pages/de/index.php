@@ -39,7 +39,7 @@ $(document).ready(function() {
       <div class="whatis">
 	<p>
 	  Freenet ist freie Software, die es Ihnen ermöglicht, <strong>anonym</strong> zu surfen, 
-	  und <abbr title="Webseiten, die nur über Freenet zugänglich sind">Freeseiten</abbr> und Dateien zu <strong>veröffentlichen</strong> und sich zu <strong>unterhalten</strong>, ohne Zensur fürchten zu müssen. Es ist <strong>dezentral</strong> organisiert, um es resistenter gegen Angriffe zu machen, und im "<strong>Darknet</strong>"-Modus sehr schwer zu entdecken, da sich Nutzer dann nur mit ihren Freunden verbinden.
+	  und <abbr title="Webseiten, die nur über Freenet zugänglich sind">Freeseiten</abbr> und Dateien zu <strong>veröffentlichen</strong> und sich zu <strong>unterhalten</strong>, ohne Zensur fürchten zu müssen. Freenet ist <strong>dezentral</strong> organisiert, um es resistenter gegen Angriffe zu machen, und im "<strong>Darknet</strong>"-Modus sehr schwer zu entdecken, da sich Nutzer dann nur mit ihren Freunden verbinden.
 	  <br/>
 	  <a href="whatis.html">Mehr erfahren!</a>
 	</p>
@@ -104,7 +104,7 @@ $(document).ready(function() {
 	<div id="donate_button">
 	     <h4>Spenden</h4>
 	     <p>Wir verlangen von niemandem Geld für Download und Nutzung von Freenet. Wir sind eine gemeinnützige Organisation, die zum Überleben auf Ihre Spenden angewiesen ist.</p>
-	     <p>Unser aktueller Kontostand ist von <b>$MONEYBALANCE</b> wird unseren einen bezahlten Entwickler und den Server für weitere <b>MONEYDAYS Tage</b> finanzieren.</p>
+	     <p>Unser aktueller Kontostand ist von <b>$MONEYBALANCE</b> wird unseren bezahlten Entwickler und den Server für weitere <b>MONEYDAYS Tage</b> finanzieren.</p>
 	     <p><a href="donate.html">Spenden</a></p>
 	</div>
 
