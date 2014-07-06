@@ -15,9 +15,9 @@
       <p>
 	La documentation sur Freenet change fréquement, Freenet 
 	étant un projet en cours de développement. Cependant, 
-	vous pourrez trouver dans le menu ci-dessous, des 
-	documents d'utilisation sur la manière de configurer
-	et dutiliser Freenet ainsi que les outils les plus 
+	vous pourrez trouver dans le menu ci-dessous, 
+	différents documents sur la manière de configurer
+	et d'utiliser Freenet ainsi que les outils les plus  
 	populaires liés à Freenet. Vous trouverez aussi un wiki
 	axé utilisateur ainsi qu'une vaste Foire Aux Questions.
       </p>
