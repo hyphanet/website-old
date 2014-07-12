@@ -46,17 +46,15 @@ $(document).ready(function() {
 
       <div id="screenshots_container">
 	<div id="screenshot_nojs">
-	     <a href="image/fN_screenshot.png"><img src="image/fN_screenshot_small.png"
-	     alt="freenet screenshot" width="383" height="309" /></a>
+	     <a href="image/screenshot/browse.png"><img src="image/screenshot/browse.png"
+	     alt="Bookmarks" width="383" height="309" /></a>
 	     <p style="text-align: center;"><a href="screenshots.html">Más capturas de Freenet</a></p>
 	</div>
 	<div id="screenshot_js" style="display: none;">
            <ul id="mycarousel" class="jcarousel-skin-tango">
-             <li><a href="image/fN_screenshot.png" class="thickbox"><img src="image/fN_screenshot_small.png" width="383" height="309" alt="screenshot 2"/></a></li>  
-             <li><a href="image/fN_screenshot_minimalist.png" class="thickbox"><img src="image/fN_screenshot_minimalist_small.png" width="383" height="311" alt="screenshot 3" /></a></li>  
-             <li><a href="image/fN_screenshot_downloads.png" class="thickbox"><img src="image/fN_screenshot_downloads_small.png" width="383" height="298" alt="screenshot 5" /></a></li>  
-             <li><a href="image/fN_screenshot_freetalk_messages.png" class="thickbox"><img src="image/fN_screenshot_freetalk_messages_small.png" width="383" height="303" alt="screenshot 6" /></a></li>  
-             <li><a href="image/fN_screenshot_searched.png" class="thickbox"><img src="image/fN_screenshot_searched_small.png" width="383" height="298" alt="screenshot 7" /></a></li>  
+             <li><a href="image/screenshot/browse.png" class="thickbox"><img src="image/screenshot/browse.png" width="383" height="311" alt="Bookmarks" /></a></li>
+             <li><a href="image/screenshot/sone.png" class="thickbox"><img src="image/screenshot/sone.png" width="383" height="298" alt="Sone" /></a></li>
+             <li><a href="image/screenshot/fms.png" class="thickbox"><img src="image/screenshot/fms.png" width="383" height="298" alt="FMS forum" /></a></li>
            </ul>
 	</div>
       </div>
