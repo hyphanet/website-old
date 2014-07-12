@@ -13,7 +13,7 @@ Freenet. We are implementing some changes based on their findings.
 
 <ul>
 <li>Translation updates for French, German, Italian, Japanese, Dutch,
-Brazillian Portuguese, and Simplified Chinese thanks to
+Brazilian Portuguese, and Simplified Chinese thanks to
 <a href="https://www.transifex.com/projects/p/freenet/">volunteers on Transifex.</a></li>
 <li>Untranslated strings appear again in the translation page in Fred.
 This problem was due to Transifex returning untranslated strings as
