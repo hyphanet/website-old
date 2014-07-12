@@ -2,6 +2,13 @@
 	<h1>Papers</h1>
 	
 	<p>
+        <img src="/image/pdf.icon.jpg"/>
+        <a href="/papers/roos-pets2014.pdf">Measuring Freenet in the Wild: Censorship-resilience under Observation</a> (PDF)<br/>
+        Observations and measurements on the live Freenet network. Includes suggestions
+        for improvement. This was submitted to PETS 2014.
+	</p>
+
+	<p>
 	  <img src="/image/pdf.icon.jpg"/>
 	  <a href="/papers/freenet-0.7.5-paper.pdf">The Dark Freenet</a> (PDF)<br/>
 	  Detailed paper about the Freenet 0.7.5 network, as opposed to its routing algorithm, which is detailed in the
