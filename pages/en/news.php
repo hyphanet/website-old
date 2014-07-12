@@ -1,5 +1,30 @@
       <h1>News</h1>
 
+    <a name="build01464"><h3>12th July 2014 - Freenet 0.7.5 build 1464 released</h3>
+
+<p>The website now shows screenshots more recent than 2009. (!)</p>
+
+<p>
+There is a <a href="/papers/roos-pets2014.pdf">new paper</a> out about
+Freenet. We are implementing some changes based on their findings.
+</p>
+
+<p>In this release:</p>
+
+<ul>
+<li>Translation updates for French, German, Italian, Japanese, Dutch,
+Brazillian Portuguese, and Simplified Chinese thanks to
+<a href="https://www.transifex.com/projects/p/freenet/">volunteers on Transifex.</a></li>
+<li>Untranslated strings appear again in the translation page in Fred.
+This problem was due to Transifex returning untranslated strings as
+though they were translations.</li>
+<li>Code cleanup.</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="build01463"><h3>14th June 2014 - Freenet 0.7.5 build 1463 released</h3>
 
 <p>
