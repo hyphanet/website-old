@@ -57,7 +57,7 @@ There is a new Windows installer; it is signed. (Without breaking internal
 integrity checks like the last release.) It can run from and install to paths
 with non-English characters. Thanks romnGit! There are currently translations
 for English, French, and Spanish. If you'd like to contribute a translation for
-your <a href="https://github.com/Thynix/Freenet_wininstaller_innosetup/tree/master/translations">language</a> please send it to us. Options for contacting us include Sone,
+your <a href="https://github.com/freenet/wininstaller-innosetup/tree/master/translations">language</a> please send it to us. Options for contacting us include Sone,
 GitHub, IRC, FMS, and the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/devl">mailing list</a>.
 <p>
 
