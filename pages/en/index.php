@@ -145,7 +145,7 @@ $(document).ready(function() {
         $(function() {
             $('#latest-commits').githubInfoWidget(
                 { users: ['freenet', 'freenet'],
-                  repos: ['fred-staging', 'plugin-WoT-staging'],
+                  repos: ['fred', 'plugin-WebOfTrust'],
                   branches: ['next', 'master'],
                   last: 5, limitMessageTo: 50 });
         });
