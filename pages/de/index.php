@@ -108,7 +108,7 @@ $(document).ready(function() {
   <div id="testimonials">
 <!--todo: random testimonial, as soon as we have enough-->
 	<h4>Erfolgsgeschichten</h4>
-      <blockquote>„Ich lauf seit Monaten Darknet. Für das was ich mache reicht es mit 8 peers locker: ich downloade nix und hab kein wot laufen.  Ich hatte mal 15 darknet peers, da war nicht viel unterschied zu sehen zu nem 15 peer opennet client.“ — Ratchet</blockquote>
+      <blockquote>„Ich lauf seit Monaten Darknet only. Für das was ich mache reicht es mit 8 peers locker: ich downloade nix und hab kein wot laufen.  Ich hatte mal 15 darknet peers, da war nicht viel unterschied zu sehen zu nem 15 peer opennet client.“ — Ratchet</blockquote>
   </div>
       <div id="news">
 	<h4>Neuigkeiten</h4>
