@@ -116,6 +116,11 @@ $(document).ready(function() {
 <!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
 	     <p><a href="donate.html">Donate!</a></p>
 	</div>
+  <div id="testimonials">
+<!--todo: random testimonial, as soon as we have enough-->
+	<h4>Testimonials</h4>
+<blockquote>I’ve been running pure darknet with 7 peers for months and it works well (without WoT or bigger downloads). Once I had 15 darknet peers and did not see much of a difference compared to a 15-peer opennet node. — Ratchet</blockquote>
+  </div>
   <div id="news">
 	<h4>Latest news</h4>
 
