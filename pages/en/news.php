@@ -1,5 +1,24 @@
       <h1>News</h1>
 
+    <a name="build01465"><h3>9th August 2014 - Freenet 0.7.5 build 1465 released</h3>
+
+<p>Oracle Java 6 has not received security updates <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">since February 2013</a>. Starting with this release, Freenet displays <a href="https://github.com/freenet/fred/pull/269">an alert</a> when running on old versions of Java. It will require Java 7 or later in a future release.</p>
+
+<p>This release changes the rules for accepting connections in a way that we hope will improve performance. Because it is likely that this will interact poorly with the existing behavior, build 1464 and older will become too old on 2014-08-16.</p>
+
+<p>Also in this release:</p>
+
+<ul>
+<li>Add Russian Windows installer translation. Thanks zabuldon! If you want to give a translation for another language please do so; the English source file is <a href="https://github.com/freenet/wininstaller-innosetup/blob/master/translations/Messages_en.isl">here</a>. In addition to Russian there are currently translations for Spanish, French, and Dutch.</li>
+<li>Enhance the CSS filter to prevent pages from appearing differently based on browser history.</li>
+<li>Update German, Finnish, French, Japanese, Dutch, Brazilian Portuguese, and Simplified Chinese translations thanks to volunteers on Transifex.</li>
+<li>Update seed nodes. Thanks justusranvier and Stanley!</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="build01464"><h3>12th July 2014 - Freenet 0.7.5 build 1464 released</h3>
 
 <p>The website now shows screenshots more recent than 2009. (!)</p>
