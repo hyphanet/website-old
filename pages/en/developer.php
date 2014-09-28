@@ -125,7 +125,7 @@
       <p>Or:</p>
       <pre>
 	git commit [ filenames you want to commit ]</pre>
-      <p>To upload your changes (assuming you have cloned the -staging tree):</p>
+      <p>To upload your changes:</p>
       <pre>
 	git push origin</pre>
       <p>To view recent changes:</p>
@@ -167,7 +167,12 @@
 	contact contributors, so you should use a real (working) email address (we 
 	will provide an @freenetproject.org redirect if you need one), or see the
 	section on contributing through Freenet below.</p>
-	
+
+    <p>Project coding standards are documented
+    <a href="https://wiki.freenetproject.org/Coding_standards">here</a>. Commits
+    which do not follow these standards are likely to be rejected.
+    </p>
+
     <p>We strongly discourage "dropping a bomb", that is, sending in a huge patch with
     no history. This can be both harder to understand and risky legally (think SCO vs IBM).
     For large projects, you should post a git branch, on github or on Freenet, so we can merge
