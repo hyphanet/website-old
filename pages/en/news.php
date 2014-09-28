@@ -1,5 +1,11 @@
       <h1>News</h1>
 
+    <a name="downloads"><h3>27th September 2014 - Recent download problems</h3>
+
+<p>We've changed download hosting in hope of avoiding the problems with
+the previous service. If you find problems please drop in <a href="/irc.html">chat</a>
+or the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support">support list</a> and let us know!</p>
+
     <a name="build01465"><h3>9th August 2014 - Freenet 0.7.5 build 1465 released</h3>
 
 <p>Oracle Java 6 has not received security updates <a href="http://www.oracle.com/technetwork/java/javase/eol-135779.html">since February 2013</a>. Starting with this release, Freenet displays <a href="https://github.com/freenet/fred/pull/269">an alert</a> when running on old versions of Java. It will require Java 7 or later in a future release.</p>
