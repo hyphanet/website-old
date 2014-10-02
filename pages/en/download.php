@@ -66,10 +66,19 @@
 	<h3>Mac OSX</h3>
 	
 	<p>
-	  <a href="/jnlp/freenet.jnlp">Install Freenet 0.7</a> using JavaWebStart.<br/>
-	  If this doesn't work, try <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">the instructions for Linux</a>.
-	</p>
-	
+      <a href="/jnlp/freenet.jnlp">Install Freenet 0.7</a> using Java Web Start.<br/>
+      This requires that Java is installed and that Java Web Start is enabled.
+      If it doesn't work, try <a rel="nofollow" href="http://www.java.com/">installing Java</a>,
+      then downloading <a href="FREENET_INSTALLER_REDIRECT_URL">the installer</a> and opening it.
+      It might take a moment to launch.
+    </p>
+
+    <p>
+<b>Note:</b> Mavericks does not ship with Java Web Start enabled. We would like
+to make a <i>.dmg</i> for easier OS X installation but don't know how yet. If
+you are a developer and would like to join us and help it would be much appreciated!
+    </p>
+
       </div>
       
       <div id="unix">
@@ -77,21 +86,22 @@
 	<h3>Linux and other Unix-like systems</h3>
 
 	<p>
-	  Try the <a href="/jnlp/freenet.jnlp">JavaWebStart installer</a>.<br/>
-	  If it doesn't work, please try the instructions given below.
-	</p>	
+	  Try the <a href="/jnlp/freenet.jnlp">Java Web Start installer</a>.<br/>
+	  If it doesn't work:
+	</p>
 	<p>
 	  You need to have a recent <b>Java Runtime Environment</b>
-	  (JRE). We have experienced best results with Sun's Java
+	  (JRE). We have experienced best results with Oracle's Java
 	  Runtime Environment which can be obtained via
 	  your <a rel="nofollow" href="https://en.wikipedia.org/wiki/Package_manager">package
 	    manager</a> or
 	  from <a rel="nofollow" href="http://www.java.com/">http://www.java.com/</a>.<br/> 
 	</p>
 	<p>
-	  Java version 1.6 or higher is required. You should keep Java up to date to
-	  avoid problems and for better performance.
-	</p>
+      Java version 1.6 or higher is required, and 1.7 or higher is strongly
+      recommended. You should keep Java up to date to avoid problems and for
+      better performance.
+    </p>
 
 	<p>
 	  Open a terminal and run:
@@ -116,8 +126,17 @@
 	</p>
 	
 	<p>If the link above is blocked, you could download it from our server <a href="https://downloads.freenetproject.org/latest/new_installer_offline.jar">here</a>.
-	But please use the Google link if you can.</p>
-	
+	But please use the other link if you can.</p>
+
+    <p>
+<b>Note:</b> Many Linux distributions no longer ship with Java Web Start enabled.
+We would like to make distribution packages for easier installation, and have
+an in-development (and not maintained) <a href="https://github.com/freenet/debian">Debian package</a>, but haven't
+gotten it stable or made official ones for other distributions. If
+you are a developer and would like to join us and help it would be much appreciated!
+    </p>
+
+
 	<small>If this doesn't work on a headless server, try "java -jar new_installer_offline.jar -console", and 
 	follow the prompts to tell it where to install Freenet etc.</small>
 	
