@@ -105,16 +105,43 @@ $(document).ready(function() {
 	     <p>Unser aktueller Kontostand ist von <b>$MONEYBALANCE</b> wird unseren bezahlten Entwickler und den Server für weitere <b>MONEYDAYS Tage</b> finanzieren.</p>
 	     <p><a href="donate.html">Spenden</a></p>
 	</div>
-
+  <div id="testimonials">
+<!--todo: random testimonial, as soon as we have enough-->
+	<h4>Erfolgsgeschichten</h4>
+      <blockquote>„Ich lauf seit Monaten Darknet only. Für das was ich mache reicht es mit 8 peers locker: ich downloade nix und hab kein wot laufen.  Ich hatte mal 15 darknet peers, da war nicht viel unterschied zu sehen zu nem 15 peer opennet client.“ — Ratchet</blockquote>
+  </div>
       <div id="news">
 	<h4>Neuigkeiten</h4>
+    <p>
+      Release Notes werden im <a href="https://emu.freenetproject.org/pipermail/devl/">devl Archiv</a> veröffentlicht.
+    </p>
 	<p>
-	  (12th September 2012) <a href="https://emu.freenetproject.org/pipermail/devl/2012-September/036546.html">Released Freenet 0.7.5 build 1413</a><br/>
-	  (13th April 2011) <a href="news.html#freedom-house-april-2011">Freenet top anti-censorship tool in survey of Chinese users!</a><br/>
-	  <a href="news.html">Older news</a>
+		  (12th July 2014) <a href="news.html#build01464">Freenet 0.7.5 build 1464 released</a><br/>
+		  (14th June 2014) <a href="news.html#build01463">Freenet 0.7.5 build 1463 released</a><br/>
+		  (26th May 2014) <a href="news.html#build01462">Freenet 0.7.5 build 1462 released</a><br/>
+		  (30th March 2014) <a href="news.html#build01461">Freenet 0.7.5 build 1461 released</a><br/>
+		  (1st March 2014) <a href="news.html#gsoc-2014">Freenet accepted into Google Summer of Code!</a><br/>
+    </p>
+    <p>
+	  <a href="news.html">Ältere Neuigkeiten</a>
 	</p>
       </div>
 
+    </div>
+
+    <div id="commits" style="clear: both;">
+        <h4>Neuste Code-Änderungen</h4>
+        <div id="latest-commits"></div>
+    </div>
+    <script type="text/javascript">
+        $(function() {
+            $('#latest-commits').githubInfoWidget(
+                { users: ['freenet', 'freenet'],
+                  repos: ['fred', 'plugin-WebOfTrust'],
+                  branches: ['next', 'master'],
+                  last: 5, limitMessageTo: 50 });
+        });
+    </script>
 
       <script type="text/javascript">
   			 hideDiv("windows");
