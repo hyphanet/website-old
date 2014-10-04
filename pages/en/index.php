@@ -85,7 +85,7 @@ $(document).ready(function() {
       </div>
 
       <div id="macos" class="sprites download">
-        <a href="download.html">
+        <a href="download.html#nojws">
    	   <span id="software">Freenet</span>
    	   <span id="action">Install</span>
    	   <span id="version">0.7.5 for Mac OS</span>
@@ -94,7 +94,7 @@ $(document).ready(function() {
 	
 	<div id="unix">
 	     <div class="download sprites">
-	     	  <a href="download.html">
+	     	  <a href="download.html#nojws">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Install</span>
 	     	     <span id="version">0.7.5 for Linux/Unix</span>
