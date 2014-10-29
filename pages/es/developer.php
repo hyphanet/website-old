@@ -20,7 +20,7 @@
       
       <p>Puedes obtener el último código fuente de git usando la siguiente línea de comandos:</p>
       <pre>
-	git clone git://github.com/freenet/fred-staging.git</pre>
+	git clone git://github.com/freenet/fred.git</pre>
 
       <p>Una vez que hayas clonado el repositorio, para recuperar los últimos cambios:</p>
       <pre>
