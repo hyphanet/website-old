@@ -21,7 +21,7 @@
       
       <p>You can obtain the latest source code from git using the following command line:</p>
       <pre>
-	git clone git://github.com/freenet/fred-staging.git</pre>
+	git clone git://github.com/freenet/fred.git</pre>
 
       <p>Once you have cloned the repository, to get new changes you should do:</p>
       <pre>
