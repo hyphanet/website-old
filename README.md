@@ -40,11 +40,6 @@ From a machine other than Osprey push to the master branch of the website-offici
 
     git push git@github.com:freenet/website-official.git master
 
-The script requires Perl's `XML::Parser::Expat`. Install `libexpat-dev`,
-then:
-
-    # cpan App::cpanminux
-    # cpanm XML::Parser::Expat
 
 On Osprey pull and deploy the updated version of the website:
 
