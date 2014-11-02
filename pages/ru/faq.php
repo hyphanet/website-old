@@ -763,4 +763,4 @@
   Фильтр <a href="http://windows.microsoft.com/en-us/windows7/smartscreen-filter-frequently-asked-questions-ie9">SmartScreen</a> 
   иногда ошибочно определяет файл установщика, как опасный. Мы считаем, что наш дистрибутив не инфицирован вредоносным 
   программным обеспечением, и если вы разработчик ПО, вы можете проверить исходный код установщика 
-  <a href="https://github.com/freenet/wininstaller-staging">здесь</a>.</p>
+  <a href="https://github.com/freenet/wininstaller-innosetup">здесь</a>.</p>

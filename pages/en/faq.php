@@ -935,5 +935,5 @@
 <a href="http://windows.microsoft.com/en-us/windows7/smartscreen-filter-frequently-asked-questions-ie9">SmartScreen</a>
 is sometimes incorrect in classifying a file as dangerous. We believe
 our installer is not infected with malicious software, and if you are a developer
-you can check the installer source code <a href="https://github.com/freenet/wininstaller-staging">here</a>.
+you can check the installer source code <a href="https://github.com/freenet/wininstaller-innosetup">here</a>.
 </p>
