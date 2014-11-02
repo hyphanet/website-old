@@ -41,6 +41,7 @@ From a machine other than Osprey push to the master branch of the website reposi
 
 On Osprey pull and deploy the updated version of the website:
 
-    scripts/deploy-website -u
+    cd scripts
+    ./deploy-website -u
 
 The script will confirm version information and languages before deploying.
