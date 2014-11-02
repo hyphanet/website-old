@@ -22,28 +22,25 @@ Redirects:
 
 ## Setup for Deploying
 
+If you have not done so already, on Osprey set up clones of `website` and `fred`. They are used by the deploy script to generate the new version of the website and determine the latest version of Freenet, respectively.
 
-If you have not done so already, on Osprey set up clones of `website-official` and `fred-official`. They are used by the deploy script to generate the new version of the website and determine the latest version of Freenet, respectively.
-
-    git clone git://github.com/freenet/website-official.git
-    git clone git://github.com/freenet/fred-official.git
+    git clone git://github.com/freenet/website.git
+    git clone git://github.com/freenet/fred.git
 
 Then clone the `scripts` repo, which contains the `deploy-website` script.
 
-    git://github.com/freenet/scripts.git
+    git clone git://github.com/freenet/scripts.git
 
-`deploy-website` will assume the `website-official`, `fred-official`, and `scripts` directories/repos are all in the same directory. Run `deploy-website --help` for more information.
+`deploy-website` will assume the `website`, `fred`, and `scripts` directories/repos are all in the same directory. Run `deploy-website --help` for more information.
 
 ## Deploying
 
-From a machine other than Osprey push to the master branch of the website-official repository:
+From a machine other than Osprey push to the master branch of the website repository:
 
-    git push git@github.com:freenet/website-official.git master
-
+    git push git@github.com:freenet/website.git master
 
 On Osprey pull and deploy the updated version of the website:
 
     scripts/deploy-website -u
 
 The script will confirm version information and languages before deploying.
-
