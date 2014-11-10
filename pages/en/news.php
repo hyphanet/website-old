@@ -1,5 +1,43 @@
       <h1>News</h1>
 
+    <a name="build01466"><h3>9th November 2014 - Freenet 0.7.5 build 1466 released</h3>
+
+<p>This release is planned to be the second-to-last version of Freenet to 
+support Java 6. The version after this one will refuse to upgrade 
+unless running on Java 7 or later. Support for this behavior is part of 
+a larger effort to allow separate official update channels - stable, 
+testing, and unstable - as well as make it easier to publish unofficial 
+update channels and further improve deployment security.</p>
+
+<p>Highlights for this build:</p>
+
+<ul>
+<li>Add Hungarian Windows installer translation. Thanks drezzium!</li>
+<li>Allow hiding the Java version End Of Life alert. (I'm sorry for the excessive annoyingness. Still - please upgrade Java!)</li>
+<li>Upgrades to the next version (that is, when running this build's upgrade code) should no longer get <a href="https://bugs.freenetproject.org/view.php?id=3208">stuck in an upgrade loop</a>.</li>
+<li>Increase opennet peer limit to 142 peers. This now has <a href="https://github.com/freenet/fred/pull/286">more math behind it</a> and will change when network parameters are adjusted.</li>
+<li>Add more opennet seed nodes. Thanks saces and juiceman!</li>
+<li>This build will be mandatory starting 2014-11-16, because old nodes will reject new nodes with more than 110 peers. Updates only take a few hours to spread, so this should only cause short term disruption.</li>
+</ul>
+
+<p>Additionally Matthew's  (toad_'s) summer work on a custom on-disk 
+format is done. This release lays the groundwork to include the results 
+of that work <a href="http://127.0.0.1:8888/USK@pxtehd-TmfJwyNUAW2Clk4pwv7Nshyg21NNfXcqzFv4,LTjcTWqvsq3ju6pMGe9Cqb3scvQgECG81hRdgj5WO4s,AQACAAE/blog/23/Content-626611C.html">in the next release</a>. This is designed for less 
+disk activity and better behavior when corrupted.</p>
+
+<p>This release coincides with the 25th anniversary of the demolition of 
+the Berlin wall (Mauerfall), which marked the beginning of the end of a 
+large censorship and surveillance regime. May censorship be demolished
+everywhere!</p>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty and Arne Babenhauserheide</p>
+
+<p>The link to http://127.0.0.1:8888 works for default Freenet nodes, but will not 
+work for some setups. If you have a nonstandard setup, you should know 
+the correct URL to use.</p>
+
     <a name="downloads"><h3>27th September 2014 - Recent download problems</h3>
 
 <p>We've changed download hosting in hope of avoiding the problems with
