@@ -123,11 +123,11 @@ $(document).ready(function() {
       Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
     </p>
 	<p>
+		  (23rd November 2014) <a href="news.html#build01467">Freenet 0.7.5 build 1467 released</a><br/>
 		  (9th November 2014) <a href="news.html#build01466">Freenet 0.7.5 build 1466 released</a><br/>
 		  (27th September 2014) <a href="news.html#downloads">Recent download problems</a></br>
 		  (9th August 2014) <a href="news.html#build01465">Freenet 0.7.5 build 1465 released</a><br/>
 		  (12th July 2014) <a href="news.html#build01464">Freenet 0.7.5 build 1464 released</a><br/>
-		  (14th June 2014) <a href="news.html#build01463">Freenet 0.7.5 build 1463 released</a><br/>
           </p>
     <p>
 	  <a href="news.html">Older news</a>

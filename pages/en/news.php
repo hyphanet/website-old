@@ -1,5 +1,27 @@
       <h1>News</h1>
 
+    <a name="build01467"><h3>23rd November 2014 - Freenet 0.7.5 build 1467 released</h3>
+
+<p>This release fixes a bug introduced in build 1466 which can erase the list of
+plugins to load when Freenet starts if it crashes. If you are affected by this
+bug and can no longer connect, try adding the UPnP or JSTUN plugins again.</p>
+
+<p>This release also has updated Finnish, French, Dutch, and Brazilian
+Portuguese translations thanks to <a
+href="https://www.transifex.com/projects/p/freenet/">volunteers on
+Transifex</a>.</p>
+
+<p>The Windows installer is updated:</p>
+
+<ul>
+<li>It now disables the Java installer's sponsor offers. Thanks artart78!</li>
+<li>It gained a Finnish translation. Thanks oselotti!</li>
+</ul>
+
+<p>Thank you for using Freenet!</p>
+
+<p>- Steve Dougherty</p>
+
     <a name="build01466"><h3>9th November 2014 - Freenet 0.7.5 build 1466 released</h3>
 
 <p>This release is planned to be the second-to-last version of Freenet to 
