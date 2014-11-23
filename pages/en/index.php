@@ -119,9 +119,6 @@ $(document).ready(function() {
   <div id="news">
 	<h4>Latest news</h4>
 
-    <p>
-      Release notes are posted in the <a href="https://emu.freenetproject.org/pipermail/devl/">devl archive</a>.
-    </p>
 	<p>
 		  (23rd November 2014) <a href="news.html#build01467">Freenet 0.7.5 build 1467 released</a><br/>
 		  (9th November 2014) <a href="news.html#build01466">Freenet 0.7.5 build 1466 released</a><br/>
@@ -132,6 +129,9 @@ $(document).ready(function() {
     <p>
 	  <a href="news.html">Older news</a>
 	</p>
+    <p>
+      Release notes with more details intended for developers are posted to the <a href="https://emu.freenetproject.org/pipermail/devl/">devl mailing list</a>.
+    </p>
       </div>
 
 
