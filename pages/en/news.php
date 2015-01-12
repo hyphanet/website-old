@@ -1,5 +1,22 @@
       <h1>News</h1>
 
+    <a name="20150105-mempo-apt-get"></a><h3>1st January 2015 - apt-get over Freenet works fully</h3>
+
+<p>The mempo folks report, that you can now update the privacy-focussed
+Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.org/#install_apt_freenet">http://deb.mempo.org/#install_apt_freenet</a>.</p>
+
+<p>Key Points:</p>
+
+<ul>
+<li>- “use Freenet to distribute online updates”</li>
+<li>- “most secure hosting option”</li>
+</ul>
+
+<p>That means it is now possible to get reproducibly built kernels
+checked by anonymous (and therefore hard to pressure) contributors and
+updated over Freenet, whose effectively immutable datastore ensures
+that what you get is what was checked.</p>
+
     <a name="build01467"><h3>23rd November 2014 - Freenet 0.7.5 build 1467 released</h3>
 
 <p>This release fixes a bug introduced in build 1466 which can erase the list of

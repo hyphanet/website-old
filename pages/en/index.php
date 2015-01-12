@@ -120,6 +120,7 @@ $(document).ready(function() {
 	<h4>Latest news</h4>
 
 	<p>
+	          (2015-01-05) <a href="news.html#20150105-mempo-apt-get">apt-get over Freenet works fully</ha><br/>
 		  (2014-11-23) <a href="news.html#build01467">Freenet 0.7.5 build 1467 released</a><br/>
 		  (2014-11-09) <a href="news.html#build01466">Freenet 0.7.5 build 1466 released</a><br/>
 		  (2014-09-27) <a href="news.html#downloads">Recent download problems</a></br>
