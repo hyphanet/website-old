@@ -14,8 +14,7 @@ Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.o
 
 <p>That means it is now possible to get reproducibly built kernels
 checked by anonymous (and therefore hard to pressure) contributors and
-updated over Freenet, whose effectively immutable datastore ensures
-that what you get is what was checked.</p>
+updated over Freenet without disclosing that you use them.</p>
 
     <a name="build01467"><h3>23rd November 2014 - Freenet 0.7.5 build 1467 released</h3>
 
