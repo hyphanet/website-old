@@ -14,7 +14,19 @@ Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.o
 
 <p>That means it is now possible to get reproducibly built kernels
 checked by anonymous (and therefore hard to pressure) contributors and
-updated over Freenet without disclosing that you use them.</p>
+updated over Freenet without disclosing that you use them.
+This applies to the packages provided by mempo: other apt-get activity
+like installing gimp will still be public.
+It would be possible to host the entire debian repository in Freenet,
+but this is not yet on the agenda for mempo, because this other activity
+does not disclose the potentially sensitive information
+that you want additional privacy.</p>
+
+<blockquote>
+The practical cool result now, is that Mempo repository can not be censored,
+DDoSed or taken offline, despite heaving just 1 tiny server (or no server at all)
+— rfreeman (one of the mempo developers)
+</blockquote>
 
     <a name="build01467"><h3>23rd November 2014 - Freenet 0.7.5 build 1467 released</h3>
 
