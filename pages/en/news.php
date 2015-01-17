@@ -8,8 +8,8 @@ Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.o
 <p>Key Points:</p>
 
 <ul>
-<li>- “use Freenet to distribute online updates”</li>
-<li>- “most secure hosting option”</li>
+<li>use Freenet to distribute online updates</li>
+<li>most secure hosting option</li>
 </ul>
 
 <p>That means it is now possible to get reproducibly built kernels
