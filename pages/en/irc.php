@@ -7,3 +7,8 @@ question/say what the problem is, then wait for a few minutes, and somebody
 may help you</b>.</p>
 
 <a href="https://webchat.freenode.net/?randomnick=1&channels=freenet">Chat with us</a>
+
+<p>If you do not get an answer within the first few minutes, please
+keep the chat window open. We read our backlog, and if you stay, you
+will normally get an answer <b>within at most 4 hours</b> (when people
+with the relevant knowledge wake up).<p>
