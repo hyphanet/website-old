@@ -1,9 +1,9 @@
       <h1>News</h1>
 
-    <a name="20150105-mempo-apt-get"></a><h3>1st January 2015 - apt-get over Freenet works fully</h3>
+    <a name="20150105-mempo-apt-get"></a><h3>1st January 2015 - apt-get over Freenet</h3>
 
-<p>The mempo folks report, that you can now update the privacy-focussed
-Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.org/#install_apt_freenet">http://deb.mempo.org/#install_apt_freenet</a>.</p>
+<p>Mempo developers report that the privacy-focused Debian derivative Mempo can
+download updates over Freenet! For details, see their page on <a href="http://deb.mempo.org/#install_apt_freenet">Apt over Freenet</a>.</p>
 
 <p>Key Points:</p>
 
@@ -15,10 +15,10 @@ Debian derivate Mempo over Freenet! For details, see <a href="http://deb.mempo.o
 <p>That means it is now possible to get reproducibly built kernels
 checked by anonymous (and therefore hard to pressure) contributors and
 updated over Freenet without disclosing that you use them.
-This applies to the packages provided by mempo: other apt-get activity
-like installing gimp will still be public.
-It would be possible to host the entire debian repository in Freenet,
-but this is not yet on the agenda for mempo, because this other activity
+This applies to the packages provided by Mempo: other apt-get activity
+like installing GIMP is still public.
+It would be possible to host the entire Debian repository in Freenet,
+but this is not yet on the agenda for Mempo, because this other activity
 does not disclose the potentially sensitive information
 that you want additional privacy.</p>
 
