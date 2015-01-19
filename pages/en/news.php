@@ -15,11 +15,11 @@ download updates over Freenet! For details, see their page on
 
 <p>That means it is now possible to get reproducibly built kernels
 checked by anonymous (and therefore hard to pressure) contributors and
-updated over Freenet without disclosing that you use them.
-This applies to the packages provided by Mempo: other apt-get activity
+update them over Freenet without disclosing that you use them.
+This applies to the packages provided by Mempo - other apt-get activity
 like installing GIMP is still public.
 It would be possible to host the entire Debian repository in Freenet,
-but this is not yet on the agenda for Mempo, because this other activity
+but this is not yet on the agenda for Mempo because this other activity
 does not disclose the potentially sensitive information
 that you want additional privacy.</p>
 
