@@ -24,7 +24,7 @@ that you want additional privacy.</p>
 
 <blockquote>
 The practical cool result now, is that Mempo repository can not be censored,
-DDoSed or taken offline, despite heaving just 1 tiny server (or no server at all)
+DDoSed or taken offline, despite having just 1 tiny server (or no server at all)
 — rfreeman (one of the mempo developers)
 </blockquote>
 
