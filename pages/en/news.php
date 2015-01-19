@@ -2,8 +2,9 @@
 
     <a name="20150105-mempo-apt-get"></a><h3>1st January 2015 - apt-get over Freenet</h3>
 
-<p>Mempo developers report that the privacy-focused Debian derivative Mempo can
-download updates over Freenet! For details, see their page on <a href="http://deb.mempo.org/#install_apt_freenet">Apt over Freenet</a>.</p>
+<p>Developers of the privacy-focused Debian derivative Mempo report that it can
+download updates over Freenet! For details, see their page on
+<a href="http://deb.mempo.org/#install_apt_freenet">Apt over Freenet</a>.</p>
 
 <p>Key Points:</p>
 
