@@ -12,12 +12,16 @@
 	  founder and CEO of <a href="http://sensearray.com/">SenseArray</a>.
 	</p>
 	
-	<h5>Matthew Toseland</h5>
-	<p>
-	  Matthew has been working on Freenet since before the 0.5 release.  His work
-	  and that of others has resulted in dramatic improvements to the performance
-	  and stability of the network.
-	</p>
+	<h5>Matthew Toseland</h5> 
+
+        <p> Matthew has been working on Freenet since before the 0.5
+	release.  He has been pushing freenet through obstacles for
+	ten years which no sane person would have dared to tackle -
+	and who succeeded at solving at least three unsolvable
+	problems. Now took up studying CS again at
+	Cambridge. Previously a zealous christian who believed that
+	god would judge him fairly, now an atheist who fights for the
+	future of human civilization.  </p>
 
 	<h5>Oskar Sandberg</h5>
 	<p>
@@ -26,27 +30,19 @@
 	  Freenet 0.7, see the papers page.
 	</p>
 
-	<h5>Florent Daigni&egrave;re</h5>
-	<p>
-	  Since 2003, Florent has improved various aspects of the software and performed
-	  the project's system administration. In his day job, he is the Technical
-	  Director of <a href="https://www.trustmatta.com">Matta Consulting</a>, a
-	  boutique security consultancy firm.
-	</p>
+	<h5>Florent Daigni&egrave;re/nextgens</h5>
 
-<h5>toad</h5>
-
-<p>The first paid developer. He has been pushing freenet through obstacles for ten years which no sane person would have dared to tackle - and who succeeded at solving at least three unsolvable problems. Now took up studying CS again at Cambridge. Previously a zealous christian who believed that god would judge him fairly, now an atheist who fights for the future of human civilization.
-</p>
+	<p> Since 2003, Florent has improved various aspects of the
+	  software and performed the project's system
+	  administration. A long-term contributor who tends to be
+	  proven right in the end and works as full-time security
+	  consultant besides taking on the crazy crypto challenges in
+	  freenet and mentoring GSoC students on tackling hard crypto
+	  tasks.  </p>
 
 <h5>operhiem1</h5>
 
 <p>Really good at integrating the huge number of different libraries and tools which make up freenet and at the same time able to keep cheerful contact with the folks who contribute to freenet. Now provides his skills at writing very clean code and documenting it effectively to a company for paying back his student loan - besides being freenet maintainer and release manager.
-</p>
-
-<h5>nextgens</h5>
-
-<p>Long-term contributor who tends to be proven right in the end and works as full-time security consultant besides taking on the crazy crypto challenges in freenet and mentoring GSoC students on tackling hard crypto tasks.
 </p>
 
 <h5>digger3</h5>
