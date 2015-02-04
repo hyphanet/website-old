@@ -1,11 +1,6 @@
 <h2>Tools</h2>
 <h3>Freenet 0.7 applications</h3>
 <br />
-<p><a href='https://downloads.freenetproject.org/alpha/Thaw/'><b>Thaw</b></a><br />
-<br />
-Thaw is a filesharing application, to add stuff to, and download stuff from, Freenet. New versions are featuring "index" support, to learn about it, I suggest you visit the <a class='wiki'  href='https://wiki.freenetproject.org/Thaw'>Thaw's wiki page</a>.
-</p>
-
 <p><b>Freemail</b><br />
 <br />
 Freemail provides anonymous e-mail over Freenet. Visit the <a class='wiki'  href='http://127.0.0.1:8888/USK@xOg49GNltumTJJzj0fVzuGDpo4hJUsy2UsGQkjE7NY4,EtUH5b9gGpp8JiY-Bm-Y9kHX1q-yDjD-9oRzXn21O9k,AQACAAE/freemail/2/'>Freemail freesite</a>. <b><span style='color:#FF0000;'>You must be running Freenet for this link to work.</span></b>

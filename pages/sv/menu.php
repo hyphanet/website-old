@@ -15,7 +15,6 @@ $menus = array(
 												'Freemail' 			=> 'freemail',
 												'Frost' 			=> 'frost',
 												'jSite'				=> 'jsite',
-												'Thaw'				=> 'thaw',
 												'Vanliga Frågor' 	=> 'faq',
 												'Wiki'				=> 'https://wiki.freenetproject.org/'),  
 				'Donera'			=> 'donate',

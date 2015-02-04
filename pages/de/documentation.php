@@ -8,7 +8,6 @@
 	  <a href="freemail.html">Freemail</a>
 	  <a href="frost.html">Frost</a>
 	  <a href="jsite.html">jSite</a>
-	  <a href="thaw.html">Thaw</a>
 	  <a href="http://wiki.freenetproject.org">Wiki</a>
 	</p>
       </div>
@@ -45,12 +44,6 @@ es Installiert und zum ersten Mal benutzt.
 <li><span style="font-weight: bold;">jSite</span><br/>
 jSite ist ein Werkzeug zum Einfügen von Freenet-Webseiten (auch Freesites
 genannt).
-</li>
-
-<li><span style="font-weight: bold;">Thaw</span><br/>
-Thaw ist ein Programm zum Austauschen von Dateien und ein
-Upload/Download-Manager. Es wird als grafische Schnittstelle zum Austausch von
-Dateien über Freenet benutzt.
 </li>
 
 <li><span style="font-weight: bold;">FAQ</span><br/>
