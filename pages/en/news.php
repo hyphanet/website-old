@@ -1,5 +1,27 @@
       <h1>News</h1>
 
+    <a name="20150211-suma-award"></a><h3>11th February 2015 - Freenet received the SUMA Award 2014/15</h3>
+
+<p><img align="right" src="images/suma2015_badge.png">At this year's
+<a href="http://searchstudies.org/de/suma2015.html">congress</a> of <a
+href="http://suma-ev.de/en/index.html">SUMA-EV</a>, association for
+free access to knowledge, the <a
+href="http://suma-awards.de/en/index.html">SUMA award</a> was awarded
+in the venerable Karl-H.-Ditze lecture hall of the Hamburg University
+of Applied Sciences. The topic of the award, was the surveillance
+scandal, revealed by whistleblower Edward Snowden: 'protection against
+total surveillance'.  From submissions of about 50 projects for the
+SUMA award 2014/15 the panel of SUMA-EV selected the Freenet
+Project as the winner. The prize money of 2500€ will be used like
+regular <a href="donate.html">donations</a> to fund our one paid
+developer.</p>
+
+<blockquote><img src="images/suma_award_2015_handover.jpg" /><br /> Wolfgang
+Sander-Beuermann with Arne Babenhauserheide, long-term Freenet
+contributor, as representative of the award winner. Photo: Michael
+Christen in Hamburg, Lizenz: CC0.</blockquote>
+
+
     <a name="20150105-mempo-apt-get"></a><h3>1st January 2015 - apt-get over Freenet</h3>
 
 <p>Developers of the privacy-focused Debian derivative Mempo report that it can
