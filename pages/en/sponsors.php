@@ -109,7 +109,7 @@
 	</p>
 
 	<p>
-	  Donation inquiries please contact <a href="mailto:ian@locut.us">Ian
+	  Donation inquiries please contact <a href="mailto:donate@freenetproject.org">Ian
 	    Clarke</a>
 	</p>
 	

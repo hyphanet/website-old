@@ -99,7 +99,7 @@
 	</p>
 
 	<p>
-	  Para consultar por donaciones por favor contacta a <a href="mailto:ian@locut.us">Ian
+	  Para consultar por donaciones por favor contacta a <a href="mailto:donate@freenetproject.org">Ian
 	    Clarke</a>
 	</p>
 	

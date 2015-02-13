@@ -104,7 +104,7 @@
   </p>
 
   <p>
-    По вопросам дарений обращайтесь к <a href="mailto:ian@locut.us">Яну Кларку</a>
+    По вопросам дарений обращайтесь к <a href="mailto:donate@freenetproject.org">Яну Кларку</a>
   </p>
 
       </div>
