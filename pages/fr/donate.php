@@ -168,7 +168,7 @@
 	    <hr width="90%"/>
 	    </li>
 	    <li>
-	    Alternativement, veuillez <a href="mailto:ian@freenetproject.org">nous contacter</a> (en anglais)
+	    Alternativement, veuillez <a href="mailto:donate@freenetproject.org">nous contacter</a> (en anglais)
 	    si vous ne parvenez pas à utiliser ces méthodes de paiement.
 	    </li>
 	    <li>
