@@ -2,7 +2,7 @@
 
     <a name="20150211-suma-award"></a><h3>11th February 2015 - Freenet received the SUMA Award 2014/15</h3>
 
-<p><img align="right" src="image/suma2015_badge.png">At this year's
+<p><img width="100%" align="right" src="image/suma2015_badge.png">At this year's
 <a href="http://searchstudies.org/de/suma2015.html">congress</a> of <a
 href="http://suma-ev.de/en/index.html">SUMA-EV</a>, association for
 free access to knowledge, the <a
