@@ -2,7 +2,7 @@
 
     <a name="20150211-suma-award"></a><h3>11th February 2015 - Freenet received the SUMA Award 2014/15</h3>
 
-<p><img align="right" src="images/suma2015_badge.png">At this year's
+<p><img align="right" src="image/suma2015_badge.png">At this year's
 <a href="http://searchstudies.org/de/suma2015.html">congress</a> of <a
 href="http://suma-ev.de/en/index.html">SUMA-EV</a>, association for
 free access to knowledge, the <a
@@ -16,7 +16,7 @@ Project as the winner. The prize money of 2500€ will be used like
 regular <a href="donate.html">donations</a> to fund our one paid
 developer.</p>
 
-<blockquote><img src="images/suma_award_2015_handover.jpg" /><br /> Wolfgang
+<blockquote><img src="image/suma_award_2015_handover.jpg" /><br /> Wolfgang
 Sander-Beuermann with Arne Babenhauserheide, long-term Freenet
 contributor, as representative of the award winner. Photo: Michael
 Christen in Hamburg, Lizenz: CC0.</blockquote>
