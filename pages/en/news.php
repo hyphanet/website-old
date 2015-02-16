@@ -1,5 +1,31 @@
       <h1>News</h1>
 
+    <a name="20150215-csharp-tray"></a><h3>15th February 2015 - New Windows tray app for testing</h3>
+
+<p>
+The Windows tray application distributed as of build 1467 is written in the
+automation scripting language AutoHotKey. It has not been well-maintained and
+is also often falsely detected by antivirus by virtue of the language it uses.
+We are pleased to announce a new Windows tray application written in C# which
+also boasts some additional features:
+</p>
+
+<ul>
+<li>Allows choosing which browser to launch</li>
+<li>Allows starting Freenet without the tray on startup</li>
+<li>Allows opening the Downloads folder from the menu</li>
+<li>Gives a more actionable response to crashes</li>
+<li>Can be hidden while keeping Freenet running</li>
+<li>Can be located other places than in the Freenet installation folder</li>
+</ul>
+
+<p>
+If all goes well we plan for this tray app to be distributed with build 1468.
+Testing is appreciated! If you'd like to try it for yourself you can find it
+<a href="https://downloads.freenetproject.org/FreenetTray-testing-eaf31ea.exe">here</a>.
+Please let us know how it goes and if you'd like to see any changes.
+</p>
+
     <a name="20150211-suma-award"></a><h3>11th February 2015 - Freenet received the SUMA Award 2014/15</h3>
 
 <p><img align="right" src="image/suma2015_badge.png">At this year's
