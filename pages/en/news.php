@@ -7,16 +7,16 @@ The Windows tray application distributed as of build 1467 is written in the
 automation scripting language AutoHotKey. It has not been well-maintained and
 is also often falsely detected by antivirus by virtue of the language it uses.
 We are pleased to announce a new Windows tray application written in C# which
-also boasts some additional features:
+has some additional features:
 </p>
 
 <ul>
-<li>Allows choosing which browser to launch</li>
-<li>Allows starting Freenet without the tray on startup</li>
-<li>Allows opening the Downloads folder from the menu</li>
-<li>Gives a more actionable response to crashes</li>
-<li>Can be hidden while keeping Freenet running</li>
-<li>Can be located other places than in the Freenet installation folder</li>
+<li>Allow choosing which browser to launch.</li>
+<li>Allow starting Freenet without the tray on startup.</li>
+<li>Allow opening the Downloads folder from the menu.</li>
+<li>Give a more actionable response to crashes.</li>
+<li>Can be hidden while keeping Freenet running.</li>
+<li>Can be located other places than in the Freenet installation folder.</li>
 </ul>
 
 <p>
