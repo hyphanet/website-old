@@ -1,5 +1,16 @@
       <h1>News</h1>
 
+    <a name="20150314-localization-lab"></a><h3>14th March 2015 - Freenet translation joins Localization Lab</h3>
+
+<p>
+The Freenet project has joined the <a href="http://www.localizationlab.org">Localization Lab</a>
+organization on Transifex. This allows a larger team of translators,
+translating into more languages, and access to paid support.
+</p>
+<p>
+If this transition has caused any problems please let us know!
+</p>
+
     <a name="20150215-csharp-tray"></a><h3>15th February 2015 - New Windows tray app for testing</h3>
 
 <p>

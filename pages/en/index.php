@@ -120,13 +120,13 @@ $(document).ready(function() {
 	<h4>Latest news</h4>
 
 	<p>
+		  (2015-03-14) <a href="news.html#20150314-localization-lab">Freenet translation joins Localization Lab</a></br>
 		  (2015-02-15) <a href="news.html#20150215-csharp-tray">New Windows tray app for testing</a></br>
 	          (2015-02-11) <a href="news.html#20150211-suma-award">Freenet received the SUMA Award 2015</a><br/>
 	          (2015-01-05) <a href="news.html#20150105-mempo-apt-get">apt-get over Freenet</a><br/>
 		  (2014-11-23) <a href="news.html#build01467">Freenet 0.7.5 build 1467 released</a><br/>
 		  (2014-11-09) <a href="news.html#build01466">Freenet 0.7.5 build 1466 released</a><br/>
 		  (2014-09-27) <a href="news.html#downloads">Recent download problems</a></br>
-		  (2014-08-09) <a href="news.html#build01465">Freenet 0.7.5 build 1465 released</a><br/>
           </p>
     <p>
 	  <a href="news.html">Older news</a>
