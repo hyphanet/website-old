@@ -95,7 +95,7 @@ include 'includes/common.inc.php';
      <div id="footer">
 	<p>
 	  <b>Contact</b> : Press enquiries: <span class="e-mail" data-user="sserp" data-website="gro.tcejorpteneerf"></span>
-	  If you've found a problem with this site please <a href="mailto:support@freenetproject.org">let us know</a><br/>
+	  If you've found a problem with this site please let us know: <span class="e-mail" data-user="troppus" data-website="gro.tcejorpteneerf"></span>
 	  This website is licensed under the <a href="https://www.gnu.org/licenses/fdl.html">GNU Free Documentation License</a>
 	</p>
       </div>
