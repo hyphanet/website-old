@@ -131,7 +131,7 @@
       <div>Отправьте ваш дар аккаунту: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 
       <hr width="90%">
-      <li>Другие способы. Пожалуйста <a href="mailto:donate@freenetproject.org">свяжитесь с нами</a>,
+      <li>Другие способы. Пожалуйста свяжитесь с нами: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span>,
         если вы не смогли воспользоваться предложенными способами.</li>
       <li>Вы также можете помогать проекту, приобретая вещи в <a rel="nofollow" href="http://www.zazzle.com/freenetproject">магазине</a> Фринет.</li>
     </ul>

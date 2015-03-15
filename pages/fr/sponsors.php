@@ -102,7 +102,7 @@
         </p>
 
 	<p>
-	Si vous souhaitez vous aussi parrainer Freenet, merci de contacter <a href="mailto:donate@freenetproject.org">Ian Clarke</a>
+	Si vous souhaitez vous aussi parrainer Freenet, merci de contacter Ian Clarke: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span>
 	</p>
 	
       </div>

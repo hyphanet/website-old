@@ -134,7 +134,7 @@
 	    <div>Send your donations to the account: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 	    
 	    <hr width="90%">
-	    <li>Alternatively, please <a href="mailto:donate@freenetproject.org">contact us</a>
+	    <li>Alternatively, please contact us: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span>
 	      if you cannot use any of these payment methods.</li>
 	    <li>You can also donate to the project by purchasing items from the 
 	      Freenet <a rel="nofollow" href="http://www.zazzle.com/freenetproject">store</a>.</li>

@@ -168,7 +168,7 @@
 	    <hr width="90%"/>
 	    </li>
 	    <li>
-	    Alternativement, veuillez <a href="mailto:donate@freenetproject.org">nous contacter</a> (en anglais)
+	    Alternativement, veuillez nous contacter: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span> (en anglais)
 	    si vous ne parvenez pas à utiliser ces méthodes de paiement.
 	    </li>
 	    <li>

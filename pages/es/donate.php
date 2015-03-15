@@ -160,7 +160,7 @@
 	    <div id="bitcoin-account">Envía tus donaciones a la cuenta: 1966U1pjj15tLxPXZ19U48c99EJDkdXeqb<br></div>
 	    
 	    <hr width="90%">
-	    <li>Alternativamente, por favor <a href="mailto:donate@freenetproject.org">contáctanos</a>
+	    <li>Alternativamente, por favor contáctanos: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span>
 	      si no puedes usar ninguno de esos métodos de pago.</li>
 	    <li>También puedes contribuir al proyecto comprando un souvenir de la  
 	       <a rel="nofollow" href="http://www.zazzle.com/freenetproject">tienda</a>Freenet.</li>

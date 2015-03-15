@@ -104,7 +104,7 @@
   </p>
 
   <p>
-    По вопросам дарений обращайтесь к <a href="mailto:donate@freenetproject.org">Яну Кларку</a>
+    По вопросам дарений обращайтесь к Яну Кларку: <span class="e-mail" data-user="etanod" data-website="gro.tcejorpteneerf"></span>
   </p>
 
       </div>
