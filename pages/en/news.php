@@ -33,7 +33,7 @@ What remains to be done:
     breakage in this version.</li>
 <li>Add a .NET 3.5 install to the Windows installer, along with the new tray app.
     (This is necessary for it to always work for those not on Windows 7.)</li>
-<li>Everything on <a href="https://bugs.freenetproject.org/roadmap_page.php?version_id=85">this list</a>.<li>
+<li>Everything on <a href="https://bugs.freenetproject.org/roadmap_page.php?version_id=85">this list</a>.</li>
 </ul>
 
 <p>
