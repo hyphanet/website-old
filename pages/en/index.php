@@ -17,7 +17,7 @@
   Github commits widget stylesheet
 -->
 
-<link rel="stylesheet" type="text/css" href="js/github-commits-widget/style-2.css" />
+<link rel="stylesheet" type="text/css" href="js/github-commits-widget/style.css" />
 
 <!--
   jCarousel core stylesheet
