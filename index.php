@@ -13,7 +13,7 @@ include 'includes/common.inc.php';
 	<meta name="language"    content="<?php echo $lang?>">
 	<meta name="robots"      content="index,follow">
 	<meta name="description" content="The Free Network Project : A Distributed Anonymous Information Storage and Retrieval System">
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="style-2.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		function getStyleByElementByID(whichDivId)
 		{
