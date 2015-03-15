@@ -1,5 +1,47 @@
       <h1>News</h1>
 
+    <a name="20150315-1468-progress"></a><h3>15th March 2015 - Progress toward build 1468</h3>
+
+<p>
+Build 1468 continues to make progress toward release.
+</p>
+
+<p>
+What is done:
+</p>
+
+<ul>
+<li>Replace the unreliable db4o database. (Yay!)</li>
+<li>Create more flexible Windows tray app.</li>
+<li>Update Windows installer translations for Finnish and French.</li>
+<li>Add Windows installer translations for Czech, German, Italian, Polish,
+    Brazilian Portuguese, and Simplified Chinese.</li>
+<li>Improve the reliability of starting Freenet under changing Java
+    installations on Linux/OS X/POSIX.</li>
+<li>Update WebOfTrust with bug fixes and a new API.</li>
+</ul>
+
+<p>
+What remains to be done:
+</p>
+
+<ul>
+<li>Finish reviewing the synchronous plugin communication API. Review is split
+    between <a href="https://github.com/freenet/fred/pull/319">GitHub</a> and more
+    recently the <a href="https://emu.freenetproject.org/pipermail/devl/2015-February/037986.html">development mailing list</a>.</li>
+<li>Update all plugins (KeyUtils and WebOfTrust are already ready) for the API
+    breakage in this version.</li>
+<li>Add a .NET 3.5 install to the Windows installer, along with the new tray app.
+    (This is necessary for it to always work for those not on Windows 7.)</li>
+<li>Everything on <a href="https://bugs.freenetproject.org/roadmap_page.php?version_id=85">this list</a>.</li>
+</ul>
+
+<p>
+Because this is such a large release new installers for build 1467 will be
+released shortly to test those changes. Once everything on this list is
+complete, there will be a release candidate, then finally the stable release.
+</p>
+
     <a name="20150314-localization-lab"></a><h3>14th March 2015 - Freenet translation joins Localization Lab</h3>
 
 <p>
