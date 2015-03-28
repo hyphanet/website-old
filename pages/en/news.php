@@ -26,9 +26,9 @@ What remains to be done:
 </p>
 
 <ul>
-<li>Finish reviewing the synchronous plugin communication API. Review is split
+<li><del>Finish reviewing the synchronous plugin communication API. Review is split
     between <a href="https://github.com/freenet/fred/pull/319">GitHub</a> and more
-    recently the <a href="https://emu.freenetproject.org/pipermail/devl/2015-February/037986.html">development mailing list</a>.</li>
+    recently the <a href="https://emu.freenetproject.org/pipermail/devl/2015-February/037986.html">development mailing list</a>.</del> -- Done 2015-03-28</li>
 <li>Update all plugins (KeyUtils and WebOfTrust are already ready) for the API
     breakage in this version.</li>
 <li>Add a .NET 3.5 install to the Windows installer, along with the new tray app.
