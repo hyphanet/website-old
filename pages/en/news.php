@@ -1,9 +1,9 @@
       <h1>News</h1>
 
-    <a name="20150329-new-installer"></a><h3>29th March 2015 - New Linux/OS X installer</h3>
+    <a name="20150329-new-installer"></a><h3>29th March 2015 - New Linux/Unix/OS X installer</h3>
 
 <p>
-The installer for Linux and Mac OS X is updated to better detect Java.
+The installer for Linux, Unix, and Mac OS X is updated to better detect Java.
 </p>
 
     <a name="20150315-1468-progress"></a><h3>15th March 2015 - Progress toward build 1468</h3>
