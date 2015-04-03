@@ -148,7 +148,7 @@ $(document).ready(function() {
             $('#latest-commits').githubInfoWidget(
                 { users: ['freenet', 'freenet'],
                   repos: ['fred', 'plugin-WebOfTrust'],
-                  branches: ['next', 'master'],
+                  branches: ['next', 'next'],
                   last: 5, limitMessageTo: 50 });
         });
     </script>
