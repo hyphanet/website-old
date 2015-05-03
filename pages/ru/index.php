@@ -108,6 +108,12 @@ $(document).ready(function() {
 
       <div id="news">
   <h4>Последние новости</h4>
+    <p>
+	<?php
+		include("pages/en/latestnews.php");
+	?>
+    </p>
+
   <p>
         (26 июня 2013) <a href="news.html#2013-second-developer-xor">Фринет нанимает второго разработчика!</a><br/>
         (8 апреля 2013) <a href="news.html#2013-summer-of-code-accepted">Фринет принят на Google Summer of Code 2013!</a><br/>

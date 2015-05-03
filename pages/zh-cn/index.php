@@ -108,6 +108,12 @@ $(document).ready(function() {
 
       <div id="news">
 	<h4>最新新闻</h4>
+    <p>
+	<?php
+		include("pages/en/latestnews.php");
+	?>
+    </p>
+
 	<p>
           (2012 年 4 月 14 日) <a href="https://emu.freenetproject.org/pipermail/devl/2012-April/036354.html">发布 Freenet 0.7.5 build 1407</a><br />
           (2012 年 4 月 3 日) <a href="https://emu.freenetproject.org/pipermail/devl/2012-April/036295.html">发布 Freenet 0.7.5 build 1406</a><br />

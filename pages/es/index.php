@@ -108,8 +108,12 @@ $(document).ready(function() {
 
       <div id="news">
 	<h4>Ultimas noticias</h4>
+    <p>
+	<?php
+		include("pages/en/latestnews.php");
+	?>
+    </p>
 	<p>
-	  (13 de Abril 2011) <a href="news.html#freedom-house-april-2011">¡Freenet máxima herramienta anticensura en encuesta a usuarios Chinos!</a><br/>
 	  <a href="news.html">Noticias anteriores</a>
 	</p>
       </div>
