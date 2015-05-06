@@ -117,7 +117,7 @@ $(document).ready(function() {
     </p>
     <p>
 	<?php
-		include dirname(__FILE__) . "../en/latestnews.php");
+		include("pages/en/latestnews.php");
 	?>
     </p>                                                             
     <p>

@@ -107,7 +107,7 @@ $(document).ready(function() {
 	<h4>Dernières nouvelles (en anglais pour l'instant)</h4>
     <p>
 	<?php
-		include dirname(__FILE__) . "../en/latestnews.php");
+		include("pages/en/latestnews.php");
 	?>
     </p>
 	<p> 
