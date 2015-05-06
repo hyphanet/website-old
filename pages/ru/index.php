@@ -110,7 +110,7 @@ $(document).ready(function() {
   <h4>Последние новости</h4>
     <p>
 	<?php
-		include("pages/en/latestnews.php");
+		include dirname(__FILE__) . "../en/latestnews.php");
 	?>
     </p>
 
