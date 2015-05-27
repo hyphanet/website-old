@@ -1,5 +1,14 @@
       <h1>News</h1>
 
+      <a name="20150527-suma-video"></a><h3>27th May 2015 - SUMA Award Acceptance Speach (video)</h3>
+
+<p>
+The video from the talk given when Freenet <a href="#20150211-suma-award">received the SUMA Award 2015</a> as best project against surveillance and espionage in the internet is available on <a href="http://www.searchstudies.org/de/suma2015.html">the Award page</a> and <a href="https://www.youtube.com/watch?v=dZpsBSPsHDI">on Youtube</a>:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dZpsBSPsHDI" frameborder="0" allowfullscreen></iframe>
+
+Arne Babenhauserheide receives the SUMA award as representative of the Freenet project and presents the current capabilities of Freenet to regain confidential and pseudonymous speech in the internet along with a vision how whistleblowers could use Freenet to contact Journalists without spilling their identity.
+</p>
     <a name="20150329-new-installer"></a><h3>29th March 2015 - New Linux/Unix/OS X installer</h3>
 
 <p>
