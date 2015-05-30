@@ -13,16 +13,18 @@
 
          <blockquote>63. The use of encryption and anonymity tools and better digital literacy should be encouraged. The Special Rapporteur, recognizing that the value of encryption and anonymity tools depends on their widespread adoption, encourages States, civil society organizations and corporations to engage in a campaign to bring encryption by design and default to users around the world and, where necessary, to ensure that users at risk be provided the tools to exercise their right to freedom of opinion and expression securely.</blockquote>
          
-<p>As Freenet Project we welcome the official recognition of our mission as important part of securing human rights in the digital age and we invite everyone - eecially reporters and civil society organizations - to install Freenet and its communication tools to provide a point of contact for users at risk.</p>
+<p>As Freenet Project we welcome the official recognition of our mission as important part of securing human rights in the digital age and we invite everyone - especially reporters and civil society organizations - to install Freenet and its communication tools to provide a point of contact for users at risk.</p>
 
          <a name="20150414-suma-video"></a><h3>14th April 2015 - SUMA Award Acceptance Speech (video)</h3>
 
 <p>
-The video from the talk given when Freenet <a href="#20150211-suma-award">received the SUMA Award 2015</a> as best project against surveillance and espionage in the internet is available on <a href="http://www.searchstudies.org/de/suma2015.html">the Award page</a> and <a href="https://youtu.be/dZpsBSPsHDI?t=5m56s">on Youtube</a>:
+The video from the talk given when Freenet <a href="#20150211-suma-award">received the SUMA Award 2015</a> as best project against surveillance and espionage in the Internet is available on <a href="http://www.searchstudies.org/de/suma2015.html">the Award page</a> and <a href="https://youtu.be/dZpsBSPsHDI?t=5m56s">on YouTube</a>:
+</p>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZpsBSPsHDI" frameborder="0" allowfullscreen></iframe>
 
-The Freenet Project receives the SUMA award and Arne Babenhauserheide who accepted the price as representative of the project then presents the current capabilities of Freenet to regain confidential and pseudonymous speech in the internet along with a vision how whistleblowers could use Freenet to contact Journalists without spilling their identity.
+<p>
+The Freenet Project receives the SUMA award and Arne Babenhauserheide accepts the prize as representative of the project. Arne then presents the current capabilities of Freenet to regain confidential and pseudonymous speech in the Internet, along with a vision of how whistleblowers could use Freenet to contact journalists without spilling their identity.
 </p>
     <a name="20150329-new-installer"></a><h3>29th March 2015 - New Linux/Unix/OS X installer</h3>
 
