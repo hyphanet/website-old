@@ -1,4 +1,5 @@
-		  (2015-05-27) <a href="news.html#20150527-suma-video">SUMA Award Acceptance Speach (video)</a></br>
+		  (2015-05-22) <a href="news.html#20150522-united-nations-report-anonymity">UN: Encryption and Anonymity Deserve Strong Protection</a></br>
+		  (2015-04-14) <a href="news.html#20150414-suma-video">SUMA Award Acceptance Speech (video)</a></br>
 		  (2015-03-29) <a href="news.html#20150329-new-installer">New Linux/Unix/OS X installer</a></br>
 		  (2015-03-15) <a href="news.html#20150315-1468-progress">Progress toward build 1468</a></br>
 		  (2015-03-14) <a href="news.html#20150314-localization-lab">Freenet translation joins Localization Lab</a></br>
