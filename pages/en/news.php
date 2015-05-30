@@ -18,7 +18,7 @@
          <a name="20150414-suma-video"></a><h3>14th April 2015 - SUMA Award Acceptance Speech (video)</h3>
 
 <p>
-The video from the talk given when Freenet <a href="#20150211-suma-award">received the SUMA Award 2015</a> as best project against surveillance and espionage in the internet is available on <a href="http://www.searchstudies.org/de/suma2015.html">the Award page</a> and <a href="https://www.youtube.com/watch?v=dZpsBSPsHDI">on Youtube</a>:
+The video from the talk given when Freenet <a href="#20150211-suma-award">received the SUMA Award 2015</a> as best project against surveillance and espionage in the internet is available on <a href="http://www.searchstudies.org/de/suma2015.html">the Award page</a> and <a href="https://youtu.be/dZpsBSPsHDI?t=5m56s">on Youtube</a>:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZpsBSPsHDI" frameborder="0" allowfullscreen></iframe>
 
