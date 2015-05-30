@@ -7,7 +7,7 @@ The video from the talk given when Freenet <a href="#20150211-suma-award">receiv
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dZpsBSPsHDI" frameborder="0" allowfullscreen></iframe>
 
-The Freenet Project receives the SUMA award represented by Arne Babenhauserheide who then presents the current capabilities of Freenet to regain confidential and pseudonymous speech in the internet along with a vision how whistleblowers could use Freenet to contact Journalists without spilling their identity.
+The Freenet Project receives the SUMA award and Arne Babenhauserheide who accepted the price as representative of the project then presents the current capabilities of Freenet to regain confidential and pseudonymous speech in the internet along with a vision how whistleblowers could use Freenet to contact Journalists without spilling their identity.
 </p>
     <a name="20150329-new-installer"></a><h3>29th March 2015 - New Linux/Unix/OS X installer</h3>
 
