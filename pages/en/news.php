@@ -1,5 +1,30 @@
       <h1>News</h1>
 
+      <a name="20150624-upcoming-1468-update"</a><h3>24th June 2015 - Upcoming installer and testing releases</h3>
+
+<p>
+This weekend we will release an updated Windows installer for build 1467 along
+with a <a href="https://github.com/freenet/wintray/blob/master/README.md">new Windows tray application</a>.
+We will also release 1468-pre4, which if all goes according to plan will be the
+last prerelease before a stable release two weeks later.
+</p>
+
+<p>
+If you'd like to help with translations before then please do so! The
+Windows-related resources are:
+</p>
+<ul>
+<li><a href="https://www.transifex.com/projects/p/freenet/resource/windows-installer/">Windows installer</a></li>
+<li><a href="https://www.transifex.com/projects/p/freenet/resource/windows-tray-commands/">Windows tray commands</a></li>
+<li><a href="https://www.transifex.com/projects/p/freenet/resource/windows-tray-common/">Windows tray common</a></li>
+<li><a href="https://www.transifex.com/projects/p/freenet/resource/windows-tray-crash/">Windows tray crash</a></li>
+<li><a href="https://www.transifex.com/projects/p/freenet/resource/windows-tray-preferences/">Windows tray preferences</a></li>
+</ul>
+<p>
+Some of the Windows tray resources contain many strings tagged notranslate; to
+hide these search for Tags: translate.
+</p>
+
       <a name="20150522-united-nations-report-anonymity"></a><h3>22nd May 2015 - UN Report: Encryption and Anonymity Deserve Strong Protection</h3>
 
          <p>
