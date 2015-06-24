@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-      <a name="20150522-united-nations-report-anonymity"></a><h3>22th May 2015 - UN Report: Encryption and Anonymity Deserve Strong Protection</h3>
+      <a name="20150522-united-nations-report-anonymity"></a><h3>22nd May 2015 - UN Report: Encryption and Anonymity Deserve Strong Protection</h3>
 
          <p>
          The UN Special Rapporteur published <a href="http://www.ohchr.org/EN/Issues/FreedomOpinion/Pages/CallForSubmission.aspx">a report on encryption, anonymity, and the human rights framework</a> (<a href="http://www.ohchr.org/EN/HRBodies/HRC/RegularSessions/Session29/Documents/A.HRC.29.32_AEV.doc">doc</a>, <a href="http://www.ohchr.org/Documents/Issues/Opinion/Communications/States/Selected_References_SR_Report.pdf">companion pdf</a>). From the summary:
