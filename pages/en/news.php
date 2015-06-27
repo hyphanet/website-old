@@ -1,5 +1,11 @@
       <h1>News</h1>
 
+      <a name="20150627-1467-wininstaller"</a><h3>27th June 2015 - New Windows installer and tray app</h3>
+
+<p>
+The Windows installer is updated with Java 8u45 and a <a href="https://github.com/freenet/wintray#freenet-tray-application">new tray application</a>.
+</p>
+
       <a name="20150624-upcoming-1468-update"</a><h3>24th June 2015 - Upcoming installer and testing releases</h3>
 
 <p>
