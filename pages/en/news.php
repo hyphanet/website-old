@@ -3,8 +3,19 @@
       <a name="20150627-1467-wininstaller"</a><h3>27th June 2015 - New Windows installer and tray app</h3>
 
 <p>
-The Windows installer is updated with Java 8u45 and a <a href="https://github.com/freenet/wintray#freenet-tray-application">new tray application</a>.
+The Windows installer is updated with Java 8u45, a <a href="https://github.com/freenet/wintray#freenet-tray-application">new tray application</a>, and is newly translated into:
 </p>
+
+<ul>
+<li>Czech</li>
+<li>German</li>
+<li>Greek</li>
+<li>Indonesian</li>
+<li>Italian</li>
+<li>Polish</li>
+<li>Brazilian Portuguese</li>
+<li>Simplified Chinese</li>
+</ul>
 
       <a name="20150624-upcoming-1468-update"</a><h3>24th June 2015 - Upcoming installer and testing releases</h3>
 
