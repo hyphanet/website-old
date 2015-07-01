@@ -6,6 +6,7 @@
 						'de' => 'Deutsch',
 						'es' => 'Spanish',
 						'en' => 'English',
+						'pt-br' => 'Português',
 						'ru' => 'Русский язык',
 					)
 ?>
