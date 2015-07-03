@@ -9,7 +9,7 @@
 	      <li><a href="news.html">Notícias</a></li>
 	      <li><a href="philosophy.html">Filosofia</a></li>
 	      <li><a href="people.html">Pessoas</a></li>
-	      <li class="last"><a href="papers.html">Papers</a></li>
+	      <li class="last"><a href="papers.html">Artigos</a></li>
 	    </ul>
 	  </li>
 	  <li class="dir"><a href="documentation.html">Ajuda</a>

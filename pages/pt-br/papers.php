@@ -1,5 +1,5 @@
       <div id="papers">
-	<h1>Papers</h1>
+	<h1>Artigos</h1>
 	
 	<p>
         <img src="/image/pdf.icon.jpg"/>
