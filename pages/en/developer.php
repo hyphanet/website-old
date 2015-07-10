@@ -54,16 +54,10 @@
     The advantage is there are fewer reverts in the history, better code in general, stuff
     can be put off more easily when we are trying to get a release out, and the security
     model is simpler. We are trying to mode to this model at the moment. You may find
-    it is easier to fork -staging and then post a pull request (github makes both of these things 
-    easy), rather than asking for push rights to -staging.</p>
+    it is easier to fork and then post a pull request (github makes both of these things 
+    easy), rather than asking for push rights.</p>
     
-    <p>Each part of Freenet currently has two repositories: -official and -staging (e.g.
-    fred-official and fred-staging). This is left over from our using git similarly to 
-    SVN: The -official repository has been reviewed and released at least as a pre-build,
-    and only core devs can push to it - they must review the code they are pushing before 
-    doing so, and will usually sign a tag for the build or pre-build after doing so. The 
-    -staging repository almost anyone can write to. New developers should fork on github
-    and then post pull requests.</p>
+    <p>New developers should fork on github and then post pull requests.</p>
     
     <h3>Branches</h3>
     <p>The "master" branch tracks the latest release. The "next" branch
