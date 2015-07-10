@@ -15,9 +15,9 @@
 	<p>
 	  显示指南:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
-	    等</a><br/>
+	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">
+	    OS X</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">
+	    GNU/Linux 等</a><br/>
 	</p>
       </div>
       
@@ -39,18 +39,18 @@
 
       <div id="macos">
 	
-	<h3>Mac OSX</h3>
+	<h3>OS X</h3>
 	
 	<p>
 	  <a href="/jnlp/freenet.jnlp">使用 JavaWebStart 安装 Freenet 0.7</a><br/>
-	  如果不成功, 请尝试 <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux 安装指南</a>.
+	  如果不成功, 请尝试 <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">GNU/Linux 安装指南</a>.
 	</p>
 	
       </div>
       
       <div id="unix">
 	
-	<h3>Linux 和其他类 Unix 系统</h3>
+	<h3>GNU/Linux 和其他类 Unix 系统</h3>
 
 	<p>
 	  请用 <a href="/jnlp/freenet.jnlp">JavaWebStart 安装包</a>.<br/>
@@ -190,7 +190,7 @@
       
       <ul>
 	<li>Windows 可在 Freenet 安装目录下找到运行 "update.cmd" 进行更新. 你还可以从 <a rel="nofollow" href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
-	<li>Mac 和 Linux 用户可在 Freenet 安装目录下找到运行 update.sh 脚本进行更新. 你还可以从 <a rel="nofollow" href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
+	<li>OS X 和 GNU/Linux 用户可在 Freenet 安装目录下找到运行 update.sh 脚本进行更新. 你还可以从 <a rel="nofollow" href="https://code.google.com/p/freenet/downloads/list">Google Code</a> 下载最新 .jar 文件替代旧的 .jar 文件进行更新.</li>
       </ul>
       
       <p>

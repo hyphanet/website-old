@@ -77,7 +77,7 @@ $(document).ready(function() {
         <a href="/jnlp/freenet.jnlp">
    	   <span id="software">Freenet</span>
    	   <span id="action">Installieren</span>
-   	   <span id="version">0.7.5 für Mac OS</span>
+   	   <span id="version">0.7.5 für OS X</span>
    	</a>
       </div>
 	
@@ -86,7 +86,7 @@ $(document).ready(function() {
 	     	  <a href="/jnlp/freenet.jnlp">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Installieren</span>
-	     	     <span id="version">0.7.5 für Linux/Unix</span>
+	     	     <span id="version">0.7.5 für GNU/Linux / Unix</span>
 	     	  </a>
 	     </div>
 	     <p style="clear: left;">

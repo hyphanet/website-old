@@ -494,7 +494,7 @@
       <p><b id="stabchange">How can I change from the main network to the test network?</b><br/>
   The test network is a separate network which allows the developers to see exactly
   what is going on. There is no anonymity on the test network. There is a separate installer
-  (<a href="https://downloads.freenetproject.org/latest/testnet_installer_offline.jar">for Linux, OS/X</a>,
+  (<a href="https://downloads.freenetproject.org/latest/testnet_installer_offline.jar">for GNU/Linux, OS X</a>,
   <a href="https://downloads.freenetproject.org/latest/TestnetInstaller.exe">for Windows</a>).
   This can break quite often, so you should probably have some idea what you are doing or at least 
   be prepared to reinstall regularly!
@@ -523,13 +523,13 @@
   
     <p><b id="clockskew">Freenet keeps complaining about clock skew</b><br/>
   Freenet will have problems if your clock is constantly being rewound. Usually this 
-  happens when something is resetting your clock regularly in big jumps. On linux, you 
-  should run ntpd to make sure your clock isn't too far off (this isn't vital but it's
-  helpful), but if you see clock skew errors, try adding the -x option to it to avoid 
-  big backwards jumps. Also, running ntpdate on startup so there is one big jump before
-  freenet starts is a good idea. This can also happen on Windows sometimes, let us know
-  how you managed to fix it ... generally it's not all that serious though, especially if
-  big jumps in the clock are only once a day.</p>
+  happens when something is resetting your clock regularly in big jumps. On GNU/Linux,
+  you should run ntpd to make sure your clock isn't too far off (this isn't vital but
+  it's helpful), but if you see clock skew errors, try adding the -x option to it to
+  avoid big backwards jumps. Also, running ntpdate on startup so there is one big jump
+  before freenet starts is a good idea. This can also happen on Windows sometimes, let
+  us know how you managed to fix it ... generally it's not all that serious though,
+  especially if big jumps in the clock are only once a day.</p>
 
       <h2>Publisher answers</h2>
       <p>

@@ -43,7 +43,7 @@ Windows ME, 98 und 95 funktionieren weniger gut.
 <!-- 2000 and Millenium Edition are different; all 2k's work good.  Millenium is also a bit borked.  The borked one is XP Home-->
 </p>
 <br>
-<h3>Unix/Linux</h3>
+<h3>Unix / GNU/Linux</h3>
 <p>
 Sie brauchen ein aktuelles Java Runtime Environment (JRE - Java
 Ausführungs-Umgebung). Die besten Ergebnisse haben wir mit Suns Java Runtime
@@ -91,7 +91,7 @@ sie auf &bdquo;Update Snapshot&ldquo; im Freenet-Ordner in ihrem Startmenü
 klicken.
 </p>
 <p>
-Linux-Benutzer können auf ähnliche Art und Weise aktualisieren, indem sie das
+GNU/Linux-Benutzer können auf ähnliche Art und Weise aktualisieren, indem sie das
 Shell-Skript update.sh im Freenet-Ordner ausführen.
 </p>
 <p>

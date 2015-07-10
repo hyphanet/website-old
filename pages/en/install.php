@@ -85,7 +85,7 @@
       
       <p>
 	The next step is to choose the directory in which to install
-	Freenet. The default location on Linux operating systems
+	Freenet. The default location on GNU/Linux operating systems
 	is <span style="font-weight:bold;">/home/username/Freenet</span>
 	as shown below. Change it to something appropriate or leave
 	&quot;as

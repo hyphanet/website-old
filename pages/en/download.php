@@ -26,16 +26,16 @@
 	<h2>Installation Instructions</h2>
 	
 	<p><a href="http://freesocial.draketo.de/">Step by step guide</a> to setting up Freenet and 
-	various Freenet apps. Please try this, especially if installing on Mac. We are not responsible for
-	unofficial third party apps it recommends (including FMS), but many Freenet users and developers use
-	them.</p> 
+	various Freenet apps. Please try this, especially if installing on OS X. We are not responsible
+	for unofficial third party apps it recommends (including FMS), but many Freenet users and developers
+	use them.</p> 
 	
 	<p>
 	  Show instructions for:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
-	    etc</a><br/>
+	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">
+	    OS X</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">
+	    GNU/Linux etc</a><br/>
 	</p>
       </div>
       
@@ -63,7 +63,7 @@
 
       <div id="macos">
 	
-	<h3>Mac OSX</h3>
+	<h3>OS X</h3>
 	
 	<p>
       <a href="/jnlp/freenet.jnlp">Install Freenet 0.7</a> using Java Web Start.<br/>
@@ -83,7 +83,7 @@ you are a developer and would like to join us and help it would be much apprecia
       
       <div id="unix">
 	
-	<h3>Linux and other Unix-like systems</h3>
+	<h3>GNU/Linux and other Unix-like systems</h3>
 
 	<p>
 	  Try the <a href="/jnlp/freenet.jnlp">Java Web Start installer</a>.<br/>
@@ -129,7 +129,7 @@ you are a developer and would like to join us and help it would be much apprecia
 	But please use the other link if you can.</p>
 
     <p>
-<b>Note:</b> Many Linux distributions no longer ship with Java Web Start enabled.
+<b>Note:</b> Many GNU/Linux distributions no longer ship with Java Web Start enabled.
 We would like to make distribution packages for easier installation, and have
 an in-development (and not maintained) <a href="https://github.com/freenet/debian">Debian package</a>, but haven't
 gotten it stable or made official ones for other distributions. If
@@ -300,7 +300,7 @@ you are a developer and would like to join us and help it would be much apprecia
 	<li>Windows users can upgrade to the latest-stable Freenet
 	  release from the system tray menu, or by running "update.cmd" in the Freenet
 	  directory.</li>
-	<li>Mac and Linux users may upgrade by running the
+	<li>OS X and GNU/Linux users may upgrade by running the
 	  update.sh shell script in the Freenet directory.</li>
       </ul>
       

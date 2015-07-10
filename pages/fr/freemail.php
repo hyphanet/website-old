@@ -341,10 +341,10 @@
 
       <p>
 	...it probably means you downloaded the Freemail plugin through the Web
-	interface and your node is already running it.  On a Linux machine you
-	can check to see if the private SMTP and IMAP ports are actually in use
-	with <code>netstat -tln</code>; the port numbers you're looking for in
-	the listing are 3143 (Freenet IMAP) and 3025 (Freenet SMTP).
+	interface and your node is already running it.  On a GNU/Linux machine
+	you can check to see if the private SMTP and IMAP ports are actually in
+	use with <code>netstat -tln</code>; the port numbers you're looking for
+	in the listing are 3143 (Freenet IMAP) and 3025 (Freenet SMTP).
       </p>
 
       <p>
