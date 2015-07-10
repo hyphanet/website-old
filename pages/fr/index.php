@@ -7,6 +7,18 @@
   jCarousel library
 -->
 <script type="text/javascript" src="/js/jcarousel/lib/jquery.jcarousel.pack.js"></script>
+
+<!--
+  GitHub commits widget
+-->
+<script type="text/javascript" src="js/github-commits-widget/github.commits.widget-3.js"></script>
+
+<!--
+  Github commits widget stylesheet
+-->
+
+<link rel="stylesheet" type="text/css" href="js/github-commits-widget/style.css" />
+
 <!--
   jCarousel core stylesheet
 -->
