@@ -115,6 +115,19 @@ $(document).ready(function() {
 	</p>
       </div>
 
+   <div id="commits" style="clear: both;">
+        <h4>Dernières activité des développeurs</h4>
+        <div id="latest-commits"></div>
+   </div>
+   <script type="text/javascript">
+       $(function() {
+           $('#latest-commits').githubInfoWidget(
+               { users: ['freenet', 'freenet'],
+                 repos: ['fred', 'plugin-WebOfTrust'],
+                 branches: ['next', 'next'],
+                 last: 5, limitMessageTo: 50 });
+       });
+   </script>
 
       <script type="text/javascript">
   			 hideDiv("windows");
