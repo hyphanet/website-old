@@ -44,6 +44,7 @@
 	<li>Generally a more secure workflow.</li>
       </ul>
       
+      <!-- TODO: Remove references to -staging and -official as done on en version. -->
       <p>
 	We have divided the code up into many sub-projects, each of which has two
 	repositories: the -staging repository, which has the latest code, to which
@@ -131,6 +132,7 @@
       <p>Or:</p>
       <pre>
 	git commit [ filenames you want to commit ]</pre>
+      <!-- TODO: Remove references to -staging and -official as done on en version. -->
       <p>To upload your changes (assuming you have cloned the -staging tree):</p>
       <pre>
 	git push origin</pre>

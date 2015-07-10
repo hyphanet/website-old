@@ -53,9 +53,11 @@
     La ventaja es que hay menos revisiones en el historial, mejor código en general, las cosas
     pueden retirarse mas fácilmente  cuando tratamos de liberar un lanzamiento, y el modelo de
     seguridad es más simple. Tratamos de moderar este modelo actualmente. Encontrarás
+    <!-- TODO: Remove references to -staging and -official as done on en version. -->
     que es más fácil de dividir [Fork] -staging y luego solicitar una validación [Pull Request] (github hace ambas cosas 
     muy fácil), antes que solicitar permisos de escritura en -staging.</p>
     
+    <!-- TODO: Remove references to -staging and -official as done on en version. -->
     <p>Cada parte de Freenet actualmente tiene dos repositorios: -official y -staging (ej.
     fred-official y fred-staging). Este es un remanente de nuestro uso de git similar a  
     SVN: El repositorio -official ha sido revisado y lanzado al menos como un pre-build,
