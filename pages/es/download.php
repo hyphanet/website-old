@@ -26,9 +26,9 @@
 	<p>
 	  Ver instrucciones para:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">GNU/Linux
-	    etc</a><br/>
+	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">
+	    OS X</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">
+	    GNU/Linux etc</a><br/>
 	</p>
       </div>
       
@@ -55,7 +55,7 @@
 
       <div id="macos">
 	
-	<h3>Mac OSX</h3>
+	<h3>OS X</h3>
 	
 	<p>
 	  <a href="/jnlp/freenet.jnlp">Instalar Freenet 0.7</a> usando JavaWebStart.<br/>
@@ -263,8 +263,8 @@
 	<li>Usuarios de Windows pueden actualizar a la última edicion estable deFreenet
 	desde el menú en la bandeja de sistema, o ejecutando "update.cmd" en el directorio Freenet.</li>
 	
-	<li>Usuarios de Mac and GNU/Linux pueden actualizar ejecutando el 
-	  script update.sh en el directorio Freenet.</li>
+	<li>Usuarios de OS X and GNU/Linux pueden actualizar ejecutando
+        el script update.sh en el directorio Freenet.</li>
       </ul>
       
       <p>

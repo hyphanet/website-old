@@ -31,8 +31,8 @@
 	<p>
 	Afficher les instructions pour :
 	<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows</a>,
-	<a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac OSX</a>,
-	<a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux et autres Unix</a>.
+	<a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">OS X</a>,
+	<a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">GNU/Linux et autres Unix</a>.
 	</p>
       </div>
       
@@ -61,18 +61,18 @@
 
       <div id="macos">
 	
-	<h3>Mac OSX</h3>
+	<h3>OS X</h3>
 	
 	<p>
 	  <a href="/jnlp/freenet.jnlp">Installez Freenet 0.7.5</a> en utilisant JavaWebStart.<br/>
-	  Si cela ne fonctionne pas, essayez <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">les instructions relatives à Linux</a>.
+	  Si cela ne fonctionne pas, essayez <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">les instructions relatives à GNU/Linux</a>.
 	</p>
 	
       </div>
       
       <div id="unix">
 	
-	<h3>Linux et autres systèmes Unix</h3>
+	<h3>GNU/Linux et autres systèmes Unix</h3>
 
 	<p>
 	  Essayez le <a href="/jnlp/freenet.jnlp">programme d'installation JavaWebStart</a>.<br/>
@@ -306,8 +306,9 @@
 		du répertoire Freenet.
 		</li>
 		<li>
-		Les utilisateurs de Mac et de Linux peuvent mettre à jour
-		via le script update.sh du répertoire Freenet.
+		Les utilisateurs de OS X et de GNU/Linux peuvent
+		mettre à jour via le script update.sh du répertoire
+		Freenet.
 		</li>
       	       </ul>
       </p>

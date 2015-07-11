@@ -31,9 +31,9 @@
   <p>
     Посмотрите инструкции для
     <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-      </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-      OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
-      etc</a><br/>
+      </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">
+      OS X</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">
+      GNU/Linux etc</a><br/>
   </p>
       </div>
       
@@ -58,18 +58,18 @@
 
       <div id="macos">
   
-  <h3>Mac OSX</h3>
+  <h3>OS X</h3>
   
   <p>
     <a href="/jnlp/freenet.jnlp">Установка Фринет 0.7</a> с использованием JavaWebStart.<br/>
-    Если выполнить установку не удается, почитайте <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">инструкции для Linux</a>.
+    Если выполнить установку не удается, почитайте <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">инструкции для GNU/Linux</a>.
   </p>
 
       </div>
       
       <div id="unix">
 
-  <h3>Linux и другие Unix-подобные операционные системы</h3>
+  <h3>GNU/Linux и другие Unix-подобные операционные системы</h3>
 
   <p>
     <a href="/jnlp/freenet.jnlp">Установка Фринет 0.7</a> с использованием JavaWebStart.<br/>
@@ -273,7 +273,7 @@
   <li>Пользователи Windows могут запустить обновление ПО Фринет до последней 
   версии через меню в системном трее или запустив на исполнение файл 
   «update.cmd» из директории, с установленным ПО Фринет.</li>
-  <li>Пользователи Mac и Linux могут обновить ПО Фринет, исполнив скрипт 
+  <li>Пользователи OS X и GNU/Linux могут обновить ПО Фринет, исполнив скрипт 
   «update.sh» из каталога с установленным ПО Фринет.</li>
       </ul>
       

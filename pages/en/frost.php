@@ -22,11 +22,11 @@
 	used the standard Freenet installers.
       </p>
       <p>
-	To run Frost on Linux from the command 
-	line, change to your Freenet install 
-	directory, then change to the frost 
-	subdirectory. Then make the frost.sh
-	file executable, and run it:
+	To run Frost on GNU/Linux from the
+	command line, change to your Freenet
+	install directory, then change to the
+	frost subdirectory. Then make the
+	frost.sh file executable, and run it:
       </p>
       <pre>
 	cd /home/username/

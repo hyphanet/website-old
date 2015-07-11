@@ -25,8 +25,8 @@ Installations-Programm starten. Wenn das aus irgend einem Grund nicht
 funktioniert, können Sie es mit der plattformspezifischen Anleitung versuchen
 (<a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');"
 >Windows-Anleitung</a>, <a href="javascript:hideDiv('windows');showDiv('macos');
-hideDiv('unix');">MacOSX-Anleitung</a>, <a href="javascript:hideDiv('windows');
-hideDiv('macos');showDiv('unix');">Anleitung für Linux und Unix-ähnliche
+hideDiv('unix');">OS X-Anleitung</a>, <a href="javascript:hideDiv('windows');
+hideDiv('macos');showDiv('unix');">Anleitung für GNU/Linux und Unix-ähnliche
 Systeme</a>).
 </div>
 
@@ -36,8 +36,8 @@ Wenn Ihre Plattform nicht diejenige ist, die unten aufgeführt wird, dann wähle
 Sie bitte Ihre spezifische Plattform aus: <a href="javascript:showDiv('windows');
 hideDiv('macos');hideDiv('unix');">Windows-Anleitung</a>, <a
 href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');"
->MacOSX-Anleitung</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');
-showDiv('unix');">Anleitung für Linux und Unix-ähnliche Systeme</a><br>
+>OS X-Anleitung</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');
+showDiv('unix');">Anleitung für GNU/Linux und Unix-ähnliche Systeme</a><br>
 </div>
 
 <div id="windows">
@@ -63,18 +63,18 @@ Wir empfehlen Ihnen außerdem dringend, kein Betriebssystem zu benutzen, für
 welches die Betreuung der Sicherheit beendet wurde.<br>
 Wenn das Installationsprogramm nicht funktioniert (bei schweren Fehlern) lassen
 Sie uns dies bitte wissen, installieren Sie Java und versuchen Sie es mit der
-Anleitung für Linux.
+Anleitung für GNU/Linux.
 </div>
 
 <div id="macos">
-<h3>Mac OSX</h3>
+<h3>OS X</h3>
 <a href="/jnlp/freenet.jnlp"
 >Installieren Sie Freenet 0.7</a> indem Sie JavaWebStart benutzen.<br>
-Wenn dies nicht funktioniert, versuchen Sie es mit der Anleitung für Linux.
+Wenn dies nicht funktioniert, versuchen Sie es mit der Anleitung für GNU/Linux.
 </div>
 
 <div id="unix">
-<h3>Linux und andere Unix-ähnliche Systeme</h3>
+<h3>GNU/Linux und andere Unix-ähnliche Systeme</h3>
 Sie brauchen ein aktuelles <b>Java Runtime Environment</b> (JRE - Java
 Ausführungs-Umgebung). Die besten Ergebnisse haben wir mit Suns Java Runtime
 Environment erzielt, welches Sie mit Ihrer <a
@@ -217,7 +217,7 @@ Knoten jedoch auch manuell Aktualisieren:
 <li>Windows-Benutzer können auf die neuste stabile Freenet-Version
 aktualisieren indem sie auf die &bdquo;update.cmd&ldquo; im Freenet-Ordner
 klicken.</li>
-<li>Linux-Benutzer können auf ähnliche Weise Aktualisieren indem Sie das
+<li>GNU/Linux-Benutzer können auf ähnliche Weise Aktualisieren indem Sie das
 Shell-Skript update.sh im &bdquo;freenet/bin/&ldquo;-Verzeichnis ausführen.</li>
 </ul>
 <p>
