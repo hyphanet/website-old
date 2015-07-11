@@ -97,7 +97,7 @@ $(document).ready(function() {
 	     	  <a href="download.html#nojws">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Install</span>
-	     	     <span id="version">0.7.5 for GNU/Linux / Unix</span>
+	     	     <span id="version">0.7.5 for GNU/Linux &amp; Unix</span>
 	     	  </a>
 	     </div>
 	     <p style="clear: left;">

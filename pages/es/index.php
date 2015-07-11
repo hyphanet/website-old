@@ -85,7 +85,7 @@ $(document).ready(function() {
 	     	  <a href="/jnlp/freenet.jnlp">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Instalar</span>
-	     	     <span id="version">0.7.5 para GNU/Linux - Unix</span>
+	     	     <span id="version">0.7.5 para GNU/Linux &amp; Unix</span>
 	     	  </a>
 	     </div>
 	     <p style="clear: left;">
