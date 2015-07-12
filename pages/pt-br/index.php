@@ -88,7 +88,7 @@ $(document).ready(function() {
         <a href="download.html#nojws">
    	   <span id="software">Freenet</span>
    	   <span id="action">Instalar</span>
-   	   <span id="version">0.7.5 para Mac OS</span>
+   	   <span id="version">0.7.5 para OS X</span>
    	</a>
       </div>
 	
@@ -97,7 +97,7 @@ $(document).ready(function() {
 	     	  <a href="download.html#nojws">
 	     	     <span id="software">Freenet</span>
 	     	     <span id="action">Instalar</span>
-	     	     <span id="version">0.7.5 para Linux/Unix</span>
+	     	     <span id="version">0.7.5 para GNU/Linux & Unix</span>
 	     	  </a>
 	     </div>
 	     <p style="clear: left;">
