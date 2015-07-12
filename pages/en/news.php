@@ -1,5 +1,62 @@
       <h1>News</h1>
 
+      <a name="20150711-1468-release"></a><h3>11th July 2015 -Freenet 0.7.5 build 1468 released</h3> 
+
+<p>
+The Freenet team is very happy to announce the stable release of Freenet 0.7.5 build 1468.
+</p>
+
+<p>
+<b>Important notes</b>: downgrading from build 1468 is not supported; if you want to go back to build 1467 without losing the upload and download queues, <b>before</b> upgrading, back-up the following files and directories: master.keys, persistent-temp-*/, and node.db4o (see https://wiki.freenetproject.org/Program_files ). Please note that running transfers will be restarted from scratch too. A reminder to those testing auto-update to 1468-pre4: please restore your auto-update key to the default. One way to do this is to stop Freenet, remove the "node.updater.URI" line from freenet.ini, and start Freenet again.
+</p>
+
+<p>
+In this release, the way Freenet stores data locally has changed drastically by no longer using the now-deprecated db4o object storage. It is replaced with the product of toad's summer of work - a custom on-disk format that is much more robust against corruption and more efficient.
+</p>
+
+<ul>
+<li>Existing unfinished downloads and uploads will be imported to a new format, which requires restarting them from the beginning.</li>
+<li>Space for downloads is now all allocated at the start, so machines very low on disk space may run out, which causes downloads to temporarily fail until more space is available.</li>
+<li>CHKs will change due to metadata bugfixes.</li>
+<li>Some unofficial plugins will need to be updated because of API changes. Sone already works, as do all official plugins.</li>
+<li>The queue format changes should make it extremely rare to lose the entire queue: the impact of corruption will almost always be localized.</li>
+<li>Multi-container / site uploads can now be persistent, making it more practical to upload large sites.</li>
+<li>Passworded physical security is now much stronger. (Full-disk encryption is still preferable.)</li>
+</ul>
+
+<ul>
+<li>The Windows installer now defaults to starting Freenet on login.</li>
+<li>There is a <a href="https://github.com/freenet/wintray">new Windows tray app</a> with some useful features that is included with new installations. If you are using the existing Windows tray app you can download the new one <a href="https://downloads.freenetproject.org/alpha/installer/FreenetTray.exe.build01468">here</a>. No need to put it in a specific directory - it will try the default installation location and prompt if it can't find it.</li>
+</ul>
+
+<ul>
+<li>The list of download keys moved from downloads/listFetchKeys.txt to downloads/listKeys.txt.</li>
+<li>A list of upload keys is now available at uploads/listKeys.txt</li>
+</ul>
+
+<ul>
+<li>Gantros' index is now in the default bookmarks. It uses the same software as Enzo's index, which is no longer updated.</li>
+</ul>
+
+<ul>
+<li>The obsolete and deprecated XMLLibrary and XMLSpider plugins are no longer officially supported. They will still load for those who have them added, but are no longer shown on the plugin page.</li>
+<li>In the interests of releasing this build more quickly, the new version of FlogHelper does not support exporting and importing backups from the web UI. The old backup code did not work with the new Freenet version after removing db4o. People can instead back up "plugins.floghelper.FlogHelper" files in the plugin-data directory. These can be dropped into the directory after unloading FlogHelper to restore a backup.</li>
+<li>ThawIndexBrowser works again. Thanks saces!</li>
+</ul>
+
+<ul>
+<li>Fred translations are updated.</li>
+</ul>
+
+<ul>
+<li>Add two seed nodes, one sponsored by meshnet.pl - the Polish radio/meshnet darknet users group, and another run by ArneBab. Thanks!</li>
+<li>Update existing seed node references.</li>
+</ul>
+
+<p>
+Thank you for using Freenet!
+</p>
+
       <a name="20150627-1467-wininstaller"</a><h3>27th June 2015 - New Windows installer and tray app</h3>
 
 <p>
@@ -17,7 +74,7 @@ The Windows installer is updated with Java 8u45, a <a href="https://github.com/f
 <li>Simplified Chinese</li>
 </ul>
 
-      <a name="20150624-upcoming-1468-update"</a><h3>24th June 2015 - Upcoming installer and testing releases</h3>
+      <a name="20150624-upcoming-1468-update"></a><h3>24th June 2015 - Upcoming installer and testing releases</h3>
 
 <p>
 This weekend we will release an updated Windows installer for build 1467 along
@@ -589,6 +646,7 @@ on Google Drive.</p>
     essential for a healthy democracy.</p>
     
     <p>Please help us secure freedom of access to information by contributing to the Freenet-project with 
+
     code, donations, translations, or just by running a node or creating content (anonymously)!</p>
     
     <p>Volunteers - especially developers - are always very welcome. Feel free to contact us, through <a href="/irc.html">IRC 
