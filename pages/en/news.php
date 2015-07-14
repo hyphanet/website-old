@@ -29,8 +29,9 @@ higher. It does not happen when physical security is set to "None."
 <p>
 Sadly, these problems can combine to make a node use 100% CPU to slowly process
 bulk queues while the realtime queue does not respond. Matthew (toad_) has
-already released a snapshot, which you can find <a href="http://localhost:8080/forumviewthread.htm?messageuuid=E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI#E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI">here</a>
-if you're using FMS.
+already released a snapshot to fix these problems, which you can find
+<a href="https://emu.freenetproject.org/pipermail/devl/2015-July/038123.html">on the mailing list</a>
+or <a href="http://localhost:8080/forumviewthread.htm?messageuuid=E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI#E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI">on FMS</a>.
 </p>
 
       <a name="20150711-1468-release"></a><h3>11th July 2015 - Freenet 0.7.5 build 1468 released</h3>
