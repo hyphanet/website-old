@@ -32,8 +32,8 @@
 	<p>
 	  Mostrar instruções para:
 	  <a href="javascript:showDiv('windows');hideDiv('macos');hideDiv('unix');">Windows
-	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">Mac
-	    OSX</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">Linux
+	    </a>, <a href="javascript:hideDiv('windows');showDiv('macos');hideDiv('unix');">
+	    OS X</a>, <a href="javascript:hideDiv('windows');hideDiv('macos');showDiv('unix');">GNU/Linux
 	    etc</a><br/>
 	</p>
       </div>
@@ -60,7 +60,7 @@
 
       <div id="macos">
 	
-	<h3>Mac OSX</h3>
+	<h3>OS X</h3>
 	
 	<p>
       <a href="/jnlp/freenet.jnlp">Instalar Freenet 0.7</a> usando Java Web Start.<br/>
@@ -80,7 +80,7 @@ você é um desenvolvedor e gostaria de se juntar a nós, sua ajuda seria muito 
       
       <div id="unix">
 	
-	<h3>Linux e outros sistemas como Unix</h3>
+	<h3>GNU/Linux e outros sistemas como Unix</h3>
 
 	<p>
 	  Tente o <a href="/jnlp/freenet.jnlp">instalador Java</a>.<br/>
