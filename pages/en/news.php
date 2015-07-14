@@ -1,6 +1,39 @@
       <h1>News</h1>
 
-      <a name="20150711-1468-release"></a><h3>11th July 2015 -Freenet 0.7.5 build 1468 released</h3> 
+      <a name="20150713-1468-known-issues"></a><h3>13th July 2015 - Build 1468 known issues</h3>
+
+<p>
+Despite being in some form of prerelease for over 6 months, and two weeks of
+being available as a release candidate, we didn't catch some bugs in time. There
+are two main issues:
+</p>
+
+<ol>
+<li>
+Because the reimplementation of the client layer without db4o did not include
+prioritization of FEC decoding / encoding, large bulk download or upload queues
+can starve the realtime queues, making them unresponsive.
+(See <a href="https://github.com/freenet/fred/pull/381">PR #381</a>.)
+</li>
+<li>
+Due to our misunderstanding of when the cryptography library we use - Bouncy
+Castle - included which fixes, we did not realize that version 1.51, used by
+build 1468, has severe performance problems with the way we use it to implement
+disk encryption. Build 1469 will upgrade to Bouncy Castle 1.52, which fixes this
+problem. It is only an issue when the physical security level is set to "Low" or
+higher. It does not happen when physical security is set to "None."
+(See <a href="https://github.com/freenet/fred/pull/382">PR #382</a>.)
+</li>
+</ol>
+
+<p>
+Sadly, these problems can combine to make a node use 100% CPU to slowly process
+bulk queues while the realtime queue does not respond. Matthew (toad_) has
+already released a snapshot, which you can find <a href="http://localhost:8080/forumviewthread.htm?messageuuid=E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI#E544C7BB-5E5E-4159-83F8-AFC46C089329@h2RzPS4fEzP0zU43GAfEgxqK2Y55kEUNR01cWvYApI">here</a>
+if you're using FMS.
+</p>
+
+      <a name="20150711-1468-release"></a><h3>11th July 2015 - Freenet 0.7.5 build 1468 released</h3>
 
 <p>
 The Freenet team is very happy to announce the stable release of Freenet 0.7.5 build 1468.
