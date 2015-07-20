@@ -1,4 +1,13 @@
       <h1>News</h1>
+      <a name="20150719-1469-release"></a><h3>19th July 2015 - Freenet 0.7.5 build 1469 released</h3>
+
+<p>
+This release fixes two bugs introduced in build 1468. One caused very
+slow operation and high CPU usage with large files and physical
+security levels above None (i.e. Freenet-level disk encryption). The
+other prevented interactive usage (e.g. freesite browsing) while
+finishing large downloads or starting large uploads.
+</p>
 
       <a name="20150713-1468-known-issues"></a><h3>13th July 2015 - Build 1468 known issues</h3>
 
