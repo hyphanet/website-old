@@ -113,7 +113,7 @@ $(document).ready(function() {
 	     <h4>Make a donation</h4>
 	     <p>We don't charge anyone to download and use Freenet, we're a non-profit organization who rely on your donations to survive.</p>
 	     <p>Our <a href="donate.html">current funds</a> will pay for this server and our one paid developer for roughly another <b>MONEYMONTHS months.</b>.</p>
-	     <p><a href="donate.html">Donate!</a></p>
+	     <p><a class="donate-button" href="donate.html">Donate!</a></p>
 	</div>
   <div id="news">
 	<h4>Latest news</h4>

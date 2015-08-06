@@ -103,7 +103,7 @@ $(document).ready(function() {
 	     <h4>Spenden</h4>
 	     <p>Wir verlangen von niemandem Geld für Download und Nutzung von Freenet. Wir sind eine gemeinnützige Organisation, die zum Überleben auf Ihre Spenden angewiesen ist.</p>
 	     <p>Unser aktueller Kontostand ist von <b>$MONEYBALANCE</b> wird unseren bezahlten Entwickler und den Server für weitere <b>MONEYDAYS Tage</b> finanzieren.</p>
-	     <p><a href="donate.html">Spenden</a></p>
+	     <p><a class="donate-button" href="donate.html">Spenden</a></p>
 	</div>
   <div id="testimonials">
 <!--todo: random testimonial, as soon as we have enough-->

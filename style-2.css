@@ -118,7 +118,7 @@ div#donate_button{
     margin: 0px 0px 20px 0px;
 }
 
-div#donate_button a{
+div#donate_button .donate-button {
     display: block;
     text-decoration: none;
     width: 216px;
@@ -132,7 +132,7 @@ div#donate_button a{
     margin-top: 10px;
 }
 
-div#donate_button a:hover{
+div#donate_button .donate-button:hover{
     background-position: 0 -86px;
     text-shadow: 0 0 5px #ddd;
 }

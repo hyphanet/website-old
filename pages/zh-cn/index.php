@@ -103,7 +103,7 @@ $(document).ready(function() {
 	     <p>我们不为任何人下载和使用 Freenet 收费, 我们是依赖用户捐助而存在的非营利组织.</p>
 	     <p>我们现在的收支是 <b>$MONEYBALANCE</b>.</p>
 <!--	     <p>Our current balance of <b>$MONEYBALANCE</b> will pay for this server and our one paid developer for around another <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">捐助!</a></p>
+	     <p><a class="donate-button" href="donate.html">捐助!</a></p>
 	</div>
 
       <div id="news">

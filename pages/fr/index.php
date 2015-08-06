@@ -112,7 +112,7 @@ $(document).ready(function() {
 	<div id="donate_button">
 	     <h4>Faire un don</h4>
 	     <p>Freenet est un logiciel gratuit (et libre); nous sommes une organisation à but non lucratif qui a besoin de de vos dons pour survivre.</p>
-	     <p><a href="donate.html">Donner!</a></p>
+	     <p><a class="donate-button" href="donate.html">Donner!</a></p>
 	</div>
 
       <div id="news">

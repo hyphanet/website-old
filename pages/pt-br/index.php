@@ -114,7 +114,7 @@ $(document).ready(function() {
 	     <p>Não cobramos nada de ninguém por baixar e usar Freenet, somos uma organização sem fins lucrativos que depende de suas doações para sobreviver.</p>
 	     <p>Nosso saldo atual é <b>$MONEYBALANCE</b>.</p>
 <!--	     <p>Nosso saldo atual de <b>$MONEYBALANCE</b> pagará este servidor e nosso único desenvolvedor pago em meio a outros <b>MONEYDAYS days</b>.</p> -->
-	     <p><a href="donate.html">Doe!</a></p>
+	     <p><a class="donate-button" href="donate.html">Doe!</a></p>
 	</div>
   <div id="news">
 	<h4>Últimas notícias</h4>
