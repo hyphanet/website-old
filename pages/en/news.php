@@ -1,4 +1,14 @@
       <h1>News</h1>
+      <a name="20150807-1469-wininstaller"</a><h3>7th August 2015 - Windows translation update</h3>
+
+<p>
+The Windows installer and tray app have updated translations. The installer is
+newly translated into Portuguese (Portugal) and Serbian. The tray app is newly
+translated into Spanish, Persian, Portuguese (Portugal), and Serbian.
+This also fixes a tray app problem where translations for Brazilian Portuguese
+and Simplified Chinese were not used.
+</p>
+
       <a name="20150719-1469-release"></a><h3>19th July 2015 - Freenet 0.7.5 build 1469 released</h3>
 
 <p>
