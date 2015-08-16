@@ -1,4 +1,31 @@
       <h1>News</h1>
+
+    <a name="20150816-1470-release"</a><h3>16th August 2015 - Freenet 0.7.5 build 1470 released</h3>
+
+<p>
+This release fixes Freemail problems that prevented sending mail, and removes a
+compromised opennet seed node. Freemail also gains a new message link on the
+inbox page, links to senders' WoT profiles, and new translations:
+</p>
+
+<ul>
+<li>Czech</li>
+<li>Greek</li>
+<li>Spanish</li>
+<li>Finnish</li>
+<li>Hungarian</li>
+<li>Dutch</li>
+<li>Polish</li>
+<li>Portuguese (Portugal)</li>
+<li>Serbian</li>
+<li>Turkish</li>
+</ul>
+
+<p>
+To clarify, the CHK metadata bug fixes in 1468 are added as a new compatibility
+mode that is not yet the default. Compatibility with 1416 keys is available.
+</p>
+
       <a name="20150807-1469-wininstaller"</a><h3>7th August 2015 - Windows translation update</h3>
 
 <p>
