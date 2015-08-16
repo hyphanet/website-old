@@ -26,6 +26,10 @@ To clarify, the CHK metadata bug fixes in 1468 are added as a new compatibility
 mode that is not yet the default. Compatibility with 1416 keys is available.
 </p>
 
+<p>
+The Fred Spanish translation has comprehensive updates as well.
+</p>
+
       <a name="20150807-1469-wininstaller"</a><h3>7th August 2015 - Windows translation update</h3>
 
 <p>
