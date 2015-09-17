@@ -8,7 +8,7 @@
 
 
 <p>
-         On darknet the attacks required knowing both node references, so securely used Freenet was only vulnerable to them if two friends connected to the same malicious third party or shared their node reference in public. On opennet the attacks are easier but less effective since opennet connections are not persistent or trusted and do not provide private communication channels.
+         On darknet the attacks required knowing both node references, so securely used Freenet was only vulnerable to them if two friends connected to the same malicious third party or shared their node reference in public. On opennet the target of these attacks would have been the seednodes since other opennet connections are neither persistent nor trusted.
 </p>
 
 
