@@ -1,6 +1,6 @@
       <h1>News</h1>
 
-    <a name="20150816-1470-release"</a><h3>16th August 2015 - Freenet 0.7.5 build 1470 released</h3>
+    <a name="20150816-1470-release"></a><h3>16th August 2015 - Freenet 0.7.5 build 1470 released</h3>
 
 <p>
 This release fixes Freemail problems that prevented sending mail, and removes a
@@ -30,7 +30,7 @@ mode that is not yet the default. Compatibility with 1416 keys is available.
 The Fred Spanish translation has comprehensive updates as well.
 </p>
 
-      <a name="20150807-1469-wininstaller"</a><h3>7th August 2015 - Windows translation update</h3>
+      <a name="20150807-1469-wininstaller"></a><h3>7th August 2015 - Windows translation update</h3>
 
 <p>
 The Windows installer and tray app have updated translations. The installer is
@@ -141,7 +141,7 @@ In this release, the way Freenet stores data locally has changed drastically by 
 Thank you for using Freenet!
 </p>
 
-      <a name="20150627-1467-wininstaller"</a><h3>27th June 2015 - New Windows installer and tray app</h3>
+      <a name="20150627-1467-wininstaller"></a><h3>27th June 2015 - New Windows installer and tray app</h3>
 
 <p>
 The Windows installer is updated with Java 8u45, a <a href="https://github.com/freenet/wintray#freenet-tray-application">new tray application</a>, and is newly translated into:
