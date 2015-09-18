@@ -3,12 +3,25 @@
       <a name="20150917-ecdsa-vulnerability"></a><h3>17th September 2015 - elliptic curves: using safe Bouncy Castle since november 2014</h3>
 
 <p>
-         Recent news document <a href="http://web-in-security.blogspot.ca/2015/09/practical-invalid-curve-attacks.html">practical attacks against elliptic curves</a> which worked against the Bouncy Castle crypto provider used by Freenet up to <a href="#build01466">Build 1466</a> (released 9th November 2014) and against Java JCE <a href="http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html">until July 2015</a>. If you use the current stable <a href="#20150816-1470-release">build 1470</a> on an updated Java, your node is not vulnerable to these attacks.
+A recent article outlines
+<a href="http://web-in-security.blogspot.ca/2015/09/practical-invalid-curve-attacks.html">
+practical attacks against elliptic curves</a> to recover private keys
+which worked against the Bouncy Castle crypto provider used by Freenet
+until <a href="#build01466">Build 1466</a> (released 2014-11-09) and
+against Java JCE
+<a href="http://www.oracle.com/technetwork/topics/security/cpujul2015-2367936.html">
+until July 2015</a>. If you use the current stable
+<a href="#20150816-1470-release">build 1470</a> on an updated Java, your
+node is not vulnerable to these attacks.
 </p>
 
-
 <p>
-         On darknet the attacks required knowing both node references, so securely used Freenet was only vulnerable to them if two friends connected to the same malicious third party or shared their node reference in public. On opennet the target of these attacks would have been the seednodes since other opennet connections are neither persistent nor trusted.
+On darknet the attacks required knowing both node references, so in
+darknet mode Freenet was only vulnerable to them if two friends
+connected to the same malicious third party or shared their node
+references in public. On opennet the target of these attacks would have
+been the seednodes because other opennet connections are neither
+persistent nor trusted.
 </p>
 
 
