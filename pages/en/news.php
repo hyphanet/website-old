@@ -1,5 +1,17 @@
       <h1>News</h1>
 
+<a name="20151011-redesign"></a><h3>11th October 2015 - Upcoming website redesign</h3>
+
+<p>
+In the next few weeks we will transition to a redesigned website. This will be
+the first major change since 2009. If you'd like to get a look at the site in
+testing you can find it <a href="https://testing.freenetproject.org/">here</a> -
+as given in the prompt the username and password are "guest". In addition to
+looking more modern, this new version is also more practical to modify, test,
+and translate. If you'd like to help with translation, please join us on the
+<a href="https://www.transifex.com/otf/freenet/website/">"website" resource on Transifex.</a>
+</p>
+
       <a name="20150917-ecdsa-vulnerability"></a><h3>17th September 2015 - elliptic curves: using safe Bouncy Castle since november 2014</h3>
 
 <p>
