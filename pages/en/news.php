@@ -4,12 +4,18 @@
 
 <p>
 In the next few weeks we will transition to a redesigned website. This will be
-the first major change since 2009. If you'd like to get a look at the site in
-testing you can find it <a href="https://testing.freenetproject.org/">here</a> -
-as given in the prompt the username and password are "guest". In addition to
-looking more modern, this new version is also more practical to modify, test,
-and translate. If you'd like to help with translation, please join us on the
-<a href="https://www.transifex.com/otf/freenet/website/">"website" resource on Transifex.</a>
+the first major change since 2009. In addition to looking more modern, this new
+version is also more practical to modify, test, and translate.
+</p>
+<p>
+If you'd like to get a look at the site in testing you can find it <a
+href="https://testing.freenetproject.org/">here</a> - as given in the prompt the
+username and password are "guest".  If you'd like to help with translation,
+please join us on the <a href="https://www.transifex.com/otf/freenet/website/">"website" resource on Transifex.</a>
+</p>
+<p>
+If you have any feedback on the new website design please let us know on <a href="irc.html">chat</a>
+or the <a href="https://emu.freenetproject.org/cgi-bin/mailman/listinfo/support">support list</a>!
 </p>
 
       <a name="20150917-ecdsa-vulnerability"></a><h3>17th September 2015 - elliptic curves: using safe Bouncy Castle since november 2014</h3>
