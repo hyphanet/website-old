@@ -1,4 +1,4 @@
-# Freenet Website
+# Freenet Website(Exciting Project)
 
 Scripts and translations from which the [Freenet website](https://freenetproject.org) is generated.
 
